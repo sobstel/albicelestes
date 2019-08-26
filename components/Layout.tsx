@@ -50,7 +50,7 @@ export default (props: Props) => {
         <div className="bg-gray-100">
           <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
             <div className="text-white mr-6">
-              <span className="font-semibold text-xl uppercase">
+              <span className="font-semibold text-2xl uppercase">
                 Albicelestes
               </span>
             </div>

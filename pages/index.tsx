@@ -1,15 +1,26 @@
 import React from "react";
-// import Link from "next/link";
 import Layout from "../components/Layout";
-// import Nav from "../components/nav";
-// move to some Layout component
+import Fixtures from "../components/Fixtures";
+import hyena from "../lib/hyena";
 
-export default () => (
+interface Props {
+  upcomingMatches: any[];
+  recentMatches: any[];
+}
+
+const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   <div>
     <Layout>
-      <p>work in progress</p>
+      <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
+      <Fixtures title="Recent fixtures" matches={recentMatches.reverse()} />
     </Layout>
-
-    <style jsx>{``}</style>
   </div>
 );
+
+IndexPage.getInitialProps = async () => {
+  const upcomingMatches = await hyena("matches/upcoming");
+  const recentMatches = await hyena("matches/recent");
+  return { upcomingMatches, recentMatches };
+};
+
+export default IndexPage;
