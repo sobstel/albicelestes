@@ -46,7 +46,7 @@ export default (props: Props) => {
         <title>Albicelestes - ¡Vamos Argentina! 🇦🇷</title>
       </Head>
 
-      <div className="max-w-2xl m-auto font-mono text-base sm:text-sm">
+      <div className="max-w-2xl m-auto font-mono text-sm md:text-base">
         <div className="bg-gray-100">
           <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
             <div className="text-white mr-6">
