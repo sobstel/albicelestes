@@ -1,28 +1,42 @@
 import Head from "next/head";
+import Link from "next/link";
+import { withRouter } from "next/router";
 import "../style.css";
 
 type Props = any;
 
 interface NavLinkProps {
+  href: string;
+  as: string;
   last?: boolean;
   children: string;
-  href: string;
+  router: any;
 }
 
-const NavLink = (props: NavLinkProps) => {
-  let className = "inline-block text-blue-200 hover:text-white lowercase";
+const NavLink = withRouter(
+  ({ href, as, last, children, router }: NavLinkProps) => {
+    const classNames = ["inline-block", "lowercase"];
 
-  // TODO: active href based on window.location
+    classNames.push(
+      router.asPath === href || router.asPath === as
+        ? "text-white"
+        : "text-blue-200 hover:text-white"
+    );
 
-  if (!props.last) {
-    className += " mr-4";
+    if (!last) {
+      classNames.push("mr-4");
+    }
+
+    return (
+      <Link href={href} as={as}>
+        <a className={classNames.join(" ")}>{children}</a>
+      </Link>
+    );
   }
+);
 
-  return (
-    <a href={props.href} className={className}>
-      {props.children}
-    </a>
-  );
+NavLink.defaultProps = {
+  last: false
 };
 
 export default (props: Props) => {
@@ -40,11 +54,8 @@ export default (props: Props) => {
             </span>
           </div>
           <div className="flex-grow">
-            <NavLink href="">Fixtures</NavLink>
-            <NavLink href="">Archive</NavLink>
-            <NavLink href="">Players</NavLink>
-            <NavLink href="" last>
-              Chants
+            <NavLink href="/index" as="/" last>
+              Fixtures
             </NavLink>
           </div>
         </nav>
