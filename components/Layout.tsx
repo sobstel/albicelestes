@@ -46,39 +46,34 @@ export default (props: Props) => {
         <title>Albicelestes - ¡Vamos Argentina! 🇦🇷</title>
       </Head>
 
-      <div className="container font-mono bg-gray-100">
-        <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
-          <div className="text-white mr-6">
-            <span className="font-semibold text-xl uppercase">
-              Albicelestes
-            </span>
-          </div>
-          <div className="flex-grow">
-            <NavLink href="/index" as="/" last>
-              Fixtures
-            </NavLink>
-          </div>
-        </nav>
+      <div className="max-w-2xl m-auto font-mono">
+        <div className="bg-gray-100">
+          <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
+            <div className="text-white mr-6">
+              <span className="font-semibold text-xl uppercase">
+                Albicelestes
+              </span>
+            </div>
+            <div className="flex-grow">
+              <NavLink href="/index" as="/" last>
+                Fixtures
+              </NavLink>
+            </div>
+          </nav>
 
-        <div className="p-5">{props.children}</div>
+          <div className="p-5">{props.children}</div>
+        </div>
+
+        <footer className="text-xs opacity-50 p-5">
+          created with 💙 for 🇦🇷 by{" "}
+          <a
+            className="text-blue-600 hover:text-black"
+            href="https://sobstel.org"
+          >
+            sobstel
+          </a>
+        </footer>
       </div>
-
-      <footer className="container font-mono text-xs opacity-50 p-5">
-        created with 💙 for 🇦🇷 by{" "}
-        <a
-          className="text-blue-600 hover:text-black"
-          href="https://sobstel.org"
-        >
-          sobstel
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          max-width: 666px;
-          margin: 0 auto;
-        }
-      `}</style>
     </div>
   );
   return props.children;
