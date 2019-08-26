@@ -12,14 +12,14 @@ const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   <div>
     <Layout>
       <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
-      <Fixtures title="Recent fixtures" matches={recentMatches.reverse()} />
+      <Fixtures title="Recent fixtures" matches={recentMatches} />
     </Layout>
   </div>
 );
 
 IndexPage.getInitialProps = async () => {
   const upcomingMatches = await hyena("matches/upcoming");
-  const recentMatches = await hyena("matches/recent");
+  const recentMatches = (await hyena("matches/recent")).reverse();
   return { upcomingMatches, recentMatches };
 };
 
