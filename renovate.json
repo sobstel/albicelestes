@@ -3,5 +3,24 @@
     "config:base"
   ],
   "timezone": "America/Buenos_Aires",
-  "schedule": "before 3am every tuesday"
+  "schedule": "before 3am every tuesday",
+  "major": {
+    "automerge": false
+  },
+  "packageRules": [
+    {
+      "packageNames": ["react"],
+      "packagePatterns": ["^react-"],
+      "groupName": "react"
+    },
+    {
+      "packageNames": ["next"],
+      "packagePatterns": ["next-"],
+      "groupName": "next"
+    },
+    {
+      "packagePatterns": ["^@types", "typescript", "ts-node"],
+      "groupName": "typescript"
+    }
+  ]
 }
