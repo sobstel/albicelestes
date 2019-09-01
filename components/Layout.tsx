@@ -57,6 +57,7 @@ export default (props: Props) => {
             <div className="flex-grow">
               {/* <NavLink href="/index" as="/" last>
               </NavLink> */}
+              <NavLink href="/expats" as="expats">Expats</NavLink>
             </div>
           </nav>
 
