@@ -7,7 +7,7 @@ type Props = any;
 
 interface NavLinkProps {
   href: string;
-  as: string;
+  as?: string;
   last?: boolean;
   children: string;
   router: any;
@@ -28,7 +28,7 @@ const NavLink = withRouter(
     }
 
     return (
-      <Link href={href} as={as}>
+      <Link href={href} as={as || href}>
         <a className={classNames.join(" ")}>{children}</a>
       </Link>
     );
@@ -57,7 +57,7 @@ export default (props: Props) => {
             <div className="flex-grow">
               {/* <NavLink href="/index" as="/" last>
               </NavLink> */}
-              <NavLink href="/expats" as="expats">Expats</NavLink>
+              <NavLink href="/expats">Expats</NavLink>
             </div>
           </nav>
 

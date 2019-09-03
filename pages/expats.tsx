@@ -2,30 +2,33 @@ import moment from "moment";
 import hyena from "../lib/hyena";
 import Layout from "../components/Layout";
 import ExpatsMatch from "../components/expats/Match";
+import ExpatsNav from "../components/expats/Nav";
 
 interface Props {
-  date: string,
+  date: string;
   expatsMatches: any[];
 }
 
 const ExpatsPage = ({ date, expatsMatches }: Props) => (
   <div>
     <Layout>
-      <h2 className="mb-4 font-semibold uppercase">{date}</h2>
-      {expatsMatches.map(match => (<ExpatsMatch key={match.match_id} match={match} />))}
+      <ExpatsNav date={date} />
+      {expatsMatches.map(match => (
+        <ExpatsMatch key={match.match_id} match={match} />
+      ))}
     </Layout>
   </div>
 );
 
-ExpatsPage.getInitialProps = async ({ res }: any) => {
-  const today = moment().format('YYYY-MM-DD');
-  const expatsMatches = await hyena(`expats/${today}`);
+ExpatsPage.getInitialProps = async ({ res, query }: any) => {
+  const date = query.date || moment().format("YYYY-MM-DD");
+  const expatsMatches = await hyena(`expats/${date}`);
 
   if (res) {
-    res.setHeader('Cache-Control', 's-maxage=300, max-age=0');
+    res.setHeader("Cache-Control", "s-maxage=600, max-age=60");
   }
 
-  return { date: today, expatsMatches };
+  return { date, expatsMatches };
 };
 
 export default ExpatsPage;
