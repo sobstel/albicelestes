@@ -25,7 +25,10 @@ ExpatsPage.getInitialProps = async ({ res, query }: any) => {
   const expatsMatches = await hyena(`expats/${date}`);
 
   if (res) {
-    res.setHeader("Cache-Control", "s-maxage=600, max-age=60");
+    res.setHeader(
+      "Cache-Control",
+      "s-maxage=3600, max-age=60, stale-while-revalidate"
+    );
   }
 
   return { date, expatsMatches };

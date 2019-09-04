@@ -17,12 +17,15 @@ const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   </div>
 );
 
-IndexPage.getInitialProps = async ({ res } : any) => {
+IndexPage.getInitialProps = async ({ res }: any) => {
   const upcomingMatches = await hyena("matches/upcoming");
   const recentMatches = (await hyena("matches/recent")).reverse();
 
   if (res) {
-    res.setHeader('Cache-Control', 's-maxage=600, max-age=60');
+    res.setHeader(
+      "Cache-Control",
+      "s-maxage=3600, max-age=60, stale-while-revalidate"
+    );
   }
 
   return { upcomingMatches, recentMatches };
