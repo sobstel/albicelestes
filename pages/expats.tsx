@@ -1,7 +1,6 @@
 import moment from "moment";
 import Head from "next/head";
 import hyena from "../lib/hyena";
-import Layout from "../components/Layout";
 import ExpatsMatch from "../components/expats/Match";
 import ExpatsNav from "../components/expats/Nav";
 
@@ -12,15 +11,14 @@ interface Props {
 
 const ExpatsPage = ({ date, expatsMatches }: Props) => (
   <div>
-    <Layout>
-      <Head>
-        <title>Argentina football expats {date}</title>
-      </Head>
-      <ExpatsNav date={date} />
-      {expatsMatches.map(match => (
+    <Head>
+      <title>Argentina football expats {date}</title>
+    </Head>
+    <ExpatsNav date={date} />
+    {expatsMatches &&
+      expatsMatches.map(match => (
         <ExpatsMatch key={match.match_id} match={match} />
       ))}
-    </Layout>
   </div>
 );
 

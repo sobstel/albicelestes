@@ -47,7 +47,7 @@ export default (props: Props) => {
         <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
 
-      <div className="max-w-2xl m-auto font-mono text-sm md:text-base">
+      <div className="max-w-2xl m-auto font-mono antialiased text-sm md:text-base">
         <div className="bg-gray-100">
           <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
             <div className="text-white mr-6">
