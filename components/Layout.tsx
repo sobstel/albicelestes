@@ -44,6 +44,7 @@ export default (props: Props) => {
     <div>
       <Head>
         <title>Albicelestes - ¡Vamos Argentina! 🇦🇷</title>
+        <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
 
       <div className="max-w-2xl m-auto font-mono text-sm md:text-base">
