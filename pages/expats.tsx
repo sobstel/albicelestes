@@ -24,7 +24,7 @@ const ExpatsPage = ({ date, expatsMatches }: Props) => (
 
 ExpatsPage.getInitialProps = async ({ res, query }: any) => {
   const date = query.date || moment().format("YYYY-MM-DD");
-  const expatsMatches = await hyena(`expats/${date}`);
+  const expatsMatches = await hyena(`argentina/expats/${date}`);
 
   if (res) {
     res.setHeader(
