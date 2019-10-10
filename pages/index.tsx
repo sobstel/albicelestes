@@ -17,8 +17,6 @@ IndexPage.getInitialProps = async ({ res }: any) => {
   const upcomingMatches = await hyena("argentina/matches/upcoming");
   const recentMatches = (await hyena("argentina/matches/recent")).reverse();
 
-  console.log(recentMatches, upcomingMatches);
-
   if (res) {
     res.setHeader(
       "Cache-Control",
