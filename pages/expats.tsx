@@ -23,13 +23,19 @@ const ExpatsPage = ({ date, expatsMatches }: Props) => (
 );
 
 ExpatsPage.getInitialProps = async ({ res, query }: any) => {
-  const date = query.date || moment().format("YYYY-MM-DD");
-  const expatsMatches = await hyena(`argentina/expats/${date}`);
+  const today = moment();
+  const date = query.date ? moment(query.date) : today;
+
+  const formattedDate = date.format("YYYY-MM-DD");
+  const expatsMatches = await hyena(`argentina/expats/${formattedDate}`);
 
   if (res) {
+    const daysAgo = today.diff(date, "days");
+    const maxAge = daysAgo <= 0 ? 3600 : daysAgo * 24 * 60 * 60;
+
     res.setHeader(
       "Cache-Control",
-      "s-maxage=3600, max-age=60, stale-while-revalidate"
+      `s-maxage=${maxAge}, max-age=60, stale-while-revalidate`
     );
   }
 
