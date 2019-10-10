@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "https://gf0tywygmf.execute-api.eu-west-2.amazonaws.com/prod/hyena?func=argentina/";
+  "https://gf0tywygmf.execute-api.eu-west-2.amazonaws.com/prod/hyena?func=";
 
 export default async (resource: string) => {
   try {

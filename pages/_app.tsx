@@ -10,8 +10,8 @@ class MyApp extends App {
       <Layout>
         <NextNprogress
           color="#000"
-          startPosition="0.3"
-          stopDelayMs="200"
+          startPosition={0.3}
+          stopDelayMs={200}
           height="3"
         />
 

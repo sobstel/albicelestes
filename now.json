@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/match/\\w+-\\w+/(?<id>\\w+)",
+      "dest": "/match?id=$id"
+    },
+    {
       "src": "/expats/(?<date>\\d{4}-\\d{2}-\\d{2})",
       "dest": "/expats?date=$date"
     }
