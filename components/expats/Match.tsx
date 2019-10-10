@@ -6,7 +6,7 @@ const Match = ({ match }: Props) => {
   return (
     <>
       <h3 className="mb-4 font-semibold">
-        {match.competition_name} ({match.area_name}): {match.home_name} v{" "}
+        {match.area_name} {match.competition_name}: {match.home_name} v{" "}
         {match.away_name} {match.ft.join("-")}
       </h3>
       <div className="mb-4">
