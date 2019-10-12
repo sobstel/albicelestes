@@ -1,3 +1,4 @@
+import Layout from "../components/Layout";
 import Fixtures from "../components/Fixtures";
 import hyena from "../lib/hyena";
 
@@ -7,10 +8,10 @@ interface Props {
 }
 
 const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
-  <div>
+  <Layout title="¡Vamos Argentina! 🇦🇷">
     <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
     <Fixtures title="Recent fixtures" matches={recentMatches} />
-  </div>
+  </Layout>
 );
 
 IndexPage.getInitialProps = async ({ res }: any) => {

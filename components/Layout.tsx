@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import { withRouter } from "next/router";
+import NextNprogress from "nextjs-progressbar";
 import "../style.css";
-
-type Props = any;
 
 interface NavLinkProps {
   href: string;
@@ -39,13 +38,25 @@ NavLink.defaultProps = {
   last: false
 };
 
-export default (props: Props) => {
+interface Props {
+  children: any;
+  title: string;
+}
+
+export default ({ children, title }: Props) => {
   return (
     <div>
       <Head>
-        <title>Albicelestes - ¡Vamos Argentina! 🇦🇷</title>
+        <title>{title} | Albicelestes.com</title>
         <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
+
+      <NextNprogress
+        color="#000"
+        startPosition={0.3}
+        stopDelayMs={200}
+        height="3"
+      />
 
       <div className="max-w-2xl m-auto font-mono antialiased text-sm md:text-base">
         <div className="bg-gray-100">
@@ -62,7 +73,7 @@ export default (props: Props) => {
             </div>
           </nav>
 
-          <div className="p-5">{props.children}</div>
+          <div className="p-5">{children}</div>
         </div>
 
         <footer className="text-xs opacity-50 p-5">
@@ -77,5 +88,4 @@ export default (props: Props) => {
       </div>
     </div>
   );
-  return props.children;
 };
