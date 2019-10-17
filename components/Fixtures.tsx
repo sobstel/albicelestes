@@ -24,8 +24,8 @@ const Fixtures = ({ title, matches }: Props) => {
         >
           <p key={match.match_id}>
             <a className="cursor-pointer text-blue-600 hover:text-blue-400">
-              {match.date} {match.home_name} v {match.away_name}{" "}
-              {match.ended && `${match.ft[0]}-${match.ft[1]}`}
+              {match.date} {match.home_name} - {match.away_name}{" "}
+              {match.ended && `${match.ft[0]}:${match.ft[1]}`}
             </a>
           </p>
         </Link>
