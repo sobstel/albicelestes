@@ -13,8 +13,8 @@ const Match = ({ match }: Props) => {
         {match.players.map((player: any) => (
           <p key={player.id}>
             {player.name}
-            {player.events.map((event: any) => (
-              <span className="ml-2">
+            {player.events.map((event: any, index: any) => (
+              <span key={index} className="ml-2">
                 {event.code} {event.min}'
               </span>
             ))}
