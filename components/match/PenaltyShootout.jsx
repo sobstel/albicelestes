@@ -1,3 +1,5 @@
+import Section from "../layout/Section";
+
 const eventLabel = event => {
   if (event.code === "M") {
     return "X";
@@ -14,16 +16,12 @@ export default ({ match }) => {
   }
 
   return (
-    <div className="match__penalty-shootout">
-      <h2>Penalty shootout</h2>
-      <p>
-        {match.penalty_shootout.map(event => (
-          <span>
-            {event.name} ({eventLabel(event)})
-          </span>
-        ))}
-        ;
-      </p>
-    </div>
+    <Section title="Penalty shootout">
+      {match.penalty_shootout.map(event => (
+        <>
+          {event.name} ({eventLabel(event)}),
+        </>
+      ))}
+    </Section>
   );
 };

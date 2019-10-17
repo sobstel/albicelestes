@@ -27,8 +27,8 @@ const MatchPage = ({ match }: Props) => (
   <Layout title={title(match)}>
     <Info match={match} />
     <Goals match={match} />
-    <Cards match={match} />
     <Lineups match={match} />
+    <Cards match={match} />
     <PenaltyShootout match={match} />
   </Layout>
 );

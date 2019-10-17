@@ -1,5 +1,6 @@
 import Link from "next/link";
 import slugify from "slugify";
+import Section from "./layout/Section";
 
 interface Props {
   title: string;
@@ -12,8 +13,7 @@ const Fixtures = ({ title, matches }: Props) => {
   }
 
   return (
-    <div className="mb-4">
-      <h2 className="mb-4 font-semibold uppercase">{title}</h2>
+    <Section title={title}>
       {matches.map(match => (
         <Link
           href={`/match?id=${match.match_id}`}
@@ -28,7 +28,7 @@ const Fixtures = ({ title, matches }: Props) => {
           </p>
         </Link>
       ))}
-    </div>
+    </Section>
   );
 };
 
