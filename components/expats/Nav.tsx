@@ -28,7 +28,7 @@ function NavLink({ date, days }: NavLinkProps) {
   }
 
   const textColor =
-    date === linkDate ? "text-black" : "text-blue-600 hover:text-blue-900";
+    date === linkDate ? "text-black" : "text-blue-600 hover:text-blue-400";
 
   return (
     <li className="mr-4">
