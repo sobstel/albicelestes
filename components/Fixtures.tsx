@@ -1,5 +1,6 @@
 import Link from "next/link";
 import slugify from "slugify";
+import { formatDate } from "../lib/date";
 import Section from "./layout/Section";
 
 interface Props {
@@ -27,8 +28,9 @@ const Fixtures = ({ title, matches }: Props) => {
           >
             <a className="text-blue-600 hover:text-blue-400">
               <p>
-                {match.date} {match.home_name} - {match.away_name}{" "}
-                {match.ended && `${match.ft[0]}:${match.ft[1]}`}
+                {formatDate(match.date, match.time)}{" "}
+                {`${match.home_name} - ${match.away_name}`}
+                {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
               </p>
             </a>
           </Link>

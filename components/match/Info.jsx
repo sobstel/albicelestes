@@ -8,10 +8,9 @@ export default ({ match }) => {
         match.ft ? match.ft.join(":") : ""
       }`}
     >
-      {formatDate(match.date, match.time, true)},{" "}
-      {formatTime(match.date, match.time)}
-      {", "}
-      {match.round_name}
+      {formatDate(match.date, match.time, true)}{" "}
+      {formatTime(match.date, match.time)}, {match.competition_name}
+      {match.round_name && ` (${match.round_name})`}
     </Section>
   );
 };
