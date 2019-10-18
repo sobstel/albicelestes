@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/match/\\w+-\\w+/(?<id>\\w+)",
+      "src": "/matches/\\w+-\\w+/(?<id>\\w+)",
       "dest": "/match?id=$id"
     },
     {

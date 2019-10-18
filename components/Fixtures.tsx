@@ -16,9 +16,9 @@ const Fixtures = ({ title, matches }: Props) => {
   return (
     <Section title={title}>
       {matches.map(match => {
-        const matchLink = `/match/${slugify(match.home_name, {
-          lower: true
-        })}-${slugify(match.away_name, { lower: true })}/${match.match_id}`;
+        const homeSlug = slugify(match.home_name, { lower: true });
+        const awaySlug = slugify(match.away_name, { lower: true });
+        const matchLink = `/matches/${homeSlug}-${awaySlug}/${match.match_id}`;
 
         return (
           <Link
