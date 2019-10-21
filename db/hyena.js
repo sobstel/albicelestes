@@ -5,6 +5,9 @@ const db = low(adapter);
 const program = require("commander");
 const axios = require("axios");
 
+// Already imported
+process.exit();
+
 program.option("-y, --year <year>", "Year", "2019");
 program.parse(process.argv);
 
