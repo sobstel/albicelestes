@@ -10,13 +10,15 @@ interface Props {
 const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   <Layout title="¡Vamos Argentina! 🇦🇷">
     <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
-    <Fixtures title="Recent fixtures" matches={recentMatches} />
+    <Fixtures title="Recent fixtures" matches={recentMatches.reverse()} />
   </Layout>
 );
 
 IndexPage.getInitialProps = async ({ res }: any) => {
-  const upcomingMatches = await hyena("argentina/matches/upcoming");
-  const recentMatches = (await hyena("argentina/matches/recent")).reverse();
+  const [upcomingMatches, recentMatches] = await Promise.all([
+    hyena("argentina/matches/upcoming"),
+    hyena("argentina/matches/recent")
+  ]);
 
   if (res) {
     res.setHeader(
