@@ -15,14 +15,17 @@ const { year } = program;
 
 db.defaults({ matches: [] }).write();
 
-function importMatches(matches) {
-  matches.forEach(function(match) {
-    db.get("matches")
-      .push(match)
-      .write();
+axios
+  .get(`${API_URL}argentina/matches/${year}`)
+  .then(function({ data: matches }) {
+    matches.forEach(function(match) {
+      axios
+        .get(`${API_URL}matches/${match["match_id"]}`)
+        .then(function({ data: match }) {
+          console.log(`${match.date}: ${match.home_name} - ${match.away_name}`);
+          db.get("matches")
+            .push(match)
+            .write();
+        });
+    });
   });
-}
-
-axios.get(`${API_URL}argentina/matches/${year}`).then(function({ data }) {
-  importMatches(data);
-});
