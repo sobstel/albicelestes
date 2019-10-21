@@ -15329,6 +15329,4212 @@
       "area_name": null,
       "round_name": "Regular Season",
       "teamtype": null
+    },
+    {
+      "match_id": "jkz9n4",
+      "date": "2000-09-03",
+      "time": "",
+      "home_id": "lk5w",
+      "home_name": "Peru",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "mdgmd5",
+      "date": "2000-12-20",
+      "time": "",
+      "home_id": "48yn",
+      "home_name": "Mexico",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "19kk",
+          "name": "Solari",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "13"
+        },
+        {
+          "person_id": "e947",
+          "name": "Galletti",
+          "code": "G",
+          "score": [
+            0,
+            2
+          ],
+          "min": "81"
+        }
+      ],
+      "ft": [
+        0,
+        2
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "venue": {
+        "venue_id": "epkg",
+        "name": "United Airlines Field at the Los Angeles Memorial Coliseum",
+        "city": "Los Angeles, California"
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "nn0984",
+      "date": "2000-06-29",
+      "time": "",
+      "home_id": "40z",
+      "home_name": "Colombia",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        3
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "pge150",
+      "date": "2000-03-29",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "yjx",
+      "away_name": "Chile",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        4,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "gr5n3y",
+      "date": "2000-11-15",
+      "time": "",
+      "home_id": "yjx",
+      "home_name": "Chile",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "kyjlk1",
+      "date": "2000-06-04",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "dl7",
+      "away_name": "Bolivia",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "yl1mwl",
+      "date": "2000-10-08",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "y7pn",
+      "away_name": "Uruguay",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "0e390l",
+      "date": "2000-07-26",
+      "time": "",
+      "home_id": "4y1",
+      "home_name": "Brazil",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "rg8edj",
+      "date": "2000-08-16",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "zpdm",
+      "away_name": "Paraguay",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "nn098k",
+      "date": "2000-07-19",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "1x1y",
+      "away_name": "Ecuador",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "9lpwdm",
+      "date": "2000-04-26",
+      "time": "",
+      "home_id": "rgxd",
+      "home_name": "Venezuela",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        4
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "w3z4rx",
+      "date": "2000-02-23",
+      "time": "",
+      "home_id": "d8ry",
+      "home_name": "England",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        0
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "472n",
+        "name": "Wembley Stadium (old)",
+        "city": "London"
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [
+        {
+          "person_id": "r95ym",
+          "name": "Seaman"
+        },
+        {
+          "person_id": "0yg25",
+          "name": "Southgate"
+        },
+        {
+          "person_id": "m2eyz",
+          "name": "Keown",
+          "out": "56"
+        },
+        {
+          "person_id": 803,
+          "name": "Ferdinand",
+          "in": "56"
+        },
+        {
+          "person_id": "xkv",
+          "name": "Campbell"
+        },
+        {
+          "person_id": "5g4",
+          "name": "Beckham",
+          "out": "73"
+        },
+        {
+          "person_id": "nnj1",
+          "name": "Parlour",
+          "in": "73"
+        },
+        {
+          "person_id": "1p3wk",
+          "name": "Wise"
+        },
+        {
+          "person_id": "y12x",
+          "name": "Dyer",
+          "out": "59"
+        },
+        {
+          "person_id": "d43x",
+          "name": "Neville",
+          "in": "59"
+        },
+        {
+          "person_id": "9pn3",
+          "name": "Scholes"
+        },
+        {
+          "person_id": "w2eg7",
+          "name": "Wilcox"
+        },
+        {
+          "person_id": "ppl8d",
+          "name": "Shearer",
+          "out": "78"
+        },
+        {
+          "person_id": "5knj",
+          "name": "Phillips",
+          "in": "78"
+        },
+        {
+          "person_id": "ze4y",
+          "name": "Heskey",
+          "out": "79"
+        },
+        {
+          "person_id": "vnz1",
+          "name": "Cole",
+          "in": "79"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "3n0ex",
+          "name": "Chamot"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "e9r7",
+          "name": "Arruabarrena",
+          "out": "68"
+        },
+        {
+          "person_id": "r42lw",
+          "name": "Vivas",
+          "in": "68"
+        },
+        {
+          "person_id": "jmnd9",
+          "name": "Sensini",
+          "out": "35"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino",
+          "in": "35"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón"
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega"
+        },
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "out": "56"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "in": "56"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "3n0ex",
+          "name": "Chamot",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "e9r7",
+          "name": "Arruabarrena",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "5g4",
+          "name": "Beckham",
+          "code": "YC",
+          "min": "19"
+        },
+        {
+          "person_id": "1p3wk",
+          "name": "Wise",
+          "code": "YC",
+          "min": "46"
+        }
+      ],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "jkz934",
+      "date": "2001-06-03",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "40z",
+      "away_name": "Colombia",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "vn90ep",
+      "date": "2001-10-07",
+      "time": "",
+      "home_id": "zpdm",
+      "home_name": "Paraguay",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "jkz9m4",
+      "date": "2001-11-14",
+      "time": "",
+      "home_id": "y7pn",
+      "home_name": "Uruguay",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "5kred4",
+      "date": "2001-03-28",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "rgxd",
+      "away_name": "Venezuela",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        5,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "w5p17g",
+      "date": "2001-04-25",
+      "time": "",
+      "home_id": "dl7",
+      "home_name": "Bolivia",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        3
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "9lpw3r",
+      "date": "2001-11-08",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "lk5w",
+      "away_name": "Peru",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "785wel",
+      "date": "2001-08-15",
+      "time": "",
+      "home_id": "1x1y",
+      "home_name": "Ecuador",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "gr5nmy",
+      "date": "2001-09-05",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "4y1",
+      "away_name": "Brazil",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "0r5yd4",
+      "date": "2001-02-28",
+      "time": "19:45:00",
+      "home_id": "je94",
+      "home_name": "Italy",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "e997",
+          "name": "Fiore",
+          "code": "G",
+          "score": [
+            1,
+            0
+          ],
+          "min": "21"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "G",
+          "score": [
+            1,
+            1
+          ],
+          "min": "36"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "code": "G",
+          "score": [
+            1,
+            2
+          ],
+          "min": "38"
+        }
+      ],
+      "ft": [
+        1,
+        2
+      ],
+      "ht": [
+        1,
+        1
+      ],
+      "venue": {
+        "venue_id": "4gn",
+        "name": "Stadio Olimpico",
+        "city": "Roma"
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [
+        {
+          "person_id": "gj5",
+          "name": "Buffon"
+        },
+        {
+          "person_id": "ylm12",
+          "name": "Pierini"
+        },
+        {
+          "person_id": "13y",
+          "name": "Cannavaro"
+        },
+        {
+          "person_id": "zklp",
+          "name": "Zenoni"
+        },
+        {
+          "person_id": "dvzrp",
+          "name": "Pessotto",
+          "out": "69"
+        },
+        {
+          "person_id": "4kd1",
+          "name": "Coco",
+          "in": "69"
+        },
+        {
+          "person_id": "9wj7",
+          "name": "Maldini",
+          "out": "53"
+        },
+        {
+          "person_id": "3njr",
+          "name": "Bertotto",
+          "in": "53"
+        },
+        {
+          "person_id": "g5yy",
+          "name": "Tacchinardi"
+        },
+        {
+          "person_id": "z8d0",
+          "name": "Tommasi",
+          "out": "76"
+        },
+        {
+          "person_id": "x9e8v",
+          "name": "Di Biagio",
+          "in": "76"
+        },
+        {
+          "person_id": "e997",
+          "name": "Fiore",
+          "out": "52"
+        },
+        {
+          "person_id": "kg1",
+          "name": "Totti",
+          "in": "52"
+        },
+        {
+          "person_id": "4x4e",
+          "name": "Vieri",
+          "out": "70"
+        },
+        {
+          "person_id": "wk2w",
+          "name": "Delvecchio",
+          "in": "70"
+        },
+        {
+          "person_id": "myp",
+          "name": "Inzaghi"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": 8270,
+          "name": "Burgos"
+        },
+        {
+          "person_id": "r42lw",
+          "name": "Vivas"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "out": "81"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino",
+          "in": "81"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón",
+          "out": "73"
+        },
+        {
+          "person_id": "0wn7n",
+          "name": "Husaín",
+          "in": "73"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar",
+          "out": "81"
+        },
+        {
+          "person_id": "02m05",
+          "name": "Gallardo",
+          "in": "81"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "out": "85"
+        },
+        {
+          "person_id": "7wd0",
+          "name": "López",
+          "in": "85"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "out": "90"
+        },
+        {
+          "person_id": "jk4",
+          "name": "Cruz",
+          "in": "90"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "9wj7",
+          "name": "Maldini",
+          "code": "YC",
+          "min": "17"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone",
+          "code": "YC",
+          "min": "82"
+        },
+        {
+          "person_id": "0wn7n",
+          "name": "Husaín",
+          "code": "YC",
+          "min": "90"
+        }
+      ],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "1xkg5r",
+      "date": "2002-04-17",
+      "time": "",
+      "home_id": "rmr8",
+      "home_name": "Germany",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "48"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [
+        {
+          "person_id": "04",
+          "name": "Lehmann"
+        },
+        {
+          "person_id": "j5",
+          "name": "Metzelder"
+        },
+        {
+          "person_id": "nkljx",
+          "name": "Nowotny"
+        },
+        {
+          "person_id": "7v80",
+          "name": "Linke",
+          "out": "46"
+        },
+        {
+          "person_id": "d5l7",
+          "name": "Baumann",
+          "in": "46"
+        },
+        {
+          "person_id": "e047",
+          "name": "Ramelow"
+        },
+        {
+          "person_id": "yzpn",
+          "name": "Böhme",
+          "out": "46"
+        },
+        {
+          "person_id": "wl8g",
+          "name": "Ricken",
+          "in": "46"
+        },
+        {
+          "person_id": "evl24",
+          "name": "Jeremies",
+          "out": "77"
+        },
+        {
+          "person_id": 890,
+          "name": "Kehl",
+          "in": "77"
+        },
+        {
+          "person_id": "e7",
+          "name": "Ballack"
+        },
+        {
+          "person_id": "d8p",
+          "name": "Frings",
+          "out": "83"
+        },
+        {
+          "person_id": "l209w",
+          "name": "Max",
+          "in": "83"
+        },
+        {
+          "person_id": "3ew",
+          "name": "Klose"
+        },
+        {
+          "person_id": "702d0",
+          "name": "Bierhoff",
+          "out": "70"
+        },
+        {
+          "person_id": "m035",
+          "name": "Jancker",
+          "in": "70"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "pxjw2",
+          "name": "Almeyda"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar",
+          "out": "31"
+        },
+        {
+          "person_id": "02m05",
+          "name": "Gallardo",
+          "in": "31",
+          "out": "62"
+        },
+        {
+          "person_id": "19kk",
+          "name": "Solari",
+          "in": "62"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "out": "89"
+        },
+        {
+          "person_id": "v0pm",
+          "name": "Placente",
+          "in": "89"
+        },
+        {
+          "person_id": "7wd0",
+          "name": "López",
+          "out": "77"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "in": "77"
+        },
+        {
+          "person_id": "lmk43",
+          "name": "López"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "z810",
+          "name": "Samuel",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "evl24",
+          "name": "Jeremies",
+          "code": "YC",
+          "min": ""
+        },
+        {
+          "person_id": "e7",
+          "name": "Ballack",
+          "code": "YC",
+          "min": ""
+        }
+      ],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "prpxg",
+      "date": "2002-06-07",
+      "time": "11:30:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "d8ry",
+      "away_name": "England",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "5g4",
+          "name": "Beckham",
+          "code": "PG",
+          "score": [
+            0,
+            1
+          ],
+          "min": "44"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "venue": {
+        "venue_id": "04v",
+        "name": "Sapporo Dome",
+        "city": "Sapporo"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "x0133",
+        "name": "Eriksson"
+      },
+      "home_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "v0pm",
+          "name": "Placente"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "out": "64"
+        },
+        {
+          "person_id": "lmk43",
+          "name": "López",
+          "in": "64"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón",
+          "out": "46"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar",
+          "in": "46"
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega"
+        },
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "out": "60"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "in": "60"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "r95ym",
+          "name": "Seaman"
+        },
+        {
+          "person_id": "zkr",
+          "name": "Cole"
+        },
+        {
+          "person_id": "47rz",
+          "name": "Mills"
+        },
+        {
+          "person_id": 803,
+          "name": "Ferdinand"
+        },
+        {
+          "person_id": "xkv",
+          "name": "Campbell"
+        },
+        {
+          "person_id": "5g4",
+          "name": "Beckham"
+        },
+        {
+          "person_id": "91r",
+          "name": "Hargreaves",
+          "out": "19"
+        },
+        {
+          "person_id": "5kwj",
+          "name": "Sinclair",
+          "in": "19"
+        },
+        {
+          "person_id": "9pn3",
+          "name": "Scholes"
+        },
+        {
+          "person_id": "01dln",
+          "name": "Butt"
+        },
+        {
+          "person_id": "ze4y",
+          "name": "Heskey",
+          "out": "54"
+        },
+        {
+          "person_id": "d4nz",
+          "name": "Sheringham",
+          "in": "54"
+        },
+        {
+          "person_id": "kk7",
+          "name": "Owen",
+          "out": "80"
+        },
+        {
+          "person_id": "nkk",
+          "name": "Bridge",
+          "in": "80"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "code": "YC",
+          "min": "13"
+        },
+        {
+          "person_id": "zkr",
+          "name": "Cole",
+          "code": "YC",
+          "min": "29"
+        },
+        {
+          "person_id": "ze4y",
+          "name": "Heskey",
+          "code": "YC",
+          "min": "50"
+        }
+      ],
+      "competition_id": "y72",
+      "competition_name": "World Cup",
+      "area_name": null,
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "931g1",
+      "date": "2002-06-02",
+      "time": "05:30:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "2gxd",
+      "away_name": "Nigeria",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "code": "G",
+          "score": [
+            1,
+            0
+          ],
+          "min": "63"
+        }
+      ],
+      "ft": [
+        1,
+        0
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "1dn",
+        "name": "Kashima Soccer Stadium",
+        "city": "Kashima"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "njm51",
+        "name": "Onigbinde"
+      },
+      "home_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "v0pm",
+          "name": "Placente"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón",
+          "out": "78"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar",
+          "in": "78"
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega"
+        },
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "out": "81"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "in": "81"
+        },
+        {
+          "person_id": "lmk43",
+          "name": "López",
+          "out": "46"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "in": "46"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "4x2zn",
+          "name": "Shorunmu"
+        },
+        {
+          "person_id": "lzew",
+          "name": "Babayaro"
+        },
+        {
+          "person_id": "wlrev",
+          "name": "Sodje",
+          "out": "73"
+        },
+        {
+          "person_id": "5g287",
+          "name": "Christopher",
+          "in": "73"
+        },
+        {
+          "person_id": "wy87",
+          "name": "Okoronkwo"
+        },
+        {
+          "person_id": "edj8",
+          "name": "Yobo"
+        },
+        {
+          "person_id": "ykgjg",
+          "name": "West"
+        },
+        {
+          "person_id": "xkxjn",
+          "name": "Lawal"
+        },
+        {
+          "person_id": "5pxdd",
+          "name": "Okocha"
+        },
+        {
+          "person_id": "3env2",
+          "name": "Ogbeche"
+        },
+        {
+          "person_id": "n8v1",
+          "name": "Aghahowa"
+        },
+        {
+          "person_id": "d28m",
+          "name": "Kanu",
+          "out": "48"
+        },
+        {
+          "person_id": "3vrx",
+          "name": "Ikedia",
+          "in": "48"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "z810",
+          "name": "Samuel",
+          "code": "YC",
+          "min": "51"
+        },
+        {
+          "person_id": "wlrev",
+          "name": "Sodje",
+          "code": "YC",
+          "min": "73"
+        },
+        {
+          "person_id": "yg5kv",
+          "name": "Simeone",
+          "code": "YC",
+          "min": "90"
+        }
+      ],
+      "competition_id": "y72",
+      "competition_name": "World Cup",
+      "area_name": null,
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "vek51",
+      "date": "2002-06-12",
+      "time": "06:30:00",
+      "home_id": 4351,
+      "home_name": "Sweden",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "39r",
+          "name": "Svensson",
+          "code": "G",
+          "score": [
+            1,
+            0
+          ],
+          "min": "59"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "code": "G",
+          "score": [
+            1,
+            1
+          ],
+          "min": "88"
+        }
+      ],
+      "ft": [
+        1,
+        1
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "0ed5",
+        "name": "Miyagi Stadium",
+        "city": "Rifu"
+      },
+      "home_coach": {
+        "person_id": "5yly4",
+        "name": "Söderberg"
+      },
+      "away_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "home_players": [
+        {
+          "person_id": "n8nr",
+          "name": "Hedman"
+        },
+        {
+          "person_id": "g3zy",
+          "name": "Jakobsson"
+        },
+        {
+          "person_id": "mlgr5",
+          "name": "Mjällby"
+        },
+        {
+          "person_id": "l9m",
+          "name": "Mellberg"
+        },
+        {
+          "person_id": "2w0",
+          "name": "Lučić"
+        },
+        {
+          "person_id": "39r",
+          "name": "Svensson",
+          "out": "68"
+        },
+        {
+          "person_id": "09l",
+          "name": "Jonson",
+          "in": "68"
+        },
+        {
+          "person_id": "evlg3",
+          "name": "Magnus Svensson"
+        },
+        {
+          "person_id": "7xm0",
+          "name": "Alexandersson"
+        },
+        {
+          "person_id": "rej",
+          "name": "Linderoth"
+        },
+        {
+          "person_id": "mzzxw",
+          "name": "Larsson",
+          "out": "88"
+        },
+        {
+          "person_id": "kw7",
+          "name": "Ibrahimović",
+          "in": "88"
+        },
+        {
+          "person_id": "j94",
+          "name": "Allbäck",
+          "out": "46"
+        },
+        {
+          "person_id": "ykg8g",
+          "name": "Andreas Andersson",
+          "in": "46"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "3n0ex",
+          "name": "Chamot"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "out": "63"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "in": "63"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "pp02w",
+          "name": "Pochettino"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "pxjw2",
+          "name": "Almeyda",
+          "out": "63"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón",
+          "in": "63"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar"
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega"
+        },
+        {
+          "person_id": "lmk43",
+          "name": "López"
+        },
+        {
+          "person_id": "2d2x5",
+          "name": "Batistuta",
+          "out": "58"
+        },
+        {
+          "person_id": "mdm",
+          "name": "Crespo",
+          "in": "58"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "xkeg3",
+          "name": "Caniggia",
+          "code": "RC",
+          "min": "45+2"
+        },
+        {
+          "person_id": "3n0ex",
+          "name": "Chamot",
+          "code": "YC",
+          "min": "55"
+        },
+        {
+          "person_id": "pxjw2",
+          "name": "Almeyda",
+          "code": "YC",
+          "min": "58"
+        },
+        {
+          "person_id": "evlg3",
+          "name": "Magnus Svensson",
+          "code": "YC",
+          "min": "65"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "YC",
+          "min": "75"
+        },
+        {
+          "person_id": "mzzxw",
+          "name": "Larsson",
+          "code": "YC",
+          "min": "78"
+        }
+      ],
+      "competition_id": "y72",
+      "competition_name": "World Cup",
+      "area_name": null,
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "ex4mg",
+      "date": "2003-09-06",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "yjx",
+      "away_name": "Chile",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        2,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "mp9gw",
+      "date": "2003-11-19",
+      "time": "",
+      "home_id": "40z",
+      "home_name": "Colombia",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "3zr3jw",
+      "date": "2003-02-08",
+      "time": "16:55:00",
+      "home_id": "11zx",
+      "home_name": "United States",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "9"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "venue": {
+        "venue_id": "ke72",
+        "name": "Miami Orange Bowl",
+        "city": "Miami, Florida"
+      },
+      "home_coach": {
+        "person_id": "1xey",
+        "name": "Arena"
+      },
+      "away_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "home_players": [
+        {
+          "person_id": "0wp4",
+          "name": "Howard"
+        },
+        {
+          "person_id": "2lgz",
+          "name": "Bocanegra",
+          "out": "90"
+        },
+        {
+          "person_id": 5214,
+          "name": "Ralston",
+          "in": "90"
+        },
+        {
+          "person_id": "v21e",
+          "name": "Beasley"
+        },
+        {
+          "person_id": "7r4l",
+          "name": "Califf"
+        },
+        {
+          "person_id": "keg1",
+          "name": "Olsen",
+          "out": "46"
+        },
+        {
+          "person_id": "420v",
+          "name": "Twellman",
+          "in": "46"
+        },
+        {
+          "person_id": "vdym",
+          "name": "Klein",
+          "out": "79"
+        },
+        {
+          "person_id": "elne",
+          "name": "Cunningham",
+          "in": "79"
+        },
+        {
+          "person_id": "727e",
+          "name": "Mathis"
+        },
+        {
+          "person_id": "ny44",
+          "name": "Mastroeni"
+        },
+        {
+          "person_id": "8r53",
+          "name": "Victorine",
+          "out": "56"
+        },
+        {
+          "person_id": "wndg",
+          "name": "Garcia",
+          "in": "56"
+        },
+        {
+          "person_id": "w3lv",
+          "name": "Convey"
+        },
+        {
+          "person_id": "jxj5",
+          "name": "Donovan"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "wrwg",
+          "name": "Saja"
+        },
+        {
+          "person_id": "0el",
+          "name": "Milito"
+        },
+        {
+          "person_id": "x7v",
+          "name": "Burdisso"
+        },
+        {
+          "person_id": "g7lzy",
+          "name": "Garcé"
+        },
+        {
+          "person_id": "d8kpp",
+          "name": "Battaglia"
+        },
+        {
+          "person_id": "3e32l",
+          "name": "Guiñazú"
+        },
+        {
+          "person_id": "l003",
+          "name": "Insúa",
+          "out": "77"
+        },
+        {
+          "person_id": "epdy3",
+          "name": "Romagnoli",
+          "in": "77"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro"
+        },
+        {
+          "person_id": "5en7",
+          "name": "González",
+          "out": "46"
+        },
+        {
+          "person_id": "pwd2",
+          "name": "Carignano",
+          "in": "46"
+        },
+        {
+          "person_id": "pevd",
+          "name": "Milito",
+          "out": "85"
+        },
+        {
+          "person_id": "nyk3k",
+          "name": "Rodríguez",
+          "in": "85"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "code": "YC",
+          "min": "13"
+        },
+        {
+          "person_id": "keg1",
+          "name": "Olsen",
+          "code": "YC",
+          "min": "20"
+        },
+        {
+          "person_id": "pevd",
+          "name": "Milito",
+          "code": "YC",
+          "min": "42"
+        },
+        {
+          "person_id": "w3lv",
+          "name": "Convey",
+          "code": "YC",
+          "min": "45"
+        },
+        {
+          "person_id": "l003",
+          "name": "Insúa",
+          "code": "YC",
+          "min": "54"
+        },
+        {
+          "person_id": "2lgz",
+          "name": "Bocanegra",
+          "code": "YC",
+          "min": "71"
+        },
+        {
+          "person_id": "3e32l",
+          "name": "Guiñazú",
+          "code": "YC",
+          "min": "74"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "code": "Y2C",
+          "min": "90+1"
+        }
+      ],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "n79mr",
+      "date": "2003-09-10",
+      "time": "",
+      "home_id": "rgxd",
+      "home_name": "Venezuela",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        3
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "58e2e",
+      "date": "2003-11-15",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "dl7",
+      "away_name": "Bolivia",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "0el2r5",
+      "date": "2003-02-04",
+      "time": "",
+      "home_id": "48yn",
+      "home_name": "Mexico",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "lz73",
+          "name": "Rodríguez",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "13"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "venue": {
+        "venue_id": "epkg",
+        "name": "United Airlines Field at the Los Angeles Memorial Coliseum",
+        "city": "Los Angeles, California"
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "3e481x",
+      "date": "2003-02-12",
+      "time": "",
+      "home_id": "xgnn",
+      "home_name": "Netherlands",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "w3v",
+          "name": "van Bronckhorst",
+          "code": "G",
+          "score": [
+            1,
+            0
+          ],
+          "min": "87"
+        }
+      ],
+      "ft": [
+        1,
+        0
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "5dv",
+        "name": "Johan Cruijff Arena",
+        "city": "Amsterdam"
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [
+        {
+          "person_id": "12kn",
+          "name": "Waterreus"
+        },
+        {
+          "person_id": "vkw9k",
+          "name": "de Boer"
+        },
+        {
+          "person_id": "w38w",
+          "name": "Ricksen"
+        },
+        {
+          "person_id": "0rz5",
+          "name": "Stam",
+          "out": "46"
+        },
+        {
+          "person_id": "jkjp",
+          "name": "Reiziger",
+          "in": "46"
+        },
+        {
+          "person_id": "xr73",
+          "name": "Zenden"
+        },
+        {
+          "person_id": "kldk",
+          "name": "Seedorf"
+        },
+        {
+          "person_id": "djn0m",
+          "name": "Davids"
+        },
+        {
+          "person_id": "pn0",
+          "name": "van Bommel",
+          "out": "71"
+        },
+        {
+          "person_id": "w3v",
+          "name": "van Bronckhorst",
+          "in": "71"
+        },
+        {
+          "person_id": "4ee",
+          "name": "Cocu",
+          "out": "81"
+        },
+        {
+          "person_id": "43pd",
+          "name": "Bosvelt",
+          "in": "81"
+        },
+        {
+          "person_id": "9d71",
+          "name": "Kluivert"
+        },
+        {
+          "person_id": "ep7",
+          "name": "van Nistelrooy",
+          "out": "46"
+        },
+        {
+          "person_id": "xmex",
+          "name": "Makaay",
+          "in": "46"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "82mk",
+          "name": "Cavallero"
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "z810",
+          "name": "Samuel"
+        },
+        {
+          "person_id": "7wd0",
+          "name": "López",
+          "out": "59"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "in": "59"
+        },
+        {
+          "person_id": "xz3v",
+          "name": "Verón",
+          "out": "72"
+        },
+        {
+          "person_id": "vnp",
+          "name": "Cambiasso",
+          "in": "72"
+        },
+        {
+          "person_id": "5k4",
+          "name": "Aimar"
+        },
+        {
+          "person_id": "lmk43",
+          "name": "López",
+          "out": "81"
+        },
+        {
+          "person_id": "19kk",
+          "name": "Solari",
+          "in": "81"
+        },
+        {
+          "person_id": "779de",
+          "name": "Ortega",
+          "out": "63"
+        },
+        {
+          "person_id": "02m05",
+          "name": "Gallardo",
+          "in": "63"
+        }
+      ],
+      "cards": [],
+      "competition_id": "zjm",
+      "competition_name": "Friendlies",
+      "area_name": null,
+      "round_name": "Regular Season",
+      "teamtype": null
+    },
+    {
+      "match_id": "n79zr",
+      "date": "2004-06-02",
+      "time": "",
+      "home_id": "4y1",
+      "home_name": "Brazil",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        1
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "gzn07",
+      "date": "2004-06-06",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "zpdm",
+      "away_name": "Paraguay",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "w21e7",
+      "date": "2004-10-09",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "y7pn",
+      "away_name": "Uruguay",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        4,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "j19dp",
+      "date": "2004-03-30",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "1x1y",
+      "away_name": "Ecuador",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "4zk1d",
+      "date": "2004-11-17",
+      "time": "",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "rgxd",
+      "away_name": "Venezuela",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        3,
+        2
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "ex4zg",
+      "date": "2004-10-13",
+      "time": "",
+      "home_id": "yjx",
+      "home_name": "Chile",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "rrm04",
+      "date": "2004-07-11",
+      "time": "00:45:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "48yn",
+      "away_name": "Mexico",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "9n7mxm",
+          "name": "Morales",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "9"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "venue": {
+        "venue_id": "r824",
+        "name": "Estadio Elías Aguirre",
+        "city": "Chiclayo"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "vx1",
+        "name": "La Volpe"
+      },
+      "home_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "out": "76"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "in": "76"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "out": "66"
+        },
+        {
+          "person_id": "e0y3",
+          "name": "Rosales",
+          "in": "66"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "out": "66"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "in": "66"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "w21",
+          "name": "Sánchez"
+        },
+        {
+          "person_id": "pn1z55",
+          "name": "Briceño",
+          "out": "75"
+        },
+        {
+          "person_id": "2lld0",
+          "name": "Valdez",
+          "in": "75"
+        },
+        {
+          "person_id": "3gx",
+          "name": "Márquez"
+        },
+        {
+          "person_id": "3e3mz",
+          "name": "Davino"
+        },
+        {
+          "person_id": "me8je",
+          "name": "Carmona"
+        },
+        {
+          "person_id": "evz24",
+          "name": "Osorio"
+        },
+        {
+          "person_id": "zjm",
+          "name": "Torrado"
+        },
+        {
+          "person_id": "p752",
+          "name": "Pardo"
+        },
+        {
+          "person_id": "85k",
+          "name": "Borgetti",
+          "out": "64"
+        },
+        {
+          "person_id": "x227v",
+          "name": "Altamirano",
+          "in": "64"
+        },
+        {
+          "person_id": "9n7mxm",
+          "name": "Morales",
+          "out": "64"
+        },
+        {
+          "person_id": "8998e",
+          "name": "Osorno",
+          "in": "64"
+        },
+        {
+          "person_id": "71k",
+          "name": "Arellano"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "85k",
+          "name": "Borgetti",
+          "code": "YC",
+          "min": "22"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze",
+          "code": "YC",
+          "min": "32"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti",
+          "code": "YC",
+          "min": "45"
+        },
+        {
+          "person_id": "zjm",
+          "name": "Torrado",
+          "code": "YC",
+          "min": "65"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano",
+          "code": "YC",
+          "min": "68"
+        },
+        {
+          "person_id": "x227v",
+          "name": "Altamirano",
+          "code": "YC",
+          "min": "68"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "code": "YC",
+          "min": "78"
+        },
+        {
+          "person_id": "me8je",
+          "name": "Carmona",
+          "code": "YC",
+          "min": "78"
+        },
+        {
+          "person_id": "p752",
+          "name": "Pardo",
+          "code": "YC",
+          "min": "88"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "1n97r",
+      "date": "2004-09-04",
+      "time": "",
+      "home_id": "lk5w",
+      "home_name": "Peru",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [],
+      "ft": [
+        1,
+        3
+      ],
+      "venue": {
+        "venue_id": "y2",
+        "name": "",
+        "city": ""
+      },
+      "home_coach": null,
+      "away_coach": null,
+      "home_players": [],
+      "away_players": [],
+      "cards": [],
+      "competition_id": "4nn",
+      "competition_name": "WC Qualification South America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "dj897",
+      "date": "2004-07-21",
+      "time": "00:45:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "40z",
+      "away_name": "Colombia",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "code": "G",
+          "score": [
+            1,
+            0
+          ],
+          "min": "32"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "code": "G",
+          "score": [
+            2,
+            0
+          ],
+          "min": "51"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "code": "G",
+          "score": [
+            3,
+            0
+          ],
+          "min": "80"
+        }
+      ],
+      "ft": [
+        3,
+        0
+      ],
+      "ht": [
+        1,
+        0
+      ],
+      "venue": {
+        "venue_id": "9k2e",
+        "name": "Estadio Nacional de Lima",
+        "city": "Lima"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "m304m",
+        "name": "Rueda"
+      },
+      "home_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "gry",
+          "name": "Coloccini"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "out": "85"
+        },
+        {
+          "person_id": "v0pm",
+          "name": "Placente",
+          "in": "85"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "out": "64"
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga",
+          "in": "64"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "out": "61"
+        },
+        {
+          "person_id": "e0y3",
+          "name": "Rosales",
+          "in": "61"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "jx5yp",
+          "name": "Henao"
+        },
+        {
+          "person_id": "pnxmw",
+          "name": "González"
+        },
+        {
+          "person_id": "g77ry",
+          "name": "Orozco"
+        },
+        {
+          "person_id": "r7xy8",
+          "name": "Martínez"
+        },
+        {
+          "person_id": "0wm9n",
+          "name": "Díaz"
+        },
+        {
+          "person_id": "v229p",
+          "name": "Moreno",
+          "out": "73"
+        },
+        {
+          "person_id": "jyy5",
+          "name": "Ferreira",
+          "in": "73"
+        },
+        {
+          "person_id": "9ngje",
+          "name": "Murillo",
+          "out": "61"
+        },
+        {
+          "person_id": "4x01",
+          "name": "Perea",
+          "in": "61"
+        },
+        {
+          "person_id": "z7278",
+          "name": "Jairo  Patiño"
+        },
+        {
+          "person_id": "r9vd",
+          "name": "Aguilar",
+          "out": "57"
+        },
+        {
+          "person_id": "27g5",
+          "name": "Viáfara",
+          "in": "57"
+        },
+        {
+          "person_id": "7ym0",
+          "name": "Victoria"
+        },
+        {
+          "person_id": "0wldl",
+          "name": "Congo"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "r9vd",
+          "name": "Aguilar",
+          "code": "YC",
+          "min": "33"
+        },
+        {
+          "person_id": "gry",
+          "name": "Coloccini",
+          "code": "YC",
+          "min": "55"
+        },
+        {
+          "person_id": "g77ry",
+          "name": "Orozco",
+          "code": "YC",
+          "min": "57"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "code": "YC",
+          "min": "60"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "YC",
+          "min": "70"
+        },
+        {
+          "person_id": "4x01",
+          "name": "Perea",
+          "code": "YC",
+          "min": "87"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Semi-finals",
+      "teamtype": null
+    },
+    {
+      "match_id": "vm2pm",
+      "date": "2004-07-08",
+      "time": "00:45:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "1x1y",
+      "away_name": "Ecuador",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "PG",
+          "score": [
+            1,
+            0
+          ],
+          "min": "5"
+        },
+        {
+          "person_id": "93e",
+          "name": "Delgado",
+          "code": "G",
+          "score": [
+            1,
+            1
+          ],
+          "min": "62"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "code": "G",
+          "score": [
+            2,
+            1
+          ],
+          "min": "64"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "code": "G",
+          "score": [
+            3,
+            1
+          ],
+          "min": "74"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "code": "G",
+          "score": [
+            4,
+            1
+          ],
+          "min": "79"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "code": "G",
+          "score": [
+            5,
+            1
+          ],
+          "min": "84"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "code": "G",
+          "score": [
+            6,
+            1
+          ],
+          "min": "90"
+        }
+      ],
+      "ft": [
+        6,
+        1
+      ],
+      "ht": [
+        1,
+        0
+      ],
+      "venue": {
+        "venue_id": "r824",
+        "name": "Estadio Elías Aguirre",
+        "city": "Chiclayo"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "wp0v7",
+        "name": "Gómez"
+      },
+      "home_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "out": "87"
+        },
+        {
+          "person_id": "nyk3k",
+          "name": "Rodríguez",
+          "in": "87"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "out": "83"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "in": "83"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "out": "70"
+        },
+        {
+          "person_id": "e0y3",
+          "name": "Rosales",
+          "in": "70"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "89n9e",
+          "name": "Ibarra"
+        },
+        {
+          "person_id": "ydv",
+          "name": "Hurtado"
+        },
+        {
+          "person_id": "83e",
+          "name": "de la Cruz",
+          "out": "54"
+        },
+        {
+          "person_id": "1jn",
+          "name": "Méndez",
+          "in": "54"
+        },
+        {
+          "person_id": "9ze",
+          "name": "Ambrosi"
+        },
+        {
+          "person_id": "kmy",
+          "name": "Espinoza"
+        },
+        {
+          "person_id": "wdkx",
+          "name": "Reasco"
+        },
+        {
+          "person_id": "z741r",
+          "name": "Obregón"
+        },
+        {
+          "person_id": "mje",
+          "name": "Ayoví"
+        },
+        {
+          "person_id": "47pjz",
+          "name": "Chalá"
+        },
+        {
+          "person_id": "vem",
+          "name": "Tenorio",
+          "out": "30"
+        },
+        {
+          "person_id": "4ej7z",
+          "name": "Salas",
+          "in": "30"
+        },
+        {
+          "person_id": "g72jz",
+          "name": "Ordóñez",
+          "out": "46"
+        },
+        {
+          "person_id": "93e",
+          "name": "Delgado",
+          "in": "46"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "1jn",
+          "name": "Méndez",
+          "code": "YC",
+          "min": "78"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "gd720",
+      "date": "2004-07-25",
+      "time": "20:00:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "4y1",
+      "away_name": "Brazil",
+      "ended": true,
+      "penalty_shootout": [
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "code": "M",
+          "score": [
+            0,
+            0
+          ]
+        },
+        {
+          "person_id": "z8r",
+          "name": "Adriano",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ]
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze",
+          "code": "M",
+          "score": [
+            0,
+            1
+          ]
+        },
+        {
+          "person_id": "n094",
+          "name": "Edu Gaspar",
+          "code": "G",
+          "score": [
+            0,
+            2
+          ]
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "G",
+          "score": [
+            1,
+            2
+          ]
+        },
+        {
+          "person_id": "n4zm",
+          "name": "Diego",
+          "code": "G",
+          "score": [
+            1,
+            3
+          ]
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "code": "G",
+          "score": [
+            2,
+            3
+          ]
+        },
+        {
+          "person_id": "03l",
+          "name": "Juan",
+          "code": "G",
+          "score": [
+            2,
+            4
+          ]
+        }
+      ],
+      "goals": [
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "PG",
+          "score": [
+            1,
+            0
+          ],
+          "min": "21"
+        },
+        {
+          "person_id": "5r4",
+          "name": "Luisão",
+          "code": "G",
+          "score": [
+            1,
+            1
+          ],
+          "min": "45+1"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "code": "G",
+          "score": [
+            2,
+            1
+          ],
+          "min": "87"
+        },
+        {
+          "person_id": "z8r",
+          "name": "Adriano",
+          "code": "G",
+          "score": [
+            2,
+            2
+          ],
+          "min": "90+3"
+        }
+      ],
+      "ft": [
+        2,
+        2
+      ],
+      "ht": [
+        1,
+        1
+      ],
+      "ps": [
+        2,
+        4
+      ],
+      "venue": {
+        "venue_id": "9k2e",
+        "name": "Estadio Nacional de Lima",
+        "city": "Lima"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "7zz3v",
+        "name": "Carlos Alberto Parreira"
+      },
+      "home_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "gry",
+          "name": "Coloccini"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "out": "75"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "in": "75"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González"
+        },
+        {
+          "person_id": "e0y3",
+          "name": "Rosales",
+          "out": "64"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "in": "64"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "out": "90+2"
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga",
+          "in": "90+2"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "4vv",
+          "name": "Júlio César"
+        },
+        {
+          "person_id": "5r4",
+          "name": "Luisão",
+          "out": "81"
+        },
+        {
+          "person_id": "g5y",
+          "name": "Cris",
+          "in": "81"
+        },
+        {
+          "person_id": "03l",
+          "name": "Juan"
+        },
+        {
+          "person_id": "n4jz1",
+          "name": "Gustavo Nery"
+        },
+        {
+          "person_id": "gnvz",
+          "name": "Maicon"
+        },
+        {
+          "person_id": "lzlm",
+          "name": "Renato"
+        },
+        {
+          "person_id": "jrlp",
+          "name": "Kléberson",
+          "out": "54"
+        },
+        {
+          "person_id": "n4zm",
+          "name": "Diego",
+          "in": "54"
+        },
+        {
+          "person_id": "m15w",
+          "name": "Alex",
+          "out": "63"
+        },
+        {
+          "person_id": "81ymp",
+          "name": "Felipe",
+          "in": "63"
+        },
+        {
+          "person_id": "n094",
+          "name": "Edu Gaspar"
+        },
+        {
+          "person_id": "z8r",
+          "name": "Adriano"
+        },
+        {
+          "person_id": "dvj7",
+          "name": "Luís Fabiano"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "1e7",
+          "name": "Sorín",
+          "code": "YC",
+          "min": "25"
+        },
+        {
+          "person_id": "n094",
+          "name": "Edu Gaspar",
+          "code": "YC",
+          "min": "37"
+        },
+        {
+          "person_id": "5r4",
+          "name": "Luisão",
+          "code": "YC",
+          "min": "58"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano",
+          "code": "YC",
+          "min": "72"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "code": "YC",
+          "min": "87"
+        },
+        {
+          "person_id": "z8r",
+          "name": "Adriano",
+          "code": "YC",
+          "min": "90+3"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Final",
+      "teamtype": null
+    },
+    {
+      "match_id": "9rnme",
+      "date": "2004-07-14",
+      "time": "00:45:00",
+      "home_id": "03l",
+      "home_name": "Argentina",
+      "away_id": "y7pn",
+      "away_name": "Uruguay",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "zlv8",
+          "name": "Estoyanoff",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "7"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González",
+          "code": "PG",
+          "score": [
+            1,
+            1
+          ],
+          "min": "19"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "code": "G",
+          "score": [
+            2,
+            1
+          ],
+          "min": "20"
+        },
+        {
+          "person_id": "y8el",
+          "name": "Sánchez",
+          "code": "G",
+          "score": [
+            2,
+            2
+          ],
+          "min": "39"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "code": "G",
+          "score": [
+            3,
+            2
+          ],
+          "min": "80"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "code": "G",
+          "score": [
+            4,
+            2
+          ],
+          "min": "89"
+        }
+      ],
+      "ft": [
+        4,
+        2
+      ],
+      "ht": [
+        2,
+        2
+      ],
+      "venue": {
+        "venue_id": "gwkz",
+        "name": "Estadio Miguel Grau de Piura",
+        "city": "Piura"
+      },
+      "home_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "away_coach": {
+        "person_id": "4gylz",
+        "name": "Fossati"
+      },
+      "home_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "nyk3k",
+          "name": "Rodríguez",
+          "out": "46"
+        },
+        {
+          "person_id": "5en7",
+          "name": "González",
+          "in": "46"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González",
+          "out": "79"
+        },
+        {
+          "person_id": "lzm",
+          "name": "Saviola",
+          "in": "79"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "out": "76"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "in": "76"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "1knw7",
+          "name": "Barbat"
+        },
+        {
+          "person_id": "5d10j",
+          "name": "Bizera"
+        },
+        {
+          "person_id": "5vl4",
+          "name": "Rodríguez"
+        },
+        {
+          "person_id": "xejv",
+          "name": "Lago"
+        },
+        {
+          "person_id": "87xe",
+          "name": "Diogo"
+        },
+        {
+          "person_id": "pnx05",
+          "name": "Sosa",
+          "out": "86"
+        },
+        {
+          "person_id": "jxmm5",
+          "name": "Bueno",
+          "in": "86"
+        },
+        {
+          "person_id": "zlv8",
+          "name": "Estoyanoff",
+          "out": "43"
+        },
+        {
+          "person_id": "w3mrx",
+          "name": "Rodríguez",
+          "in": "43"
+        },
+        {
+          "person_id": "8vxp",
+          "name": "Pérez"
+        },
+        {
+          "person_id": "0wmje",
+          "name": "Delgado"
+        },
+        {
+          "person_id": "5rx4",
+          "name": "Forlán"
+        },
+        {
+          "person_id": "y8el",
+          "name": "Sánchez",
+          "out": "71"
+        },
+        {
+          "person_id": "31lr",
+          "name": "Rodríguez",
+          "in": "71"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "5d10j",
+          "name": "Bizera",
+          "code": "YC",
+          "min": "5"
+        },
+        {
+          "person_id": "pnx05",
+          "name": "Sosa",
+          "code": "YC",
+          "min": "19"
+        },
+        {
+          "person_id": "87xe",
+          "name": "Diogo",
+          "code": "YC",
+          "min": "28"
+        },
+        {
+          "person_id": "5d10j",
+          "name": "Bizera",
+          "code": "Y2C",
+          "min": "35"
+        },
+        {
+          "person_id": "rgj",
+          "name": "Mascherano",
+          "code": "YC",
+          "min": "64"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "code": "YC",
+          "min": "73"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Group Stage",
+      "teamtype": null
+    },
+    {
+      "match_id": "eyp24",
+      "date": "2004-07-18",
+      "time": "",
+      "home_id": "lk5w",
+      "home_name": "Peru",
+      "away_id": "03l",
+      "away_name": "Argentina",
+      "ended": true,
+      "penalty_shootout": null,
+      "goals": [
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "code": "G",
+          "score": [
+            0,
+            1
+          ],
+          "min": "60"
+        }
+      ],
+      "ft": [
+        0,
+        1
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "venue": {
+        "venue_id": "r824",
+        "name": "Estadio Elías Aguirre",
+        "city": "Chiclayo"
+      },
+      "home_coach": {
+        "person_id": "ygpvn",
+        "name": "Paulo Autuori"
+      },
+      "away_coach": {
+        "person_id": "1y0wr",
+        "name": "Bielsa"
+      },
+      "home_players": [
+        {
+          "person_id": "pn9v0",
+          "name": "Ibáñez"
+        },
+        {
+          "person_id": "7r80",
+          "name": "Acasiete"
+        },
+        {
+          "person_id": "5p874",
+          "name": "Rebosio"
+        },
+        {
+          "person_id": "xz7x",
+          "name": "Vílchez",
+          "out": "86"
+        },
+        {
+          "person_id": "771nv",
+          "name": "La Rosa",
+          "in": "86"
+        },
+        {
+          "person_id": "w3drv",
+          "name": "Salas"
+        },
+        {
+          "person_id": "jk8d9",
+          "name": "Jorge Soto"
+        },
+        {
+          "person_id": "e9k8",
+          "name": "Solano"
+        },
+        {
+          "person_id": "3egdx",
+          "name": "Jayo",
+          "out": "85"
+        },
+        {
+          "person_id": "d89gm",
+          "name": "Olcese",
+          "in": "85"
+        },
+        {
+          "person_id": "jx125",
+          "name": "Palacios"
+        },
+        {
+          "person_id": "kev77",
+          "name": "Zegarra",
+          "out": "66"
+        },
+        {
+          "person_id": "p3gw",
+          "name": "García",
+          "in": "66"
+        },
+        {
+          "person_id": "99le",
+          "name": "Mendoza"
+        }
+      ],
+      "away_players": [
+        {
+          "person_id": "5kdpj",
+          "name": "Abbondanzieri"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala"
+        },
+        {
+          "person_id": "1e7",
+          "name": "Sorín"
+        },
+        {
+          "person_id": 813,
+          "name": "Heinze"
+        },
+        {
+          "person_id": "n9jx",
+          "name": "Zanetti"
+        },
+        {
+          "person_id": "gry",
+          "name": "Coloccini"
+        },
+        {
+          "person_id": "n9xm",
+          "name": "D'Alessandro",
+          "out": "57"
+        },
+        {
+          "person_id": "e9e",
+          "name": "Tevez",
+          "in": "57"
+        },
+        {
+          "person_id": "pg2",
+          "name": "González"
+        },
+        {
+          "person_id": "g7m1y",
+          "name": "González"
+        },
+        {
+          "person_id": "v20jz",
+          "name": "Figueroa",
+          "out": "83"
+        },
+        {
+          "person_id": "w52lx",
+          "name": "Quiroga",
+          "in": "83"
+        },
+        {
+          "person_id": "rm7k4",
+          "name": "Delgado",
+          "out": "72"
+        },
+        {
+          "person_id": "e0y3",
+          "name": "Rosales",
+          "in": "72"
+        }
+      ],
+      "cards": [
+        {
+          "person_id": "kev77",
+          "name": "Zegarra",
+          "code": "YC",
+          "min": "25"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "code": "YC",
+          "min": "26"
+        },
+        {
+          "person_id": "3egdx",
+          "name": "Jayo",
+          "code": "YC",
+          "min": "28"
+        },
+        {
+          "person_id": "nnk",
+          "name": "Ayala",
+          "code": "Y2C",
+          "min": "81"
+        },
+        {
+          "person_id": "e9k8",
+          "name": "Solano",
+          "code": "YC",
+          "min": "89"
+        }
+      ],
+      "competition_id": "32l",
+      "competition_name": "Copa America",
+      "area_name": "South America",
+      "round_name": "Quarter-finals",
+      "teamtype": null
     }
   ]
 }
