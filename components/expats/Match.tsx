@@ -11,7 +11,7 @@ const Match = ({ match }: Props) => {
       </h3>
       <div className="mb-4">
         {match.players.map((player: any) => (
-          <p key={player.id}>
+          <p key={player.person_id}>
             {player.name}
             {player.events.map((event: any, index: any) => (
               <span key={index} className="ml-2">
