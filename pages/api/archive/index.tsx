@@ -1,10 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-
-import low from "lowdb";
-import FileSync from "lowdb/adapters/FileSync";
-
-const adapter = new FileSync("./db/hyena.json");
-const db = low(adapter);
+import { connect } from "../../../db/hyena";
 
 type PartialMatch = {
   macth_id: string;
@@ -18,6 +13,8 @@ type PartialMatch = {
 export default function handle(_req: NextApiRequest, res: NextApiResponse) {
   // TODO: limit by start year and end year
   // res.json({ archive: req.query });
+
+  const db = connect();
 
   const archive = db
     .get("matches")

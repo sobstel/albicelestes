@@ -18,7 +18,9 @@ const ArchivePage = ({ archive }: Props) => {
 };
 
 ArchivePage.getInitialProps = async () => {
-  const { archive } = await db("archive");
+  const result = await db("archive");
+  if (!result) return { archive: [] };
+  const { archive } = result;
   return { archive };
 };
 
