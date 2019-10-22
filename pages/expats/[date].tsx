@@ -1,5 +1,5 @@
 import moment from "moment";
-import hyena from "../../lib/api/hyena";
+import hyenaAPI from "../../lib/api/hyena";
 import Layout from "../../components/Layout";
 import ExpatsMatch from "../../components/expats/Match";
 import ExpatsNav from "../../components/expats/Nav";
@@ -24,7 +24,7 @@ ExpatsPage.getInitialProps = async ({ res, query }: any) => {
   const dateObj = moment(query.date);
 
   const date = dateObj.format("YYYY-MM-DD");
-  const expatsMatches = await hyena(`argentina/expats/${date}`);
+  const expatsMatches = await hyenaAPI(`argentina/expats/${date}`);
 
   if (res) {
     const daysAgo = todayObj.diff(dateObj, "days");

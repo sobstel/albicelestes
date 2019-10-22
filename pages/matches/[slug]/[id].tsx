@@ -1,4 +1,4 @@
-import hyena from "../../../lib/api/hyena";
+import hyenaAPI from "../../../lib/api/hyena";
 import Layout from "../../../components/Layout";
 import Info from "../../../components/match/Info";
 import Goals from "../../../components/match/Goals";
@@ -35,7 +35,7 @@ const MatchPage = ({ match }: Props) => (
 
 MatchPage.getInitialProps = async ({ query }: any) => {
   const { id } = query;
-  const match = await hyena(`matches/${id}`);
+  const match = await hyenaAPI(`matches/${id}`);
   return { match };
 };
 

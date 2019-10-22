@@ -1,25 +1,13 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { connect } from "../../../db/hyena";
+import { hyenaDB as db } from "../../../lib/db";
 
-type PartialMatch = {
-  macth_id: string;
-  date: string;
-  time: string;
-  home_name: string;
-  away_name: string;
-  ft?: [];
-};
-
-export default function handle(_req: NextApiRequest, res: NextApiResponse) {
+export default async function handle(_req, res) {
   // TODO: limit by start year and end year
   // res.json({ archive: req.query });
 
-  const db = connect();
-
   const archive = db
     .get("matches")
-    // @ts-ignore
-    .map((match: any) =>
+    .map(match =>
       db._.pick(match, [
         "match_id",
         "date",
@@ -31,7 +19,7 @@ export default function handle(_req: NextApiRequest, res: NextApiResponse) {
       ])
     )
     .reverse()
-    .reduce((grouped: any[], match: PartialMatch) => {
+    .reduce((grouped, match) => {
       const year = parseInt(match["date"].substring(0, 4), 10);
       let groupIndex = db._.findIndex(grouped, ["year", year]);
       if (groupIndex === -1) {

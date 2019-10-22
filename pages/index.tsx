@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Fixtures from "../components/Fixtures";
-import hyena from "../lib/api/hyena";
+import hyenaAPI from "../lib/api/hyena";
 
 interface Props {
   upcomingMatches: any[];
@@ -16,8 +16,8 @@ const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
 
 IndexPage.getInitialProps = async ({ res }: any) => {
   const [upcomingMatches, recentMatches] = await Promise.all([
-    hyena("argentina/matches/upcoming"),
-    hyena("argentina/matches/recent")
+    hyenaAPI("argentina/matches/upcoming"),
+    hyenaAPI("argentina/matches/recent")
   ]);
 
   if (res) {

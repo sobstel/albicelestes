@@ -1,4 +1,4 @@
-import db from "../lib/api/db";
+import internalAPI from "../lib/api/internal";
 import Layout from "../components/Layout";
 import Fixtures from "../components/Fixtures";
 
@@ -18,7 +18,8 @@ const ArchivePage = ({ archive }: Props) => {
 };
 
 ArchivePage.getInitialProps = async () => {
-  const result = await db("archive");
+  const result = await internalAPI("archive");
+  // TODO: handle errors (empty file) properly
   if (!result) return { archive: [] };
   const { archive } = result;
   return { archive };
