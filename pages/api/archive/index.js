@@ -1,4 +1,3 @@
-import { NextApiRequest, NextApiResponse } from "next";
 import { hyenaDB as db } from "../../../lib/db";
 
 export default async function handle(_req, res) {
