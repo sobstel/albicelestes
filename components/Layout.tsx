@@ -13,7 +13,11 @@ interface NavLinkProps {
 }
 
 const NavLink = withRouter(({ href, last, children }: NavLinkProps) => {
-  const classNames = ["inline-block", "lowercase"];
+  const classNames = [
+    "inline-block",
+    "lowercase",
+    "text-blue-200 hover:text-white"
+  ];
 
   if (!last) {
     classNames.push("mr-4");
