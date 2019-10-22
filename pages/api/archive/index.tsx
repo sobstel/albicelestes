@@ -1,21 +1,19 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-// @ts-ignore
-import low from "lowdb";
-// @ts-ignore
-import FileSync from "lowdb/adapters/FileSync";
+// import low from "lowdb";
+// import FileSync from "lowdb/adapters/FileSync";
 
-const adapter = new FileSync("./db/hyena.json");
-const db = low(adapter);
+// const adapter = new FileSync("./db/hyena.json");
+// const db = low(adapter);
 
-type PartialMatch = {
-  macth_id: string;
-  date: string;
-  time: string;
-  home_name: string;
-  away_name: string;
-  ft?: [];
-};
+// type PartialMatch = {
+//   macth_id: string;
+//   date: string;
+//   time: string;
+//   home_name: string;
+//   away_name: string;
+//   ft?: [];
+// };
 
 export default function handle(_req: NextApiRequest, res: NextApiResponse) {
   // TODO: limit by start year and end year
