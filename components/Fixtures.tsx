@@ -18,14 +18,10 @@ const Fixtures = ({ title, matches }: Props) => {
       {matches.map(match => {
         const homeSlug = slugify(match.home_name, { lower: true });
         const awaySlug = slugify(match.away_name, { lower: true });
-        const matchLink = `/matches/${homeSlug}-${awaySlug}/${match.match_id}`;
+        const href = `/matches/${homeSlug}-${awaySlug}/${match.match_id}`;
 
         return (
-          <Link
-            key={match.match_id}
-            href={`/match?id=${match.match_id}`}
-            as={matchLink}
-          >
+          <Link key={match.match_id} href={href}>
             <a className="text-blue-600 hover:text-blue-400">
               <p>
                 {formatDate(match.date, match.time)}{" "}

@@ -1,8 +1,8 @@
 import moment from "moment";
-import hyena from "../lib/hyena";
-import Layout from "../components/Layout";
-import ExpatsMatch from "../components/expats/Match";
-import ExpatsNav from "../components/expats/Nav";
+import hyena from "../../lib/hyena";
+import Layout from "../../components/Layout";
+import ExpatsMatch from "../../components/expats/Match";
+import ExpatsNav from "../../components/expats/Nav";
 
 interface Props {
   date: string;
@@ -21,7 +21,7 @@ const ExpatsPage = ({ date, expatsMatches }: Props) => (
 
 ExpatsPage.getInitialProps = async ({ res, query }: any) => {
   const todayObj = moment();
-  const dateObj = query.date ? moment(query.date) : todayObj;
+  const dateObj = moment(query.date);
 
   const date = dateObj.format("YYYY-MM-DD");
   const expatsMatches = await hyena(`argentina/expats/${date}`);

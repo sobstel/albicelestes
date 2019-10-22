@@ -1,3 +1,4 @@
+import moment from "moment";
 import Head from "next/head";
 import Link from "next/link";
 import { withRouter } from "next/router";
@@ -6,33 +7,30 @@ import "../style.css";
 
 interface NavLinkProps {
   href: string;
-  as?: string;
   last?: boolean;
   children: string;
   router: any;
 }
 
-const NavLink = withRouter(
-  ({ href, as, last, children, router }: NavLinkProps) => {
-    const classNames = ["inline-block", "lowercase"];
+const NavLink = withRouter(({ href, last, children, router }: NavLinkProps) => {
+  const classNames = ["inline-block", "lowercase"];
 
-    classNames.push(
-      router.asPath === href || router.asPath === as
-        ? "text-white"
-        : "text-blue-200 hover:text-white"
-    );
+  console.log(router);
 
-    if (!last) {
-      classNames.push("mr-4");
-    }
+  classNames.push(
+    router.asPath === href ? "text-white" : "text-blue-200 hover:text-white"
+  );
 
-    return (
-      <Link href={href} as={as || href}>
-        <a className={classNames.join(" ")}>{children}</a>
-      </Link>
-    );
+  if (!last) {
+    classNames.push("mr-4");
   }
-);
+
+  return (
+    <Link href={href}>
+      <a className={classNames.join(" ")}>{children}</a>
+    </Link>
+  );
+});
 
 NavLink.defaultProps = {
   last: false
@@ -62,14 +60,16 @@ export default ({ children, title }: Props) => {
         <div className="bg-gray-100">
           <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
             <div className="text-white mr-6">
-              <Link href="/index" as="/">
+              <Link href="/">
                 <a className="font-semibold text-2xl uppercase">Albicelestes</a>
               </Link>
             </div>
             <div className="flex-grow">
-              {/* <NavLink href="/index" as="/" last>
+              {/* <NavLink href="/" as="/" last>
               </NavLink> */}
-              <NavLink href="/expats">Expats</NavLink>
+              <NavLink href={`/expats/${moment().format("YYYY-MM-DD")}`}>
+                Expats
+              </NavLink>
             </div>
           </nav>
 
