@@ -9,6 +9,7 @@ interface Props {
 const ArchivePage = ({ archive }: Props) => {
   return (
     <Layout title="Archive">
+      <p className="mb-4">THIS LIST IS INCOMPLETE (FOR NOW)</p>
       {archive.map(({ year, matches }: { year: number; matches: any[] }) => (
         <Fixtures title={year.toString()} matches={matches} isArchive />
       ))}

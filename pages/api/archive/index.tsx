@@ -21,31 +21,33 @@ export default function handle(_req: NextApiRequest, res: NextApiResponse) {
   // TODO: limit by start year and end year
   // res.json({ archive: req.query });
 
-  const archive = db
-    .get("matches")
-    .map((match: any) =>
-      db._.pick(match, [
-        "match_id",
-        "date",
-        "time",
-        "home_name",
-        "away_name",
-        "ended",
-        "ft"
-      ])
-    )
-    .reverse()
-    .reduce((grouped: any[], match: PartialMatch) => {
-      const year = parseInt(match["date"].substring(0, 4), 10);
-      let groupIndex = db._.findIndex(grouped, ["year", year]);
-      if (groupIndex === -1) {
-        const groupedLength = grouped.push({ year: year, matches: [] });
-        groupIndex = groupedLength - 1;
-      }
-      grouped[groupIndex].matches.push(match);
-      return grouped;
-    }, [])
-    .value();
+  res.json({ archive: "test" });
 
-  res.json({ archive });
+  // const archive = db
+  //   .get("matches")
+  //   .map((match: any) =>
+  //     db._.pick(match, [
+  //       "match_id",
+  //       "date",
+  //       "time",
+  //       "home_name",
+  //       "away_name",
+  //       "ended",
+  //       "ft"
+  //     ])
+  //   )
+  //   .reverse()
+  //   .reduce((grouped: any[], match: PartialMatch) => {
+  //     const year = parseInt(match["date"].substring(0, 4), 10);
+  //     let groupIndex = db._.findIndex(grouped, ["year", year]);
+  //     if (groupIndex === -1) {
+  //       const groupedLength = grouped.push({ year: year, matches: [] });
+  //       groupIndex = groupedLength - 1;
+  //     }
+  //     grouped[groupIndex].matches.push(match);
+  //     return grouped;
+  //   }, [])
+  //   .value();
+
+  // res.json({ archive });
 }
