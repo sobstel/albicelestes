@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Fixtures from "../components/Fixtures";
-import hyena from "../lib/hyena";
+import hyena from "../lib/api/hyena";
 
 interface Props {
   upcomingMatches: any[];

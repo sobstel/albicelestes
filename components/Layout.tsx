@@ -63,9 +63,8 @@ export default ({ children, title }: Props) => {
               </Link>
             </div>
             <div className="flex-grow">
-              {/* <NavLink href="/" as="/" last>
-              </NavLink> */}
-              <NavLink href={`/expats/${moment().format("YYYY-MM-DD")}`}>
+              <NavLink href="/archive">Archive</NavLink>
+              <NavLink href={`/expats/${moment().format("YYYY-MM-DD")}`} last>
                 Expats
               </NavLink>
             </div>

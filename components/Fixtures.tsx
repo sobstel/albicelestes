@@ -6,9 +6,10 @@ import Section from "./layout/Section";
 interface Props {
   title: string;
   matches: any[];
+  isArchive?: boolean;
 }
 
-const Fixtures = ({ title, matches }: Props) => {
+const Fixtures = ({ title, matches, isArchive }: Props) => {
   if (matches.length === 0) {
     return null;
   }
@@ -18,7 +19,9 @@ const Fixtures = ({ title, matches }: Props) => {
       {matches.map(match => {
         const homeSlug = slugify(match.home_name, { lower: true });
         const awaySlug = slugify(match.away_name, { lower: true });
-        const href = `/matches/${homeSlug}-${awaySlug}/${match.match_id}`;
+        const matchYear = match.date.substring(0, 4);
+        const basePath = isArchive ? `/archive/${matchYear}` : "/matches";
+        const href = `${basePath}/${homeSlug}-${awaySlug}/${match.match_id}`;
 
         return (
           <Link key={match.match_id} href={href}>
@@ -37,7 +40,8 @@ const Fixtures = ({ title, matches }: Props) => {
 };
 
 Fixtures.defaultProps = {
-  matches: []
+  matches: [],
+  isArchive: false
 };
 
 export default Fixtures;
