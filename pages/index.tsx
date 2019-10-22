@@ -10,7 +10,7 @@ interface Props {
 const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   <Layout title="¡Vamos Argentina! 🇦🇷">
     <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
-    <Fixtures title="Recent fixtures" matches={recentMatches.reverse()} />
+    <Fixtures title="Recent fixtures" matches={recentMatches} />
   </Layout>
 );
 
@@ -27,7 +27,7 @@ IndexPage.getInitialProps = async ({ res }: any) => {
     );
   }
 
-  return { upcomingMatches, recentMatches };
+  return { upcomingMatches, recentMatches: recentMatches.reverse() };
 };
 
 export default IndexPage;
