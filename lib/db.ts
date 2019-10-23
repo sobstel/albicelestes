@@ -1,6 +1,8 @@
 import low from "lowdb";
 import MemoryAdapter from "lowdb/adapters/Memory";
 
-import hyenaJS from "../db/hyena";
+import hyenaDB from "../db/hyena";
 
-export const hyenaDB = low(new MemoryAdapter("", { defaultValue: hyenaJS }));
+const db = low(new MemoryAdapter("", { defaultValue: hyenaDB }));
+
+export default db;

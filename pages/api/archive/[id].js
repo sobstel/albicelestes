@@ -1,4 +1,4 @@
-import { hyenaDB as db } from "../../../lib/db";
+import db from "../../../lib/db";
 
 export default function handle(req, res) {
   const { id } = req.query;
