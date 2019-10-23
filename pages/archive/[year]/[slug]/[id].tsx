@@ -17,7 +17,7 @@ const title = (match: {
     `${match.home_name} v ${match.away_name} ${match.ft.join("-")}`,
     match.date,
     match.competition_name
-  ].join(" - ");
+  ].join(" | ");
 };
 
 const ArchiveMatchPage = ({ match }: any) => {

@@ -20,7 +20,7 @@ const title = (match: {
     `${match.home_name} v ${match.away_name}`,
     match.date,
     match.competition_name
-  ].join(" - ");
+  ].join(" | ");
 };
 
 const MatchPage = ({ match }: Props) => (

@@ -25,12 +25,10 @@ const Fixtures = ({ title, matches, isArchive }: Props) => {
 
         return (
           <Link key={match.match_id} href={href}>
-            <a className="text-blue-600 hover:text-blue-400">
-              <p>
-                {formatDate(match.date, match.time)}{" "}
-                {`${match.home_name} - ${match.away_name}`}
-                {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
-              </p>
+            <a className="block text-blue-600 hover:text-blue-400">
+              {formatDate(match.date, match.time)}{" "}
+              {`${match.home_name} - ${match.away_name}`}
+              {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
             </a>
           </Link>
         );
