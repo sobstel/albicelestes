@@ -29,19 +29,19 @@ axios
       })
     ).then(function(results) {
       results.map(function({ data: match }) {
-        console.log(`${match.date} ${match.home_name} v ${match.away_name}`);
-
         const lastDate = fs.readFileSync(`${__dirname}/.hyena`, "utf8");
 
         if (!match.ended || match.date <= lastDate) {
           return;
         }
 
+        console.log(`${match.date} ${match.home_name} v ${match.away_name}`);
+
         db.get("matches")
           .push(match)
           .write();
 
-        const data = adapter.serialize(db.getState());
+        const data = JSON.stringify(db.getState());
         fs.writeFileSync(
           `${__dirname}/hyena.js`,
           `export default ${data}`,
