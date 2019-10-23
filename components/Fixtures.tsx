@@ -1,5 +1,5 @@
-import Link from "next/link";
 import slugify from "slugify";
+import Link from "next/link";
 import { formatDate } from "../lib/date";
 import Section from "./layout/Section";
 

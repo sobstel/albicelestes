@@ -1,4 +1,20 @@
+import slugify from "slugify";
+import Link from "next/link";
 import Section from "../layout/Section";
+
+function PlayerName({ event, match, type }) {
+  if (match[`${type}_name`] === "Argentina") {
+    const id = event.person_id;
+    const slug = slugify(event.name, { lower: true });
+    return (
+      <Link href={`/players/${slug}/${id}`}>
+        <a className="text-blue-600 hover:text-blue-400">{event.name}</a>
+      </Link>
+    );
+  }
+
+  return event.name;
+}
 
 function coachName(match, type) {
   if (!match[type + "_coach"]) {
@@ -22,10 +38,16 @@ export default ({ match }) => {
                   {!event.in && (
                     <>
                       {index > 0 && ", "}
-                      {event.name}
+                      <PlayerName event={event} match={match} type={type} />
                     </>
                   )}
-                  {event.in && ` (${event.in}' ${event.name})`}
+                  {event.in && (
+                    <>
+                      {` (${event.in}' `}
+                      <PlayerName event={event} match={match} type={type} />
+                      {`)`}
+                    </>
+                  )}
                 </span>
               ))}
             </Section>

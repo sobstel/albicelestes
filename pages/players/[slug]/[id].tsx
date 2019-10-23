@@ -8,8 +8,9 @@ interface Props {
 }
 
 const PlayerPage = ({ matchesByYear, slug }: Props) => {
+  const title = slug.charAt(0).toUpperCase() + slug.slice(1);
   return (
-    <Layout title={`${slug} | Argentina Players`}>
+    <Layout title={`${title} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{slug}</h2>
       {matchesByYear.map(
         ({ year, matches }: { year: number; matches: any[] }) => (
