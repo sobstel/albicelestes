@@ -1,13 +1,14 @@
-import db from "../../../lib/db";
+import { chain, pick, findIndex } from "lodash";
+import data from "../../../db/data";
 
 export default async function handle(_req, res) {
   // TODO: limit by start year and end year
   // res.json({ archive: req.query });
 
-  const archive = db
+  const archive = chain(data)
     .get("matches")
     .map(match =>
-      db._.pick(match, [
+      pick(match, [
         "match_id",
         "date",
         "time",
@@ -20,7 +21,7 @@ export default async function handle(_req, res) {
     .reverse()
     .reduce((grouped, match) => {
       const year = parseInt(match["date"].substring(0, 4), 10);
-      let groupIndex = db._.findIndex(grouped, ["year", year]);
+      let groupIndex = findIndex(grouped, ["year", year]);
       if (groupIndex === -1) {
         const groupedLength = grouped.push({ year: year, matches: [] });
         groupIndex = groupedLength - 1;
