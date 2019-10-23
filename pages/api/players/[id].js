@@ -1,20 +1,21 @@
-import db from "../../../lib/db";
+import { chain, find, pick } from "lodash";
+import data from "../../../db/data";
 
 export default function handle(req, res) {
   const { id } = req.query;
 
-  const matches = db
+  const matches = chain(data)
     .get("matches")
     .filter(match => {
       return (
         (match["home_players"] &&
-          db._.find(match["home_players"], ["person_id", id])) ||
+          find(match["home_players"], ["person_id", id])) ||
         (match["away_players"] &&
-          db._.find(match["away_players"], ["person_id", id]))
+          find(match["away_players"], ["person_id", id]))
       );
     })
     .map(match =>
-      db._.pick(match, [
+      pick(match, [
         "match_id",
         "date",
         "time",
