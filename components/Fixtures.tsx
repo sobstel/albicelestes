@@ -24,7 +24,7 @@ const Fixtures = ({ title, matches, isArchive }: Props) => {
         const href = `${basePath}/${homeSlug}-${awaySlug}/${match.match_id}`;
 
         return (
-          <Link key={match.match_id} href={href}>
+          <Link key={match.match_id} href={href} prefetch={false}>
             <a className="block text-blue-600 hover:text-blue-400">
               {formatDate(match.date, match.time)}{" "}
               {`${match.home_name} - ${match.away_name}`}

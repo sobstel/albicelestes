@@ -7,7 +7,7 @@ function PlayerName({ event, match, type }) {
     const id = event.person_id;
     const slug = slugify(event.name, { lower: true });
     return (
-      <Link href={`/players/${slug}/${id}`}>
+      <Link href={`/players/${slug}/${id}`} prefetch={false}>
         <a className="text-blue-600 hover:text-blue-400">{event.name}</a>
       </Link>
     );

@@ -32,7 +32,7 @@ function NavLink({ date, days }: NavLinkProps) {
 
   return (
     <li className="mr-4">
-      <Link href={`/expats/${linkDate}`}>
+      <Link href={`/expats/${linkDate}`} prefetch={false}>
         <a className={`font-semibold uppercase ${textColor}`}>{linkDate}</a>
       </Link>
     </li>
