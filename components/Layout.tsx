@@ -43,7 +43,7 @@ export default ({ children, title }: Props) => {
   return (
     <div>
       <Head>
-        <title>{title} | Albicelestes.com</title>
+        <title>{title} - Albicelestes</title>
         <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
 
