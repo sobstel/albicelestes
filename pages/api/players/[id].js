@@ -1,4 +1,5 @@
 import { chain, find, pick } from "lodash";
+import groupMatchesByDateReducer from "../../../lib/groupMatchesByDateReducer";
 import data from "../../../db/data";
 
 export default function handle(req, res) {
@@ -25,6 +26,7 @@ export default function handle(req, res) {
         "ft"
       ])
     )
+    .reduce(groupMatchesByDateReducer, [])
     .reverse()
     .value();
 

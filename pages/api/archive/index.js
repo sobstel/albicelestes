@@ -1,4 +1,5 @@
-import { chain, pick, findIndex } from "lodash";
+import { chain, pick } from "lodash";
+import groupMatchesByDateReducer from "../../../lib/groupMatchesByDateReducer";
 import data from "../../../db/data";
 
 export default async function handle(_req, res) {
@@ -19,16 +20,7 @@ export default async function handle(_req, res) {
       ])
     )
     .reverse()
-    .reduce((grouped, match) => {
-      const year = parseInt(match["date"].substring(0, 4), 10);
-      let groupIndex = findIndex(grouped, ["year", year]);
-      if (groupIndex === -1) {
-        const groupedLength = grouped.push({ year: year, matches: [] });
-        groupIndex = groupedLength - 1;
-      }
-      grouped[groupIndex].matches.push(match);
-      return grouped;
-    }, [])
+    .reduce(groupMatchesByDateReducer, [])
     .value();
 
   res.json({ archive });
