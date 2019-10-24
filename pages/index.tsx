@@ -15,10 +15,10 @@ const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
 );
 
 IndexPage.getInitialProps = async ({ res }: any) => {
-  const [upcomingMatches, recentMatches] = await Promise.all([
+  const [upcomingMatches, recentMatches] = (await Promise.all([
     hyenaAPI("argentina/matches/upcoming"),
     hyenaAPI("argentina/matches/recent")
-  ]);
+  ])).map((matches: any[]) => matches.reverse());
 
   if (res) {
     res.setHeader(
@@ -27,7 +27,7 @@ IndexPage.getInitialProps = async ({ res }: any) => {
     );
   }
 
-  return { upcomingMatches, recentMatches: recentMatches.reverse() };
+  return { upcomingMatches, recentMatches };
 };
 
 export default IndexPage;
