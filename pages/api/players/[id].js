@@ -26,8 +26,8 @@ export default function handle(req, res) {
         "ft"
       ])
     )
-    .reduce(groupMatchesByDateReducer, [])
     .reverse()
+    .reduce(groupMatchesByDateReducer, [])
     .value();
 
   res.json({ matches });
