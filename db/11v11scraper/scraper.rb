@@ -20,10 +20,7 @@ def scrape(url, css, with: nil)
   result = doc(content).css(css).to_a
   puts "#{result.count} elements found"
 
-  if with
-    puts "applying #{with.to_s}..."
-    result.collect! { |item| with.new(item) }
-  end
+  result.collect! { |item| with.new(item) } if with
   puts "...done.\n\n"
 
   result
@@ -43,7 +40,6 @@ matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |li
       cards: match.cards,
       coaches: match.coaches,
       lineups: match.lineups,
-      subs: match.subs,
     }
     puts output
     break
