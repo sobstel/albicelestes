@@ -21,11 +21,22 @@ module Eleven
     end
 
     def score
-      rows[3].text.strip.split("-").collect(&:to_i)
+      rows[3].text.strip.split("-", 2).collect(&:to_i)
     end
 
-    def competition_name
-      rows[4].text.to_s
+    def pen
+      text = rows[3].text.strip.tr("()", "")
+      return nil unless text.include?(" ")
+
+      text.split(" ", 2).last.split("-", 2).collect(&:to_i)
+    end
+
+    def competition
+      name = rows[4].text.to_s
+      return "Friendly" if ['International Friendly', 'FIFA 90 World Cup'].include?(name)
+      return "World Cup" if name == "FIFA World Cup"
+
+      name
     end
 
     private

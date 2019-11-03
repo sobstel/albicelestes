@@ -43,7 +43,7 @@ export default ({ children, title }: Props) => {
   return (
     <div>
       <Head>
-        <title>{title} | Albicelestes</title>
+        <title>{title} | Albicelestes 🇦🇷</title>
         <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
 
@@ -81,6 +81,7 @@ export default ({ children, title }: Props) => {
           >
             sobstel
           </a>
+          . ¡vamos argentina!
         </footer>
       </div>
     </div>

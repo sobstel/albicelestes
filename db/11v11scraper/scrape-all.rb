@@ -1,4 +1,5 @@
 require "http"
+require "json"
 require "nokogiri"
 require_relative "./lib/eleven"
 
@@ -27,22 +28,28 @@ def scrape(url, css, with: nil)
 end
 
 matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |link|
-  scrape(link.attr("href"), "tbody tr", with: Eleven::Row).collect do |row|
+  scrape(link.attr("href"), "tbody tr", with: Eleven::Row).reverse.collect do |row|
     match = scrape(row.path, ".match-report", with: Eleven::Match).first
-
-    output = {
+    {
       id: row.id,
       date: row.date,
-      competition_name: row.competition_name,
+      competition: row.competition,
       teams: match.teams,
-      ft: row.score,
+      score: row.score,
+      pen: row.pen,
+      result: row.result,
       goals: match.goals,
       cards: match.cards,
       coaches: match.coaches,
       lineups: match.lineups,
-    }
-    puts output
-    break
+  }.compact
   end
-  break
 end
+
+content = {
+  matches: matches.flatten.reverse
+  # sort_by { |m| m.date }
+}
+
+File.write("#{__dir__}/../11v11.json", JSON.pretty_generate(content));
+File.write("#{__dir__}/../11v11.js", "export default #{JSON.generate(content)}");

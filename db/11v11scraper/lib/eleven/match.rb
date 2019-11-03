@@ -1,3 +1,5 @@
+require "active_support/core_ext/string"
+
 module Eleven
   class Match
     def initialize(element)
@@ -5,7 +7,7 @@ module Eleven
     end
 
     def teams
-      %w[home away].collect do |type|
+      @_teams ||= %w[home away].collect do |type|
         link = element.css(".teams-new .#{type} .teamname a")
         {
           slug: link.attr("href").to_s.split("/").last,
@@ -18,8 +20,8 @@ module Eleven
       %w[home away].collect do |type|
         name_el = element.css(".teams-new .#{type} p b")
         {
-          name: name_el.text.to_s
-        }
+          name: name_el.text.to_s.presence
+        }.compact.presence
       end
     end
 
@@ -29,12 +31,11 @@ module Eleven
           columns = row.css("td")
           name = columns[0].text.to_s
           {
-            id: player_id_from_name(type, name),
+            id: (player_id_from_name(type, name) if arg_type?(type)),
             name: name,
-            # TODO: goal qualifiers? [1]
-            min: columns[2].text.to_s,
-            # TODO: type: [3]
-          }
+            min: columns[2].text.to_s.presence,
+            type: columns[3].css("img").attr("alt").to_s.presence,
+          }.compact
         end
       end
     end
@@ -44,18 +45,18 @@ module Eleven
         element.css(".lineup:first-of-type .#{type} .player a").each_with_object([]) do |link, lineup|
           name = link.text.to_s
           lineup << {
-            id: player_id_from_link(link),
+            id: (player_id_from_link(link) if arg_type?(type)),
             name: name,
-          }
+          }.compact
 
           sub = subs_index(type)[name]
           if sub
             lineup.last[:out] = sub[:min]
             lineup <<  {
-              id: player_id_from_name(type, sub[:name]),
+              id: (player_id_from_name(type, sub[:name]) if arg_type?(type)),
               name: sub[:name],
               in: sub[:min],
-            }
+            }.compact
           end
         end
       end
@@ -67,11 +68,11 @@ module Eleven
           columns = row.css("td")
           name = columns[0].text.to_s
           {
-            id: player_id_from_name(type, name),
+            id: (player_id_from_name(type, name) if arg_type?(type)),
             name: columns[0].text.to_s,
-            min: columns[1].text.to_s,
-            type: columns[2].css('span').text.to_s,
-          }
+            min: columns[1].text.to_s.presence,
+            type: columns[2].css('span').text.to_s.presence,
+          }.compact
         end
       end
     end
@@ -104,15 +105,22 @@ module Eleven
         element.css(".substitutions .#{type} tr").collect do |row|
           columns = row.css("td")
           substituted = columns[0].css("span.substituted").text.strip.to_s
+          min = columns[1].text.to_s.presence
+          min = "" if min == 0
           [
             substituted,
             {
               name: columns[0].css("span.substitute").text.strip.to_s,
-              min: columns[1].text.to_s,
+              min:  min,
             }
           ]
         end
       ]
+    end
+
+    def arg_type?(type)
+      @_arg_type ||= teams[0][:slug] == 'argentina' ? 'home' : 'away'
+      @_arg_type == type
     end
 
     attr_reader :element

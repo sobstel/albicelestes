@@ -8,7 +8,7 @@ interface Props {
 }
 
 const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
-  <Layout title="¡Vamos Argentina! 🇦🇷">
+  <Layout title="Ultimate La Selección Database">
     <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
     <Fixtures title="Recent fixtures" matches={recentMatches} />
   </Layout>
