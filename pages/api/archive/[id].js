@@ -6,7 +6,7 @@ export default function handle(req, res) {
 
   const match = chain(data)
     .get("matches")
-    .find({ id: parseInt(id) })
+    .find({ id })
     .value();
 
   res.json({ match });
