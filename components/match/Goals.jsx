@@ -13,7 +13,7 @@ export default ({ match }) => {
       {goals.map((goal, index) => (
         <p key={index}>
           {goal.name} {goal.min && `${goal.min}'`}
-          {goal.type !== "G" && ` [${goal.code}] `}
+          {goal.type !== "G" && ` [${goal.type}] `}
         </p>
       ))}
     </Section>
