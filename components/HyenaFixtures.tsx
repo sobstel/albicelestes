@@ -15,11 +15,11 @@ const HyenaFixtures = ({ title, matches }: Props) => {
     <Section title={title}>
       {matches.map(match => {
         return (
-          <>
-            {formatDate(match.date, match.time)}{" "}
+          <p>
+            {formatDate(match.date)}{" "}
             {`${match.home_name} - ${match.away_name}`}
             {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
-          </>
+          </p>
         );
       })}
     </Section>
