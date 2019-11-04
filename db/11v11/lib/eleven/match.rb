@@ -2,6 +2,8 @@ require "active_support/core_ext/string"
 
 module Eleven
   class Match
+    include IdEncoder
+
     def initialize(element)
       @element = element
     end
@@ -42,7 +44,7 @@ module Eleven
                  nil
                end
           {
-            id: id,
+            id: encode(id),
             name: name,
             min: columns[2].text.to_s.presence,
             type: goal_type,
@@ -56,7 +58,7 @@ module Eleven
         element.css(".lineup:first-of-type .#{type} .player a").each_with_object([]) do |link, lineup|
           name = link.text.to_s
           lineup << {
-            id: (player_id_from_link(link) if arg_type?(type)),
+            id: (encode(player_id_from_link(link)) if arg_type?(type)),
             name: name,
           }.compact
 
@@ -64,7 +66,7 @@ module Eleven
           if sub
             lineup.last[:out] = sub[:min]
             lineup <<  {
-              id: (player_id_from_name(type, sub[:name]) if arg_type?(type)),
+              id: (encode(player_id_from_name(type, sub[:name])) if arg_type?(type)),
               name: sub[:name],
               in: sub[:min],
             }.compact
@@ -79,7 +81,7 @@ module Eleven
           columns = row.css("td")
           name = columns[0].text.to_s
           {
-            id: (player_id_from_name(type, name) if arg_type?(type)),
+            id: (encode(player_id_from_name(type, name)) if arg_type?(type)),
             name: columns[0].text.to_s,
             min: columns[1].text.to_s.presence,
             type: columns[2].css('span').text.to_s.presence,

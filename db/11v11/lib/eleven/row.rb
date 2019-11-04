@@ -1,11 +1,13 @@
 module Eleven
   class Row
+    include IdEncoder
+
     def initialize(element)
       @rows = element.css("td")
     end
 
     def id
-      path.to_s.delete_suffix('/').match(/(\d+)$/).to_s.to_i
+      encode(path.to_s.delete_suffix('/').match(/(\d+)$/).to_s.to_i)
     end
 
     def path
