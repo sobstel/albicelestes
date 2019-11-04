@@ -8,11 +8,14 @@ module Eleven
 
     def teams
       @_teams ||= %w[home away].collect do |type|
-        link = element.css(".teams-new .#{type} .teamname a")
+        wrapper = element.css(".teams-new .#{type} .teamname")
+        link = wrapper.css("a")
+        slug = link ? link.attr("href").to_s.split("/").last : nil
+        name = link ? link.text.to_s : wrapper.children.last.text.strip
         {
-          slug: link.attr("href").to_s.split("/").last,
-          name: link.text.to_s
-        }
+          slug: slug,
+          name: name,
+        }.compact
       end
     end
 
