@@ -1,11 +1,24 @@
 require 'minitest/spec'
 require 'minitest/autorun'
+require 'nokogiri'
 require_relative '../../lib/eleven'
 
 describe Eleven::Match do
-  describe ".teams" do 
-    it "can be created" do
-      Eleven::Match.new(nil)
+  
+  let(:match) do
+    content = File.read "#{__dir__}/../_fixtures/match#{fixture}.html"
+    Eleven::Match.new Nokogiri::HTML(content)
+  end
+
+  describe ".teams" do
+    describe "unlinked team" do
+      let(:fixture) { '1972-concacaf' }
+
+      it "team name only (with no slug)" do
+        teams = match.teams
+        assert_equal({ slug: 'argentina', name: 'Argentina'}, teams.first)
+        assert_equal({ name: 'CONCACAF'}, teams.last)
+      end
     end
   end
 end

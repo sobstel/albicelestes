@@ -9,7 +9,7 @@ module Eleven
     def teams
       @_teams ||= %w[home away].collect do |type|
         wrapper = element.css(".teams-new .#{type} .teamname")
-        link = wrapper.css("a")
+        link = wrapper.css("a").presence
         slug = link ? link.attr("href").to_s.split("/").last : nil
         name = link ? link.text.to_s : wrapper.children.last.text.strip
         {
