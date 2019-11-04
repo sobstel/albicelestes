@@ -30,11 +30,19 @@ module Eleven
         element.css(".goals .#{type} tr").collect do |row|
           columns = row.css("td")
           name = columns[0].text.to_s
+          goal_type = columns[3].css("img").attr("alt").to_s.presence
+          id = if arg_type?(type)
+                 player_id_from_name(type, name) 
+               elsif goal_type == "OG"
+                 player_id_from_name(type == "home" ? "away" : "home", name)
+               else
+                 nil
+               end
           {
-            id: (player_id_from_name(type, name) if arg_type?(type)),
+            id: id,
             name: name,
             min: columns[2].text.to_s.presence,
-            type: columns[3].css("img").attr("alt").to_s.presence,
+            type: goal_type,
           }.compact
         end
       end
@@ -106,7 +114,7 @@ module Eleven
           columns = row.css("td")
           substituted = columns[0].css("span.substituted").text.strip.to_s
           min = columns[1].text.to_s.presence
-          min = "" if min == 0
+          min = "" if min.to_i == 0
           [
             substituted,
             {
@@ -118,9 +126,12 @@ module Eleven
       ]
     end
 
-    def arg_type?(type)
+    def arg_type
       @_arg_type ||= teams[0][:slug] == 'argentina' ? 'home' : 'away'
-      @_arg_type == type
+    end
+
+    def arg_type?(type)
+      arg_type == type
     end
 
     attr_reader :element

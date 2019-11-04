@@ -48,7 +48,6 @@ end
 
 content = {
   matches: matches.flatten.reverse
-  # sort_by { |m| m.date }
 }
 
 File.write("#{__dir__}/../11v11.json", JSON.pretty_generate(content));
