@@ -34,6 +34,7 @@ matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |li
       id: row.id,
       date: row.date,
       competition: row.competition,
+      venue: match.venue,
       teams: match.teams,
       score: row.score,
       pen: row.pen,

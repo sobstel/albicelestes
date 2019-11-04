@@ -88,6 +88,16 @@ module Eleven
       end
     end
 
+    def venue
+      venue_row = element.css('.basicData tr').to_a.find do |tr|
+        tr.children.first.text.downcase.include? 'venue'
+      end
+      return nil unless venue_row
+      {
+        name: venue_row.children.last.text.strip,
+      }
+    end
+
     private
 
     def player_id_from_link(link)
