@@ -6,10 +6,9 @@ import Section from "./layout/Section";
 interface Props {
   title: string;
   matches: any[];
-  isArchive?: boolean;
 }
 
-const Fixtures = ({ title, matches, isArchive }: Props) => {
+const Fixtures = ({ title, matches }: Props) => {
   if (matches.length === 0) {
     return null;
   }
@@ -17,18 +16,19 @@ const Fixtures = ({ title, matches, isArchive }: Props) => {
   return (
     <Section title={title}>
       {matches.map(match => {
-        const homeSlug = slugify(match.home_name, { lower: true });
-        const awaySlug = slugify(match.away_name, { lower: true });
+        console.log(match);
+        const [homeTeam, awayTeam] = match.teams;
+        const homeSlug = homeTeam.slug || slugify(homeTeam.name, { lower: true });
+        const awaySlug = awayTeam.slug || slugify(awayTeam.name, { lower: true });
         const matchYear = match.date.substring(0, 4);
-        const basePath = isArchive ? `/archive/${matchYear}` : "/matches";
-        const href = `${basePath}/${homeSlug}-${awaySlug}/${match.match_id}`;
+        const href = `/archive/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`;
 
         return (
-          <Link key={match.match_id} href={href} prefetch={false}>
+          <Link key={match.id} href={href} prefetch={false}>
             <a className="block text-blue-600 hover:text-blue-400">
-              {formatDate(match.date, match.time)}{" "}
-              {`${match.home_name} - ${match.away_name}`}
-              {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
+              {formatDate(match.date)}{' '}
+              {homeTeam.name} - {awayTeam.name}{' '}
+              {match.score.join(":")}
             </a>
           </Link>
         );
@@ -39,7 +39,6 @@ const Fixtures = ({ title, matches, isArchive }: Props) => {
 
 Fixtures.defaultProps = {
   matches: [],
-  isArchive: false
 };
 
 export default Fixtures;

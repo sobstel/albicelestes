@@ -2,15 +2,14 @@ import { formatDate, formatTime } from "../../lib/date";
 import Section from "../layout/Section";
 
 export default ({ match }) => {
+  const [homeTeam, awayTeam] = match.teams;
   return (
     <Section
-      title={`${match.home_name} - ${match.away_name} ${
-        match.ft ? match.ft.join(":") : ""
+      title={`${homeTeam.name} - ${awayTeam.name} ${
+        match.score.join(":")
       }`}
     >
-      {formatDate(match.date, match.time, true)}{" "}
-      {formatTime(match.date, match.time)}, {match.competition_name}
-      {match.round_name && ` (${match.round_name})`}
+      {formatDate(match.date, true)}, {match.competition}
     </Section>
   );
 };

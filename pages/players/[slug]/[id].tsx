@@ -8,16 +8,16 @@ interface Props {
 }
 
 const PlayerPage = ({ matchesByYear, slug }: Props) => {
-  const title = slug.charAt(0).toUpperCase() + slug.slice(1);
+  const name = slug.replace(/-/g, ' ').toUpperCase();
+  const title = name;
   return (
     <Layout title={`${title} | Argentina Players`}>
-      <h2 className="mb-4 font-semibold uppercase">{slug}</h2>
+      <h2 className="mb-4 font-semibold uppercase">{title}</h2>
       {matchesByYear.map(
         ({ year, matches }: { year: number; matches: any[] }) => (
-          <Fixtures title={year.toString()} matches={matches} isArchive />
+          <Fixtures title={year.toString()} matches={matches} />
         )
       )}
-      <p className="mt-4">THIS LIST OF MATCHES MIGHT NOT BE COMPLETE YET</p>
     </Layout>
   );
 };

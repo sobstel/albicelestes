@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Fixtures from "../components/Fixtures";
+import HyenaFixtures from "../components/HyenaFixtures";
 import hyenaAPI from "../lib/api/hyena";
 
 interface Props {
@@ -9,8 +9,8 @@ interface Props {
 
 const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
   <Layout title="Ultimate La Selección Database">
-    <Fixtures title="Upcoming fixtures" matches={upcomingMatches} />
-    <Fixtures title="Recent fixtures" matches={recentMatches} />
+    <HyenaFixtures title="Upcoming fixtures" matches={upcomingMatches} />
+    <HyenaFixtures title="Recent fixtures" matches={recentMatches} />
   </Layout>
 );
 

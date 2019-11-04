@@ -7,23 +7,14 @@ export default function handle(req, res) {
 
   const matches = chain(data)
     .get("matches")
-    .filter(match => {
-      return (
-        (match["home_players"] &&
-          find(match["home_players"], ["person_id", id])) ||
-        (match["away_players"] &&
-          find(match["away_players"], ["person_id", id]))
-      );
-    })
+    .filter({ lineups: [[{ id: parseInt(id) }]] })
     .map(match =>
       pick(match, [
-        "match_id",
+        "id",
         "date",
-        "time",
-        "home_name",
-        "away_name",
-        "ended",
-        "ft"
+        "teams",
+        "score",
+        "pen"
       ])
     )
     .reverse()

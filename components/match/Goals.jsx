@@ -1,17 +1,19 @@
+import { flatten, sortBy } from "lodash";
 import Section from "../layout/Section";
 
 export default ({ match }) => {
-  if (!match.goals || match.goals.length === 0) {
-    return null;
+  const goals = sortBy(flatten(match.goals), 'min');
+
+  if (goals.length === 0) {
+    return null
   }
 
   return (
     <Section title="Goals">
-      {match.goals.map((goal, index) => (
+      {goals.map((goal, index) => (
         <p key={index}>
-          {goal.score[0]}:{goal.score[1]}&nbsp;
-          {goal.name} {goal.min}&apos;
-          {goal.code !== "G" && ` [${goal.code}] `}
+          {goal.name} {goal.min && `${goal.min}'`}
+          {goal.type !== "G" && ` [${goal.code}] `}
         </p>
       ))}
     </Section>

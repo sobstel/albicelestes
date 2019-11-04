@@ -10,13 +10,11 @@ export default async function handle(_req, res) {
     .get("matches")
     .map(match =>
       pick(match, [
-        "match_id",
+        "id",
         "date",
-        "time",
-        "home_name",
-        "away_name",
-        "ended",
-        "ft"
+        "teams",
+        "score",
+        "pen",
       ])
     )
     .reverse()

@@ -11,6 +11,9 @@ const eventLabel = event => {
 };
 
 export default ({ match }) => {
+  // TODO: verify
+  return null;
+  
   if (!match.penalty_shootout || match.penalty_shootout.length === 0) {
     return null;
   }

@@ -48,7 +48,7 @@ matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |li
 end
 
 content = {
-  matches: matches.flatten.reverse
+  matches: matches.flatten.reverse.reject { |match| match.date < '1902' }
 }
 
 File.write("#{__dir__}/../11v11.json", JSON.pretty_generate(content));

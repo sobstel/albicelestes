@@ -1,5 +1,5 @@
-import hyena from "./hyena";
+import elevenData from "./11v11";
 
-const data = hyena;
+const data = elevenData;
 
 export default data;

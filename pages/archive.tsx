@@ -10,9 +10,8 @@ const ArchivePage = ({ archive }: Props) => {
   return (
     <Layout title="Archive">
       {archive.map(({ year, matches }: { year: number; matches: any[] }) => (
-        <Fixtures title={year.toString()} matches={matches} isArchive />
+        <Fixtures title={year.toString()} matches={matches} />
       ))}
-      <p className="mt-4">THIS LIST OF MATCHES MIGHT NOT BE COMPLETE YET</p>
     </Layout>
   );
 };

@@ -7,16 +7,16 @@ import Lineups from "../../../../components/match/Lineups";
 import PenaltyShootout from "../../../../components/match/PenaltyShootout";
 
 const title = (match: {
-  home_name: string;
-  away_name: string;
-  ft: [number, number];
+  teams: [{ slug?: string, name: string }, { slug?: string, name: string }];
+  score: [number, number];
   date: string;
-  competition_name: string;
+  competition: string;
 }) => {
+  const [homeTeam, awayTeam] = match.teams;
   return [
-    `${match.home_name} v ${match.away_name} ${match.ft.join("-")}`,
+    `${homeTeam.name} v ${awayTeam.name} ${match.score.join("-")}`,
     match.date,
-    match.competition_name
+    match.competition
   ].join(" | ");
 };
 
