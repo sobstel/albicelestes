@@ -16,7 +16,6 @@ const Fixtures = ({ title, matches }: Props) => {
   return (
     <Section title={title}>
       {matches.map(match => {
-        console.log(match);
         const [homeTeam, awayTeam] = match.teams;
         const homeSlug = homeTeam.slug || slugify(homeTeam.name, { lower: true });
         const awaySlug = awayTeam.slug || slugify(awayTeam.name, { lower: true });
