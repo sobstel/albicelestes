@@ -1,5 +1,4 @@
 import { chain, find, pick } from "lodash";
-import groupMatchesByDateReducer from "../../../lib/groupMatchesByDateReducer";
 import data from "../../../db/data";
 
 export default function handle(req, res) {
@@ -8,17 +7,8 @@ export default function handle(req, res) {
   const matches = chain(data)
     .get("matches")
     .filter({ lineups: [[{ id }]] })
-    .map(match =>
-      pick(match, [
-        "id",
-        "date",
-        "teams",
-        "score",
-        "pen"
-      ])
-    )
+    .map(match => pick(match, ["id", "date", "teams", "score", "pen"]))
     .reverse()
-    .reduce(groupMatchesByDateReducer, [])
     .value();
 
   res.json({ matches });

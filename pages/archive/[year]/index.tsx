@@ -5,17 +5,15 @@ import Fixtures from "../../../components/Fixtures";
 import Nav from "../../../components/archive/Nav";
 
 interface Props {
-  archive: [];
+  matches: [];
   year: string;
 }
 
-const ArchivePage = ({ archive, year }: Props) => {
+const ArchivePage = ({ matches, year }: Props) => {
   return (
     <Layout title={`Archive ${year}`}>
       <Nav year={parseInt(year)} />
-      {archive.map(({ year, matches }: { year: number; matches: any[] }) => (
-        <Fixtures title={year.toString()} matches={matches} />
-      ))}
+      <Fixtures matches={matches} />
     </Layout>
   );
 };
@@ -24,9 +22,9 @@ ArchivePage.getInitialProps = async ({ query }: NextPageContext) => {
   const year = query.year || new Date().getFullYear();
   const result = await internalAPI(`archive?year=${year}`);
   // TODO: handle errors (empty file) properly
-  if (!result) return { archive: [] };
-  const { archive } = result;
-  return { archive, year };
+  if (!result) return { matches: [] };
+  const { matches } = result;
+  return { matches, year };
 };
 
 export default ArchivePage;

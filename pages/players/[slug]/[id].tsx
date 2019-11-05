@@ -3,21 +3,17 @@ import Layout from "../../../components/Layout";
 import Fixtures from "../../../components/Fixtures";
 
 interface Props {
-  matchesByYear: [];
+  matches: [];
   slug: string;
 }
 
-const PlayerPage = ({ matchesByYear, slug }: Props) => {
-  const name = slug.replace(/-/g, ' ').toUpperCase();
+const PlayerPage = ({ matches, slug }: Props) => {
+  const name = slug.replace(/-/g, " ").toUpperCase();
   const title = name;
   return (
     <Layout title={`${title} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{title}</h2>
-      {matchesByYear.map(
-        ({ year, matches }: { year: number; matches: any[] }) => (
-          <Fixtures title={year.toString()} matches={matches} />
-        )
-      )}
+      <Fixtures matches={matches} />
     </Layout>
   );
 };
@@ -25,8 +21,8 @@ const PlayerPage = ({ matchesByYear, slug }: Props) => {
 PlayerPage.getInitialProps = async ({ query }: any) => {
   const { id, slug } = query;
   const result = await internalAPI(`players/${id}`);
-  const { matches: matchesByYear } = result;
-  return { matchesByYear, slug };
+  const { matches } = result;
+  return { matches, slug };
 };
 
 export default PlayerPage;
