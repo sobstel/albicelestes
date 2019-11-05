@@ -1,3 +1,4 @@
+import { NextPageContext } from "next";
 import internalAPI from "../../../../lib/api/internal";
 import Layout from "../../../../components/Layout";
 import Info from "../../../../components/match/Info";
@@ -7,7 +8,7 @@ import Lineups from "../../../../components/match/Lineups";
 import PenaltyShootout from "../../../../components/match/PenaltyShootout";
 
 const title = (match: {
-  teams: [{ slug?: string, name: string }, { slug?: string, name: string }];
+  teams: [{ slug?: string; name: string }, { slug?: string; name: string }];
   score: [number, number];
   date: string;
   competition: string;
@@ -32,7 +33,7 @@ const ArchiveMatchPage = ({ match }: any) => {
   );
 };
 
-ArchiveMatchPage.getInitialProps = async ({ query }: any) => {
+ArchiveMatchPage.getInitialProps = async ({ query }: NextPageContext) => {
   const { id } = query;
   const result = await internalAPI(`archive/${id}`);
   const { match } = result;
