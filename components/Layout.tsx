@@ -24,7 +24,7 @@ const NavLink = withRouter(({ href, last, children }: NavLinkProps) => {
   }
 
   return (
-    <Link href={href} prefetch={false}>
+    <Link href={href}>
       <a className={classNames.join(" ")}>{children}</a>
     </Link>
   );

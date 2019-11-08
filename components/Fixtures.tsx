@@ -25,7 +25,7 @@ const Fixtures = ({ title, matches }: Props) => {
         const href = `/archive/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`;
 
         return (
-          <Link key={match.id} href={href} prefetch={false}>
+          <Link key={match.id} href={href}>
             <a className="block text-blue-600 hover:text-blue-400">
               {formatDate(match.date)} {homeTeam.name} - {awayTeam.name}{" "}
               {match.score.join(":")}

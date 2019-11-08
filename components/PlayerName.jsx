@@ -68,7 +68,7 @@ function PlayerName({ name, match, id = null }) {
   if (id) {
     const slug = slugify(name, { lower: true });
     return (
-      <Link href={`/players/${slug}/${id}`} prefetch={false}>
+      <Link href={`/players/${slug}/${id}`}>
         <a className="text-blue-600 hover:text-blue-400" title={name}>
           {shortName}
         </a>
