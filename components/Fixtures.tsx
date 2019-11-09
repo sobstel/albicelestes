@@ -24,16 +24,21 @@ const Fixtures = ({ title, matches }: Props) => {
         const matchYear = match.date.substring(0, 4);
 
         return (
-          <Link
-            href="/archive/[year]/[slug]/[id]"
-            as={`/archive/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`}
-            key={match.id}
-          >
-            <a className="block text-blue-600 hover:text-blue-400">
-              {formatDate(match.date)} {homeTeam.name} - {awayTeam.name}{" "}
-              {match.score.join(":")}
-            </a>
-          </Link>
+          <div key={match.id} className="mb-2">
+            <p>
+              {formatDate(match.date, true)}, {match.competition}
+            </p>
+            <p>
+              <Link
+                href="/archive/[year]/[slug]/[id]"
+                as={`/archive/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`}
+              >
+                <a className="block text-blue-600 hover:text-blue-400">
+                  {homeTeam.name} - {awayTeam.name} {match.score.join(":")}
+                </a>
+              </Link>
+            </p>
+          </div>
         );
       })}
     </Section>
