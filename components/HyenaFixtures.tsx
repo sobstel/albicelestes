@@ -15,9 +15,8 @@ const HyenaFixtures = ({ title, matches }: Props) => {
     <Section title={title}>
       {matches.map(match => {
         return (
-          <p>
-            {formatDate(match.date)}{" "}
-            {`${match.home_name} - ${match.away_name}`}
+          <p key={match.date}>
+            {formatDate(match.date)} {`${match.home_name} - ${match.away_name}`}
             {match.ended && ` ${match.ft[0]}:${match.ft[1]}`}
           </p>
         );
@@ -27,7 +26,7 @@ const HyenaFixtures = ({ title, matches }: Props) => {
 };
 
 HyenaFixtures.defaultProps = {
-  matches: [],
+  matches: []
 };
 
 export default HyenaFixtures;
