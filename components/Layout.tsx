@@ -83,15 +83,21 @@ export default ({ children, title }: Props) => {
           <div className="p-5">{children}</div>
         </div>
 
-        <footer className="text-xs opacity-50 p-5">
-          created with 💙 for 🇦🇷 by{" "}
-          <a
-            className="text-blue-600 hover:text-black"
-            href="https://sobstel.org"
-          >
-            sobstel
-          </a>
-          . ¡vamos argentina!
+        <footer className="text-xs opacity-50 p-5 clearfix">
+          <p className="float-left">
+            created with 💙 for 🇦🇷 by{" "}
+            <a
+              className="text-blue-600 hover:text-black"
+              href="https://sobstel.org"
+            >
+              sobstel
+            </a>
+          </p>
+          <p className="float-right">
+            <Link href="/links" as="/links" prefetch={false}>
+              <a className="text-blue-600 hover:text-black">links</a>
+            </Link>
+          </p>
         </footer>
       </div>
     </div>
