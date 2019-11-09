@@ -7,12 +7,13 @@ import "../style.css";
 
 interface NavLinkProps {
   href: string;
+  as: string;
   last?: boolean;
   children: string;
   router: any;
 }
 
-const NavLink = withRouter(({ href, last, children }: NavLinkProps) => {
+const NavLink = withRouter(({ href, as, last, children }: NavLinkProps) => {
   const classNames = [
     "inline-block",
     "lowercase",
@@ -24,7 +25,7 @@ const NavLink = withRouter(({ href, last, children }: NavLinkProps) => {
   }
 
   return (
-    <Link href={href}>
+    <Link href={href} as={as}>
       <a className={classNames.join(" ")}>{children}</a>
     </Link>
   );
@@ -58,13 +59,22 @@ export default ({ children, title }: Props) => {
         <div className="bg-gray-100">
           <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-5">
             <div className="text-white mr-6">
-              <Link href="/">
+              <Link href="/" as="/">
                 <a className="font-semibold text-2xl uppercase">Albicelestes</a>
               </Link>
             </div>
             <div className="flex-grow">
-              <NavLink href="/archive">Archive</NavLink>
-              <NavLink href={`/expats/${moment().format("YYYY-MM-DD")}`} last>
+              <NavLink
+                href="/archive/[year]"
+                as={`/archive/${moment().format("YYYY")}`}
+              >
+                Archive
+              </NavLink>
+              <NavLink
+                href="/expats/[date]"
+                as={`/expats/${moment().format("YYYY-MM-DD")}`}
+                last
+              >
                 Expats
               </NavLink>
             </div>

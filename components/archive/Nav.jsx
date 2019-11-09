@@ -13,7 +13,7 @@ function NavLink({ year, shift = 0, text = null }) {
 
   return (
     <li className="mr-4">
-      <Link href={`/archive/${linkYear}`}>
+      <Link href="/archive/[year]" as={`/archive/${linkYear}`}>
         <a className={`font-semibold uppercase ${textColor}`}>
           {text || linkYear}
         </a>
