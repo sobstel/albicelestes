@@ -1,4 +1,4 @@
-import { flatten, forEach, last, map, sortBy, tap } from "lodash";
+import { flatten, flow, forEach, last, map, sortBy, tap } from "lodash";
 import Section from "../layout/Section";
 import PlayerName from "../PlayerName";
 
@@ -18,7 +18,12 @@ function addScores(goals) {
 }
 
 export default ({ match }) => {
-  const goals = addScores(sortBy(flatten(indexGoals(match.goals)), "min"));
+  const goals = flow(
+    indexGoals,
+    flatten,
+    goals => sortBy(goals, "min"),
+    addScores
+  )(match.goals);
 
   if (goals.length === 0) {
     return null;
