@@ -9,10 +9,10 @@ function indexGoals(matchGoals) {
 }
 
 function addScores(goals) {
-  const score = [0, 0];
+  const currentScore = [0, 0];
   return map(goals, goal => {
-    score[goal.teamIndex] += 1;
-    goal.score = [...score];
+    currentScore[goal.teamIndex] += 1;
+    goal.score = [...currentScore];
     return goal;
   });
 }
