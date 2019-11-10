@@ -8,7 +8,15 @@ export default async function handle(req, res) {
     .get("matches")
     .filter(match => match.date.slice(0, 4) == year)
     .map(match =>
-      pick(match, ["id", "date", "competition", "teams", "score", "pen"])
+      pick(match, [
+        "id",
+        "date",
+        "competition",
+        "teams",
+        "score",
+        "pen",
+        "result"
+      ])
     )
     .reverse()
     .value();

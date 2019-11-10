@@ -7,7 +7,18 @@ export default function handle(req, res) {
   const matches = chain(data)
     .get("matches")
     .filter({ lineups: [[{ id }]] })
-    .map(match => pick(match, ["id", "date", "teams", "score", "pen"]))
+    .map(match =>
+      pick(match, [
+        "id",
+        "date",
+        "competition",
+        "teams",
+        "score",
+        "pen",
+        "result",
+        "goals"
+      ])
+    )
     .reverse()
     .value();
 
