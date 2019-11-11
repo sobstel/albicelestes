@@ -51,5 +51,5 @@ content = {
   matches: matches.flatten.reverse.reject { |match| match[:date] < '1902' }
 }
 
-File.write("#{__dir__}/../11v11.json", JSON.pretty_generate(content));
-File.write("#{__dir__}/../11v11.js", "export default #{JSON.generate(content)}");
+File.write("#{__dir__}/data.json", JSON.pretty_generate(content));
+File.write("#{__dir__}/data.js", "export default #{JSON.generate(content)}");
