@@ -1,8 +1,8 @@
 import { NextPageContext } from "next";
-import internalAPI from "../../../lib/api/internal";
-import Layout from "../../../components/Layout";
-import Fixtures from "../../../components/Fixtures";
 import Nav from "../../../components/archive/Nav";
+import Fixtures from "../../../components/Fixtures";
+import Layout from "../../../components/Layout";
+import internalAPI from "../../../lib/api/internal";
 
 interface Props {
   matches: [];
@@ -12,7 +12,7 @@ interface Props {
 const ArchivePage = ({ matches, year }: Props) => {
   return (
     <Layout title={`Archive ${year}`}>
-      <Nav year={parseInt(year)} />
+      <Nav year={year} />
       <Fixtures matches={matches} />
     </Layout>
   );

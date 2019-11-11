@@ -1,15 +1,21 @@
+import { toNumber } from "lodash";
 import Link from "next/link";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
-function NavLink({ year, shift = 0, text = null }) {
-  const linkYear = parseInt(year) + shift;
+interface NavLinkProps {
+  year: string;
+  shift?: number;
+  text?: string;
+}
+
+function NavLink({ year, shift, text }: NavLinkProps) {
+  const linkYear = toNumber(year) + toNumber(shift);
   if (linkYear < 1902 || linkYear > CURRENT_YEAR) {
     return null;
   }
 
-  const textColor =
-    shift === 0 ? "text-black" : "text-blue-600 hover:text-blue-400";
+  const textColor = shift ? "text-black" : "text-blue-600 hover:text-blue-400";
 
   return (
     <li className="mr-4">
@@ -22,7 +28,7 @@ function NavLink({ year, shift = 0, text = null }) {
   );
 }
 
-function Nav({ year }) {
+function Nav({ year }: { year: string }) {
   return (
     <ul className="flex mb-4">
       <NavLink year={year} shift={-1} text="prev" />
