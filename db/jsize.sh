@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+#
+# Converts and minifies data.js to data.json
+#
+
 require "json"
 require "uglifier"
 
