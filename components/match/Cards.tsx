@@ -1,10 +1,19 @@
-import { flatten, sortBy } from "lodash";
+import { flatten, flow, sortBy } from "lodash";
 import { Fragment } from "react";
 import Section from "../layout/Section";
 import PlayerName from "../PlayerName";
 
-export default ({ match }) => {
-  const cards = sortBy(flatten(match.cards), "min");
+interface Props {
+  match: {
+    cards: [Card[], Card[]];
+  };
+}
+
+export default ({ match }: Props) => {
+  const cards = flow(
+    flatten,
+    flattenedCards => sortBy(flattenedCards, "min")
+  )(match.cards);
 
   if (cards.length === 0) {
     return null;

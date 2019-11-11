@@ -2,19 +2,10 @@ import { flatten, flow, sortBy } from "lodash";
 import Section from "../layout/Section";
 import PlayerName from "../PlayerName";
 
-type MatchGoals = [Goal[], Goal[]];
-
 interface Props {
   match: {
-    goals: MatchGoals;
+    goals: [Goal[], Goal[]];
   };
-}
-
-interface Goal {
-  id?: string;
-  name: string;
-  min: string;
-  type: string;
 }
 
 interface IndexedGoal extends Goal {
@@ -22,7 +13,7 @@ interface IndexedGoal extends Goal {
 }
 
 interface GoalWithScore extends Goal {
-  score: [number, number];
+  score: SCORE;
 }
 
 function indexGoals(matchGoals: [Goal[], Goal[]]): IndexedGoal[][] {
@@ -43,7 +34,7 @@ export default ({ match }: Props) => {
   const goals = flow(
     indexGoals,
     flatten,
-    (flattenedGoals: IndexedGoal[]) => sortBy(flattenedGoals, "min"),
+    flattenedGoals => sortBy(flattenedGoals, "min"),
     addScores
   )(match.goals);
 
