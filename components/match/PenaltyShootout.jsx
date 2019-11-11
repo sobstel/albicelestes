@@ -1,4 +1,4 @@
-import Section from "../layout/Section";
+import Section from "components/layout/Section";
 
 const eventLabel = event => {
   if (event.code === "M") {
@@ -13,7 +13,7 @@ const eventLabel = event => {
 export default ({ match }) => {
   // TODO: verify
   return null;
-  
+
   if (!match.penalty_shootout || match.penalty_shootout.length === 0) {
     return null;
   }

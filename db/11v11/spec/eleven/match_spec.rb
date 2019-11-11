@@ -1,7 +1,7 @@
 require 'minitest/spec'
 require 'minitest/autorun'
 require 'nokogiri'
-require_relative '../../lib/eleven'
+require_relative 'lib/eleven'
 
 describe Eleven::Match do
   let(:match) do

@@ -1,5 +1,5 @@
-import Section from "../layout/Section";
-import PlayerName from "../PlayerName";
+import Section from "components/layout/Section";
+import PlayerName from "components/PlayerName";
 
 function coachName(coaches, team_index) {
   if (!coaches[team_index]) {

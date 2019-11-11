@@ -1,5 +1,5 @@
 import { NextPageContext } from "next";
-import internalAPI from "../../../../lib/api/internal";
+import internalAPI from "lib/api/internal";
 import Layout from "../../../../components/Layout";
 import Info from "../../../../components/match/Info";
 import Goals from "../../../../components/match/Goals";

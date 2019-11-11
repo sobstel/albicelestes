@@ -1,5 +1,5 @@
-import { formatDate } from "../../lib/date";
-import Section from "../layout/Section";
+import { formatDate } from "lib/date";
+import Section from "components/layout/Section";
 
 interface Props {
   match: {

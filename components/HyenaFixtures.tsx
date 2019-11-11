@@ -1,4 +1,4 @@
-import { formatDate } from "../lib/date";
+import { formatDate } from "lib/date";
 import Section from "./layout/Section";
 
 interface Props {

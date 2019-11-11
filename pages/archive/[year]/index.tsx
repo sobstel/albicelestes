@@ -2,7 +2,7 @@ import { NextPageContext } from "next";
 import Nav from "../../../components/archive/Nav";
 import Fixtures from "../../../components/Fixtures";
 import Layout from "../../../components/Layout";
-import internalAPI from "../../../lib/api/internal";
+import internalAPI from "lib/api/internal";
 
 interface Props {
   matches: [];

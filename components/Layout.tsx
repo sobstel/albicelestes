@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { withRouter } from "next/router";
 import NextNprogress from "nextjs-progressbar";
-import "../style.css";
+import "style.css";
 
 interface NavLinkProps {
   href: string;

@@ -1,5 +1,5 @@
 import moment from "moment";
-import hyenaAPI from "../../lib/api/hyena";
+import hyenaAPI from "lib/api/hyena";
 import Layout from "../../components/Layout";
 import ExpatsMatch from "../../components/expats/Match";
 import ExpatsNav from "../../components/expats/Nav";

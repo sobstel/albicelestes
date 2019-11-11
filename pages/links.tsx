@@ -1,6 +1,6 @@
 import { map } from "lodash";
-import Layout from "../components/Layout";
-import Section from "../components/layout/Section";
+import Layout from "components/Layout";
+import Section from "components/layout/Section";
 
 const LINKS = {
   News: {

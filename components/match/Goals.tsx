@@ -1,5 +1,5 @@
 import { flatten, flow, sortBy } from "lodash";
-import Section from "../layout/Section";
+import Section from "components/layout/Section";
 import PlayerName from "../PlayerName";
 
 interface Props {

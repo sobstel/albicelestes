@@ -1,5 +1,5 @@
 import { chain, pick } from "lodash";
-import data from "../../../db/data";
+import data from "db/data";
 
 export default async function handle(req, res) {
   const year = req.query.year || new Date().getFullYear();

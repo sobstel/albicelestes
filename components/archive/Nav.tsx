@@ -1,7 +1,9 @@
-import { toNumber } from "lodash";
+import { memoize, toNumber } from "lodash";
 import Link from "next/link";
 
-const CURRENT_YEAR = new Date().getFullYear();
+const currentYear = memoize(function() {
+  return new Date().getFullYear();
+});
 
 interface NavLinkProps {
   year: string;
@@ -10,8 +12,8 @@ interface NavLinkProps {
 }
 
 function NavLink({ year, shift, text }: NavLinkProps) {
-  const linkYear = toNumber(year) + toNumber(shift);
-  if (linkYear < 1902 || linkYear > CURRENT_YEAR) {
+  const linkYear = toNumber(year) + toNumber(shift || 0);
+  if (linkYear < 1902 || linkYear > currentYear()) {
     return null;
   }
 
@@ -31,13 +33,11 @@ function NavLink({ year, shift, text }: NavLinkProps) {
 function Nav({ year }: { year: string }) {
   return (
     <ul className="flex mb-4">
-      <NavLink year={year} shift={-1} text="prev" />
       <NavLink year={year} shift={-2} />
       <NavLink year={year} shift={-1} />
       <NavLink year={year} />
       <NavLink year={year} shift={1} />
       <NavLink year={year} shift={2} />
-      <NavLink year={year} shift={1} text="next" />
     </ul>
   );
 }
