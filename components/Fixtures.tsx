@@ -35,6 +35,7 @@ const Fixtures = ({ title, matches }: Props) => {
               >
                 <a className="block text-blue-600 hover:text-blue-400">
                   {homeTeam.name} - {awayTeam.name} {match.score.join(":")}
+                  {match.pen && ` p.${match.pen.join(":")}`}
                 </a>
               </Link>
             </p>

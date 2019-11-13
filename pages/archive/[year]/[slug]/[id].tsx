@@ -1,11 +1,11 @@
 import { NextPageContext } from "next";
 import internalAPI from "lib/api/internal";
-import Layout from "../../../../components/Layout";
-import Info from "../../../../components/match/Info";
-import Goals from "../../../../components/match/Goals";
-import Cards from "../../../../components/match/Cards";
-import Lineups from "../../../../components/match/Lineups";
-import PenaltyShootout from "../../../../components/match/PenaltyShootout";
+import Layout from "components/Layout";
+import Info from "components/match/Info";
+import Goals from "components/match/Goals";
+import Cards from "components/match/Cards";
+import Lineups from "components/match/Lineups";
+import PenaltyShootout from "components/match/PenaltyShootout";
 
 const title = (match: {
   teams: [{ slug?: string; name: string }, { slug?: string; name: string }];

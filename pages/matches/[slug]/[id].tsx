@@ -1,10 +1,11 @@
 import hyenaAPI from "lib/api/hyena";
-import Layout from "../../../components/Layout";
-import Info from "../../../components/match/Info";
-import Goals from "../../../components/match/Goals";
-import Cards from "../../../components/match/Cards";
-import Lineups from "../../../components/match/Lineups";
-import PenaltyShootout from "../../../components/match/PenaltyShootout";
+import Layout from "components/Layout";
+import Info from "components/match/Info";
+import Goals from "components/match/Goals";
+import Cards from "components/match/Cards";
+import Lineups from "components/match/Lineups";
+import PenaltyShootout from "components/match/PenaltyShootout";
+import Venue from "components/match/Venue";
 
 interface Props {
   match: any;
@@ -30,6 +31,7 @@ const MatchPage = ({ match }: Props) => (
     <Lineups match={match} />
     <Cards match={match} />
     <PenaltyShootout match={match} />
+    <Venue match={match} />
   </Layout>
 );
 

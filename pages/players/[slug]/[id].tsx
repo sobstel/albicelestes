@@ -1,7 +1,7 @@
 import { flatten, filter, reduce } from "lodash";
 import internalAPI from "lib/api/internal";
-import Layout from "../../../components/Layout";
-import Fixtures from "../../../components/Fixtures";
+import Layout from "components/Layout";
+import Fixtures from "components/Fixtures";
 
 interface Props {
   id: string;

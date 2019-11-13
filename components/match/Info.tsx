@@ -1,3 +1,4 @@
+import { compact } from "lodash";
 import { formatDate } from "lib/date";
 import Section from "components/layout/Section";
 
@@ -5,6 +6,7 @@ interface Props {
   match: {
     teams: [{ name: string }, { name: string }];
     score: SCORE;
+    pen?: SCORE;
     date: string;
     competition: string;
   };
@@ -12,10 +14,14 @@ interface Props {
 
 export default ({ match }: Props) => {
   const [homeTeam, awayTeam] = match.teams;
+
+  const teams = `${homeTeam.name} - ${awayTeam.name}`;
+  const score = match.score.join(":");
+  const pen = match.pen && `p.${match.pen.join(":")}`;
+  const title = compact([teams, score, pen]).join(" ");
+
   return (
-    <Section
-      title={`${homeTeam.name} - ${awayTeam.name} ${match.score.join(":")}`}
-    >
+    <Section title={title}>
       {formatDate(match.date, true)}, {match.competition}
     </Section>
   );
