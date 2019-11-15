@@ -6,6 +6,7 @@ import Goals from "components/match/Goals";
 import Cards from "components/match/Cards";
 import Lineups from "components/match/Lineups";
 import PenaltyShootout from "components/match/PenaltyShootout";
+import Venue from "components/match/Venue";
 
 const title = (match: {
   teams: [{ slug?: string; name: string }, { slug?: string; name: string }];
@@ -29,6 +30,7 @@ const ArchiveMatchPage = ({ match }: any) => {
       <Lineups match={match} />
       <Cards match={match} />
       <PenaltyShootout match={match} />
+      <Venue match={match} />
     </Layout>
   );
 };
