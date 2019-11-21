@@ -17,7 +17,7 @@ function NavLink({ year, shift, text }: NavLinkProps) {
     return null;
   }
 
-  const textColor = shift ? "text-black" : "text-blue-600 hover:text-blue-400";
+  const textColor = shift ? "text-blue-600 hover:text-blue-400" : "text-black";
 
   return (
     <li className="mr-4">
