@@ -39,7 +39,7 @@ matches = data.dig('matches')
 last_match = matches.last
 last_year = last_match['date'][0..3].to_i
 
-new_matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |link|
+imported_data = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |link|
   year = (link.content[0..1] + link.content[5..6]).to_i - 1
   next if year < last_year
 
@@ -64,8 +64,11 @@ new_matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do
   end
 end
 
+new_matches = imported_data.flatten.compact
+
 content = {
-  matches: matches.concat(new_matches.flatten.compact)
+  matches: matches.concat(new_matches)
 }
 
 File.write("#{__dir__}/../data.json", JSON.pretty_generate(content));
+puts "Imported #{new_matches.count} new matches."

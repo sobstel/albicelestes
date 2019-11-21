@@ -171245,6 +171245,415 @@
           }
         ]
       ]
+    },
+    {
+      "id": "9p5yjg",
+      "date": "2019-11-15",
+      "competition": "Superclasico de las Americas",
+      "venue": {
+        "name": "King Saud University Stadium, Riyadh"
+      },
+      "teams": [
+        {
+          "slug": "brazil",
+          "name": "Brazil"
+        },
+        {
+          "slug": "argentina",
+          "name": "Argentina"
+        }
+      ],
+      "score": [
+        0,
+        1
+      ],
+      "result": "W",
+      "goals": [
+        [
+
+        ],
+        [
+          {
+            "id": "d6j77",
+            "name": "Lionel Messi",
+            "min": "14",
+            "type": "G"
+          }
+        ]
+      ],
+      "cards": [
+        [
+          {
+            "name": " Casemiro",
+            "min": "22",
+            "type": "Y"
+          },
+          {
+            "name": " Danilo",
+            "min": "27",
+            "type": "Y"
+          },
+          {
+            "name": " Eder Militão",
+            "min": "64",
+            "type": "Y"
+          }
+        ],
+        [
+          {
+            "id": "8pr9q",
+            "name": "Rodrigo De Paul",
+            "min": "43",
+            "type": "Y"
+          },
+          {
+            "id": "xrvw3",
+            "name": "Nicolás Tagliafico",
+            "min": "62",
+            "type": "Y"
+          },
+          {
+            "id": "nkxx7",
+            "name": "Leandro Paredes",
+            "min": "73",
+            "type": "Y"
+          }
+        ]
+      ],
+      "coaches": [
+        {
+          "name": "Tite"
+        },
+        {
+          "name": "Lionel Scaloni"
+        }
+      ],
+      "lineups": [
+        [
+          {
+            "name": " Alisson Becker"
+          },
+          {
+            "name": " Alex Sandro"
+          },
+          {
+            "name": " Danilo"
+          },
+          {
+            "name": " Thiago Silva"
+          },
+          {
+            "name": " Eder Militão"
+          },
+          {
+            "name": " Arthur"
+          },
+          {
+            "name": " Casemiro"
+          },
+          {
+            "name": " Lucas Paquetá"
+          },
+          {
+            "name": " Willian"
+          },
+          {
+            "name": "Roberto Firmino"
+          },
+          {
+            "name": " Gabriel Jesus"
+          }
+        ],
+        [
+          {
+            "id": "j8r02",
+            "name": "Esteban Andrada"
+          },
+          {
+            "id": "ow3l3",
+            "name": "Juan Foyth"
+          },
+          {
+            "id": "252x9",
+            "name": "Nicolás Otamendi"
+          },
+          {
+            "id": "ld029",
+            "name": "Germán Pezzella"
+          },
+          {
+            "id": "xrvw3",
+            "name": "Nicolás Tagliafico"
+          },
+          {
+            "id": "8pr9q",
+            "name": "Rodrigo De Paul",
+            "out": "90"
+          },
+          {
+            "id": "mp3rm",
+            "name": "Nicolás Domínguez",
+            "in": "90"
+          },
+          {
+            "id": "y0k2d",
+            "name": "Giovani Lo Celso",
+            "out": "59"
+          },
+          {
+            "id": "xykg8",
+            "name": "Marcos Acuña",
+            "in": "59"
+          },
+          {
+            "id": "0ym9v",
+            "name": "Lucas Ocampos",
+            "out": "74"
+          },
+          {
+            "id": "jjdp5",
+            "name": "Nicolás González",
+            "in": "74"
+          },
+          {
+            "id": "nkxx7",
+            "name": "Leandro Paredes",
+            "out": "82"
+          },
+          {
+            "id": "xypg8",
+            "name": "Guido Rodríguez",
+            "in": "82"
+          },
+          {
+            "id": "d6j77",
+            "name": "Lionel Messi"
+          },
+          {
+            "id": "226l9",
+            "name": "Lautaro Martínez",
+            "out": "88"
+          },
+          {
+            "id": "egx0x",
+            "name": "Lucas Alario",
+            "in": "88"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "yxl8w2",
+      "date": "2019-11-18",
+      "competition": "Friendly",
+      "venue": {
+        "name": "Bloomfield Stadium, Tel Aviv"
+      },
+      "teams": [
+        {
+          "slug": "argentina",
+          "name": "Argentina"
+        },
+        {
+          "slug": "uruguay",
+          "name": "Uruguay"
+        }
+      ],
+      "score": [
+        2,
+        2
+      ],
+      "result": "D",
+      "goals": [
+        [
+          {
+            "id": "wwqvg",
+            "name": "Sergio Agüero",
+            "min": "63",
+            "type": "G"
+          },
+          {
+            "id": "d6j77",
+            "name": "Lionel Messi",
+            "min": "90",
+            "type": "P"
+          }
+        ],
+        [
+          {
+            "name": "Edinson Cavani",
+            "min": "34",
+            "type": "G"
+          },
+          {
+            "name": "Luis Suárez",
+            "min": "68",
+            "type": "G"
+          }
+        ]
+      ],
+      "cards": [
+        [
+          {
+            "id": "nkxx7",
+            "name": "Leandro Paredes",
+            "min": "40",
+            "type": "Y"
+          }
+        ],
+        [
+          {
+            "name": "Edinson Cavani",
+            "min": "39",
+            "type": "Y"
+          },
+          {
+            "name": "Mathías Vecino",
+            "min": "43",
+            "type": "Y"
+          },
+          {
+            "name": "Diego Godín",
+            "min": "53",
+            "type": "Y"
+          }
+        ]
+      ],
+      "coaches": [
+        {
+          "name": "Lionel Scaloni"
+        },
+        {
+          "name": "Óscar Tabárez"
+        }
+      ],
+      "lineups": [
+        [
+          {
+            "id": "j8r02",
+            "name": "Esteban Andrada"
+          },
+          {
+            "id": "252x9",
+            "name": "Nicolás Otamendi"
+          },
+          {
+            "id": "ld029",
+            "name": "Germán Pezzella"
+          },
+          {
+            "id": "j5jrv",
+            "name": "Renzo Saravia"
+          },
+          {
+            "id": "xrvw3",
+            "name": "Nicolás Tagliafico"
+          },
+          {
+            "id": "xykg8",
+            "name": "Marcos Acuña",
+            "out": "68"
+          },
+          {
+            "id": "mp3rm",
+            "name": "Nicolás Domínguez",
+            "in": "68"
+          },
+          {
+            "id": "8pr9q",
+            "name": "Rodrigo De Paul",
+            "out": "88"
+          },
+          {
+            "id": "xypg8",
+            "name": "Guido Rodríguez",
+            "in": "88"
+          },
+          {
+            "id": "nkxx7",
+            "name": "Leandro Paredes",
+            "out": "79"
+          },
+          {
+            "id": "jjdp5",
+            "name": "Nicolás González",
+            "in": "79"
+          },
+          {
+            "id": "d6j77",
+            "name": "Lionel Messi"
+          },
+          {
+            "id": "wwqvg",
+            "name": "Sergio Agüero"
+          },
+          {
+            "id": "wg8dg",
+            "name": "Paulo Dybala",
+            "out": "76"
+          },
+          {
+            "id": "226l9",
+            "name": "Lautaro Martínez",
+            "in": "76"
+          }
+        ],
+        [
+          {
+            "name": "Martín Campaña"
+          },
+          {
+            "name": "Martín Cáceres"
+          },
+          {
+            "name": "Sebastián Coates",
+            "out": "17"
+          },
+          {
+            "name": "Giovanni González",
+            "in": "17"
+          },
+          {
+            "name": "Diego Godín"
+          },
+          {
+            "name": "Matías Viña"
+          },
+          {
+            "name": "Brian Lozano",
+            "out": "88"
+          },
+          {
+            "name": "Brian Rodríguez",
+            "in": "88"
+          },
+          {
+            "name": "Lucas Torreira"
+          },
+          {
+            "name": "Federico Valverde",
+            "out": "75"
+          },
+          {
+            "name": "Rodrigo Bentancur",
+            "in": "75"
+          },
+          {
+            "name": "Mathías Vecino"
+          },
+          {
+            "name": "Edinson Cavani",
+            "out": "56"
+          },
+          {
+            "name": "Diego Laxalt",
+            "in": "56"
+          },
+          {
+            "name": "Luis Suárez"
+          }
+        ]
+      ]
     }
   ]
 }
