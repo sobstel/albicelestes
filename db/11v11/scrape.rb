@@ -5,6 +5,11 @@ require_relative "./lib/eleven"
 
 BASE_URL = "https://www.11v11.com"
 
+def error(message)
+  puts "ERROR: #{message}"
+  exit
+end
+
 def doc(content)
   Nokogiri::HTML(content)
 end
@@ -27,8 +32,20 @@ def scrape(url, css, with: nil)
   result
 end
 
-matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |link|
-  scrape(link.attr("href"), "tbody tr", with: Eleven::Row).reverse.collect do |row|
+data = JSON.parse(File.read("#{__dir__}/../data.json"))
+error('Failed to read data') unless data
+
+matches = data.dig('matches')
+last_match = matches.last
+last_year = last_match['date'][0..3].to_i
+
+new_matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |link|
+  year = (link.content[0..1] + link.content[5..6]).to_i - 1
+  next if year < last_year
+
+  scrape(link.attr("href"), "tbody tr", with: Eleven::Row).collect do |row|
+    next if year === last_year && row.date <= last_match['date']
+
     match = scrape(row.path, ".match-report", with: Eleven::Match).first
     {
       id: row.id,
@@ -48,8 +65,7 @@ matches = scrape("/teams/argentina/tab/matches/", "#season li a").collect do |li
 end
 
 content = {
-  matches: matches.flatten.reverse.reject { |match| match[:date] < '1902' }
+  matches: matches.concat(new_matches.flatten.compact)
 }
 
-File.write("#{__dir__}/data.json", JSON.pretty_generate(content));
-File.write("#{__dir__}/data.js", "export default #{JSON.generate(content)}");
+File.write("#{__dir__}/../data.json", JSON.pretty_generate(content));
