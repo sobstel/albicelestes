@@ -1,3 +1,4 @@
+import { toNumber } from "lodash";
 import { NextPageContext } from "next";
 import Nav from "components/archive/Nav";
 import Fixtures from "components/Fixtures";
@@ -12,7 +13,7 @@ interface Props {
 const ArchivePage = ({ matches, year }: Props) => {
   return (
     <Layout title={`Archive ${year}`}>
-      <Nav year={year} />
+      <Nav year={toNumber(year)} />
       <Fixtures matches={matches} />
     </Layout>
   );
