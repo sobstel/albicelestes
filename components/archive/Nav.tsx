@@ -9,39 +9,49 @@ const currentYear = memoize(function() {
 interface MainNavLinkProps {
   year: string;
   shift?: number;
+  onClick: any;
 }
 
-function MainNavLink({ year, shift }: MainNavLinkProps) {
+function MainNavLink({ year, shift, onClick }: MainNavLinkProps) {
   const linkYear = toNumber(year) + toNumber(shift || 0);
   if (linkYear < 1902 || linkYear > currentYear()) {
     return null;
   }
 
-  return <NavLink year={linkYear} active={shift !== 0} />;
+  return <NavLink year={linkYear} active={shift !== 0} onClick={onClick} />;
 }
 
 interface NavLinkProps {
   year: number;
   active: boolean;
+  onClick: any;
 }
 
-function NavLink({ year, active }: NavLinkProps) {
+function NavLink({ year, active, onClick }: NavLinkProps) {
   const textColor = active ? "text-blue-600 hover:text-blue-400" : "text-black";
 
   return (
     <li className="mr-4 inline-flex">
       <Link href="/archive/[year]" as={`/archive/${year}`}>
-        <a className={`font-semibold uppercase ${textColor}`}>{year}</a>
+        <a className={`font-semibold uppercase ${textColor}`} onClick={onClick}>
+          {year}
+        </a>
       </Link>
     </li>
   );
 }
 
-function AllYears() {
+function AllYears({
+  currentYear,
+  onClick
+}: {
+  currentYear: number;
+  onClick: any;
+}) {
   return (
     <ul className="mb-4">
-      {reverse(range(1902, 2019)).map(year => (
-        <NavLink year={year} active />
+      {reverse(range(1902, 2020)).map(year => (
+        <NavLink year={year} active={currentYear !== year} onClick={onClick} />
       ))}
     </ul>
   );
@@ -59,18 +69,19 @@ function Nav({ year }: { year: string }) {
       <ul className="flex mb-4">
         <li className="mr-4">
           <a
-            href="#"
-            className="text-blue-600 hover:text-blue-400"
+            className="cursor-pointer text-blue-600 hover:text-blue-400"
             onClick={toggleAll}
           >
             ...
           </a>
         </li>
         {range(-2, 3).map(shift => (
-          <MainNavLink year={year} shift={shift} />
+          <MainNavLink year={year} shift={shift} onClick={toggleAll} />
         ))}
       </ul>
-      {allYears && <AllYears />}
+      {allYears && (
+        <AllYears currentYear={parseInt(year)} onClick={toggleAll} />
+      )}
     </>
   );
 }
