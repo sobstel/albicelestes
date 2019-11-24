@@ -23,7 +23,7 @@ function OtherYears({ years }: { years: number[] }) {
   return (
     <ul className="mb-4">
       {years.map(year => (
-        <NavLink year={year} />
+        <NavLink key={year} year={year} />
       ))}
     </ul>
   );
@@ -46,13 +46,18 @@ function Nav({ year }: { year: number }) {
   const hasNextYears = nextYear + 1 <= currentYear;
 
   useEffect(() => {
+    setPrevYearsActive(false);
+    setNextYearsActive(false);
+  }, [year]);
+
+  useEffect(() => {
     if (!hasPrevYears) {
       setPrevYearsActive(false);
     }
     if (!hasNextYears) {
       setNextYearsActive(false);
     }
-  });
+  }, [prevYearsActive, nextYearsActive]);
 
   function togglePrevYears() {
     if (nextYearsActive) {
