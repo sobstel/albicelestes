@@ -12,7 +12,7 @@ function NavLink({ year, active = true }: NavLinkProps) {
 
   return (
     <li className="mr-4 inline-flex">
-      <Link href="/archive/[year]" as={`/archive/${year}`}>
+      <Link href="/matches/[year]" as={`/matches/${year}`}>
         <a className={`font-semibold uppercase ${textColor}`}>{year}</a>
       </Link>
     </li>

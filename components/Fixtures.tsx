@@ -30,8 +30,8 @@ const Fixtures = ({ title, matches }: Props) => {
             </p>
             <p>
               <Link
-                href="/archive/[year]/[slug]/[id]"
-                as={`/archive/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`}
+                href="/matches/[year]/[slug]/[id]"
+                as={`/matches/${matchYear}/${homeSlug}-${awaySlug}/${match.id}`}
               >
                 <a className="block text-blue-600 hover:text-blue-400">
                   {homeTeam.name} - {awayTeam.name} {match.score.join(":")}

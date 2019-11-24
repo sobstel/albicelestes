@@ -65,10 +65,10 @@ export default ({ children, title }: Props) => {
             </div>
             <div className="flex-grow">
               <NavLink
-                href="/archive/[year]"
-                as={`/archive/${moment().format("YYYY")}`}
+                href="/matches/[year]"
+                as={`/matches/${moment().format("YYYY")}`}
               >
-                Archive
+                Matches
               </NavLink>
               <NavLink
                 href="/expats/[date]"

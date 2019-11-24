@@ -22,7 +22,7 @@ const title = (match: {
   ].join(" | ");
 };
 
-const ArchiveMatchPage = ({ match }: any) => {
+const MatchPage = ({ match }: any) => {
   return (
     <Layout title={title(match)}>
       <Info match={match} />
@@ -35,11 +35,11 @@ const ArchiveMatchPage = ({ match }: any) => {
   );
 };
 
-ArchiveMatchPage.getInitialProps = async ({ query }: NextPageContext) => {
+MatchPage.getInitialProps = async ({ query }: NextPageContext) => {
   const { id } = query;
-  const result = await internalAPI(`archive/${id}`);
+  const result = await internalAPI(`matches/${id}`);
   const { match } = result;
   return { match };
 };
 
-export default ArchiveMatchPage;
+export default MatchPage;

@@ -1,6 +1,6 @@
 import { toNumber } from "lodash";
 import { NextPageContext } from "next";
-import Nav from "components/archive/Nav";
+import Nav from "components/matches/Nav";
 import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
 import internalAPI from "lib/api/internal";
@@ -10,22 +10,22 @@ interface Props {
   year: string;
 }
 
-const ArchivePage = ({ matches, year }: Props) => {
+const MatchesPage = ({ matches, year }: Props) => {
   return (
-    <Layout title={`Archive ${year}`}>
+    <Layout title={`Argentina matches ${year}`}>
       <Nav year={toNumber(year)} />
       <Fixtures matches={matches} />
     </Layout>
   );
 };
 
-ArchivePage.getInitialProps = async ({ query }: NextPageContext) => {
+MatchesPage.getInitialProps = async ({ query }: NextPageContext) => {
   const year = query.year || new Date().getFullYear();
-  const result = await internalAPI(`archive?year=${year}`);
+  const result = await internalAPI(`matches?year=${year}`);
   // TODO: handle errors (empty file) properly
   if (!result) return { matches: [] };
   const { matches } = result;
   return { matches, year };
 };
 
-export default ArchivePage;
+export default MatchesPage;
