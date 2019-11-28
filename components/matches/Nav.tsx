@@ -1,7 +1,7 @@
 import { range } from "lodash";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { MIN_YEAR } from "lib/config";
+import { MIN_YEAR, MAX_YEAR } from "lib/config";
 
 interface NavLinkProps {
   year: number;
@@ -34,16 +34,14 @@ function Nav({ year }: { year: number }) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
 
-  const currentYear = new Date().getFullYear();
-
   const prevYear = year - 1;
   const nextYear = year + 1;
 
   const hasPrevYear = prevYear >= MIN_YEAR;
-  const hasNextYear = nextYear <= currentYear;
+  const hasNextYear = nextYear <= MAX_YEAR;
 
   const hasPrevYears = prevYear - 1 >= MIN_YEAR;
-  const hasNextYears = nextYear + 1 <= currentYear;
+  const hasNextYears = nextYear + 1 <= MAX_YEAR;
 
   useEffect(() => {
     setPrevYearsActive(false);
@@ -104,7 +102,7 @@ function Nav({ year }: { year: number }) {
         <OtherYears key="prev" years={range(prevYear - 1, MIN_YEAR - 1)} />
       )}
       {nextYearsActive && (
-        <OtherYears key="next" years={range(nextYear + 1, currentYear + 1)} />
+        <OtherYears key="next" years={range(nextYear + 1, MAX_YEAR + 1)} />
       )}
     </>
   );

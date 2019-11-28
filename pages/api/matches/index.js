@@ -1,8 +1,9 @@
 import { chain, pick } from "lodash";
+import { MAX_YEAR } from "lib/config";
 import data from "db/data";
 
 export default async function handle(req, res) {
-  const year = req.query.year || new Date().getFullYear();
+  const year = req.query.year || MAX_YEAR;
 
   const matches = chain(data)
     .get("matches")
