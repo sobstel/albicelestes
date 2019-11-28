@@ -1,10 +1,11 @@
 import { toNumber } from "lodash";
 import { NextPageContext } from "next";
+import internalAPI from "lib/api/internal";
+import { MIN_YEAR } from "lib/config";
 import ErrorPage from "pages/_error";
 import Nav from "components/matches/Nav";
 import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
-import internalAPI from "lib/api/internal";
 
 interface Props {
   matches: [];
@@ -29,7 +30,7 @@ MatchesPage.getInitialProps = async ({ res, query }: NextPageContext) => {
   const currentYear = new Date().getFullYear();
   const year = query.year || currentYear;
 
-  if (year < 1902 || year > currentYear) {
+  if (year < MIN_YEAR || year > currentYear) {
     if (res) res.statusCode = 404;
     return {};
   }
