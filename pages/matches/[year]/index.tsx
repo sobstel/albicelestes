@@ -1,5 +1,6 @@
 import { toNumber } from "lodash";
 import { NextPageContext } from "next";
+import ErrorPage from "pages/_error";
 import Nav from "components/matches/Nav";
 import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
@@ -11,19 +12,34 @@ interface Props {
 }
 
 const MatchesPage = ({ matches, year }: Props) => {
+  if (!matches || !year) {
+    return <ErrorPage statusCode={404} />;
+  }
+
   return (
     <Layout title={`Argentina matches ${year}`}>
       <Nav year={toNumber(year)} />
-      <Fixtures matches={matches} />
+      {matches.length === 0 && <p>No matches for {year}</p>}
+      {matches.length > 0 && <Fixtures matches={matches} />}
     </Layout>
   );
 };
 
-MatchesPage.getInitialProps = async ({ query }: NextPageContext) => {
-  const year = query.year || new Date().getFullYear();
+MatchesPage.getInitialProps = async ({ res, query }: NextPageContext) => {
+  const currentYear = new Date().getFullYear();
+  const year = query.year || currentYear;
+
+  if (year < 1902 || year > currentYear) {
+    if (res) res.statusCode = 404;
+    return {};
+  }
+
   const result = await internalAPI(`matches?year=${year}`);
-  // TODO: handle errors (empty file) properly
-  if (!result) return { matches: [] };
+
+  if (!result) {
+    return { year, matches: [] };
+  }
+
   const { matches } = result;
   return { matches, year };
 };
