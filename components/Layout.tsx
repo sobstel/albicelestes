@@ -70,13 +70,6 @@ export default ({ children, title }: Props) => {
               >
                 Matches
               </NavLink>
-              <NavLink
-                href="/expats/[date]"
-                as={`/expats/${moment().format("YYYY-MM-DD")}`}
-                last
-              >
-                Expats
-              </NavLink>
             </div>
           </nav>
 
