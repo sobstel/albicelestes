@@ -1,24 +1,19 @@
+import internalAPI from "lib/api/internal";
 import Layout from "components/Layout";
-import HyenaFixtures from "components/HyenaFixtures";
-import hyenaAPI from "lib/api/hyena";
+import Fixtures from "components/Fixtures";
 
-interface Props {
-  upcomingMatches: any[];
-  recentMatches: any[];
+type Props = {
+  matches: Match[];
 }
 
-const IndexPage = ({ upcomingMatches, recentMatches }: Props) => (
+const IndexPage = ({ matches }: Props) => (
   <Layout title="Ultimate La Selección Database">
-    <HyenaFixtures title="Upcoming fixtures" matches={upcomingMatches} />
-    <HyenaFixtures title="Recent fixtures" matches={recentMatches} />
+    <Fixtures title="Recent matches" matches={matches} />
   </Layout>
 );
 
 IndexPage.getInitialProps = async ({ res }: any) => {
-  const [upcomingMatches, recentMatches] = (await Promise.all([
-    hyenaAPI("argentina/matches/upcoming"),
-    hyenaAPI("argentina/matches/recent")
-  ])).map((matches: any[]) => matches.reverse());
+  const result = await internalAPI(`matches/recent`);
 
   if (res) {
     res.setHeader(
@@ -27,7 +22,8 @@ IndexPage.getInitialProps = async ({ res }: any) => {
     );
   }
 
-  return { upcomingMatches, recentMatches };
+  const { matches } = result;
+  return { matches };
 };
 
 export default IndexPage;
