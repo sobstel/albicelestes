@@ -39267,8 +39267,8 @@
       },
       "teams": [
         {
-          "slug": "republic-of-ireland",
-          "name": "Republic of Ireland"
+          "slug": "ireland",
+          "name": "Ireland"
         },
         {
           "slug": "argentina",
@@ -81150,8 +81150,8 @@
       },
       "teams": [
         {
-          "slug": "republic-of-ireland",
-          "name": "Republic of Ireland"
+          "slug": "ireland",
+          "name": "Ireland"
         },
         {
           "slug": "argentina",
@@ -82950,8 +82950,8 @@
       },
       "teams": [
         {
-          "slug": "republic-of-ireland",
-          "name": "Republic of Ireland"
+          "slug": "ireland",
+          "name": "Ireland"
         },
         {
           "slug": "argentina",
@@ -88879,8 +88879,8 @@
       },
       "teams": [
         {
-          "slug": "korea-republic",
-          "name": "Korea Republic"
+          "slug": "south-korea",
+          "name": "South Korea"
         },
         {
           "slug": "argentina",
@@ -92202,8 +92202,8 @@
           "name": "Argentina"
         },
         {
-          "slug": "korea-republic",
-          "name": "Korea Republic"
+          "slug": "south-korea",
+          "name": "South Korea"
         }
       ],
       "score": [
@@ -116049,8 +116049,8 @@
       },
       "teams": [
         {
-          "slug": "republic-of-ireland",
-          "name": "Republic of Ireland"
+          "slug": "ireland",
+          "name": "Ireland"
         },
         {
           "slug": "argentina",
@@ -126664,8 +126664,8 @@
       },
       "teams": [
         {
-          "slug": "korea-republic",
-          "name": "Korea Republic"
+          "slug": "south-korea",
+          "name": "South Korea"
         },
         {
           "slug": "argentina",
@@ -145292,8 +145292,8 @@
           "name": "Argentina"
         },
         {
-          "slug": "korea-republic",
-          "name": "Korea Republic"
+          "slug": "south-korea",
+          "name": "South Korea"
         }
       ],
       "score": [
@@ -146055,8 +146055,8 @@
       },
       "teams": [
         {
-          "slug": "republic-of-ireland",
-          "name": "Republic of Ireland"
+          "slug": "ireland",
+          "name": "Ireland"
         },
         {
           "slug": "argentina",
