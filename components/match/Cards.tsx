@@ -3,17 +3,12 @@ import { Fragment } from "react";
 import Section from "components/layout/Section";
 import PlayerName from "../PlayerName";
 
-interface Props {
-  match: {
-    cards: [Card[], Card[]];
-  };
-}
+type Props = { match: Match };
 
 export default ({ match }: Props) => {
-  const cards = flow(
-    flatten,
-    flattenedCards => sortBy(flattenedCards, "min")
-  )(match.cards);
+  const cards = flow(flatten, flattenedCards => sortBy(flattenedCards, "min"))(
+    match.cards
+  );
 
   if (cards.length === 0) {
     return null;

@@ -2,19 +2,9 @@ import { flatten, flow, sortBy } from "lodash";
 import Section from "components/layout/Section";
 import PlayerName from "../PlayerName";
 
-interface Props {
-  match: {
-    goals: [Goal[], Goal[]];
-  };
-}
-
-interface IndexedGoal extends Goal {
-  teamIndex: number;
-}
-
-interface GoalWithScore extends Goal {
-  score: SCORE;
-}
+type Props = { match: Match };
+type IndexedGoal = Goal & { teamIndex: number };
+type GoalWithScore = Goal & { score: Score };
 
 function indexGoals(matchGoals: [Goal[], Goal[]]): IndexedGoal[][] {
   return matchGoals.map((goals, teamIndex) =>

@@ -1,0 +1,1 @@
+type Score = [number, number];

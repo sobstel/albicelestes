@@ -5,8 +5,8 @@ import Section from "components/layout/Section";
 interface Props {
   match: {
     teams: [{ name: string }, { name: string }];
-    score: SCORE;
-    pen?: SCORE;
+    score: Score;
+    pen?: Score;
     date: string;
     competition: string;
   };
