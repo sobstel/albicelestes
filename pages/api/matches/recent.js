@@ -1,11 +1,11 @@
-import { chain, pick } from "lodash";
+import { flow, get, map, pick, reverse, takeRight } from "lodash";
 import data from "db/data";
 
-export default async function handle(req, res) {
-  const matches = chain(data)
-    .get("matches")
-    .takeRight(7)
-    .map(match =>
+export default async function handle(_req, res) {
+  const matches = flow(
+    (data) => get(data, "matches"),
+    (matches) => takeRight(matches, 7),
+    (matches) => map(matches, match =>
       pick(match, [
         "id",
         "date",
@@ -15,9 +15,9 @@ export default async function handle(req, res) {
         "pen",
         "result"
       ])
-    )
-    .reverse()
-    .value();
+    ),
+    reverse
+  )(data);
 
   res.json({ matches });
 }

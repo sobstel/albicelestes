@@ -1,14 +1,14 @@
-import { chain, pick } from "lodash";
+import { get, filter, flow, map, pick, reverse } from "lodash";
 import { MAX_YEAR } from "lib/config";
 import data from "db/data";
 
 export default async function handle(req, res) {
   const year = req.query.year || MAX_YEAR;
 
-  const matches = chain(data)
-    .get("matches")
-    .filter(match => match.date.slice(0, 4) == year)
-    .map(match =>
+  const matches = flow(
+    (data) => get(data, "matches"),
+    (matches) => filter(matches, match => match.date.slice(0, 4) == year),
+    (matches) => map(matches, match =>
       pick(match, [
         "id",
         "date",
@@ -16,11 +16,11 @@ export default async function handle(req, res) {
         "teams",
         "score",
         "pen",
-        "result"
+        "result",
       ])
-    )
-    .reverse()
-    .value();
+    ),
+    reverse
+  )(data);
 
   res.json({ matches });
 }

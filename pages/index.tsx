@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
 
 type Props = {
-  matches: Match[];
+  matches: PartialMatch[];
 }
 
 const IndexPage = ({ matches }: Props) => (

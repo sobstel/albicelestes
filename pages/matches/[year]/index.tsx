@@ -8,7 +8,7 @@ import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
 
 interface Props {
-  matches: [];
+  matches: PartialMatch[];
   year: string;
 }
 

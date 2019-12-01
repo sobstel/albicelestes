@@ -5,7 +5,7 @@ import Section from "./layout/Section";
 
 interface Props {
   title?: string;
-  matches: any[];
+  matches: PartialMatch[];
 }
 
 const Fixtures = ({ title, matches }: Props) => {
