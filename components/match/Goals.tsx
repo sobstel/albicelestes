@@ -1,4 +1,4 @@
-import { flatten, flow, sortBy } from "lodash";
+import { flatten, flow, sortBy, toNumber } from "lodash";
 import Section from "components/layout/Section";
 import PlayerName from "../PlayerName";
 
@@ -24,7 +24,7 @@ export default ({ match }: Props) => {
   const goals = flow(
     indexGoals,
     flatten,
-    flattenedGoals => sortBy(flattenedGoals, "min"),
+    goals => sortBy(goals, goal => toNumber(goal.min)),
     addScores
   )(match.goals);
 
