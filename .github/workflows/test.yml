@@ -1,4 +1,11 @@
-on: push
+on:
+  push:
+    paths:
+      - "**.js"
+      - "**.jsx"
+      - "**.ts"
+      - "**.tsx"
+      - "**/yarn.lock"
 
 jobs:
   js-check:
