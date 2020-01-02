@@ -1,8 +1,8 @@
-import moment from "moment";
 import Head from "next/head";
 import Link from "next/link";
 import { withRouter } from "next/router";
 import NextNprogress from "nextjs-progressbar";
+import { MAX_YEAR } from "lib/config";
 import "style.css";
 
 interface NavLinkProps {
@@ -64,10 +64,7 @@ export default ({ children, title }: Props) => {
               </Link>
             </div>
             <div className="flex-grow">
-              <NavLink
-                href="/matches/[year]"
-                as={`/matches/${moment().format("YYYY")}`}
-              >
+              <NavLink href="/matches/[year]" as={`/matches/${MAX_YEAR}`}>
                 Matches
               </NavLink>
             </div>
