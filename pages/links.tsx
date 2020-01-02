@@ -28,7 +28,8 @@ const LINKS = {
     Soccerway: "https://int.soccerway.com"
   },
   Books: [
-    "Angels With Dirty Faces: The Footballing History of Argentina (Jonathan Wilson)"
+    "Angels With Dirty Faces: The Footballing History of Argentina (Jonathan Wilson)",
+    "test"
   ]
 };
 
