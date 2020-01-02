@@ -1,12 +1,13 @@
 on:
   push
-  # :
-  #   paths:
-  #     - "**.js"
-  #     - "**.jsx"
-  #     - "**.ts"
-  #     - "**.tsx"
-  #     - "**/yarn.lock"
+    paths:
+      - "**.js"
+      - "**.jsx"
+      - "**.ts"
+      - "**.tsx"
+      - "**/yarn.lock"
+      - "public/**"
+      - ".github/workflows/*"
 
 jobs:
   js-check:
