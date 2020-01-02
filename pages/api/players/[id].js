@@ -19,7 +19,6 @@ export default function handle(req, res) {
         "goals"
       ])
     )
-    .reverse()
     .value();
 
   res.json({ matches });
