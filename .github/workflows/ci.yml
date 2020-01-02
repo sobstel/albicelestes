@@ -36,7 +36,7 @@ jobs:
 
   deploy:
     needs: js-check
-    if: success() && github.ref == 'master'
+    if: success()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
