@@ -18,6 +18,7 @@ import { inflect } from "db/inflections";
 function shortenName(name: string) {
   const inflectedName = inflect(name);
   if (inflectedName.inflected) return inflectedName.name;
+  if (name.indexOf(" ") === -1) return name;
 
   return name
     .split(" ")
