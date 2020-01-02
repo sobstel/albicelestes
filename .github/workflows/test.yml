@@ -27,7 +27,6 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
-        name: yarn install
         run: yarn install
 
       - name: Typescript check
