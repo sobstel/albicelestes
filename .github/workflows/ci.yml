@@ -1,11 +1,12 @@
 on:
-  push:
-    paths:
-      - "**.js"
-      - "**.jsx"
-      - "**.ts"
-      - "**.tsx"
-      - "**/yarn.lock"
+  push
+  # :
+  #   paths:
+  #     - "**.js"
+  #     - "**.jsx"
+  #     - "**.ts"
+  #     - "**.tsx"
+  #     - "**/yarn.lock"
 
 jobs:
   js-check:
