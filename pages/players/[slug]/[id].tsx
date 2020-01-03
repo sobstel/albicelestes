@@ -6,6 +6,7 @@ import Fixtures from "components/Fixtures";
 interface Props {
   id: string;
   slug: string;
+  name: string;
   matches: any[];
 }
 
@@ -35,12 +36,10 @@ const PlayerStat = ({ id, matches }: { id: string; matches: any[] }) => {
   );
 };
 
-const PlayerPage = ({ id, matches, slug }: Props) => {
-  const name = slug.replace(/-/g, " ").toUpperCase();
-  const title = name;
+const PlayerPage = ({ id, matches, name }: Props) => {
   return (
-    <Layout title={`${title} | Argentina Players`}>
-      <h2 className="mb-4 font-semibold uppercase">{title}</h2>
+    <Layout title={`${name} | Argentina Players`}>
+      <h2 className="mb-4 font-semibold uppercase">{name}</h2>
       <PlayerStat id={id} matches={matches} />
       <h2 className="mb-4 font-semibold uppercase">Matches</h2>
       <Fixtures matches={matches} />
@@ -51,8 +50,8 @@ const PlayerPage = ({ id, matches, slug }: Props) => {
 PlayerPage.getInitialProps = async ({ query }: any) => {
   const { id, slug } = query;
   const result = await internalAPI(`players/${id}`);
-  const { matches } = result;
-  return { id, slug, matches };
+  const { name, matches } = result;
+  return { id, slug, name, matches };
 };
 
 export default PlayerPage;
