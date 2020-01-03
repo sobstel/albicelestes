@@ -1,4 +1,3 @@
-import { flatten, filter, reduce } from "lodash";
 import internalAPI from "lib/api/internal";
 import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
@@ -7,29 +6,12 @@ interface Props {
   id: string;
   slug: string;
   name: string;
+  stat: any;
   competitions: string[];
   matches: any[];
 }
 
-const PlayerStat = ({ id, matches }: { id: string; matches: any[] }) => {
-  const mp = matches.length;
-  const [mw, md, ml] = ["W", "D", "L"].map(result => {
-    return matches.filter(match => match.result === result).length;
-  });
-  const goals = reduce(
-    matches,
-    (count, match) => {
-      return (
-        count +
-        filter(
-          flatten(match.goals),
-          (goal: any) => goal.id === id && goal.type !== "OG"
-        ).length
-      );
-    },
-    0
-  );
-
+const PlayerStat = ({ stat: { mp, mw, md, ml, goals } }: any) => {
   return (
     <p className="mb-4">
       {mp} matches ({mw}W {md}D {ml}L), {goals} goals scored
@@ -37,11 +19,11 @@ const PlayerStat = ({ id, matches }: { id: string; matches: any[] }) => {
   );
 };
 
-const PlayerPage = ({ id, name, competitions, matches }: Props) => {
+const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
   return (
     <Layout title={`${name} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
-      <PlayerStat id={id} matches={matches} />
+      <PlayerStat stat={stat} />
       {competitions.length > 0 && (
         <>
           <h2 className="mb-4 font-semibold uppercase">Competitions</h2>
@@ -57,8 +39,7 @@ const PlayerPage = ({ id, name, competitions, matches }: Props) => {
 PlayerPage.getInitialProps = async ({ query }: any) => {
   const { id, slug } = query;
   const result = await internalAPI(`players/${id}`);
-  const { name, competitions, matches } = result;
-  return { id, slug, name, competitions, matches };
+  return { id, slug, ...result };
 };
 
 export default PlayerPage;
