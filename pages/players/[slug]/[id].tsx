@@ -7,6 +7,7 @@ interface Props {
   id: string;
   slug: string;
   name: string;
+  competitions: string[];
   matches: any[];
 }
 
@@ -36,11 +37,17 @@ const PlayerStat = ({ id, matches }: { id: string; matches: any[] }) => {
   );
 };
 
-const PlayerPage = ({ id, matches, name }: Props) => {
+const PlayerPage = ({ id, name, competitions, matches }: Props) => {
   return (
     <Layout title={`${name} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
       <PlayerStat id={id} matches={matches} />
+      {competitions.length > 0 && (
+        <>
+          <h2 className="mb-4 font-semibold uppercase">Competitions</h2>
+          <p className="mb-4">{competitions.join(", ")}</p>
+        </>
+      )}
       <h2 className="mb-4 font-semibold uppercase">Matches</h2>
       <Fixtures matches={matches} />
     </Layout>
@@ -50,8 +57,8 @@ const PlayerPage = ({ id, matches, name }: Props) => {
 PlayerPage.getInitialProps = async ({ query }: any) => {
   const { id, slug } = query;
   const result = await internalAPI(`players/${id}`);
-  const { name, matches } = result;
-  return { id, slug, name, matches };
+  const { name, competitions, matches } = result;
+  return { id, slug, name, competitions, matches };
 };
 
 export default PlayerPage;
