@@ -13,5 +13,6 @@ export function inflect(name: string): INFLECTED_NAME {
 
 const inflections: INFLECTIONS = {
   "Kily González": "Kily González",
-  "Lautaro Martínez": "Lautaro Martínez"
+  "Lautaro Martínez": "Lautaro Martínez",
+  "Maxi Rodriguez": "Maxi Rodriguez"
 };
