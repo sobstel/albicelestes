@@ -1,4 +1,5 @@
 import {
+  countBy,
   filter,
   find,
   first,
@@ -10,28 +11,24 @@ import {
   pick,
   reduce,
   reject,
+  some,
   uniq
 } from "lodash";
 import data from "db/data";
 
-function getPlayerMatches(id, data) {
-  return flow(
-    data => get(data, "matches"),
-    matches => filter(matches, { lineups: [[{ id }]] }),
-    matches =>
-      map(matches, match =>
-        pick(match, [
-          "id",
-          "date",
-          "competition",
-          "teams",
-          "score",
-          "pen",
-          "result",
-          "goals"
-        ])
-      )
-  )(data);
+function preparePlayerMatches(matches) {
+  return map(matches, match =>
+    pick(match, [
+      "id",
+      "date",
+      "competition",
+      "teams",
+      "score",
+      "pen",
+      "result",
+      "goals"
+    ])
+  );
 }
 
 function getCompetitions(matches) {
@@ -52,23 +49,27 @@ function getCompetitions(matches) {
   )(matches);
 }
 
-function getPlayerName(id, data) {
+function getPlayerName(id, matches) {
   return flow(
-    data => get(data, "matches"),
-    matches => find(matches, { lineups: [[{ id }]] }),
+    first,
     match => get(match, "lineups"),
     flatten,
     players => find(players, { id }),
     player => get(player, "name")
-  )(data);
+  )(matches);
 }
 
 function getPlayerStat(id, matches) {
   const mp = matches.length;
 
-  const [mw, md, ml] = ["W", "D", "L"].map(result => {
-    return matches.filter(match => match.result === result).length;
-  });
+  const [si, so] = ["in", "out"].map(
+    type =>
+      filter(matches, match =>
+        some(flatten(match.lineups), player => player.id === id && player[type])
+      ).length
+  );
+
+  const { W: mw, D: md, L: ml } = countBy(matches, "result");
 
   const goals = reduce(
     matches,
@@ -84,17 +85,19 @@ function getPlayerStat(id, matches) {
     0
   );
 
-  return { mp, mw, md, ml, goals };
+  return { mp, si, so, mw, md, ml, goals };
 }
 
 export default function handle(req, res) {
   const { id } = req.query;
 
-  const name = getPlayerName(id, data);
-  const matches = getPlayerMatches(id, data);
+  const fullMatches = filter(data.matches, { lineups: [[{ id }]] });
 
-  const stat = getPlayerStat(id, matches);
-  const competitions = getCompetitions(matches);
+  const name = getPlayerName(id, fullMatches);
+  const matches = preparePlayerMatches(fullMatches);
+
+  const stat = getPlayerStat(id, fullMatches);
+  const competitions = getCompetitions(fullMatches);
 
   res.json({ name, matches, stat, competitions });
 }
