@@ -9,10 +9,12 @@ import Layout from "components/Layout";
 
 interface Props {
   matches: PartialMatch[];
+  // playersStat: { name: string }[];
+  playersStat: any[];
   year: string;
 }
 
-const MatchesPage = ({ matches, year }: Props) => {
+const MatchesPage = ({ year, matches, playersStat }: Props) => {
   if (!matches || !year) {
     return <ErrorPage statusCode={404} />;
   }
@@ -21,7 +23,18 @@ const MatchesPage = ({ matches, year }: Props) => {
     <Layout title={`Argentina matches ${year}`}>
       <Nav year={toNumber(year)} />
       {matches.length === 0 && <p>No matches for {year}</p>}
-      {matches.length > 0 && <Fixtures matches={matches} />}
+      {matches.length > 0 && (
+        <>
+          <h2 className="mb-4 font-semibold uppercase">Matches</h2>
+          <Fixtures matches={matches} />
+        </>
+      )}
+      {playersStat.length > 0 && (
+        <>
+          <h2 className="mb-4 font-semibold uppercase">Players</h2>
+          <p>{playersStat.map(playerStat => playerStat.name).join(", ")}</p>
+        </>
+      )}
     </Layout>
   );
 };
@@ -37,11 +50,10 @@ MatchesPage.getInitialProps = async ({ res, query }: NextPageContext) => {
   const result = await internalAPI(`matches?year=${year}`);
 
   if (!result) {
-    return { year, matches: [] };
+    return { year, matches: [], playersStat: [] };
   }
 
-  const { matches } = result;
-  return { matches, year };
+  return { year, ...result };
 };
 
 export default MatchesPage;
