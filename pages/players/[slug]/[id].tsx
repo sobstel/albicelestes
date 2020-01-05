@@ -11,11 +11,10 @@ interface Props {
   matches: any[];
 }
 
-const PlayerStat = ({ stat: { mp, si, so, mw, md, ml, goals } }: any) => {
+const PlayerStat = ({ stat: { mp, si, so, goals, yc, rc } }: any) => {
   return (
     <p className="mb-4">
-      {mp} matches played ({si} sub in, {so} sub out), {mw}W {md}D {ml}L<br />
-      {goals} goals scored
+      {mp} matches ({si} SI, {so} SO), {goals} goals, {yc}YC {rc}RC
     </p>
   );
 };

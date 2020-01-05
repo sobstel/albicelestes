@@ -69,8 +69,6 @@ function getPlayerStat(id, matches) {
       ).length
   );
 
-  const { W: mw, D: md, L: ml } = countBy(matches, "result");
-
   const goals = reduce(
     matches,
     (count, match) => {
@@ -85,7 +83,14 @@ function getPlayerStat(id, matches) {
     0
   );
 
-  return { mp, si, so, mw, md, ml, goals };
+  const [yc, rc] = ["Y", "R"].map(
+    type =>
+      filter(matches, match =>
+        some(flatten(match.cards), card => card.id === id && card.type === type)
+      ).length
+  );
+
+  return { mp, si, so, goals, yc, rc };
 }
 
 export default function handle(req, res) {
@@ -95,7 +100,6 @@ export default function handle(req, res) {
 
   const name = getPlayerName(id, fullMatches);
   const matches = preparePlayerMatches(fullMatches);
-
   const stat = getPlayerStat(id, fullMatches);
   const competitions = getCompetitions(fullMatches);
 
