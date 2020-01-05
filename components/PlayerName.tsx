@@ -1,6 +1,5 @@
 import {
   countBy,
-  flatten,
   flow,
   forEach,
   fromPairs,
@@ -18,6 +17,7 @@ import { inflect } from "db/inflections";
 function shortenName(name: string) {
   const inflectedName = inflect(name);
   if (inflectedName.inflected) return inflectedName.name;
+
   if (name.indexOf(" ") === -1) return name;
 
   return name
@@ -26,13 +26,11 @@ function shortenName(name: string) {
     .join(" ");
 }
 
-const shortenNames = memoize(function(match) {
+const shortenNames = memoize(function(names) {
   return flow(
-    flatten,
-    names => map(names, (appearance: Appearance) => appearance.name),
     names => fromPairs(zip(names, map(names, shortenName))),
     deduplicateNames
-  )(match.lineups);
+  )(names);
 });
 
 function deduplicateNames(indexedNames: Record<string, string>) {
@@ -70,14 +68,14 @@ function deduplicateNames(indexedNames: Record<string, string>) {
 
 function PlayerName({
   name,
-  match,
+  names,
   id = null
 }: {
   name: string;
-  match: Match;
+  names: string[];
   id?: string | null;
 }) {
-  const shortNames = shortenNames(match);
+  const shortNames = shortenNames(names);
   // @ts-ignore
   const shortName = shortNames[name] || id || "unknown";
 

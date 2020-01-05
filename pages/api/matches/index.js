@@ -48,7 +48,6 @@ export default async function handle(req, res) {
               result[app.id] = {
                 id: app.id,
                 name: app.name,
-                slug: slugify(app.name, { lower: true }),
                 mp: 0,
                 si: 0,
                 so: 0,
@@ -87,7 +86,7 @@ export default async function handle(req, res) {
         {}
       )
     ),
-    "slug"
+    stat => -stat.mp
   );
 
   res.json({ matches, playersStat });

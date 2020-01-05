@@ -1,4 +1,4 @@
-import { flatten, flow, sortBy, toNumber } from "lodash";
+import { flatten, flow, map, sortBy, toNumber } from "lodash";
 import { Fragment } from "react";
 import Section from "components/layout/Section";
 import PlayerName from "../PlayerName";
@@ -7,7 +7,7 @@ type Props = { match: Match };
 
 export default ({ match }: Props) => {
   const cards = flow(
-    flatten, 
+    flatten,
     // @ts-ignore
     cards => sortBy(cards, card => toNumber(card.min))
   )(match.cards);
@@ -16,12 +16,14 @@ export default ({ match }: Props) => {
     return null;
   }
 
+  const names = map(flatten(match.lineups), "name");
+
   return (
     <Section title="Cards">
       {cards.map((card, index) => (
         <Fragment key={index}>
           {index > 0 && ", "}
-          <PlayerName name={card.name} match={match} id={card.id} />{" "}
+          <PlayerName name={card.name} names={names} id={card.id} />{" "}
           {card.min && `${card.min}'`} {card.type && `(${card.type})`}
         </Fragment>
       ))}

@@ -1,3 +1,4 @@
+import { flatten, map } from "lodash";
 import Section from "components/layout/Section";
 import PlayerName from "components/PlayerName";
 
@@ -11,6 +12,8 @@ function coachName(coaches, team_index) {
 
 export default ({ match }) => {
   const { teams, lineups, coaches } = match;
+  const names = map(flatten(match.lineups), "name");
+
   return (
     <div>
       {lineups.map(
@@ -30,7 +33,7 @@ export default ({ match }) => {
                       {index > 0 && ", "}
                       <PlayerName
                         name={event.name}
-                        match={match}
+                        names={names}
                         id={event.id}
                       />
                     </>
@@ -40,7 +43,7 @@ export default ({ match }) => {
                       {` (${event.in}' `}
                       <PlayerName
                         name={event.name}
-                        match={match}
+                        names={names}
                         id={event.id}
                       />
                       {`)`}

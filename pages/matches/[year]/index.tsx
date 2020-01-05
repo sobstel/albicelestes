@@ -1,12 +1,12 @@
-import { toNumber } from "lodash";
+import { map, toNumber } from "lodash";
 import { NextPageContext } from "next";
-import Link from "next/link";
 import internalAPI from "lib/api/internal";
 import { MIN_YEAR, MAX_YEAR } from "lib/config";
 import ErrorPage from "pages/_error";
 import Nav from "components/matches/Nav";
 import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
+import PlayerName from "components/PlayerName";
 
 interface Props {
   matches: PartialMatch[];
@@ -19,6 +19,8 @@ const MatchesPage = ({ year, matches, playersStat }: Props) => {
   if (!matches || !year) {
     return <ErrorPage statusCode={404} />;
   }
+
+  const names = map(playersStat, "name");
 
   return (
     <Layout title={`Argentina matches & players | ${year}`}>
@@ -37,14 +39,10 @@ const MatchesPage = ({ year, matches, playersStat }: Props) => {
           <h2 className="mb-4 font-semibold uppercase">
             Players ({playersStat.length})
           </h2>
-          {playersStat.map(({ id, slug, name, mp, si, so, g }) => (
+          {playersStat.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
-              <Link href="/players/[slug]/[id]" as={`/players/${slug}/${id}`}>
-                <a className="text-blue-600 hover:text-blue-400" title={name}>
-                  {name}
-                </a>
-              </Link>{" "}
-              {mp} matches ({si} SI, {so} SO), {g} goals
+              <PlayerName name={name} names={names} id={id} /> {mp} matches (
+              {si} SI, {so} SO), {g} goals
             </p>
           ))}
         </>
