@@ -69,7 +69,7 @@ function getPlayerStat(id, matches) {
       ).length
   );
 
-  const goals = reduce(
+  const g = reduce(
     matches,
     (count, match) => {
       return (
@@ -90,7 +90,7 @@ function getPlayerStat(id, matches) {
       ).length
   );
 
-  return { mp, si, so, goals, yc, rc };
+  return { mp, si, so, g, yc, rc };
 }
 
 export default function handle(req, res) {

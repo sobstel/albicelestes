@@ -11,10 +11,10 @@ interface Props {
   matches: any[];
 }
 
-const PlayerStat = ({ stat: { mp, si, so, goals, yc, rc } }: any) => {
+const PlayerStat = ({ stat: { mp, si, so, g, yc, rc } }: any) => {
   return (
     <p className="mb-4">
-      {mp} matches ({si} SI, {so} SO), {goals} goals, {yc}YC {rc}RC
+      {mp} matches ({si} SI, {so} SO), {g} goals, {yc}YC {rc}RC
     </p>
   );
 };
@@ -23,8 +23,8 @@ const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
   return (
     <Layout title={`${name} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
-      <PlayerStat stat={stat} />
-      {competitions.length > 0 && (
+      {stat && <PlayerStat stat={stat} />}
+      {competitions && competitions.length > 0 && (
         <>
           <h2 className="mb-4 font-semibold uppercase">Competitions</h2>
           <p className="mb-4">{competitions.join(", ")}</p>

@@ -1,5 +1,6 @@
 import { toNumber } from "lodash";
 import { NextPageContext } from "next";
+import Link from "next/link";
 import internalAPI from "lib/api/internal";
 import { MIN_YEAR, MAX_YEAR } from "lib/config";
 import ErrorPage from "pages/_error";
@@ -20,19 +21,32 @@ const MatchesPage = ({ year, matches, playersStat }: Props) => {
   }
 
   return (
-    <Layout title={`Argentina matches ${year}`}>
+    <Layout title={`Argentina matches & players | ${year}`}>
       <Nav year={toNumber(year)} />
       {matches.length === 0 && <p>No matches for {year}</p>}
       {matches.length > 0 && (
         <>
-          <h2 className="mb-4 font-semibold uppercase">Matches</h2>
+          <h2 className="mb-4 font-semibold uppercase">
+            Matches ({matches.length})
+          </h2>
           <Fixtures matches={matches} />
         </>
       )}
       {playersStat.length > 0 && (
         <>
-          <h2 className="mb-4 font-semibold uppercase">Players</h2>
-          <p>{playersStat.map(playerStat => playerStat.name).join(", ")}</p>
+          <h2 className="mb-4 font-semibold uppercase">
+            Players ({playersStat.length})
+          </h2>
+          {playersStat.map(({ id, slug, name, mp, si, so, g }) => (
+            <p key={id}>
+              <Link href="/players/[slug]/[id]" as={`/players/${slug}/${id}`}>
+                <a className="text-blue-600 hover:text-blue-400" title={name}>
+                  {name}
+                </a>
+              </Link>{" "}
+              {mp} matches ({si} SI, {so} SO), {g} goals
+            </p>
+          ))}
         </>
       )}
     </Layout>
