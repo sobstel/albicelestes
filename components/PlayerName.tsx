@@ -86,6 +86,7 @@ function PlayerName({
       .split("-", 2)
       .pop()
       .toString()[0];
+
     return (
       <Link
         href="/players/[slug]/[catalog]/[id]"

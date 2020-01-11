@@ -12,7 +12,6 @@ import {
   transform,
   values
 } from "lodash";
-import slugify from "slugify";
 import { MAX_YEAR } from "lib/config";
 import data from "db/data";
 

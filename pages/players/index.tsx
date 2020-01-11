@@ -7,8 +7,6 @@ const PlayersPage = ({}: Props) => {
   return (
     <Layout title={`Argentina Players`}>
       <Nav />
-      <h2 className="mb-4 font-semibold uppercase">Players</h2>
-      <p>TODO</p>
     </Layout>
   );
 };
