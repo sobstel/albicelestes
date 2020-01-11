@@ -5,10 +5,10 @@ import Fixtures from "components/Fixtures";
 type Props = {
   recentMatches: PartialMatch[];
   majorMatches: PartialMatch[];
-}
+};
 
 const IndexPage = ({ recentMatches, majorMatches }: Props) => (
-  <Layout title="Ultimate La Selección Database">
+  <Layout title="Ultimate La Selección Argentina Database">
     <Fixtures title="Recent matches" matches={recentMatches} />
     <Fixtures title="Major matches" matches={majorMatches} />
   </Layout>

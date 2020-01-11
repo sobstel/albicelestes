@@ -81,8 +81,16 @@ function PlayerName({
 
   if (id) {
     const slug = slugify(name, { lower: true });
+    // @ts-ignore
+    const catalog = slug
+      .split("-", 2)
+      .pop()
+      .toString()[0];
     return (
-      <Link href="/players/[slug]/[id]" as={`/players/${slug}/${id}`}>
+      <Link
+        href="/players/[slug]/[catalog]/[id]"
+        as={`/players/${catalog}/${slug}/${id}`}
+      >
         <a className="text-blue-600 hover:text-blue-400" title={name}>
           {shortName}
         </a>

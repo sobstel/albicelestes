@@ -32,7 +32,7 @@ const LINKS = {
   ]
 };
 
-const LinksPage = () => (
+const AboutPage = () => (
   <Layout title="Links">
     {map(LINKS, (links, title) => (
       <Section title={title} key={title}>
@@ -61,7 +61,7 @@ const LinksPage = () => (
   </Layout>
 );
 
-LinksPage.getInitialProps = ({ res }: any) => {
+AboutPage.getInitialProps = ({ res }: any) => {
   if (res) {
     res.setHeader(
       "Cache-Control",
@@ -72,4 +72,4 @@ LinksPage.getInitialProps = ({ res }: any) => {
   return {};
 };
 
-export default LinksPage;
+export default AboutPage;
