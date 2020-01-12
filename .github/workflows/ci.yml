@@ -38,6 +38,9 @@ jobs:
       - name: Typescript check
         run: yarn -s tsc
 
+      - name: Jest tests
+        run: yarn test
+
   deploy:
     needs: js-check
     if: success() && github.ref == 'refs/heads/master'
