@@ -3,7 +3,7 @@ import Link from "next/link";
 function Nav({ catalog }: { catalog?: string }) {
   return (
     <ul className="mb-4">
-      {"abcdefghijklmnopqrstuvwxyz".split("").map(localCatalog => {
+      {"abcdefghijklmnopqrstuvwyz".split("").map(localCatalog => {
         const textColor =
           catalog !== localCatalog
             ? "text-blue-600 hover:text-blue-400"
