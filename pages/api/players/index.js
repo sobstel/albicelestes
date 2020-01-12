@@ -32,7 +32,19 @@ export default async function handle(req, res) {
         {}
       )
     ),
-    player => slugify(playerName(player.name).lastName, { lower: true })
+    player => {
+      const _playerName = playerName(player.name);
+      slugify(
+        [
+          _playerName.lastName,
+          _playerName.firstName,
+          _playerName.middleName
+        ].join(" "),
+        {
+          lower: true
+        }
+      );
+    }
   );
 
   res.json({ players });
