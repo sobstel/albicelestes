@@ -85,7 +85,7 @@ function PlayerName({
 
     return (
       <Link
-        href="/players/[slug]/[catalog]/[id]"
+        href="/players/[catalog]/[slug]/[id]"
         as={`/players/${catalog}/${slug}/${id}`}
       >
         <a className="text-blue-600 hover:text-blue-400" title={name}>

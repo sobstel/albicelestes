@@ -24,7 +24,7 @@ const PlayersPage = ({ catalog, players }: Props) => {
             return (
               <p key={id}>
                 <Link
-                  href="/players/[slug]/[catalog]/[id]"
+                  href="/players/[catalog]/[slug]/[id]"
                   as={`/players/${catalog}/${slug}/${id}`}
                 >
                   <a
