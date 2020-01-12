@@ -15,6 +15,21 @@ import {
 import { MAX_YEAR } from "lib/config";
 import data from "db/data";
 
+function ensureInitValues(result, app) {
+  if (!result[app.id]) {
+    result[app.id] = {
+      id: app.id,
+      name: app.name,
+      mp: 0,
+      si: 0,
+      so: 0,
+      g: 0,
+      yc: 0,
+      rc: 0
+    };
+  }
+}
+
 export default async function handle(req, res) {
   const year = req.query.year || MAX_YEAR;
 
@@ -42,19 +57,8 @@ export default async function handle(req, res) {
         (result, match) => {
           const apps = filter(flatten(match.lineups), app => !!app.id);
           each(apps, app => {
-            // TODO: should be also called for goals and card below (just to be safe)
-            if (!result[app.id]) {
-              result[app.id] = {
-                id: app.id,
-                name: app.name,
-                mp: 0,
-                si: 0,
-                so: 0,
-                g: 0,
-                yc: 0,
-                rc: 0
-              };
-            }
+            ensureInitValues(result, app);
+
             result[app.id].mp += 1;
             if (app.in) {
               result[app.id].si += 1;
@@ -69,18 +73,22 @@ export default async function handle(req, res) {
             goal => goal.id && goal.type !== "OG"
           );
           each(goals, goal => {
+            ensureInitValues(result, goal);
+
             result[goal.id].g += 1;
           });
 
-          const cards = filter(flatten(match.cards), card => !!card.id);
-          each(cards, card => {
-            if (card.type == "Y") {
-              result[card.id].yc += 1;
-            }
-            if (card.type == "R") {
-              result[card.id].rc += 1;
-            }
-          });
+          // const cards = filter(flatten(match.cards), card => !!card.id);
+          // each(cards, card => {
+          //   ensureInitValues(result, card);
+
+          //   if (card.type == "Y") {
+          //     result[card.id].yc += 1;
+          //   }
+          //   if (card.type == "R") {
+          //     result[card.id].rc += 1;
+          //   }
+          // });
         },
         {}
       )
