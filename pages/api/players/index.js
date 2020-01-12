@@ -17,9 +17,7 @@ export default async function handle(req, res) {
           flatten(match.lineups).map(app => {
             if (!app.id) return;
 
-            const _playerName = playerName(app.name);
             const _catalog = playerCatalog(app.name);
-
             if (_catalog !== catalog) return;
 
             if (!result[app.id]) {
@@ -34,7 +32,7 @@ export default async function handle(req, res) {
     ),
     player => {
       const _playerName = playerName(player.name);
-      slugify(
+      return slugify(
         [
           _playerName.lastName,
           _playerName.firstName,
