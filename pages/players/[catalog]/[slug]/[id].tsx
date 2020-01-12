@@ -37,10 +37,15 @@ const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
 };
 
 PlayerPage.getInitialProps = async ({ query, res }: any) => {
-  const { id, slug } = query;
+  const { id, catalog, slug } = query;
   const result = await internalAPI(`players/${id}`);
 
   if (res) {
+    res.setHeader(
+      "Link",
+      `<https://albicelestes.com/players/${catalog}/${slug}/${id}>; rel="canonical"`
+    );
+
     res.setHeader(
       "Cache-Control",
       "s-maxage=3600, max-age=60, stale-while-revalidate"

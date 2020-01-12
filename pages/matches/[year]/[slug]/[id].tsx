@@ -35,10 +35,18 @@ const MatchPage = ({ match }: any) => {
   );
 };
 
-MatchPage.getInitialProps = async ({ query }: NextPageContext) => {
-  const { id } = query;
+MatchPage.getInitialProps = async ({ res, query }: NextPageContext) => {
+  const { id, year, slug } = query;
   const result = await internalAPI(`matches/${id}`);
   const { match } = result;
+
+  if (res) {
+    res.setHeader(
+      "Link",
+      `<https://albicelestes.com/matches/${year}/${slug}/${id}>; rel="canonical"`
+    );
+  }
+
   return { match };
 };
 
