@@ -1,5 +1,12 @@
 {
-  "redirects": [{ "source": "/links", "destination": "/about" }],
+  "redirects": [
+    {
+      "source": "/archive/(.*)",
+      "destination": "/matches/$1",
+      "statusCode": 308
+    },
+    { "source": "/links", "destination": "/about", "statusCode": 308 }
+  ],
   "github": {
     "silent": true
   }
