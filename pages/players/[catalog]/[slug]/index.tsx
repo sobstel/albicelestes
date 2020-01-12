@@ -1,32 +1,31 @@
 import Layout from "components/Layout";
 import Link from "next/link";
+import internalAPI from "lib/api/internal";
+import { playerSlug, playerCatalog } from "lib/name";
 
 interface Props {
   id: string;
-  slug: string;
+  name: string;
 }
 
-function playerUrl({ id, slug }: Props) {
-  // @ts-ignore
-  const catalog = slug
-    .split("-", 2)
-    .pop()
-    .toString()[0];
+function playerUrl({ id, name }: Props) {
+  const catalog = playerCatalog(name);
+  const slug = playerSlug(name);
 
   return `/players/${catalog}/${slug}/${id}`;
 }
 
-const OldPlayerPage = ({ id, slug }: Props) => {
+const OldPlayerPage = ({ id, name }: Props) => {
   return (
     <Layout title={"Error 404"}>
       <p>
         New URL:{" "}
         <Link
           href="/players/[slug]/[catalog]/[id]"
-          as={playerUrl({ id, slug })}
+          as={playerUrl({ id, name })}
         >
           <a className="text-blue-600 hover:text-blue-400">
-            {playerUrl({ id, slug })}
+            {playerUrl({ id, name })}
           </a>
         </Link>
       </p>
@@ -35,14 +34,16 @@ const OldPlayerPage = ({ id, slug }: Props) => {
 };
 
 OldPlayerPage.getInitialProps = async ({ query, res }: any) => {
-  const { catalog: slug, slug: id } = query;
+  const { slug: id } = query;
+  const result = await internalAPI(`players/${id}`);
+  const { name } = result;
 
   if (res) {
     res.statusCode = 308;
-    res.setHeader("Location", `${playerUrl({ id, slug })}`);
+    res.setHeader("Location", `${playerUrl({ id, name })}`);
   }
 
-  return { id, slug };
+  return { id, name };
 };
 
 export default OldPlayerPage;

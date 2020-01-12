@@ -23,19 +23,15 @@ export const playerName = memoize(function(
   return { firstName, middleName, lastName };
 });
 
-export function playerCatalog(name: PlayerName | string) {
-  const normalizedPlayerName = playerName(name);
-  return slugify(normalizedPlayerName.lastName, { lower: true })[0];
+export function playerCatalog(name: string) {
+  const _playerName = playerName(name);
+  return slugify(_playerName.lastName, { lower: true })[0];
 }
 
-export function playerSlug(name: PlayerName | string) {
-  const normalizedPlayerName = playerName(name);
+export function playerSlug(name: string) {
+  const _playerName = playerName(name);
   return slugify(
-    [
-      normalizedPlayerName.firstName,
-      normalizedPlayerName.middleName,
-      normalizedPlayerName.lastName
-    ]
+    [_playerName.firstName, _playerName.middleName, _playerName.lastName]
       .join(" ")
       .trim(),
     {

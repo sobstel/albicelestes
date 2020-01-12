@@ -18,7 +18,7 @@ export default async function handle(req, res) {
             if (!app.id) return;
 
             const _playerName = playerName(app.name);
-            const _catalog = playerCatalog(_playerName);
+            const _catalog = playerCatalog(app.name);
 
             if (_catalog !== catalog) return;
 
