@@ -67,8 +67,11 @@ export default ({ children, title }: Props) => {
               <NavLink href="/matches/[year]" as={`/matches/${MAX_YEAR}`}>
                 Matches
               </NavLink>
-              <NavLink href="/players" as={`/players`}>
+              <NavLink href="/players" as="/players">
                 Players
+              </NavLink>
+              <NavLink href="/teams" as="/teams">
+                Teams
               </NavLink>
             </div>
           </nav>
