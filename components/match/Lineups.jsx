@@ -1,4 +1,4 @@
-import { flatten, map } from "lodash";
+import { flatten, isUndefined, map } from "lodash";
 import Section from "components/layout/Section";
 import PlayerName from "components/PlayerName";
 
@@ -28,7 +28,7 @@ export default ({ match }) => {
             >
               {lineup.map((event, index) => (
                 <span key={`${team_index}-${index}`}>
-                  {!event.in && (
+                  {isUndefined(event.in) && (
                     <>
                       {index > 0 && ", "}
                       <PlayerName
@@ -38,9 +38,10 @@ export default ({ match }) => {
                       />
                     </>
                   )}
-                  {event.in && (
+                  {!isUndefined(event.in) && (
                     <>
-                      {` (${event.in}' `}
+                      {` (`}
+                      {event.in && `${event.in}' `}
                       <PlayerName
                         name={event.name}
                         names={names}
