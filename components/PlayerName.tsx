@@ -11,19 +11,13 @@ import {
   zip
 } from "lodash";
 import Link from "next/link";
-import { playerCatalog, playerSlug } from "lib/name";
+import { playerName, playerCatalog, playerSlug } from "lib/name";
 import { inflect } from "db/inflections";
 
 function shortenName(name: string) {
   const inflectedName = inflect(name);
   if (inflectedName.inflected) return inflectedName.name;
-
-  if (name.indexOf(" ") === -1) return name;
-
-  return name
-    .split(" ")
-    .slice(1)
-    .join(" ");
+  return playerName(name).lastName;
 }
 
 const shortenNames = memoize(function(names) {

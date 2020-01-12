@@ -3,16 +3,16 @@ import Link from "next/link";
 function Nav({ catalog }: { catalog?: string }) {
   return (
     <ul className="mb-4">
-      {"abcdefghijklmnopqrstuvwyz".split("").map(localCatalog => {
+      {"abcdefghijklmnopqrstuvwyz".split("").map(_catalog => {
         const textColor =
-          catalog !== localCatalog
+          catalog !== _catalog
             ? "text-blue-600 hover:text-blue-400"
             : "text-black";
         return (
           <li className="mr-3 inline-flex">
-            <Link href="/players/[catalog]" as={`/players/${localCatalog}`}>
+            <Link href="/players/[catalog]" as={`/players/${_catalog}`}>
               <a className={`${textColor} font-semibold uppercase`}>
-                {localCatalog}
+                {_catalog}
               </a>
             </Link>
           </li>
