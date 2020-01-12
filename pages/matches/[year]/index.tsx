@@ -23,7 +23,7 @@ const MatchesPage = ({ year, matches, playersStat }: Props) => {
   const names = map(playersStat, "name");
 
   return (
-    <Layout title={`Argentina matches & players | ${year}`}>
+    <Layout title={`Matches | ${year}`}>
       <Nav year={toNumber(year)} />
       {matches.length === 0 && <p>No matches for {year}</p>}
       {matches.length > 0 && (

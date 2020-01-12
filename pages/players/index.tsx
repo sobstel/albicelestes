@@ -5,7 +5,7 @@ type Props = {};
 
 const PlayersPage = ({}: Props) => {
   return (
-    <Layout title={`Argentina Players`}>
+    <Layout title={`Players`}>
       <Nav />
     </Layout>
   );

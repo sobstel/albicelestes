@@ -74,6 +74,11 @@ export default ({ children, title }: Props) => {
           </nav>
 
           <div className="p-5">{children}</div>
+
+          <p className="px-5 pb-5 text-xs italic">
+            Data has not been fully verified yet. You can help by reporting any
+            errors or mistakes to przemek&#64;sobstel&#46;org.
+          </p>
         </div>
 
         <footer className="text-xs opacity-50 p-5 clearfix">

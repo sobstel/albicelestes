@@ -8,7 +8,7 @@ type Props = { catalog: string; players: any[] };
 
 const PlayersPage = ({ catalog, players }: Props) => {
   return (
-    <Layout title={`${catalog.toUpperCase()} | Argentina Players`}>
+    <Layout title={`Players | ${catalog.toUpperCase()}`}>
       <Nav catalog={catalog} />
 
       {players.length > 0 && (
