@@ -36,9 +36,17 @@ const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
   );
 };
 
-PlayerPage.getInitialProps = async ({ query }: any) => {
+PlayerPage.getInitialProps = async ({ query, res }: any) => {
   const { id, slug } = query;
   const result = await internalAPI(`players/${id}`);
+
+  if (res) {
+    res.setHeader(
+      "Cache-Control",
+      "s-maxage=3600, max-age=60, stale-while-revalidate"
+    );
+  }
+
   return { id, slug, ...result };
 };
 

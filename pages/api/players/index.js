@@ -1,42 +1,39 @@
-import { flatten, transform, values } from "lodash";
+import { flatten, sortBy, transform, values } from "lodash";
 import slugify from "slugify";
-// import { MAX_YEAR } from "lib/config";
+import { playerName, playerCatalog } from "lib/name";
 import data from "db/data";
 
 export default async function handle(req, res) {
   const { catalog } = req.query;
 
-  // TODO: return most capped and most goals if no catalog
   if (!catalog) return [];
 
   // fetch all players, which surname starts with "catalog"
-  const players = values(
-    transform(
-      data.matches,
-      (result, match) => {
-        flatten(match.lineups).map(app => {
-          if (!app.id) return;
+  const players = sortBy(
+    values(
+      transform(
+        data.matches,
+        (result, match) => {
+          flatten(match.lineups).map(app => {
+            if (!app.id) return;
 
-          const slug = slugify(app.name, { lower: true });
+            const _playerName = playerName(app.name);
+            const _catalog = playerCatalog(_playerName);
 
-          // TODO: move to some lib
-          // @ts-ignore
-          const slugCatalog = slug
-            .split("-", 2)
-            .pop()
-            .toString()[0];
+            if (_catalog !== catalog) return;
 
-          if (slugCatalog !== catalog) return;
+            if (!result[app.id]) {
+              result[app.id] = { id: app.id, name: app.name, mp: 0 };
+            }
 
-          if (!result[app.id]) {
-            result[app.id] = { id: app.id, name: app.name, mp: 0 };
-          }
-
-          result[app.id].mp += 1;
-        });
-      },
-      {}
-    )
+            result[app.id].mp += 1;
+          });
+        },
+        {}
+      )
+    ),
+    player => slugify(playerName(player.name).lastName, { lower: true })
   );
+
   res.json({ players });
 }

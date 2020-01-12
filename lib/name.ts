@@ -1,6 +1,12 @@
-import { last } from "lodash";
+import { last, memoize } from "lodash";
+import slugify from "slugify";
 
-export function playerName(name: string): PlayerName {
+// TODO: use memoize
+export const playerName = memoize(function(
+  name: PlayerName | string
+): PlayerName {
+  if (typeof name !== "string") return name;
+
   let nameParts = name.split(" ");
 
   let lastName = nameParts.pop() || "";
@@ -15,4 +21,26 @@ export function playerName(name: string): PlayerName {
   let middleName = nameParts.join(" ") || "";
 
   return { firstName, middleName, lastName };
+});
+
+export function playerCatalog(name: PlayerName | string) {
+  const normalizedPlayerName = playerName(name);
+  return slugify(normalizedPlayerName.lastName, { lower: true })[0];
+}
+
+export function playerSlug(name: PlayerName | string) {
+  const normalizedPlayerName = playerName(name);
+  return slugify(
+    [
+      normalizedPlayerName.firstName,
+      normalizedPlayerName.middleName,
+      normalizedPlayerName.lastName
+    ]
+      .join(" ")
+      .trim(),
+    {
+      lower: true,
+      remove: /[']/g
+    }
+  );
 }

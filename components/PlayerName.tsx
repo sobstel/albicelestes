@@ -10,8 +10,8 @@ import {
   size,
   zip
 } from "lodash";
-import slugify from "slugify";
 import Link from "next/link";
+import { playerCatalog, playerSlug } from "lib/name";
 import { inflect } from "db/inflections";
 
 function shortenName(name: string) {
@@ -80,12 +80,8 @@ function PlayerName({
   const shortName = shortNames[name] || id || "unknown";
 
   if (id) {
-    const slug = slugify(name, { lower: true });
-    // @ts-ignore
-    const catalog = slug
-      .split("-", 2)
-      .pop()
-      .toString()[0];
+    const slug = playerSlug(name);
+    const catalog = playerCatalog(name);
 
     return (
       <Link

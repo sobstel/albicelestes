@@ -9,7 +9,7 @@ function Nav({ catalog }: { catalog?: string }) {
             ? "text-blue-600 hover:text-blue-400"
             : "text-black";
         return (
-          <li className="mr-4 inline-flex">
+          <li className="mr-3 inline-flex">
             <Link href="/players/[catalog]" as={`/players/${localCatalog}`}>
               <a className={`${textColor} font-semibold uppercase`}>
                 {localCatalog}
