@@ -1,4 +1,4 @@
-import playerName from "../../lib/playerName";
+import { playerName } from "../../lib/name";
 
 describe("playerName", () => {
   it("standard", () => {

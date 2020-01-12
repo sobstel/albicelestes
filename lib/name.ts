@@ -1,6 +1,6 @@
 import { last } from "lodash";
 
-export default function playerName(name: string): PlayerName {
+export function playerName(name: string): PlayerName {
   let nameParts = name.split(" ");
 
   let lastName = nameParts.pop() || "";
