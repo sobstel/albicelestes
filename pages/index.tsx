@@ -45,7 +45,7 @@ const IndexPage = ({ matches, players, teams }: Props) => (
 );
 
 IndexPage.getInitialProps = async ({ res }: any) => {
-  const result = await internalAPI("index");
+  const result = await internalAPI("root");
 
   if (res) {
     res.setHeader(
