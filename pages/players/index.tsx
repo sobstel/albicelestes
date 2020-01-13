@@ -12,8 +12,6 @@ const PlayersPage = ({}: Props) => {
 };
 
 PlayersPage.getInitialProps = async ({}: any) => {
-  // const { id, slug } = query;
-  // const result = await internalAPI(`players/${id}`);
   return {};
 };
 

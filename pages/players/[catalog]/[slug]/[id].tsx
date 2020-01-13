@@ -26,8 +26,7 @@ const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
       {stat && <PlayerStat stat={stat} />}
       <Competitions names={competitions} />
-      <h2 className="mb-4 font-semibold uppercase">Matches</h2>
-      <Fixtures matches={matches} />
+      <Fixtures title="Matches" matches={matches} />
     </Layout>
   );
 };

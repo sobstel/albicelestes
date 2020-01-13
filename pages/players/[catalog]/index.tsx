@@ -1,8 +1,9 @@
 import Link from "next/link";
 import internalAPI from "lib/api/internal";
 import { playerName, playerCatalog, playerSlug } from "lib/name";
-import Layout from "components/Layout";
 import Nav from "components/players/Nav";
+import Layout from "components/Layout";
+import Section from "components/layout/Section";
 
 type Props = { catalog: string; players: any[] };
 
@@ -12,8 +13,7 @@ const PlayersPage = ({ catalog, players }: Props) => {
       <Nav catalog={catalog} />
 
       {players.length > 0 && (
-        <>
-          <h2 className="mb-4 font-semibold uppercase">Players</h2>
+        <Section title="Players">
           {players.map(({ id, name, mp }) => {
             const _playerName = playerName(name);
             const slug = playerSlug(name);
@@ -41,7 +41,7 @@ const PlayersPage = ({ catalog, players }: Props) => {
               </p>
             );
           })}
-        </>
+        </Section>
       )}
     </Layout>
   );

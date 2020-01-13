@@ -26,8 +26,7 @@ const TeamPage = ({ name, matches, competitions, stat }: Props) => {
       <Header text={title} />
       <TeamStat stat={stat} />
       <Competitions names={competitions} />
-      <Header text="Matches" />
-      <Fixtures matches={matches} />
+      <Fixtures title="Matches" matches={matches} />
     </Layout>
   );
 };

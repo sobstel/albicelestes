@@ -5,8 +5,9 @@ import { MIN_YEAR, MAX_YEAR } from "lib/config";
 import ErrorPage from "pages/_error";
 import Nav from "components/matches/Nav";
 import Fixtures from "components/Fixtures";
-import Layout from "components/Layout";
 import PlayerName from "components/PlayerName";
+import Layout from "components/Layout";
+import Section from "components/layout/Section";
 
 interface Props {
   matches: PartialMatch[];
@@ -26,26 +27,16 @@ const MatchesPage = ({ year, matches, players }: Props) => {
     <Layout title={`Matches | ${year}`}>
       <Nav year={toNumber(year)} />
       {matches.length === 0 && <p>No matches for {year}</p>}
-      {matches.length > 0 && (
-        <>
-          <h2 className="mb-4 font-semibold uppercase">
-            Matches ({matches.length})
-          </h2>
-          <Fixtures matches={matches} />
-        </>
-      )}
+      <Fixtures title={`Matches (${matches.length})`} matches={matches} />
       {players.length > 0 && (
-        <>
-          <h2 className="mb-4 font-semibold uppercase">
-            Players ({players.length})
-          </h2>
+        <Section title={`Players (${players.length})`}>
           {players.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
               <PlayerName name={name} names={names} id={id} /> {mp} matches (
               {si} SI, {so} SO), {g} goals
             </p>
           ))}
-        </>
+        </Section>
       )}
     </Layout>
   );
