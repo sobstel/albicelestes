@@ -1,53 +1,17 @@
 import {
-  countBy,
   filter,
   find,
   first,
   flatten,
   flow,
   get,
-  includes,
   map,
-  pick,
   reduce,
-  reject,
-  some,
-  uniq
+  some
 } from "lodash";
 import data from "db/data";
-
-function preparePlayerMatches(matches) {
-  return map(matches, match =>
-    pick(match, [
-      "id",
-      "date",
-      "competition",
-      "teams",
-      "score",
-      "pen",
-      "result",
-      "goals"
-    ])
-  );
-}
-
-function getCompetitions(matches) {
-  return flow(
-    matches =>
-      reject(
-        matches,
-        match =>
-          includes(match.competition, "Friendly") ||
-          includes(match.competition, "World Cup Quals")
-      ),
-    matches =>
-      map(
-        matches,
-        match => `${match.competition} ${match.date.substring(0, 4)}`
-      ),
-    uniq
-  )(matches);
-}
+import getCompetitions from "lib/data/getCompetitions";
+import prepareMatches from "lib/data/prepareMatches";
 
 function getPlayerName(id, matches) {
   return flow(
@@ -99,7 +63,7 @@ export default function handle(req, res) {
   const fullMatches = filter(data.matches, { lineups: [[{ id }]] });
 
   const name = getPlayerName(id, fullMatches);
-  const matches = preparePlayerMatches(fullMatches);
+  const matches = prepareMatches(fullMatches);
   const stat = getPlayerStat(id, fullMatches);
   const competitions = getCompetitions(fullMatches);
 

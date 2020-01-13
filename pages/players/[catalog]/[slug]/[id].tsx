@@ -1,6 +1,7 @@
 import internalAPI from "lib/api/internal";
 import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
+import Competitions from "components/Competitions";
 
 interface Props {
   id: string;
@@ -24,12 +25,7 @@ const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
     <Layout title={`${name} | Argentina Players`}>
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
       {stat && <PlayerStat stat={stat} />}
-      {competitions && competitions.length > 0 && (
-        <>
-          <h2 className="mb-4 font-semibold uppercase">Competitions</h2>
-          <p className="mb-4">{competitions.join(", ")}</p>
-        </>
-      )}
+      <Competitions names={competitions} />
       <h2 className="mb-4 font-semibold uppercase">Matches</h2>
       <Fixtures matches={matches} />
     </Layout>

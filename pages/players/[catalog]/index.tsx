@@ -19,7 +19,7 @@ const PlayersPage = ({ catalog, players }: Props) => {
             const slug = playerSlug(name);
             const catalog = playerCatalog(name);
 
-            const boldStyle = mp > 20 ? "font-bold" : "";
+            const boldStyle = mp >= 20 ? "font-bold" : "";
 
             return (
               <p key={id}>

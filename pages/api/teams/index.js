@@ -5,6 +5,7 @@ export default async function handle(req, res) {
   const teams = sortBy(
     values(
       transform(
+        // reverse to have most actual team name eg Germany vs West Germany
         reverse(data.matches),
         (result, match) => {
           flatten(match.teams).map(team => {
