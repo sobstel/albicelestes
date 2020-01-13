@@ -44,7 +44,7 @@ export default ({ children, title }: Props) => {
   return (
     <div>
       <Head>
-        <title>{title} | Albicelestes 🇦🇷</title>
+        <title>{title} | Albicelestes.com</title>
         <link rel="shortcut icon" href="/static/favicon.png" />
       </Head>
 
@@ -95,8 +95,8 @@ export default ({ children, title }: Props) => {
             </a>
           </p>
           <p className="float-right">
-            <Link href="/links" as="/links" prefetch={false}>
-              <a className="text-blue-600 hover:text-black">links</a>
+            <Link href="/about" as="/about" prefetch={false}>
+              <a className="text-blue-600 hover:text-black">about</a>
             </Link>
           </p>
         </footer>

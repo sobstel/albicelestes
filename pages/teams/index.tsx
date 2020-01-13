@@ -6,7 +6,7 @@ type Props = { teams: any[] };
 
 const TeamsPage = ({ teams }: Props) => {
   return (
-    <Layout title="Teams">
+    <Layout title="Rival Teams">
       <h2 className="mb-4 font-semibold uppercase">Teams</h2>
       {teams.map(({ name, slug, mp }) => (
         <p key={slug}>

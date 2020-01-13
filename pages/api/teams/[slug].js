@@ -26,22 +26,23 @@ function getTeamName(slug, matches) {
 
 function getTeamStat(slug, matches) {
   const mp = matches.length;
+
   const { W: mw, D: md, L: ml } = countBy(matches, "result");
 
   const { gf, ga } = transform(
     matches,
-    (stat, match) => {
+    (goalStat, match) => {
       const otherTeamIndex = match.teams.findIndex(
         team => team.slug !== "argentina"
       );
 
-      stat.gf += match.score[1 - otherTeamIndex];
-      stat.ga += match.score[otherTeamIndex];
+      goalStat.gf += match.score[1 - otherTeamIndex];
+      goalStat.ga += match.score[otherTeamIndex];
     },
     { gf: 0, ga: 0 }
   );
 
-  return { mp, mw, md, ml, gf, ga };
+  return { mp, mw: mw || 0, md: md || 0, ml: ml || 0, gf, ga };
 }
 
 export default async function handle(req, res) {

@@ -22,7 +22,7 @@ const PlayerStat = ({ stat: { mp, si, so, g, yc, rc } }: any) => {
 
 const PlayerPage = ({ name, stat, competitions, matches }: Props) => {
   return (
-    <Layout title={`${name} | Argentina Players`}>
+    <Layout title={`${name} | Players`}>
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
       {stat && <PlayerStat stat={stat} />}
       <Competitions names={competitions} />

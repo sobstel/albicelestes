@@ -8,7 +8,7 @@ type Props = {
 };
 
 const IndexPage = ({ recentMatches, majorMatches }: Props) => (
-  <Layout title="Ultimate La Selección Argentina Database">
+  <Layout title="Ultimate La Selección Argentina Database 🇦🇷">
     <Fixtures title="Recent matches" matches={recentMatches} />
     <Fixtures title="Major matches" matches={majorMatches} />
   </Layout>
