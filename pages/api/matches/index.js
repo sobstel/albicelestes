@@ -50,7 +50,7 @@ export default async function handle(req, res) {
     ])
   );
 
-  const playersStat = sortBy(
+  const players = sortBy(
     values(
       transform(
         fullMatches,
@@ -96,5 +96,5 @@ export default async function handle(req, res) {
     stat => -stat.mp
   );
 
-  res.json({ matches, playersStat });
+  res.json({ matches, players });
 }

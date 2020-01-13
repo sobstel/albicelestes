@@ -11,16 +11,16 @@ import PlayerName from "components/PlayerName";
 interface Props {
   matches: PartialMatch[];
   // playersStat: { name: string }[];
-  playersStat: any[];
+  players: any[];
   year: string;
 }
 
-const MatchesPage = ({ year, matches, playersStat }: Props) => {
+const MatchesPage = ({ year, matches, players }: Props) => {
   if (!matches || !year) {
     return <ErrorPage statusCode={404} />;
   }
 
-  const names = map(playersStat, "name");
+  const names = map(players, "name");
 
   return (
     <Layout title={`Matches | ${year}`}>
@@ -34,12 +34,12 @@ const MatchesPage = ({ year, matches, playersStat }: Props) => {
           <Fixtures matches={matches} />
         </>
       )}
-      {playersStat.length > 0 && (
+      {players.length > 0 && (
         <>
           <h2 className="mb-4 font-semibold uppercase">
-            Players ({playersStat.length})
+            Players ({players.length})
           </h2>
-          {playersStat.map(({ id, name, mp, si, so, g }) => (
+          {players.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
               <PlayerName name={name} names={names} id={id} /> {mp} matches (
               {si} SI, {so} SO), {g} goals
@@ -62,7 +62,7 @@ MatchesPage.getInitialProps = async ({ res, query }: NextPageContext) => {
   const result = await internalAPI(`matches?year=${year}`);
 
   if (!result) {
-    return { year, matches: [], playersStat: [] };
+    return { year, matches: [], players: [] };
   }
 
   return { year, ...result };
