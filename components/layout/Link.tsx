@@ -5,6 +5,7 @@ interface Props {
   as: string;
   important?: boolean;
   children?: any;
+  title?: any;
 }
 
 export default (props: Props) => {
@@ -14,9 +15,16 @@ export default (props: Props) => {
     classNames.push("font-bold");
   }
 
+  let anchorProps: any = {};
+  if (props.title) {
+    anchorProps.title = props.title;
+  }
+
   return (
     <Link href={props.href} as={props.as}>
-      <a className={classNames.join(" ")}>{props.children}</a>
+      <a className={classNames.join(" ")} {...anchorProps}>
+        {props.children}
+      </a>
     </Link>
   );
 };

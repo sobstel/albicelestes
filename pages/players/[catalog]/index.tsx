@@ -1,9 +1,9 @@
-import Link from "next/link";
 import internalAPI from "lib/api/internal";
 import { playerName, playerCatalog, playerSlug } from "lib/name";
 import Nav from "components/players/Nav";
 import Layout from "components/Layout";
 import Section from "components/layout/Section";
+import Link from "components/layout/Link";
 
 type Props = { catalog: string; players: any[] };
 
@@ -19,23 +19,18 @@ const PlayersPage = ({ catalog, players }: Props) => {
             const slug = playerSlug(name);
             const catalog = playerCatalog(name);
 
-            const boldStyle = mp >= 20 ? "font-bold" : "";
-
             return (
               <p key={id}>
                 <Link
                   href="/players/[catalog]/[slug]/[id]"
                   as={`/players/${catalog}/${slug}/${id}`}
+                  title={name}
+                  important={mp >= 20}
                 >
-                  <a
-                    className={`text-blue-600 hover:text-blue-400 ${boldStyle}`}
-                    title={name}
-                  >
-                    {_playerName.lastName},{" "}
-                    {[_playerName.firstName, _playerName.middleName]
-                      .join(" ")
-                      .trim()}
-                  </a>
+                  {_playerName.lastName},{" "}
+                  {[_playerName.firstName, _playerName.middleName]
+                    .join(" ")
+                    .trim()}
                 </Link>{" "}
                 ({mp})
               </p>
