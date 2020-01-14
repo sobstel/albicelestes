@@ -1,8 +1,7 @@
 on:
-  push
-  # push:
-  #   paths:
-  #     - "db/data.json"
+  push:
+    paths:
+      - "db/data.json"
 
 jobs:
   jsize:
