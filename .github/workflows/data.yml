@@ -32,7 +32,9 @@ jobs:
           bundle install --jobs 4 --retry 3
 
       - name: jsize
-        run: ./db/jsize.sh
+        run: |
+          cd ./db
+          bundle exec jsize.sh
 
       - name: Commit files
         run: |
