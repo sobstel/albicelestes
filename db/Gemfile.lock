@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     execjs (2.7.0)
-    json (2.2.0)
+    json (2.3.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
 
