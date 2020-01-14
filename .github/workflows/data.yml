@@ -7,16 +7,20 @@ on:
 jobs:
   jsize:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
 
-      - name: Read Ruby version
-        run: echo "::set-output name=RUBY_VERSION::$(cat db/.ruby-version)"
-        id: rbenv
+      # - name: Read Ruby version
+      #   run: echo "::set-output name=RUBY_VERSION::$(cat db/.ruby-version)"
+      #   id: rbenv
 
       - uses: actions/setup-ruby@v1
         with:
-          ruby-version: "${{ steps.rbenv.outputs.RUBY_VERSION }}"
+          ruby-version: 2.6.x
+          # ruby-version: "${{ steps.rbenv.outputs.RUBY_VERSION }}"
 
       - uses: actions/cache@v1
         with:
