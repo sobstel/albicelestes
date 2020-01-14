@@ -31,7 +31,9 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
-      - run: db/jsize.sh
+      - run: |
+          cd db
+          ./jsize.sh
 
       - name: Commit files
         run: |
