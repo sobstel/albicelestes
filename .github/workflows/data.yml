@@ -20,7 +20,7 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: db/vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gem-${{ hashFiles('db/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gem-
 
@@ -41,7 +41,6 @@ jobs:
           git commit -m "Convert data.json to data.js" -a
 
       - name: Push changes
-        if: success()
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
