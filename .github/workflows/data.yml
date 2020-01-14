@@ -1,0 +1,47 @@
+on:
+  push
+  # push:
+  #   paths:
+  #     - "db/data.json"
+
+jobs:
+  jsize:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: "./db"
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Read Ruby version
+        run: echo "::set-output name=RUBY_VERSION::$(cat db/.ruby-version)"
+        id: rbenv
+
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: "${{ steps.rbenv.outputs.RUBY_VERSION }}"
+
+      - uses: actions/cache@v1
+        working-directory: ${{ env.working-directory }}
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+
+      - name: Install dependencies
+        run: |
+          command -v bundler || gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+    # - name: Create local changes
+    #   run: |
+    #     ...
+    # - name: Commit files
+    #   run: |
+    #     git config --local user.email "action@github.com"
+    #     git config --local user.name "GitHub Action"
+    #     git commit -m "Add changes" -a
+    # - name: Push changes
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
