@@ -40,7 +40,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet && git commit -m "Convert data.json to data.js" -a
+          git diff --quiet && git diff --staged --quiet || git commit -m "Convert data.json to data.js" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
