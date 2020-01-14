@@ -7,7 +7,7 @@ on:
       - "**.tsx"
       - "**/yarn.lock"
       - "public/**"
-      - ".github/workflows/*"
+      - ".github/workflows/ci.yml"
 
 jobs:
   js-check:

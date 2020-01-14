@@ -31,7 +31,8 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
-      - run: |
+      - name: jsize
+        run: |
           cd db
           ./jsize.sh
 
@@ -42,6 +43,7 @@ jobs:
           git commit -m "Convert data.json to data.js" -a
 
       - name: Push changes
+        if: success()
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
