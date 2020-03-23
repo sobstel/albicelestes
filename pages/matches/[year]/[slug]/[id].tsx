@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import * as _R from "lib/remeda";
 import { useRouter } from "next/router";
 import { fetchMatches, fetchMatchInfo } from "db";
 import { matchItem, matchSlug, matchYear } from "helpers/match";
@@ -35,7 +36,7 @@ export async function getStaticPaths() {
   return {
     paths: R.pipe(
       fetchMatches(),
-      (matches) => matches.reverse(),
+      _R.reverse(),
       R.take(100),
       R.map((match) => ({
         params: {
