@@ -37,7 +37,7 @@ export async function getStaticPaths() {
     paths: R.pipe(
       fetchMatches(),
       _R.reverse(),
-      R.take(100),
+      R.take(1000),
       R.map((match) => ({
         params: {
           year: matchYear(match),
