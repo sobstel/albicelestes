@@ -7,7 +7,8 @@
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet",
     "start": "next start",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "now-build": "yarn lint && yarn test"
   },
   "dependencies": {
     "immer": "^6.0.2",

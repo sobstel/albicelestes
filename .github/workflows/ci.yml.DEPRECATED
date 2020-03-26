@@ -38,17 +38,18 @@ jobs:
       - run: yarn lint
 
       - run: yarn test
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   needs: js-check
-  #   if: success() && github.ref == 'refs/heads/master'
-  #   timeout-minutes: 5
-  #   steps:
-  #     - uses: actions/checkout@v1
-  #       with:
-  #         fetch-depth: 1
-  #     - uses: amondnet/now-deployment@v1
-  #       with:
-  #         github-token: ${{ secrets.GITHUB_TOKEN }}
-  #         zeit-token: ${{ secrets.ZEIT_TOKEN }}
-  #         now-args: "--prod"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: js-check
+    if: success() && github.ref == 'refs/heads/master'
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: amondnet/now-deployment@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          zeit-token: ${{ secrets.ZEIT_TOKEN }}
+          now-args: "--prod"
