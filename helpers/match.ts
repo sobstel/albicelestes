@@ -40,7 +40,7 @@ const MONTHS = [
 
 // FIXME: date as an input arg
 export function matchDate(
-  match: MatchItem,
+  match: Pick<Match, "date">,
   localOpts: MatchDateOpts = {}
 ): string {
   const { date } = match;
@@ -62,12 +62,12 @@ export function matchDate(
   return `${day} ${month}`;
 }
 
-export function matchYear(match: MatchItem): string {
+export function matchYear(match: Pick<Match, "date">): string {
   return match.date.substring(0, 4);
 }
 
 // FIXME: teams as a input arg
-export function matchSlug(match: MatchItem): string {
+export function matchSlug(match: Pick<Match, "teams">): string {
   const [homeTeam, awayTeam] = match.teams;
   const homeSlug = homeTeam.slug || slugify(homeTeam.name, { lower: true });
   const awaySlug = awayTeam.slug || slugify(awayTeam.name, { lower: true });
