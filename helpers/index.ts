@@ -5,6 +5,7 @@ import matchYear from "./matchYear";
 import playerCatalog from "./playerCatalog";
 import playerName from "./playerName";
 import playerSlug from "./playerSlug";
+import uniquePlayerShortName from "./uniquePlayerShortName";
 
 export {
   matchDate,
@@ -14,4 +15,5 @@ export {
   playerCatalog,
   playerName,
   playerSlug,
+  uniquePlayerShortName,
 };
