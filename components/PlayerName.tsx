@@ -5,7 +5,7 @@ import memoize from "lodash.memoize";
 import pickBy from "lodash.pickby";
 import zip from "lodash.zip";
 import { inflect } from "db";
-import { playerName, playerCatalog, playerSlug } from "helpers/player";
+import { playerName, playerCatalog, playerSlug } from "helpers";
 import Link from "components/Layout/Link";
 
 function shortenName(name: string) {

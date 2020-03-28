@@ -3,7 +3,7 @@ import { MIN_YEAR, MAX_YEAR } from "lib/config";
 import Page, { Props } from "components/Page/Matches";
 import { fetchMatches } from "db";
 import { collectPlayers } from "functions";
-import { matchItem, matchYear } from "helpers/match";
+import { matchItem, matchYear } from "helpers";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

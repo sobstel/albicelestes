@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { matchYear } from "helpers/match";
+import { matchYear } from "helpers";
 
 export default function collectCompetitions(
   matches: Pick<Match, "competition" | "date">[]

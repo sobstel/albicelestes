@@ -2,7 +2,7 @@ import * as R from "remeda";
 import * as Util from "lib/util";
 import { useRouter } from "next/router";
 import { fetchMatches, fetchMatchInfo } from "db";
-import { matchItem, matchSlug, matchYear } from "helpers/match";
+import { matchItem, matchSlug, matchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
 
 export default function PageContainer(props: Props) {

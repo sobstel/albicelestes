@@ -1,5 +1,4 @@
-import { matchSlug, matchYear } from 'helpers/match';
-import { playerCatalog, playerSlug } from 'helpers/player';
+import { matchSlug, matchYear, playerCatalog, playerSlug } from 'helpers';
 
 // import is not used so it's not checked by typescript (file is too big)
 const matches = require('db/matches.json');
