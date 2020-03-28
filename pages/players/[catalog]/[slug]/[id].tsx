@@ -2,8 +2,7 @@ import * as R from "remeda";
 import { useRouter } from "next/router";
 import Page, { Props } from "components/Page/Player";
 import { fetchMatches, fetchPlayerInfo } from "db";
-import { matchItem } from "helpers/match";
-import { playerCatalog, playerSlug } from "helpers/player";
+import { matchItem, playerCatalog, playerSlug } from "helpers";
 import {
   collectCompetitions,
   collectPlayerName,

@@ -4,7 +4,7 @@ import Page, { Props } from "components/Page/Players";
 import { ALPHABET } from "components/Page/Players/Nav";
 import { fetchMatches } from "db";
 import { collectPlayers } from "functions";
-import { playerName, playerCatalog } from "helpers/player";
+import { playerName, playerCatalog } from "helpers";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

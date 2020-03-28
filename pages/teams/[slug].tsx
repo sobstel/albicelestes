@@ -7,7 +7,7 @@ import {
   collectTeams,
   collectTeamStat,
 } from "functions";
-import { matchItem } from "helpers/match";
+import { matchItem } from "helpers";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

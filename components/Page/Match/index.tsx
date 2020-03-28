@@ -1,4 +1,4 @@
-import { matchDate } from "helpers/match";
+import { matchDate } from "helpers";
 import Layout from "components/Layout";
 import Score from "./Score";
 import Goals from "./Goals";

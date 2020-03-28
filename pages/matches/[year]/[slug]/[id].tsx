@@ -1,8 +1,8 @@
 import * as R from "remeda";
-import * as _R from "lib/remeda";
+import * as Util from "lib/util";
 import { useRouter } from "next/router";
 import { fetchMatches, fetchMatchInfo } from "db";
-import { matchItem, matchSlug, matchYear } from "helpers/match";
+import { matchItem, matchSlug, matchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
 
 export default function PageContainer(props: Props) {
@@ -36,7 +36,7 @@ export async function getStaticPaths() {
   return {
     paths: R.pipe(
       fetchMatches(),
-      _R.reverse(),
+      Util.reverse(),
       R.take(1000),
       R.map((match) => ({
         params: {

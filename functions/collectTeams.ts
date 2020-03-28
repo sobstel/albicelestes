@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import * as _R from "lib/remeda";
+import * as Util from "lib/util";
 import immer from "immer";
 
 export default function collectTeams(
@@ -7,7 +7,7 @@ export default function collectTeams(
 ): TeamItem[] {
   return R.pipe(
     matches,
-    _R.reverse(),
+    Util.reverse(),
     R.reduce(
       (acc, match) =>
         immer(acc, (draftAcc) => {

@@ -1,4 +1,4 @@
-import { playerName, playerCatalog, playerSlug } from "helpers/player";
+import { playerName, playerCatalog, playerSlug } from "helpers";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";

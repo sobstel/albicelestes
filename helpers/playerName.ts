@@ -1,6 +1,5 @@
 import * as R from "remeda";
 import memoize from "lodash.memoize";
-import slugify from "slugify";
 
 export const playerName = memoize(function (
   name: PlayerName | string
@@ -23,20 +22,4 @@ export const playerName = memoize(function (
   return { firstName, middleName, lastName };
 });
 
-export function playerCatalog(name: string) {
-  const _playerName = playerName(name);
-  return slugify(_playerName.lastName, { lower: true })[0];
-}
-
-export function playerSlug(name: string) {
-  const _playerName = playerName(name);
-  return slugify(
-    [_playerName.firstName, _playerName.middleName, _playerName.lastName]
-      .join(" ")
-      .trim(),
-    {
-      lower: true,
-      remove: /[']/g,
-    }
-  );
-}
+export default playerName;

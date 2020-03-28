@@ -1,4 +1,4 @@
-import { matchDate, matchYear, matchSlug } from "helpers/match";
+import { matchDate, matchYear, matchSlug } from "helpers";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
 
