@@ -12,6 +12,7 @@ export default function matchItem(match: Match): MatchItem {
   ]);
 
   // HACK to avoid undefined item.pen
+  // FIXME use R.omit?
   if (!match.pen) delete item.pen;
 
   return item;

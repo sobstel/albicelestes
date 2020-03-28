@@ -1,64 +1,72 @@
 import * as R from "remeda";
-import countBy from "lodash.countby";
-import fromPairs from "lodash.frompairs";
-import memoize from "lodash.memoize";
-import pickBy from "lodash.pickby";
-import zip from "lodash.zip";
-import { inflect } from "db";
+import immer from "immer";
+import { fetchInflections } from "db";
 import { playerName } from "helpers";
 
 function shortenName(name: string) {
-  const inflectedName = inflect(name);
-  if (inflectedName.inflected) return inflectedName.name;
+  const inflections = fetchInflections();
+  if (inflections[name]) {
+    return inflections[name];
+  }
   return playerName(name).lastName;
 }
 
-function deduplicateNames(indexedNames: Record<string, string>) {
-  const indexedNamesUniq = indexedNames;
-
-  let duplicateNames;
-  let i = 0;
-
-  do {
-    i += 1;
-
-    duplicateNames = Object.keys(
-      pickBy(countBy(indexedNamesUniq), (count) => count > 1)
-    );
-
-    R.forEach(duplicateNames, (name) => {
-      const duplicateIndexes = Object.keys(
-        pickBy(indexedNamesUniq, (value: string) => value === name)
-      );
-
-      R.forEach(duplicateIndexes, (fullName: string) => {
-        const firstNameLength = fullName.indexOf(" ");
-        if (firstNameLength < i) return;
-
-        const shortenedFirstName = fullName.slice(0, i);
-        const lastName = shortenName(fullName);
-
-        indexedNamesUniq[fullName] = `${shortenedFirstName}. ${lastName}`;
-      });
-    });
-  } while (Object.keys(duplicateNames).length > 0 && i < 8);
-
-  return indexedNamesUniq;
+function deduplicateWith(
+  shortNames: string[],
+  fullNames: string[],
+  fn: (name: string) => string
+): string[] {
+  return R.pipe(
+    shortNames,
+    // creates [ name => [0, 1, ...] ]
+    R.reduce.indexed(
+      (acc, name, index) =>
+        immer(acc, (draftAcc) => {
+          (draftAcc[name] = draftAcc[name] || []).push(index);
+        }),
+      {} as Record<string, number[]>
+    ),
+    // convers obj to array
+    (obj) => Object.values(obj),
+    // gets indexes for duplicated names only
+    R.filter((indexes) => indexes.length > 1),
+    R.flatten(),
+    R.map(parseInt),
+    // call "fn" for each duplicated name
+    R.reduce(
+      (acc, index) =>
+        immer(acc, (draftAcc) => {
+          draftAcc[index] = fn(fullNames[index]);
+        }),
+      shortNames
+    )
+  );
 }
 
-const shortenNames = memoize(function (names) {
+const shortenNames = (fullNames: string[]): string[] => {
   return R.pipe(
-    names,
-    (names) => fromPairs(zip(names, R.map(names, shortenName))),
-    deduplicateNames
+    fullNames,
+    R.map(shortenName),
+    // convert duplicates to "F. Lastname"
+    (shortNames) =>
+      deduplicateWith(shortNames, fullNames, (fullName) => {
+        const nameObj = playerName(fullName);
+        return `${nameObj.firstName.slice(0, 1)}. ${nameObj.lastName}`;
+      }),
+    // convert remaining duplicates to "Full Name"
+    (shortNames) =>
+      deduplicateWith(shortNames, fullNames, (fullName) => fullName)
   );
-});
+};
 
 export default function uniquePlayerShortName(
   name: string,
   names: string[]
 ): string {
-  const shortNames = shortenNames(names);
-  const shortName = shortNames[name] || name;
-  return shortName;
+  const nameIndex = R.findIndex(names, (_name) => _name === name);
+  if (nameIndex === -1) {
+    return name;
+  }
+
+  return shortenNames(names)[nameIndex];
 }
