@@ -26,7 +26,7 @@ function deduplicateWith(
         }),
       {} as Record<string, number[]>
     ),
-    // convers obj to array
+    // converts obj to array
     (obj) => Object.values(obj),
     // gets indexes for duplicated names only
     R.filter((indexes) => indexes.length > 1),
