@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import * as _R from "lib/remeda";
+import * as Util from "lib/util";
 import { useState, useEffect } from "react";
 import { MIN_YEAR, MAX_YEAR } from "lib/config";
 import Link from "components/Layout/Link";
@@ -114,7 +114,7 @@ export default function Nav({ year = 2020 }: { year: number }) {
       {prevYearsActive && (
         <OtherYears
           key="prev"
-          years={_R.reverse(R.range(MIN_YEAR, prevYear))}
+          years={Util.reverse(R.range(MIN_YEAR, prevYear))}
         />
       )}
       {nextYearsActive && (
