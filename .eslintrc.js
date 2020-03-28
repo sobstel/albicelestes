@@ -19,6 +19,7 @@ module.exports = {
     }
   },
   rules: {
+    "prefer-rest-params": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
   },

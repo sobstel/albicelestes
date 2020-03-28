@@ -1,5 +1,4 @@
 import * as R from "remeda";
-import immer from "immer";
 import { fetchInflections } from "db";
 import { playerName } from "helpers";
 
@@ -11,36 +10,33 @@ function shortenName(name: string) {
   return playerName(name).lastName;
 }
 
-function deduplicateWith(
+function _deduplicateWith(
   shortNames: string[],
   fullNames: string[],
   fn: (name: string) => string
 ): string[] {
-  return R.pipe(
-    shortNames,
-    // creates [ name => [0, 1, ...] ]
-    R.reduce.indexed(
-      (acc, name, index) =>
-        immer(acc, (draftAcc) => {
-          (draftAcc[name] = draftAcc[name] || []).push(index);
-        }),
-      {} as Record<string, number[]>
-    ),
-    // converts obj to array
-    (obj) => Object.values(obj),
-    // gets indexes for duplicated names only
-    R.filter((indexes) => indexes.length > 1),
-    R.flatten(),
-    R.map(parseInt),
-    // call "fn" for each duplicated name
-    R.reduce(
-      (acc, index) =>
-        immer(acc, (draftAcc) => {
-          draftAcc[index] = fn(fullNames[index]);
-        }),
-      shortNames
-    )
-  );
+  return R.map.indexed(shortNames, (name, index, array) => {
+    if (R.filter(array, (_name) => _name === name).length > 1) {
+      return fn(fullNames[index]);
+    }
+    return name;
+  });
+}
+
+// data-first
+function deduplicateWith(
+  shortNames: string[],
+  fullNames: string[],
+  fn: (name: string) => string
+): string[];
+// data-last
+function deduplicateWith<T>(
+  fullNames: string[],
+  fn: (name: string) => string
+): (shortNames: string[]) => string[];
+
+function deduplicateWith() {
+  return R.purry(_deduplicateWith, arguments);
 }
 
 const shortenNames = (fullNames: string[]): string[] => {
@@ -48,14 +44,12 @@ const shortenNames = (fullNames: string[]): string[] => {
     fullNames,
     R.map(shortenName),
     // convert duplicates to "F. Lastname"
-    (shortNames) =>
-      deduplicateWith(shortNames, fullNames, (fullName) => {
-        const nameObj = playerName(fullName);
-        return `${nameObj.firstName.slice(0, 1)}. ${nameObj.lastName}`;
-      }),
+    deduplicateWith(fullNames, (fullName) => {
+      const nameObj = playerName(fullName);
+      return `${nameObj.firstName.slice(0, 1)}. ${nameObj.lastName}`;
+    }),
     // convert remaining duplicates to "Full Name"
-    (shortNames) =>
-      deduplicateWith(shortNames, fullNames, (fullName) => fullName)
+    deduplicateWith(fullNames, (fullName) => fullName)
   );
 };
 
