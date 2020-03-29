@@ -1,6 +1,6 @@
 import * as R from "remeda";
 import * as Util from "lib/util";
-import immer from "immer";
+import produce from "immer";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]
@@ -9,19 +9,18 @@ export default function collectTeams(
     matches,
     Util.reverse(),
     R.reduce(
-      (acc, match) =>
-        immer(acc, (draftAcc) => {
-          R.forEach(R.flatten(match.teams), (team) => {
-            if (!team.slug) return;
-            if (team.slug === "argentina") return;
+      produce((acc, match) => {
+        R.forEach(R.flatten(match.teams), (team: TeamItem) => {
+          if (!team.slug) return;
+          if (team.slug === "argentina") return;
 
-            if (!draftAcc[team.slug]) {
-              draftAcc[team.slug] = { slug: team.slug, name: team.name, mp: 0 };
-            }
+          if (!acc[team.slug]) {
+            acc[team.slug] = { slug: team.slug, name: team.name, mp: 0 };
+          }
 
-            draftAcc[team.slug].mp += 1;
-          });
-        }),
+          acc[team.slug].mp += 1;
+        });
+      }),
       {} as { [key: string]: TeamItem }
     ),
     Object.values

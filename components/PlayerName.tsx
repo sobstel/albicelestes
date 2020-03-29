@@ -1,31 +1,29 @@
-import { playerCatalog, playerSlug, uniquePlayerShortName } from "helpers";
+import { playerCatalog, playerSlug } from "helpers";
 import Link from "components/Layout/Link";
 
 export default function PlayerName({
   name,
-  names,
+  displayName,
   id,
 }: {
   name: string;
-  names: string[];
+  displayName?: string;
   id?: string;
 }) {
-  const shortName = uniquePlayerShortName(name, names);
-
-  if (id) {
-    const slug = playerSlug(name);
-    const catalog = playerCatalog(name);
-
-    return (
-      <Link
-        href="/players/[catalog]/[slug]/[id]"
-        as={`/players/${catalog}/${slug}/${id}`}
-        title={name}
-      >
-        {shortName}
-      </Link>
-    );
+  if (!id) {
+    return <span title={name}>{displayName || name}</span>;
   }
 
-  return <span title={name}>{shortName}</span>;
+  const slug = playerSlug(name);
+  const catalog = playerCatalog(name);
+
+  return (
+    <Link
+      href="/players/[catalog]/[slug]/[id]"
+      as={`/players/${catalog}/${slug}/${id}`}
+      title={name}
+    >
+      {displayName || name}
+    </Link>
+  );
 }

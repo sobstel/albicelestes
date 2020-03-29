@@ -1,19 +1,8 @@
-import matchDate from "./matchDate";
-import matchItem from "./matchItem";
-import matchSlug from "./matchSlug";
-import matchYear from "./matchYear";
-import playerCatalog from "./playerCatalog";
-import playerName from "./playerName";
-import playerSlug from "./playerSlug";
-import uniquePlayerShortName from "./uniquePlayerShortName";
-
-export {
-  matchDate,
-  matchItem,
-  matchSlug,
-  matchYear,
-  playerCatalog,
-  playerName,
-  playerSlug,
-  uniquePlayerShortName,
-};
+export { default as matchDate } from "./matchDate";
+export { default as matchItem } from "./matchItem";
+export { default as matchSlug } from "./matchSlug";
+export { default as matchYear } from "./matchYear";
+export { default as playerCatalog } from "./playerCatalog";
+export { default as playerName } from "./playerName";
+export { default as playerSlug } from "./playerSlug";
+export { default as playersShortNames } from "./playersShortNames";

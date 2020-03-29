@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { playersShortNames } from "helpers";
 import { Fragment } from "react";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
@@ -16,10 +17,11 @@ export default function Cards({ match }: Props) {
     return null;
   }
 
-  const names = R.pipe(
+  const shortNames = R.pipe(
     match.lineups,
     R.flatten(),
-    R.map((app) => app.name)
+    R.map((app) => app.name),
+    playersShortNames
   );
 
   return (
@@ -27,7 +29,11 @@ export default function Cards({ match }: Props) {
       {cards.map((card, index) => (
         <Fragment key={index}>
           {index > 0 && ", "}
-          <PlayerName name={card.name} names={names} id={card.id} />{" "}
+          <PlayerName
+            name={card.name}
+            displayName={shortNames[card.name]}
+            id={card.id}
+          />{" "}
           {card.min && `${card.min}'`} {card.type && `(${card.type})`}
         </Fragment>
       ))}

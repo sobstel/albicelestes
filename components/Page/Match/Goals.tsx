@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { playersShortNames } from "helpers";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
@@ -36,10 +37,11 @@ export default function Goals({ match }: Props) {
     return null;
   }
 
-  const names = R.pipe(
+  const shortNames = R.pipe(
     match.lineups,
     R.flatten(),
-    R.map((app) => app.name)
+    R.map((app) => app.name),
+    playersShortNames
   );
 
   return (
@@ -47,7 +49,11 @@ export default function Goals({ match }: Props) {
       {goals.map((goal, index) => (
         <p key={index}>
           {goal.score.join(":")}{" "}
-          <PlayerName name={goal.name} names={names} id={goal.id} />{" "}
+          <PlayerName
+            name={goal.name}
+            displayName={shortNames[goal.name]}
+            id={goal.id}
+          />{" "}
           {goal.min && `${goal.min}'`}
           {goal.type !== "G" && ` [${goal.type}] `}
         </p>

@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
-/* eslint-disable prefer-rest-params */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
-import { purry } from "./purry";
+/* eslint-disable prefer-rest-params */
+import { purry } from "remeda";
 
 /**
  * Reverses array.
