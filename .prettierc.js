@@ -1,4 +1,2 @@
-module.exports = {
-  trailingComma: 'all',
-  // singleQuote: true,
-};
+// Intentionally trying to use defaults
+module.exports = {};

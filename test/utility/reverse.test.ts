@@ -1,4 +1,4 @@
-import { reverse } from "./reverse";
+import { reverse } from "utility";
 import { pipe } from "remeda";
 
 describe("data first", () => {

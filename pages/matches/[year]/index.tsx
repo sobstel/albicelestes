@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { MIN_YEAR, MAX_YEAR } from "lib/config";
+import { MIN_YEAR, MAX_YEAR } from "config";
 import Page, { Props } from "components/Page/Matches";
 import { fetchMatches } from "db";
 import { collectPlayers } from "functions";
