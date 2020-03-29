@@ -2,13 +2,12 @@
   "name": "albicelestes",
   "private": true,
   "scripts": {
+    "now-build": "yarn lint && yarn test && next build",
     "dev": "next dev",
     "build": "next build",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet",
     "start": "next start",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "now-build": "yarn lint && yarn test && next build"
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet"
   },
   "dependencies": {
     "immer": "^6.0.2",

@@ -1,6 +1,7 @@
 import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
+import { playersShortNames } from "helpers";
 
 function coachName(
   coaches: [MatchCoach, MatchCoach],
@@ -15,10 +16,11 @@ type Props = {
 
 export default function Lineups({ match }: Props) {
   const { teams, lineups, coaches } = match;
-  const names = R.pipe(
+  const shortNames = R.pipe(
     match.lineups,
     R.flatten(),
-    R.map((app) => app.name)
+    R.map((app) => app.name),
+    playersShortNames
   );
 
   return (
@@ -40,7 +42,7 @@ export default function Lineups({ match }: Props) {
                       {index > 0 && ", "}
                       <PlayerName
                         name={event.name}
-                        names={names}
+                        displayName={shortNames[event.name]}
                         id={event.id}
                       />
                     </>
@@ -51,7 +53,7 @@ export default function Lineups({ match }: Props) {
                       {event.in && `${event.in}' `}
                       <PlayerName
                         name={event.name}
-                        names={names}
+                        displayName={shortNames[event.name]}
                         id={event.id}
                       />
                       {`)`}

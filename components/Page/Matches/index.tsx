@@ -1,3 +1,5 @@
+import * as R from "remeda";
+import { playersShortNames } from "helpers";
 import Fixtures from "components/Fixtures";
 import PlayerName from "components/PlayerName";
 import Layout from "components/Layout";
@@ -11,7 +13,14 @@ export type Props = {
 };
 
 export default function MatchesPage({ year, matches, players }: Props) {
-  const names = players && players.map((player) => player.name);
+  let shortNames: Record<string, string> = {};
+  if (players) {
+    shortNames = R.pipe(
+      players,
+      R.map((player) => player.name),
+      playersShortNames
+    );
+  }
 
   return (
     <Layout title={["Matches", year]}>
@@ -23,8 +32,8 @@ export default function MatchesPage({ year, matches, players }: Props) {
         <Section title={`Players (${players.length})`}>
           {players.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
-              <PlayerName name={name} names={names} id={id} /> {mp} matches (
-              {si} SI, {so} SO), {g} goals
+              <PlayerName name={name} displayName={shortNames[name]} id={id} />{" "}
+              {mp} matches ({si} SI, {so} SO), {g} goals
             </p>
           ))}
         </Section>

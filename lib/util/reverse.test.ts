@@ -1,5 +1,5 @@
 import { reverse } from "./reverse";
-import { pipe } from "./pipe";
+import { pipe } from "remeda";
 
 describe("data first", () => {
   test("reverse", () => {

@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import immer from "immer";
+import produce from "immer";
 import countBy from "lodash.countby";
 
 export default function collectTeamStat(
@@ -11,15 +11,14 @@ export default function collectTeamStat(
 
   const { gf, ga } = R.reduce(
     matches,
-    (acc, match) =>
-      immer(acc, (draftAcc) => {
-        const otherTeamIndex = match.teams.findIndex(
-          (team) => team.slug !== "argentina"
-        );
+    produce((acc, match) => {
+      const otherTeamIndex = match.teams.findIndex(
+        (team: TeamItem) => team.slug !== "argentina"
+      );
 
-        draftAcc.gf += match.score[1 - otherTeamIndex];
-        draftAcc.ga += match.score[otherTeamIndex];
-      }),
+      acc.gf += match.score[1 - otherTeamIndex];
+      acc.ga += match.score[otherTeamIndex];
+    }),
     { gf: 0, ga: 0 }
   );
 

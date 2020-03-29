@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import immer from "immer";
+import produce from "immer";
 
 type ReduceAcc = { [key: string]: PlayerItem };
 
@@ -30,19 +30,18 @@ export default function collectPlayers(
   return R.pipe(
     matches,
     R.reduce(
-      (acc, match) =>
-        immer(acc, (draftAcc) => {
-          R.forEach(R.flatten(match.lineups), (app) => {
-            increment(draftAcc, app, "mp");
-            if (app.in) increment(draftAcc, app, "si");
-            if (app.out) increment(draftAcc, app, "so");
-          });
+      produce((acc, match) => {
+        R.forEach(R.flatten(match.lineups), (app: Appearance) => {
+          increment(acc, app, "mp");
+          if (app.in) increment(acc, app, "si");
+          if (app.out) increment(acc, app, "so");
+        });
 
-          R.forEach(R.flatten(match.goals), (goal) => {
-            if (goal.type === "OG") return;
-            increment(draftAcc, goal, "g");
-          });
-        }),
+        R.forEach(R.flatten(match.goals), (goal: Goal) => {
+          if (goal.type === "OG") return;
+          increment(acc, goal, "g");
+        });
+      }),
       {}
     ),
     Object.values
