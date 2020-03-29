@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable prefer-rest-params */
-import produce from "immer";
 import { map, purry, reduce } from "remeda";
 
 // data-first
@@ -24,9 +24,10 @@ function _deduplicate(
 ): string[] {
   const counts = reduce(
     shortNames,
-    produce((acc, name) => {
+    (acc, name) => {
       acc[name] = (acc[name] || 0) + 1;
-    }),
+      return acc;
+    },
     {} as Record<string, number>
   );
 

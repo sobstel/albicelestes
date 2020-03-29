@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { deduplicate } from "lib/util";
+import * as U from "utility";
 import { fetchInflections } from "db";
 import { playerName } from "helpers";
 
@@ -18,12 +18,12 @@ export default function playersShortNames(
     names,
     R.map(shortenName),
     // convert duplicates to "F. Lastname"
-    deduplicate((index) => {
+    U.deduplicate((index) => {
       const nameObj = playerName(names[index]);
       return `${nameObj.firstName.slice(0, 1)}. ${nameObj.lastName}`;
     }),
     // convert remaining duplicates to "Full Name"
-    deduplicate((index) => names[index]),
+    U.deduplicate((index) => names[index]),
     R.indexBy.indexed((_, index) => names[index])
   );
 }

@@ -10,7 +10,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // "noImplicitReturns": true,
+    "noImplicitReturns": true,
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "strictNullChecks": true,
@@ -22,6 +22,6 @@
     "allowJs": false,
     "resolveJsonModule": true
   },
-  "exclude": ["node_modules", "db"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.tsx"]
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
