@@ -3,7 +3,7 @@ import Page, { Props } from "components/Page/Team";
 import { fetchMatches } from "db";
 import {
   collectCompetitions,
-  collectTeamName,
+  findTeamName,
   collectTeams,
   collectTeamStat,
 } from "functions";
@@ -22,7 +22,7 @@ export async function getStaticProps(context: Context) {
     fetchMatches(),
     R.filter((match) => !!R.find(match.teams, (team) => team.slug === slug))
   );
-  const name = collectTeamName(matches, slug);
+  const name = findTeamName(matches, slug);
   const competitions = collectCompetitions(matches);
   const stat = collectTeamStat(matches);
 

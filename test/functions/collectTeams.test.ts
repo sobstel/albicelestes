@@ -1,4 +1,4 @@
-import collectTeams from "functions/collectTeams";
+import { collectTeams } from "functions";
 
 describe("collectTeams", () => {
   const matches = [

@@ -1,6 +1,6 @@
-import collectTeamName from "functions/collectTeamName";
+import { findTeamName } from "functions";
 
-describe("collectTeamName", () => {
+describe("findTeamName", () => {
   const matches = [
     {
       teams: [
@@ -17,7 +17,7 @@ describe("collectTeamName", () => {
   ] as Pick<Match, "teams">[];
 
   it("returns a team name", () => {
-    expect(collectTeamName(matches, "paraguay")).toEqual("Paraguay");
-    expect(collectTeamName(matches, "poland")).toEqual("Poland");
+    expect(findTeamName(matches, "paraguay")).toEqual("Paraguay");
+    expect(findTeamName(matches, "poland")).toEqual("Poland");
   });
 });
