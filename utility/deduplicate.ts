@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable prefer-rest-params */
-import { map, purry, reduce } from "remeda";
+import * as R from "remeda";
 
 // data-first
 export function deduplicate(
@@ -15,14 +15,14 @@ export function deduplicate<T>(
 ): (shortNames: string[]) => string[];
 
 export function deduplicate() {
-  return purry(_deduplicate, arguments);
+  return R.purry(_deduplicate, arguments);
 }
 
 function _deduplicate(
   shortNames: string[],
   fn: (name: number) => string
 ): string[] {
-  const counts = reduce(
+  const counts = R.reduce(
     shortNames,
     (acc, name) => {
       acc[name] = (acc[name] || 0) + 1;
@@ -31,7 +31,7 @@ function _deduplicate(
     {} as Record<string, number>
   );
 
-  return map.indexed(shortNames, (name, index) => {
+  return R.map.indexed(shortNames, (name, index) => {
     return counts[name] > 1 ? fn(index) : name;
   });
 }
