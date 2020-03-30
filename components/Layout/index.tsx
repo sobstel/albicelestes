@@ -7,13 +7,15 @@ import { MAX_YEAR } from "config";
 import Link from "./Link";
 import Logo from "./Logo";
 
-type NavLinkProps = {
+function NavLink({
+  href,
+  as,
+  children,
+}: {
   href: string;
   as: string;
   children: ReactNode;
-};
-
-function NavLink({ href, as, children }: NavLinkProps) {
+}) {
   const classNames = [
     "inline-block",
     "ml-4",
@@ -26,6 +28,19 @@ function NavLink({ href, as, children }: NavLinkProps) {
     <NextLink href={href} as={as}>
       <a className={classNames.join(" ")}>{children}</a>
     </NextLink>
+  );
+}
+
+function FooterLink({ href, children }: { href: string; children: string }) {
+  return (
+    <a
+      href={href}
+      className="ml-1 text-blue-600 hover:text-blue-400"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+    >
+      {children}
+    </a>
   );
 }
 
@@ -87,27 +102,19 @@ export default function Layout({ children, title }: Props) {
           errors or mistakes to przemek&#64;sobstel&#46;org.
         </p>
 
-        <footer className="opacity-75 text-xs py-4 px-1">
+        <footer className="opacity-75 text-xs py-4 px-1 flex justify-between">
           <p>
-            created with 💙 for 🇦🇷 by{" "}
-            <a
-              href="https://www.sobstel.org"
-              className="text-blue-600 hover:text-blue-400"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-            >
-              sobstel
-            </a>
-            .
-            <a
-              href="https://github.com/sobstel/albicelestes"
-              className="ml-1 text-blue-600 hover:text-blue-400"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-            >
+            created with 💙 for 🇦🇷 by
+            <FooterLink href="https://www.sobstel.org">sobstel</FooterLink>
+          </p>
+          <p>
+            <FooterLink href="https://github.com/sobstel/albicelestes">
               github
-            </a>
-            .
+            </FooterLink>{" "}
+            /
+            <FooterLink href="https://twitter.com/albicelestescom">
+              twitter
+            </FooterLink>
           </p>
         </footer>
       </div>
