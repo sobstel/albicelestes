@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { matchSlug, matchYear, playerCatalog, playerSlug } from 'helpers';
+import { matchSlug, matchYear, playerCatalog, playerSlug } from '../helpers';
 
 // note: "import" is not used to prevent tsc from checking files that are too big
 export const fetchMatches = R.once((): Match[] => (require('db/matches.json')));
