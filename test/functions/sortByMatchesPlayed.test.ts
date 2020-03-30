@@ -1,6 +1,6 @@
-import mostMatchesPlayed from "functions/mostMatchesPlayed";
+import { sortByMatchesPlayed } from "functions";
 
-describe("mostMatchesPlayed", () => {
+describe("sortByMatchesPlayed", () => {
   const items = [
     { mp: 23 },
     { mp: 8 },
@@ -11,7 +11,7 @@ describe("mostMatchesPlayed", () => {
   ];
 
   it("sorts items by mp desc", () => {
-    expect(mostMatchesPlayed(items)).toEqual([
+    expect(sortByMatchesPlayed(items)).toEqual([
       { mp: 42 },
       { mp: 23 },
       { mp: 16 },

@@ -5,10 +5,10 @@ import { fetchMatches, fetchPlayerInfo } from "db";
 import { matchItem, playerCatalog, playerSlug } from "helpers";
 import {
   collectCompetitions,
-  collectPlayerName,
   collectPlayerStat,
   collectPlayers,
-  mostMatchesPlayed,
+  findPlayerName,
+  sortByMatchesPlayed,
 } from "functions";
 
 // FIXME: "Link", `<https://albicelestes.com/players/${catalog}/${slug}/${id}>; rel="canonical"`
@@ -33,7 +33,7 @@ export async function getStaticProps(context: Context) {
     (match) => !!R.find(R.flatten(match.lineups), (app) => app.id === id)
   );
 
-  const name = collectPlayerName(matches, id);
+  const name = findPlayerName(matches, id);
   const competitions = collectCompetitions(matches);
   const stat = collectPlayerStat(matches, id);
   const info = fetchPlayerInfo(name, id);
@@ -55,7 +55,7 @@ export async function getStaticPaths() {
   const paths = R.pipe(
     fetchMatches(),
     collectPlayers,
-    mostMatchesPlayed,
+    sortByMatchesPlayed,
     R.take(1000),
     R.map((player) => ({
       params: {

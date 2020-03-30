@@ -1,6 +1,6 @@
 import * as R from "remeda";
 
-export default function collectTeamName(
+export default function findTeamName(
   matches: Pick<Match, "teams">[],
   slug: string
 ): string {
