@@ -20,7 +20,9 @@ Built with next.js.
 
 ### Development
 
-`yarn now dev --listen 1986`
+- `yarn now dev --listen 1986`
+- `yarn test --watch`
+- `yarn lint && yarn test`
 
 ### Deployment
 
