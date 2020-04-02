@@ -1,6 +1,6 @@
-import Fixtures from "components/Fixtures";
-import Section from "components/Layout/Section";
-import Link from "components/Layout/Link";
+import Fixtures from "../../Fixtures";
+import Section from "../../Layout/Section";
+import Link from "../../Layout/Link";
 
 type Props = {
   match: Match;

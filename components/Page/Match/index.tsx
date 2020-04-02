@@ -1,5 +1,5 @@
-import { matchDate } from "helpers";
-import Layout from "components/Layout";
+import { matchDate } from "../../../helpers";
+import Layout from "../../Layout";
 import Score from "./Score";
 import Goals from "./Goals";
 import Cards from "./Cards";

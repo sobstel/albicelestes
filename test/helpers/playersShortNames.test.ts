@@ -1,4 +1,4 @@
-import { playersShortNames } from "helpers";
+import { playersShortNames } from "../../helpers";
 
 describe("playersShortNames", () => {
   const names = [

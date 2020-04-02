@@ -1,4 +1,4 @@
-import Link from "components/Layout/Link";
+import Link from "../../Layout/Link";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 

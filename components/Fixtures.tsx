@@ -1,6 +1,6 @@
-import { matchDate, matchYear, matchSlug } from "helpers";
-import Section from "components/Layout/Section";
-import Link from "components/Layout/Link";
+import { matchDate, matchYear, matchSlug } from "../helpers";
+import Section from "./Layout/Section";
+import Link from "./Layout/Link";
 
 interface Props {
   title?: string;

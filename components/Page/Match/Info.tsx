@@ -1,4 +1,4 @@
-import Section from "components/Layout/Section";
+import Section from "../../Layout/Section";
 
 type Props = {
   match: Match;

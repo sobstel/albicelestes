@@ -1,4 +1,4 @@
-import { playerName } from "helpers";
+import { playerName } from "../../helpers";
 
 describe("playerName", () => {
   it("handles a regular name", () => {

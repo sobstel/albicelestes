@@ -22,7 +22,14 @@ Built with next.js.
 
 - `yarn now dev --listen 1986`
 - `yarn test --watch`
+
 - `yarn lint && yarn test`
+
+#### Console
+
+`yarn console`
+
+There are `DB.*`, `F`/`functions`, `H`/`helpers`, `U`/`utility` automatically included.
 
 ### Deployment
 

@@ -1,10 +1,10 @@
 import * as R from "remeda";
 import slugify from "slugify";
-import Page, { Props } from "components/Page/Players";
-import { ALPHABET } from "components/Page/Players/Nav";
-import { fetchMatches } from "db";
-import { collectPlayers } from "functions";
-import { playerName, playerCatalog } from "helpers";
+import { fetchMatches } from "../../../db";
+import { collectPlayers } from "../../../functions";
+import { playerName, playerCatalog } from "../../../helpers";
+import Page, { Props } from "../../../components/Page/Players";
+import { ALPHABET } from "../../../components/Page/Players/Nav";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;
