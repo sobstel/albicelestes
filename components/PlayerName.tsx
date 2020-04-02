@@ -1,5 +1,5 @@
-import { playerCatalog, playerSlug } from "helpers";
-import Link from "components/Layout/Link";
+import { playerCatalog, playerSlug } from "../helpers";
+import Link from "./Layout/Link";
 
 export default function PlayerName({
   name,

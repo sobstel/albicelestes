@@ -1,6 +1,6 @@
-import Layout from "components/Layout";
-import Fixtures from "components/Fixtures";
-import Competitions from "components/Competitions";
+import Layout from "../../Layout";
+import Fixtures from "../../Fixtures";
+import Competitions from "../../Competitions";
 import Info from "./Info";
 
 export type Props = {

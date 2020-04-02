@@ -1,8 +1,8 @@
 import * as R from "remeda";
-import * as U from "utility";
+import * as U from "../../../utility";
 import { useState, useEffect } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
-import Link from "components/Layout/Link";
+import Link from "../../Layout/Link";
 
 interface NavLinkProps {
   year: number;

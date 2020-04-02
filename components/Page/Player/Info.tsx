@@ -1,4 +1,4 @@
-import Section from "components/Layout/Section";
+import Section from "../../Layout/Section";
 
 export default function Info({ info }: { info: PlayerInfo }) {
   return (
