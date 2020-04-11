@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": false,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
@@ -14,6 +14,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "paths": { "*": ["./*"] },
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,

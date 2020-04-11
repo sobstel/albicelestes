@@ -6,9 +6,9 @@ import {
   findTeamName,
   collectTeams,
   collectTeamStat,
-} from "../../functions";
-import { matchItem } from "../../helpers";
-import Page, { Props } from "../../components/Page/Team";
+} from "functions";
+import { matchItem } from "helpers";
+import Page, { Props } from "components/Page/Team";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

@@ -1,4 +1,4 @@
-import { sortByMatchesPlayed } from "../../functions";
+import { sortByMatchesPlayed } from "functions";
 
 describe("sortByMatchesPlayed", () => {
   const items = [

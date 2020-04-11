@@ -1,10 +1,10 @@
 import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
-import * as U from "../../../../utility";
-import { fetchMatches, fetchMatchInfo } from "../../../../db";
-import { matchItem, matchSlug, matchYear } from "../../../../helpers";
-import Page, { Props } from "../../../../components/Page/Match";
+import * as U from "utility";
+import { fetchMatches, fetchMatchInfo } from "db";
+import { matchItem, matchSlug, matchYear } from "helpers";
+import Page, { Props } from "components/Page/Match";
 
 export default function PageContainer(props: Props) {
   const router = useRouter();

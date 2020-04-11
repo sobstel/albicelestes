@@ -1,7 +1,7 @@
-import { playerName, playerCatalog, playerSlug } from "../../../helpers";
-import Layout from "../../Layout";
-import Section from "../..//Layout/Section";
-import Link from "../../Layout/Link";
+import { playerName, playerCatalog, playerSlug } from "helpers";
+import Layout from "components/Layout";
+import Section from "components/Layout/Section";
+import Link from "components/Layout/Link";
 import Nav from "./Nav";
 
 export type Props = {

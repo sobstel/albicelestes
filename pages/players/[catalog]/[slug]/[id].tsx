@@ -1,16 +1,16 @@
 import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
-import Page, { Props } from "../../../../components/Page/Player";
-import { fetchMatches, fetchPlayerInfo } from "../../../../db";
-import { matchItem, playerCatalog, playerSlug } from "../../../../helpers";
+import Page, { Props } from "components/Page/Player";
+import { fetchMatches, fetchPlayerInfo } from "db";
+import { matchItem, playerCatalog, playerSlug } from "helpers";
 import {
   collectCompetitions,
   collectPlayerStat,
   collectPlayers,
   findPlayerName,
   sortByMatchesPlayed,
-} from "../../../../functions";
+} from "functions";
 
 // FIXME: "Link", `<https://albicelestes.com/players/${catalog}/${slug}/${id}>; rel="canonical"`
 

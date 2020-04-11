@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 import Head from "next/head";
 import NextLink from "next/link";
 import NextNprogress from "nextjs-progressbar";
-import { MAX_YEAR } from "../../config";
+import { MAX_YEAR } from "config";
 import Link from "./Link";
 import Logo from "./Logo";
 

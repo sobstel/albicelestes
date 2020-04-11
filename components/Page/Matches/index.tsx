@@ -1,9 +1,9 @@
 import * as R from "remeda";
-import { playersShortNames } from "../../../helpers";
-import Fixtures from "../../Fixtures";
-import PlayerName from "../../PlayerName";
-import Layout from "../../Layout";
-import Section from "../../Layout/Section";
+import { playersShortNames } from "helpers";
+import Fixtures from "components/Fixtures";
+import PlayerName from "components/PlayerName";
+import Layout from "components/Layout";
+import Section from "components/Layout/Section";
 import Nav from "./Nav";
 
 export type Props = {

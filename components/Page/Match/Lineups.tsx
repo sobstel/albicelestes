@@ -1,9 +1,9 @@
 import React from "react";
 
 import * as R from "remeda";
-import Section from "../../Layout/Section";
-import PlayerName from "../../PlayerName";
-import { playersShortNames } from "../../../helpers";
+import Section from "components/Layout/Section";
+import PlayerName from "components/PlayerName";
+import { playersShortNames } from "helpers";
 
 function coachName(
   coaches: [MatchCoach, MatchCoach],

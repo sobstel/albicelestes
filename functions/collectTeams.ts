@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import * as U from "../utility";
+import * as U from "utility";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]

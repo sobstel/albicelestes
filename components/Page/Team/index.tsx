@@ -1,7 +1,7 @@
-import Fixtures from "../../Fixtures";
-import Competitions from "../../Competitions";
-import Layout from "../../Layout";
-import Header from "../../Layout/Header";
+import Fixtures from "components/Fixtures";
+import Competitions from "components/Competitions";
+import Layout from "components/Layout";
+import Header from "components/Layout/Header";
 
 export type Props = {
   name: string;
