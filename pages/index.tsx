@@ -1,12 +1,12 @@
 import React from "react";
 import * as R from "remeda";
 import { fetchMatches } from "db";
-import { collectPlayers, collectTeams } from "../functions";
-import { matchItem, playerCatalog, playerSlug } from "../helpers";
-import Fixtures from "../components/Fixtures";
-import Layout from "../components/Layout";
-import Section from "../components/Layout/Section";
-import Link from "../components/Layout/Link";
+import { collectPlayers, collectTeams } from "functions";
+import { matchItem, playerCatalog, playerSlug } from "helpers";
+import Fixtures from "components/Fixtures";
+import Layout from "components/Layout";
+import Section from "components/Layout/Section";
+import Link from "components/Layout/Link";
 
 type Props = {
   matches: MatchItem[];

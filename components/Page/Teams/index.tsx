@@ -1,6 +1,6 @@
-import Layout from "../../Layout";
-import Link from "../../Layout/Link";
-import Header from "../../Layout/Header";
+import Layout from "components/Layout";
+import Link from "components/Layout/Link";
+import Header from "components/Layout/Header";
 
 export type Props = {
   teams: TeamItem[];

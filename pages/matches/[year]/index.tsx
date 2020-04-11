@@ -1,10 +1,10 @@
 import React from "react";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
-import { fetchMatches } from "../../../db";
-import { collectPlayers } from "../../../functions";
-import { matchItem, matchYear } from "../../../helpers";
-import Page, { Props } from "../../../components/Page/Matches";
+import { fetchMatches } from "db";
+import { collectPlayers } from "functions";
+import { matchItem, matchYear } from "helpers";
+import Page, { Props } from "components/Page/Matches";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

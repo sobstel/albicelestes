@@ -1,7 +1,7 @@
 import React from "react";
 import * as R from "remeda";
-import { matchDate } from "../../../helpers";
-import Section from "../../Layout/Section";
+import { matchDate } from "helpers";
+import Section from "components/Layout/Section";
 
 type Props = {
   match: MatchItem;

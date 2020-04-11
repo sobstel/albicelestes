@@ -1,6 +1,6 @@
 import React from "react";
-import { matchDate } from "../../../helpers";
-import Layout from "../../Layout";
+import { matchDate } from "helpers";
+import Layout from "components/Layout";
 import Score from "./Score";
 import Goals from "./Goals";
 import Cards from "./Cards";

@@ -1,8 +1,8 @@
 import repl from "repl";
-import * as DB from "./db";
-import * as F from "./functions";
-import * as H from "./helpers";
-import * as U from "./utility";
+import * as DB from "db";
+import * as F from "functions";
+import * as H from "helpers";
+import * as U from "utility";
 
 const server = repl.start("> ");
 

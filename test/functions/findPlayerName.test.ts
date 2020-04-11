@@ -1,4 +1,4 @@
-import { findPlayerName } from "../../functions";
+import { findPlayerName } from "functions";
 
 describe("findPlayerName", () => {
   const matches = [

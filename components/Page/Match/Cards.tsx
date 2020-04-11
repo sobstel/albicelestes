@@ -1,9 +1,9 @@
 import React from "react";
 import * as R from "remeda";
 import { Fragment } from "react";
-import { playersShortNames } from "../../../helpers";
-import Section from "../../Layout/Section";
-import PlayerName from "../../PlayerName";
+import { playersShortNames } from "helpers";
+import Section from "components/Layout/Section";
+import PlayerName from "components/PlayerName";
 
 type Props = { match: Match };
 

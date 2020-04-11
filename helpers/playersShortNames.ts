@@ -1,6 +1,6 @@
 import * as R from "remeda";
-import * as U from "../utility";
-import { fetchInflections } from "../db";
+import * as U from "utility";
+import { fetchInflections } from "db";
 import { playerName } from "./playerName";
 
 function shortenName(name: string) {
