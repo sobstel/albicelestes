@@ -1,17 +1,18 @@
 module.exports = {
-  preset: "ts-jest",
-  moduleFileExtensions: ["ts", "js"],
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-  },
-  testMatch: ["**/*.test.ts"],
-  testEnvironment: "node",
-  testPathIgnorePatterns: ["<rootDir>/.next/", "<rootDir>/node_modules/"],
   globals: {
     "ts-jest": {
       diagnostics: true,
       tsConfig: "tsconfig.json",
     },
   },
+  moduleFileExtensions: ["js", "ts", "tsx"],
   modulePaths: ["<rootDir>"],
+  preset: "ts-jest",
+  setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
+  testEnvironment: "jsdom", // node
+  testMatch: ["**/*.test.{ts,tsx}"],
+  testPathIgnorePatterns: ["<rootDir>/.next/", "<rootDir>/node_modules/"],
+  transform: {
+    "^.+\\.tsx?$": "ts-jest",
+  },
 };

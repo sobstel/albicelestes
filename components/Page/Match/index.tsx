@@ -9,7 +9,9 @@ import Venue from "./Venue";
 import SeeAlso from "./SeeAlso";
 import Info from "./Info";
 
-const title = (match: MatchItem) => {
+const title = (
+  match: Pick<Match, "date" | "teams" | "score" | "competition">
+) => {
   const [homeTeam, awayTeam] = match.teams;
   return [
     `${homeTeam.name} v ${awayTeam.name} ${match.score.join("-")}`,
@@ -20,16 +22,16 @@ const title = (match: MatchItem) => {
 
 export type Props = {
   match: Match;
-  prevMatch: MatchItem;
-  nextMatch: MatchItem;
-  info: MatchInfo;
+  prevMatch?: MatchItem;
+  nextMatch?: MatchItem;
+  info?: MatchInfo;
 };
 
 export default function MatchPage({
   match,
   prevMatch,
   nextMatch,
-  info,
+  info = {},
 }: Props) {
   return (
     <Layout title={title(match)}>
