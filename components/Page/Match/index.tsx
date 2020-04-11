@@ -1,3 +1,4 @@
+import React from "react";
 import { matchDate } from "../../../helpers";
 import Layout from "../../Layout";
 import Score from "./Score";

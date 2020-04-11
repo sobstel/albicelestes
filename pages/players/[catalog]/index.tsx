@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import slugify from "slugify";
 import { fetchMatches } from "../../../db";

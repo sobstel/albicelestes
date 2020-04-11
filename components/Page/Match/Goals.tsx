@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { playersShortNames } from "../../../helpers";
 import Section from "../../Layout/Section";

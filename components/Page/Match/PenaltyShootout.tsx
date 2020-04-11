@@ -1,3 +1,5 @@
+// import React from "react";
+
 // import Section from "../../Layout/Section";
 
 type Props = { match: Match };

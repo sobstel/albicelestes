@@ -16,18 +16,20 @@ Database: `/db/` (main file: `/db/matches.json`)
 
 ## Tech
 
-Built with next.js.
+Built with **Next.js** and **TypeSscript**.
 
 ### Development
 
 - `yarn now dev --listen 1986`
-- `yarn test --watch`
 
+#### Testing
+
+- `yarn test --watch`
 - `yarn lint && yarn test`
 
 #### Console
 
-`yarn console`
+- `yarn console`
 
 There are `DB.*`, `F`/`functions`, `H`/`helpers`, `U`/`utility` automatically included.
 

@@ -1,3 +1,5 @@
+import React from "react";
+
 import * as R from "remeda";
 import Section from "../../Layout/Section";
 import PlayerName from "../../PlayerName";

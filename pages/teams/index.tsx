@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import Page, { Props } from "../../components/Page/Teams";
 import { collectTeams } from "../../functions";
