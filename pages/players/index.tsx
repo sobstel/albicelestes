@@ -1,3 +1,4 @@
+import React from "react";
 import Page, { Props } from "../../components/Page/Players";
 
 export default function PageContainer(props: Props) {

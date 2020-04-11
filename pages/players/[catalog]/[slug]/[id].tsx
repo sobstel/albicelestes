@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
 import Page, { Props } from "../../../../components/Page/Player";

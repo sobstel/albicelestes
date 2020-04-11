@@ -1,3 +1,4 @@
+import React from "react";
 import Fixtures from "../../Fixtures";
 import Section from "../../Layout/Section";
 import Link from "../../Layout/Link";

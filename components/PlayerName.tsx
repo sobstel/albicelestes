@@ -1,3 +1,4 @@
+import React from "react";
 import { playerCatalog, playerSlug } from "../helpers";
 import Link from "./Layout/Link";
 

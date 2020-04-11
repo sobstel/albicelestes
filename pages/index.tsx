@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { fetchMatches } from "db";
 import { collectPlayers, collectTeams } from "../functions";

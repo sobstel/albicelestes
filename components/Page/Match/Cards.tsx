@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { Fragment } from "react";
 import { playersShortNames } from "../../../helpers";

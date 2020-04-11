@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "../../../db";

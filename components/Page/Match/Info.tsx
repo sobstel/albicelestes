@@ -1,3 +1,4 @@
+import React from "react";
 import Section from "../../Layout/Section";
 
 type Props = {
@@ -9,7 +10,7 @@ export default function Info({ info }: Props) {
   const { images, youtube, trivia } = info;
 
   return (
-    <>
+    <div>
       {youtube && (
         <Section title="Videos">
           {youtube.map((video) => (
@@ -52,27 +53,29 @@ export default function Info({ info }: Props) {
         </Section>
       )}
 
-      <style jsx>{`
-        ._video-container {
-          overflow: hidden;
-          position: relative;
-          width: 100%;
-        }
+      <div>
+        <style jsx>{`
+          ._video-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+          }
 
-        ._video-container::after {
-          padding-top: 56.25%;
-          display: block;
-          content: "";
-        }
+          ._video-container::after {
+            padding-top: 56.25%;
+            display: block;
+            content: "";
+          }
 
-        ._video-container iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-      `}</style>
-    </>
+          ._video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        `}</style>
+      </div>
+    </div>
   );
 }

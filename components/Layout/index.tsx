@@ -1,3 +1,4 @@
+import React from "react";
 import * as R from "remeda";
 import { ReactNode } from "react";
 import Head from "next/head";
