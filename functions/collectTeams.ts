@@ -1,12 +1,11 @@
 import * as R from "remeda";
-import * as U from "utility";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]
 ): TeamItem[] {
   return R.pipe(
     matches,
-    U.reverse(),
+    R.reverse(),
     R.reduce((acc, match) => {
       R.forEach(R.flatten(match.teams), (team) => {
         if (!team.slug) return;
