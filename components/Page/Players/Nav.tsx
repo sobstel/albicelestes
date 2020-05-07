@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "components/Layout/Link";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");

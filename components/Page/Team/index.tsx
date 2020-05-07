@@ -1,3 +1,4 @@
+import React from "react";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Layout from "components/Layout";

@@ -1,3 +1,4 @@
+import React from "react";
 import { PlayerInfo } from "types";
 import Section from "components/Layout/Section";
 

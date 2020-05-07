@@ -1,3 +1,4 @@
+import React from "react";
 import { playerName, playerCatalog, playerSlug } from "helpers";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";

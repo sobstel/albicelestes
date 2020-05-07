@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import Link from "components/Layout/Link";
 

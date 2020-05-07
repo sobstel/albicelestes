@@ -1,3 +1,4 @@
+import React from "react";
 import { TeamItem } from "types";
 import Layout from "components/Layout";
 import Link from "components/Layout/Link";
