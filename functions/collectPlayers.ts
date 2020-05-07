@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { Appearance, Goal, PlayerItem } from "types";
 
 type ReduceAcc = { [key: string]: PlayerItem };
 

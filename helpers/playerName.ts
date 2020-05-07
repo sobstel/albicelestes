@@ -1,6 +1,8 @@
 import * as R from "remeda";
 import memoize from "lodash.memoize";
 
+import { PlayerName } from "types";
+
 export const playerName = memoize(
   (name: string): PlayerName => {
     const nameParts = name.split(" ");

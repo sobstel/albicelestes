@@ -1,5 +1,6 @@
 import React from "react";
 import { matchDate, matchYear, matchSlug } from "helpers";
+import { MatchItem } from "types";
 import Section from "./Layout/Section";
 import Link from "./Layout/Link";
 

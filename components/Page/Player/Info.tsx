@@ -1,3 +1,4 @@
+import { PlayerInfo } from "types";
 import Section from "components/Layout/Section";
 
 export default function Info({ info }: { info: PlayerInfo }) {

@@ -4,6 +4,7 @@ import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 import { playersShortNames } from "helpers";
+import { Match, MatchCoach } from "types";
 
 function coachName(
   coaches: [MatchCoach, MatchCoach],

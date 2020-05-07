@@ -1,6 +1,7 @@
 import React from "react";
 import * as R from "remeda";
 import { playersShortNames } from "helpers";
+import { Goal, Match, Score } from "types";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 

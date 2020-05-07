@@ -1,5 +1,6 @@
 import * as R from "remeda";
 import { playersShortNames } from "helpers";
+import { MatchItem, PlayerItem } from "types";
 import Fixtures from "components/Fixtures";
 import PlayerName from "components/PlayerName";
 import Layout from "components/Layout";

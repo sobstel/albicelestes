@@ -1,5 +1,6 @@
 import React from "react";
 import { matchDate } from "helpers";
+import { Match, MatchInfo, MatchItem } from "types";
 import Layout from "components/Layout";
 import Score from "./Score";
 import Goals from "./Goals";

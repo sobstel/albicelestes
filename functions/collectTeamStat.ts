@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { Match, TeamStat } from "types";
 
 export default function collectTeamStat(
   matches: Pick<Match, "teams" | "score" | "result">[]
