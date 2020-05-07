@@ -15,7 +15,9 @@ export default function Layout({ children, title }: Props) {
   return (
     <div className="text-sm md:text-base leading-relaxed">
       <Head>
-        <title>{R.filter(title, (part) => !!part).join(" / ")}</title>
+        <title>
+          {R.filter(title, (part) => !!part).join(" / ")} - Albicelestes
+        </title>
         <link rel="shortcut icon" href="/favicon.png" />
 
         <meta
