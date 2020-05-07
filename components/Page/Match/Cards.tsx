@@ -2,6 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { Fragment } from "react";
 import { playersShortNames } from "helpers";
+import { Match } from "types";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 

@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { Match, PlayerStat } from "types";
 
 export default function collectPlayerStat(
   matches: Match[],

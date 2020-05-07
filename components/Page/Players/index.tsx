@@ -3,6 +3,7 @@ import Layout from "components/Layout";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
 import Nav from "./Nav";
+import { PlayerItem } from "types";
 
 export type Props = {
   catalog?: string;

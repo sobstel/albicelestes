@@ -1,3 +1,5 @@
+import { Match } from "types";
+
 type MatchDateOpts = {
   withYear?: boolean;
   uppercase?: boolean;

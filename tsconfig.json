@@ -19,8 +19,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es5"
+    "target": "es5",
+    "typeRoots": ["node_modules/@types", "types"]
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsconfig.jest.json"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

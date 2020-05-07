@@ -1,4 +1,5 @@
 import { findTeamName } from "functions";
+import { Match } from "types";
 
 describe("findTeamName", () => {
   const matches = [

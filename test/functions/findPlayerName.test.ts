@@ -1,4 +1,5 @@
 import { findPlayerName } from "functions";
+import { Match } from "types";
 
 describe("findPlayerName", () => {
   const matches = [

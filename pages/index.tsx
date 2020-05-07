@@ -3,6 +3,7 @@ import * as R from "remeda";
 import { fetchMatches } from "db";
 import { collectPlayers, collectTeams } from "functions";
 import { matchItem, playerCatalog, playerSlug } from "helpers";
+import { MatchItem, PlayerItem, TeamItem } from "types";
 import Fixtures from "components/Fixtures";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";

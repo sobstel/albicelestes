@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { Match, MatchItem } from "types";
 
 export default function matchItem(match: Match): MatchItem {
   const item = R.pick(match, [

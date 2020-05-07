@@ -1,4 +1,5 @@
 import React from "react";
+import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";

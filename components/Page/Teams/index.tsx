@@ -1,3 +1,4 @@
+import { TeamItem } from "types";
 import Layout from "components/Layout";
 import Link from "components/Layout/Link";
 import Header from "components/Layout/Header";

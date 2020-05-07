@@ -1,4 +1,5 @@
 import * as R from "remeda";
+import { Match } from "types";
 
 export default function findTeamName(
   matches: Pick<Match, "teams">[],

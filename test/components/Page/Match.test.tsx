@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import { Match } from "types";
 import MatchPage from "components/Page/Match";
 
 describe(MatchPage, () => {

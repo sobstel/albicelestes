@@ -1,6 +1,7 @@
 // import React from "react";
 
 // import Section from "components/Layout/Section";
+import { Match } from "types";
 
 type Props = { match: Match };
 

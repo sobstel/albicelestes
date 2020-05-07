@@ -2,6 +2,7 @@ import React from "react";
 import Fixtures from "components/Fixtures";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
+import { Match, MatchItem } from "types";
 
 type Props = {
   match: Match;

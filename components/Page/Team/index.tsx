@@ -2,6 +2,7 @@ import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
+import { MatchItem, TeamStat } from "types";
 
 export type Props = {
   name: string;
