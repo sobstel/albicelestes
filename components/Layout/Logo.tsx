@@ -2,12 +2,7 @@ import React from "react";
 
 export default function Logo() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 137.393 137.394"
-      className="w-10 h-10 md:w-12 md:h-12"
-      style={{ marginLeft: "-5px" }}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.393 137.394">
       <path
         d="M68.69 116.873c-26.56 0-48.17-21.61-48.17-48.17 0-26.565 21.61-48.176 48.17-48.176 26.568 0 48.175 21.61 48.175 48.175 0 26.56-21.607 48.17-48.175 48.17"
         fill="#4887bf"

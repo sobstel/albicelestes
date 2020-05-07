@@ -13,7 +13,7 @@ export default function PageContainer(props: Props) {
 type Context = { params: { year: string } };
 
 export async function getStaticProps(context: Context) {
-  const { year } = context.params;
+  const year = context.params?.year || MAX_YEAR.toString();
 
   const matches = R.pipe(
     fetchMatches(),
