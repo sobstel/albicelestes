@@ -10,6 +10,7 @@ import PenaltyShootout from "./PenaltyShootout";
 import Venue from "./Venue";
 import SeeAlso from "./SeeAlso";
 import Info from "./Info";
+import VerifiedNote from "./VerifiedNote";
 
 const title = (
   match: Pick<Match, "date" | "teams" | "score" | "competition">
@@ -43,8 +44,9 @@ export default function MatchPage({
       <Cards match={match} />
       <PenaltyShootout match={match} />
       <Venue match={match} />
-      <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
       <Info match={match} info={info} />
+      <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
+      <VerifiedNote match={match} />
     </Layout>
   );
 }

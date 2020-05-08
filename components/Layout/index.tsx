@@ -37,17 +37,12 @@ export default function Layout({ children, title }: Props) {
         height="3"
       />
 
-      <div className="max-w-2xl m-auto font-mono antialiased px-2">
+      <div className="max-w-2xl m-auto font-mono antialiased">
         <SiteHeader />
 
-        <div className="pt-4 px-1 border-t border-dotted">
+        <div className="py-4 px-1 border-t border-b border-gray-300">
           <div>{children}</div>
         </div>
-
-        <p className="py-4 px-1 text-xs italic border-b border-dotted">
-          Data has not been fully verified yet. You can help by reporting any
-          errors or mistakes to przemek&#64;sobstel&#46;org.
-        </p>
 
         <SiteFooter />
       </div>

@@ -52,7 +52,7 @@ export type MatchTeam =
   | { slug: string; name: string }
   | { name: string; slug?: undefined };
 
-type MatchVerificationSource = "Animals";
+type MatchVerificationSource = "Animals!";
 
 export type PlayerInfo = {
   nicknames?: string[];

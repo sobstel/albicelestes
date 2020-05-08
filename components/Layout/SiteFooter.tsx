@@ -27,7 +27,7 @@ export default function SiteFooter() {
         </Link>
         <p>
           created by
-          <FooterLink href="https://www.sobstel.org">sobstel</FooterLink>
+          <FooterLink href="https://www.sobstel.org">sopel</FooterLink>
         </p>
       </div>
       <p>
