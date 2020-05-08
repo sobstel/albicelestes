@@ -32,6 +32,7 @@ export type Match = {
   cards: [Card[], Card[]];
   coaches: [MatchCoach, MatchCoach];
   lineups: [Appearance[], Appearance[]];
+  verified?: MatchVerificationSource[];
 };
 
 export type MatchCoach = { name: string } | null;
@@ -50,6 +51,8 @@ export type MatchItem = Pick<
 export type MatchTeam =
   | { slug: string; name: string }
   | { name: string; slug?: undefined };
+
+type MatchVerificationSource = "Animals";
 
 export type PlayerInfo = {
   nicknames?: string[];
