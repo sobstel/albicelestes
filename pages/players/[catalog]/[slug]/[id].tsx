@@ -57,7 +57,7 @@ export async function getStaticPaths() {
     fetchMatches(),
     collectPlayers,
     sortByMatchesPlayed,
-    R.take(1000),
+    R.take(100),
     R.map((player) => ({
       params: {
         catalog: playerCatalog(player.name),
