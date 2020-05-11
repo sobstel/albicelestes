@@ -21,3 +21,8 @@ export function fetchPlayerInfo(name: string, id: string): PlayerInfo {
     return {};
   }
 }
+
+type BibliographyItem = { name: string, url: string };
+type Bibliography = Record<string, BibliographyItem>
+
+export const fetchBibliography = R.once((): Bibliography  => (require('./bibliography.json')));
