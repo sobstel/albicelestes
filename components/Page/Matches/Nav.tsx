@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
+import useClientWidth from "hooks/useClientWidth";
 import Link from "components/Layout/Link";
 
 interface NavLinkProps {
@@ -10,7 +11,7 @@ interface NavLinkProps {
 
 export function NavLink({ year, active = true }: NavLinkProps) {
   return (
-    <li className="mr-4 inline-flex">
+    <li className="mr-4 inline-block">
       {active ? (
         <Link href="/matches/[year]" as={`/matches/${year}`}>
           {year}
@@ -22,27 +23,11 @@ export function NavLink({ year, active = true }: NavLinkProps) {
   );
 }
 
-function OtherYears({ years }: { years: number[] }) {
-  return (
-    <ul className="mb-4">
-      {years.map((year) => (
-        <NavLink key={year} year={year} />
-      ))}
-    </ul>
-  );
+function otherYears(years: number[]) {
+  return years.map((year) => <NavLink key={year} year={year} />);
 }
 
-export default function Nav({ year = 2020 }: { year: number }) {
-  if (!year) {
-    return (
-      <ul className="flex mb-4 font-semibold uppercase">
-        {R.range(MAX_YEAR - 4, MAX_YEAR + 1).map((_year) => (
-          <NavLink key={_year} year={_year} />
-        ))}
-      </ul>
-    );
-  }
-
+export default function Nav({ year }: { year: number }) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
 
@@ -56,43 +41,32 @@ export default function Nav({ year = 2020 }: { year: number }) {
   const hasNextYears = nextYear + 1 <= MAX_YEAR;
 
   useEffect(() => {
-    setPrevYearsActive(false);
-    setNextYearsActive(false);
-  }, [year]);
-
-  useEffect(() => {
-    if (!hasPrevYears) {
-      setPrevYearsActive(false);
-    }
-    if (!hasNextYears) {
-      setNextYearsActive(false);
-    }
+    if (!hasPrevYears) setPrevYearsActive(false);
+    if (!hasNextYears) setNextYearsActive(false);
   }, [prevYearsActive, nextYearsActive]);
 
   function togglePrevYears() {
-    if (nextYearsActive) {
-      setNextYearsActive(false);
-    }
     setPrevYearsActive(!prevYearsActive);
   }
 
   function toggleNextYears() {
-    if (prevYearsActive) {
-      setPrevYearsActive(false);
-    }
     setNextYearsActive(!nextYearsActive);
   }
 
+  const containerRef = useRef<HTMLDivElement>(null);
+  useClientWidth(containerRef);
+
   return (
-    <>
-      <ul className="flex mb-4 font-semibold uppercase">
+    <div ref={containerRef}>
+      <ul className="mb-4 font-semibold uppercase">
+        {prevYearsActive && otherYears(R.range(MIN_YEAR, prevYear))}
         {hasPrevYears && (
-          <li className="mr-4">
+          <li className="mr-4 inline-block">
             <a
-              className="text-blue-600 hover:text-blue-400"
+              className="text-blue-600 hover:text-blue-400 cursor-pointer"
               onClick={togglePrevYears}
             >
-              ...
+              {!prevYearsActive ? "<<" : ">>"}
             </a>
           </li>
         )}
@@ -100,22 +74,17 @@ export default function Nav({ year = 2020 }: { year: number }) {
         <NavLink year={year} active={false} />
         {hasNextYear && <NavLink year={nextYear} />}
         {hasNextYears && (
-          <li className="mr-4">
+          <li className="mr-4 inline-block">
             <a
-              className="text-blue-600 hover:text-blue-400"
+              className="text-blue-600 hover:text-blue-400 cursor-pointer"
               onClick={toggleNextYears}
             >
-              ...
+              {nextYearsActive ? "<<" : ">>"}
             </a>
           </li>
         )}
+        {nextYearsActive && otherYears(R.range(nextYear + 1, MAX_YEAR + 1))}
       </ul>
-      {prevYearsActive && (
-        <OtherYears key="prev" years={R.reverse(R.range(MIN_YEAR, prevYear))} />
-      )}
-      {nextYearsActive && (
-        <OtherYears key="next" years={R.range(nextYear + 1, MAX_YEAR + 1)} />
-      )}
-    </>
+    </div>
   );
 }
