@@ -37,10 +37,10 @@ export default function Layout({ children, title }: Props) {
         height="3"
       />
 
-      <div className="max-w-2xl m-auto font-mono antialiased">
+      <div className="max-w-2xl m-auto px-3 font-mono antialiased">
         <SiteHeader />
 
-        <div className="py-4 px-1 border-t border-b border-gray-300">
+        <div className="py-4 -mx-1 px-1 border-t border-b border-gray-300">
           <div>{children}</div>
         </div>
 

@@ -18,7 +18,7 @@ function FooterLink({ href, children }: { href: string; children: string }) {
 
 export default function SiteFooter() {
   return (
-    <footer className="opacity-75 text-xs py-4 px-1 flex justify-between">
+    <footer className="opacity-75 text-xs py-4 flex justify-between">
       <div className="flex items-center">
         <Link href="/" as="/" title="Albicelestes.com">
           <div className="w-6 h-6 mr-2">

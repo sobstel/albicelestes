@@ -30,7 +30,7 @@ function NavLink({
 
 export default function SiteHeader() {
   return (
-    <nav className="flex items-center justify-between flex-wrap py-4 px-1">
+    <nav className="flex items-center justify-between flex-wrap py-4">
       <div className="flex-grow text-base md:text-lg">
         <NavLink href="/matches/[year]" as={`/matches/${MAX_YEAR}`}>
           Matches
