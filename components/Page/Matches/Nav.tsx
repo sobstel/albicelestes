@@ -11,7 +11,7 @@ interface NavLinkProps {
 
 export function NavLink({ year, active = true }: NavLinkProps) {
   return (
-    <li className="mr-4 inline-block">
+    <li className="px-2 inline-block">
       {active ? (
         <Link href="/matches/[year]" as={`/matches/${year}`}>
           {year}
@@ -23,27 +23,13 @@ export function NavLink({ year, active = true }: NavLinkProps) {
   );
 }
 
-function otherYears(years: number[]) {
+function navYears(years: number[]) {
   return years.map((year) => <NavLink key={year} year={year} />);
 }
 
 export default function Nav({ year }: { year: number }) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
-
-  const prevYear = year - 1;
-  const nextYear = year + 1;
-
-  const hasPrevYear = prevYear >= MIN_YEAR;
-  const hasNextYear = nextYear <= MAX_YEAR;
-
-  const hasPrevYears = prevYear - 1 >= MIN_YEAR;
-  const hasNextYears = nextYear + 1 <= MAX_YEAR;
-
-  useEffect(() => {
-    if (!hasPrevYears) setPrevYearsActive(false);
-    if (!hasNextYears) setNextYearsActive(false);
-  }, [prevYearsActive, nextYearsActive]);
 
   function togglePrevYears() {
     setPrevYearsActive(!prevYearsActive);
@@ -54,37 +40,64 @@ export default function Nav({ year }: { year: number }) {
   }
 
   const containerRef = useRef<HTMLDivElement>(null);
-  useClientWidth(containerRef);
+  const clientWidth = useClientWidth(containerRef);
+
+  // TODO: move to effect
+  const itemsNum = Math.floor(clientWidth / 54) - 2 - 1;
+  let prevItemsNum = Math.max(Math.floor(itemsNum / 2), 0);
+  let nextItemsNum = itemsNum - prevItemsNum;
+  if (year - prevItemsNum < MIN_YEAR) {
+    prevItemsNum = year - MIN_YEAR;
+    nextItemsNum = itemsNum - prevItemsNum;
+  }
+  if (year + nextItemsNum > MAX_YEAR) {
+    nextItemsNum = MAX_YEAR - year;
+    prevItemsNum = itemsNum - nextItemsNum;
+  }
+
+  const rangeStartYear = year - prevItemsNum;
+  const rangeEndYear = year + nextItemsNum;
+  const hasMorePrevYears = rangeStartYear > MIN_YEAR;
+  const hasMoreNextYears = rangeEndYear < MAX_YEAR;
+
+  useEffect(() => {
+    if (prevYearsActive) setPrevYearsActive(false);
+    if (nextYearsActive) setNextYearsActive(false);
+  }, [year]);
 
   return (
-    <div ref={containerRef}>
-      <ul className="mb-4 font-semibold uppercase">
-        {prevYearsActive && otherYears(R.range(MIN_YEAR, prevYear))}
-        {hasPrevYears && (
-          <li className="mr-4 inline-block">
+    <div ref={containerRef} className="-ml-2 mb-4 font-semibold">
+      {prevYearsActive && (
+        <ul>{navYears(R.range(MIN_YEAR, rangeStartYear))}</ul>
+      )}
+      <ul>
+        {hasMorePrevYears && (
+          <li key="prev" className="px-2 inline-block">
             <a
               className="text-blue-600 hover:text-blue-400 cursor-pointer"
               onClick={togglePrevYears}
             >
-              {!prevYearsActive ? "<<" : ">>"}
+              {prevYearsActive ? "<>" : "<<"}
             </a>
           </li>
         )}
-        {hasPrevYear && <NavLink year={prevYear} />}
-        <NavLink year={year} active={false} />
-        {hasNextYear && <NavLink year={nextYear} />}
-        {hasNextYears && (
-          <li className="mr-4 inline-block">
+        {navYears(R.range(rangeStartYear, year))}
+        <NavLink key={year} year={year} active={false} />
+        {navYears(R.range(year + 1, rangeEndYear + 1))}
+        {hasMoreNextYears && (
+          <li key="next" className="px-2 inline-block">
             <a
               className="text-blue-600 hover:text-blue-400 cursor-pointer"
               onClick={toggleNextYears}
             >
-              {nextYearsActive ? "<<" : ">>"}
+              {nextYearsActive ? "<>" : ">>"}
             </a>
           </li>
         )}
-        {nextYearsActive && otherYears(R.range(nextYear + 1, MAX_YEAR + 1))}
       </ul>
+      {nextYearsActive && (
+        <ul>{navYears(R.range(rangeEndYear + 1, MAX_YEAR + 1))}</ul>
+      )}
     </div>
   );
 }
