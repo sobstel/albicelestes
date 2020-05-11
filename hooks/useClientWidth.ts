@@ -1,10 +1,10 @@
 import { useState, useEffect, RefObject } from "react";
+import { debounce } from "ts-debounce";
 
 export default function useClientWidth(
   ref: RefObject<HTMLElement>,
   defaultWidth = 0
 ) {
-  // TODO: set to some default for SSR
   const [clientWidth, setClientWidth] = useState(defaultWidth);
 
   useEffect(() => {
@@ -18,17 +18,16 @@ export default function useClientWidth(
       }
     }
 
-    // TODO: debounce it! (https://github.com/slorber/awesome-debounce-promise)
-    if (window) window.addEventListener("resize", handleResize);
+    const debouncedHandleResize = debounce(handleResize, 250, {
+      isImmediate: true,
+    });
+
+    if (window) window.addEventListener("resize", debouncedHandleResize);
 
     return function cleanup() {
-      if (window) window.removeEventListener("resize", handleResize);
+      if (window) window.removeEventListener("resize", debouncedHandleResize);
     };
   }, []);
-
-  useEffect(() => {
-    // console.log(clientWidth);
-  }, [clientWidth]);
 
   return clientWidth;
 }

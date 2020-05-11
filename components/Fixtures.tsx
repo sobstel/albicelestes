@@ -10,6 +10,8 @@ interface Props {
 }
 
 export default function Fixtures({ title, matches }: Props) {
+  if (matches.length === 0) return null;
+
   return (
     <Section title={title}>
       {matches.map((match) => {
