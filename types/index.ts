@@ -19,6 +19,8 @@ export type Goal = {
   type: "G" | "P" | "OG";
 };
 
+export type InfoLink = { url: string; text: string; desc?: string };
+
 export type Match = {
   id: string;
   date: string;
@@ -41,6 +43,7 @@ export type MatchInfo = {
   youtube?: { id: string }[];
   images?: { url: string; source?: { name: string; url?: string } }[];
   trivia?: string[];
+  links?: InfoLink[];
 };
 
 export type MatchItem = Pick<
@@ -54,7 +57,7 @@ export type MatchTeam =
 
 export type PlayerInfo = {
   nicknames?: string[];
-  links?: { url: string; text: string; desc?: string }[];
+  links?: InfoLink[];
 };
 
 export type PlayerItem = {
