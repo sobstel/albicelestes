@@ -18,7 +18,7 @@ export type Props = {
 function Stat({ stat: { mp, si, so, g, yc, rc } }: { stat: PlayerStat }) {
   return (
     <p className="mb-4">
-      {mp} match{mp === 1 ? "" : "es"}, (↑{si} ↓{so}), {g} goal
+      {mp} match{mp === 1 ? "" : "es"} (↓{so} ↑{si}), {g} goal
       {g === 1 ? "" : "s"}
       {(yc > 0 || rc > 0) && ", "}
       {yc > 0 && ` ${yc}Y`}

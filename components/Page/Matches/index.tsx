@@ -14,11 +14,6 @@ export type Props = {
   year: string;
 };
 
-function Stat(value: number, symbol: string) {
-  if (value <= 0) return null;
-  return `${symbol}${value}`;
-}
-
 export default function MatchesPage({ year, matches, players }: Props) {
   let shortNames: Record<string, string> = {};
   if (players) {
@@ -42,12 +37,15 @@ export default function MatchesPage({ year, matches, players }: Props) {
           {players.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
               <PlayerName name={name} displayName={shortNames[name]} id={id} />{" "}
-              {[
-                Stat(mp, "👤"),
-                Stat(si, "↑"),
-                Stat(so, "↓"),
-                Stat(g, "⚽"),
-              ].join(" ")}
+              {mp}{" "}
+              {(si > 0 || so > 0) && (
+                <>
+                  ({so > 0 && `${so}↓`}
+                  {si > 0 && so > 0 && " "}
+                  {si > 0 && `${si}↑`})
+                </>
+              )}
+              {g > 0 && `, ${g}G`}
             </p>
           ))}
         </Section>

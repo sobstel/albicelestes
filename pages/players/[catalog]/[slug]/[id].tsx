@@ -17,7 +17,7 @@ import {
 export default function PageContainer(props: Props) {
   const router = useRouter();
   if (router.isFallback) {
-    // FIXME: have some loading component
+    // FIXME: have some loading component (or skeleton)
     return <div>Loading...</div>;
   }
 
