@@ -72,9 +72,7 @@ export default function Nav({ year }: { year: number }) {
 
   return (
     <div ref={containerRef} className="-mx-2 mb-4 font-semibold">
-      {prevYearsActive && (
-        <ul className="bg-gray-100">{yearItems(MIN_YEAR, startYear - 1)}</ul>
-      )}
+      {prevYearsActive && <ul>{yearItems(MIN_YEAR, startYear - 1)}</ul>}
       <ul>
         {startYear > MIN_YEAR && (
           <ToggleLink
@@ -94,9 +92,7 @@ export default function Nav({ year }: { year: number }) {
           />
         )}
       </ul>
-      {nextYearsActive && (
-        <ul className="bg-gray-100">{yearItems(endYear + 1, MAX_YEAR)}</ul>
-      )}
+      {nextYearsActive && <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>}
     </div>
   );
 }

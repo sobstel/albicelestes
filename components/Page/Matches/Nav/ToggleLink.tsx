@@ -10,9 +10,8 @@ export default function ToggleLink({
   label: string;
   active: boolean;
 }) {
-  const bgColor = active ? "bg-gray-100" : "";
   return (
-    <Item className={bgColor}>
+    <Item>
       <a
         className="text-blue-600 hover:text-blue-400 cursor-pointer"
         onClick={onClick}
