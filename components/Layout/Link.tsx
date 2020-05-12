@@ -7,6 +7,7 @@ type Props = {
   important?: boolean;
   title?: string;
   children: ReactNode;
+  rel?: string;
 };
 
 export default function Link(props: Props) {
@@ -18,7 +19,7 @@ export default function Link(props: Props) {
 
   return (
     <NextLink href={props.href} as={props.as}>
-      <a className={classNames.join(" ")} title={props.title}>
+      <a className={classNames.join(" ")} title={props.title} rel={props.rel}>
         {props.children}
       </a>
     </NextLink>

@@ -19,10 +19,8 @@ export default function SiteFooter() {
         </p>
       </div>
       <p>
-        <Link href="/about" as="/about">
-          <a className="text-blue-600 hover:text-blue-400" rel="nofollow">
-            about
-          </a>
+        <Link href="/about" as="/about" rel="nofollow">
+          about
         </Link>
       </p>
     </footer>
