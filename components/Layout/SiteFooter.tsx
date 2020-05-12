@@ -2,19 +2,7 @@ import React from "react";
 
 import Link from "./Link";
 import Logo from "./Logo";
-
-function FooterLink({ href, children }: { href: string; children: string }) {
-  return (
-    <a
-      href={href}
-      className="ml-1 text-blue-600 hover:text-blue-400"
-      target="_blank"
-      rel="nofollow noopener noreferrer"
-    >
-      {children}
-    </a>
-  );
-}
+import ExternalLink from "components/Layout/ExternalLink";
 
 export default function SiteFooter() {
   return (
@@ -26,18 +14,16 @@ export default function SiteFooter() {
           </div>
         </Link>
         <p>
-          created by
-          <FooterLink href="https://www.sobstel.org">sopel</FooterLink>
+          created by{" "}
+          <ExternalLink href="https://www.sobstel.org">sopel</ExternalLink>
         </p>
       </div>
       <p>
-        <FooterLink href="https://github.com/sobstel/albicelestes">
-          github
-        </FooterLink>{" "}
-        /
-        <FooterLink href="https://twitter.com/albicelestescom">
-          twitter
-        </FooterLink>
+        <Link href="/about" as="/about">
+          <a className="text-blue-600 hover:text-blue-400" rel="nofollow">
+            about
+          </a>
+        </Link>
       </p>
     </footer>
   );

@@ -5,6 +5,9 @@ export type Appearance = {
   out?: string;
 };
 
+export type Bibliography = Record<string, BibliographyItem>;
+type BibliographyItem = { name: string; url: string };
+
 export type Card = {
   id?: string;
   name: string;
