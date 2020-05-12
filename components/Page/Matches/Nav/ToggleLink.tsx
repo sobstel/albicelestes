@@ -4,17 +4,20 @@ import Item from "./Item";
 export default function ToggleLink({
   onClick,
   label,
+  active,
 }: {
   onClick: () => void;
   label: string;
+  active: boolean;
 }) {
+  const bgColor = active ? "bg-gray-100" : "";
   return (
-    <Item>
+    <Item className={bgColor}>
       <a
         className="text-blue-600 hover:text-blue-400 cursor-pointer"
         onClick={onClick}
       >
-        {label}
+        {active ? "<>" : label}
       </a>
     </Item>
   );

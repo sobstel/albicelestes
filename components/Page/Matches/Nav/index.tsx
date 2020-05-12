@@ -21,7 +21,7 @@ function yearRange({
   itemWidth: number;
   year: number;
 }) {
-  // subtract toggle links and active item
+  // subtracts toggle links and active item
   const itemsNum = Math.floor(width / itemWidth) - 3;
 
   let prevItemsNum = Math.max(Math.floor(itemsNum / 2), 0);
@@ -37,8 +37,12 @@ function yearRange({
     prevItemsNum = itemsNum - nextItemsNum;
   }
 
-  const startYear = year - prevItemsNum;
-  const endYear = year + nextItemsNum;
+  let startYear = year - prevItemsNum;
+  let endYear = year + nextItemsNum;
+
+  // show more year items if one of toggle items not displayed
+  if (startYear === MIN_YEAR) endYear += 1;
+  if (endYear === MAX_YEAR) startYear -= 1;
 
   return [startYear, endYear];
 }
@@ -59,6 +63,7 @@ export default function Nav({ year }: { year: number }) {
   const clientWidth = useClientWidth(containerRef);
   const activeItemRef = useRef<HTMLLIElement>(null);
 
+  // useMemo to avoid repaint/reflow on activeItem witdh reading
   const [startYear, endYear] = useMemo(() => {
     if (!clientWidth || !activeItemRef.current) return [year, year];
     const itemWidth = activeItemRef.current.clientWidth;
@@ -67,13 +72,15 @@ export default function Nav({ year }: { year: number }) {
 
   return (
     <div ref={containerRef} className="-mx-2 mb-4 font-semibold">
-      {prevYearsActive && <ul>{yearItems(MIN_YEAR, startYear - 1)}</ul>}
-
+      {prevYearsActive && (
+        <ul className="bg-gray-100">{yearItems(MIN_YEAR, startYear - 1)}</ul>
+      )}
       <ul>
         {startYear > MIN_YEAR && (
           <ToggleLink
             onClick={togglePrevYears}
-            label={prevYearsActive ? "<>" : "<<"}
+            active={prevYearsActive}
+            label={"<<"}
           />
         )}
         {yearItems(startYear, year - 1)}
@@ -82,12 +89,14 @@ export default function Nav({ year }: { year: number }) {
         {endYear < MAX_YEAR && (
           <ToggleLink
             onClick={toggleNextYears}
-            label={nextYearsActive ? "<>" : ">>"}
+            active={nextYearsActive}
+            label={">>"}
           />
         )}
       </ul>
-
-      {nextYearsActive && <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>}
+      {nextYearsActive && (
+        <ul className="bg-gray-100">{yearItems(endYear + 1, MAX_YEAR)}</ul>
+      )}
     </div>
   );
 }

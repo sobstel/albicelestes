@@ -1,5 +1,4 @@
 import { useState, useEffect, RefObject } from "react";
-import { debounce } from "ts-debounce";
 
 export default function useClientWidth(
   ref: RefObject<HTMLElement>,
@@ -18,14 +17,10 @@ export default function useClientWidth(
       }
     }
 
-    const debouncedHandleResize = debounce(handleResize, 250, {
-      isImmediate: true,
-    });
-
-    if (window) window.addEventListener("resize", debouncedHandleResize);
+    if (window) window.addEventListener("resize", handleResize);
 
     return function cleanup() {
-      if (window) window.removeEventListener("resize", debouncedHandleResize);
+      if (window) window.removeEventListener("resize", handleResize);
     };
   }, []);
 
