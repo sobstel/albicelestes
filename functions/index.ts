@@ -6,3 +6,4 @@ export { default as collectTeamStat } from "./collectTeamStat";
 export { default as findPlayerName } from "./findPlayerName";
 export { default as findTeamName } from "./findTeamName";
 export { default as sortByMatchesPlayed } from "./sortByMatchesPlayed";
+export { default as withoutSuspendedMatches } from "./withoutSuspendedMatches";

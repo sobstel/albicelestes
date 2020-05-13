@@ -1,11 +1,12 @@
 import * as R from "remeda";
 import { Match, PlayerStat } from "types";
+import { withoutSuspendedMatches } from "functions";
 
 export default function collectPlayerStat(
   matches: Match[],
   id: string
 ): PlayerStat {
-  const statableMatches = R.filter(matches, (match) => !match?.suspended);
+  const statableMatches = withoutSuspendedMatches(matches);
 
   const mp = statableMatches.length;
 

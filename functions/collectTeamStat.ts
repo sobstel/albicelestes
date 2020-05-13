@@ -1,10 +1,11 @@
 import * as R from "remeda";
 import { Match, TeamStat } from "types";
+import { withoutSuspendedMatches } from "functions";
 
 export default function collectTeamStat(
   matches: Pick<Match, "teams" | "score" | "result" | "suspended">[]
 ): TeamStat {
-  const statableMatches = R.filter(matches, (match) => !match?.suspended);
+  const statableMatches = withoutSuspendedMatches(matches);
 
   const mp = statableMatches.length;
 
