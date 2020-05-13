@@ -29,7 +29,8 @@ export default function Fixtures({ title, matches }: Props) {
                 href="/matches/[year]/[slug]/[id]"
                 as={`/matches/${year}/${slug}/${match.id}`}
               >
-                {homeTeam.name} - {awayTeam.name} {match.score.join(":")}
+                {homeTeam.name} - {awayTeam.name}{" "}
+                {match?.suspended ? "*" : match.score.join(":")}
                 {match.pen && ` p.${match.pen.join(":")}`}
               </Link>
             </p>
