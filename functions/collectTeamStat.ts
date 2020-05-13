@@ -2,22 +2,24 @@ import * as R from "remeda";
 import { Match, TeamStat } from "types";
 
 export default function collectTeamStat(
-  matches: Pick<Match, "teams" | "score" | "result">[]
+  matches: Pick<Match, "teams" | "score" | "result" | "suspended">[]
 ): TeamStat {
-  const mp = matches.length;
+  const statableMatches = R.filter(matches, (match) => !match?.suspended);
+
+  const mp = statableMatches.length;
 
   // FIXME: add countBy to utility
   const { W: mw, D: md, L: ml } = R.reduce(
-    matches,
+    statableMatches,
     (acc, match) => {
       acc[match.result] += 1;
       return acc;
     },
-    { W: 0, D: 0, L: 0 }
+    { W: 0, D: 0, L: 0, S: 0 }
   );
 
   const { gf, ga } = R.reduce(
-    matches,
+    statableMatches,
     (acc, match) => {
       const otherTeamIndex = match.teams.findIndex(
         (team) => team.slug !== "argentina"

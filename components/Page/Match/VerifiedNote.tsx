@@ -1,8 +1,6 @@
 import React from "react";
 import { Match } from "types";
 
-// TODO: linkify sources eg. Animals -> https://www.amazon.com/Animals-Story-England-v-Argentina/dp/1848184085
-
 type Props = { match: Pick<Match, "sources"> };
 
 export default function VerifiedNote({ match: { sources } }: Props) {
@@ -17,6 +15,6 @@ export default function VerifiedNote({ match: { sources } }: Props) {
   }
 
   return (
-    <p className="pt-2 text-xs">Data verified with: {sources.join(", ")}.</p>
+    <p className="pt-2 text-sm">Data verified with: {sources.join(", ")}.</p>
   );
 }

@@ -10,11 +10,13 @@ export default function matchItem(match: Match): MatchItem {
     "score",
     "pen",
     "result",
+    "suspended",
   ]);
 
   // HACK to avoid undefined item.pen
   // FIXME use R.omit?
   if (!match.pen) delete item.pen;
+  if (!match.suspended) delete item.suspended;
 
   return item;
 }

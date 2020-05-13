@@ -5,13 +5,15 @@ export default function collectPlayerStat(
   matches: Match[],
   id: string
 ): PlayerStat {
-  const mp = matches.length;
+  const statableMatches = R.filter(matches, (match) => !match?.suspended);
+
+  const mp = statableMatches.length;
 
   const [si, so] = R.map(
     ["in", "out"],
     (type: "in" | "out") =>
       R.filter(
-        matches,
+        statableMatches,
         (match) =>
           !!R.find(
             R.flatten(match.lineups),
@@ -21,7 +23,7 @@ export default function collectPlayerStat(
   );
 
   const g = R.reduce(
-    matches,
+    statableMatches,
     (count, match) => {
       return (
         count +
@@ -38,7 +40,7 @@ export default function collectPlayerStat(
     ["Y", "R"],
     (type) =>
       R.filter(
-        matches,
+        statableMatches,
         (match) =>
           !!R.find(
             R.flatten(match.cards),
