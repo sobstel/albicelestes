@@ -35942,7 +35942,7 @@
     ],
     "cards": [[], []],
     "coaches": [
-      { "name": "Guillermo Stabile" },
+      { "name": "Guillermo Stábile" },
       { "name": "Walter Winterbottom" }
     ],
     "lineups": [
@@ -36054,11 +36054,13 @@
       }
     ],
     "score": [0, 0],
-    "result": "D",
+    "result": "S",
     "goals": [[], []],
     "cards": [[], []],
     "coaches": [
-      null,
+      {
+        "name": "Guillermo Stábile"
+      },
       {
         "name": "Walter Winterbottom"
       }
@@ -36070,36 +36072,20 @@
           "name": "Julio Mussimesi"
         },
         {
-          "id": "n308q",
-          "name": "Francisco Lombardo"
-        },
-        {
           "id": "vmwrx",
           "name": "Pedro Dellacha"
-        },
-        {
-          "id": "rvg6y",
-          "name": "Eliseo Mouriño"
-        },
-        {
-          "id": "2r3gd",
-          "name": "Osvaldo Cruz"
-        },
-        {
-          "id": "2yxno",
-          "name": "Carlos Lacasia"
-        },
-        {
-          "id": "le9nx",
-          "name": "Carlos Cecconato"
         },
         {
           "id": "5rl5m",
           "name": "Jose Garcia Perez"
         },
         {
-          "id": "k2pgl",
-          "name": "Ernesto Grillo"
+          "id": "n308q",
+          "name": "Francisco Lombardo"
+        },
+        {
+          "id": "rvg6y",
+          "name": "Eliseo Mouriño"
         },
         {
           "id": "gjpog",
@@ -36108,6 +36094,22 @@
         {
           "id": "rvgyy",
           "name": "Rodolfo Micheli"
+        },
+        {
+          "id": "pkevg",
+          "name": "Norberto Méndez"
+        },
+        {
+          "id": "2yxno",
+          "name": "Carlos Lacasia"
+        },
+        {
+          "id": "k2pgl",
+          "name": "Ernesto Grillo"
+        },
+        {
+          "id": "2r3gd",
+          "name": "Osvaldo Cruz"
         }
       ],
       [
@@ -36115,25 +36117,22 @@
           "name": "Gil Merrick"
         },
         {
-          "name": "Billy Wright"
-        },
-        {
-          "name": "Billy Eckersley"
-        },
-        {
           "name": "Alf Ramsey"
+        },
+        {
+          "name": "Bill Eckersley"
+        },
+        {
+          "name": "Bill Wright"
         },
         {
           "name": "Harry Johnston"
         },
         {
-          "name": "Jimmy Dickinson"
+          "name": "Jim Dickinson"
         },
         {
-          "name": "Johnny Berry"
-        },
-        {
-          "name": "Ivor Broadis"
+          "name": "Ivan Broadis"
         },
         {
           "name": "Tom Finney"
@@ -36143,9 +36142,14 @@
         },
         {
           "name": "Tommy Taylor"
+        },
+        {
+          "name": "John Berry"
         }
       ]
-    ]
+    ],
+    "sources": ["Animals!"],
+    "suspended": true
   },
   {
     "id": "25k2e",

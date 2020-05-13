@@ -38,6 +38,7 @@ export type Match = {
   coaches: [MatchCoach, MatchCoach];
   lineups: [Appearance[], Appearance[]];
   sources?: string[];
+  suspended?: true;
 };
 
 export type MatchCoach = { name: string } | null;
