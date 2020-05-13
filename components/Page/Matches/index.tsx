@@ -37,9 +37,10 @@ export default function MatchesPage({ year, matches, players }: Props) {
           {players.map(({ id, name, mp, si, so, g }) => (
             <p key={id}>
               <PlayerName name={name} displayName={shortNames[name]} id={id} />{" "}
-              {mp}{" "}
+              {mp}
               {(si > 0 || so > 0) && (
                 <>
+                  {" "}
                   ({so > 0 && `${so}↓`}
                   {si > 0 && so > 0 && " "}
                   {si > 0 && `${si}↑`})
