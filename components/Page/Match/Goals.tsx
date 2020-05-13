@@ -31,7 +31,7 @@ export default function Goals({ match }: Props) {
     match.goals,
     indexGoals,
     R.flatten(),
-    R.sortBy((goal) => goal.min),
+    R.sortBy((goal) => parseInt(String(goal.min), 10)),
     addScores
   );
 
