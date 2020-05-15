@@ -2,7 +2,7 @@ import React from "react";
 import { matchDate } from "helpers";
 import { Match, MatchInfo, MatchItem } from "types";
 import Layout from "components/Layout";
-import Score from "./Score";
+import Banner from "./Banner";
 import Goals from "./Goals";
 import Cards from "./Cards";
 import Lineups from "./Lineups";
@@ -38,7 +38,7 @@ export default function MatchPage({
 }: Props) {
   return (
     <Layout title={title(match)}>
-      <Score match={match} />
+      <Banner match={match} />
       <Goals match={match} />
       <Lineups match={match} />
       <Cards match={match} />

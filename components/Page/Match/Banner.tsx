@@ -8,7 +8,7 @@ type Props = {
   match: MatchItem;
 };
 
-export default function Score({ match }: Props) {
+export default function Banner({ match }: Props) {
   return (
     <Section title={matchScore(match)}>
       {matchDate(match, { withYear: true })}, {match.competition}
