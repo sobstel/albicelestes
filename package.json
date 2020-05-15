@@ -2,7 +2,7 @@
   "name": "albicelestes",
   "private": true,
   "scripts": {
-    "now-build": "yarn lint && yarn test && next build",
+    "now-build": "next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
