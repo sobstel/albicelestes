@@ -49,13 +49,3 @@ export async function getStaticPaths() {
     fallback: true,
   };
 }
-
-// FIXME
-// res.setHeader(
-//   "Link",
-//   `<https://albicelestes.com/matches/${year}/${slug}/${id}>; rel="canonical"`
-// );
-// res.setHeader(
-//   "Cache-Control",
-//   "s-maxage=3600, max-age=60, stale-while-revalidate"
-// );

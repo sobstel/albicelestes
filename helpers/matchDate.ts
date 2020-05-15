@@ -20,7 +20,6 @@ const MONTHS = [
   "Dec",
 ];
 
-// FIXME: date as an input arg
 export default function matchDate(
   match: Pick<Match, "date">,
   localOpts: MatchDateOpts = {}

@@ -9,14 +9,14 @@ export default function collectTeamStat(
 
   const mp = statableMatches.length;
 
-  // FIXME: add countBy to utility
+  // countBy
   const { W: mw, D: md, L: ml } = R.reduce(
     statableMatches,
     (acc, match) => {
       acc[match.result] += 1;
       return acc;
     },
-    { W: 0, D: 0, L: 0, S: 0 }
+    { W: 0, D: 0, L: 0 }
   );
 
   const { gf, ga } = R.reduce(

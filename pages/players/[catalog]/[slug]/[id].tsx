@@ -12,8 +12,6 @@ import {
   sortByMatchesPlayed,
 } from "functions";
 
-// FIXME: "Link", `<https://albicelestes.com/players/${catalog}/${slug}/${id}>; rel="canonical"`
-
 export default function PageContainer(props: Props) {
   const router = useRouter();
   if (router.isFallback) {
