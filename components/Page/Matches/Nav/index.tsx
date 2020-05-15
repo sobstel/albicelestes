@@ -51,8 +51,10 @@ export default function Nav({ year }: { year: number }) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
 
-  const togglePrevYears = () => setPrevYearsActive(!prevYearsActive);
-  const toggleNextYears = () => setNextYearsActive(!nextYearsActive);
+  const togglePrevYears = () =>
+    setPrevYearsActive((prevYearsActive) => !prevYearsActive);
+  const toggleNextYears = () =>
+    setNextYearsActive((nextYearsActive) => !nextYearsActive);
 
   useEffect(() => {
     if (prevYearsActive) setPrevYearsActive(false);
