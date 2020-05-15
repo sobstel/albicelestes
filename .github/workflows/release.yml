@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v2
 
       - name: Install node
         uses: actions/setup-node@v1
@@ -42,9 +40,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - uses: amondnet/now-deployment@v1
+
+      - uses: amondnet/now-deployment@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
