@@ -32,7 +32,7 @@ export type Match = {
   teams: [MatchTeam, MatchTeam];
   score: Score;
   pen?: Score;
-  result: "W" | "D" | "L";
+  result: Result;
   goals: [Goal[], Goal[]];
   cards: [Card[], Card[]];
   coaches: [MatchCoach, MatchCoach];
@@ -94,6 +94,12 @@ export type PlayerStat = {
   yc: number;
   rc: number;
 };
+
+enum Result {
+  Win = "W",
+  Draw = "D",
+  Loss = "L",
+}
 
 export type Score = [number, number];
 
