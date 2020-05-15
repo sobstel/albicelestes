@@ -1,19 +1,14 @@
 on:
   push:
-    paths:
-      - "**.ts"
-      - "**.tsx"
-      - "**/yarn.lock"
-      - ".github/workflows/ci.yml"
+    branches:
+      - "master"
 
 jobs:
-  js-check:
+  test:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v2
 
       - name: Install node
         uses: actions/setup-node@v1
@@ -36,20 +31,21 @@ jobs:
         run: yarn install
 
       - run: yarn lint
-
       - run: yarn test
 
   deploy:
     runs-on: ubuntu-latest
-    needs: js-check
-    if: success() && github.ref == 'refs/heads/master'
-    timeout-minutes: 5
+    needs: test
+    if: success()
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - uses: amondnet/now-deployment@v1
+
+      - uses: amondnet/now-deployment@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
-          now-args: "--prod"
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }}
+          now-args: "--confirm --prod"
+          github-comment: true
