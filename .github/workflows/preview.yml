@@ -55,4 +55,4 @@ jobs:
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
           now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
           now-org-id: ${{ secrets.ZEIT_ORG_ID }}
-          now-args: ""
+          now-args: "--confirm"
