@@ -48,3 +48,4 @@ jobs:
           now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
           now-org-id: ${{ secrets.ZEIT_ORG_ID }}
           now-args: "--confirm --prod"
+          github-comment: true
