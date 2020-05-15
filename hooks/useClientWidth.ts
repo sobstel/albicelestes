@@ -1,9 +1,9 @@
-import { useState, useEffect, RefObject } from "react";
+import { useState, useEffect, useLayoutEffect, RefObject } from "react";
 
 export default function useClientWidth(ref: RefObject<HTMLElement>) {
   const [clientWidth, setClientWidth] = useState(0);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (ref?.current) setClientWidth(ref.current.clientWidth);
   }, [ref]);
 
