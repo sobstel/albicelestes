@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - "!master"
 
 jobs:
   test:
@@ -31,4 +34,7 @@ jobs:
 
       - run: yarn lint
       - run: yarn test
-      - run: yarn codecov
+
+      - uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: true
