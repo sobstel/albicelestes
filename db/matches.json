@@ -151890,7 +151890,7 @@
     "goals": [
       [
         {
-          "name": "Philippe Coutinho",
+          "name": "Coutinho",
           "min": "24",
           "type": "G"
         },
@@ -151976,7 +151976,7 @@
           "name": "Renato Augusto"
         },
         {
-          "name": "Philippe Coutinho",
+          "name": "Coutinho",
           "out": "84"
         },
         {
@@ -152738,7 +152738,7 @@
           "name": "Willian"
         },
         {
-          "name": "Philippe Coutinho"
+          "name": "Coutinho"
         },
         {
           "name": "Gabriel Jesus"
@@ -156507,7 +156507,7 @@
           "name": "Casemiro"
         },
         {
-          "name": "Philippe Coutinho"
+          "name": "Coutinho"
         },
         {
           "name": "Roberto Firmino"
@@ -158548,7 +158548,7 @@
           "name": "Casemiro"
         },
         {
-          "name": "Philippe Coutinho"
+          "name": "Coutinho"
         },
         {
           "name": "Roberto Firmino"
@@ -159569,14 +159569,14 @@
         },
         {
           "name": "Jhon Espínoza",
-          "min": "26",
+          "min": "27",
           "type": "OG"
         },
         {
           "id": "nkxx7",
           "name": "Leandro Paredes",
           "min": "32",
-          "type": "G"
+          "type": "P"
         },
         {
           "id": "ld029",
@@ -159621,7 +159621,7 @@
         {
           "id": "ld029",
           "name": "Germán Pezzella",
-          "min": "62",
+          "min": "61",
           "type": "Y"
         }
       ]
@@ -159764,12 +159764,12 @@
         {
           "id": "7xk6r",
           "name": "Lucas Alario",
-          "out": "58"
+          "out": "57"
         },
         {
           "id": "mp3rm",
           "name": "Nicolás Domínguez",
-          "in": "58"
+          "in": "57"
         },
         {
           "id": "226l9",
@@ -159782,7 +159782,8 @@
           "in": "46"
         }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "id": "9p5yjg",
@@ -159842,7 +159843,7 @@
         {
           "id": "xrvw3",
           "name": "Nicolás Tagliafico",
-          "min": "62",
+          "min": "61",
           "type": "Y"
         },
         {
@@ -159867,7 +159868,12 @@
           "name": "Alisson Becker"
         },
         {
-          "name": "Alex Sandro"
+          "name": "Alex Sandro",
+          "out": "64"
+        },
+        {
+          "name": "Renan Lodi",
+          "in": "64"
         },
         {
           "name": "Danilo"
@@ -159879,22 +159885,47 @@
           "name": "Eder Militão"
         },
         {
-          "name": "Arthur"
+          "name": "Arthur",
+          "out": "55"
         },
         {
-          "name": "Casemiro"
+          "name": "Fabinho",
+          "in": "55"
         },
         {
-          "name": "Lucas Paquetá"
+          "name": "Casemiro",
+          "out": "86"
         },
         {
-          "name": "Willian"
+          "name": "Wesley",
+          "in": "86"
+        },
+        {
+          "name": "Lucas Paquetá",
+          "out": "46"
+        },
+        {
+          "name": "Coutinho",
+          "in": "46"
+        },
+        {
+          "name": "Willian",
+          "out": "71"
+        },
+        {
+          "name": "Rodrygo",
+          "in": "71"
         },
         {
           "name": "Roberto Firmino"
         },
         {
-          "name": "Gabriel Jesus"
+          "name": "Gabriel Jesus",
+          "out": "71"
+        },
+        {
+          "name": "Richarlison",
+          "in": "71"
         }
       ],
       [
@@ -159973,7 +160004,8 @@
           "in": "88"
         }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "id": "yxl8w2",
@@ -160005,7 +160037,7 @@
         {
           "id": "d6j77",
           "name": "Lionel Messi",
-          "min": "90",
+          "min": "90+2",
           "type": "P"
         }
       ],
@@ -160028,6 +160060,12 @@
           "id": "nkxx7",
           "name": "Leandro Paredes",
           "min": "40",
+          "type": "Y"
+        },
+        {
+          "id": "jjdp5",
+          "name": "Nicolás González",
+          "min": "90+4",
           "type": "Y"
         }
       ],
@@ -160068,16 +160106,16 @@
           "name": "Nicolás Otamendi"
         },
         {
+          "id": "xrvw3",
+          "name": "Nicolás Tagliafico"
+        },
+        {
           "id": "ld029",
           "name": "Germán Pezzella"
         },
         {
           "id": "j5jrv",
           "name": "Renzo Saravia"
-        },
-        {
-          "id": "xrvw3",
-          "name": "Nicolás Tagliafico"
         },
         {
           "id": "xykg8",
@@ -160183,6 +160221,7 @@
           "name": "Luis Suárez"
         }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   }
 ]

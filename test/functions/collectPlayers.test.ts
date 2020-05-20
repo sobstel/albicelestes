@@ -24,7 +24,7 @@ describe("collectPlayers", () => {
       goals: [
         [],
         [
-          { id: "lm", name: "Leo Messi", min: "12", type: "PG" },
+          { id: "lm", name: "Leo Messi", min: "12", type: "P" },
           { id: "mr", name: "Maxi Rodríguez", min: "80", type: "G" },
         ],
       ],

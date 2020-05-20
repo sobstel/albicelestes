@@ -1,4 +1,8 @@
 {
+  "11v11": {
+    "name": "11v11 - International Football History and Statistics",
+    "url": "https://www.11v11.com/teams/argentina/"
+  },
   "Animals!": {
     "name": "Animals!: The Story of England v Argentina (by Neil Clack, 2011)",
     "url": "https://www.bookdepository.com/Animals-Neil-Clack/9781848184084"
@@ -6,5 +10,9 @@
   "RSSSF": {
     "name": "The Rec.Sport.Soccer Statistics Foundation",
     "url": "http://www.rsssf.com/tablesa/arg-intres.html"
+  },
+  "Soccerway": {
+    "name": "Soccerway",
+    "url": "https://int.soccerway.com/teams/argentina/argentina/132/"
   }
 }
