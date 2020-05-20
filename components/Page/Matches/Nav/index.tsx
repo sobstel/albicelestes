@@ -67,8 +67,8 @@ export default function Nav({ year }: { year: number }) {
 
   // useMemo to avoid repaint/reflow on activeItem witdh reading
   const [startYear, endYear] = useMemo(() => {
-    if (!clientWidth || !activeItemRef.current) return [year, year];
-    const itemWidth = activeItemRef.current.clientWidth;
+    if (!clientWidth) return [year, year];
+    const itemWidth = activeItemRef?.current?.clientWidth || 50;
     return yearRange({ width: clientWidth, itemWidth, year });
   }, [clientWidth, year]);
 
