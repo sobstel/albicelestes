@@ -3991,7 +3991,7 @@
       [],
       [
         {
-          "id": "9m3lg",
+          "id": "n3o2n",
           "name": "Arturo Reparaz",
           "min": "79",
           "type": "OG"
@@ -4032,10 +4032,6 @@
         },
         {
           "id": "n3o2n",
-          "name": "Arturo Reparaz"
-        },
-        {
-          "id": "9m3lg",
           "name": "Arturo Reparaz"
         },
         {
@@ -5329,7 +5325,7 @@
           "type": "G"
         },
         {
-          "id": "d3xjx",
+          "id": "mnkjn",
           "name": "Alfredo Bruno",
           "min": "53",
           "type": "OG"
@@ -5395,10 +5391,6 @@
         },
         {
           "id": "mnkjn",
-          "name": "Alfredo Bruno"
-        },
-        {
-          "id": "d3xjx",
           "name": "Alfredo Bruno"
         },
         {
@@ -10369,10 +10361,6 @@
         {
           "id": "p055r",
           "name": "Inocencio Alzua"
-        },
-        {
-          "id": "5dqr7",
-          "name": "Roberto Castagnola"
         },
         {
           "id": "qymdx",
@@ -22728,7 +22716,7 @@
       ],
       [
         {
-          "id": "l3rre",
+          "id": "gjpjg",
           "name": "Tomas Gonzalez Peralta",
           "min": "11",
           "type": "G"
@@ -22834,7 +22822,7 @@
           "name": "Arturo Naon"
         },
         {
-          "id": "l3rre",
+          "id": "gjpjg",
           "name": "Tomas Gonzalez Peralta"
         },
         {
@@ -25932,10 +25920,6 @@
         {
           "id": "gjpwo",
           "name": "Herminio Masantonio"
-        },
-        {
-          "id": "d2qwy",
-          "name": "Ignacio Diaz"
         },
         {
           "id": "9rnwv",
@@ -35064,10 +35048,6 @@
         {
           "id": "y5o6n",
           "name": "Juan Filgueiras"
-        },
-        {
-          "id": "e2eel",
-          "name": "I Garceron"
         },
         {
           "id": "gjpog",
@@ -45809,6 +45789,10 @@
     "lineups": [
       [
         {
+          "id": "jxpno",
+          "name": "Osvaldo Ayala"
+        },
+        {
           "id": "yymvd",
           "name": "Ruben Marino Navarro"
         },
@@ -45829,10 +45813,6 @@
         {
           "id": "58332",
           "name": "Miguel Alvarez"
-        },
-        {
-          "id": "jxpno",
-          "name": "Roberto Ayala"
         },
         {
           "id": "g5nr9",
@@ -45966,6 +45946,10 @@
     "lineups": [
       [
         {
+          "id": "jxpno",
+          "name": "Osvaldo Ayala"
+        },
+        {
           "id": "yymvd",
           "name": "Ruben Marino Navarro"
         },
@@ -45986,10 +45970,6 @@
         {
           "id": "58332",
           "name": "Miguel Alvarez"
-        },
-        {
-          "id": "jxpno",
-          "name": "Roberto Ayala"
         },
         {
           "id": "g5nr9",
@@ -79255,7 +79235,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovk03",
@@ -79441,7 +79421,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -79530,7 +79510,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -79755,7 +79735,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "x76q8",
@@ -79833,7 +79813,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -79979,7 +79959,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -80130,7 +80110,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovk03",
@@ -80220,7 +80200,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "x76q8",
@@ -80332,7 +80312,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "x76q8",
@@ -80501,7 +80481,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "x76q8",
@@ -80690,7 +80670,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -80821,7 +80801,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -80912,7 +80892,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -81094,7 +81074,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -81272,7 +81252,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -81433,7 +81413,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre",
+          "name": "Oscar Garré",
           "in": "69"
         },
         {
@@ -81599,7 +81579,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "9kp3p",
@@ -81743,7 +81723,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -81848,7 +81828,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -82057,7 +82037,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -82208,7 +82188,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -82636,7 +82616,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -82792,7 +82772,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -82894,7 +82874,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -83015,7 +82995,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -83197,7 +83177,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -83297,7 +83277,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -83816,7 +83796,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -83952,7 +83932,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "yxj7d",
@@ -84141,7 +84121,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovk03",
@@ -84273,7 +84253,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -84469,7 +84449,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -84575,7 +84555,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -84715,7 +84695,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -85627,8 +85607,8 @@
           "type": "G"
         },
         {
-          "id": "wvmje",
-          "name": "Oscar Alfredo Garre",
+          "id": "9k85g",
+          "name": "Oscar Garré",
           "min": "33",
           "type": "OG"
         },
@@ -85727,7 +85707,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovk03",
@@ -85772,8 +85752,8 @@
           "in": "59"
         },
         {
-          "id": "wvmje",
-          "name": "Oscar Alfredo Garre"
+          "id": "9k85g",
+          "name": "Oscar Garré"
         },
         {
           "id": "7rm77",
@@ -85811,8 +85791,8 @@
       [],
       [
         {
-          "id": "wvooe",
-          "name": "Oscar Alfredo Garre",
+          "id": "9k85g",
+          "name": "Oscar Garré",
           "type": "OG"
         }
       ]
@@ -85848,7 +85828,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "wv2l6",
@@ -85871,8 +85851,8 @@
           "name": "Juan Gilberto Funes"
         },
         {
-          "id": "wvooe",
-          "name": "Oscar Alfredo Garre"
+          "id": "9k85g",
+          "name": "Oscar Garré"
         },
         {
           "id": "5r22m",
@@ -86897,7 +86877,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre",
+          "name": "Oscar Garré",
           "in": "55"
         },
         {
@@ -87340,7 +87320,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovkpv",
@@ -87531,7 +87511,7 @@
         },
         {
           "id": "9k85g",
-          "name": "Oscar Garre"
+          "name": "Oscar Garré"
         },
         {
           "id": "ovkpv",
@@ -93103,7 +93083,7 @@
         },
         {
           "id": "82eje",
-          "name": "Nestor Oscar Craviotto"
+          "name": ""
         },
         {
           "id": "odyy3",
@@ -93320,7 +93300,7 @@
         },
         {
           "id": "82eje",
-          "name": "Nestor Oscar Craviotto",
+          "name": "",
           "min": "51",
           "type": "G"
         },
@@ -93371,7 +93351,7 @@
         },
         {
           "id": "82eje",
-          "name": "Nestor Oscar Craviotto"
+          "name": ""
         },
         {
           "id": "7pq38",
@@ -95199,7 +95179,7 @@
       ],
       [
         {
-          "id": "rvdpy",
+          "id": "82eje",
           "name": "Nestor Oscar Craviotto",
           "min": "12",
           "type": "OG"
@@ -95265,10 +95245,6 @@
         },
         {
           "id": "82eje",
-          "name": "Nestor Oscar Craviotto"
-        },
-        {
-          "id": "rvdpy",
           "name": "Nestor Oscar Craviotto"
         }
       ],
@@ -109284,7 +109260,7 @@
           "out": "46"
         },
         {
-          "id": "pgokg",
+          "id": "v52q2",
           "name": "Guillermo Barros Schelotto",
           "in": "46"
         },
@@ -109472,7 +109448,7 @@
           "name": "Javier Zanetti"
         },
         {
-          "id": "pgokg",
+          "id": "v52q2",
           "name": "Guillermo Barros Schelotto",
           "out": "75"
         },
@@ -109670,7 +109646,7 @@
           "name": "Javier Zanetti"
         },
         {
-          "id": "pgokg",
+          "id": "v52q2",
           "name": "Guillermo Barros Schelotto",
           "out": "68"
         },
@@ -109851,7 +109827,7 @@
           "name": "Juan Pablo Sorin"
         },
         {
-          "id": "pgokg",
+          "id": "v52q2",
           "name": "Guillermo Barros Schelotto",
           "out": "76"
         },
@@ -110419,7 +110395,7 @@
           "out": "56"
         },
         {
-          "id": "pgokg",
+          "id": "v52q2",
           "name": "Guillermo Barros Schelotto",
           "in": "56"
         },
@@ -112420,7 +112396,7 @@
           "out": "79"
         },
         {
-          "id": "620e3",
+          "id": "odyo9",
           "name": "Marcelo Delgado",
           "in": "79"
         },
@@ -112768,7 +112744,7 @@
           "name": "Fernando Crosa"
         },
         {
-          "id": "620e3",
+          "id": "odyo9",
           "name": "Marcelo Delgado",
           "out": "86"
         },
@@ -113517,7 +113493,7 @@
           "out": "65"
         },
         {
-          "id": "620e3",
+          "id": "odyo9",
           "name": "Marcelo Delgado",
           "in": "65"
         },
@@ -121107,7 +121083,7 @@
           "name": "Gabriel Heinze"
         },
         {
-          "id": "w95jd",
+          "id": "2r3l9",
           "name": "Aldo Duscher",
           "out": "71"
         },
@@ -121171,8 +121147,8 @@
     "goals": [
       [
         {
-          "id": "j6w3y",
-          "name": "Fuentes",
+          "id": "039gv",
+          "name": "Fabricio Fuentes",
           "min": "23",
           "type": "OG"
         }
@@ -121282,11 +121258,7 @@
         },
         {
           "id": "039gv",
-          "name": "Fuentes"
-        },
-        {
-          "id": "j6w3y",
-          "name": "Fuentes"
+          "name": "Fabricio Fuentes"
         },
         {
           "id": "5v5n7",
