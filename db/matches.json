@@ -890,7 +890,8 @@
     },
     "teams": [
       {
-        "name": "Brazil Rio XI"
+        "name": "Brazil Rio XI",
+        "slug": "brazil"
       },
       {
         "name": "Argentina"
@@ -3292,7 +3293,8 @@
     },
     "teams": [
       {
-        "name": "Brazil Rio XI"
+        "name": "Brazil Rio XI",
+        "slug": "brazil"
       },
       {
         "name": "Argentina"
@@ -3374,7 +3376,8 @@
     },
     "teams": [
       {
-        "name": "Brazil Rio XI"
+        "name": "Brazil Rio XI",
+        "slug": "brazil"
       },
       {
         "name": "Argentina"
@@ -41771,7 +41774,8 @@
     },
     "teams": [
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       },
       {
         "name": "Argentina"
@@ -42067,7 +42071,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 2],
@@ -46455,7 +46460,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 1],
@@ -53878,7 +53884,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 0],
@@ -57681,7 +57688,7 @@
         "name": "Argentina"
       },
       {
-        "name": "German Democratic Republic"
+        "name": "East Germany"
       }
     ],
     "score": [1, 1],
@@ -59572,7 +59579,8 @@
     },
     "teams": [
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       },
       {
         "name": "Argentina"
@@ -60864,7 +60872,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [0, 0],
@@ -63027,7 +63036,8 @@
         "name": "Argentina"
       },
       {
-        "name": "LEAGUE OF IRELAND"
+        "name": "League of Ireland",
+        "slug": "ireland"
       }
     ],
     "score": [3, 1],
@@ -66093,7 +66103,8 @@
         "name": "Argentina"
       },
       {
-        "name": "League of Ireland"
+        "name": "League of Ireland",
+        "slug": "ireland"
       }
     ],
     "score": [1, 0],
@@ -67182,7 +67193,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 1],
@@ -68212,7 +68224,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 1],
@@ -70557,7 +70570,7 @@
     },
     "teams": [
       {
-        "name": "China PR"
+        "name": "China"
       },
       {
         "name": "Argentina"
@@ -76212,7 +76225,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [2, 4],
@@ -79603,7 +79617,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [2, 0],
@@ -81144,7 +81159,8 @@
         "name": "Argentina"
       },
       {
-        "name": "USSR"
+        "name": "USSR",
+        "slug": "russia"
       }
     ],
     "score": [1, 1],

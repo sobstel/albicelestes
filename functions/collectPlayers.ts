@@ -1,5 +1,6 @@
 import * as R from "remeda";
-import { Appearance, Goal, PlayerItem } from "types";
+import { Match, PlayerItem } from "types";
+import { matchTeamIndex, playerSlug } from "helpers";
 
 type ReduceAcc = { [key: string]: PlayerItem };
 
@@ -8,11 +9,10 @@ function increment(
   app: Appearance | Goal,
   key: "mp" | "si" | "so" | "g"
 ): void {
-  if (!app.id) return;
+  const slug = playerSlug(app.name);
 
-  if (!acc[app.id]) {
-    acc[app.id] = {
-      id: app.id,
+  if (!acc[slug]) {
+    acc[slug] = {
       name: app.name,
       mp: 0,
       si: 0,
@@ -21,25 +21,28 @@ function increment(
     };
   }
 
-  acc[app.id][key] += 1;
+  acc[slug][key] += 1;
 }
 
 export default function collectPlayers(
-  matches: { lineups: [Appearance[], Appearance[]]; goals: [Goal[], Goal[]] }[]
+  matches: Pick<Match, "teams" | "lineups" | "goals">[]
 ): PlayerItem[] {
   return R.pipe(
     matches,
     R.reduce((acc, match) => {
-      R.forEach(R.flatten(match.lineups), (app) => {
+      const myTeamIndex = matchTeamIndex(match);
+      // const otherTeamIndex = 1 - myTeamIndex;
+
+      R.forEach(match.lineups[myTeamIndex], (app) => {
         increment(acc, app, "mp");
         if (app.in) increment(acc, app, "si");
         if (app.out) increment(acc, app, "so");
       });
 
-      R.forEach(R.flatten(match.goals), (goal) => {
-        if (goal.type === "OG") return;
-        increment(acc, goal, "g");
-      });
+      // R.forEach(match.goals[myTeamIndex], (goal) => {
+      //   if (goal.type === "OG") return;
+      //   increment(acc, goal, "g");
+      // });
 
       return acc;
     }, {}),

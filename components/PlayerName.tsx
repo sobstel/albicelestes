@@ -5,13 +5,13 @@ import Link from "./Layout/Link";
 export default function PlayerName({
   name,
   displayName,
-  id,
+  linkify = false,
 }: {
   name: string;
   displayName?: string;
-  id?: string;
+  linkify: boolean;
 }) {
-  if (!id) {
+  if (!linkify) {
     return <span title={name}>{displayName || name}</span>;
   }
 
@@ -20,8 +20,8 @@ export default function PlayerName({
 
   return (
     <Link
-      href="/players/[catalog]/[slug]/[id]"
-      as={`/players/${catalog}/${slug}/${id}`}
+      href="/players/[catalog]/[slug]"
+      as={`/players/${catalog}/${slug}`}
       title={name}
     >
       {displayName || name}

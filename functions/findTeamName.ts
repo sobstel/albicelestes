@@ -1,5 +1,6 @@
 import * as R from "remeda";
 import { Match } from "types";
+import { teamSlug } from "helpers";
 
 export default function findTeamName(
   matches: Pick<Match, "teams">[],
@@ -9,7 +10,7 @@ export default function findTeamName(
     matches,
     R.map((match) => match.teams),
     R.flatten(),
-    R.find((team) => team.slug === slug),
+    R.find((team) => teamSlug(team) === slug),
     (team) => team?.name || ""
   );
 }

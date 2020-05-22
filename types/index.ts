@@ -52,7 +52,7 @@ export type MatchItem = Pick<
   "date" | "competition" | "teams" | "score" | "pen" | "result" | "suspended"
 >;
 
-export type MatchTeam = { name: string; slug?: string };
+export type MatchTeam = Team;
 
 export type PlayerInfo = {
   nicknames?: string[];
@@ -90,11 +90,12 @@ enum Result {
 
 export type Score = [number, number];
 
-export type TeamItem = {
+export type Team = {
   name: string;
-  slug: string;
-  mp: number;
+  slug?: string;
 };
+
+export type TeamItem = Team & { mp: number };
 
 export type TeamStat = {
   mp: number;

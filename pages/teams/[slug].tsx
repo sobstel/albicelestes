@@ -7,7 +7,7 @@ import {
   collectTeams,
   collectTeamStat,
 } from "functions";
-import { matchItem } from "helpers";
+import { matchItem, teamSlug } from "helpers";
 import Page, { Props } from "components/Page/Team";
 
 export default function PageContainer(props: Props) {
@@ -21,7 +21,9 @@ export async function getStaticProps(context: Context) {
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => !!R.find(match.teams, (team) => team.slug === slug))
+    R.filter(
+      (match) => !!R.find(match.teams, (team) => teamSlug(team) === slug)
+    )
   );
   const name = findTeamName(matches, slug);
   const competitions = collectCompetitions(matches);

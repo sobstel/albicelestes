@@ -1,6 +1,6 @@
 import React from "react";
 import * as R from "remeda";
-import { playersShortNames } from "helpers";
+import { matchTeamIndex, playersShortNames } from "helpers";
 import { Goal, Match, Score } from "types";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
@@ -46,6 +46,9 @@ export default function Goals({ match }: Props) {
     playersShortNames
   );
 
+  const myTeamIndex = matchTeamIndex(match);
+  myTeamIndex;
+
   return (
     <Section title="Goals">
       {goals.map((goal, index) => (
@@ -54,7 +57,7 @@ export default function Goals({ match }: Props) {
           <PlayerName
             name={goal.name}
             displayName={shortNames[goal.name]}
-            id={goal.id}
+            linkify={false}
           />{" "}
           {goal.min && `${goal.min}'`}
           {goal.type !== "G" && ` [${goal.type}] `}

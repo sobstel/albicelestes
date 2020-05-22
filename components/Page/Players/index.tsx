@@ -23,16 +23,16 @@ export default function PlayersPage({ catalog, players }: Props) {
 
       {players && players.length > 0 && (
         <Section title="Players">
-          {players.map(({ id, name, mp }) => {
+          {players.map(({ name, mp }) => {
             const _playerName = playerName(name);
             const slug = playerSlug(name);
             const catalog = playerCatalog(name);
 
             return (
-              <p key={id}>
+              <p key={slug}>
                 <Link
-                  href="/players/[catalog]/[slug]/[id]"
-                  as={`/players/${catalog}/${slug}/${id}`}
+                  href="/players/[catalog]/[slug]"
+                  as={`/players/${catalog}/${slug}`}
                   title={name}
                   important={!!mp && mp >= 20}
                 >

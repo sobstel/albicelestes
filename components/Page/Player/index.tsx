@@ -6,7 +6,6 @@ import Competitions from "components/Competitions";
 import Info from "./Info";
 
 export type Props = {
-  id: string;
   slug: string;
   name: string;
   stat: PlayerStat;
