@@ -7,3 +7,4 @@ export { default as playerCatalog } from "./playerCatalog";
 export { default as playerName } from "./playerName";
 export { default as playerSlug } from "./playerSlug";
 export { default as playersShortNames } from "./playersShortNames";
+export { default as teamSlug } from "./teamSlug";

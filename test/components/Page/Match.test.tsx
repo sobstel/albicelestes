@@ -5,7 +5,6 @@ import MatchPage from "components/Page/Match";
 
 describe(MatchPage, () => {
   const match = {
-    id: "abc123",
     date: "2022-06-30",
     competition: "World Cup",
     teams: [
