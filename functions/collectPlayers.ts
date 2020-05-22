@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { Match, PlayerItem } from "types";
+import { Appearance, Goal, Match, PlayerItem } from "types";
 import { matchTeamIndex, playerSlug } from "helpers";
 
 type ReduceAcc = { [key: string]: PlayerItem };
@@ -31,7 +31,6 @@ export default function collectPlayers(
     matches,
     R.reduce((acc, match) => {
       const myTeamIndex = matchTeamIndex(match);
-      // const otherTeamIndex = 1 - myTeamIndex;
 
       R.forEach(match.lineups[myTeamIndex], (app) => {
         increment(acc, app, "mp");
@@ -39,10 +38,9 @@ export default function collectPlayers(
         if (app.out) increment(acc, app, "so");
       });
 
-      // R.forEach(match.goals[myTeamIndex], (goal) => {
-      //   if (goal.type === "OG") return;
-      //   increment(acc, goal, "g");
-      // });
+      R.forEach(match.goals[myTeamIndex], (goal) => {
+        increment(acc, goal, "g");
+      });
 
       return acc;
     }, {}),
