@@ -8,7 +8,7 @@ export const fetchMatches = R.once((): Match[] => (require('./matches.json')));
 
 export function fetchMatchInfo(match: MatchItem): MatchInfo {
   try {
-    return require(`db/matches/${matchYear(match)}/${match.date}-${matchSlug(match)}.json`);
+    return require(`db/matches/${matchYear(match)}/${matchSlug(match)}.json`);
   } catch (e) {
     return {};
   }

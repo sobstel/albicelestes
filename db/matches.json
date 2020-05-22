@@ -486,6 +486,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1908-10-04",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -618,6 +619,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1909-10-10",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -710,6 +712,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1910-06-05",
     "competition": "South American Championship",
     "venue": { "name": "Gimnasia y Esgrima, Buenos Aires" },
@@ -885,6 +888,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1910-11-13",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -927,6 +931,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1910-11-27",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -1073,6 +1078,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1911-10-08",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -1115,6 +1121,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1911-10-22",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -1160,6 +1167,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1911-10-29",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -1286,6 +1294,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1912-08-25",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -1371,6 +1380,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1912-09-17",
     "competition": "XI v A *",
     "venue": { "name": "RIO DE JANEIRO" },
@@ -1449,6 +1459,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1912-10-06",
     "competition": "Copa Newton",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -1499,6 +1510,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1912-12-01",
     "competition": "Copa Montevideo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -1587,6 +1599,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1913-07-09",
     "competition": "Copa Roque Saenz Pena",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -1675,6 +1688,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1913-08-15",
     "competition": "Copa Lipton",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -1722,6 +1736,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-4",
     "date": "1913-08-31",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -1794,6 +1809,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1913-10-05",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -1833,6 +1849,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1913-10-26",
     "competition": "Copa Newton",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -2012,6 +2029,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1914-09-27",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -2145,6 +2163,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1915-09-12",
     "competition": "Copa Newton",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -2281,6 +2300,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1916-07-12",
     "competition": "Friendly",
     "venue": { "name": "Gimnasia y Esgrima, Buenos Aires" },
@@ -2362,6 +2382,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1916-08-15",
     "competition": "Copa Lipton",
     "venue": { "name": "Cancha de Racing Avellaneda" },
@@ -2407,6 +2428,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1916-08-15",
     "competition": "Copa Newton",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -2453,6 +2475,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1916-09-27",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Buenos Aires" },
@@ -2504,6 +2527,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-4",
     "date": "1916-10-01",
     "competition": "Trofeo Circular",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -2556,6 +2580,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1916-10-29",
     "competition": "Trofeo Circular",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -2689,6 +2714,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1917-09-02",
     "competition": "Copa Newton",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -2821,6 +2847,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1917-10-14",
     "competition": "Copa America",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -2863,6 +2890,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1917-10-22",
     "competition": "Friendly",
     "venue": { "name": "Cancha de Racing Club" },
@@ -2947,6 +2975,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1918-07-28",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Pereira" },
@@ -3032,6 +3061,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1918-08-25",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -3077,6 +3107,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1918-09-20",
     "competition": "Copa Lipton",
     "venue": { "name": "Parque Pereira" },
@@ -3119,6 +3150,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1918-09-29",
     "competition": "Copa Newton",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -3262,6 +3294,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1919-05-15",
     "competition": "Friendly",
     "venue": { "name": "Estadio de Puerto Sajonia, Asuncion" },
@@ -3308,6 +3341,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-3",
     "date": "1919-05-18",
     "competition": "Friendly",
     "venue": { "name": "Asuncion" },
@@ -3399,6 +3433,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-4",
     "date": "1919-05-21",
     "competition": "Friendly",
     "venue": { "name": "Estadio de Puerto Sajonia, Asuncion" },
@@ -3491,6 +3526,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-5",
     "date": "1919-05-24",
     "competition": "Friendly",
     "venue": { "name": "Estadio de Puerto Sajonia, Asuncion" },
@@ -3524,6 +3560,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1919-06-01",
     "competition": "Copa Roberto Cherry",
     "venue": { "name": "Estadio Laranjeiras, Rio de Janeiro" },
@@ -3621,6 +3658,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1919-08-24",
     "competition": "Copa Newton",
     "venue": { "name": "Parque Pereira" },
@@ -3666,6 +3704,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1919-09-07",
     "competition": "Copa Lipton",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -3711,6 +3750,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1919-10-19",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Gimnasia, Buenos Aires" },
@@ -3760,6 +3800,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1919-12-07",
     "competition": "Trofeo Circular",
     "venue": { "name": "Parque Pereira" },
@@ -3901,6 +3942,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1920-08-08",
     "competition": "Copa Premio Honor Argentino",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -3943,6 +3985,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1920-09-12",
     "competition": "Copa America",
     "venue": { "name": "de Vina, Valparaiso" },
@@ -4142,6 +4185,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1921-04-14",
     "competition": "Friendly",
     "venue": { "name": "Pedro Juan Caballero" },
@@ -4565,6 +4609,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1922-10-22",
     "competition": "Friendly",
     "venue": { "name": "Cancha de Sportivo Barracas" },
@@ -4604,6 +4649,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1922-10-22",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Parque Antartica" },
@@ -4649,6 +4695,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1922-11-12",
     "competition": "Copa Lipton",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -4688,6 +4735,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1922-12-10",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -4727,6 +4775,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1922-12-17",
     "competition": "Copa Newton",
     "venue": { "name": "Cancha de Sportivo Barracas" },
@@ -4823,6 +4872,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1923-05-25",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "Cancha de Sportivo Barracas" },
@@ -4901,6 +4951,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1923-07-15",
     "competition": "Copa Ministro De Relaciones Exteriores",
     "venue": { "name": "Cancha de Sportivo Barracas" },
@@ -4998,6 +5049,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1923-09-30",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5043,6 +5095,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-3",
     "date": "1923-10-29",
     "competition": "Copa America",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5139,6 +5192,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1923-12-02",
     "competition": "Copa Confraternidad",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -5184,6 +5238,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1923-12-02",
     "competition": "Copa America",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5277,6 +5332,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1923-12-08",
     "competition": "Copa Ministro De Relaciones Exteriores",
     "venue": { "name": "Racing Club AVELLANEDA BA" },
@@ -5327,6 +5383,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-3",
     "date": "1923-12-09",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -5419,6 +5476,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1924-05-18",
     "competition": "Copa Chevallier Boutell",
     "venue": { "name": "Pedro Juan Caballero" },
@@ -5557,6 +5615,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1924-08-10",
     "competition": "Copa Ministro De Relaciones Exteriores",
     "venue": { "name": "River Plate, Buenos Aires" },
@@ -5596,6 +5655,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1924-08-31",
     "competition": "Copa Premio Honor Uruguayo",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5645,6 +5705,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1924-09-21",
     "competition": "Friendly",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5687,6 +5748,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1924-09-28",
     "competition": "Friendly",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -5726,6 +5788,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-4",
     "date": "1924-10-02",
     "competition": "Friendly",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -5772,6 +5835,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-3",
     "date": "1924-10-12",
     "competition": "Copa America",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5856,6 +5920,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-4",
     "date": "1924-11-02",
     "competition": "Copa America",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5895,6 +5960,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-5",
     "date": "1924-11-16",
     "competition": "Copa Confraternidad Rioplatense",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -5964,6 +6030,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1925-07-12",
     "competition": "Copa Chevallier Boutell",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -6009,6 +6076,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-3",
     "date": "1925-11-29",
     "competition": "Copa America",
     "venue": { "name": "Boca Juniors, Buenos Aires" },
@@ -6101,6 +6169,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-4",
     "date": "1925-12-20",
     "competition": "Copa America",
     "venue": { "name": "Boca Juniors, Buenos Aires" },
@@ -6147,6 +6216,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1925-12-25",
     "competition": "Copa America",
     "venue": { "name": "Sportivo Barracas BUENOS AIRES" },
@@ -6240,6 +6310,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1926-06-03",
     "competition": "Copa Chevallier Boutell",
     "venue": { "name": "Sportivo Barracas BUENOS AIRES" },
@@ -6333,6 +6404,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-3",
     "date": "1926-10-20",
     "competition": "Copa America",
     "venue": { "name": "Sport de Nunoa SANTIAGO" },
@@ -6605,6 +6677,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1927-11-20",
     "competition": "Copa America",
     "venue": { "name": "Nacional, Lima" },
@@ -6917,6 +6990,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1929-09-20",
     "competition": "Copa Newton",
     "venue": { "name": "Parque Central, Montevideo" },
@@ -6962,6 +7036,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1929-09-28",
     "competition": "Copa Lipton",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -7094,6 +7169,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-3",
     "date": "1929-11-17",
     "competition": "Copa America",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -7538,6 +7614,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1931-07-09",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "Barracas, Buenos Aires" },
@@ -7587,6 +7664,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1931-09-18",
     "competition": "Friendly",
     "venue": { "name": "Asuncion" },
@@ -7616,6 +7694,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-3",
     "date": "1931-09-22",
     "competition": "Friendly",
     "venue": { "name": "Asuncion" },
@@ -7653,6 +7732,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-4",
     "date": "1931-09-25",
     "competition": "Friendly",
     "venue": { "name": "Asuncion" },
@@ -7864,6 +7944,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1933-12-14",
     "competition": "Friendly",
     "venue": { "name": "Estadio Centenario, Montevideo" },
@@ -8201,6 +8282,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1935-07-18",
     "competition": "Copa Hector Gomez",
     "venue": { "name": "Estadio Centenario, Montevideo" },
@@ -8626,6 +8708,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1937-02-01",
     "competition": "Copa America",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -8720,6 +8803,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1937-11-11",
     "competition": "Copa Lipton",
     "venue": { "name": "Independiente, Buenos Aires" },
@@ -8904,6 +8988,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1939-01-22",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Sao Januario, Rio de Janeiro" },
@@ -8996,6 +9081,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1939-08-15",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "Estadio de Puerto Sajonia, Asuncion" },
@@ -9191,6 +9277,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1940-02-25",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Parque Antartica" },
@@ -9336,6 +9423,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1940-03-09",
     "competition": "Copa Presidente De Chile",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -9388,6 +9476,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1940-03-10",
     "competition": "Copa Julio Roca",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -9438,6 +9527,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-3",
     "date": "1940-03-17",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Independiente, Buenos Aires" },
@@ -9637,6 +9727,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "1941-01-09",
     "competition": "Copa Presidente De Argentina",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -9734,6 +9825,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "1941-01-26",
     "competition": "Copa Roque Saenz Pena",
     "venue": { "name": "Lima" },
@@ -9781,6 +9873,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-3",
     "date": "1941-01-29",
     "competition": "Copa Roque Saenz Pena",
     "venue": { "name": "Lima" },
@@ -9975,6 +10068,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-3",
     "date": "1941-03-04",
     "competition": "Copa America",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -10357,6 +10451,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1942-08-12",
     "competition": "Copa Lipton",
     "venue": { "name": "Estadio Centenario, Montevideo" },
@@ -10556,6 +10651,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1943-07-11",
     "competition": "Copa Chevallier Boutell",
     "venue": { "name": "Nacional, Asuncion" },
@@ -10728,6 +10824,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1945-01-09",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -11137,6 +11234,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1945-07-09",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "Nacional, Asuncion" },
@@ -11231,6 +11329,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1945-08-15",
     "competition": "Copa Newton",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -11342,6 +11441,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1945-12-20",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Sao Januario, Rio de Janeiro" },
@@ -11397,6 +11497,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-3",
     "date": "1945-12-23",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Sao Januario, Rio de Janeiro" },
@@ -12113,6 +12214,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1950-03-29",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "San Lorenzo, Buenos Aires" },
@@ -13174,6 +13276,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1956-03-10",
     "competition": "Panamerican Championship",
     "venue": { "name": "Mexico City" },
@@ -13278,6 +13381,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1956-03-18",
     "competition": "Panamerican Championship",
     "venue": { "name": "Olimpico, Mexico City" },
@@ -13326,6 +13430,7 @@
     ]
   },
   {
+    "slug": "mexico-argentina-2",
     "date": "1956-03-22",
     "competition": "Panamerican Championship",
     "venue": { "name": "Mexico City" },
@@ -13382,6 +13487,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-2",
     "date": "1956-07-01",
     "competition": "Copa del Atlantico",
     "venue": { "name": "Estadio Centenario, Montevideo" },
@@ -13472,6 +13578,7 @@
     ]
   },
   {
+    "slug": "paraguay-argentina-2",
     "date": "1956-08-15",
     "competition": "Rosa Chevallier",
     "venue": { "name": "Asuncion" },
@@ -13560,6 +13667,7 @@
     ]
   },
   {
+    "slug": "uruguay-argentina-3",
     "date": "1956-10-10",
     "competition": "Copa Newton",
     "venue": { "name": "Artigas, Paysandu" },
@@ -13659,6 +13767,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-3",
     "date": "1956-12-05",
     "competition": "Friendly",
     "venue": { "name": "Maracanã, Rio de Janeiro" },
@@ -14017,6 +14126,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "1957-04-09",
     "competition": "Friendly",
     "venue": { "name": "Lima" },
@@ -14111,6 +14221,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1957-06-05",
     "competition": "Copa Lipton",
     "venue": { "name": "Buenos Aires" },
@@ -14203,6 +14314,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1957-07-10",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Estadio do Pacaembu, Sao Paulo" },
@@ -14341,6 +14453,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "1957-10-20",
     "competition": "World Cup Quals",
     "venue": { "name": "Boca Juniors, Buenos Aires" },
@@ -15135,6 +15248,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1959-12-09",
     "competition": "Copa America",
     "venue": { "name": "Estadio Modelo, Guayaquil" },
@@ -15291,6 +15405,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1959-12-22",
     "competition": "Copa America",
     "venue": { "name": "Estadio Modelo, Guayaquil" },
@@ -15491,6 +15606,7 @@
     ]
   },
   {
+    "slug": "argentina-costa-rica-2",
     "date": "1960-03-15",
     "competition": "Panamerican Championship",
     "venue": { "name": "La Sabana, San Jose" },
@@ -15540,6 +15656,7 @@
     ]
   },
   {
+    "slug": "argentina-mexico-2",
     "date": "1960-03-17",
     "competition": "Panamerican Championship",
     "venue": { "name": "La Sabana, San Jose" },
@@ -15636,6 +15753,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1960-05-25",
     "competition": "Copa Julio Roca",
     "venue": { "name": "de Nunes, Buenos Aires" },
@@ -15689,6 +15807,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-3",
     "date": "1960-05-29",
     "competition": "Copa Julio Roca",
     "venue": { "name": "River Plate, Buenos Aires" },
@@ -15784,6 +15903,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1960-07-12",
     "competition": "Copa del Atlantico",
     "venue": { "name": "Maracanã, Rio de Janeiro" },
@@ -17175,6 +17295,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1963-04-16",
     "competition": "Copa Julio Roca",
     "venue": { "name": "Maracanã, Rio de Janeiro" },
@@ -17283,6 +17404,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1963-10-29",
     "competition": "Rosa Chevallier",
     "venue": { "name": "River Plate, Buenos Aires" },
@@ -17471,6 +17593,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1964-09-07",
     "competition": "Friendly",
     "venue": { "name": "Maracanã, Rio de Janeiro" },
@@ -18780,6 +18903,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "1967-11-08",
     "competition": "*",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -19050,6 +19174,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1968-08-11",
     "competition": "Friendly",
     "venue": { "name": "Estádio Mineirão, Belo Horizonte" },
@@ -19154,6 +19279,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "1968-09-01",
     "competition": "Friendly",
     "venue": { "name": "Nacional, Lima" },
@@ -19815,6 +19941,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1970-03-08",
     "competition": "Friendly",
     "venue": { "name": "Maracanã, Rio de Janeiro" },
@@ -20062,6 +20189,7 @@
     ]
   },
   {
+    "slug": "argentina-france-2",
     "date": "1971-01-12",
     "competition": "Friendly",
     "venue": { "name": "Estadio General San Martín, Mar del Plata" },
@@ -20200,6 +20328,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "1971-07-11",
     "competition": "Copa Rosa Cheva",
     "venue": { "name": "Buenos Aires" },
@@ -20423,6 +20552,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "1971-07-31",
     "competition": "Copa Julio Roca",
     "venue": { "name": "de Nunes, Buenos Aires" },
@@ -21130,6 +21260,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "1972-10-29",
     "competition": "Copa Carlos Dittborn",
     "venue": { "name": "Santiago" },
@@ -21165,6 +21296,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "1972-12-31",
     "competition": "*",
     "venue": { "name": "Lima" },
@@ -24616,6 +24748,7 @@
     ]
   },
   {
+    "slug": "argentina-peru-2",
     "date": "1978-06-21",
     "competition": "World Cup",
     "venue": { "name": "Estadio Gigante de Arroyito" },
@@ -28589,6 +28722,7 @@
     "lineups": [[], []]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1986-11-30",
     "competition": "South American Games",
     "venue": { "name": "Concepcion" },
@@ -28613,6 +28747,7 @@
     "lineups": [[], []]
   },
   {
+    "slug": "argentina-colombia-2",
     "date": "1986-12-06",
     "competition": "South American Games",
     "venue": { "name": "Santiago" },
@@ -28987,6 +29122,7 @@
     ]
   },
   {
+    "slug": "mexico-argentina-2",
     "date": "1987-08-02",
     "competition": "Friendly",
     "venue": { "name": "SAN JOSE California" },
@@ -29304,6 +29440,7 @@
     ]
   },
   {
+    "slug": "argentina-saudi-arabia-2",
     "date": "1988-07-16",
     "competition": "Bicentennial Gold Cup",
     "venue": { "name": "Canberra" },
@@ -30023,6 +30160,7 @@
     ]
   },
   {
+    "slug": "mexico-argentina-2",
     "date": "1990-02-17",
     "competition": "Friendly",
     "venue": { "name": "Los Angeles" },
@@ -31184,6 +31322,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1991-07-17",
     "competition": "Copa America",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -31244,6 +31383,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "1991-07-19",
     "competition": "Copa America",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -31959,6 +32099,7 @@
     ]
   },
   {
+    "slug": "argentina-colombia-2",
     "date": "1993-07-01",
     "competition": "Copa America",
     "venue": { "name": "Monumental" },
@@ -32001,6 +32142,7 @@
     ]
   },
   {
+    "slug": "argentina-mexico-2",
     "date": "1993-07-04",
     "competition": "Copa America",
     "venue": { "name": "Monumental" },
@@ -32300,6 +32442,7 @@
     ]
   },
   {
+    "slug": "argentina-colombia-3",
     "date": "1993-09-05",
     "competition": "World Cup Quals",
     "venue": { "name": "Buenos Aires" },
@@ -33048,6 +33191,7 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "1994-11-16",
     "competition": "Friendly",
     "venue": { "name": "Estadio Nacional Julio Martínez Prádanos, Santiago" },
@@ -36484,6 +36628,7 @@
     ]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "1999-09-07",
     "competition": "Friendly",
     "venue": { "name": "Estadio do Beira-Rio, Porto Alegre" },
@@ -36542,6 +36687,7 @@
     ]
   },
   {
+    "slug": "argentina-colombia-2",
     "date": "1999-10-13",
     "competition": "Friendly",
     "venue": { "name": "Estadio Chateau Carreras, Cordoba" },
@@ -39194,6 +39340,7 @@
     ]
   },
   {
+    "slug": "argentina-ecuador-2",
     "date": "2004-07-07",
     "competition": "Copa America",
     "venue": { "name": "Estadio Elias Aguirre" },
@@ -39416,6 +39563,7 @@
     ]
   },
   {
+    "slug": "argentina-colombia-2",
     "date": "2004-07-20",
     "competition": "Copa America",
     "venue": { "name": "Nacional, Lima" },
@@ -39657,6 +39805,7 @@
     ]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "2004-09-04",
     "competition": "World Cup Quals",
     "venue": { "name": "Monumental" },
@@ -39722,6 +39871,7 @@
     ]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "2004-10-09",
     "competition": "World Cup Quals",
     "venue": { "name": "Club Atletico River Plate" },
@@ -40351,6 +40501,7 @@
     ]
   },
   {
+    "slug": "germany-argentina-2",
     "date": "2005-06-21",
     "competition": "FIFA Confederations Cup",
     "venue": { "name": "Frankenstadion, Nurnberg" },
@@ -40415,6 +40566,7 @@
     ]
   },
   {
+    "slug": "mexico-argentina-2",
     "date": "2005-06-26",
     "competition": "FIFA Confederations Cup",
     "venue": { "name": "Hannover Stadion" },
@@ -42075,6 +42227,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "2007-10-13",
     "competition": "World Cup Quals",
     "venue": {
@@ -45533,6 +45686,7 @@
     ]
   },
   {
+    "slug": "venezuela-argentina-2",
     "date": "2011-10-11",
     "competition": "World Cup Quals",
     "venue": { "name": "Jose Antonio Anzoategui" },
@@ -45569,6 +45723,7 @@
     ]
   },
   {
+    "slug": "argentina-bolivia-2",
     "date": "2011-11-11",
     "competition": "World Cup Quals",
     "venue": {
@@ -46146,6 +46301,7 @@
     ]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "2012-11-21",
     "competition": "Superclasico de las Americas",
     "venue": { "name": "La Bombonera, Buenos Aires" },
@@ -46684,6 +46840,7 @@
     ]
   },
   {
+    "slug": "ecuador-argentina-2",
     "date": "2013-11-15",
     "competition": "Friendly",
     "venue": { "name": "MetLife Stadium, East Rutherford" },
@@ -47255,6 +47412,7 @@
     ]
   },
   {
+    "slug": "germany-argentina-2",
     "date": "2014-09-03",
     "competition": "Friendly",
     "venue": { "name": "Esprit Arena" },
@@ -47961,6 +48119,7 @@
     ]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "2015-06-30",
     "competition": "Copa America",
     "venue": { "name": "Estadio Municipal de Concepcion" },
@@ -48083,6 +48242,7 @@
     ]
   },
   {
+    "slug": "argentina-bolivia-2",
     "date": "2015-09-04",
     "competition": "Friendly",
     "venue": { "name": "BBVA Compass Stadium, Houston" },
@@ -48209,6 +48369,7 @@
     ]
   },
   {
+    "slug": "argentina-ecuador-2",
     "date": "2015-10-08",
     "competition": "World Cup Quals",
     "venue": { "name": "Estadio Monumental Antonio Vespuci, Buenos Aires" },
@@ -48952,6 +49113,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "2016-06-26",
     "competition": "Copa America",
     "venue": { "name": "MetLife Stadium, East Rutherford" },
@@ -50682,6 +50844,7 @@
     ]
   },
   {
+    "slug": "argentina-mexico-2",
     "date": "2018-11-20",
     "competition": "Friendly",
     "venue": { "name": "Estadio Malvinas, Mendoza" },
@@ -51311,6 +51474,7 @@
     ]
   },
   {
+    "slug": "argentina-chile-2",
     "date": "2019-09-05",
     "competition": "Friendly",
     "venue": { "name": "Los Angeles Memorial Coliseum, Los Angeles" },
@@ -51578,6 +51742,7 @@
     "sources": ["11v11", "Soccerway"]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "2019-11-15",
     "competition": "Superclasico de las Americas",
     "venue": { "name": "King Saud University Stadium, Riyadh" },
