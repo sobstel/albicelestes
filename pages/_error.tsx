@@ -24,7 +24,8 @@ export default function ErrorPage({ statusCode }: Props) {
   );
 }
 
-export async function getServerSideProps({ req, res, err }: NextPageContext) {
+// Must use getInitialProps as getServerSideProps does not work for error page
+ErrorPage.getInitialProps = ({ req, res, err }: NextPageContext) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
 
   if (req && req.url && res && res.statusCode === 404) {
@@ -52,5 +53,5 @@ export async function getServerSideProps({ req, res, err }: NextPageContext) {
     }
   }
 
-  return { props: { statusCode } };
-}
+  return { statusCode };
+};
