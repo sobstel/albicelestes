@@ -7,7 +7,7 @@ import PlayerName from "components/PlayerName";
 
 type Props = { match: Match };
 type IndexedGoal = Goal & { teamIndex: number };
-type GoalWithScore = Goal & { score: Score };
+type GoalWithScore = IndexedGoal & { score: Score };
 
 function indexGoals(
   matchGoals: [Goal[], Goal[]]
@@ -47,7 +47,6 @@ export default function Goals({ match }: Props) {
   );
 
   const myTeamIndex = matchTeamIndex(match);
-  myTeamIndex;
 
   return (
     <Section title="Goals">
@@ -57,7 +56,7 @@ export default function Goals({ match }: Props) {
           <PlayerName
             name={goal.name}
             displayName={shortNames[goal.name]}
-            linkify={false}
+            linkify={goal.teamIndex === myTeamIndex}
           />{" "}
           {goal.min && `${goal.min}'`}
           {goal.type !== "G" && ` [${goal.type}] `}
