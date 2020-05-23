@@ -5,6 +5,7 @@ module.exports = {
         {
           source: "/matches/:year/:slug/:id",
           destination: "/matches/:year/:slug",
+          permanent: true,
         },
       ];
     },
