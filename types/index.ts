@@ -49,7 +49,14 @@ export type MatchInfo = {
 
 export type MatchItem = Pick<
   Match,
-  "date" | "competition" | "teams" | "score" | "pen" | "result" | "suspended"
+  | "slug"
+  | "date"
+  | "competition"
+  | "teams"
+  | "score"
+  | "pen"
+  | "result"
+  | "suspended"
 >;
 
 export type MatchTeam = Team;

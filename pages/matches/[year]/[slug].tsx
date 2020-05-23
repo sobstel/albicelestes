@@ -33,7 +33,6 @@ export async function getStaticProps(context: Context) {
   return { props: { match, prevMatch, nextMatch, info } };
 }
 
-// FIXME: import all recent matches and all world cup matches
 export async function getStaticPaths() {
   return {
     paths: R.pipe(
