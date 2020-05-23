@@ -1,6 +1,7 @@
 import * as R from "remeda";
 import { Match } from "types";
 import { matchTeamIndex, playerSlug } from "helpers";
+import { Appearance } from "types/index";
 
 export default function findNearestPlayerSlug(
   matches: Pick<Match, "teams" | "lineups">[],
@@ -12,23 +13,29 @@ export default function findNearestPlayerSlug(
     R.flatten()
   );
 
-  let player;
+  const searchStrategies = [
+    (player: Appearance) => playerSlug(player.name) === slug,
+    (player: Appearance) => {
+      const slugParts = slug.split("-");
+      return (
+        playerSlug(player.name) ===
+        R.compact([slugParts.shift(), slugParts.pop()]).join("-")
+      );
+    },
+    (player: Appearance) =>
+      playerSlug(player.name, { firstInitialOnly: true }) === slug,
+  ];
 
-  // TODO: refactor to strategy fn
-  // strategy: exact match
-  player = R.find(players, (player) => playerSlug(player.name) === slug);
-  if (player) return playerSlug(player.name);
+  // it leverages remeda lazy evaluation
+  const player = R.pipe(
+    searchStrategies,
+    R.map((fn) => R.find(players, fn)),
+    R.find((player) => !!player)
+  );
 
-  // TODO: refactor to strategy fn
-  // strategy: first and last part of slug
-  const slugParts = slug.split("-");
-  const shortSlug = [slugParts[0], slugParts[slugParts.length - 1]].join("-");
-  // TODO: use first/last name for playerSlug(player.name) too
-  player = R.find(players, (player) => playerSlug(player.name) === shortSlug);
-  if (player) return playerSlug(player.name);
+  if (!player) {
+    return null;
+  }
 
-  // strategy: levensthein
-  // TODO:
-
-  return null;
+  return playerSlug(player.name);
 }
