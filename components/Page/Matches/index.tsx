@@ -34,9 +34,9 @@ export default function MatchesPage({ year, matches, players }: Props) {
 
       {players && players.length > 0 && (
         <Section title={`Players (${players.length})`}>
-          {players.map(({ id, name, mp, si, so, g }) => (
-            <p key={id}>
-              <PlayerName name={name} displayName={shortNames[name]} id={id} />{" "}
+          {players.map(({ name, mp, si, so, g }) => (
+            <p key={name}>
+              <PlayerName name={name} displayName={shortNames[name]} linkify />{" "}
               {mp}
               {(si > 0 || so > 0) && (
                 <>

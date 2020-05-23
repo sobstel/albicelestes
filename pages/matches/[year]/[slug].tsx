@@ -15,13 +15,15 @@ export default function PageContainer(props: Props) {
   return <Page {...props} />;
 }
 
-type Context = { params: { id: string; year: string; slug: string } };
+type Context = { params: { year: string; slug: string } };
 
 export async function getStaticProps(context: Context) {
-  const { id } = context.params;
+  const { year, slug } = context.params;
 
   const matches = fetchMatches();
-  const idx = matches.findIndex((match) => match.id == id);
+  const idx = matches.findIndex(
+    (match) => matchYear(match) === year && matchSlug(match) === slug
+  );
 
   const match = matches[idx];
   const prevMatch = matches[idx - 1] ? matchItem(matches[idx - 1]) : null;
@@ -31,7 +33,6 @@ export async function getStaticProps(context: Context) {
   return { props: { match, prevMatch, nextMatch, info } };
 }
 
-// FIXME: import all recent matches and all world cup matches
 export async function getStaticPaths() {
   return {
     paths: R.pipe(
@@ -42,7 +43,6 @@ export async function getStaticPaths() {
         params: {
           year: matchYear(match),
           slug: matchSlug(match),
-          id: match.id,
         },
       }))
     ),

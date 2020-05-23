@@ -3,7 +3,7 @@ import React from "react";
 import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
-import { playersShortNames } from "helpers";
+import { matchTeamIndex, playersShortNames } from "helpers";
 import { Match, MatchCoach } from "types";
 
 function coachName(
@@ -26,6 +26,8 @@ export default function Lineups({ match }: Props) {
     playersShortNames
   );
 
+  const myTeamIndex = matchTeamIndex(match);
+
   return (
     <div>
       {lineups.map(
@@ -46,7 +48,7 @@ export default function Lineups({ match }: Props) {
                       <PlayerName
                         name={event.name}
                         displayName={shortNames[event.name]}
-                        id={event.id}
+                        linkify={teamIndex === myTeamIndex}
                       />
                     </>
                   )}
@@ -57,7 +59,7 @@ export default function Lineups({ match }: Props) {
                       <PlayerName
                         name={event.name}
                         displayName={shortNames[event.name]}
-                        id={event.id}
+                        linkify={teamIndex === myTeamIndex}
                       />
                       {`)`}
                     </>

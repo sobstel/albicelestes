@@ -1,5 +1,4 @@
 export type Appearance = {
-  id?: string;
   name: string;
   in?: string;
   out?: string;
@@ -9,14 +8,12 @@ export type Bibliography = Record<string, BibliographyItem>;
 type BibliographyItem = { name: string; url: string };
 
 export type Card = {
-  id?: string;
   name: string;
   min?: string;
   type: "Y" | "R";
 };
 
 export type Goal = {
-  id?: string;
   name: string;
   min?: string;
   type: "G" | "P" | "OG";
@@ -25,7 +22,7 @@ export type Goal = {
 export type InfoLink = { url: string; text: string; desc?: string };
 
 export type Match = {
-  id: string;
+  slug?: string;
   date: string;
   competition: string;
   venue?: { name: string };
@@ -52,7 +49,7 @@ export type MatchInfo = {
 
 export type MatchItem = Pick<
   Match,
-  | "id"
+  | "slug"
   | "date"
   | "competition"
   | "teams"
@@ -62,9 +59,7 @@ export type MatchItem = Pick<
   | "suspended"
 >;
 
-export type MatchTeam =
-  | { slug: string; name: string }
-  | { name: string; slug?: undefined };
+export type MatchTeam = Team;
 
 export type PlayerInfo = {
   nicknames?: string[];
@@ -72,7 +67,6 @@ export type PlayerInfo = {
 };
 
 export type PlayerItem = {
-  id: string;
   name: string;
   mp: number;
   si: number;
@@ -103,11 +97,12 @@ enum Result {
 
 export type Score = [number, number];
 
-export type TeamItem = {
+export type Team = {
   name: string;
-  slug: string;
-  mp: number;
+  slug?: string;
 };
+
+export type TeamItem = Team & { mp: number };
 
 export type TeamStat = {
   mp: number;

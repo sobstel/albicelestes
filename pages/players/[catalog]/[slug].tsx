@@ -22,24 +22,24 @@ export default function PageContainer(props: Props) {
   return <Page {...props} />;
 }
 
-type Context = { params: { id: string; catalog: string; slug: string } };
+type Context = { params: { catalog: string; slug: string } };
 
 export async function getStaticProps(context: Context) {
-  const { id, slug } = context.params;
+  const { slug } = context.params;
 
   const matches = R.filter(
     fetchMatches(),
-    (match) => !!R.find(R.flatten(match.lineups), (app) => app.id === id)
+    (match) =>
+      !!R.find(R.flatten(match.lineups), (app) => playerSlug(app.name) === slug)
   );
 
-  const name = findPlayerName(matches, id);
+  const name = findPlayerName(matches, slug);
   const competitions = collectCompetitions(matches);
-  const stat = collectPlayerStat(matches, id);
-  const info = fetchPlayerInfo(name, id);
+  const stat = collectPlayerStat(matches, slug);
+  const info = fetchPlayerInfo(name, slug);
 
   return {
     props: {
-      id,
       slug,
       name,
       matches: matches.map(matchItem),
@@ -60,7 +60,6 @@ export async function getStaticPaths() {
       params: {
         catalog: playerCatalog(player.name),
         slug: playerSlug(player.name),
-        id: player.id,
       },
     }))
   );

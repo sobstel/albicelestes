@@ -2,8 +2,8 @@ import * as R from "remeda";
 import { Match, MatchItem } from "types";
 
 export default function matchItem(match: Match): MatchItem {
-  const item = R.pick(match, [
-    "id",
+  let item = R.pick(match, [
+    "slug",
     "date",
     "competition",
     "teams",
@@ -13,10 +13,12 @@ export default function matchItem(match: Match): MatchItem {
     "suspended",
   ]);
 
-  // HACK to avoid undefined item.pen
-  // FIXME use R.omit?
-  if (!match.pen) delete item.pen;
-  if (!match.suspended) delete item.suspended;
+  // Avoid serializing error when returned from `getStaticProps`
+  // Reason: `undefined` cannot be serialized as JSON.
+  // It's advised to use `null` or omit the value all together.
+  if (!match.slug) item = R.omit(item, ["slug"]);
+  if (!match.pen) item = R.omit(item, ["pen"]);
+  if (!match.suspended) item = R.omit(item, ["suspended"]);
 
   return item;
 }

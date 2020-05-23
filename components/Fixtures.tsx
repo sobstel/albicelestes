@@ -15,16 +15,14 @@ export default function Fixtures({ title, matches }: Props) {
   return (
     <Section title={title}>
       {matches.map((match) => (
-        <div key={match.id} className="mb-2">
+        <div key={`${matchYear(match)}-${matchSlug(match)}`} className="mb-2">
           <p>
             {matchDate(match, { withYear: true })}, {match.competition}
           </p>
           <p>
             <Link
-              href="/matches/[year]/[slug]/[id]"
-              as={`/matches/${matchYear(match)}/${matchSlug(match)}/${
-                match.id
-              }`}
+              href="/matches/[year]/[slug]"
+              as={`/matches/${matchYear(match)}/${matchSlug(match)}`}
             >
               {matchScore(match)}
             </Link>
@@ -34,7 +32,3 @@ export default function Fixtures({ title, matches }: Props) {
     </Section>
   );
 }
-
-Fixtures.defaultProps = {
-  matches: [],
-};

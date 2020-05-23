@@ -1,10 +1,11 @@
 import * as R from "remeda";
 import { Match, PlayerStat } from "types";
 import { withoutSuspendedMatches } from "functions";
+import { playerSlug } from "helpers";
 
 export default function collectPlayerStat(
   matches: Match[],
-  id: string
+  slug: string
 ): PlayerStat {
   const statableMatches = withoutSuspendedMatches(matches);
 
@@ -18,7 +19,7 @@ export default function collectPlayerStat(
         (match) =>
           !!R.find(
             R.flatten(match.lineups),
-            (player) => player.id === id && !!player[type]
+            (player) => playerSlug(player.name) === slug && !!player[type]
           )
       ).length
   );
@@ -30,7 +31,7 @@ export default function collectPlayerStat(
         count +
         R.filter(
           R.flatten(match.goals),
-          (goal) => goal.id === id && goal.type !== "OG"
+          (goal) => playerSlug(goal.name) === slug && goal.type !== "OG"
         ).length
       );
     },
@@ -45,7 +46,7 @@ export default function collectPlayerStat(
         (match) =>
           !!R.find(
             R.flatten(match.cards),
-            (card) => card.id === id && card.type === type
+            (card) => playerSlug(card.name) === slug && card.type === type
           )
       ).length
   );

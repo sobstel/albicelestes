@@ -3,12 +3,12 @@ import { matchSlug, matchYear, playerCatalog, playerSlug } from '../helpers';
 import { Match, MatchInfo, MatchItem, PlayerInfo, Bibliography } from "types";
 
 // note: "import" is not used to prevent tsc from checking files that are too big
-export const fetchMatches = R.once((): Match[] => (require('./matches.json')));
 export const fetchInflections = R.once((): Record<string, string> => (require('./inflections.json')));
+export const fetchMatches = R.once((): Match[] => (require('./matches.json')));
 
 export function fetchMatchInfo(match: MatchItem): MatchInfo {
   try {
-    return require(`db/matches/${matchYear(match)}/${match.date}-${matchSlug(match)}.json`);
+    return require(`db/matches/${matchYear(match)}/${matchSlug(match)}.json`);
   } catch (e) {
     return {};
   }

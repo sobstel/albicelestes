@@ -34,7 +34,7 @@ export default function Cards({ match }: Props) {
           <PlayerName
             name={card.name}
             displayName={shortNames[card.name]}
-            id={card.id}
+            linkify={false}
           />{" "}
           {card.min && `${card.min}'`} {card.type && `(${card.type})`}
         </Fragment>

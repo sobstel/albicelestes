@@ -24,7 +24,34 @@ export default function ErrorPage({ statusCode }: Props) {
   );
 }
 
-ErrorPage.getInitialProps = ({ res, err }: NextPageContext) => {
+// Must use getInitialProps as getServerSideProps does not work for error page
+ErrorPage.getInitialProps = ({ req, res, err }: NextPageContext) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
+
+  if (req && req.url && res && res.statusCode === 404) {
+    const { url } = req;
+    let regexMatch;
+
+    // matches/[year]/[slug]/[id] => matches/[year]/[slug]
+    regexMatch = url.match(/\/matches\/(?<year>\d+)\/(?<slug>[-\w]+)\/\w+/);
+    if (regexMatch && regexMatch.groups) {
+      res
+        .writeHead(308, "Permanent Redirect", {
+          Location: `/matches/${regexMatch.groups.year}/${regexMatch.groups.slug}`,
+        })
+        .end();
+    }
+
+    // players/[catalog]/[slug]/[id] => players/[catalog]/[slug]
+    regexMatch = url.match(/\/players\/(?<catalog>\w)\/(?<slug>[-\w]+)\/\w+/);
+    if (regexMatch && regexMatch.groups) {
+      res
+        .writeHead(308, "Permanent Redirect", {
+          Location: `/players/${regexMatch.groups.catalog}/${regexMatch.groups.slug}`,
+        })
+        .end();
+    }
+  }
+
   return { statusCode };
 };
