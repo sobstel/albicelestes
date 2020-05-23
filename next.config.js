@@ -7,6 +7,11 @@ module.exports = {
           destination: "/matches/:year/:slug",
           permanent: true,
         },
+        {
+          source: "/players/:catalog/:slug/:id",
+          destination: "/players/:catalog/:slug",
+          permanent: true,
+        },
       ];
     },
   },
