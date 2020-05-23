@@ -1,3 +1,5 @@
+export const BASE_URL = "https://albicelestes.com";
+
 export const TEAM_SLUG = "argentina";
 
 export const MIN_YEAR = 1902;
