@@ -1,4 +1,14 @@
+codecov:
+  require_ci_to_pass: yes
+
 coverage:
   precision: 1
   round: up
-  range: "70...100"
+  range: "50...80"
+  status:
+    project:
+      default:
+        target: 70%
+    patch:
+      default:
+        target: 70%
