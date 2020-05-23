@@ -1,6 +1,7 @@
 import React from "react";
 import { NextPageContext } from "next";
 import Layout from "components/Layout";
+import { createContextRedirect } from "utility/redirection";
 
 function serverErrorMessage(statusCode: number): string {
   if (statusCode == 404) {
@@ -28,30 +29,17 @@ export default function ErrorPage({ statusCode }: Props) {
 ErrorPage.getInitialProps = ({ req, res, err }: NextPageContext) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
 
-  if (req && req.url && res && res.statusCode === 404) {
-    const { url } = req;
-    let regexMatch;
+  const redirect = createContextRedirect(req, res);
 
-    // matches/[year]/[slug]/[id] => matches/[year]/[slug]
-    regexMatch = url.match(/\/matches\/(?<year>\d+)\/(?<slug>[-\w]+)\/\w+/);
-    if (regexMatch && regexMatch.groups) {
-      res
-        .writeHead(308, "Permanent Redirect", {
-          Location: `/matches/${regexMatch.groups.year}/${regexMatch.groups.slug}`,
-        })
-        .end();
-    }
+  redirect(
+    /\/matches\/(?<year>\d+)\/(?<slug>[-\w]+)\/\w+/,
+    ({ year, slug }) => `/matches/${year}/${slug}`
+  );
 
-    // players/[catalog]/[slug]/[id] => players/[catalog]/[slug]
-    regexMatch = url.match(/\/players\/(?<catalog>\w)\/(?<slug>[-\w]+)\/\w+/);
-    if (regexMatch && regexMatch.groups) {
-      res
-        .writeHead(308, "Permanent Redirect", {
-          Location: `/players/${regexMatch.groups.catalog}/${regexMatch.groups.slug}`,
-        })
-        .end();
-    }
-  }
+  redirect(
+    /\/players\/(?<catalog>\w)\/(?<slug>[-\w]+)\/\w+/,
+    ({ catalog, slug }) => `/players/${catalog}/${slug}`
+  );
 
   return { statusCode };
 };
