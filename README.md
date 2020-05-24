@@ -1,5 +1,19 @@
 # Albicelestes
 
+<!-- TOC -->
+
+- [Data](#data)
+  - [General rules](#general-rules)
+  - [Specific rules](#specific-rules)
+- [Tech](#tech)
+  - [Development](#development)
+    - [Testing](#testing)
+    - [Console](#console)
+  - [Deployment](#deployment)
+  - [Other notes](#other-notes)
+
+<!-- /TOC -->
+
 ## Data
 
 Database: `/db/` (main file: `/db/matches.json`)
@@ -24,14 +38,14 @@ Database: `/db/` (main file: `/db/matches.json`)
 [ts]: https://badge.fury.io/js/typescript.svg
 [tailwind]: https://badge.fury.io/js/tailwindcss.svg
 
-![prod](https://github.com/sobstel/albicelestes/workflows/.github/workflows/prod.yml/badge.svg?branch=master)
-![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)
-
 ### Development
 
 - `yarn now dev --listen 1986`
 
 #### Testing
+
+![prod](https://github.com/sobstel/albicelestes/workflows/.github/workflows/prod.yml/badge.svg?branch=master)
+![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)
 
 Running
 
