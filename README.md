@@ -24,8 +24,16 @@ Built with **Next.js** and **TypeSscript**.
 
 #### Testing
 
+Running
+
 - `yarn test --watch`
 - `yarn lint && yarn test`
+
+Structure
+
+- Unit tests (for functions, helpers, utility; they use mocked data)
+- React component tests (they use jsdom and mocked data)
+- E2E tests (they use prod data and _real_ browser)
 
 #### Console
 
