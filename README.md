@@ -16,10 +16,11 @@ Database: `/db/` (main file: `/db/matches.json`)
 
 ## Tech
 
-Built with **Next.js** and **TypeSscript**.
+next: ![next](https://badge.fury.io/js/next.svg)
+ts: ![typescript](https://badge.fury.io/js/typescript.svg)
+tailwind: ![tailwindcss](https://badge.fury.io/js/tailwindcss.svg)
 
-![next](https://badge.fury.io/js/next.svg)
-![typescript](https://badge.fury.io/js/typescript.svg)
+![prod](https://github.com/sobstel/albicelestes/workflows/.github/workflows/prod.yml/badge.svg)
 ![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)
 
 ### Development
