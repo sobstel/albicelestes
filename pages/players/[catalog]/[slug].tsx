@@ -4,7 +4,7 @@ import Error from "next/error";
 import { useRouter } from "next/router";
 import Page, { Props } from "components/Page/Player";
 import { fetchMatches, fetchPlayerInfo } from "db";
-import { matchItem, playerCatalog, playerSlug } from "helpers";
+import { matchItem, matchTeamIndex, playerCatalog, playerSlug } from "helpers";
 import {
   collectCompetitions,
   collectPlayerStat,
@@ -44,10 +44,10 @@ export async function getStaticProps(context: Context) {
     };
   }
 
-  const playerMatches = R.filter(
-    matches,
-    (match) =>
-      !!R.find(R.flatten(match.lineups), (app) => playerSlug(app.name) === slug)
+  const playerMatches = R.filter(matches, (match) =>
+    match.lineups[matchTeamIndex(match)].some(
+      (app) => playerSlug(app.name) === slug
+    )
   );
 
   const name = findPlayerName(playerMatches, slug);
@@ -59,7 +59,7 @@ export async function getStaticProps(context: Context) {
     props: {
       slug,
       name,
-      matches: matches.map(matchItem),
+      matches: playerMatches.map(matchItem),
       competitions,
       stat,
       info,
