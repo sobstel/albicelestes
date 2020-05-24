@@ -18,6 +18,10 @@ Database: `/db/` (main file: `/db/matches.json`)
 
 Built with **Next.js** and **TypeSscript**.
 
+![next](https://badge.fury.io/js/next.svg)
+![typescript](https://badge.fury.io/js/typescript.svg)
+![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)
+
 ### Development
 
 - `yarn now dev --listen 1986`
@@ -34,8 +38,6 @@ Structure
 - Unit tests (for functions, helpers, utility; they use mocked data)
 - React component tests (they use jsdom and mocked data)
 - E2E tests (they use prod data and _real_ browser)
-
-[![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)](https://codecov.io/gh/sobstel/albicelestes)
 
 #### Console
 
