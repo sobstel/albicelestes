@@ -1,13 +1,13 @@
 import React from "react";
-import Fixtures from "components/Fixtures";
+import Fixtures, { FixtureMatch } from "components/Fixtures";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
-import { Match, MatchItem } from "types";
+import { Match } from "types";
 
 type Props = {
-  match: Match;
-  prevMatch?: MatchItem;
-  nextMatch?: MatchItem;
+  match: Pick<Match, "date" | "teams">;
+  prevMatch?: FixtureMatch;
+  nextMatch?: FixtureMatch;
 };
 
 export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {

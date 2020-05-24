@@ -6,7 +6,7 @@ import { Match } from "types";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
-type Props = { match: Match };
+type Props = { match: Pick<Match, "cards" | "lineups" | "teams"> };
 
 export default function Cards({ match }: Props) {
   const cards = R.pipe(

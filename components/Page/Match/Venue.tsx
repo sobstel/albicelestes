@@ -1,12 +1,9 @@
 import React from "react";
 import Section from "components/Layout/Section";
+import { Match } from "types";
 
 type Props = {
-  match: {
-    venue?: {
-      name: string;
-    };
-  };
+  match: Pick<Match, "venue">;
 };
 
 export default function Venue({ match }: Props) {
