@@ -3,6 +3,12 @@ on:
     branches:
       - "**"
       - "!master"
+    paths:
+      - "**.tsx"
+      - "**.ts"
+      - "**.js"
+      - "**.json"
+      - "**.yml"
 
 jobs:
   test:
