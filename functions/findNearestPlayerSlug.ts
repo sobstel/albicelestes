@@ -1,7 +1,6 @@
 import * as R from "remeda";
-import { Match } from "types";
+import { Appearance, Match } from "types";
 import { matchTeamIndex, playerSlug } from "helpers";
-import { Appearance } from "types/index";
 
 export default function findNearestPlayerSlug(
   matches: Pick<Match, "teams" | "lineups">[],
@@ -22,8 +21,13 @@ export default function findNearestPlayerSlug(
         R.compact([slugParts.shift(), slugParts.pop()]).join("-")
       );
     },
-    (player: Appearance) =>
-      playerSlug(player.name, { firstInitialOnly: true }) === slug,
+    (player: Appearance) => {
+      const slugParts = playerSlug(player.name).split("-");
+      return (
+        R.compact([slugParts.shift()?.charAt(0), slugParts.pop()]).join("-") ===
+        slug
+      );
+    },
   ];
 
   // it leverages remeda lazy evaluation
