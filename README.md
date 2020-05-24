@@ -35,6 +35,8 @@ Structure
 - React component tests (they use jsdom and mocked data)
 - E2E tests (they use prod data and _real_ browser)
 
+[![codecov](https://codecov.io/gh/sobstel/albicelestes/branch/master/graph/badge.svg)](https://codecov.io/gh/sobstel/albicelestes)
+
 #### Console
 
 - `yarn console`
