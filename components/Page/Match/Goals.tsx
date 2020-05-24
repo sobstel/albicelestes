@@ -1,24 +1,16 @@
 import React from "react";
 import * as R from "remeda";
+import { indexEvents } from "functions";
+import { TeamIndex } from "functions/indexEvents";
 import { matchTeamIndex, playersShortNames } from "helpers";
-import { Goal, Match, Score } from "types";
+import { Goal, Match } from "types";
+import { xor } from "utility";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
-type Props = { match: Match };
-type IndexedGoal = Goal & { teamIndex: number };
-type GoalWithScore = IndexedGoal & { score: Score };
+export type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
 
-function indexGoals(
-  matchGoals: [Goal[], Goal[]]
-): [IndexedGoal[], IndexedGoal[]] {
-  return [
-    matchGoals[0].map((goal) => ({ ...goal, teamIndex: 0 })),
-    matchGoals[1].map((goal) => ({ ...goal, teamIndex: 1 })),
-  ];
-}
-
-function addScores(goals: IndexedGoal[]): GoalWithScore[] {
+function addScores(goals: (Goal & TeamIndex)[]) {
   const currentScore = [0, 0];
   return goals.map((goal) => {
     currentScore[goal.teamIndex] += 1;
@@ -29,9 +21,16 @@ function addScores(goals: IndexedGoal[]): GoalWithScore[] {
 export default function Goals({ match }: Props) {
   const goals = R.pipe(
     match.goals,
-    indexGoals,
+    indexEvents,
     R.flatten(),
-    R.sortBy((goal) => parseInt(String(goal.min), 10)),
+    R.sortBy((goal) => {
+      if (!goal.min) return null;
+      // 50 => 050+000, 90+2 => 090+002, 120+1 => 120+001
+      return String(goal.min)
+        .split("+")
+        .map((part) => part.padStart(3, "0"))
+        .join("+");
+    }),
     addScores
   );
 
@@ -52,14 +51,14 @@ export default function Goals({ match }: Props) {
     <Section title="Goals">
       {goals.map((goal, index) => (
         <p key={index}>
-          {goal.score.join(":")}{" "}
+          {goal.min && `${goal.score.join(":")} `}
           <PlayerName
             name={goal.name}
             displayName={shortNames[goal.name]}
-            linkify={goal.teamIndex === myTeamIndex}
-          />{" "}
-          {goal.min && `${goal.min}'`}
-          {goal.type !== "G" && ` [${goal.type}] `}
+            linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
+          />
+          {goal.min && ` ${goal.min}'`}
+          {goal.type !== "G" && ` [${goal.type}]`}
         </p>
       ))}
     </Section>

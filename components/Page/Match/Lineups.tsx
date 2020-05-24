@@ -14,7 +14,7 @@ function coachName(
 }
 
 type Props = {
-  match: Match;
+  match: Pick<Match, "teams" | "lineups" | "coaches">;
 };
 
 export default function Lineups({ match }: Props) {

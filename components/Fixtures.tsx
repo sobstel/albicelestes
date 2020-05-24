@@ -4,10 +4,12 @@ import { MatchItem } from "types";
 import Section from "./Layout/Section";
 import Link from "./Layout/Link";
 
-interface Props {
+export type FixtureMatch = MatchItem;
+
+type Props = {
   title?: string;
-  matches: MatchItem[];
-}
+  matches: FixtureMatch[];
+};
 
 export default function Fixtures({ title, matches }: Props) {
   if (matches.length === 0) return null;

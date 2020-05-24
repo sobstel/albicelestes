@@ -44,7 +44,7 @@ export default function MatchPage({
       <Cards match={match} />
       <PenaltyShootout match={match} />
       <Venue match={match} />
-      <Info match={match} info={info} />
+      <Info matchInfo={info} />
       <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
       <VerifiedNote match={match} />
     </Layout>
