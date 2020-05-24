@@ -1,8 +1,6 @@
 import React from "react";
-import Head from "next/head";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { playerCatalog, playerSlug } from "helpers";
-import { BASE_URL } from "config";
 import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
@@ -37,22 +35,20 @@ export default function PlayerPage({
   info,
 }: Props) {
   return (
-    <>
-      <Head>
-        <link
-          rel="canonical"
-          href={`${BASE_URL}/players/${playerCatalog(name)}/${playerSlug(
-            name
-          )}`}
-        />
-      </Head>
-      <Layout title={[name, "Players"]}>
-        <h2 className="mb-4 font-semibold uppercase">{name}</h2>
-        <Stat stat={stat} />
-        <Competitions names={competitions} />
-        <Fixtures title="Matches" matches={matches} />
-        <Info info={info} />
-      </Layout>
-    </>
+    <Layout
+      title={[name]}
+      description={`Find all ${name} matches played for Argentina national football team. ${
+        stat.mp
+      } fixture${
+        stat.mp > 0 && "s"
+      } with goalscorers, lineups, bookings (cards), etc.`}
+      canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
+    >
+      <h2 className="mb-4 font-semibold uppercase">{name}</h2>
+      <Stat stat={stat} />
+      <Competitions names={competitions} />
+      <Fixtures title="Matches" matches={matches} />
+      <Info info={info} />
+    </Layout>
   );
 }

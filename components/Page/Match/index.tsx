@@ -1,5 +1,5 @@
 import React from "react";
-import { matchDate } from "helpers";
+import { matchDate, matchSlug, matchYear } from "helpers";
 import { Match, MatchInfo, MatchItem } from "types";
 import Layout from "components/Layout";
 import Banner from "./Banner";
@@ -37,7 +37,10 @@ export default function MatchPage({
   info = {},
 }: Props) {
   return (
-    <Layout title={title(match)}>
+    <Layout
+      title={title(match)}
+      canonicalPath={`/matches/${matchYear(match)}/${matchSlug(match)}`}
+    >
       <Banner match={match} />
       <Goals match={match} />
       <Lineups match={match} />

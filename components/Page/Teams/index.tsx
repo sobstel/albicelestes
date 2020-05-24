@@ -10,7 +10,7 @@ export type Props = {
 
 export default function TeamsPage({ teams }: Props) {
   return (
-    <Layout title={["Rival Teams"]}>
+    <Layout title={["Argentina footbal rivalry", "Head-to-Head"]}>
       <Header text="Teams" />
       {teams.map(({ name, slug, mp }) => (
         <p key={slug}>
