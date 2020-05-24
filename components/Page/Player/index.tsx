@@ -1,4 +1,5 @@
 import React from "react";
+import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { playerCatalog, playerSlug } from "helpers";
 import Layout from "components/Layout";
@@ -37,11 +38,11 @@ export default function PlayerPage({
   return (
     <Layout
       title={[name]}
-      description={`Find all ${name} matches played for Argentina national football team. ${
-        stat.mp
-      } fixture${
-        stat.mp > 0 && "s"
-      } with goalscorers, lineups, bookings (cards), etc.`}
+      description={`All ${name} matches played for Argentina national football team. ${pluralize(
+        "fixture",
+        stat.mp,
+        true
+      )}.`}
       canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
     >
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>

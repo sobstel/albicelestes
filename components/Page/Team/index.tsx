@@ -1,4 +1,5 @@
 import React from "react";
+import pluralize from "pluralize";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Layout from "components/Layout";
@@ -30,7 +31,15 @@ export default function TeamPage({
 }: Props) {
   const title = `Argentina v ${name}`;
   return (
-    <Layout title={[title, "Head-to-Head"]} canonicalPath={`/teams/${slug}`}>
+    <Layout
+      title={[title, "Head-to-Head"]}
+      description={`All Argentina national team matches against ${name}. ${pluralize(
+        "fixture",
+        matches.length,
+        true
+      )}.`}
+      canonicalPath={`/teams/${slug}`}
+    >
       <Header text={title} />
       <Stat stat={stat} />
       <Competitions names={competitions} />
