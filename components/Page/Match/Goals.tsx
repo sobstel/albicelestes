@@ -4,6 +4,7 @@ import { indexEvents } from "functions";
 import { TeamIndex } from "functions/indexEvents";
 import { matchTeamIndex, playersShortNames } from "helpers";
 import { Goal, Match } from "types";
+import { xor } from "utility";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
@@ -22,7 +23,14 @@ export default function Goals({ match }: Props) {
     match.goals,
     indexEvents,
     R.flatten(),
-    R.sortBy((goal) => parseInt(String(goal.min), 10)),
+    R.sortBy((goal) => {
+      if (!goal.min) return null;
+      // 50 => 050+000, 90+2 => 090+002, 120+1 => 120+001
+      return String(goal.min)
+        .split("+")
+        .map((part) => part.padStart(3, "0"))
+        .join("+");
+    }),
     addScores
   );
 
@@ -43,14 +51,14 @@ export default function Goals({ match }: Props) {
     <Section title="Goals">
       {goals.map((goal, index) => (
         <p key={index}>
-          {goal.score.join(":")}{" "}
+          {goal.min && `${goal.score.join(":")} `}
           <PlayerName
             name={goal.name}
             displayName={shortNames[goal.name]}
-            linkify={goal.teamIndex === myTeamIndex}
-          />{" "}
-          {goal.min && `${goal.min}'`}
-          {goal.type !== "G" && ` [${goal.type}] `}
+            linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
+          />
+          {goal.min && ` ${goal.min}'`}
+          {goal.type !== "G" && ` [${goal.type}]`}
         </p>
       ))}
     </Section>
