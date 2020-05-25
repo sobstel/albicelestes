@@ -72,8 +72,7 @@ export async function getStaticPaths() {
   const paths = R.pipe(
     fetchMatches(),
     collectPlayers,
-    sortByMatchesPlayed,
-    R.take(100),
+    R.filter((player) => player.mp >= 20),
     R.map((player) => ({
       params: {
         catalog: playerCatalog(player.name),
