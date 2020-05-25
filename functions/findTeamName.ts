@@ -8,6 +8,7 @@ export default function findTeamName(
 ): string {
   return R.pipe(
     matches,
+    R.reverse(),
     R.map((match) => match.teams),
     R.flatten(),
     R.find((team) => teamSlug(team) === slug),

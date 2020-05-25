@@ -23,18 +23,24 @@ function statPhrase(stat: TeamStat) {
 }
 
 function generateDescription({
+  name,
   stat,
   matches,
-}: Pick<Props, "stat" | "matches">) {
+}: Pick<Props, "name" | "stat" | "matches">) {
   const lastMatch = R.last(matches);
   return R.compact([
-    `All Argentina national team matches against ${name}`,
+    `Argentina football national team ${pluralize(
+      "match",
+      stat.mp
+    )} against ${name}`,
     statPhrase(stat),
     lastMatch &&
-      `Latest match: ${matchDate(lastMatch, {
-        withYear: true,
-        uppercase: false,
-      })} ${matchScore(lastMatch)}.`,
+      [
+        matchDate(lastMatch, { withYear: true }),
+        ": ",
+        matchScore(lastMatch),
+        ` (${lastMatch.competition})...`,
+      ].join(""),
   ]).join(". ");
 }
 
@@ -49,7 +55,7 @@ export default function TeamPage({
   return (
     <Layout
       title={[title, "Head-to-Head"]}
-      description={generateDescription({ stat, matches })}
+      description={generateDescription({ name, stat, matches })}
       canonicalPath={`/teams/${slug}`}
     >
       <Header text={title} />
