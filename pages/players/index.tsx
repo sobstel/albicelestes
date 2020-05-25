@@ -1,7 +1,7 @@
 import React from "react";
 import * as R from "remeda";
 import { fetchMatches } from "db";
-import { collectPlayers } from "functions";
+import { collectPlayers, sortByMatchesPlayed } from "functions";
 import Page, { Props } from "components/Page/Players";
 
 export default function PageContainer(props: Props) {
@@ -12,8 +12,8 @@ export async function getStaticProps() {
   const players = R.pipe(
     fetchMatches(),
     collectPlayers,
-    R.sortBy((player) => -player.mp),
-    R.take(20)
+    R.filter((player) => player.mp >= 50),
+    sortByMatchesPlayed
   );
 
   return { props: { players } };
