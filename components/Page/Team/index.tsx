@@ -1,9 +1,11 @@
-import React from "react";
+import * as R from "remeda";
 import pluralize from "pluralize";
+import React from "react";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
+import { matchDate, matchScore } from "helpers";
 import { MatchItem, TeamStat } from "types";
 
 export type Props = {
@@ -14,12 +16,26 @@ export type Props = {
   stat: TeamStat;
 };
 
-function Stat({ stat: { mp, mw, md, ml, gf, ga } }: { stat: TeamStat }) {
-  return (
-    <p className="mb-4">
-      {mp} matches ({mw}W {md}D {ml}L), goals: {gf}-{ga}
-    </p>
-  );
+function statPhrase(stat: TeamStat) {
+  return `${pluralize("match", stat.mp, true)} (${stat.mw}W ${stat.md}D ${
+    stat.ml
+  }L), goals: ${stat.gf}-${stat.ga}`;
+}
+
+function generateDescription({
+  stat,
+  matches,
+}: Pick<Props, "stat" | "matches">) {
+  const lastMatch = R.last(matches);
+  return R.compact([
+    `All Argentina national team matches against ${name}`,
+    statPhrase(stat),
+    lastMatch &&
+      `Latest match: ${matchDate(lastMatch, {
+        withYear: true,
+        uppercase: false,
+      })} ${matchScore(lastMatch)}.`,
+  ]).join(". ");
 }
 
 export default function TeamPage({
@@ -33,15 +49,11 @@ export default function TeamPage({
   return (
     <Layout
       title={[title, "Head-to-Head"]}
-      description={`All Argentina national team matches against ${name}. ${pluralize(
-        "fixture",
-        matches.length,
-        true
-      )}.`}
+      description={generateDescription({ stat, matches })}
       canonicalPath={`/teams/${slug}`}
     >
       <Header text={title} />
-      <Stat stat={stat} />
+      <p className="mb-4">{statPhrase(stat)}</p>
       <Competitions names={competitions} />
       <Fixtures title="Matches" matches={matches} />
     </Layout>

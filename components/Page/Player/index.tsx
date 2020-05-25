@@ -35,14 +35,16 @@ export default function PlayerPage({
   matches,
   info,
 }: Props) {
+  const description = `All ${name} matches played for Argentina national football team (${pluralize(
+    "fixture",
+    stat.mp,
+    true
+  )}, ${pluralize("goal", stat.g, true)}).`;
+
   return (
     <Layout
       title={[name]}
-      description={`All ${name} matches played for Argentina national football team. ${pluralize(
-        "fixture",
-        stat.mp,
-        true
-      )}.`}
+      description={description}
       canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
     >
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>

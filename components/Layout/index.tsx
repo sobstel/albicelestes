@@ -26,12 +26,7 @@ export default function Layout({
           {R.filter(title, (part) => !!part).join(" / ")} / Albicelestes
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
-        {description && (
-          <meta
-            name="description"
-            content={`${description} Goalscorers, lineups, bookings (cards), photos, videos, links. Biggest Argentina football database on the net. `}
-          />
-        )}
+        {description && <meta name="description" content={description} />}
         {canonicalPath && (
           <link rel="canonical" href={`${BASE_URL}${canonicalPath}`} />
         )}
