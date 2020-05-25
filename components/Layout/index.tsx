@@ -2,32 +2,34 @@ import React, { ReactNode } from "react";
 import * as R from "remeda";
 import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
-
+import { BASE_URL } from "config";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
 
 type Props = {
   children: ReactNode;
   title: string[];
+  description?: string;
+  canonicalPath?: string;
 };
 
-export default function Layout({ children, title }: Props) {
+export default function Layout({
+  children,
+  title,
+  description,
+  canonicalPath,
+}: Props) {
   return (
     <div className="text-sm md:text-base leading-relaxed">
       <Head>
         <title>
-          {R.filter(title, (part) => !!part).join(" / ")} - Albicelestes
+          {R.filter(title, (part) => !!part).join(" / ")} / Albicelestes
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
-
-        <meta
-          name="description"
-          content="Argentina football (soccer) national team archive. Matches, players, rival teams. Lineups, goals, statistics."
-        />
-        <meta
-          name="keywords"
-          content="albicelestes, archive, argentina, database, football, matches, national team, players, rival teams, soccer"
-        />
+        {description && <meta name="description" content={description} />}
+        {canonicalPath && (
+          <link rel="canonical" href={`${BASE_URL}${canonicalPath}`} />
+        )}
       </Head>
 
       <NextNprogress

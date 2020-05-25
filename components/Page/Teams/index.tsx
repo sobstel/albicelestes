@@ -4,13 +4,11 @@ import Layout from "components/Layout";
 import Link from "components/Layout/Link";
 import Header from "components/Layout/Header";
 
-export type Props = {
-  teams: TeamItem[];
-};
+type Props = { teams: TeamItem[] };
 
 export default function TeamsPage({ teams }: Props) {
   return (
-    <Layout title={["Rival Teams"]}>
+    <Layout title={["Argentina footbal rivalry", "Head-to-Head"]}>
       <Header text="Teams" />
       {teams.map(({ name, slug, mp }) => (
         <p key={slug}>

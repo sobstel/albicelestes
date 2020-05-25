@@ -11,7 +11,6 @@ import {
   collectPlayers,
   findNearestPlayerSlug,
   findPlayerName,
-  sortByMatchesPlayed,
 } from "functions";
 
 export default function PageContainer(
@@ -72,8 +71,7 @@ export async function getStaticPaths() {
   const paths = R.pipe(
     fetchMatches(),
     collectPlayers,
-    sortByMatchesPlayed,
-    R.take(100),
+    R.filter((player) => player.mp >= 10),
     R.map((player) => ({
       params: {
         catalog: playerCatalog(player.name),

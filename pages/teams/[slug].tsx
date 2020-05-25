@@ -30,7 +30,7 @@ export async function getStaticProps(context: Context) {
   const stat = collectTeamStat(matches);
 
   return {
-    props: { name, competitions, matches: matches.map(matchItem), stat },
+    props: { slug, name, competitions, matches: matches.map(matchItem), stat },
   };
 }
 

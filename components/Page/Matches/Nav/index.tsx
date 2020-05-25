@@ -73,7 +73,7 @@ export default function Nav({ year }: { year: number }) {
   }, [clientWidth, year]);
 
   return (
-    <div ref={containerRef} className="-mx-2 mb-4 font-semibold">
+    <nav ref={containerRef} className="-mx-2 mb-4 font-semibold">
       {prevYearsActive && <ul>{yearItems(MIN_YEAR, startYear - 1)}</ul>}
       <ul>
         {startYear > MIN_YEAR && (
@@ -95,6 +95,6 @@ export default function Nav({ year }: { year: number }) {
         )}
       </ul>
       {nextYearsActive && <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>}
-    </div>
+    </nav>
   );
 }

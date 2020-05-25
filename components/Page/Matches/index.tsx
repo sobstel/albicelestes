@@ -25,7 +25,7 @@ export default function MatchesPage({ year, matches, players }: Props) {
   }
 
   return (
-    <Layout title={["Matches", year]}>
+    <Layout title={["Matches", year]} canonicalPath={`/matches/${year}`}>
       <Nav year={parseInt(year, 10)} />
 
       {matches && matches.length > 0 && (

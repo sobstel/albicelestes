@@ -13,7 +13,7 @@ type Props = {
 
 export default function Banner({ match }: Props) {
   return (
-    <Section title={matchScore(match)}>
+    <Section title={matchScore(match)} top>
       {matchDate(match, { withYear: true })}, {match.competition}
     </Section>
   );

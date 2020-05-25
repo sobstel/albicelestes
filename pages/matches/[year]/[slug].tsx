@@ -1,6 +1,7 @@
 import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
+import { MAX_YEAR } from "config";
 import { fetchMatches, fetchMatchInfo } from "db";
 import { matchItem, matchSlug, matchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
@@ -38,7 +39,12 @@ export async function getStaticPaths() {
     paths: R.pipe(
       fetchMatches(),
       R.reverse(),
-      R.take(100),
+      R.filter(
+        (match) =>
+          matchYear(match) >= String(MAX_YEAR - 4) ||
+          /World Cup|Copa America/i.test(match.competition)
+      ),
+      R.take(500),
       R.map((match) => ({
         params: {
           year: matchYear(match),

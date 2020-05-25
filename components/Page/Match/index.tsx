@@ -1,5 +1,5 @@
 import React from "react";
-import { matchDate } from "helpers";
+import { matchDate, matchScore, matchSlug, matchYear } from "helpers";
 import { Match, MatchInfo, MatchItem } from "types";
 import Layout from "components/Layout";
 import Banner from "./Banner";
@@ -11,6 +11,7 @@ import Venue from "./Venue";
 import SeeAlso from "./SeeAlso";
 import Info from "./Info";
 import VerifiedNote from "./VerifiedNote";
+import matchTeamIndex from "helpers/matchTeamIndex";
 
 const title = (
   match: Pick<Match, "date" | "teams" | "score" | "competition">
@@ -30,6 +31,27 @@ export type Props = {
   info?: MatchInfo;
 };
 
+function generateDescription(match: Match) {
+  const myTeamIndex = matchTeamIndex(match);
+
+  let lineupDescription = "";
+  if (match.lineups[myTeamIndex]) {
+    lineupDescription = match.lineups[myTeamIndex]
+      .map((app) => app.name)
+      .join(", ")
+      .concat(".");
+  }
+
+  const description = `Details about ${matchScore(
+    match
+  )} football game played on ${matchDate(match, {
+    withYear: true,
+    uppercase: false,
+  })} (${match.competition}). ${lineupDescription}`.trim();
+
+  return description;
+}
+
 export default function MatchPage({
   match,
   prevMatch,
@@ -37,7 +59,11 @@ export default function MatchPage({
   info = {},
 }: Props) {
   return (
-    <Layout title={title(match)}>
+    <Layout
+      title={title(match)}
+      description={generateDescription(match)}
+      canonicalPath={`/matches/${matchYear(match)}/${matchSlug(match)}`}
+    >
       <Banner match={match} />
       <Goals match={match} />
       <Lineups match={match} />
