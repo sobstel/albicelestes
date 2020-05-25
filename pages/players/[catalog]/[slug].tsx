@@ -11,7 +11,6 @@ import {
   collectPlayers,
   findNearestPlayerSlug,
   findPlayerName,
-  sortByMatchesPlayed,
 } from "functions";
 
 export default function PageContainer(
