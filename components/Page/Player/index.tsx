@@ -1,7 +1,8 @@
+import * as R from "remeda";
 import React from "react";
 import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
-import { playerCatalog, playerSlug } from "helpers";
+import { matchDate, matchScore, playerCatalog, playerSlug } from "helpers";
 import Layout from "components/Layout";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
@@ -16,16 +17,33 @@ export type Props = {
   info: PlayerInfo;
 };
 
-function Stat({ stat: { mp, si, so, g, yc, rc } }: { stat: PlayerStat }) {
-  return (
-    <p className="mb-4">
-      {mp} match{mp === 1 ? "" : "es"} (↓{so} ↑{si}), {g} goal
-      {g === 1 ? "" : "s"}
-      {(yc > 0 || rc > 0) && ", "}
-      {yc > 0 && ` ${yc}Y`}
-      {rc > 0 && ` ${rc}R`}
-    </p>
-  );
+function statPhrase({ mp, si, so, g, yc, rc }: PlayerStat) {
+  return R.compact([
+    pluralize("match", mp, true),
+    `(↓${so} ↑${si})`,
+    pluralize("goal", g, true),
+    yc > 0 && `${yc}Y`,
+    rc > 0 && `${rc}R`,
+  ]).join(" ");
+}
+
+function generateDescription({
+  name,
+  stat,
+  matches,
+}: Pick<Props, "name" | "stat" | "matches">) {
+  const lastMatch = R.last(matches);
+  return [
+    `${name} matches played for Argentina football national team`,
+    statPhrase(stat),
+    lastMatch &&
+      [
+        matchDate(lastMatch, { withYear: true }),
+        ": ",
+        matchScore(lastMatch),
+        ` (${lastMatch.competition})...`,
+      ].join(""),
+  ].join(". ");
 }
 
 export default function PlayerPage({
@@ -35,20 +53,14 @@ export default function PlayerPage({
   matches,
   info,
 }: Props) {
-  const description = `All ${name} matches played for Argentina national football team (${pluralize(
-    "fixture",
-    stat.mp,
-    true
-  )}, ${pluralize("goal", stat.g, true)}).`;
-
   return (
     <Layout
       title={[name]}
-      description={description}
+      description={generateDescription({ name, stat, matches })}
       canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
     >
       <h2 className="mb-4 font-semibold uppercase">{name}</h2>
-      <Stat stat={stat} />
+      <p className="mb-4">{statPhrase(stat)}</p>
       <Competitions names={competitions} />
       <Fixtures title="Matches" matches={matches} />
       <Info info={info} />
