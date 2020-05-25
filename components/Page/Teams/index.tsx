@@ -4,9 +4,7 @@ import Layout from "components/Layout";
 import Link from "components/Layout/Link";
 import Header from "components/Layout/Header";
 
-export type Props = {
-  teams: TeamItem[];
-};
+type Props = { teams: TeamItem[] };
 
 export default function TeamsPage({ teams }: Props) {
   return (

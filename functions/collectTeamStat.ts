@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import { Match, TeamStat } from "types";
 import { withoutSuspendedMatches } from "functions";
+import { matchTeamIndex } from "helpers";
+import { Match, TeamStat } from "types";
 
 export default function collectTeamStat(
   matches: Pick<Match, "teams" | "score" | "result" | "suspended">[]
@@ -22,12 +23,9 @@ export default function collectTeamStat(
   const { gf, ga } = R.reduce(
     statableMatches,
     (acc, match) => {
-      const otherTeamIndex = match.teams.findIndex(
-        (team) => team.slug !== "argentina"
-      );
-
-      acc.gf += match.score[1 - otherTeamIndex];
-      acc.ga += match.score[otherTeamIndex];
+      const myTeamIndex = matchTeamIndex(match);
+      acc.gf += match.score[myTeamIndex];
+      acc.ga += match.score[1 - myTeamIndex];
 
       return acc;
     },
