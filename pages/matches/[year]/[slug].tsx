@@ -42,8 +42,7 @@ export async function getStaticPaths() {
       R.filter(
         (match) =>
           matchYear(match) >= String(MAX_YEAR - 4) ||
-          match.competition === "World Cup" ||
-          match.competition === "Copa America"
+          /World Cup|Copa America/.test(match.competition)
       ),
       R.take(500),
       R.map((match) => ({
