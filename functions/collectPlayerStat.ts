@@ -1,26 +1,29 @@
 import * as R from "remeda";
 import { Match, PlayerStat } from "types";
 import { withoutSuspendedMatches } from "functions";
-import { playerSlug } from "helpers";
+import { matchTeamIndex, playerSlug } from "helpers";
 
 export default function collectPlayerStat(
-  matches: Match[],
+  matches: Pick<Match, "teams" | "goals" | "cards" | "lineups" | "suspended">[],
   slug: string
 ): PlayerStat {
   const statableMatches = withoutSuspendedMatches(matches);
 
-  const mp = statableMatches.length;
+  const mp = R.filter(statableMatches, (match) =>
+    match.lineups[matchTeamIndex(match)].some(
+      (player) => playerSlug(player.name) === slug
+    )
+  ).length;
+
+  statableMatches.length;
 
   const [si, so] = R.map(
     ["in", "out"],
     (type: "in" | "out") =>
-      R.filter(
-        statableMatches,
-        (match) =>
-          !!R.find(
-            R.flatten(match.lineups),
-            (player) => playerSlug(player.name) === slug && !!player[type]
-          )
+      R.filter(statableMatches, (match) =>
+        match.lineups[matchTeamIndex(match)].some(
+          (player) => !!player[type] && playerSlug(player.name) === slug
+        )
       ).length
   );
 
@@ -30,8 +33,8 @@ export default function collectPlayerStat(
       return (
         count +
         R.filter(
-          R.flatten(match.goals),
-          (goal) => playerSlug(goal.name) === slug && goal.type !== "OG"
+          match.goals[matchTeamIndex(match)],
+          (goal) => playerSlug(goal.name) === slug
         ).length
       );
     },
@@ -41,13 +44,10 @@ export default function collectPlayerStat(
   const [yc, rc] = R.map(
     ["Y", "R"],
     (type) =>
-      R.filter(
-        statableMatches,
-        (match) =>
-          !!R.find(
-            R.flatten(match.cards),
-            (card) => playerSlug(card.name) === slug && card.type === type
-          )
+      R.filter(statableMatches, (match) =>
+        match.cards[matchTeamIndex(match)].some(
+          (card) => card.type === type && playerSlug(card.name) === slug
+        )
       ).length
   );
 
