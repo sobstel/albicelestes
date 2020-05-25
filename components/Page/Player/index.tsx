@@ -4,6 +4,7 @@ import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { matchDate, matchScore, playerCatalog, playerSlug } from "helpers";
 import Layout from "components/Layout";
+import Header from "components/Layout/Header";
 import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Info from "./Info";
@@ -59,7 +60,7 @@ export default function PlayerPage({
       description={generateDescription({ name, stat, matches })}
       canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
     >
-      <h2 className="mb-4 font-semibold uppercase">{name}</h2>
+      <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>
       <Competitions names={competitions} />
       <Fixtures title="Matches" matches={matches} />

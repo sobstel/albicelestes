@@ -58,7 +58,7 @@ export default function TeamPage({
       description={generateDescription({ name, stat, matches })}
       canonicalPath={`/teams/${slug}`}
     >
-      <Header text={title} />
+      <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
       <Competitions names={competitions} />
       <Fixtures title="Matches" matches={matches} />
