@@ -56,7 +56,6 @@ Structure
 
 - Unit tests (for functions, helpers, utility; they use mocked data)
 - React component tests (they use jsdom and mocked data)
-- E2E tests (they use prod data and _real_ browser)
 
 #### Console
 
