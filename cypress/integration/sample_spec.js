@@ -1,6 +1,6 @@
 describe("My First Test", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:1986/");
+    cy.visit("/");
   });
 
   it("Does not do much!", () => {
