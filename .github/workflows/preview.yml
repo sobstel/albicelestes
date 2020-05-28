@@ -52,11 +52,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: amondnet/now-deployment@v2
+      - uses: amondnet/vercel-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
-          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
-          now-org-id: ${{ secrets.ZEIT_ORG_ID }}
-          now-args: "--confirm"
+          vercel-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
+          vercel-org-id: ${{ secrets.ZEIT_ORG_ID }}
+          vercel-args: "--confirm"
           github-comment: true
