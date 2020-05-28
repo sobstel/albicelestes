@@ -56,7 +56,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
-          vercel-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
-          vercel-org-id: ${{ secrets.ZEIT_ORG_ID }}
-          vercel-args: "--confirm"
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }}
+          now-args: "--confirm"
           github-comment: true
