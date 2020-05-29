@@ -1,11 +1,11 @@
-import { deduplicate } from "utility";
+import { mapDuplicates } from "utility";
 
-describe("deduplicate", () => {
+describe("mapDuplicates", () => {
   it("addresses duplicate surnames", () => {
     const surnames = ["González", "González", "Martínez", "González"];
 
     expect(
-      deduplicate(surnames, (index) => `${surnames[index]} ${index}`)
+      mapDuplicates(surnames, (name, index) => `${name} ${index}`)
     ).toEqual(["González 0", "González 1", "Martínez", "González 3"]);
   });
 });

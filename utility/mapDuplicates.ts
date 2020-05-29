@@ -3,25 +3,19 @@
 /* eslint-disable prefer-rest-params */
 import * as R from "remeda";
 
+type Fn = (name: string, index: number) => string;
+
 // data-first
-export function deduplicate(
-  shortNames: string[],
-  fn: (name: number) => string
-): string[];
+export function mapDuplicates(shortNames: string[], fn: Fn): string[];
 
 // data-last
-export function deduplicate<T>(
-  fn: (name: number) => string
-): (shortNames: string[]) => string[];
+export function mapDuplicates<T>(fn: Fn): (shortNames: string[]) => string[];
 
-export function deduplicate() {
-  return R.purry(_deduplicate, arguments);
+export function mapDuplicates() {
+  return R.purry(_mapDuplicates, arguments);
 }
 
-function _deduplicate(
-  shortNames: string[],
-  fn: (name: number) => string
-): string[] {
+function _mapDuplicates(shortNames: string[], fn: Fn): string[] {
   const counts = R.reduce(
     shortNames,
     (acc, name) => {
@@ -32,6 +26,6 @@ function _deduplicate(
   );
 
   return R.map.indexed(shortNames, (name, index) => {
-    return counts[name] > 1 ? fn(index) : name;
+    return counts[name] > 1 ? fn(name, index) : name;
   });
 }
