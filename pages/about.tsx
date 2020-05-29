@@ -1,7 +1,10 @@
 import * as R from "remeda";
 import React from "react";
-import Page, { Props } from "components/Page/About";
+import Page from "components/Page/About";
 import { fetchBibliography, fetchMatches } from "db";
+import { collectPlayers, collectTeams } from "functions";
+
+type Props = Parameters<typeof Page>[0];
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;
@@ -15,10 +18,15 @@ export async function getStaticProps() {
   );
   const bibliography = fetchBibliography();
 
+  const playersTotal = collectPlayers(matches).length;
+  const teamsTotal = collectTeams(matches).length;
+
   const props: Props = {
     stat: {
       matchesTotal: matches.length,
       matchesVerified: verifiedMatches.length,
+      playersTotal,
+      teamsTotal,
     },
     bibliography,
   };
