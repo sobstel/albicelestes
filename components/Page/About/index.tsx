@@ -4,11 +4,13 @@ import Layout from "components/Layout";
 import Section from "components/Layout/Section";
 import ExternalLink from "components/Layout/ExternalLink";
 
-export type Props = {
+type Props = {
   bibliography: Bibliography;
   stat: {
     matchesTotal: number;
     matchesVerified: number;
+    playersTotal: number;
+    teamsTotal: number;
   };
 };
 
@@ -17,16 +19,15 @@ export default function AboutPage(props: Props) {
   return (
     <Layout title={["About"]}>
       <Section title="About">
-        <p>Argentina football national team archive</p>
+        <p>Argentina football national team database</p>
       </Section>
 
       <Section title="Status">
         <p>
-          Verified matches:{" "}
-          <span className="font-semibold">{stat.matchesVerified}</span>/
-          {stat.matchesTotal} (
-          {((stat.matchesVerified / stat.matchesTotal) * 100).toFixed(2)}%)
+          Matches: {stat.matchesTotal} (verified: {stat.matchesVerified})
         </p>
+        <p>Argentina players: {stat.playersTotal}</p>
+        <p>Rival teams: {stat.teamsTotal}</p>
       </Section>
 
       <Section title="See also">

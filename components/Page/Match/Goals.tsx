@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import * as R from "remeda";
 import { indexEvents } from "functions";
 import { TeamIndex } from "functions/indexEvents";
@@ -46,6 +46,30 @@ export default function Goals({ match }: Props) {
   );
 
   const myTeamIndex = matchTeamIndex(match);
+
+  const hasIncompleteData = goals.some((goal) => !goal.min);
+  if (hasIncompleteData) {
+    return (
+      <Section title="Goals">
+        {match.goals.map((_teamGoals, teamIndex) => (
+          <p key={teamIndex}>
+            {match.teams[teamIndex].name.slice(0, 3).toUpperCase()}:{" "}
+            {match.goals[teamIndex].map((goal, index) => (
+              <Fragment key={`${teamIndex}-${index}`}>
+                <PlayerName
+                  key={index}
+                  name={goal.name}
+                  displayName={shortNames[goal.name]}
+                  linkify={false}
+                />
+                {index < match.goals[teamIndex].length - 1 && ", "}
+              </Fragment>
+            ))}
+          </p>
+        ))}
+      </Section>
+    );
+  }
 
   return (
     <Section title="Goals">

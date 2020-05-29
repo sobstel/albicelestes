@@ -57,23 +57,24 @@ describe(Goals, () => {
     const match = {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       goals: [
-        [{ name: "Roberto Ayala", type: "G" }],
-        [{ name: "Diego Godín", type: "P" }],
+        [
+          { name: "Roberto Ayala", type: "G", min: "45" },
+          { name: "Javier Zanetti", type: "G" },
+        ],
+        [{ name: "Diego Godín", type: "G" }],
       ],
-      lineups: [[{ name: "Roberto Ayala" }], [{ name: "Diego Godín" }]],
+      lineups: [
+        [{ name: "Roberto Ayala" }, { name: "Javier Zanetti" }],
+        [{ name: "Diego Godín" }],
+      ],
     } as Props["match"];
 
     const { container } = render(<Goals match={match} />);
     const ps = container.querySelectorAll("p");
 
     test("renders correctly", () => {
-      expect(ps[0].textContent).toEqual("Ayala");
-      expect(ps[1].textContent).toEqual("Godín [P]");
-    });
-
-    test("links my players", () => {
-      expect(ps[0].querySelector("a")?.toString()).toContain("roberto-ayala");
-      expect(ps[1].querySelector("a")?.toString()).toBeUndefined();
+      expect(ps[0].textContent).toEqual("ARG: Ayala, Zanetti");
+      expect(ps[1].textContent).toEqual("URU: Godín");
     });
   });
 });

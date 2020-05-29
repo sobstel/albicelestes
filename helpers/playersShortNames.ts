@@ -18,12 +18,12 @@ export default function playersShortNames(
     names,
     R.map(shortenName),
     // convert duplicates to "F. Lastname"
-    U.deduplicate((index) => {
+    U.mapDuplicates((_, index) => {
       const nameObj = playerName(names[index]);
       return `${nameObj.firstName.slice(0, 1)}. ${nameObj.lastName}`;
     }),
     // convert remaining duplicates to "Full Name"
-    U.deduplicate((index) => names[index]),
+    U.mapDuplicates((_, index) => names[index]),
     R.indexBy.indexed((_, index) => names[index])
   );
 }
