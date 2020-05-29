@@ -39,6 +39,7 @@ export default function collectPlayers(
       });
 
       R.forEach(match.goals[myTeamIndex], (goal) => {
+        if (goal.type === "OG") return;
         increment(acc, goal, "g");
       });
 
