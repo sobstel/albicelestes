@@ -51542,7 +51542,7 @@
   {
     "date": "2019-09-10",
     "competition": "Friendly",
-    "venue": { "name": "Alamadome Stadium, San Antonio" },
+    "venue": { "name": "Alamodome, San Antonio, Texas" },
     "teams": [{ "name": "Argentina" }, { "name": "Mexico" }],
     "score": [4, 0],
     "result": "W",
@@ -51559,14 +51559,14 @@
       [
         { "name": "Marcos Rojo", "min": "45", "type": "Y" },
         { "name": "Marcos Acuña", "min": "63", "type": "Y" },
-        { "name": "Rodrigo De Paul", "min": "71", "type": "Y" },
-        { "name": "Leandro Paredes", "min": "79", "type": "Y" }
+        { "name": "Rodrigo De Paul", "min": "70", "type": "Y" },
+        { "name": "Leandro Paredes", "min": "78", "type": "Y" }
       ],
       [
         { "name": "Edson Álvarez", "min": "10", "type": "Y" },
         { "name": "Héctor Herrera", "min": "37", "type": "Y" },
         { "name": "Hirving Lozano", "min": "71", "type": "Y" },
-        { "name": "Carlos Salcedo", "min": "90", "type": "Y" }
+        { "name": "Carlos Salcedo", "min": "90+3", "type": "Y" }
       ]
     ],
     "coaches": [{ "name": "Lionel Scaloni" }, { "name": "Gerardo Martino" }],
@@ -51582,8 +51582,8 @@
         { "name": "Manuel Lanzini", "in": "77" },
         { "name": "Rodrigo De Paul", "out": "87" },
         { "name": "Adolfo Gaich", "in": "87" },
-        { "name": "Alexis Mac Allister", "out": "66" },
-        { "name": "Roberto Pereyra", "in": "66" },
+        { "name": "Alexis Mac Allister", "out": "65" },
+        { "name": "Roberto Pereyra", "in": "65" },
         { "name": "Exequiel Palacios", "out": "54" },
         { "name": "Nicolás Domínguez", "in": "54" },
         { "name": "Leandro Paredes" },
@@ -51592,11 +51592,11 @@
       ],
       [
         { "name": "Guillermo Ochoa" },
-        { "name": "Edson Álvarez" },
         { "name": "Néstor Araújo" },
-        { "name": "Miguel Layún" },
         { "name": "Carlos Salcedo" },
+        { "name": "Miguel Layún" },
         { "name": "Jesús Gallardo" },
+        { "name": "Edson Álvarez" },
         { "name": "Jonathan dos Santos" },
         { "name": "Héctor Herrera", "out": "63" },
         { "name": "Carlos Rodríguez", "in": "63" },
@@ -51605,7 +51605,8 @@
         { "name": "Marco Fabián", "in": "63" },
         { "name": "Raúl Jiménez" }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-10-09",
@@ -51621,7 +51622,7 @@
       ],
       [
         { "name": "Lucas Alario", "min": "66", "type": "G" },
-        { "name": "Lucas Ocampos", "min": "86", "type": "G" }
+        { "name": "Lucas Ocampos", "min": "85", "type": "G" }
       ]
     ],
     "cards": [
@@ -51637,10 +51638,10 @@
       [
         { "name": "Marc-André ter Stegen" },
         { "name": "Marcel Halstenberg" },
+        { "name": "Niklas Süle" },
         { "name": "Joshua Kimmich" },
         { "name": "Lukas Klostermann" },
         { "name": "Robin Koch" },
-        { "name": "Niklas Süle" },
         { "name": "Emre Can" },
         { "name": "Julian Brandt", "out": "66" },
         { "name": "Nadiem Amiri", "in": "66" },
@@ -51668,7 +51669,8 @@
         { "name": "Lucas Alario", "in": "62" },
         { "name": "Lautaro Martínez" }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-10-13",
