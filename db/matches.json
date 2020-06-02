@@ -51420,21 +51420,21 @@
         { "name": "Sergio Agüero", "min": "12", "type": "G" },
         { "name": "Paulo Dybala", "min": "22", "type": "G" }
       ],
-      [{ "name": "Arturo Vidal", "min": "58", "type": "P" }]
+      [{ "name": "Arturo Vidal", "min": "59", "type": "P" }]
     ],
     "cards": [
       [
         { "name": "Lionel Messi", "min": "37", "type": "R" },
-        { "name": "Germán Pezzella", "min": "58", "type": "Y" },
+        { "name": "Germán Pezzella", "min": "57", "type": "Y" },
         { "name": "Leandro Paredes", "min": "63", "type": "Y" },
         { "name": "Juan Foyth", "min": "79", "type": "Y" },
-        { "name": "Nicolás Tagliafico", "min": "90", "type": "Y" }
+        { "name": "Nicolás Tagliafico", "min": "90+3", "type": "Y" }
       ],
       [
-        { "name": "Jean Beausejour", "min": "17", "type": "Y" },
+        { "name": "Jean Beausejour", "min": "16", "type": "Y" },
         { "name": "Arturo Vidal", "min": "26", "type": "Y" },
         { "name": "Gary Medel", "min": "37", "type": "R" },
-        { "name": "Erick Pulgar", "min": "45", "type": "Y" }
+        { "name": "Erick Pulgar", "min": "45+1", "type": "Y" }
       ]
     ],
     "coaches": [{ "name": "Lionel Scaloni" }, { "name": "Reinaldo Rueda" }],
@@ -51468,10 +51468,11 @@
         { "name": "Nicolás Castillo", "in": "83" },
         { "name": "Jean Beausejour" },
         { "name": "Alexis Sánchez", "out": "17" },
-        { "name": "Junior Fernandes", "in": "17" },
+        { "name": "Junior Fernándes", "in": "17" },
         { "name": "Eduardo Vargas" }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "slug": "argentina-chile-2",
@@ -51537,7 +51538,8 @@
         { "name": "Eduardo Vargas", "out": "66" },
         { "name": "Diego Valdés", "in": "66" }
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-09-10",
