@@ -8,7 +8,7 @@ import { xor } from "utility";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
-export type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
+type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
 
 function addScores(goals: (Goal & TeamIndex)[]) {
   const currentScore = [0, 0];

@@ -1,6 +1,8 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Goals, { Props } from "components/Page/Match/Goals";
+import Goals from "components/Page/Match/Goals";
+
+type Props = Parameters<typeof Goals>[0];
 
 describe(Goals, () => {
   describe("regular game", () => {
