@@ -6,6 +6,8 @@ module.exports = {
       md: "672px",
     },
   },
-  variants: {},
+  variants: {
+    textColor: ["hover", "visited"],
+  },
   plugins: [],
 };
