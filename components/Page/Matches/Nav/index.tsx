@@ -1,10 +1,26 @@
 import * as R from "remeda";
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { ReactNode, useState, useEffect, useRef, useMemo } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import useClientWidth from "hooks/useClientWidth";
 import { ItemWithRef } from "./Item";
 import NavLink from "./NavLink";
 import ToggleLink from "./ToggleLink";
+
+function FadeIn({ children }: { children: ReactNode }) {
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(() => {
+    setOpacity(100);
+  }, []);
+
+  return (
+    <div
+      className={`transition-opacity duration-300 ease-in-out opacity-${opacity}`}
+    >
+      {children}
+    </div>
+  );
+}
 
 function yearItems(startYear: number, endYear: number) {
   if (endYear < startYear) return null;
@@ -51,10 +67,14 @@ export default function Nav({ year }: { year: number }) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
 
-  const togglePrevYears = () =>
+  const togglePrevYears = () => {
+    setNextYearsActive(false);
     setPrevYearsActive((prevYearsActive) => !prevYearsActive);
-  const toggleNextYears = () =>
+  };
+  const toggleNextYears = () => {
+    setPrevYearsActive(false);
     setNextYearsActive((nextYearsActive) => !nextYearsActive);
+  };
 
   useEffect(() => {
     if (prevYearsActive) setPrevYearsActive(false);
@@ -74,7 +94,6 @@ export default function Nav({ year }: { year: number }) {
 
   return (
     <nav ref={containerRef} className="-mx-2 mb-4 font-semibold">
-      {prevYearsActive && <ul>{yearItems(MIN_YEAR, startYear - 1)}</ul>}
       <ul>
         {startYear > MIN_YEAR && (
           <ToggleLink
@@ -94,7 +113,16 @@ export default function Nav({ year }: { year: number }) {
           />
         )}
       </ul>
-      {nextYearsActive && <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>}
+      {prevYearsActive && (
+        <FadeIn>
+          <ul>{yearItems(MIN_YEAR, startYear - 1)?.reverse()}</ul>
+        </FadeIn>
+      )}
+      {nextYearsActive && (
+        <FadeIn>
+          <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>
+        </FadeIn>
+      )}
     </nav>
   );
 }
