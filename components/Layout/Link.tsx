@@ -11,11 +11,7 @@ type Props = {
 };
 
 export default function Link(props: Props) {
-  const classNames = [
-    "text-blue-600",
-    "hover:text-blue-400",
-    "visited:text-blue-400",
-  ];
+  const classNames = ["text-blue-600", "hover:text-blue-400"];
 
   if (props.important) {
     classNames.push("font-bold");

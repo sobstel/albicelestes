@@ -7,7 +7,7 @@ module.exports = {
     },
   },
   variants: {
-    textColor: ["hover", "visited"],
+    textColor: ["hover"],
   },
   plugins: [],
 };
