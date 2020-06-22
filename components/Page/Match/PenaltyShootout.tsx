@@ -1,35 +1,45 @@
-// import React from "react";
+import React from "react";
 
-// import Section from "components/Layout/Section";
-import { Match } from "types";
+import * as R from "remeda";
+import Section from "components/Layout/Section";
+import PlayerName from "components/PlayerName";
+import { MatchInfo, PenScore } from "types";
+import { playersShortNames } from "helpers";
 
-type Props = { match: Match };
+type Props = { matchInfo: Pick<MatchInfo, "penaltyShootout"> };
 
-// function eventLabel(event: { code: string; score: Score }) {
-//   if (event.code === "M") {
-//     return "X";
-//   }
-//   if (event.code === "G") {
-//     return `${event.score[0]}:${event.score[1]}`;
-//   }
-//   return "";
-// }
+function score(score: PenScore) {
+  if (score === "x") {
+    return "x";
+  }
+  return score.join(":");
+}
 
-export default function PenaltyShootout({}: Props) {
-  // TODO: verify
-  return null;
+export default function PenaltyShootout({ matchInfo }: Props) {
+  const { penaltyShootout } = matchInfo;
+  if (!penaltyShootout || penaltyShootout.length === 0) {
+    return null;
+  }
 
-  // if (!match.penalty_shootout || match.penalty_shootout.length === 0) {
-  //   return null;
-  // }
+  const shortNames = R.pipe(
+    penaltyShootout,
+    R.map((pen) => pen.name),
+    playersShortNames
+  );
 
-  // return (
-  //   <Section title="Penalty shootout">
-  //     {match.penalty_shootout.map(event => (
-  //       <>
-  //         {event.name} ({eventLabel(event)}),
-  //       </>
-  //     ))}
-  //   </Section>
-  // );
+  return (
+    <Section title="Penalty shootout">
+      {penaltyShootout.map((pen, index) => (
+        <>
+          {index > 0 && ", "}
+          <PlayerName
+            name={pen.name}
+            displayName={shortNames[pen.name]}
+            linkify={false}
+          />{" "}
+          ({score(pen.score)})
+        </>
+      ))}
+    </Section>
+  );
 }

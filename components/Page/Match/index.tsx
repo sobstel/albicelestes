@@ -66,9 +66,9 @@ export default function MatchPage({
     >
       <Banner match={match} />
       <Goals match={match} />
+      <PenaltyShootout matchInfo={info} />
       <Lineups match={match} />
       <Cards match={match} />
-      <PenaltyShootout match={match} />
       <Venue match={match} />
       <Info matchInfo={info} />
       <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />

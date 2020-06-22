@@ -45,6 +45,7 @@ export type MatchInfo = {
   images?: { url: string; source?: { name: string; url?: string } }[];
   trivia?: string[];
   links?: InfoLink[];
+  penaltyShootout?: { name: string; score: PenScore }[];
 };
 
 export type MatchItem = Pick<
@@ -60,6 +61,8 @@ export type MatchItem = Pick<
 >;
 
 export type MatchTeam = Team;
+
+export type PenScore = Score | "x";
 
 export type PlayerInfo = {
   nicknames?: string[];
