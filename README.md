@@ -30,13 +30,7 @@ Database: `/db/` (main file: `/db/matches.json`)
 
 ## Tech
 
-| Next.js   | TypeScript | Tailwind      |
-| --------- | ---------- | ------------- |
-| ![][next] | ![][ts]    | ![][tailwind] |
-
-[next]: https://badge.fury.io/js/next.svg
-[ts]: https://badge.fury.io/js/typescript.svg
-[tailwind]: https://badge.fury.io/js/tailwindcss.svg
+Built with: Next, Typescript, Tailwind
 
 ### Development
 
