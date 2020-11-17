@@ -1,7 +1,9 @@
 {
   "name": "albicelestes",
   "private": true,
-  "workspaces": ["tractor-cli"],
+  "workspaces": [
+    "tractor-cli"
+  ],
   "scripts": {
     "now-build": "next build",
     "dev": "next dev",
