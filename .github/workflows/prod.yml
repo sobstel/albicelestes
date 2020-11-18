@@ -55,5 +55,3 @@ jobs:
           vercel-org-id: ${{ secrets.ZEIT_ORG_ID }}
           vercel-project-id: ${{ secrets.ZEIT_PROJECT_ID }}
           github-comment: true
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
