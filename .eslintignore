@@ -1,2 +1,3 @@
 db/
 **/*.d.ts
+tractor-cli/node_modules/
