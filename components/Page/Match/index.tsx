@@ -1,6 +1,6 @@
 import React from "react";
 import { matchDate, matchScore, matchSlug, matchYear } from "helpers";
-import { Match, MatchInfo, MatchItem } from "types";
+import { Match, MatchItem } from "types";
 import Layout from "components/Layout";
 import Banner from "./Banner";
 import Goals from "./Goals";
@@ -28,7 +28,6 @@ export type Props = {
   match: Match;
   prevMatch?: MatchItem;
   nextMatch?: MatchItem;
-  info?: MatchInfo;
 };
 
 function generateDescription(match: Match) {
@@ -52,12 +51,7 @@ function generateDescription(match: Match) {
   return description;
 }
 
-export default function MatchPage({
-  match,
-  prevMatch,
-  nextMatch,
-  info = {},
-}: Props) {
+export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
     <Layout
       title={title(match)}
@@ -66,11 +60,11 @@ export default function MatchPage({
     >
       <Banner match={match} />
       <Goals match={match} />
-      <PenaltyShootout matchInfo={info} />
+      <PenaltyShootout match={match} />
       <Lineups match={match} />
       <Cards match={match} />
       <Venue match={match} />
-      <Info matchInfo={info} />
+      <Info match={match} />
       <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
       <VerifiedNote match={match} />
     </Layout>

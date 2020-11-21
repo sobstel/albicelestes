@@ -6,7 +6,7 @@ type Props = Parameters<typeof PenaltyShootout>[0];
 
 describe(PenaltyShootout, () => {
   describe("regular game", () => {
-    const matchInfo = {
+    const match = {
       penaltyShootout: [
         { name: "Ron Vlaar", score: "x" },
         { name: "Lionel Messi", score: [1, 0] },
@@ -17,9 +17,9 @@ describe(PenaltyShootout, () => {
         { name: "Dirk Kuyt", score: [3, 2] },
         { name: "Maxi Rodriguez", score: [4, 2] },
       ],
-    } as Props["matchInfo"];
+    } as Props["match"];
 
-    const { container } = render(<PenaltyShootout matchInfo={matchInfo} />);
+    const { container } = render(<PenaltyShootout match={match} />);
 
     test("renders correctly", () => {
       expect(container.textContent).toEqual(

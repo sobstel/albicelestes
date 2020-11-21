@@ -3,10 +3,10 @@ import React from "react";
 import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
-import { MatchInfo, PenScore } from "types";
+import { Match, PenScore } from "types";
 import { playersShortNames } from "helpers";
 
-type Props = { matchInfo: Pick<MatchInfo, "penaltyShootout"> };
+type Props = { match: Pick<Match, "penaltyShootout"> };
 
 function score(score: PenScore) {
   if (score === "x") {
@@ -15,8 +15,8 @@ function score(score: PenScore) {
   return score.join(":");
 }
 
-export default function PenaltyShootout({ matchInfo }: Props) {
-  const { penaltyShootout } = matchInfo;
+export default function PenaltyShootout({ match }: Props) {
+  const { penaltyShootout } = match;
   if (!penaltyShootout || penaltyShootout.length === 0) {
     return null;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
 import { MAX_YEAR } from "config";
-import { fetchMatches, fetchMatchInfo } from "db";
+import { fetchMatches } from "db";
 import { matchItem, matchSlug, matchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
 
@@ -29,9 +29,8 @@ export async function getStaticProps(context: Context) {
   const match = matches[idx];
   const prevMatch = matches[idx - 1] ? matchItem(matches[idx - 1]) : null;
   const nextMatch = matches[idx + 1] ? matchItem(matches[idx + 1]) : null;
-  const info = fetchMatchInfo(match);
 
-  return { props: { match, prevMatch, nextMatch, info } };
+  return { props: { match, prevMatch, nextMatch } };
 }
 
 export async function getStaticPaths() {

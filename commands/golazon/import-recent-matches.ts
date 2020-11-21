@@ -3,29 +3,38 @@ import got from "got";
 import { fetchMatches } from "db";
 
 const TEAM_URL = "https://golazon.com/api/teams/03l";
-type TeamResponse = { recentFixtures: { date: string }[] };
+type TeamResponse = { recentFixtures: { match_id: string; date: string }[] };
 
-// TODO: const MATCH_URL
-// TODO: type MatchResponse
+const MATCH_URL = "https://golazon.com/api/matches/ID";
+type MatchResponse = { match_id: string };
 
 export default async () => {
   const response = await got(TEAM_URL);
 
   const { recentFixtures } = JSON.parse(response.body) as TeamResponse;
-  const lastMatch = R.last(fetchMatches());
+  const dbMatches = fetchMatches();
+  const dbLastMatch = R.last(dbMatches);
 
-  if (!lastMatch) {
+  if (!dbLastMatch) {
     // TODO: error message
     return;
   }
 
-  const matchesToImport = R.filter(
+  const matches = R.filter(
     recentFixtures,
-    (fixture) => fixture["date"] > lastMatch["date"]
+    (fixture) => fixture["date"] > dbLastMatch["date"]
   );
 
-  console.log(matchesToImport);
-  console.log(matchesToImport.length);
+  R.forEach(matches, async (fixture) => {
+    const response = await got(MATCH_URL.replace("ID", fixture["match_id"]));
+    const match = JSON.parse(response.body) as MatchResponse;
 
-  // TODO: call details for each match and save
+    console.log(match);
+
+    // TODO: match popular names (if no other similar)
+    // TODO: have index of names by person_id
+
+    // TODO: save to db
+    // dbMatches
+  });
 };

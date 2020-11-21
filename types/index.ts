@@ -36,17 +36,16 @@ export type Match = {
   lineups: [Appearance[], Appearance[]];
   sources?: string[];
   suspended?: true;
+  penaltyShootout?: { name: string; score: PenScore }[];
+  info?: {
+    youtube?: { id: string }[];
+    images?: { url: string; source?: { name: string; url?: string } }[];
+    trivia?: string[];
+    links?: InfoLink[];
+  };
 };
 
 export type MatchCoach = { name: string } | null;
-
-export type MatchInfo = {
-  youtube?: { id: string }[];
-  images?: { url: string; source?: { name: string; url?: string } }[];
-  trivia?: string[];
-  links?: InfoLink[];
-  penaltyShootout?: { name: string; score: PenScore }[];
-};
 
 export type MatchItem = Pick<
   Match,
