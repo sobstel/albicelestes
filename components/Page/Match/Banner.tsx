@@ -7,7 +7,7 @@ import { matchScore } from "helpers";
 type Props = {
   match: Pick<
     Match,
-    "date" | "competition" | "teams" | "score" | "pen" | "suspended"
+    "date" | "competition" | "teams" | "score" | "pen" | "result"
   >;
 };
 

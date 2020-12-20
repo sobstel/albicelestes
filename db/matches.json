@@ -12538,8 +12538,6 @@
         {"name": "John Berry"}
       ]
     ],
-    "sources": ["Animals!"],
-    "suspended": true,
     "info": {
       "images": [
         {
@@ -12553,7 +12551,8 @@
         "This match is considered an unofficial international by England (Buenos Aires League XI v Football Association League XI).",
         "Attendance: 52000"
       ]
-    }
+    },
+    "sources": ["Animals!"]
   },
   {
     "date": "1953-07-05",

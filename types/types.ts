@@ -26,7 +26,7 @@ export type Match = {
   date: string;
   competition: string;
   round?: string;
-  venue?: { name: string };
+  venue?: { name: string; city?: string };
   teams: [MatchTeam, MatchTeam];
   score: Score;
   pen?: Score;
@@ -36,7 +36,6 @@ export type Match = {
   coaches: [MatchCoach, MatchCoach];
   lineups: [Appearance[], Appearance[]];
   sources?: string[];
-  suspended?: true;
   penaltyShootout?: { name: string; score: PenScore }[];
   info?: {
     youtube?: { id: string }[];
@@ -57,7 +56,6 @@ export type MatchItem = Pick<
   | "score"
   | "pen"
   | "result"
-  | "suspended"
 >;
 
 export type MatchTeam = Team;
@@ -92,10 +90,11 @@ export type PlayerStat = {
   rc: number;
 };
 
-enum Result {
+export enum Result {
   Win = "W",
   Draw = "D",
   Loss = "L",
+  Suspended = "S"
 }
 
 export type Score = [number, number];

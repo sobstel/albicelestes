@@ -4,7 +4,7 @@ import { matchTeamIndex } from "helpers";
 import { Match, TeamStat } from "types";
 
 export default function collectTeamStat(
-  matches: Pick<Match, "teams" | "score" | "result" | "suspended">[]
+  matches: Pick<Match, "teams" | "score" | "result">[]
 ): TeamStat {
   const statableMatches = withoutSuspendedMatches(matches);
 
@@ -14,7 +14,9 @@ export default function collectTeamStat(
   const { W: mw, D: md, L: ml } = R.reduce(
     statableMatches,
     (acc, match) => {
-      acc[match.result] += 1;
+      if (match.result !== 'S') {
+        acc[match.result] += 1;
+      }
       return acc;
     },
     { W: 0, D: 0, L: 0 }

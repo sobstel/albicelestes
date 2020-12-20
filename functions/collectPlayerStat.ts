@@ -4,7 +4,7 @@ import { withoutSuspendedMatches } from "functions";
 import { matchTeamIndex, playerSlug } from "helpers";
 
 export default function collectPlayerStat(
-  matches: Pick<Match, "teams" | "goals" | "cards" | "lineups" | "suspended">[],
+  matches: Pick<Match, "teams" | "goals" | "cards" | "lineups" | "result">[],
   slug: string
 ): PlayerStat {
   const statableMatches = withoutSuspendedMatches(matches);
