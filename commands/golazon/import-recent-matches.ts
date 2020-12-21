@@ -4,6 +4,7 @@ import { fetchMatches } from "db";
 import { spinner } from "utility/command";
 import util from "util";
 import { Match, Result } from "types";
+import { matchSlug, matchYear } from 'helpers';
 // import jsonStringify from "utility/jsonStringify";
 
 const TEAM_URL = "https://golazon.com/api/teams/03l";
@@ -12,8 +13,9 @@ const MATCH_URL = "https://golazon.com/api/matches/ID";
 namespace Golazon {
   type Person = { person_id: string; name: string };
   export type Player = Person & { in?: string; out?: string };
-  type Goal = Person & { code: "G" | "P" | "OG"; score: [number, number]; min: string };
-  export type Card = Person & { code: "YC" | "RC"; min: string };
+  export type Goal = Person & { code: "G" | "PG" | "OG"; score: [number, number]; min: string };
+  export type Card = Person & { code: "YC" | "RC" | "Y2C"; min: string };
+  type Score = [number, number];
 
   export type Match = {
   match_id: string;
@@ -25,11 +27,10 @@ namespace Golazon {
   away_name: string;
   ended?: boolean;
   suspended?: boolean;
-  ft: [number, number];
-  ht: [number, number];
-  ps?: [number, number];
+  ft: Score;
+  ht: Score;
+  ps?: Score;
   goals: Goal[];
-  penalty_shootout: unknown;
   cards: Card[];
   home_players: Player[];
   home_coach: Person;
@@ -41,12 +42,25 @@ namespace Golazon {
   round_name: string;
   teamtype: string | null;
   venue: { name: string; city: string };
+  penalty_shootout: (Person & { code: 'G' | 'M', score: Score })[];
 };
 
 export type Team = { recentFixtures: { match_id: string; date: string }[] };
 }
 
 namespace Conversion {
+  const toSlug = (match: Golazon.Match, dbMatches: Match[]) => {
+    const slug = matchSlug({ teams: [ { name: match.home_name }, { name: match.away_name }]});
+    const year = matchYear({ date: match.date });
+
+    const similarSlugsCount = R.filter(dbMatches, dbMatch => matchYear(dbMatch) === year && matchSlug(dbMatch).indexOf(slug) !== -1)?.length || 0;
+    if (similarSlugsCount > 0) {
+      return `${slug}-${similarSlugsCount + 1}`;
+    }
+
+    return false;
+  }
+
   const toResult = (match: Golazon.Match) => {
     if (match.suspended) return Result.Suspended;
 
@@ -73,16 +87,48 @@ namespace Conversion {
     return false;
   }
 
-  const toCardType = (code: Golazon.Card["code"]): 'Y' | 'R' => {
-    if (code == 'YC') return 'Y';
-    if (code == 'RC') return 'R';
-    return 'Y';
+  const toGoals = (match: Golazon.Match) => {
+    const toGoalType = (code: Golazon.Goal["code"]): 'G' | 'P' | 'OG' => {
+      if (code == 'PG') return 'P';
+      return code;
+    }
+
+    return R.reduce(match.goals, (acc, goal) => {
+      const convertedGoal = { name: goal.name, min: goal.min, type: toGoalType(goal.code) };
+      const index = findTeamIndex(match, goal);
+      if (index) {
+        acc[goal.code === 'OG' ? Math.abs(index - 1) : index].push(convertedGoal);
+      }
+      return acc;
+    }, [[], []] as Match["goals"])
   }
 
-  export const toMatch = (match: Golazon.Match) => {
+  const toCards = (match: Golazon.Match) => {
+    const toCardType = (code: Golazon.Card["code"]): 'Y' | 'R' => {
+      if (code == 'YC') return 'Y';
+      if (code == 'RC') return 'R';
+      return 'Y';
+    }
+
+    return R.reduce(match.cards, (acc, card) => {
+      const convertedCard = { name: card.name, min: card.min, type: toCardType(card.code) };
+      const index = findTeamIndex(match, card);
+      if (index) {
+        acc[index].push(convertedCard);
+        if (card.code === 'Y2C') { // separate Y & R events for 2nd Y
+          acc[index].push({ name: card.name, min: card.min, type: 'R' });
+        }
+      }
+      return acc;
+    }, [[], []] as Match["cards"]);
+  }
+
+  export const toMatch = (match: Golazon.Match, dbMatches: Match[]) => {
+    const slug = toSlug(match, dbMatches);
+
     /* eslint-disable @typescript-eslint/camelcase */
     const dbMatch: Match = {
-      slug: "", // TODO: helper to generate slug
+      ...(slug && { slug }),
       date: match.date,
       competition: match["competition_name"],
       round: match["round_name"], // TODO: add to albicelestes types
@@ -91,25 +137,18 @@ namespace Conversion {
       score: match.ft,
       ...(match.ps && { pen: match.ps }),
       result: toResult(match),
-      goals: R.reduce(match.goals, (acc, goal) => {
-        const convertedGoal = { name: goal.name, min: goal.min, type: goal.code };
-        const index = findTeamIndex(match, goal);
-        if (index) acc[index].push(convertedGoal);
-        return acc;
-      }, [[], []] as Match["goals"]),
-      cards: R.reduce(match.cards, (acc, card) => {
-        const convertedCard = { name: card.name, min: card.min, type: toCardType(card.code) };
-        const index = findTeamIndex(match, card);
-        if (index) acc[index].push(convertedCard);
-        return acc;
-      }, [[], []] as Match["cards"]),
+      goals: toGoals(match),
+      cards: toCards(match),
       coaches: [
         { name: match["home_coach"].name },
         { name: match["away_coach"].name },
       ],
       lineups: [toLineup(match["home_players"]), toLineup(match["away_players"])],
+      ...(match["penalty_shootout"] && { penaltyShootout: R.map(match["penalty_shootout"], shot => ({
+        name: shot.name,
+        score: shot.code === 'M' ? 'x' : shot.score
+      })) }),
       sources: ["Golazon"],
-      // TODO: penaltyShootout
     };
     /* eslint-enable @typescript-eslint/camelcase */
     return dbMatch;
@@ -142,10 +181,9 @@ export default async () => {
 
   apiResponses.forEach((response) => {
     const match = JSON.parse(response.body) as Golazon.Match;
-    const dbMatch = Conversion.toMatch(match);
+    const dbMatch = Conversion.toMatch(match, dbMatches);
 
     console.log(util.inspect(dbMatch, { depth: 4 }));
-
 
     // TODO: match popular names (if no other similar)
     // TODO: (?) have index of names by person_id
