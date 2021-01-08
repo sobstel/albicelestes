@@ -3,6 +3,7 @@
     "allowJs": false,
     "baseUrl": "./",
     "esModuleInterop": true,
+    "experimentalDecorators": false,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -16,11 +17,10 @@
     "noUnusedParameters": true,
     "paths": { "*": ["./*"] },
     "removeComments": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
-    "typeRoots": ["node_modules/@types", "types"]
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
