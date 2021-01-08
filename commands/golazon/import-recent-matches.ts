@@ -1,10 +1,18 @@
 import * as R from "remeda";
 import got from "got";
-import { fetchMatches } from "db";
-import { spinner } from "utility/command";
+import inquirer from "inquirer";
+import { fetchMatches, fetchReversedMatches } from "db";
+import { message, spinner } from "utility/command";
 import util from "util";
-import { Match, MatchItem, Result } from "types";
-import { matchItem, matchSlug, matchYear, playerSlug } from "helpers";
+import { Match, MatchItem, Result, Team } from "types";
+import {
+  matchItem,
+  matchSlug,
+  matchTeamIndex,
+  matchYear,
+  playerSlug,
+  teamSlug,
+} from "helpers";
 // import jsonStringify from "utility/jsonStringify";
 
 const TEAM_URL = "https://golazon.com/api/teams/03l";
@@ -84,12 +92,17 @@ namespace Conversion {
     return Result.Draw;
   };
 
-  const toLineup = (players: Golazon.Player[]) => {
-    return R.map(players, (player) => ({
-      name: Reconciler.reconcilePlayer(player),
-      ...(player.in && { in: player.in }),
-      ...(player.out && { out: player.out }),
-    }));
+  const toLineup = async (players: Golazon.Player[], teamSlug: string) => {
+    const lineup = [];
+    for (const player of players) {
+      const name = await Reconciler.reconcilePlayer(player, teamSlug);
+      lineup.push({
+        name,
+        ...(player.in && { in: player.in }),
+        ...(player.out && { out: player.out }),
+      });
+    }
+    return lineup;
   };
 
   const findTeamIndex = (
@@ -115,62 +128,81 @@ namespace Conversion {
     return false;
   };
 
-  const toGoals = (match: Golazon.Match) => {
+  const toGoals = async (match: Golazon.Match) => {
     const toGoalType = (code: Golazon.Goal["code"]): "G" | "P" | "OG" => {
       if (code == "PG") return "P";
       return code;
     };
 
-    return R.reduce(
-      match.goals,
-      (acc, goal) => {
-        const convertedGoal = {
-          name: Reconciler.reconcilePlayer(goal),
-          min: goal.min,
-          type: toGoalType(goal.code),
-        };
-        const index = findTeamIndex(match, goal);
-        if (index) {
-          acc[goal.code === "OG" ? Math.abs(index - 1) : index].push(
-            convertedGoal
-          );
-        }
-        return acc;
-      },
-      [[], []] as Match["goals"]
-    );
+    const convertedGoals = [[], []] as Match["goals"];
+
+    for (const goal of match.goals) {
+      const index = findTeamIndex(match, goal);
+      if (!index) continue;
+
+      const name = await Reconciler.reconcilePlayer(
+        goal,
+        teamSlug(toTeams(match)[index])
+      );
+      const convertedGoal = {
+        name,
+        min: goal.min,
+        type: toGoalType(goal.code),
+      };
+      convertedGoals[goal.code === "OG" ? Math.abs(index - 1) : index].push(
+        convertedGoal
+      );
+    }
+
+    return convertedGoals;
   };
 
-  const toCards = (match: Golazon.Match) => {
+  const toCards = async (match: Golazon.Match) => {
     const toCardType = (code: Golazon.Card["code"]): "Y" | "R" => {
       if (code == "YC") return "Y";
       if (code == "RC") return "R";
+      if (code == "Y2C") return "Y";
       return "Y";
     };
 
-    return R.reduce(
-      match.cards,
-      (acc, card) => {
-        const convertedCard = {
-          name: Reconciler.reconcilePlayer(card),
+    const convertedCards = [[], []] as Match["cards"];
+
+    for (const card of match.cards) {
+      const index = findTeamIndex(match, card);
+      if (!index) continue;
+
+      const name = await Reconciler.reconcilePlayer(
+        card,
+        teamSlug(toTeams(match)[index])
+      );
+
+      const convertedCard = {
+        name,
+        min: card.min,
+        type: toCardType(card.code),
+      };
+      convertedCards[index].push(convertedCard);
+      if (card.code === "Y2C") {
+        // separate Y & R events for 2nd Y
+        convertedCards[index].push({
+          name,
           min: card.min,
-          type: toCardType(card.code),
-        };
-        const index = findTeamIndex(match, card);
-        if (index) {
-          acc[index].push(convertedCard);
-          if (card.code === "Y2C") {
-            // separate Y & R events for 2nd Y
-            acc[index].push({ name: card.name, min: card.min, type: "R" });
-          }
-        }
-        return acc;
-      },
-      [[], []] as Match["cards"]
-    );
+          type: "R",
+        });
+      }
+    }
+
+    return convertedCards;
   };
 
-  export const toMatch = (match: Golazon.Match, dbMatches: Match[]): Match => {
+  const toTeams = (match: Golazon.Match): [Team, Team] => {
+    return [{ name: match["home_name"] }, { name: match["away_name"] }];
+  };
+
+  export const toMatch = async (
+    match: Golazon.Match,
+    dbMatches: Match[]
+  ): Promise<Match> => {
     const slug = toSlug(match, dbMatches);
 
     const dbMatch: Match = {
@@ -179,19 +211,25 @@ namespace Conversion {
       competition: match["competition_name"],
       round: match["round_name"], // TODO: add to albicelestes types
       venue: { name: match.venue.name, city: match.venue.city },
-      teams: [{ name: match["home_name"] }, { name: match["away_name"] }],
+      teams: toTeams(match),
       score: match.ft,
       ...(match.ps && { pen: match.ps }),
       result: toResult(match),
-      goals: toGoals(match),
-      cards: toCards(match),
+      goals: await toGoals(match),
+      cards: await toCards(match),
       coaches: [
         { name: match["home_coach"].name },
         { name: match["away_coach"].name },
       ],
       lineups: [
-        toLineup(match["home_players"]),
-        toLineup(match["away_players"]),
+        await toLineup(
+          match["home_players"],
+          teamSlug({ name: match["home_name"] })
+        ),
+        await toLineup(
+          match["away_players"],
+          teamSlug({ name: match["away_name"] })
+        ),
       ],
       ...(match["penalty_shootout"] && {
         penaltyShootout: R.map(match["penalty_shootout"], (shot) => ({
@@ -209,27 +247,29 @@ namespace Conversion {
 namespace Reconciler {
   const scopeYear = new Date().getFullYear() - 25;
 
-  const recentDbMatches = R.filter(
-    fetchMatches(),
+  const reversedRecentDbMatches = R.takeWhile(
+    fetchReversedMatches(),
     (dbMatch) => Number(matchYear(dbMatch)) > scopeYear
   );
 
-  // TODO: golazon index
-  // TODO: match if just one similar
-  // TODO: inquiry if more
-  // TODO: inquiry if none
-
-  export function reconcilePlayer(person: Golazon.Person): string {
+  export async function reconcilePlayer(
+    person: Golazon.Person,
+    personTeamSlug: string
+  ): Promise<string> {
     const slug = playerSlug(person.name);
 
-    const suggestedPlayersObj = R.reduce<
-      Match,
-      Record<string, { mp: number; lastMatch: MatchItem }>
-    >(
-      recentDbMatches,
-      (result, dbMatch) => {
+    // TODO: check golazon cache index
+
+    const suggestedPlayersObj = R.pipe(
+      reversedRecentDbMatches,
+      R.filter((dbMatch) =>
+        Boolean(
+          R.find(dbMatch.teams, (team) => teamSlug(team) === personTeamSlug)
+        )
+      ),
+      R.reduce((result, dbMatch) => {
         R.pipe(
-          R.flatten(dbMatch.lineups),
+          dbMatch.lineups[matchTeamIndex(dbMatch, personTeamSlug)],
           R.filter(
             (dbPlayer) => playerSlug(dbPlayer.name).indexOf(slug) !== -1
           ),
@@ -239,12 +279,10 @@ namespace Reconciler {
               result[name] = { mp: 0, lastMatch: matchItem(dbMatch) };
             }
             result[name].mp += 1;
-            result[name].lastMatch = matchItem(dbMatch);
           })
         );
         return result;
-      },
-      {}
+      }, {} as Record<string, { mp: number; lastMatch: MatchItem }>)
     );
 
     const suggestedPlayers = R.pipe(
@@ -255,15 +293,45 @@ namespace Reconciler {
     );
 
     if (suggestedPlayers.length === 1) {
+      // TODO: save choice in index (slug => person_id => name)
       return suggestedPlayers[0].name;
     }
 
-    // TODO: inquiry if none
-    // TODO: inquiry with choice if more
+    const message = `Unrecognized player [${personTeamSlug}, ${person.name}, ${person["person_id"]}]`;
 
-    // TODO: save choice in index (person_id -> name)
+    if (suggestedPlayers.length > 1) {
+      const { name } = await inquirer.prompt([
+        {
+          type: "rawlist",
+          name: "name",
+          message,
+          choices: R.concat(
+            R.map(suggestedPlayers, (p) => ({
+              value: p.name,
+              name: `${p.name} (${p.mp}) last: ${p.lastMatch.date} ${p.lastMatch.teams[0].name} v ${p.lastMatch.teams[1].name}`,
+            })),
+            [new inquirer.Separator(), "other"]
+          ),
+        },
+      ]);
 
-    return person.name;
+      if (name !== "other") {
+        // TODO: save choice in index (slug => person_id => name)
+        return name;
+      }
+    }
+
+    const { name } = await inquirer.prompt([
+      {
+        type: "input",
+        name: "name",
+        message,
+        default: person.name,
+      },
+    ]);
+
+    // TODO: save choice in index (slug => person_id => name)
+    return name;
   }
 
   // function reconcileCoach(person: Golazon.Person) {}
@@ -289,24 +357,21 @@ export default async (): Promise<void> => {
     R.map(R.prop("match_id"))
   );
 
-  const apiResponses = await Promise.all(
-    R.map(matchIds, (matchId) => got(MATCH_URL.replace("ID", matchId)))
-  );
+  for (const matchId of matchIds) {
+    spinner.next(`Fetch data from golazon (${matchId})`);
+    const response = await got(MATCH_URL.replace("ID", matchId));
+    spinner.done();
 
-  apiResponses.forEach((response) => {
     const match = JSON.parse(response.body) as Golazon.Match;
-    const dbMatch = Conversion.toMatch(match, dbMatches);
+    message.info(
+      `${match.date}: ${match["home_name"]} v ${match["away_name"]} `
+    );
 
+    const dbMatch = await Conversion.toMatch(match, dbMatches);
     console.log(util.inspect(dbMatch, { depth: 4 }));
 
-    // TODO: match popular names (if no other similar)
-    // TODO: use inquirer
     // dbMatches = dbMatches.concat(newMatch);
     // TODO: save to db
     // jsonStringify();
-
-    // TODO: (?) have index of names by person_id
-  });
-
-  spinner.done();
+  }
 };

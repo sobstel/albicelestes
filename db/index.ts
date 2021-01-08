@@ -5,6 +5,7 @@ import { Match, PlayerInfo, Bibliography } from "types";
 // note: "import" is not used to prevent tsc from checking files that are too big
 export const fetchInflections = R.once((): Record<string, string> => (require('./inflections.json')));
 export const fetchMatches = R.once((): Match[] => (require('./matches.json')));
+export const fetchReversedMatches = R.once(() => R.reverse(fetchMatches()));
 
 export function fetchPlayerInfo(name: string, id: string): PlayerInfo {
   try {

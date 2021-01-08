@@ -17,10 +17,10 @@ export const message = (function () {
 })();
 
 export const spinner = (function () {
-  let spinner: ora.Ora | undefined;
+  let spinner: ora.Ora;
 
   function done() {
-    if (spinner) {
+    if (spinner?.isSpinning) {
       spinner.succeed();
     }
   }
@@ -31,7 +31,7 @@ export const spinner = (function () {
   }
 
   function error(text: string) {
-    if (spinner) {
+    if (spinner?.isSpinning) {
       spinner.fail();
     }
     message.error(text);
