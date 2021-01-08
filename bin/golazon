@@ -1,7 +1,0 @@
-#!/bin/bash
-
-yarn ts-node \
-  --project tsconfig.server.json \
-  -r tsconfig-paths/register \
-  --files \
-  commands/golazon.ts "$@"

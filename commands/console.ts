@@ -16,5 +16,5 @@ export default async (): Promise<void> => {
   server.context.U = U;
   server.context.utility = U;
 
-  // TODO: import remmeda
+  // TODO: import remeda
 };
