@@ -2,7 +2,7 @@ import * as R from "remeda";
 import slugify from "slugify";
 import playerName from "./playerName";
 
-export default function playerSlug(name: string) {
+export default function playerSlug(name: string): string {
   const _playerName = playerName(name);
   const names = [
     _playerName.firstName,

@@ -49,13 +49,7 @@ export type MatchCoach = { name: string } | null;
 
 export type MatchItem = Pick<
   Match,
-  | "slug"
-  | "date"
-  | "competition"
-  | "teams"
-  | "score"
-  | "pen"
-  | "result"
+  "slug" | "date" | "competition" | "teams" | "score" | "pen" | "result"
 >;
 
 export type MatchTeam = Team;
@@ -94,7 +88,7 @@ export enum Result {
   Win = "W",
   Draw = "D",
   Loss = "L",
-  Suspended = "S"
+  Suspended = "S",
 }
 
 export type Score = [number, number];
