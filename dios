@@ -1,9 +1,9 @@
 #!/bin/bash
 
 yarn ts-node \
-  --project tsconfig.node.json \
+  --project tsconfig.json \
   -r tsconfig-paths/register \
   --files \
   --transpile-only \
   --script-mode \
-  dios.ts "$@"
+  cli/dios.ts "$@"

@@ -1,7 +1,7 @@
 import React from "react";
 import * as R from "remeda";
 import slugify from "slugify";
-import { fetchMatches } from "db";
+import { fetchMatches } from "data";
 import { collectPlayers } from "functions";
 import { playerName, playerCatalog } from "helpers";
 import Page, { Props } from "components/Page/Players";

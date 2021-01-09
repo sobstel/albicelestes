@@ -1,5 +1,5 @@
-import jsonStringify from "json-stringify-pretty-compact";
+import jsonStringifyPrettyCompact from "json-stringify-pretty-compact";
 
-export default function (data: unknown): string {
-  return jsonStringify(data, { indent: 2, maxLength: 80 });
+export default function jsonStringify(data: unknown): string {
+  return jsonStringifyPrettyCompact(data, { indent: 2, maxLength: 80 });
 }

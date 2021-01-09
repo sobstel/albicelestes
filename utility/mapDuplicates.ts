@@ -5,13 +5,9 @@ import * as R from "remeda";
 
 type Fn = (name: string, index: number) => string;
 
-// data-first
-export function mapDuplicates(shortNames: string[], fn: Fn): string[];
-
-// data-last
-export function mapDuplicates<T>(fn: Fn): (shortNames: string[]) => string[];
-
-export function mapDuplicates() {
+export function mapDuplicates(shortNames: string[], fn: Fn): string[]; // data-first
+export function mapDuplicates(fn: Fn): (shortNames: string[]) => string[]; // data-last
+export function mapDuplicates(): any {
   return R.purry(_mapDuplicates, arguments);
 }
 

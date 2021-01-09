@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import Page from "components/Page/Teams";
 import { collectTeams, withoutSuspendedMatches } from "functions";
-import { fetchMatches } from "db";
+import { fetchMatches } from "data";
 
 export default function PageContainer(props: Parameters<typeof Page>[0]) {
   return <Page {...props} />;

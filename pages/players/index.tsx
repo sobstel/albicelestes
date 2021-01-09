@@ -1,6 +1,6 @@
 import React from "react";
 import * as R from "remeda";
-import { fetchMatches } from "db";
+import { fetchMatches } from "data";
 import { collectPlayers, sortByMatchesPlayed } from "functions";
 import Page, { Props } from "components/Page/Players";
 

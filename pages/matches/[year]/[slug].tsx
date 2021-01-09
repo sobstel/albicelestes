@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { useRouter } from "next/router";
 import { MAX_YEAR } from "config";
-import { fetchMatches } from "db";
+import { fetchMatches } from "data";
 import { matchItem, matchSlug, matchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
 

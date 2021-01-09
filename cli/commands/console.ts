@@ -1,5 +1,5 @@
 import repl from "repl";
-import * as DB from "db";
+import * as DB from "data";
 import * as F from "functions";
 import * as H from "helpers";
 import * as U from "utility";

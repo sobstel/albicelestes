@@ -3,7 +3,7 @@ import * as R from "remeda";
 import Error from "next/error";
 import { useRouter } from "next/router";
 import Page, { Props } from "components/Page/Player";
-import { fetchMatches, fetchPlayerInfo } from "db";
+import { fetchMatches, fetchPlayerInfo } from "data";
 import { matchItem, matchTeamIndex, playerCatalog, playerSlug } from "helpers";
 import {
   collectCompetitions,

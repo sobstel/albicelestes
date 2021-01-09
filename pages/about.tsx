@@ -1,7 +1,7 @@
 import * as R from "remeda";
 import React from "react";
 import Page from "components/Page/About";
-import { fetchBibliography, fetchMatches } from "db";
+import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "functions";
 
 type Props = Parameters<typeof Page>[0];

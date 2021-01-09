@@ -1,9 +1,9 @@
 import * as R from "remeda";
 import got from "got";
 import inquirer from "inquirer";
-import { fetchMatches, fetchReversedMatches } from "db";
-import { message, spinner } from "utility/command";
 import util from "util";
+import { fetchMatches, fetchReversedMatches } from "data";
+import { message, spinner } from "cli/utlity";
 import { Match, MatchItem, Result, Team } from "types";
 import {
   matchItem,
@@ -345,6 +345,7 @@ export default async (): Promise<void> => {
   const { recentFixtures } = JSON.parse(response.body) as Golazon.Team;
 
   spinner.next("Fetch matches and last match from DB");
+  // TODO: replace with loadData
   const dbMatches = fetchMatches();
   const dbLastMatch = R.last(dbMatches);
   if (!dbLastMatch) {
