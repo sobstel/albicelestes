@@ -2,8 +2,7 @@ import * as R from "remeda";
 import got from "got";
 import inquirer from "inquirer";
 import util from "util";
-import { fetchMatches, fetchReversedMatches } from "data";
-import { message, spinner } from "cli/utlity";
+import { loadData, message, spinner } from "cli/utlity";
 import { Match, MatchItem, Result, Team } from "types";
 import {
   matchItem,
@@ -14,6 +13,7 @@ import {
   teamSlug,
 } from "helpers";
 // import jsonStringify from "utility/jsonStringify";
+import { saveData } from "../../utlity/data";
 
 const TEAM_URL = "https://golazon.com/api/teams/03l";
 const MATCH_URL = "https://golazon.com/api/matches/ID";
@@ -246,10 +246,11 @@ namespace Conversion {
 
 namespace Reconciler {
   const scopeYear = new Date().getFullYear() - 25;
+  const reversedMatches = R.reverse(loadData("matches") as Match[]);
 
   const reversedRecentDbMatches = R.takeWhile(
-    fetchReversedMatches(),
-    (dbMatch) => Number(matchYear(dbMatch)) > scopeYear
+    reversedMatches,
+    (match) => Number(matchYear(match)) > scopeYear
   );
 
   export async function reconcilePlayer(
@@ -257,8 +258,16 @@ namespace Reconciler {
     personTeamSlug: string
   ): Promise<string> {
     const slug = playerSlug(person.name);
+    const personId = person["person_id"];
+    const teamCacheResource = `golazon/playerNames/${personTeamSlug}`;
 
-    // TODO: check golazon cache index
+    const playerNames = (loadData(teamCacheResource) || {}) as Record<
+      string,
+      string
+    >;
+    if (personId in playerNames) {
+      return playerNames[personId];
+    }
 
     const suggestedPlayersObj = R.pipe(
       reversedRecentDbMatches,
@@ -293,11 +302,13 @@ namespace Reconciler {
     );
 
     if (suggestedPlayers.length === 1) {
-      // TODO: save choice in index (slug => person_id => name)
+      playerNames[personId] = suggestedPlayers[0].name;
+      saveData(teamCacheResource, playerNames);
+
       return suggestedPlayers[0].name;
     }
 
-    const message = `Unrecognized player [${personTeamSlug}, ${person.name}, ${person["person_id"]}]`;
+    const message = `Unrecognized player [${personTeamSlug} > ${personId}: ${person.name}]`;
 
     if (suggestedPlayers.length > 1) {
       const { name } = await inquirer.prompt([
@@ -316,7 +327,9 @@ namespace Reconciler {
       ]);
 
       if (name !== "other") {
-        // TODO: save choice in index (slug => person_id => name)
+        playerNames[personId] = name;
+        saveData(teamCacheResource, playerNames);
+
         return name;
       }
     }
@@ -330,7 +343,9 @@ namespace Reconciler {
       },
     ]);
 
-    // TODO: save choice in index (slug => person_id => name)
+    playerNames[personId] = name;
+    saveData(teamCacheResource, playerNames);
+
     return name;
   }
 
@@ -342,19 +357,21 @@ export default async (): Promise<void> => {
   const response = await got(TEAM_URL);
 
   spinner.next("Parse fetched matches");
-  const { recentFixtures } = JSON.parse(response.body) as Golazon.Team;
+  const { recentFixtures: recentGolazonMatches } = JSON.parse(
+    response.body
+  ) as Golazon.Team;
 
   spinner.next("Fetch matches and last match from DB");
   // TODO: replace with loadData
-  const dbMatches = fetchMatches();
-  const dbLastMatch = R.last(dbMatches);
-  if (!dbLastMatch) {
-    throw new Error("Db last match not found");
+  const matches = loadData("matches") as Match[];
+  const lastMatch = R.last(matches);
+  if (!lastMatch) {
+    throw new Error("Last match not found");
   }
 
   const matchIds = R.pipe(
-    recentFixtures,
-    R.filter((fixture) => fixture["date"] > dbLastMatch["date"]),
+    recentGolazonMatches,
+    R.filter((golazonMatch) => golazonMatch["date"] > lastMatch["date"]),
     R.map(R.prop("match_id"))
   );
 
@@ -363,13 +380,13 @@ export default async (): Promise<void> => {
     const response = await got(MATCH_URL.replace("ID", matchId));
     spinner.done();
 
-    const match = JSON.parse(response.body) as Golazon.Match;
+    const golazonMatch = JSON.parse(response.body) as Golazon.Match;
     message.info(
-      `${match.date}: ${match["home_name"]} v ${match["away_name"]} `
+      `${golazonMatch.date}: ${golazonMatch["home_name"]} v ${golazonMatch["away_name"]} `
     );
 
-    const dbMatch = await Conversion.toMatch(match, dbMatches);
-    console.log(util.inspect(dbMatch, { depth: 4 }));
+    const match = await Conversion.toMatch(golazonMatch, matches);
+    console.log(util.inspect(match, { depth: 4 }));
 
     // dbMatches = dbMatches.concat(newMatch);
     // TODO: save to db
