@@ -129,10 +129,6 @@ export async function reconcileCoach(
       reversedRecentMatches,
       createSelectHavingTeamSlug(teamSlug),
       R.map((match) => match.coaches[getMatchTeamIndex(match, teamSlug)]?.name),
-      R.map((x) => {
-        console.log("iterate", x);
-        return x;
-      }),
       R.first()
     );
 

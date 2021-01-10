@@ -2,7 +2,7 @@ import * as R from "remeda";
 import got from "got";
 
 import util from "util";
-import { loadData, message, spinner } from "cli/utlity";
+import { loadData, saveData, message, spinner } from "cli/utlity";
 import { Match } from "types";
 import * as Golazon from "./golazon";
 import * as Conversion from "./conversion";
@@ -20,7 +20,6 @@ export default async (): Promise<void> => {
   ) as Golazon.Team;
 
   spinner.next("Fetch matches and last match from DB");
-  // TODO: replace with loadData
   const matches = loadData("matches") as Match[];
   const lastMatch = R.last(matches);
   if (!lastMatch) {
@@ -44,10 +43,10 @@ export default async (): Promise<void> => {
     );
 
     const match = await Conversion.toMatch(golazonMatch, matches);
-    console.log(util.inspect(match, { depth: 4 }));
-
-    // dbMatches = dbMatches.concat(newMatch);
-    // TODO: save to db
-    // jsonStringify();
+    matches.push(match);
   }
+
+  spinner.next(`Save matches...`);
+  saveData("matches", matches);
+  spinner.done();
 };

@@ -51703,5 +51703,244 @@
       ]
     ],
     "sources": ["11v11", "Soccerway"]
+  },
+  {
+    "date": "2020-10-09",
+    "competition": "WC Qualification South America",
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Alberto José Armando",
+      "city": "Ciudad de Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[], []],
+    "cards": [[], [{"name": "Enner Valencia", "min": "43", "type": "Y"}]],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Gustavo Alfaro"}],
+    "lineups": [
+      [
+        {"name": "Franco Armani"},
+        {"name": "Gonzalo Montiel", "out": "84"},
+        {"name": "Juan Foyth", "in": "84"},
+        {"name": "Lucas Martínez"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Acuña", "out": "66"},
+        {"name": "Eduardo Salvio", "in": "66"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Lucas Ocampos", "out": "84"},
+        {"name": "Nicolás Domínguez", "in": "84"},
+        {"name": "Leandro Paredes"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "76"},
+        {"name": "Lucas Alario", "in": "76"}
+      ],
+      [
+        {"name": "Alexander Domínguez"},
+        {"name": "Pervis Estupiñán"},
+        {"name": "Erick Ferigra", "out": "46"},
+        {"name": "Angelo Preciado", "in": "46"},
+        {"name": "Xavier Arreaga"},
+        {"name": "Robert Arboleda"},
+        {"name": "Renato Ibarra", "out": "64"},
+        {"name": "Gonzalo Plata", "in": "64"},
+        {"name": "Alan Franco"},
+        {"name": "Felipe Caicedo", "out": "79"},
+        {"name": "Romario Ibarra", "in": "79"},
+        {"name": "Carlos Gruezo"},
+        {"name": "Enner Valencia"},
+        {"name": "Ángel Mena", "out": "87"},
+        {"name": "Michael Estrada", "in": "87"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2020-10-13",
+    "competition": "WC Qualification South America",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Hernando Siles", "city": "La Paz"},
+    "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
+    "score": [1, 2],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Lautaro Martínez", "min": "45", "type": "G"},
+        {"name": "Joaquín Correa", "min": "79", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Nicolás Tagliafico", "min": "16", "type": "Y"},
+        {"name": "Nicolás Domínguez", "min": "90", "type": "Y"},
+        {"name": "Exequiel Palacios", "min": "90+1", "type": "Y"},
+        {"name": "Lautaro Martínez", "min": "90+8", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "César Farías"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Carlos Lampe"},
+        {"name": "Gabriel Valverde"},
+        {"name": "José Sagredo"},
+        {"name": "Saúl Torres"},
+        {"name": "José Carrasco"},
+        {"name": "Alejandro Chumacero", "out": "66"},
+        {"name": "Bruno Miranda", "in": "66"},
+        {"name": "Raúl Castro", "out": "66"},
+        {"name": "Boris Cespedes", "in": "66"},
+        {"name": "Diego Wayar", "out": "83"},
+        {"name": "Jorge Orozco", "in": "83"},
+        {"name": "Rudy Cardozo", "out": "87"},
+        {"name": "Cristhian Arabe", "in": "87"},
+        {"name": "Carlos Saucedo", "out": "46"},
+        {"name": "Antonio Bustamante", "in": "46"},
+        {"name": "Marcelo Martins"}
+      ],
+      [
+        {"name": "Franco Armani"},
+        {"name": "Lucas Martínez"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Leandro Paredes", "out": "69"},
+        {"name": "Guido Rodríguez", "in": "69"},
+        {"name": "Rodrigo De Paul", "out": "69"},
+        {"name": "Nicolás Domínguez", "in": "69"},
+        {"name": "Lucas Ocampos", "out": "59"},
+        {"name": "Joaquín Correa", "in": "59"},
+        {"name": "Exequiel Palacios"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "89"},
+        {"name": "Nicolas Medina", "in": "89"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2020-11-13",
+    "competition": "WC Qualification South America",
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Alberto José Armando",
+      "city": "Ciudad de Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
+    "score": [1, 1],
+    "result": "D",
+    "goals": [[], [{"name": "Ángel Romero", "min": "21", "type": "P"}]],
+    "cards": [
+      [],
+      [
+        {"name": "Ángel Romero", "min": "30", "type": "Y"},
+        {"name": "Ángel Cardozo Lucena", "min": "47", "type": "Y"},
+        {"name": "Hernán Pérez", "min": "76", "type": "Y"},
+        {"name": "Miguel Almirón", "min": "90+2", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Eduardo Berizzo"}],
+    "lineups": [
+      [
+        {"name": "Franco Armani"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Lucas Martínez"},
+        {"name": "Leandro Paredes"},
+        {"name": "Exequiel Palacios", "out": "29"},
+        {"name": "Giovani Lo Celso", "in": "29"},
+        {"name": "Rodrigo De Paul", "out": "83"},
+        {"name": "Lucas Alario", "in": "83"},
+        {"name": "Lucas Ocampos", "out": "60"},
+        {"name": "Angel Di Maria", "in": "60"},
+        {"name": "Nicolás González"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "83"},
+        {"name": "Nicolás Domínguez", "in": "83"}
+      ],
+      [
+        {"name": "Antony Silva"},
+        {"name": "Gustavo Gómez"},
+        {"name": "Fabián Balbuena"},
+        {"name": "Robert Rojas"},
+        {"name": "Júnior Alonso"},
+        {"name": "Mathías Villasanti", "out": "74"},
+        {"name": "Jorge Morel", "in": "74"},
+        {"name": "Ángel Cardozo Lucena"},
+        {"name": "Gastón Giménez", "out": "86"},
+        {"name": "Rodrigo Rojas", "in": "86"},
+        {"name": "Miguel Almirón", "out": "90+2"},
+        {"name": "Omar Alderete", "in": "90+2"},
+        {"name": "Dario Lezcano", "out": "74"},
+        {"name": "Hernán Pérez", "in": "74"},
+        {"name": "Ángel Romero", "out": "86"},
+        {"name": "Antonio Sanabria", "in": "86"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2020-11-18",
+    "competition": "WC Qualification South America",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
+    "teams": [{"name": "Peru"}, {"name": "Argentina"}],
+    "score": [0, 2],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Nicolás González", "min": "17", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "28", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Nicolás Otamendi", "min": "60", "type": "Y"},
+        {"name": "Giovani Lo Celso", "min": "73", "type": "Y"},
+        {"name": "Lucas Ocampos", "min": "90+1", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Ricardo Gareca"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Pedro Gallese"},
+        {"name": "Aldo Corzo", "out": "71"},
+        {"name": "Luis Advíncula", "in": "71"},
+        {"name": "Anderson Santamaría"},
+        {"name": "Luis Abram"},
+        {"name": "Miguel Trauco"},
+        {"name": "Pedro Aquino", "out": "88"},
+        {"name": "Wilder Cartagena", "in": "88"},
+        {"name": "Cristian Cueva", "out": "81"},
+        {"name": "Raúl Ruidíaz", "in": "81"},
+        {"name": "Yoshimar Yotún", "out": "88"},
+        {"name": "Horacio Calcaterra", "in": "88"},
+        {"name": "André Carrillo"},
+        {"name": "Édison Flores", "out": "71"},
+        {"name": "Andy Polo", "in": "71"},
+        {"name": "Gianluca Lapadula"}
+      ],
+      [
+        {"name": "Franco Armani"},
+        {"name": "Lucas Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Leandro Paredes"},
+        {"name": "Giovani Lo Celso"},
+        {"name": "Rodrigo De Paul", "out": "57"},
+        {"name": "Lucas Ocampos", "in": "57"},
+        {"name": "Nicolás González", "out": "72"},
+        {"name": "Angel Di Maria", "in": "72"},
+        {"name": "Lautaro Martínez", "out": "89"},
+        {"name": "Alejandro Gómez", "in": "89"},
+        {"name": "Lionel Messi"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]

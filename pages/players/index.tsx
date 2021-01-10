@@ -9,7 +9,6 @@ export default function PageContainer(props: Props) {
 }
 
 export async function getStaticProps() {
-  console.log("ok");
   const players = R.pipe(
     fetchMatches(),
     collectPlayers,
