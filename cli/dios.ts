@@ -1,9 +1,6 @@
 import { program } from "commander";
 import { spinner, message } from "cli/utlity";
 
-import console from "./commands/console";
-import importRecentMatches from "./commands/golazon/importRecentMatches/importRecentMatches";
-
 process.on("uncaughtException", (error) => {
   message.error(error.message);
   spinner.error(`${error.name}: ${error.message}`);
@@ -18,7 +15,6 @@ process.on("unhandledRejection", (reason) => {
   }
 });
 
-program.command("console").action(console);
-program.command("golazon:import-recent-matches").action(importRecentMatches);
+import "./commands";
 
 program.parse(process.argv);
