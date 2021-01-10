@@ -47,7 +47,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - uses: amondnet/vercel-action@v19
+      - uses: amondnet/vercel-action@v20
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-token: ${{ secrets.ZEIT_TOKEN }}
