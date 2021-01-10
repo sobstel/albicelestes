@@ -1,7 +1,5 @@
 import * as R from "remeda";
 import got from "got";
-
-import util from "util";
 import { loadData, saveData, message, spinner } from "cli/utlity";
 import { Match } from "types";
 import * as Golazon from "./golazon";
