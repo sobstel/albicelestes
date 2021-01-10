@@ -6,8 +6,8 @@ import {
   findTeamName,
   collectTeams,
   collectTeamStat,
-} from "functions";
-import { matchItem, teamSlug } from "helpers";
+} from "helpers";
+import { getMatchItem, getTeamSlug } from "helpers";
 import Page, { Props } from "components/Page/Team";
 
 export default function PageContainer(props: Props) {
@@ -22,7 +22,7 @@ export async function getStaticProps(context: Context) {
   const matches = R.pipe(
     fetchMatches(),
     R.filter(
-      (match) => !!R.find(match.teams, (team) => teamSlug(team) === slug)
+      (match) => !!R.find(match.teams, (team) => getTeamSlug(team) === slug)
     )
   );
   const name = findTeamName(matches, slug);
@@ -30,7 +30,13 @@ export async function getStaticProps(context: Context) {
   const stat = collectTeamStat(matches);
 
   return {
-    props: { slug, name, competitions, matches: matches.map(matchItem), stat },
+    props: {
+      slug,
+      name,
+      competitions,
+      matches: matches.map(getMatchItem),
+      stat,
+    },
   };
 }
 

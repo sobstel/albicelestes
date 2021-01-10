@@ -1,8 +1,7 @@
 import React from "react";
-import { matchDate } from "helpers";
+import { getMatchDate, getMatchScore } from "helpers";
 import Section from "components/Layout/Section";
 import { Match } from "types";
-import { matchScore } from "helpers";
 
 type Props = {
   match: Pick<
@@ -13,8 +12,8 @@ type Props = {
 
 export default function Banner({ match }: Props) {
   return (
-    <Section title={matchScore(match)} top>
-      {matchDate(match, { withYear: true })}, {match.competition}
+    <Section title={getMatchScore(match)} top>
+      {getMatchDate(match, { withYear: true })}, {match.competition}
     </Section>
   );
 }

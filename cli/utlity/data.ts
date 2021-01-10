@@ -9,21 +9,20 @@ const TEMP_CACHE: Record<string, unknown> = {};
 export function loadData(
   resource: string,
   opts?: { force?: boolean }
-): unknown {
+): unknown | void {
   if (!opts?.force && TEMP_CACHE[resource]) {
     return TEMP_CACHE[resource];
   }
 
   const path = resolvePath(resource);
   if (!fs.existsSync(path)) {
-    return null;
+    return;
   }
 
   return JSON.parse(fs.readFileSync(path, "utf8"));
 }
 
 export function saveData(resource: string, data: unknown): void {
-  const fileContent = jsonStringify(data);
-  fs.writeFileSync(resolvePath(resource), fileContent, "utf8");
+  fs.writeFileSync(resolvePath(resource), jsonStringify(data), "utf8");
   TEMP_CACHE[resource] = data;
 }

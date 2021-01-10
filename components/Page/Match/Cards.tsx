@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
-import { indexEvents } from "functions";
-import { matchTeamIndex, playersShortNames } from "helpers";
+import { produceIndexedEvents, produceShortNames } from "helpers";
+import { getMatchTeamIndex } from "helpers";
 import { Match } from "types";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
@@ -11,7 +11,7 @@ type Props = { match: Pick<Match, "cards" | "lineups" | "teams"> };
 export default function Cards({ match }: Props) {
   const cards = R.pipe(
     match.cards,
-    indexEvents,
+    produceIndexedEvents,
     R.flatten(),
     R.sortBy((card) => card.min)
   );
@@ -24,10 +24,10 @@ export default function Cards({ match }: Props) {
     match.lineups,
     R.flatten(),
     R.map((app) => app.name),
-    playersShortNames
+    produceShortNames
   );
 
-  const myTeamIndex = matchTeamIndex(match);
+  const myTeamIndex = getMatchTeamIndex(match);
 
   return (
     <Section title="Cards">

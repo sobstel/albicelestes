@@ -2,8 +2,8 @@ import React from "react";
 import * as R from "remeda";
 import slugify from "slugify";
 import { fetchMatches } from "data";
-import { collectPlayers } from "functions";
-import { playerName, playerCatalog } from "helpers";
+import { collectPlayers } from "helpers";
+import { getPlayerName, getPlayerCatalog } from "helpers";
 import Page, { Props } from "components/Page/Players";
 import { ALPHABET } from "components/Page/Players/Nav";
 
@@ -19,9 +19,9 @@ export async function getStaticProps(context: Context) {
   const players = R.pipe(
     fetchMatches(),
     collectPlayers,
-    R.filter((player) => playerCatalog(player.name) === catalog),
+    R.filter((player) => getPlayerCatalog(player.name) === catalog),
     R.sortBy((player) => {
-      const _playerName = playerName(player.name);
+      const _playerName = getPlayerName(player.name);
       return slugify(
         [
           _playerName.lastName,

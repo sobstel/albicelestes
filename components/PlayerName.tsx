@@ -1,5 +1,5 @@
 import React from "react";
-import { playerCatalog, playerSlug } from "helpers";
+import { getPlayerCatalog, getPlayerSlug } from "helpers";
 import Link from "./Layout/Link";
 
 export default function PlayerName({
@@ -15,8 +15,8 @@ export default function PlayerName({
     return <span title={name}>{displayName || name}</span>;
   }
 
-  const slug = playerSlug(name);
-  const catalog = playerCatalog(name);
+  const slug = getPlayerSlug(name);
+  const catalog = getPlayerCatalog(name);
 
   return (
     <Link

@@ -1,11 +1,6 @@
-export { default as matchDate } from "./matchDate";
-export { default as matchItem } from "./matchItem";
-export { default as matchScore } from "./matchScore";
-export { default as matchSlug } from "./matchSlug";
-export { default as matchTeamIndex } from "./matchTeamIndex";
-export { default as matchYear } from "./matchYear";
-export { default as playerCatalog } from "./playerCatalog";
-export { default as playerName } from "./playerName";
-export { default as playerSlug } from "./playerSlug";
-export { default as playersShortNames } from "./playersShortNames";
-export { default as teamSlug } from "./teamSlug";
+export * from "./collectors";
+export * from "./finders";
+export * from "./filters";
+export * from "./getters";
+export * from "./producers";
+export * from "./sorters";

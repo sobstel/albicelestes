@@ -2,7 +2,12 @@ import * as R from "remeda";
 import React from "react";
 import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
-import { matchDate, matchScore, playerCatalog, playerSlug } from "helpers";
+import {
+  getMatchDate,
+  getMatchScore,
+  getPlayerCatalog,
+  getPlayerSlug,
+} from "helpers";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
 import Fixtures from "components/Fixtures";
@@ -39,9 +44,9 @@ function generateDescription({
     statPhrase(stat),
     lastMatch &&
       [
-        matchDate(lastMatch, { withYear: true }),
+        getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        matchScore(lastMatch),
+        getMatchScore(lastMatch),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ].join(". ");
@@ -58,7 +63,9 @@ export default function PlayerPage({
     <Layout
       title={[name]}
       description={generateDescription({ name, stat, matches })}
-      canonicalPath={`/players/${playerCatalog(name)}/${playerSlug(name)}`}
+      canonicalPath={`/players/${getPlayerCatalog(name)}/${getPlayerSlug(
+        name
+      )}`}
     >
       <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>

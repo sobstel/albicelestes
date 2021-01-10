@@ -3,7 +3,7 @@ import * as R from "remeda";
 import { useRouter } from "next/router";
 import { MAX_YEAR } from "config";
 import { fetchMatches } from "data";
-import { matchItem, matchSlug, matchYear } from "helpers";
+import { getMatchItem, getMatchSlug, getMatchYear } from "helpers";
 import Page, { Props } from "components/Page/Match";
 
 export default function PageContainer(props: Props) {
@@ -23,12 +23,12 @@ export async function getStaticProps(context: Context) {
 
   const matches = fetchMatches();
   const idx = matches.findIndex(
-    (match) => matchYear(match) === year && matchSlug(match) === slug
+    (match) => getMatchYear(match) === year && getMatchSlug(match) === slug
   );
 
   const match = matches[idx];
-  const prevMatch = matches[idx - 1] ? matchItem(matches[idx - 1]) : null;
-  const nextMatch = matches[idx + 1] ? matchItem(matches[idx + 1]) : null;
+  const prevMatch = matches[idx - 1] ? getMatchItem(matches[idx - 1]) : null;
+  const nextMatch = matches[idx + 1] ? getMatchItem(matches[idx + 1]) : null;
 
   return { props: { match, prevMatch, nextMatch } };
 }
@@ -40,14 +40,14 @@ export async function getStaticPaths() {
       R.reverse(),
       R.filter(
         (match) =>
-          matchYear(match) >= String(MAX_YEAR - 4) ||
+          getMatchYear(match) >= String(MAX_YEAR - 4) ||
           /World Cup|Copa America/i.test(match.competition)
       ),
       R.take(500),
       R.map((match) => ({
         params: {
-          year: matchYear(match),
-          slug: matchSlug(match),
+          year: getMatchYear(match),
+          slug: getMatchSlug(match),
         },
       }))
     ),

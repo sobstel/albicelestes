@@ -2,7 +2,7 @@ import { program } from "commander";
 import { spinner, message } from "cli/utlity";
 
 import console from "./commands/console";
-import importRecentMatches from "./commands/golazon/importRecentMatches";
+import importRecentMatches from "./commands/golazon/importRecentMatches/importRecentMatches";
 
 process.on("uncaughtException", (error) => {
   message.error(error.message);

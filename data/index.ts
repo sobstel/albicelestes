@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import { playerCatalog, playerSlug } from "helpers";
+import { getPlayerCatalog, getPlayerSlug } from "helpers";
 import { Match, PlayerInfo, Bibliography } from "types";
 
 // note: "import" is not used to prevent tsc from checking files that are too big
@@ -12,7 +12,7 @@ export const fetchReversedMatches = R.once(() => R.reverse(fetchMatches()));
 
 export function fetchPlayerInfo(name: string, id: string): PlayerInfo {
   try {
-    return require(`db/players/${playerCatalog(name)}/${playerSlug(
+    return require(`db/players/${getPlayerCatalog(name)}/${getPlayerSlug(
       name
     )}-${id}.json`);
   } catch (e) {

@@ -7,6 +7,7 @@
   - [Specific rules](#specific-rules)
 - [Tech](#tech)
   - [Development](#development)
+  - [Directory structure](#directory-structure)
     - [Testing](#testing)
     - [Console](#console)
   - [Deployment](#deployment)
@@ -35,6 +36,19 @@ Built with: Next, Typescript, Tailwind
 ### Development
 
 - `yarn now dev --listen 1986`
+
+### Directory structure
+
+- components
+- pages
+- data
+- helpers
+  - collectors - reduce-like
+  - finders
+  - getters
+  - producers - map-like
+  - filters (reject/select)
+  - sorters
 
 #### Testing
 

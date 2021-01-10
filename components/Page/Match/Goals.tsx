@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
-import { indexEvents } from "functions";
-import { TeamIndex } from "functions/indexEvents";
-import { matchTeamIndex, playersShortNames } from "helpers";
+import { produceIndexedEvents } from "helpers";
+import { getMatchTeamIndex, playersShortNames } from "helpers";
 import { Goal, Match } from "types";
 import { xor } from "utility";
 import Section from "components/Layout/Section";
@@ -21,7 +20,7 @@ function addScores(goals: (Goal & TeamIndex)[]) {
 export default function Goals({ match }: Props) {
   const goals = R.pipe(
     match.goals,
-    indexEvents,
+    produceIndexedEvents,
     R.flatten(),
     R.sortBy((goal) => {
       if (!goal.min) return null;
@@ -45,7 +44,7 @@ export default function Goals({ match }: Props) {
     playersShortNames
   );
 
-  const myTeamIndex = matchTeamIndex(match);
+  const myTeamIndex = getMatchTeamIndex(match);
 
   const hasIncompleteData = goals.some((goal) => !goal.min);
   if (hasIncompleteData) {

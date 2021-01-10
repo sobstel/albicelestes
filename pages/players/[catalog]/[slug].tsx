@@ -4,14 +4,19 @@ import Error from "next/error";
 import { useRouter } from "next/router";
 import Page, { Props } from "components/Page/Player";
 import { fetchMatches, fetchPlayerInfo } from "data";
-import { matchItem, matchTeamIndex, playerCatalog, playerSlug } from "helpers";
+import {
+  getMatchItem,
+  getMatchTeamIndex,
+  getPlayerCatalog,
+  getPlayerSlug,
+} from "helpers";
 import {
   collectCompetitions,
   collectPlayerStat,
   collectPlayers,
   findNearestPlayerSlug,
   findPlayerName,
-} from "functions";
+} from "helpers";
 
 export default function PageContainer(
   props: Props & { errorCode: number | null }
@@ -44,8 +49,8 @@ export async function getStaticProps(context: Context) {
   }
 
   const playerMatches = R.filter(matches, (match) =>
-    match.lineups[matchTeamIndex(match)].some(
-      (app) => playerSlug(app.name) === slug
+    match.lineups[getMatchTeamIndex(match)].some(
+      (app) => getPlayerSlug(app.name) === slug
     )
   );
 
@@ -58,7 +63,7 @@ export async function getStaticProps(context: Context) {
     props: {
       slug,
       name,
-      matches: playerMatches.map(matchItem),
+      matches: playerMatches.map(getMatchItem),
       competitions,
       stat,
       info,
@@ -74,8 +79,8 @@ export async function getStaticPaths() {
     R.filter((player) => player.mp >= 10),
     R.map((player) => ({
       params: {
-        catalog: playerCatalog(player.name),
-        slug: playerSlug(player.name),
+        catalog: getPlayerCatalog(player.name),
+        slug: getPlayerSlug(player.name),
       },
     }))
   );

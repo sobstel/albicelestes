@@ -1,5 +1,10 @@
 import React from "react";
-import { matchDate, matchYear, matchScore, matchSlug } from "helpers";
+import {
+  getMatchDate,
+  getMatchYear,
+  getMatchScore,
+  getMatchSlug,
+} from "helpers";
 import { MatchItem } from "types";
 import Section from "./Layout/Section";
 import Link from "./Layout/Link";
@@ -17,16 +22,19 @@ export default function Fixtures({ title, matches }: Props) {
   return (
     <Section title={title}>
       {matches.map((match) => (
-        <div key={`${matchYear(match)}-${matchSlug(match)}`} className="mb-2">
+        <div
+          key={`${getMatchYear(match)}-${getMatchSlug(match)}`}
+          className="mb-2"
+        >
           <p>
-            {matchDate(match, { withYear: true })}, {match.competition}
+            {getMatchDate(match, { withYear: true })}, {match.competition}
           </p>
           <p>
             <Link
               href="/matches/[year]/[slug]"
-              as={`/matches/${matchYear(match)}/${matchSlug(match)}`}
+              as={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
             >
-              {matchScore(match)}
+              {getMatchScore(match)}
             </Link>
           </p>
         </div>
