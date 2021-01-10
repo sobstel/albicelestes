@@ -44,12 +44,12 @@ Built with: Next, Typescript, Tailwind
 - pages
 - data
 - helpers
-  - collectors - reduce-like
-  - finders
-  - getters
-  - producers - map-like
-  - filters (reject/select)
-  - sorters
+  - collectXXX - reduce-like
+  - findXXX
+  - getXXX
+  - produceXXX - map-like
+  - filter (rejectXXX/selectXXX)
+  - sortByXXX
 
 #### Testing
 

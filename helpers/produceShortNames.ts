@@ -1,7 +1,7 @@
 import * as R from "remeda";
 import * as U from "utility";
 import { fetchInflections } from "data";
-import { getPlayerName } from "../getters/getPlayerName";
+import { getPlayerName } from "./getPlayerName";
 
 function shortenName(name: string) {
   const inflections = fetchInflections();

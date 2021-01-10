@@ -16,7 +16,7 @@ import Venue from "./Venue";
 import SeeAlso from "./SeeAlso";
 import Info from "./Info";
 import VerifiedNote from "./VerifiedNote";
-import getMatchTeamIndex from "helpers/getters/getMatchTeamIndex";
+import getMatchTeamIndex from "helpers/getMatchTeamIndex";
 
 const title = (
   match: Pick<Match, "date" | "teams" | "score" | "competition">
