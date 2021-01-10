@@ -7,12 +7,10 @@ export const fetchInflections = R.once(
   (): Record<string, string> => require("./inflections.json")
 );
 export const fetchMatches = R.once((): Match[] => require("./matches.json"));
-// TODO: remove?
-export const fetchReversedMatches = R.once(() => R.reverse(fetchMatches()));
 
 export function fetchPlayerInfo(name: string, id: string): PlayerInfo {
   try {
-    return require(`db/players/${getPlayerCatalog(name)}/${getPlayerSlug(
+    return require(`data/players/${getPlayerCatalog(name)}/${getPlayerSlug(
       name
     )}-${id}.json`);
   } catch (e) {

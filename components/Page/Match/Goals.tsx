@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
 import { produceIndexedEvents } from "helpers";
-import { getMatchTeamIndex, playersShortNames } from "helpers";
+import { getMatchTeamIndex, produceShortNames } from "helpers";
 import { Goal, Match } from "types";
 import { xor } from "utility";
 import Section from "components/Layout/Section";
@@ -41,7 +41,7 @@ export default function Goals({ match }: Props) {
     match.lineups,
     R.flatten(),
     R.map((app) => app.name),
-    playersShortNames
+    produceShortNames
   );
 
   const myTeamIndex = getMatchTeamIndex(match);

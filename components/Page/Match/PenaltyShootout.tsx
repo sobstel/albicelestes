@@ -4,7 +4,7 @@ import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 import { Match, PenScore } from "types";
-import { playersShortNames } from "helpers";
+import { produceShortNames } from "helpers";
 
 type Props = { match: Pick<Match, "penaltyShootout"> };
 
@@ -24,7 +24,7 @@ export default function PenaltyShootout({ match }: Props) {
   const shortNames = R.pipe(
     penaltyShootout,
     R.map((pen) => pen.name),
-    playersShortNames
+    produceShortNames
   );
 
   return (
