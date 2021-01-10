@@ -51328,7 +51328,7 @@
     "lineups": [
       [
         {"name": "Agustín Marchesín"},
-        {"name": "Lucas Martínez"},
+        {"name": "Lucas Martínez Quarta"},
         {"name": "Gonzalo Montiel"},
         {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico", "out": "75"},
@@ -51400,7 +51400,7 @@
     "lineups": [
       [
         {"name": "Esteban Andrada"},
-        {"name": "Lucas Martínez", "out": "83"},
+        {"name": "Lucas Martínez Quarta", "out": "83"},
         {"name": "Leonardo Balerdi", "in": "83"},
         {"name": "Gonzalo Montiel"},
         {"name": "Marcos Rojo"},
@@ -51723,7 +51723,7 @@
         {"name": "Franco Armani"},
         {"name": "Gonzalo Montiel", "out": "84"},
         {"name": "Juan Foyth", "in": "84"},
-        {"name": "Lucas Martínez"},
+        {"name": "Lucas Martínez Quarta"},
         {"name": "Nicolás Tagliafico"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Acuña", "out": "66"},
@@ -51802,7 +51802,7 @@
       ],
       [
         {"name": "Franco Armani"},
-        {"name": "Lucas Martínez"},
+        {"name": "Lucas Martínez Quarta"},
         {"name": "Gonzalo Montiel"},
         {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico"},
@@ -51847,7 +51847,7 @@
         {"name": "Franco Armani"},
         {"name": "Nicolás Otamendi"},
         {"name": "Gonzalo Montiel"},
-        {"name": "Lucas Martínez"},
+        {"name": "Lucas Martínez Quarta"},
         {"name": "Leandro Paredes"},
         {"name": "Exequiel Palacios", "out": "29"},
         {"name": "Giovani Lo Celso", "in": "29"},
@@ -51926,7 +51926,7 @@
       ],
       [
         {"name": "Franco Armani"},
-        {"name": "Lucas Martínez"},
+        {"name": "Lucas Martínez Quarta"},
         {"name": "Nicolás Otamendi"},
         {"name": "Gonzalo Montiel"},
         {"name": "Nicolás Tagliafico"},
