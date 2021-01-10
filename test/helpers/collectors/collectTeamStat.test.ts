@@ -11,13 +11,12 @@ describe("collectTeamStat", () => {
     {
       teams: [{ name: "Uruguay" }, { name: "Argentina" }],
       score: [2, 2],
-      result: "D",
-      results: Result.Suspended,
+      result: Result.Suspended,
     },
     {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       score: [0, 1],
-      result: "L",
+      result: Result.Loss,
     },
     {
       teams: [{ name: "England" }, { name: "Argentina" }],
