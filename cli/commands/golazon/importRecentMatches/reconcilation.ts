@@ -20,34 +20,36 @@ const reversedRecentMatches = R.pipe(
   R.takeWhile((match) => Number(getMatchYear(match)) > scopeYear)
 );
 
-const filterMatchHavingTeamSlug = (slug: string) => {
+const createSelectHavingTeamSlug = (teamSlug: string) => {
   return R.filter((match: Match) => {
-    return Boolean(R.find(match.teams, (team) => getTeamSlug(team) === slug));
+    return Boolean(
+      R.find(match.teams, (team) => getTeamSlug(team) === teamSlug)
+    );
   });
 };
 
 export async function reconcilePlayer(
-  person: Golazon.Person,
-  personTeamSlug: string
+  player: Golazon.Player,
+  teamSlug: string
 ): Promise<string> {
-  const slug = getPlayerSlug(person.name);
-  const personId = person["person_id"];
-  const teamCacheResource = `golazon/playerNames/${personTeamSlug}`;
+  const slug = getPlayerSlug(player.name);
+  const playerId = player["person_id"];
+  const teamCacheResource = `golazon/playerNames/${teamSlug}`;
 
   const playerNames = (loadData(teamCacheResource) || {}) as Record<
     string,
     string
   >;
-  if (personId in playerNames) {
-    return playerNames[personId];
+  if (playerId in playerNames) {
+    return playerNames[playerId];
   }
 
   const suggestedPlayersObj = R.pipe(
     reversedRecentMatches,
-    filterMatchHavingTeamSlug(personTeamSlug),
+    createSelectHavingTeamSlug(teamSlug),
     R.reduce((result, match) => {
       R.pipe(
-        match.lineups[getMatchTeamIndex(match, personTeamSlug)],
+        match.lineups[getMatchTeamIndex(match, teamSlug)],
         R.filter((player) => getPlayerSlug(player.name).indexOf(slug) !== -1),
         R.forEach((player) => {
           const { name } = player;
@@ -69,13 +71,13 @@ export async function reconcilePlayer(
   );
 
   if (suggestedPlayers.length === 1) {
-    playerNames[personId] = suggestedPlayers[0].name;
+    playerNames[playerId] = suggestedPlayers[0].name;
     saveData(teamCacheResource, playerNames);
 
     return suggestedPlayers[0].name;
   }
 
-  const message = `Unrecognized player [${personTeamSlug} > ${personId}: ${person.name}]`;
+  const message = `Unrecognized player [${teamSlug} > ${playerId}: ${player.name}]`;
 
   if (suggestedPlayers.length > 1) {
     const { name } = await inquirer.prompt([
@@ -94,7 +96,7 @@ export async function reconcilePlayer(
     ]);
 
     if (name !== "other") {
-      playerNames[personId] = name;
+      playerNames[playerId] = name;
       saveData(teamCacheResource, playerNames);
 
       return name;
@@ -106,36 +108,50 @@ export async function reconcilePlayer(
       type: "input",
       name: "name",
       message,
-      default: person.name,
+      default: player.name,
     },
   ]);
 
-  playerNames[personId] = name;
+  playerNames[playerId] = name;
   saveData(teamCacheResource, playerNames);
 
   return name;
 }
 
 export async function reconcileCoach(
-  person: Golazon.Person,
-  personTeamSlug: string
+  coach: Golazon.Coach,
+  teamSlug: string
 ): Promise<string> {
-  const slug = getPlayerSlug(person.name);
+  if (coach) {
+    const coachSlug = getPlayerSlug(coach.name);
 
-  const lastMatchName = R.pipe(
-    matches,
-    filterMatchHavingTeamSlug(personTeamSlug),
-    R.map(
-      (match) => match.coaches[getMatchTeamIndex(match, personTeamSlug)]?.name
-    ),
-    R.first()
-  );
+    const lastMatchName = R.pipe(
+      reversedRecentMatches,
+      createSelectHavingTeamSlug(teamSlug),
+      R.map((match) => match.coaches[getMatchTeamIndex(match, teamSlug)]?.name),
+      R.map((x) => {
+        console.log("iterate", x);
+        return x;
+      }),
+      R.first()
+    );
 
-  if (lastMatchName && getPlayerSlug(lastMatchName).indexOf(slug) !== -1) {
-    return lastMatchName;
+    if (
+      lastMatchName &&
+      getPlayerSlug(lastMatchName).indexOf(coachSlug) !== -1
+    ) {
+      return lastMatchName;
+    }
   }
 
-  // TODO: inquiry
+  const { name } = await inquirer.prompt([
+    {
+      type: "input",
+      name: "name",
+      message: `Unrecognized coach [${teamSlug} > ${coach?.["person_id"]}: ${coach?.name}]`,
+      default: coach?.name,
+    },
+  ]);
 
-  return "TODO";
+  return name;
 }

@@ -2,8 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import slugify from "slugify";
 import { fetchMatches } from "data";
-import { collectPlayers } from "helpers";
-import { getPlayerName, getPlayerCatalog } from "helpers";
+import { collectPlayers, getPlayerName, getPlayerCatalog } from "helpers";
 import Page, { Props } from "components/Page/Players";
 import { ALPHABET } from "components/Page/Players/Nav";
 
@@ -21,13 +20,11 @@ export async function getStaticProps(context: Context) {
     collectPlayers,
     R.filter((player) => getPlayerCatalog(player.name) === catalog),
     R.sortBy((player) => {
-      const _playerName = getPlayerName(player.name);
+      const playerName = getPlayerName(player.name);
       return slugify(
-        [
-          _playerName.lastName,
-          _playerName.firstName,
-          _playerName.middleName,
-        ].join(" "),
+        [playerName.lastName, playerName.firstName, playerName.middleName].join(
+          " "
+        ),
         {
           lower: true,
         }

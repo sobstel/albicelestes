@@ -1,6 +1,5 @@
 import * as R from "remeda";
 import memoize from "lodash.memoize";
-
 import { PlayerName } from "types";
 
 export const getPlayerName = memoize(

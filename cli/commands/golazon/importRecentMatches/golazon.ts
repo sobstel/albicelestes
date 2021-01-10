@@ -1,5 +1,6 @@
 export type Person = { person_id: string; name: string };
 export type Player = Person & { in?: string; out?: string };
+export type Coach = Person | null;
 export type Goal = Person & {
   code: "G" | "PG" | "OG";
   score: [number, number];
