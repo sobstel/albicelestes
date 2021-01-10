@@ -95,11 +95,4 @@ describe("getMatchItem", () => {
 
     expect(getMatchItem(match)).toEqual(expectedMatch);
   });
-
-  it("includes suspended if present", () => {
-    match.suspended = true;
-    expectedMatch.suspended = match.suspended;
-
-    expect(getMatchItem(match)).toEqual(expectedMatch);
-  });
 });

@@ -2,20 +2,12 @@ import React, { Fragment } from "react";
 import * as R from "remeda";
 import { produceIndexedEvents } from "helpers";
 import { getMatchTeamIndex, produceShortNames } from "helpers";
-import { Goal, Match } from "types";
+import { Match } from "types";
 import { xor } from "utility";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
 type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
-
-function addScores(goals: (Goal & TeamIndex)[]) {
-  const currentScore = [0, 0];
-  return goals.map((goal) => {
-    currentScore[goal.teamIndex] += 1;
-    return { ...goal, score: [currentScore[0], currentScore[1]] };
-  });
-}
 
 export default function Goals({ match }: Props) {
   const goals = R.pipe(
@@ -30,7 +22,13 @@ export default function Goals({ match }: Props) {
         .map((part) => part.padStart(3, "0"))
         .join("+");
     }),
-    addScores
+    (goals) => {
+      const currentScore = [0, 0];
+      return goals.map((goal) => {
+        currentScore[goal.teamIndex] += 1;
+        return { ...goal, score: [currentScore[0], currentScore[1]] };
+      });
+    }
   );
 
   if (goals.length === 0) {

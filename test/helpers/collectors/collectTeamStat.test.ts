@@ -1,17 +1,18 @@
 import { collectTeamStat } from "helpers";
+import { Result } from "types";
 
 describe("collectTeamStat", () => {
   const matches = [
     {
       teams: [{ name: "Argentina" }, { name: "Brazil" }],
       score: [7, 1],
-      result: "W",
+      result: Result.Win,
     },
     {
       teams: [{ name: "Uruguay" }, { name: "Argentina" }],
       score: [2, 2],
       result: "D",
-      suspended: true,
+      results: Result.Suspended,
     },
     {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
@@ -21,12 +22,12 @@ describe("collectTeamStat", () => {
     {
       teams: [{ name: "England" }, { name: "Argentina" }],
       score: [1, 2],
-      result: "W",
+      result: Result.Win,
     },
     {
       teams: [{ name: "Peru" }, { name: "Argentina" }],
       score: [0, 0],
-      result: "D",
+      result: Result.Draw,
     },
   ] as Parameters<typeof collectTeamStat>[0];
 

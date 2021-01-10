@@ -1,4 +1,4 @@
-export type TeamIndex = { teamIndex: number };
+export type TeamIndex = { teamIndex: 0 | 1 };
 
 export default function produceIndexedEvents<T>(
   events: [T[], T[]]

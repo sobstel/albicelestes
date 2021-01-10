@@ -1,4 +1,5 @@
 import { getMatchScore } from "helpers";
+import { Result } from "types";
 
 describe("getMatchScore", () => {
   it("returns team names with score", () => {
@@ -6,6 +7,7 @@ describe("getMatchScore", () => {
       getMatchScore({
         teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [3, 1],
+        result: Result.Win,
       })
     ).toEqual("Argentina - Uruguay 3:1");
   });
@@ -15,7 +17,7 @@ describe("getMatchScore", () => {
       getMatchScore({
         teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [0, 0],
-        suspended: true,
+        result: Result.Suspended,
       })
     ).toEqual("Argentina - Uruguay *");
   });
@@ -26,6 +28,7 @@ describe("getMatchScore", () => {
         teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [1, 1],
         pen: [5, 4],
+        result: Result.Win,
       })
     ).toEqual("Argentina - Uruguay 1:1 p.5:4");
   });
