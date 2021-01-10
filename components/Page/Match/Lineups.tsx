@@ -3,7 +3,7 @@ import React from "react";
 import * as R from "remeda";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
-import { matchTeamIndex, playersShortNames } from "helpers";
+import { getMatchTeamIndex, produceShortNames } from "helpers";
 import { Match, MatchCoach } from "types";
 
 function coachName(
@@ -23,10 +23,10 @@ export default function Lineups({ match }: Props) {
     match.lineups,
     R.flatten(),
     R.map((app) => app.name),
-    playersShortNames
+    produceShortNames
   );
 
-  const myTeamIndex = matchTeamIndex(match);
+  const myTeamIndex = getMatchTeamIndex(match);
 
   return (
     <div>

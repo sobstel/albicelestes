@@ -1,9 +1,9 @@
 import React from "react";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
-import { fetchMatches } from "db";
-import { collectPlayers } from "functions";
-import { matchItem, matchYear } from "helpers";
+import { fetchMatches } from "data";
+import { collectPlayers } from "helpers";
+import { getMatchItem, getMatchYear } from "helpers";
 import Page, { Props } from "components/Page/Matches";
 
 export default function PageContainer(props: Props) {
@@ -17,7 +17,7 @@ export async function getStaticProps(context: Context) {
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => matchYear(match) === year)
+    R.filter((match) => getMatchYear(match) === year)
   );
 
   if (!matches) {
@@ -35,7 +35,7 @@ export async function getStaticProps(context: Context) {
   return {
     props: {
       year,
-      matches: R.map(matches, matchItem),
+      matches: R.map(matches, getMatchItem),
       players,
     },
   };

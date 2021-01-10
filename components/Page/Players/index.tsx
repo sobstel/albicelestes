@@ -1,5 +1,5 @@
 import React from "react";
-import { playerName, playerCatalog, playerSlug } from "helpers";
+import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
@@ -24,9 +24,9 @@ export default function PlayersPage({ catalog, players }: Props) {
       {players && players.length > 0 && (
         <Section title="Players">
           {players.map(({ name, mp }) => {
-            const _playerName = playerName(name);
-            const slug = playerSlug(name);
-            const catalog = playerCatalog(name);
+            const _playerName = getPlayerName(name);
+            const slug = getPlayerSlug(name);
+            const catalog = getPlayerCatalog(name);
 
             return (
               <p key={slug}>

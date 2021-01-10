@@ -1,27 +1,18 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
-import { indexEvents } from "functions";
-import { TeamIndex } from "functions/indexEvents";
-import { matchTeamIndex, playersShortNames } from "helpers";
-import { Goal, Match } from "types";
+import { produceIndexedEvents } from "helpers";
+import { getMatchTeamIndex, produceShortNames } from "helpers";
+import { Match } from "types";
 import { xor } from "utility";
 import Section from "components/Layout/Section";
 import PlayerName from "components/PlayerName";
 
 type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
 
-function addScores(goals: (Goal & TeamIndex)[]) {
-  const currentScore = [0, 0];
-  return goals.map((goal) => {
-    currentScore[goal.teamIndex] += 1;
-    return { ...goal, score: [currentScore[0], currentScore[1]] };
-  });
-}
-
 export default function Goals({ match }: Props) {
   const goals = R.pipe(
     match.goals,
-    indexEvents,
+    produceIndexedEvents,
     R.flatten(),
     R.sortBy((goal) => {
       if (!goal.min) return null;
@@ -31,7 +22,13 @@ export default function Goals({ match }: Props) {
         .map((part) => part.padStart(3, "0"))
         .join("+");
     }),
-    addScores
+    (goals) => {
+      const currentScore = [0, 0];
+      return goals.map((goal) => {
+        currentScore[goal.teamIndex] += 1;
+        return { ...goal, score: [currentScore[0], currentScore[1]] };
+      });
+    }
   );
 
   if (goals.length === 0) {
@@ -42,10 +39,10 @@ export default function Goals({ match }: Props) {
     match.lineups,
     R.flatten(),
     R.map((app) => app.name),
-    playersShortNames
+    produceShortNames
   );
 
-  const myTeamIndex = matchTeamIndex(match);
+  const myTeamIndex = getMatchTeamIndex(match);
 
   const hasIncompleteData = goals.some((goal) => !goal.min);
   if (hasIncompleteData) {

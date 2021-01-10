@@ -7,8 +7,10 @@
   - [Specific rules](#specific-rules)
 - [Tech](#tech)
   - [Development](#development)
+  - [Directory structure](#directory-structure)
     - [Testing](#testing)
-    - [Console](#console)
+    - [CLI](#cli)
+      - [Console](#console)
   - [Deployment](#deployment)
   - [Other notes](#other-notes)
 
@@ -16,7 +18,7 @@
 
 ## Data
 
-Database: `/db/` (main file: `/db/matches.json`)
+Database: `/data/` (main file: `/data/matches.json`)
 
 ### General rules
 
@@ -34,7 +36,20 @@ Built with: Next, Typescript, Tailwind
 
 ### Development
 
-- `yarn now dev --listen 1986`
+- `yarn vercel dev --listen 1986`
+
+### Directory structure
+
+- components
+- pages
+- data
+- helpers
+  - collectXXX - reduce-like
+  - findXXX
+  - getXXX
+  - produceXXX - map-like
+  - filter (rejectXXX/selectXXX)
+  - sortByXXX
 
 #### Testing
 
@@ -51,9 +66,13 @@ Structure
 - Unit tests (for functions, helpers, utility; they use mocked data)
 - React component tests (they use jsdom and mocked data)
 
-#### Console
+#### CLI
 
-- `yarn console`
+`./bin/dios`
+
+##### Console
+
+- `./bin/dios console`
 
 There are `DB.*`, `F`/`functions`, `H`/`helpers`, `U`/`utility` automatically included.
 

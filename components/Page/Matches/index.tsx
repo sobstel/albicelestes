@@ -1,6 +1,6 @@
 import * as R from "remeda";
 import React from "react";
-import { playersShortNames } from "helpers";
+import { produceShortNames } from "helpers";
 import { MatchItem, PlayerItem } from "types";
 import Fixtures from "components/Fixtures";
 import PlayerName from "components/PlayerName";
@@ -20,7 +20,7 @@ export default function MatchesPage({ year, matches, players }: Props) {
     shortNames = R.pipe(
       players,
       R.map((player) => player.name),
-      playersShortNames
+      produceShortNames
     );
   }
 

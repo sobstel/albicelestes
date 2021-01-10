@@ -1,6 +1,11 @@
 import React from "react";
-import { matchDate, matchScore, matchSlug, matchYear } from "helpers";
-import { Match, MatchInfo, MatchItem } from "types";
+import {
+  getMatchDate,
+  getMatchScore,
+  getMatchSlug,
+  getMatchYear,
+} from "helpers";
+import { Match, MatchItem } from "types";
 import Layout from "components/Layout";
 import Banner from "./Banner";
 import Goals from "./Goals";
@@ -11,7 +16,7 @@ import Venue from "./Venue";
 import SeeAlso from "./SeeAlso";
 import Info from "./Info";
 import VerifiedNote from "./VerifiedNote";
-import matchTeamIndex from "helpers/matchTeamIndex";
+import getMatchTeamIndex from "helpers/getMatchTeamIndex";
 
 const title = (
   match: Pick<Match, "date" | "teams" | "score" | "competition">
@@ -19,7 +24,7 @@ const title = (
   const [homeTeam, awayTeam] = match.teams;
   return [
     `${homeTeam.name} v ${awayTeam.name} ${match.score.join("-")}`,
-    matchDate(match, { withYear: true, uppercase: false }),
+    getMatchDate(match, { withYear: true, uppercase: false }),
     match.competition,
   ];
 };
@@ -28,11 +33,10 @@ export type Props = {
   match: Match;
   prevMatch?: MatchItem;
   nextMatch?: MatchItem;
-  info?: MatchInfo;
 };
 
 function generateDescription(match: Match) {
-  const myTeamIndex = matchTeamIndex(match);
+  const myTeamIndex = getMatchTeamIndex(match);
 
   let lineupDescription = "";
   if (match.lineups[myTeamIndex]) {
@@ -42,9 +46,9 @@ function generateDescription(match: Match) {
       .concat(".");
   }
 
-  const description = `Details about ${matchScore(
+  const description = `Details about ${getMatchScore(
     match
-  )} football game played on ${matchDate(match, {
+  )} football game played on ${getMatchDate(match, {
     withYear: true,
     uppercase: false,
   })} (${match.competition}). ${lineupDescription}`.trim();
@@ -52,25 +56,20 @@ function generateDescription(match: Match) {
   return description;
 }
 
-export default function MatchPage({
-  match,
-  prevMatch,
-  nextMatch,
-  info = {},
-}: Props) {
+export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
     <Layout
       title={title(match)}
       description={generateDescription(match)}
-      canonicalPath={`/matches/${matchYear(match)}/${matchSlug(match)}`}
+      canonicalPath={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
     >
       <Banner match={match} />
       <Goals match={match} />
-      <PenaltyShootout matchInfo={info} />
+      <PenaltyShootout match={match} />
       <Lineups match={match} />
       <Cards match={match} />
       <Venue match={match} />
-      <Info matchInfo={info} />
+      <Info match={match} />
       <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
       <VerifiedNote match={match} />
     </Layout>

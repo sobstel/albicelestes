@@ -1,7 +1,7 @@
 import React from "react";
 import * as R from "remeda";
-import { fetchMatches } from "db";
-import { collectPlayers, sortByMatchesPlayed } from "functions";
+import { fetchMatches } from "data";
+import { collectPlayers, sortByMatchesPlayed } from "helpers";
 import Page, { Props } from "components/Page/Players";
 
 export default function PageContainer(props: Props) {

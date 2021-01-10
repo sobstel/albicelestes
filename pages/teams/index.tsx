@@ -1,8 +1,8 @@
 import React from "react";
 import * as R from "remeda";
 import Page from "components/Page/Teams";
-import { collectTeams, withoutSuspendedMatches } from "functions";
-import { fetchMatches } from "db";
+import { collectTeams, rejectSuspendedMatches } from "helpers";
+import { fetchMatches } from "data";
 
 export default function PageContainer(props: Parameters<typeof Page>[0]) {
   return <Page {...props} />;
@@ -11,7 +11,7 @@ export default function PageContainer(props: Parameters<typeof Page>[0]) {
 export async function getStaticProps() {
   const teams = R.pipe(
     fetchMatches(),
-    withoutSuspendedMatches,
+    rejectSuspendedMatches,
     collectTeams,
     R.sortBy((team) => team.name)
   );

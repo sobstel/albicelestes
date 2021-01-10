@@ -1,12 +1,16 @@
 import React from "react";
 import Section from "components/Layout/Section";
-import { MatchInfo } from "types";
+import { Match } from "types";
 import InfoLinks from "components/shared/InfoLinks";
 
-type Props = { matchInfo: MatchInfo };
+type Props = { match: Pick<Match, "info"> };
 
-export default function Info({ matchInfo }: Props) {
-  const { images, youtube, trivia, links } = matchInfo;
+export default function Info({ match }: Props) {
+  if (!match.info) {
+    return null;
+  }
+
+  const { images, youtube, trivia, links } = match.info;
 
   return (
     <div>

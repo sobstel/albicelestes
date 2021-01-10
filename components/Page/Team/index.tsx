@@ -5,7 +5,7 @@ import Fixtures from "components/Fixtures";
 import Competitions from "components/Competitions";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
-import { matchDate, matchScore } from "helpers";
+import { getMatchDate, getMatchScore } from "helpers";
 import { MatchItem, TeamStat } from "types";
 
 export type Props = {
@@ -36,9 +36,9 @@ function generateDescription({
     statPhrase(stat),
     lastMatch &&
       [
-        matchDate(lastMatch, { withYear: true }),
+        getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        matchScore(lastMatch),
+        getMatchScore(lastMatch),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ]).join(". ");
