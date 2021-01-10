@@ -11,7 +11,7 @@ import { Match, MatchItem } from "types";
 import { loadData, saveData } from "cli/utlity";
 import * as Golazon from "./golazon";
 
-const scopeYear = new Date().getFullYear() - 25;
+const scopeYear = new Date().getFullYear() - 10;
 const matches = loadData("matches") as Match[];
 
 const reversedRecentMatches = R.pipe(
