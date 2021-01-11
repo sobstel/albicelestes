@@ -78,11 +78,11 @@ const toGoals = async (match: Golazon.Match) => {
     return code;
   };
 
-  const convertedGoals = [[], []] as Match["goals"];
+  const convertedGoals: Match["goals"] = [[], []];
 
   for (const goal of match.goals) {
     const index = findTeamIndex(match, goal);
-    if (!index) continue;
+    if (index === false) continue;
 
     const name = await reconcilePlayer(
       goal,
@@ -113,7 +113,7 @@ const toCards = async (match: Golazon.Match) => {
 
   for (const card of match.cards) {
     const index = findTeamIndex(match, card);
-    if (!index) continue;
+    if (index === false) continue;
 
     const name = await reconcilePlayer(
       card,

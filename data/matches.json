@@ -51715,8 +51715,21 @@
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[], []],
-    "cards": [[], [{"name": "Enner Valencia", "min": "43", "type": "Y"}]],
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "13", "type": "P"}
+      ],
+      []
+    ],
+    "cards": [
+      [
+        {"name": "Leandro Paredes", "min": "21", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "78", "type": "Y"}
+      ],
+      [
+        {"name": "Enner Valencia", "min": "43", "type": "Y"}
+      ]
+    ],
     "coaches": [{"name": "Lionel Scaloni"}, {"name": "Gustavo Alfaro"}],
     "lineups": [
       [
@@ -51765,14 +51778,21 @@
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [],
+      [
+        {"name": "Marcelo Martins", "min": "24", "type": "G"}
+      ],
       [
         {"name": "Lautaro Martínez", "min": "45", "type": "G"},
         {"name": "Joaquín Correa", "min": "79", "type": "G"}
       ]
     ],
     "cards": [
-      [],
+      [
+        {"name": "Gabriel Valverde", "min": "38", "type": "Y"},
+        {"name": "José Carrasco", "min": "60", "type": "Y"},
+        {"name": "Saúl Torres", "min": "90+4", "type": "Y"},
+        {"name": "Marcelo Martins", "min": "90+8", "type": "Y"}
+      ],
       [
         {"name": "Nicolás Tagliafico", "min": "16", "type": "Y"},
         {"name": "Nicolás Domínguez", "min": "90", "type": "Y"},
@@ -51831,9 +51851,19 @@
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
     "result": "D",
-    "goals": [[], [{"name": "Ángel Romero", "min": "21", "type": "P"}]],
+    "goals": [
+      [
+        {"name": "Nicolás González", "min": "41", "type": "G"}
+      ],
+      [
+        {"name": "Ángel Romero", "min": "21", "type": "P"}
+      ]
+    ],
     "cards": [
-      [],
+      [
+        {"name": "Rodrigo De Paul", "min": "45+1", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "78", "type": "Y"}
+      ],
       [
         {"name": "Ángel Romero", "min": "30", "type": "Y"},
         {"name": "Ángel Cardozo Lucena", "min": "47", "type": "Y"},
@@ -51897,7 +51927,11 @@
       ]
     ],
     "cards": [
-      [],
+      [
+        {"name": "Pedro Aquino", "min": "29", "type": "Y"},
+        {"name": "Miguel Trauco", "min": "34", "type": "Y"},
+        {"name": "Pedro Gallese", "min": "79", "type": "Y"},
+      ],
       [
         {"name": "Nicolás Otamendi", "min": "60", "type": "Y"},
         {"name": "Giovani Lo Celso", "min": "73", "type": "Y"},
