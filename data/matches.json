@@ -51706,7 +51706,7 @@
   },
   {
     "date": "2020-10-09",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Alberto José Armando",
@@ -51771,7 +51771,7 @@
   },
   {
     "date": "2020-10-13",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Hernando Siles", "city": "La Paz"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
@@ -51842,7 +51842,7 @@
   },
   {
     "date": "2020-11-13",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Alberto José Armando",
@@ -51913,7 +51913,7 @@
   },
   {
     "date": "2020-11-18",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],

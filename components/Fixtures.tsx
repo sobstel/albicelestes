@@ -27,9 +27,8 @@ export default function Fixtures({ title, matches }: Props) {
           className="mb-2"
         >
           <p>
-            {getMatchDate(match, { withYear: true })}, {match.competition}
-          </p>
-          <p>
+            {getMatchDate(match, { withYear: true })}{" "}
+            <em>{match.competition}</em>&nbsp;
             <Link
               href="/matches/[year]/[slug]"
               as={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
