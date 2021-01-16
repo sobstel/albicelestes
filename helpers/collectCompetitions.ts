@@ -7,12 +7,13 @@ export default function collectCompetitions(
 ): string[] {
   return R.pipe(
     matches,
-    R.reject(
-      (match) =>
-        !!R.find(
-          ["Friendly", "World Cup Quals"],
+    R.reject((match) =>
+      Boolean(
+        R.find(
+          ["Friendly", "World Cup Quals", "Superclasico de las Americas"],
           (namePart) => match.competition.indexOf(namePart) !== -1
         )
+      )
     ),
     R.map((match) => `${match.competition} ${getMatchYear(match)}`),
     R.uniq()

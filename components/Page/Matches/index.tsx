@@ -41,9 +41,9 @@ export default function MatchesPage({ year, matches, players }: Props) {
               {(si > 0 || so > 0) && (
                 <>
                   {" "}
-                  ({so > 0 && `${so}↓`}
+                  ({so > 0 && `${so} out`}
                   {si > 0 && so > 0 && " "}
-                  {si > 0 && `${si}↑`})
+                  {si > 0 && `${si} in`})
                 </>
               )}
               {g > 0 && `, ${g}G`}

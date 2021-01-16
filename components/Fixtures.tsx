@@ -21,23 +21,27 @@ export default function Fixtures({ title, matches }: Props) {
 
   return (
     <Section title={title}>
-      {matches.map((match) => (
-        <div
-          key={`${getMatchYear(match)}-${getMatchSlug(match)}`}
-          className="mb-2"
-        >
-          <p>
-            {getMatchDate(match, { withYear: true })}{" "}
-            <em>{match.competition}</em>&nbsp;
-            <Link
-              href="/matches/[year]/[slug]"
-              as={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
-            >
-              {getMatchScore(match)}
-            </Link>
-          </p>
-        </div>
-      ))}
+      <table>
+        {matches.map((match) => (
+          <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
+            <td className="whitespace-nowrap align-top pr-4">
+              {getMatchDate(match, { withYear: true })}
+            </td>
+            <td className="whitespace-nowrap align-top pr-4">
+              <Link
+                href="/matches/[year]/[slug]"
+                as={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
+              >{`${match.teams[0].name} - ${match.teams[1].name}`}</Link>
+            </td>
+            <td className="align-top pr-4">
+              {getMatchScore(match, { withTeams: false })}
+            </td>
+            <td className="align-top">
+              <em>{match.competition}</em>
+            </td>
+          </tr>
+        ))}
+      </table>
     </Section>
   );
 }
