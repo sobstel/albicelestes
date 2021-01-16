@@ -2,8 +2,12 @@ import React from "react";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
-import { collectPlayers } from "helpers";
-import { getMatchItem, getMatchYear } from "helpers";
+import {
+  collectPlayers,
+  collectTeamStat,
+  getMatchItem,
+  getMatchYear,
+} from "helpers";
 import Page, { Props } from "components/Page/Matches";
 
 export default function PageContainer(props: Props) {
@@ -32,11 +36,14 @@ export async function getStaticProps(context: Context) {
     R.sortBy((player) => -player.mp)
   );
 
+  const stat = collectTeamStat(matches);
+
   return {
     props: {
       year,
       matches: R.map(matches, getMatchItem),
       players,
+      stat,
     },
   };
 }

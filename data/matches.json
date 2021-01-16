@@ -29110,7 +29110,7 @@
   },
   {
     "date": "1988-03-31",
-    "competition": "Four Nations Tournament, Berlin",
+    "competition": "Four Nations Tournament",
     "venue": {"name": "Berliner Olympiastadion, Berlin"},
     "teams": [{"name": "Argentina"}, {"name": "USSR", "slug": "russia"}],
     "score": [2, 4],
@@ -29168,7 +29168,7 @@
   },
   {
     "date": "1988-04-02",
-    "competition": "Four Nations Tournament, Berlin",
+    "competition": "Four Nations Tournament",
     "venue": {"name": "Berliner Olympiastadion, Berlin"},
     "teams": [
       {"slug": "germany", "name": "West Germany"},

@@ -1,10 +1,12 @@
 import * as R from "remeda";
+import pluralize from "pluralize";
 import React from "react";
 import { produceShortNames } from "helpers";
-import { MatchItem, PlayerItem } from "types";
+import { MatchItem, PlayerItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
 import PlayerName from "components/PlayerName";
 import Layout from "components/Layout";
+import Header from "components/Layout/Header";
 import Section from "components/Layout/Section";
 import Nav from "./Nav";
 
@@ -12,9 +14,17 @@ export type Props = {
   matches: MatchItem[];
   players: PlayerItem[];
   year: string;
+  stat: TeamStat;
 };
 
-export default function MatchesPage({ year, matches, players }: Props) {
+// SMELL: copied from Pages/Team
+function statPhrase(stat: TeamStat) {
+  return `${pluralize("match", stat.mp, true)} (${stat.mw}W ${stat.md}D ${
+    stat.ml
+  }L), goals: ${stat.gf}-${stat.ga}`;
+}
+
+export default function MatchesPage({ year, matches, players, stat }: Props) {
   let shortNames: Record<string, string> = {};
   if (players) {
     shortNames = R.pipe(
@@ -28,27 +38,43 @@ export default function MatchesPage({ year, matches, players }: Props) {
     <Layout title={["Matches", year]} canonicalPath={`/matches/${year}`}>
       <Nav year={parseInt(year, 10)} />
 
+      <Header text={`Argentina (${year})`} top />
+      <p className="mb-4">{statPhrase(stat)}</p>
+
       {matches && matches.length > 0 && (
         <Fixtures title={`Matches (${matches.length})`} matches={matches} />
       )}
 
       {players && players.length > 0 && (
         <Section title={`Players (${players.length})`}>
-          {players.map(({ name, mp, si, so, g }) => (
-            <p key={name}>
-              <PlayerName name={name} displayName={shortNames[name]} linkify />{" "}
-              {mp}
-              {(si > 0 || so > 0) && (
-                <>
-                  {" "}
-                  ({so > 0 && `${so} out`}
-                  {si > 0 && so > 0 && " "}
-                  {si > 0 && `${si} in`})
-                </>
-              )}
-              {g > 0 && `, ${g}G`}
-            </p>
-          ))}
+          <table>
+            <thead>
+              <tr>
+                <th className="text-left">NAME</th>
+                <th className="text-left">MP</th>
+                <th className="text-left">IN</th>
+                <th className="text-left">OUT</th>
+                <th className="text-left">G</th>
+              </tr>
+            </thead>
+            <tbody>
+              {players.map(({ name, mp, si, so, g }) => (
+                <tr key={name}>
+                  <td className="pr-4">
+                    <PlayerName
+                      name={name}
+                      displayName={shortNames[name]}
+                      linkify
+                    />
+                  </td>
+                  <td className="pr-4">{mp}</td>
+                  <td className="pr-4">{si > 0 && si}</td>
+                  <td className="pr-4">{so > 0 && so}</td>
+                  <td>{g > 0 && g}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </Section>
       )}
     </Layout>

@@ -20,7 +20,7 @@ export default function Layout({
   canonicalPath,
 }: Props) {
   return (
-    <div className="text-sm md:text-base leading-relaxed">
+    <div className="text-xs md:text-sm leading-relaxed">
       <Head>
         <title>
           {R.filter(title, (part) => !!part).join(" / ")} / Albicelestes

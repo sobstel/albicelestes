@@ -31,9 +31,9 @@ function NavLink({
 export default function SiteHeader() {
   return (
     <nav className="flex items-center justify-between flex-wrap py-4">
-      <div className="flex-grow text-base md:text-lg">
+      <div className="flex-grow text-sm md:text-base">
         <NavLink href="/matches/[year]" as={`/matches/${MAX_YEAR}`}>
-          Matches
+          Argentina
         </NavLink>
         <NavLink href="/players" as="/players">
           Players
