@@ -26,7 +26,7 @@ export type Props = {
 function statPhrase({ mp, si, so, g, yc, rc }: PlayerStat) {
   return R.compact([
     pluralize("match", mp, true),
-    `(↓${so} ↑${si})`,
+    `(${so} out, ${si} in)`,
     pluralize("goal", g, true),
     yc > 0 && `${yc}Y`,
     rc > 0 && `${rc}R`,

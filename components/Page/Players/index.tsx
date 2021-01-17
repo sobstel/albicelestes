@@ -22,7 +22,7 @@ export default function PlayersPage({ catalog, players }: Props) {
       <Nav catalog={catalog} />
 
       {players && players.length > 0 && (
-        <Section title="Players">
+        <Section title={catalog ? `Players (${catalog})` : "Players"}>
           {players.map(({ name, mp }) => {
             const _playerName = getPlayerName(name);
             const slug = getPlayerSlug(name);

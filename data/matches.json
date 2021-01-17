@@ -7481,7 +7481,7 @@
     "date": "1930-08-03",
     "competition": "Friendly",
     "venue": {"name": "River Plate, Buenos Aires"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
@@ -19444,7 +19444,7 @@
     "date": "1968-12-22",
     "competition": "Friendly",
     "venue": {"name": "Estadio General San Martín, Mar del Plata"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
@@ -21025,7 +21025,7 @@
     "date": "1972-07-09",
     "competition": "Independence",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
-    "teams": [{"name": "Yugoslavia"}, {"name": "Argentina"}],
+    "teams": [{"name": "Yugoslavia", "slug": "serbia"}, {"name": "Argentina"}],
     "score": [4, 2],
     "result": "L",
     "goals": [
@@ -23908,7 +23908,7 @@
     "date": "1977-07-03",
     "competition": "Friendly",
     "venue": {"name": "Boca Juniors, Buenos Aires"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Daniel Passarella", "min": "32", "type": "P"}], []],
@@ -25346,7 +25346,7 @@
     "date": "1979-09-16",
     "competition": "Friendly",
     "venue": {"name": "Crvena Zvezda Stadium, Belgrade"},
-    "teams": [{"name": "Yugoslavia"}, {"name": "Argentina"}],
+    "teams": [{"name": "Yugoslavia", "slug": "serbia"}, {"name": "Argentina"}],
     "score": [4, 2],
     "result": "L",
     "goals": [
@@ -29110,7 +29110,7 @@
   },
   {
     "date": "1988-03-31",
-    "competition": "Four Nations Tournament, Berlin",
+    "competition": "Four Nations Tournament",
     "venue": {"name": "Berliner Olympiastadion, Berlin"},
     "teams": [{"name": "Argentina"}, {"name": "USSR", "slug": "russia"}],
     "score": [2, 4],
@@ -29168,7 +29168,7 @@
   },
   {
     "date": "1988-04-02",
-    "competition": "Four Nations Tournament, Berlin",
+    "competition": "Four Nations Tournament",
     "venue": {"name": "Berliner Olympiastadion, Berlin"},
     "teams": [
       {"slug": "germany", "name": "West Germany"},
@@ -30526,7 +30526,7 @@
     "date": "1990-06-30",
     "competition": "World Cup",
     "venue": {"name": "Stadio Comunale, Florence"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [0, 0],
     "pen": [3, 2],
     "result": "W",
@@ -33173,7 +33173,7 @@
     "date": "1994-12-27",
     "competition": "Friendly",
     "venue": {"name": "River Plate, Buenos Aires"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Sebastián Rambert", "min": "21", "type": "G"}], []],
@@ -34363,7 +34363,7 @@
     "date": "1996-12-28",
     "competition": "Friendly",
     "venue": {"name": "13 July, Mar del Plata"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [2, 3],
     "result": "L",
     "goals": [
@@ -35158,7 +35158,7 @@
     "date": "1998-02-24",
     "competition": "Friendly",
     "venue": {"name": "Municipal, Mar del Plata"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia"}],
+    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
@@ -41000,7 +41000,7 @@
     "date": "2006-06-16",
     "competition": "World Cup",
     "venue": {"name": "Veltins-Arena, Gelsenkirchen"},
-    "teams": [{"name": "Argentina"}, {"name": "Serbia and Montenegro"}],
+    "teams": [{"name": "Argentina"}, {"name": "Serbia and Montenegro", "slug": "serbia"}],
     "score": [6, 0],
     "result": "W",
     "goals": [
@@ -51706,7 +51706,7 @@
   },
   {
     "date": "2020-10-09",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Alberto José Armando",
@@ -51771,7 +51771,7 @@
   },
   {
     "date": "2020-10-13",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Hernando Siles", "city": "La Paz"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
@@ -51842,7 +51842,7 @@
   },
   {
     "date": "2020-11-13",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Alberto José Armando",
@@ -51913,7 +51913,7 @@
   },
   {
     "date": "2020-11-18",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],

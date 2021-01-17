@@ -1,12 +1,12 @@
 import * as R from "remeda";
 import * as U from "utility";
-import { fetchInflections } from "data";
+import { fetchPlayerInflections } from "data";
 import { getPlayerName } from "./getPlayerName";
 
 function shortenName(name: string) {
-  const inflections = fetchInflections();
-  if (inflections[name]) {
-    return inflections[name];
+  const playerInflections = fetchPlayerInflections();
+  if (playerInflections[name]) {
+    return playerInflections[name];
   }
   return getPlayerName(name).lastName;
 }
