@@ -13,7 +13,7 @@ export default function ToggleLink({
   return (
     <Item>
       <a
-        className="text-blue-600 hover:text-blue-400 cursor-pointer"
+        className="text-link hover:text-link-hover cursor-pointer"
         onClick={onClick}
       >
         {active ? "<>" : label}

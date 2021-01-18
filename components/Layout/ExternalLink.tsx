@@ -10,7 +10,7 @@ export default function ExternalLink({
   return (
     <a
       href={href}
-      className="text-blue-600 hover:text-blue-400"
+      className="text-link hover:text-link-hover"
       target="_blank"
       rel="nofollow noopener noreferrer"
     >

@@ -1,7 +1,12 @@
 module.exports = {
   purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        link: "#4887bf",
+        "link-hover": "#6aa9df",
+      },
+    },
     screens: {
       md: "672px",
     },

@@ -35,7 +35,7 @@ export default function Info({ match }: Props) {
               <p key={image.url} className="mb-2">
                 <a
                   href={image.url}
-                  className="text-blue-600 hover:text-blue-400"
+                  className="text-link hover:text-link-hover"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

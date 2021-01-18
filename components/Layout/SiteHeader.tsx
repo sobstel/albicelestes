@@ -1,7 +1,8 @@
 import React, { ReactNode } from "react";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
-import { MAX_YEAR } from "config";
+import Link from "./Link";
+import Logo from "./Logo";
 
 function NavLink({
   href,
@@ -13,12 +14,19 @@ function NavLink({
   children: ReactNode;
 }) {
   const router = useRouter();
-  const classNames = ["inline-block", "font-semibold", "uppercase", "mr-4"];
+  const classNames = [
+    "inline-block",
+    "mr-4",
+    "font-semibold",
+    "uppercase",
+    "text-sm",
+    "md:text-base",
+  ];
 
   if (router?.pathname.startsWith(href)) {
     classNames.push("text-black");
   } else {
-    classNames.push("text-blue-600 hover:text-blue-400");
+    classNames.push("text-link hover:text-link-hover");
   }
 
   return (
@@ -30,18 +38,18 @@ function NavLink({
 
 export default function SiteHeader() {
   return (
-    <nav className="flex items-center justify-between flex-wrap py-4">
-      <div className="flex-grow text-sm md:text-base">
-        <NavLink href="/matches/[year]" as={`/matches/${MAX_YEAR}`}>
-          Argentina
-        </NavLink>
-        <NavLink href="/players" as="/players">
-          Players
-        </NavLink>
-        <NavLink href="/teams" as="/teams">
-          Teams
-        </NavLink>
+    <nav className="flex items-center py-4">
+      <div className="inline-block w-8 h-8 mr-4 hover:opacity-80">
+        <Link href="/" as="/" title="Albicelestes.com">
+          <Logo />
+        </Link>
       </div>
+      <NavLink href="/players" as="/players">
+        Players
+      </NavLink>
+      <NavLink href="/teams" as="/teams">
+        Teams
+      </NavLink>
     </nav>
   );
 }
