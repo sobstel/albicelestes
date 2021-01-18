@@ -12,7 +12,7 @@ export default function SiteFooter() {
         </p>
       </div>
       <p>
-        <Link href="/about" as="/about" rel="nofollow">
+        <Link href="/about" rel="nofollow">
           about
         </Link>
       </p>

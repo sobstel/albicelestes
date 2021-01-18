@@ -11,9 +11,7 @@ function Nav({ catalog }: { catalog?: string }) {
           return (
             <li key={_catalog} className="mr-4 inline-flex">
               {catalog !== _catalog ? (
-                <Link href="/players/[catalog]" as={`/players/${_catalog}`}>
-                  {_catalog}
-                </Link>
+                <Link href={`/players/${_catalog}`}>{_catalog}</Link>
               ) : (
                 _catalog
               )}

@@ -3,7 +3,6 @@ import NextLink from "next/link";
 
 type Props = {
   href: string;
-  as: string;
   important?: boolean;
   title?: string;
   children: ReactNode;
@@ -18,7 +17,7 @@ export default function Link(props: Props) {
   }
 
   return (
-    <NextLink href={props.href} as={props.as}>
+    <NextLink href={props.href}>
       <a className={classNames.join(" ")} title={props.title} rel={props.rel}>
         {props.children}
       </a>

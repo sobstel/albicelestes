@@ -34,8 +34,9 @@ export default function Fixtures({ title, matches }: Props) {
               </td>
               <td className="whitespace-nowrap align-top pr-4">
                 <Link
-                  href="/matches/[year]/[slug]"
-                  as={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
+                  href={`/matches/${getMatchYear(match)}/${getMatchSlug(
+                    match
+                  )}`}
                 >{`${
                   teamInflections[match.teams[0].name] ?? match.teams[0].name
                 } - ${

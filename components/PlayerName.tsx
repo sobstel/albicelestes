@@ -19,11 +19,7 @@ export default function PlayerName({
   const catalog = getPlayerCatalog(name);
 
   return (
-    <Link
-      href="/players/[catalog]/[slug]"
-      as={`/players/${catalog}/${slug}`}
-      title={name}
-    >
+    <Link href={`/players/${catalog}/${slug}`} title={name}>
       {displayName || name}
     </Link>
   );

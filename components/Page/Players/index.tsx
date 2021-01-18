@@ -31,8 +31,7 @@ export default function PlayersPage({ catalog, players }: Props) {
             return (
               <p key={slug}>
                 <Link
-                  href="/players/[catalog]/[slug]"
-                  as={`/players/${catalog}/${slug}`}
+                  href={`/players/${catalog}/${slug}`}
                   title={name}
                   important={!!mp && mp >= 20}
                 >

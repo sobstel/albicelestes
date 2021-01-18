@@ -12,11 +12,7 @@ export default function TeamsPage({ teams }: Props) {
       <Header text="Teams" />
       {teams.map(({ name, slug, mp }) => (
         <p key={slug}>
-          <Link
-            href="/teams/[slug]"
-            as={`/teams/${slug}`}
-            important={!!mp && mp >= 10}
-          >
+          <Link href={`/teams/${slug}`} important={!!mp && mp >= 10}>
             {name}
           </Link>{" "}
           ({mp})
