@@ -35,7 +35,7 @@ export default function MatchesPage({ year, matches, players, stat }: Props) {
   }
 
   return (
-    <Layout title={["Matches", year]} canonicalPath={`/matches/${year}`}>
+    <Layout title={["Matches", year]} canonicalPath={`/${year}`}>
       <Nav year={parseInt(year, 10)} />
 
       <Header text={`Argentina (${year})`} top />
@@ -50,27 +50,35 @@ export default function MatchesPage({ year, matches, players, stat }: Props) {
           <table>
             <thead>
               <tr>
-                <th className="text-left">NAME</th>
-                <th className="text-left">MP</th>
-                <th className="text-left">IN</th>
-                <th className="text-left">OUT</th>
-                <th className="text-left">G</th>
+                <th className="text-left font-semibold">Name</th>
+                <th className="pl-2 text-right font-semibold">
+                  <abbr title="Matches Played">MP</abbr>
+                </th>
+                <th className="pl-2 text-right font-semibold">
+                  <abbr title="Sub in">in</abbr>
+                </th>
+                <th className="pl-2 text-right font-semibold">
+                  <abbr title="Sub out">out</abbr>
+                </th>
+                <th className="pl-2 text-right font-semibold">
+                  <abbr title="Goals Scored">GS</abbr>
+                </th>
               </tr>
             </thead>
             <tbody>
               {players.map(({ name, mp, si, so, g }) => (
                 <tr key={name}>
-                  <td className="pr-4">
+                  <td className="text-left">
                     <PlayerName
                       name={name}
                       displayName={shortNames[name]}
                       linkify
                     />
                   </td>
-                  <td className="pr-4">{mp}</td>
-                  <td className="pr-4">{si > 0 && si}</td>
-                  <td className="pr-4">{so > 0 && so}</td>
-                  <td>{g > 0 && g}</td>
+                  <td className="pl-2 text-right">{mp}</td>
+                  <td className="pl-2 text-right">{si > 0 && si}</td>
+                  <td className="pl-2 text-right">{so > 0 && so}</td>
+                  <td className="pl-2 text-right">{g > 0 && g}</td>
                 </tr>
               ))}
             </tbody>

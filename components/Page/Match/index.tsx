@@ -61,7 +61,7 @@ export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
     <Layout
       title={title(match)}
       description={generateDescription(match)}
-      canonicalPath={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
+      canonicalPath={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
     >
       <Banner match={match} />
       <Goals match={match} />

@@ -18,10 +18,7 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
     <>
       <Section title="See also">
         <p>
-          <Link
-            href={`/matches/${year}`}
-            title={`Argentina matches in ${year}`}
-          >
+          <Link href={`/${year}`} title={`Argentina matches in ${year}`}>
             All matches in {year}
           </Link>
         </p>

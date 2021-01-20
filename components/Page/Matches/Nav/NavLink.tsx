@@ -5,7 +5,7 @@ import Item from "./Item";
 export default function NavLink({ year }: { year: number }) {
   return (
     <Item>
-      <Link href={`/matches/${year}`}>{year}</Link>
+      <Link href={`/${year}`}>{year}</Link>
     </Item>
   );
 }
