@@ -17,9 +17,10 @@ function NavLink({ href, children }: { href: string; children: ReactNode }) {
 
   if (router?.pathname.startsWith(href)) {
     classNames.push("text-black");
-  } else {
-    classNames.push("text-link hover:text-link-hover");
+    return <span className={classNames.join(" ")}>{children}</span>;
   }
+
+  classNames.push("text-link hover:text-link-hover");
 
   return (
     <NextLink href={href}>

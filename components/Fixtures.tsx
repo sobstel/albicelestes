@@ -27,31 +27,33 @@ export default function Fixtures({ title, matches }: Props) {
     <Section title={title}>
       <div className="max-w-full overflow-hidden">
         <table>
-          {matches.map((match) => (
-            <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
-              <td className="whitespace-nowrap align-top pr-4">
-                {getMatchDate(match, { withYear: true })}
-              </td>
-              <td className="whitespace-nowrap align-top pr-4">
-                <Link
-                  href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
-                >{`${
-                  teamInflections[match.teams[0].name] ?? match.teams[0].name
-                } - ${
-                  teamInflections[match.teams[1].name] ?? match.teams[1].name
-                }`}</Link>
-              </td>
-              <td className="whitespace-nowrap align-top pr-4">
-                {getMatchScore(match, { withTeams: false, short: true })}
-              </td>
-              <td className="whitespace-nowrap align-top">
-                <em>
-                  {competitionInflections[match.competition] ??
-                    match.competition}
-                </em>
-              </td>
-            </tr>
-          ))}
+          <tbody>
+            {matches.map((match) => (
+              <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
+                <td className="whitespace-nowrap align-top pr-4">
+                  {getMatchDate(match, { withYear: true })}
+                </td>
+                <td className="whitespace-nowrap align-top pr-4">
+                  <Link
+                    href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
+                  >{`${
+                    teamInflections[match.teams[0].name] ?? match.teams[0].name
+                  } - ${
+                    teamInflections[match.teams[1].name] ?? match.teams[1].name
+                  }`}</Link>
+                </td>
+                <td className="whitespace-nowrap align-top pr-4">
+                  {getMatchScore(match, { withTeams: false, short: true })}
+                </td>
+                <td className="whitespace-nowrap align-top">
+                  <em>
+                    {competitionInflections[match.competition] ??
+                      match.competition}
+                  </em>
+                </td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     </Section>

@@ -38,7 +38,15 @@ export default function MatchesPage({ year, matches, players, stat }: Props) {
     <Layout title={["Matches", year]} canonicalPath={`/${year}`}>
       <Nav year={parseInt(year, 10)} />
 
-      <Header text={`Argentina (${year})`} top />
+      <Header
+        text={`${year}`}
+        top
+        nav={[
+          { text: "matches", href: `/${year}` },
+          { text: "caps", href: `/${year}/caps` },
+          { text: "stats", href: `/${year}/stats` },
+        ]}
+      />
       <p className="mb-4">{statPhrase(stat)}</p>
 
       {matches && matches.length > 0 && (

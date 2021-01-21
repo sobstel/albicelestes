@@ -9,7 +9,7 @@ type Props = {
   rel?: string;
 };
 
-export default function Link(props: Props) {
+export default function wLink(props: Props) {
   const classNames = ["text-link", "hover:text-link-hover"];
 
   if (props.important) {

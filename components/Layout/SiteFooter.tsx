@@ -4,14 +4,14 @@ import ExternalLink from "components/Layout/ExternalLink";
 
 export default function SiteFooter() {
   return (
-    <footer className="opacity-75 text-xs py-4 flex justify-between">
+    <footer className="opacity-75 text-xs py-4 flex">
       <div className="flex items-center">
         <p>
           created by{" "}
           <ExternalLink href="https://www.sobstel.org">sopel</ExternalLink>
         </p>
       </div>
-      <p>
+      <p className="ml-4">
         <Link href="/about" rel="nofollow">
           about
         </Link>

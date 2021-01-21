@@ -2,7 +2,6 @@ import React, { ReactNode } from "react";
 import * as R from "remeda";
 import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
-import { BASE_URL } from "config";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
 
@@ -27,9 +26,7 @@ export default function Layout({
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
         {description && <meta name="description" content={description} />}
-        {canonicalPath && (
-          <link rel="canonical" href={`${BASE_URL}${canonicalPath}`} />
-        )}
+        {canonicalPath && <link rel="canonical" href={canonicalPath} />}
       </Head>
 
       <NextNprogress
@@ -42,7 +39,7 @@ export default function Layout({
       <div className="max-w-2xl m-auto px-3 font-mono antialiased">
         <SiteHeader />
 
-        <div className="py-4 -mx-1 px-1 border-t border-b border-gray-300">
+        <div className="-mx-1 px-1">
           <div>{children}</div>
         </div>
 
