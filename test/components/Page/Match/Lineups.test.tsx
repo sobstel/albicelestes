@@ -36,16 +36,16 @@ describe(Lineups, () => {
       expect(headers[1].textContent).toEqual("Uruguay (unknown)");
     });
 
-    const lineupDivs = container.querySelectorAll("div h2 + div");
+    const lineupSections = container.querySelectorAll("section");
 
     test("renders home team lineup", () => {
-      expect(lineupDivs[0].textContent).toEqual(
+      expect(lineupSections[0].textContent).toContain(
         "Romero, Ayala, Sorín, Crespo (70' Batistuta), Saviola"
       );
     });
 
     test("renders away team lineup", () => {
-      expect(lineupDivs[1].textContent).toEqual(
+      expect(lineupSections[1].textContent).toContain(
         "Godín, Forlán (46' Cavani) (80' Suárez), Cáceres"
       );
     });

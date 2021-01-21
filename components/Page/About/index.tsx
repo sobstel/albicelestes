@@ -30,19 +30,6 @@ export default function AboutPage(props: Props) {
         <p>Rival teams: {stat.teamsTotal}</p>
       </Section>
 
-      <Section title="See also">
-        <p>
-          <ExternalLink href="https://github.com/sobstel/albicelestes">
-            github
-          </ExternalLink>
-        </p>
-        <p>
-          <ExternalLink href="https://twitter.com/albicelestescom">
-            twitter
-          </ExternalLink>
-        </p>
-      </Section>
-
       <Section title="Sources">
         {Object.keys(bibliography).map((key) => {
           const item = bibliography[key];
@@ -52,6 +39,25 @@ export default function AboutPage(props: Props) {
             </p>
           );
         })}
+      </Section>
+
+      <Section title="See also">
+        <p>
+          <ExternalLink href="https://github.com/sobstel/albicelestes">
+            Source code at GitHub
+          </ExternalLink>
+        </p>
+        <p>
+          <ExternalLink href="https://twitter.com/albicelestescom">
+            Twitter profile
+          </ExternalLink>
+        </p>
+      </Section>
+
+      <Section title="Created and maintained by">
+        <p>
+          <ExternalLink href="https://www.sobstel.org">Sopel</ExternalLink>
+        </p>
       </Section>
     </Layout>
   );

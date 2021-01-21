@@ -2,12 +2,7 @@ import * as R from "remeda";
 import React from "react";
 import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
-import {
-  getMatchDate,
-  getMatchScore,
-  getPlayerCatalog,
-  getPlayerSlug,
-} from "helpers";
+import { getMatchDate, getMatchScore } from "helpers";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
 import Fixtures from "components/Fixtures";
@@ -63,9 +58,6 @@ export default function PlayerPage({
     <Layout
       title={[name]}
       description={generateDescription({ name, stat, matches })}
-      canonicalPath={`/players/${getPlayerCatalog(name)}/${getPlayerSlug(
-        name
-      )}`}
     >
       <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>

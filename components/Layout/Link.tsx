@@ -3,17 +3,20 @@ import NextLink from "next/link";
 
 type Props = {
   href: string;
+  children: ReactNode;
   important?: boolean;
   title?: string;
-  children: ReactNode;
   rel?: string;
+  active?: boolean;
 };
 
 export default function Link(props: Props) {
-  const classNames = ["text-link", "hover:text-link-hover"];
+  const classNames = props.active
+    ? ["text-black"]
+    : ["text-link", "hover:text-link-hover"];
 
   if (props.important) {
-    classNames.push("font-bold");
+    classNames.push("font-semibold");
   }
 
   return (

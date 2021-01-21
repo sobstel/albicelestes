@@ -1,12 +1,8 @@
 import React from "react";
-import {
-  getMatchDate,
-  getMatchScore,
-  getMatchSlug,
-  getMatchYear,
-} from "helpers";
+import { getMatchDate, getMatchScore } from "helpers";
 import { Match, MatchItem } from "types";
 import Layout from "components/Layout";
+import Section from "components/Layout/Section";
 import Banner from "./Banner";
 import Goals from "./Goals";
 import Cards from "./Cards";
@@ -58,20 +54,18 @@ function generateDescription(match: Match) {
 
 export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
-    <Layout
-      title={title(match)}
-      description={generateDescription(match)}
-      canonicalPath={`/matches/${getMatchYear(match)}/${getMatchSlug(match)}`}
-    >
-      <Banner match={match} />
-      <Goals match={match} />
-      <PenaltyShootout match={match} />
-      <Lineups match={match} />
-      <Cards match={match} />
-      <Venue match={match} />
-      <Info match={match} />
-      <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
-      <VerifiedNote match={match} />
+    <Layout title={title(match)} description={generateDescription(match)}>
+      <Section>
+        <Banner match={match} />
+        <Goals match={match} />
+        <PenaltyShootout match={match} />
+        <Lineups match={match} />
+        <Cards match={match} />
+        <Venue match={match} />
+        <Info match={match} />
+        <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
+        <VerifiedNote match={match} />
+      </Section>
     </Layout>
   );
 }

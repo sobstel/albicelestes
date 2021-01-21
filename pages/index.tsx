@@ -1,1 +1,1 @@
-export { default, getStaticProps } from "./matches/[year]";
+export { default, getStaticProps } from "./[year]";

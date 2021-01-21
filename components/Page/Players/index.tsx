@@ -3,6 +3,7 @@ import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";
 import Link from "components/Layout/Link";
+import Separator from "components/Layout/Separator";
 import Nav from "./Nav";
 import { PlayerItem } from "types";
 
@@ -20,9 +21,10 @@ export default function PlayersPage({ catalog, players }: Props) {
   return (
     <Layout title={titleParts}>
       <Nav catalog={catalog} />
+      <Separator />
 
       {players && players.length > 0 && (
-        <Section title={catalog ? `Players (${catalog})` : "Players"}>
+        <Section>
           {players.map(({ name, mp }) => {
             const _playerName = getPlayerName(name);
             const slug = getPlayerSlug(name);

@@ -2,23 +2,17 @@ import React, { ReactNode } from "react";
 import * as R from "remeda";
 import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
-import { BASE_URL } from "config";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
+import Separator from "./Separator";
 
 type Props = {
   children: ReactNode;
   title: string[];
   description?: string;
-  canonicalPath?: string;
 };
 
-export default function Layout({
-  children,
-  title,
-  description,
-  canonicalPath,
-}: Props) {
+export default function Layout({ children, title, description }: Props) {
   return (
     <div className="text-xs md:text-sm leading-relaxed">
       <Head>
@@ -27,9 +21,6 @@ export default function Layout({
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
         {description && <meta name="description" content={description} />}
-        {canonicalPath && (
-          <link rel="canonical" href={`${BASE_URL}${canonicalPath}`} />
-        )}
       </Head>
 
       <NextNprogress
@@ -41,11 +32,9 @@ export default function Layout({
 
       <div className="max-w-2xl m-auto px-3 font-mono antialiased">
         <SiteHeader />
-
-        <div className="py-4 -mx-1 px-1 border-t border-b border-gray-300">
-          <div>{children}</div>
-        </div>
-
+        <Separator />
+        <div className="-mx-1 px-1">{children}</div>
+        <Separator />
         <SiteFooter />
       </div>
     </div>

@@ -44,19 +44,12 @@ function generateDescription({
   ]).join(". ");
 }
 
-export default function TeamPage({
-  slug,
-  name,
-  matches,
-  competitions,
-  stat,
-}: Props) {
+export default function TeamPage({ name, matches, competitions, stat }: Props) {
   const title = `Argentina v ${name}`;
   return (
     <Layout
       title={[title, "Head-to-Head"]}
       description={generateDescription({ name, stat, matches })}
-      canonicalPath={`/teams/${slug}`}
     >
       <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
