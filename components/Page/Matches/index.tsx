@@ -8,6 +8,7 @@ import PlayerName from "components/PlayerName";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
 import Section from "components/Layout/Section";
+import Separator from "components/Layout/Separator";
 import Nav from "./Nav";
 
 export type Props = {
@@ -37,6 +38,7 @@ export default function MatchesPage({ year, matches, players, stat }: Props) {
   return (
     <Layout title={["Matches", year]} canonicalPath={`/${year}`}>
       <Nav year={parseInt(year, 10)} />
+      <Separator />
 
       <Header
         text={`${year}`}

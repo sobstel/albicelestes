@@ -22,7 +22,7 @@ export default function Header({ text, top, nav }: Props) {
   const Hx = top ? "h1" : "h2";
   const className = top ? "" : "";
   return (
-    <div className="flex items-center font-semibold uppercase mb-4">
+    <div className="flex items-center font-semibold uppercase my-4">
       <Hx className={className}>{text}</Hx>
       {nav && (
         <>

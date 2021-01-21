@@ -7,6 +7,7 @@ import {
 } from "helpers";
 import { Match, MatchItem } from "types";
 import Layout from "components/Layout";
+import Section from "components/Layout/Section";
 import Banner from "./Banner";
 import Goals from "./Goals";
 import Cards from "./Cards";
@@ -63,15 +64,17 @@ export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
       description={generateDescription(match)}
       canonicalPath={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
     >
-      <Banner match={match} />
-      <Goals match={match} />
-      <PenaltyShootout match={match} />
-      <Lineups match={match} />
-      <Cards match={match} />
-      <Venue match={match} />
-      <Info match={match} />
-      <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
-      <VerifiedNote match={match} />
+      <Section>
+        <Banner match={match} />
+        <Goals match={match} />
+        <PenaltyShootout match={match} />
+        <Lineups match={match} />
+        <Cards match={match} />
+        <Venue match={match} />
+        <Info match={match} />
+        <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
+        <VerifiedNote match={match} />
+      </Section>
     </Layout>
   );
 }

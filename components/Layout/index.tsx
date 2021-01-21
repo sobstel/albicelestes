@@ -4,6 +4,7 @@ import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
+import Separator from "./Separator";
 
 type Props = {
   children: ReactNode;
@@ -38,11 +39,9 @@ export default function Layout({
 
       <div className="max-w-2xl m-auto px-3 font-mono antialiased">
         <SiteHeader />
-
-        <div className="-mx-1 px-1">
-          <div>{children}</div>
-        </div>
-
+        <Separator />
+        <div className="-mx-1 px-1">{children}</div>
+        <Separator />
         <SiteFooter />
       </div>
     </div>

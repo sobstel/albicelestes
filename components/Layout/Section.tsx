@@ -9,9 +9,9 @@ type Props = {
 
 export default function Section({ title, children, top }: Props) {
   return (
-    <div className="mb-4">
+    <section className="my-4">
       {title && <Header text={title} top={top} />}
       <div>{children}</div>
-    </div>
+    </section>
   );
 }
