@@ -10,15 +10,9 @@ type Props = {
   children: ReactNode;
   title: string[];
   description?: string;
-  canonicalPath?: string;
 };
 
-export default function Layout({
-  children,
-  title,
-  description,
-  canonicalPath,
-}: Props) {
+export default function Layout({ children, title, description }: Props) {
   return (
     <div className="text-xs md:text-sm leading-relaxed">
       <Head>
@@ -27,7 +21,6 @@ export default function Layout({
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
         {description && <meta name="description" content={description} />}
-        {canonicalPath && <link rel="canonical" href={canonicalPath} />}
       </Head>
 
       <NextNprogress

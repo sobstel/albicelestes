@@ -14,14 +14,14 @@ export type FixtureMatch = MatchItem;
 
 type Props = {
   title?: string;
-  matches: FixtureMatch[];
+  matches?: FixtureMatch[];
 };
 
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
 export default function Fixtures({ title, matches }: Props) {
-  if (matches.length === 0) return null;
+  if (!matches?.length) return null;
 
   return (
     <Section title={title}>

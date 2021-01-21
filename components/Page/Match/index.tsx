@@ -59,11 +59,7 @@ function generateDescription(match: Match) {
 
 export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
-    <Layout
-      title={title(match)}
-      description={generateDescription(match)}
-      canonicalPath={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
-    >
+    <Layout title={title(match)} description={generateDescription(match)}>
       <Section>
         <Banner match={match} />
         <Goals match={match} />

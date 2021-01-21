@@ -63,9 +63,6 @@ export default function PlayerPage({
     <Layout
       title={[name]}
       description={generateDescription({ name, stat, matches })}
-      canonicalPath={`/players/${getPlayerCatalog(name)}/${getPlayerSlug(
-        name
-      )}`}
     >
       <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>
