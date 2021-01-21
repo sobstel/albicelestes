@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  getMatchDate,
-  getMatchScore,
-  getMatchSlug,
-  getMatchYear,
-} from "helpers";
+import { getMatchDate, getMatchScore } from "helpers";
 import { Match, MatchItem } from "types";
 import Layout from "components/Layout";
 import Section from "components/Layout/Section";
