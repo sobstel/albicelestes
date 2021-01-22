@@ -6,14 +6,12 @@ import { getMatchDate, getMatchScore } from "helpers";
 import Layout from "components/Layout";
 import Header from "components/Layout/Header";
 import Fixtures from "components/Fixtures";
-import Competitions from "components/Competitions";
 import Info from "./Info";
 
 export type Props = {
   slug: string;
   name: string;
   stat: PlayerStat;
-  competitions: string[];
   matches: MatchItem[];
   info: PlayerInfo;
 };
@@ -47,13 +45,7 @@ function generateDescription({
   ].join(". ");
 }
 
-export default function PlayerPage({
-  name,
-  stat,
-  competitions,
-  matches,
-  info,
-}: Props) {
+export default function PlayerPage({ name, stat, matches, info }: Props) {
   return (
     <Layout
       title={[name]}
@@ -61,8 +53,7 @@ export default function PlayerPage({
     >
       <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>
-      <Competitions names={competitions} />
-      <Fixtures title="Matches" matches={matches} />
+      <Fixtures matches={matches} />
       <Info info={info} />
     </Layout>
   );

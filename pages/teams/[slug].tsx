@@ -1,12 +1,7 @@
 import React from "react";
 import * as R from "remeda";
 import { fetchMatches } from "data";
-import {
-  collectCompetitions,
-  findTeamName,
-  collectTeams,
-  collectTeamStat,
-} from "helpers";
+import { findTeamName, collectTeams, collectTeamStat } from "helpers";
 import { getMatchItem, getTeamSlug } from "helpers";
 import Page, { Props } from "components/Page/Team";
 
@@ -26,14 +21,12 @@ export async function getStaticProps(context: Context) {
     )
   );
   const name = findTeamName(matches, slug);
-  const competitions = collectCompetitions(matches);
   const stat = collectTeamStat(matches);
 
   return {
     props: {
       slug,
       name,
-      competitions,
       matches: matches.map(getMatchItem),
       stat,
     },

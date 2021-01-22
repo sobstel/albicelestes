@@ -11,7 +11,6 @@ import {
   getPlayerSlug,
 } from "helpers";
 import {
-  collectCompetitions,
   collectPlayerStat,
   collectPlayers,
   findNearestPlayerSlug,
@@ -55,7 +54,6 @@ export async function getStaticProps(context: Context) {
   );
 
   const name = findPlayerName(playerMatches, slug);
-  const competitions = collectCompetitions(playerMatches);
   const stat = collectPlayerStat(playerMatches, slug);
   const info = fetchPlayerInfo(name, slug);
 
@@ -64,7 +62,6 @@ export async function getStaticProps(context: Context) {
       slug,
       name,
       matches: playerMatches.map(getMatchItem),
-      competitions,
       stat,
       info,
       errorCode: null,
