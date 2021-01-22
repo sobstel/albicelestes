@@ -8,17 +8,8 @@ type Props = {
   nav?: NavLinkProps[];
 };
 
-type NavLinkProps = { href: string; text: string };
-
-const NavLink = ({ href, text }: NavLinkProps) => {
-  const router = useRouter();
-  if (router.asPath === href) {
-    return <>{text}</>;
-  }
-  return <Link href={href}>{text}</Link>;
-};
-
 export default function Header({ text, top, nav }: Props) {
+  const router = useRouter();
   const Hx = top ? "h1" : "h2";
   const className = top ? "" : "";
   return (
@@ -30,7 +21,9 @@ export default function Header({ text, top, nav }: Props) {
           <ul className="inline-flex">
             {nav.map(({ href, text }) => (
               <li key={href} className="ml-2">
-                <NavLink href={href} text={text} />
+                <Link href={href} active={router.asPath === href}>
+                  {text}
+                </Link>
               </li>
             ))}
           </ul>
