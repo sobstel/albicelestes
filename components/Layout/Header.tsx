@@ -5,7 +5,7 @@ import Link from "./Link";
 type Props = {
   text: string;
   top?: boolean;
-  nav?: NavLinkProps[];
+  nav?: { href: string; text: string }[];
 };
 
 export default function Header({ text, top, nav }: Props) {
@@ -18,15 +18,17 @@ export default function Header({ text, top, nav }: Props) {
       {nav && (
         <>
           &nbsp;{">"}
-          <ul className="inline-flex">
-            {nav.map(({ href, text }) => (
-              <li key={href} className="ml-2">
-                <Link href={href} active={router.asPath === href}>
-                  {text}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <nav>
+            <ul className="inline-flex">
+              {nav.map(({ href, text }) => (
+                <li key={href} className="ml-2">
+                  <Link href={href} active={router.asPath === href}>
+                    {text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </>
       )}
     </div>

@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Link from "./Link";
 import Logo from "./Logo";
 
+// TODO: use our link
 function NavLink({ href, children }: { href: string; children: ReactNode }) {
   const router = useRouter();
   const classNames = [
@@ -30,14 +31,22 @@ function NavLink({ href, children }: { href: string; children: ReactNode }) {
 
 export default function SiteHeader() {
   return (
-    <nav className="flex items-center py-4">
-      <div className="inline-block w-8 h-8 mr-4 hover:opacity-80">
-        <Link href="/" title="Albicelestes.com">
-          <Logo />
-        </Link>
-      </div>
-      <NavLink href="/players">Players</NavLink>
-      <NavLink href="/teams">Teams</NavLink>
+    <nav>
+      <ul className="inline-flex items-center py-4">
+        <li>
+          <div className="inline-block w-8 h-8 mr-4 hover:opacity-80">
+            <Link href="/" title="Albicelestes.com">
+              <Logo />
+            </Link>
+          </div>
+        </li>
+        <li>
+          <NavLink href="/players">Players</NavLink>
+        </li>
+        <li>
+          <NavLink href="/teams">Teams</NavLink>
+        </li>
+      </ul>
     </nav>
   );
 }
