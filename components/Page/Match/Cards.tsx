@@ -3,7 +3,7 @@ import * as R from "remeda";
 import { produceIndexedEvents, produceShortNames } from "helpers";
 import { getMatchTeamIndex } from "helpers";
 import { Match } from "types";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 
 type Props = { match: Pick<Match, "cards" | "lineups" | "teams"> };
@@ -30,7 +30,8 @@ export default function Cards({ match }: Props) {
   const myTeamIndex = getMatchTeamIndex(match);
 
   return (
-    <Section title="Cards">
+    <Block>
+      <Header text="Cards" />
       {cards.map((card, index) => (
         <Fragment key={index}>
           {index > 0 && ", "}
@@ -42,6 +43,6 @@ export default function Cards({ match }: Props) {
           {card.min && `${card.min}'`} {card.type && `(${card.type})`}
         </Fragment>
       ))}
-    </Section>
+    </Block>
   );
 }

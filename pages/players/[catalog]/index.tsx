@@ -4,7 +4,7 @@ import slugify from "slugify";
 import { fetchMatches } from "data";
 import { collectPlayers, getPlayerName, getPlayerCatalog } from "helpers";
 import Page, { Props } from "components/Page/Players";
-import { ALPHABET } from "components/Page/Players/Nav";
+import { ALPHABET } from "components/PlayersNav";
 
 export default function PageContainer(props: Props) {
   return <Page {...props} />;

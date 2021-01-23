@@ -2,33 +2,34 @@
 import React, { ReactNode, forwardRef } from "react";
 
 type Props = {
-  children: ReactNode;
-  topSeparator?: boolean;
-  bottomSeparator?: boolean;
+  isNav?: boolean;
+  hasTopSeparator?: boolean;
+  hasBottomSeparator?: boolean;
   className?: string;
-  nav?: boolean;
+  header?: string | ReactNode;
+  children: ReactNode;
 };
 
 function Block(
-  { children, topSeparator, bottomSeparator, className, nav }: Props,
+  { children, hasTopSeparator, hasBottomSeparator, className, isNav }: Props,
   ref: unknown
 ) {
   let wrapperElement = "section";
-  if (nav) wrapperElement = "nav";
+  if (isNav) wrapperElement = "nav";
 
   const classNames: string[] = className?.split(" ") ?? [];
 
   classNames.push("my-4");
 
-  if (topSeparator || bottomSeparator) {
+  if (hasTopSeparator || hasBottomSeparator) {
     classNames.push("border-dashed", "border-gray-300");
   }
 
-  if (topSeparator) {
+  if (hasTopSeparator) {
     classNames.push("border-t", "pt-4");
   }
 
-  if (bottomSeparator) {
+  if (hasBottomSeparator) {
     classNames.push("border-b", "pb-4");
   }
 

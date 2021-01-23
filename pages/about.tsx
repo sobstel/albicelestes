@@ -3,8 +3,7 @@ import React from "react";
 import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "helpers";
 import { Bibliography } from "types";
-import { Page, LinkAnchor } from "components/Layout";
-import Section from "components/Layout/Section";
+import { Page, Block, Header, LinkAnchor } from "components/layout";
 
 export async function getStaticProps() {
   const matches = fetchMatches();
@@ -44,19 +43,20 @@ export default function PageContainer(props: Props) {
   const { stat, bibliography } = props;
   return (
     <Page title={["About"]}>
-      <Section title="About">
-        <p>Argentina football national team database</p>
-      </Section>
+      <Header top text="About" />
+      <p>Argentina football national team database</p>
 
-      <Section title="Status">
+      <Block>
+        <Header text="Status" />
         <p>
           Matches: {stat.matchesTotal} (verified: {stat.matchesVerified})
         </p>
         <p>Argentina players: {stat.playersTotal}</p>
         <p>Rival teams: {stat.teamsTotal}</p>
-      </Section>
+      </Block>
 
-      <Section title="Sources">
+      <Block>
+        <Header text="Sources" />
         {Object.keys(bibliography).map((key) => {
           const item = bibliography[key];
           return (
@@ -65,13 +65,14 @@ export default function PageContainer(props: Props) {
             </p>
           );
         })}
-      </Section>
+      </Block>
 
-      <Section title="Created and maintained by">
+      <Block>
+        <Header text="Created and maintained by" />
         <p>
           <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
         </p>
-      </Section>
+      </Block>
     </Page>
   );
 }

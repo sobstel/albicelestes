@@ -7,24 +7,26 @@ import {
 } from "helpers";
 import { MatchItem } from "types";
 import { fetchTeamInflections, fetchCompetitionInflections } from "data";
-import Section from "./Layout/Section";
-import { LinkAnchor } from "./Layout";
+import { Block, Header, LinkAnchor } from "./layout";
 
 export type FixtureMatch = MatchItem;
 
 type Props = {
-  title?: string;
+  title?: string; // DEPREACTED
   matches?: FixtureMatch[];
+  headerText?: string;
 };
 
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
-export default function Fixtures({ title, matches }: Props) {
+export default function Fixtures({ title, matches, headerText }: Props) {
   if (!matches?.length) return null;
 
   return (
-    <Section title={title}>
+    <Block>
+      {headerText && <Header text={headerText} />}
+      {title && <Header text={title} />}
       <div className="max-w-full overflow-hidden">
         <table>
           <tbody>
@@ -56,6 +58,6 @@ export default function Fixtures({ title, matches }: Props) {
           </tbody>
         </table>
       </div>
-    </Section>
+    </Block>
   );
 }

@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { useRouter } from "next/router";
-import { Block, LinkAnchor } from "components/Layout";
+import { Block, LinkAnchor } from "components/layout";
 import Logo from "./Logo";
 
 // TODO: use our link
@@ -18,7 +18,7 @@ function NavLink({ href, children }: { href: string; children: ReactNode }) {
 export default function PageHeader() {
   return (
     <header>
-      <Block nav bottomSeparator className="flex">
+      <Block isNav hasBottomSeparator className="flex">
         <ul className="inline-flex items-center uppercase text-sm md:text-base">
           <li className="w-8 h-8 mr-4 hover:opacity-80">
             <LinkAnchor href="/" title="Albicelestes.com">

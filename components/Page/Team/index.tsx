@@ -2,8 +2,7 @@ import * as R from "remeda";
 import pluralize from "pluralize";
 import React from "react";
 import Fixtures from "components/Fixtures";
-import Layout from "components/Layout/Page";
-import Header from "components/Layout/Header";
+import { Page, Header } from "components/layout";
 import { getMatchDate, getMatchScore } from "helpers";
 import { MatchItem, TeamStat } from "types";
 
@@ -46,13 +45,13 @@ function generateDescription({
 export default function TeamPage({ name, matches, stat }: Props) {
   const title = `Argentina v ${name}`;
   return (
-    <Layout
+    <Page
       title={[title, "Head-to-Head"]}
       description={generateDescription({ name, stat, matches })}
     >
       <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
       <Fixtures matches={matches} />
-    </Layout>
+    </Page>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { LinkAnchor } from "components/Layout";
+import { LinkAnchor } from "components/layout";
 
 type Props = {
   text: string;
@@ -11,10 +11,15 @@ type Props = {
 export default function Header({ text, top, nav }: Props) {
   const router = useRouter();
   const Hx = top ? "h1" : "h2";
-  const className = top ? "" : "";
+
+  // TODO: return header if no navigation
+  if (!nav) {
+    return <Hx className="font-semibold uppercase my-4">{text}</Hx>;
+  }
+
   return (
     <div className="flex items-center font-semibold uppercase my-4">
-      <Hx className={className}>{text}</Hx>
+      <Hx>{text}</Hx>
       {nav && (
         <>
           &nbsp;{">"}

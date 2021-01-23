@@ -1,7 +1,6 @@
 import React from "react";
-
 import * as R from "remeda";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 import { Match, PenScore } from "types";
 import { produceShortNames } from "helpers";
@@ -28,7 +27,8 @@ export default function PenaltyShootout({ match }: Props) {
   );
 
   return (
-    <Section title="Penalty shootout">
+    <Block>
+      <Header text="Penalty shootout" />
       {penaltyShootout.map((pen, index) => (
         <>
           {index > 0 && ", "}
@@ -40,6 +40,6 @@ export default function PenaltyShootout({ match }: Props) {
           ({score(pen.score)})
         </>
       ))}
-    </Section>
+    </Block>
   );
 }

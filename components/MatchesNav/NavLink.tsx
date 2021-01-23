@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkAnchor } from "components/Layout";
+import { LinkAnchor } from "components/layout";
 import Item from "./Item";
 
 export default function NavLink({ year }: { year: number }) {

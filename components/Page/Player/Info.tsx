@@ -1,13 +1,16 @@
 import React from "react";
 import { PlayerInfo } from "types";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import InfoLinks from "components/shared/InfoLinks";
 
 export default function Info({ info }: { info: PlayerInfo }) {
   return (
     <>
       {info.nicknames && (
-        <Section title="Nickname(s)">{info.nicknames.join(", ")}</Section>
+        <Block>
+          <Header text="Nickname(s)" />
+          {info.nicknames.join(", ")}
+        </Block>
       )}
       <InfoLinks links={info.links} />
     </>

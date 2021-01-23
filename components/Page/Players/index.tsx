@@ -1,9 +1,7 @@
 import React from "react";
 import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
-import Layout from "components/Layout/Page";
-import Section from "components/Layout/Section";
-import { LinkAnchor } from "components/Layout";
-import Nav from "./Nav";
+import { Page, Block, LinkAnchor } from "components/layout";
+import PlayersNav from "components/PlayersNav";
 import { PlayerItem } from "types";
 
 export type Props = {
@@ -18,11 +16,11 @@ export default function PlayersPage({ catalog, players }: Props) {
   }
 
   return (
-    <Layout title={titleParts}>
-      <Nav catalog={catalog} />
+    <Page title={titleParts}>
+      <PlayersNav catalog={catalog} />
 
       {players && players.length > 0 && (
-        <Section>
+        <Block>
           {players.map(({ name, mp }) => {
             const _playerName = getPlayerName(name);
             const slug = getPlayerSlug(name);
@@ -44,8 +42,8 @@ export default function PlayersPage({ catalog, players }: Props) {
               </p>
             );
           })}
-        </Section>
+        </Block>
       )}
-    </Layout>
+    </Page>
   );
 }

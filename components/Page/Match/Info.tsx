@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import { Match } from "types";
 import InfoLinks from "components/shared/InfoLinks";
 
@@ -15,7 +15,8 @@ export default function Info({ match }: Props) {
   return (
     <div>
       {youtube && (
-        <Section title="Videos">
+        <Block>
+          <Header text="Videos" />
           {youtube.map((video) => (
             <div key={video.id} className="mb-2 _video-container">
               <iframe
@@ -26,10 +27,11 @@ export default function Info({ match }: Props) {
               />
             </div>
           ))}
-        </Section>
+        </Block>
       )}
       {images && (
-        <Section title="Photos">
+        <Block>
+          <Header text="Photos" />
           {images.map((image) => {
             return (
               <p key={image.url} className="mb-2">
@@ -44,16 +46,17 @@ export default function Info({ match }: Props) {
               </p>
             );
           })}
-        </Section>
+        </Block>
       )}
       {trivia && (
-        <Section title="Trivia">
+        <Block>
+          <Header text="Trivia" />
           {trivia.map((text) => (
             <p key={text} className="mb-4">
               {text}
             </p>
           ))}
-        </Section>
+        </Block>
       )}
       <InfoLinks links={links} />
     </div>

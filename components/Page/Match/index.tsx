@@ -1,9 +1,7 @@
 import React from "react";
 import { getMatchDate, getMatchScore } from "helpers";
 import { Match, MatchItem } from "types";
-import Layout from "components/Layout/Page";
-import Section from "components/Layout/Section";
-import Banner from "./Banner";
+import { Page, Header } from "components/layout";
 import Goals from "./Goals";
 import Cards from "./Cards";
 import Lineups from "./Lineups";
@@ -54,18 +52,19 @@ function generateDescription(match: Match) {
 
 export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
-    <Layout title={title(match)} description={generateDescription(match)}>
-      <Section>
-        <Banner match={match} />
-        <Goals match={match} />
-        <PenaltyShootout match={match} />
-        <Lineups match={match} />
-        <Cards match={match} />
-        <Venue match={match} />
-        <Info match={match} />
-        <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
-        <VerifiedNote match={match} />
-      </Section>
-    </Layout>
+    <Page title={title(match)} description={generateDescription(match)}>
+      <Header text={getMatchScore(match)} top />
+      <p>
+        {getMatchDate(match, { withYear: true })}, {match.competition}
+      </p>
+      <Goals match={match} />
+      <PenaltyShootout match={match} />
+      <Lineups match={match} />
+      <Cards match={match} />
+      <Venue match={match} />
+      <Info match={match} />
+      <SeeAlso match={match} prevMatch={prevMatch} nextMatch={nextMatch} />
+      <VerifiedNote match={match} />
+    </Page>
   );
 }

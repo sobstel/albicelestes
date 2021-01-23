@@ -1,15 +1,13 @@
 import React from "react";
 import { TeamItem } from "types";
-import Layout from "components/Layout/Page";
-import { LinkAnchor } from "components/Layout";
-import Section from "components/Layout/Section";
+import { Page, Block, LinkAnchor } from "components/layout";
 
 type Props = { teams: TeamItem[] };
 
 export default function TeamsPage({ teams }: Props) {
   return (
-    <Layout title={["Argentina football rivalry", "Head-to-Head"]}>
-      <Section>
+    <Page title={["Argentina football rivalry", "Head-to-Head"]}>
+      <Block>
         {teams.map(({ name, slug, mp }) => (
           <p key={slug}>
             <LinkAnchor href={`/teams/${slug}`} important={!!mp && mp >= 10}>
@@ -18,7 +16,7 @@ export default function TeamsPage({ teams }: Props) {
             ({mp})
           </p>
         ))}
-      </Section>
-    </Layout>
+      </Block>
+    </Page>
   );
 }

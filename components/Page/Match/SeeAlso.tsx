@@ -1,7 +1,7 @@
 import React from "react";
 import Fixtures, { FixtureMatch } from "components/Fixtures";
-import Section from "components/Layout/Section";
-import { LinkAnchor } from "components/Layout";
+import { Block, Header } from "components/layout";
+import { LinkAnchor } from "components/layout";
 import { Match } from "types";
 
 type Props = {
@@ -16,7 +16,8 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
 
   return (
     <>
-      <Section title="See also">
+      <Block>
+        <Header text="See also" />
         <p>
           <LinkAnchor href={`/${year}`} title={`Argentina matches in ${year}`}>
             All matches in {year}
@@ -32,7 +33,7 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
             </LinkAnchor>
           </p>
         )}
-      </Section>
+      </Block>
 
       {prevMatch && <Fixtures title="Previous match" matches={[prevMatch]} />}
       {nextMatch && <Fixtures title="Next match" matches={[nextMatch]} />}

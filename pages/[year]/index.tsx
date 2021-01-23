@@ -11,7 +11,7 @@ import {
 } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
-import Layout from "components/Layout/Page";
+import { Page } from "components/layout";
 import MatchesHeader from "components/MatchesHeader";
 import MatchesNav from "components/MatchesNav";
 
@@ -30,12 +30,12 @@ function statPhrase(stat: TeamStat) {
 
 export default function PageContainer({ year, matches, stat }: Props) {
   return (
-    <Layout title={["Matches", year]}>
+    <Page title={["Matches", year]}>
       <MatchesNav year={parseInt(year, 10)} />
       <MatchesHeader year={year} />
       <p className="mb-4">{statPhrase(stat)}</p>
       <Fixtures matches={matches} />
-    </Layout>
+    </Page>
   );
 }
 

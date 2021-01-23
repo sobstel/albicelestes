@@ -3,8 +3,7 @@ import React from "react";
 import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { getMatchDate, getMatchScore } from "helpers";
-import Layout from "components/Layout/Page";
-import Header from "components/Layout/Header";
+import { Page, Header } from "components/layout";
 import Fixtures from "components/Fixtures";
 import Info from "./Info";
 
@@ -47,7 +46,7 @@ function generateDescription({
 
 export default function PlayerPage({ name, stat, matches, info }: Props) {
   return (
-    <Layout
+    <Page
       title={[name]}
       description={generateDescription({ name, stat, matches })}
     >
@@ -55,6 +54,6 @@ export default function PlayerPage({ name, stat, matches, info }: Props) {
       <p className="mb-4">{statPhrase(stat)}</p>
       <Fixtures matches={matches} />
       <Info info={info} />
-    </Layout>
+    </Page>
   );
 }

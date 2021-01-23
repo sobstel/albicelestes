@@ -2,7 +2,7 @@ import * as R from "remeda";
 import React, { ReactNode, useState, useEffect, useRef, useMemo } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import useClientWidth from "hooks/useClientWidth";
-import { Block, LinkAnchor } from "components/Layout";
+import { Block, LinkAnchor } from "components/layout";
 import { ItemWithRef } from "./Item";
 import NavLink from "./NavLink";
 import ToggleLink from "./ToggleLink";
@@ -94,7 +94,7 @@ export default function Nav({ year }: { year: number }) {
   }, [clientWidth, year]);
 
   return (
-    <Block nav bottomSeparator ref={containerRef}>
+    <Block isNav hasBottomSeparator ref={containerRef}>
       <ul className="-mx-2 font-semibold">
         {startYear > MIN_YEAR && (
           <ToggleLink

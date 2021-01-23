@@ -1,10 +1,10 @@
 import React from "react";
-import { Block, LinkAnchor } from "components/Layout";
+import { Block, LinkAnchor } from "components/layout";
 
 export default function PageFooter() {
   return (
     <footer>
-      <Block topSeparator className="text-xs">
+      <Block hasTopSeparator className="text-xs">
         <ul className="inline-flex">
           <li>
             <LinkAnchor href="/about" rel="nofollow">
