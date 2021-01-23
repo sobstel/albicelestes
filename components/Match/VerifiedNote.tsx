@@ -1,6 +1,6 @@
 import React from "react";
 import { Match } from "types";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 
 type Props = { match: Pick<Match, "sources"> };
 
@@ -15,5 +15,10 @@ export default function VerifiedNote({ match: { sources } }: Props) {
     );
   }
 
-  return <Section title="Sources">{sources.join(", ")}</Section>;
+  return (
+    <Block>
+      <Header text="Sources" />
+      {sources.join(", ")}
+    </Block>
+  );
 }

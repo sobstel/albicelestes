@@ -7,24 +7,26 @@ import {
 } from "helpers";
 import { MatchItem } from "types";
 import { fetchTeamInflections, fetchCompetitionInflections } from "data";
-import Section from "./Layout/Section";
-import Link from "./Layout/Link";
+import { Block, Header, LinkAnchor } from "./layout";
 
 export type FixtureMatch = MatchItem;
 
 type Props = {
-  title?: string;
+  title?: string; // DEPREACTED
   matches?: FixtureMatch[];
+  headerText?: string;
 };
 
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
-export default function Fixtures({ title, matches }: Props) {
+export default function Fixtures({ title, matches, headerText }: Props) {
   if (!matches?.length) return null;
 
   return (
-    <Section title={title}>
+    <Block>
+      {headerText && <Header text={headerText} />}
+      {title && <Header text={title} />}
       <div className="max-w-full overflow-hidden">
         <table>
           <tbody>
@@ -34,13 +36,13 @@ export default function Fixtures({ title, matches }: Props) {
                   {getMatchDate(match, { withYear: true })}
                 </td>
                 <td className="whitespace-nowrap align-top pr-4">
-                  <Link
+                  <LinkAnchor
                     href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
                   >{`${
                     teamInflections[match.teams[0].name] ?? match.teams[0].name
                   } - ${
                     teamInflections[match.teams[1].name] ?? match.teams[1].name
-                  }`}</Link>
+                  }`}</LinkAnchor>
                 </td>
                 <td className="whitespace-nowrap align-top pr-4">
                   {getMatchScore(match, { withTeams: false, short: true })}
@@ -56,6 +58,6 @@ export default function Fixtures({ title, matches }: Props) {
           </tbody>
         </table>
       </div>
-    </Section>
+    </Block>
   );
 }

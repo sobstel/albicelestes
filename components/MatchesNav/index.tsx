@@ -2,7 +2,7 @@ import * as R from "remeda";
 import React, { ReactNode, useState, useEffect, useRef, useMemo } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import useClientWidth from "hooks/useClientWidth";
-import Link from "components/Layout/Link";
+import { Block, LinkAnchor } from "components/layout";
 import { ItemWithRef } from "./Item";
 import NavLink from "./NavLink";
 import ToggleLink from "./ToggleLink";
@@ -94,8 +94,8 @@ export default function Nav({ year }: { year: number }) {
   }, [clientWidth, year]);
 
   return (
-    <nav ref={containerRef} className="my-4 -mx-2 mb-4 font-semibold">
-      <ul>
+    <Block isNav hasBottomSeparator ref={containerRef}>
+      <ul className="-mx-2 font-semibold">
         {startYear > MIN_YEAR && (
           <ToggleLink
             onClick={togglePrevYears}
@@ -105,9 +105,9 @@ export default function Nav({ year }: { year: number }) {
         )}
         {yearItems(startYear, year - 1)}
         <ItemWithRef ref={activeItemRef}>
-          <Link href={`/${year}`} active>
+          <LinkAnchor href={`/${year}`} active>
             {year}
-          </Link>
+          </LinkAnchor>
         </ItemWithRef>
         {yearItems(year + 1, endYear)}
         {endYear < MAX_YEAR && (
@@ -128,6 +128,6 @@ export default function Nav({ year }: { year: number }) {
           <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>
         </FadeIn>
       )}
-    </nav>
+    </Block>
   );
 }

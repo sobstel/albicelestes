@@ -1,7 +1,6 @@
 import React from "react";
-
 import * as R from "remeda";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 import { getMatchTeamIndex, produceShortNames } from "helpers";
 import { Match, MatchCoach } from "types";
@@ -33,13 +32,13 @@ export default function Lineups({ match }: Props) {
       {lineups.map(
         (lineup, teamIndex) =>
           lineup.length > 0 && (
-            <Section
-              key={teamIndex}
-              title={`${teams[teamIndex].name} (${coachName(
-                coaches,
-                teamIndex
-              )})`}
-            >
+            <Block key={teamIndex}>
+              <Header
+                text={`${teams[teamIndex].name} (${coachName(
+                  coaches,
+                  teamIndex
+                )})`}
+              />
               {lineup.map((event, index) => (
                 <span key={`${teamIndex}-${index}`}>
                   {event.in === undefined && (
@@ -66,7 +65,7 @@ export default function Lineups({ match }: Props) {
                   )}
                 </span>
               ))}
-            </Section>
+            </Block>
           )
       )}
     </div>

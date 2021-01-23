@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import { Match } from "types";
 
 type Props = {
@@ -13,5 +13,10 @@ export default function Venue({ match }: Props) {
 
   const { name } = match.venue;
 
-  return <Section title="Venue">{name}</Section>;
+  return (
+    <Block>
+      <Header text="Venue" />
+      {name}
+    </Block>
+  );
 }

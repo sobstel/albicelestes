@@ -1,6 +1,6 @@
 import React from "react";
 import { NextPageContext } from "next";
-import Layout from "components/Layout";
+import { Page } from "components/layout";
 
 function serverErrorMessage(statusCode: number): string {
   if (statusCode == 404) {
@@ -16,11 +16,11 @@ type Props = {
 
 export default function ErrorPage({ statusCode }: Props) {
   return (
-    <Layout title={[`Error #${statusCode}`]}>
+    <Page title={[`Error #${statusCode}`]}>
       <p className="mb-4">
         {statusCode ? serverErrorMessage(statusCode) : "Client error"}
       </p>
-    </Layout>
+    </Page>
   );
 }
 

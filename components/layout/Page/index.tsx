@@ -2,9 +2,8 @@ import React, { ReactNode } from "react";
 import * as R from "remeda";
 import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
-import SiteHeader from "./SiteHeader";
-import SiteFooter from "./SiteFooter";
-import Separator from "./Separator";
+import PageHeader from "./PageHeader";
+import PageFooter from "./PageFooter";
 
 type Props = {
   children: ReactNode;
@@ -17,7 +16,7 @@ export default function Layout({ children, title, description }: Props) {
     <div className="text-xs md:text-sm leading-relaxed">
       <Head>
         <title>
-          {R.filter(title, (part) => !!part).join(" / ")} / Albicelestes
+          {R.filter(title, (part) => Boolean(part)).join(" / ")} / Albicelestes
         </title>
         <link rel="shortcut icon" href="/favicon.png" />
         {description && <meta name="description" content={description} />}
@@ -31,11 +30,9 @@ export default function Layout({ children, title, description }: Props) {
       />
 
       <div className="max-w-2xl m-auto px-3 font-mono antialiased">
-        <SiteHeader />
-        <Separator />
-        <div className="-mx-1 px-1">{children}</div>
-        <Separator />
-        <SiteFooter />
+        <PageHeader />
+        {children}
+        <PageFooter />
       </div>
     </div>
   );

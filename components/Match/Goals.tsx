@@ -4,7 +4,7 @@ import { produceIndexedEvents } from "helpers";
 import { getMatchTeamIndex, produceShortNames } from "helpers";
 import { Match } from "types";
 import { xor } from "utility";
-import Section from "components/Layout/Section";
+import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 
 type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
@@ -47,7 +47,8 @@ export default function Goals({ match }: Props) {
   const hasIncompleteData = goals.some((goal) => !goal.min);
   if (hasIncompleteData) {
     return (
-      <Section title="Goals">
+      <Block>
+        <Header text="Goals" />
         {match.goals.map((_teamGoals, teamIndex) => (
           <p key={teamIndex}>
             {match.teams[teamIndex].name.slice(0, 3).toUpperCase()}:{" "}
@@ -64,12 +65,13 @@ export default function Goals({ match }: Props) {
             ))}
           </p>
         ))}
-      </Section>
+      </Block>
     );
   }
 
   return (
-    <Section title="Goals">
+    <Block>
+      <Header text="Goals" />
       {goals.map((goal, index) => (
         <p key={index}>
           {goal.min && `${goal.score.join(":")} `}
@@ -82,6 +84,6 @@ export default function Goals({ match }: Props) {
           {goal.type !== "G" && ` [${goal.type}]`}
         </p>
       ))}
-    </Section>
+    </Block>
   );
 }

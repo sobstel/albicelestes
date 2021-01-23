@@ -4,9 +4,7 @@ import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
 import { collectPlayers, getMatchYear, produceShortNames } from "helpers";
 import { PlayerItem } from "types";
-import Layout from "components/Layout";
-import Section from "components/Layout/Section";
-import Separator from "components/Layout/Separator";
+import { Page, Block } from "components/layout";
 import PlayerName from "components/PlayerName";
 import MatchesNav from "components/MatchesNav";
 import MatchesHeader from "components/MatchesHeader";
@@ -47,7 +45,7 @@ export async function getStaticProps(context: Context) {
   };
 }
 
-export default function DateRangeStats({ players, year }: Props) {
+export default function DateRangeStatsPage({ players, year }: Props) {
   let shortNames: Record<string, string> = {};
   if (players) {
     shortNames = R.pipe(
@@ -58,12 +56,11 @@ export default function DateRangeStats({ players, year }: Props) {
   }
 
   return (
-    <Layout title={["Players"]}>
+    <Page title={["Players"]}>
       <MatchesNav year={parseInt(year, 10)} />
-      <Separator />
       <MatchesHeader year={year} />
 
-      <Section>
+      <Block>
         <table>
           <thead>
             <tr>
@@ -100,7 +97,7 @@ export default function DateRangeStats({ players, year }: Props) {
             ))}
           </tbody>
         </table>
-      </Section>
-    </Layout>
+      </Block>
+    </Page>
   );
 }

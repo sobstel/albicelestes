@@ -1,14 +1,9 @@
 import * as R from "remeda";
 import React from "react";
-import Page from "components/Page/About";
 import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "helpers";
-
-type Props = Parameters<typeof Page>[0];
-
-export default function PageContainer(props: Props) {
-  return <Page {...props} />;
-}
+import { Bibliography } from "types";
+import { Page, Block, Header, LinkAnchor } from "components/layout";
 
 export async function getStaticProps() {
   const matches = fetchMatches();
@@ -32,4 +27,52 @@ export async function getStaticProps() {
   };
 
   return { props };
+}
+
+type Props = {
+  bibliography: Bibliography;
+  stat: {
+    matchesTotal: number;
+    matchesVerified: number;
+    playersTotal: number;
+    teamsTotal: number;
+  };
+};
+
+export default function PageContainer(props: Props) {
+  const { stat, bibliography } = props;
+  return (
+    <Page title={["About"]}>
+      <Header top text="About" />
+      <p>Argentina football national team database</p>
+
+      <Block>
+        <Header text="Status" />
+        <p>
+          Matches: {stat.matchesTotal} (verified: {stat.matchesVerified})
+        </p>
+        <p>Argentina players: {stat.playersTotal}</p>
+        <p>Rival teams: {stat.teamsTotal}</p>
+      </Block>
+
+      <Block>
+        <Header text="Sources" />
+        {Object.keys(bibliography).map((key) => {
+          const item = bibliography[key];
+          return (
+            <p key={key}>
+              <LinkAnchor href={item.url}>{item.name}</LinkAnchor>
+            </p>
+          );
+        })}
+      </Block>
+
+      <Block>
+        <Header text="Created and maintained by" />
+        <p>
+          <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
+        </p>
+      </Block>
+    </Page>
+  );
 }
