@@ -3,12 +3,8 @@ import * as R from "remeda";
 import slugify from "slugify";
 import { fetchMatches } from "data";
 import { collectPlayers, getPlayerName, getPlayerCatalog } from "helpers";
-import Page, { Props } from "components/Page/Players";
+import Page, { Props } from "../";
 import { ALPHABET } from "components/PlayersNav";
-
-export default function PageContainer(props: Props) {
-  return <Page {...props} />;
-}
 
 type Context = { params: { catalog: string } };
 
@@ -42,4 +38,8 @@ export async function getStaticPaths() {
     paths: R.map(ALPHABET, (catalog) => ({ params: { catalog } })),
     fallback: false,
   };
+}
+
+export default function PlayerCatalogPage(props: Props) {
+  return <Page {...props} />;
 }

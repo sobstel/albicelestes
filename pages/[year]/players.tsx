@@ -45,7 +45,7 @@ export async function getStaticProps(context: Context) {
   };
 }
 
-export default function DateRangeStats({ players, year }: Props) {
+export default function DateRangeStatsPage({ players, year }: Props) {
   let shortNames: Record<string, string> = {};
   if (players) {
     shortNames = R.pipe(

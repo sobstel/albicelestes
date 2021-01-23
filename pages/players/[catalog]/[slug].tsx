@@ -1,11 +1,13 @@
-import React from "react";
 import * as R from "remeda";
+import pluralize from "pluralize";
+import React from "react";
 import Error from "next/error";
 import { useRouter } from "next/router";
-import Page, { Props } from "components/Page/Player";
 import { fetchMatches, fetchPlayerInfo } from "data";
 import {
+  getMatchDate,
   getMatchItem,
+  getMatchScore,
   getMatchTeamIndex,
   getPlayerCatalog,
   getPlayerSlug,
@@ -16,22 +18,10 @@ import {
   findNearestPlayerSlug,
   findPlayerName,
 } from "helpers";
-
-export default function PageContainer(
-  props: Props & { errorCode: number | null }
-) {
-  if (props.errorCode) {
-    return <Error statusCode={props.errorCode} />;
-  }
-
-  const router = useRouter();
-  if (router.isFallback) {
-    // FIXME: have some loading component (or skeleton)
-    return <div>Loading...</div>;
-  }
-
-  return <Page {...R.omit(props, ["errorCode"])} />;
-}
+import { MatchItem, PlayerInfo, PlayerStat } from "types";
+import { Page, Block, Header } from "components/layout";
+import Fixtures from "components/Fixtures";
+import InfoLinks from "components/shared/InfoLinks";
 
 type Context = { params: { catalog: string; slug: string } };
 
@@ -83,4 +73,77 @@ export async function getStaticPaths() {
   );
 
   return { paths, fallback: true };
+}
+
+export type Props = {
+  slug: string;
+  name: string;
+  stat: PlayerStat;
+  matches: MatchItem[];
+  info: PlayerInfo;
+};
+
+function statPhrase({ mp, si, so, g, yc, rc }: PlayerStat) {
+  return R.compact([
+    pluralize("match", mp, true),
+    `(${so} out, ${si} in)`,
+    pluralize("goal", g, true),
+    yc > 0 && `${yc}Y`,
+    rc > 0 && `${rc}R`,
+  ]).join(" ");
+}
+
+function generateDescription({
+  name,
+  stat,
+  matches,
+}: Pick<Props, "name" | "stat" | "matches">) {
+  const lastMatch = R.last(matches);
+  return [
+    `${name} matches played for Argentina football national team`,
+    statPhrase(stat),
+    lastMatch &&
+      [
+        getMatchDate(lastMatch, { withYear: true }),
+        ": ",
+        getMatchScore(lastMatch),
+        ` (${lastMatch.competition})...`,
+      ].join(""),
+  ].join(". ");
+}
+
+export default function PlayerPage({
+  name,
+  stat,
+  matches,
+  info,
+  errorCode,
+}: Props & { errorCode: number | null }) {
+  if (errorCode) {
+    return <Error statusCode={errorCode} />;
+  }
+
+  const router = useRouter();
+  if (router.isFallback) {
+    // FIXME: have some loading component (or skeleton)
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <Page
+      title={[name]}
+      description={generateDescription({ name, stat, matches })}
+    >
+      <Header text={name} top />
+      <p className="mb-4">{statPhrase(stat)}</p>
+      <Fixtures matches={matches} />
+      {info.nicknames && (
+        <Block>
+          <Header text="Nickname(s)" />
+          {info.nicknames.join(", ")}
+        </Block>
+      )}
+      <InfoLinks links={info.links} />
+    </Page>
+  );
 }

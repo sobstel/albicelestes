@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Lineups from "components/Page/Match/Lineups";
+import Lineups from "components/Match/Lineups";
 
 type Props = Parameters<typeof Lineups>[0];
 

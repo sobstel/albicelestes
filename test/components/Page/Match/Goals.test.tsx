@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Goals from "components/Page/Match/Goals";
+import Goals from "components/Match/Goals";
 
 type Props = Parameters<typeof Goals>[0];
 

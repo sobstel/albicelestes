@@ -15,30 +15,6 @@ import { Page } from "components/layout";
 import MatchesHeader from "components/MatchesHeader";
 import MatchesNav from "components/MatchesNav";
 
-export type Props = {
-  matches: MatchItem[];
-  year: string;
-  stat: TeamStat;
-};
-
-// SMELL: copied from Pages/Team
-function statPhrase(stat: TeamStat) {
-  return `${pluralize("match", stat.mp, true)} (${stat.mw}W ${stat.md}D ${
-    stat.ml
-  }L), goals: ${stat.gf}-${stat.ga}`;
-}
-
-export default function PageContainer({ year, matches, stat }: Props) {
-  return (
-    <Page title={["Matches", year]}>
-      <MatchesNav year={parseInt(year, 10)} />
-      <MatchesHeader year={year} />
-      <p className="mb-4">{statPhrase(stat)}</p>
-      <Fixtures matches={matches} />
-    </Page>
-  );
-}
-
 type Context = { params: { year: string } };
 
 export async function getStaticProps(context: Context) {
@@ -81,4 +57,28 @@ export async function getStaticPaths() {
     ),
     fallback: false,
   };
+}
+
+type Props = {
+  matches: MatchItem[];
+  year: string;
+  stat: TeamStat;
+};
+
+// SMELL: copied from Pages/Team
+function statPhrase(stat: TeamStat) {
+  return `${pluralize("match", stat.mp, true)} (${stat.mw}W ${stat.md}D ${
+    stat.ml
+  }L), goals: ${stat.gf}-${stat.ga}`;
+}
+
+export default function DateRangeIndexPage({ year, matches, stat }: Props) {
+  return (
+    <Page title={["Matches", year]}>
+      <MatchesNav year={parseInt(year, 10)} />
+      <MatchesHeader year={year} />
+      <p className="mb-4">{statPhrase(stat)}</p>
+      <Fixtures matches={matches} />
+    </Page>
+  );
 }
