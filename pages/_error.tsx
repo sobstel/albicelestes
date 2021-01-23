@@ -1,6 +1,6 @@
 import React from "react";
 import { NextPageContext } from "next";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 
 function serverErrorMessage(statusCode: number): string {
   if (statusCode == 404) {

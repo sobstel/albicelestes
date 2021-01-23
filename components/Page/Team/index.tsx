@@ -2,7 +2,7 @@ import * as R from "remeda";
 import pluralize from "pluralize";
 import React from "react";
 import Fixtures from "components/Fixtures";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import Header from "components/Layout/Header";
 import { getMatchDate, getMatchScore } from "helpers";
 import { MatchItem, TeamStat } from "types";

@@ -1,9 +1,8 @@
 import React from "react";
 import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import Section from "components/Layout/Section";
-import Link from "components/Layout/Link";
-import Separator from "components/Layout/Separator";
+import { LinkAnchor } from "components/Layout";
 import Nav from "./Nav";
 import { PlayerItem } from "types";
 
@@ -21,7 +20,6 @@ export default function PlayersPage({ catalog, players }: Props) {
   return (
     <Layout title={titleParts}>
       <Nav catalog={catalog} />
-      <Separator />
 
       {players && players.length > 0 && (
         <Section>
@@ -32,7 +30,7 @@ export default function PlayersPage({ catalog, players }: Props) {
 
             return (
               <p key={slug}>
-                <Link
+                <LinkAnchor
                   href={`/players/${catalog}/${slug}`}
                   title={name}
                   important={!!mp && mp >= 20}
@@ -41,7 +39,7 @@ export default function PlayersPage({ catalog, players }: Props) {
                   {[_playerName.firstName, _playerName.middleName]
                     .join(" ")
                     .trim()}
-                </Link>{" "}
+                </LinkAnchor>{" "}
                 ({mp})
               </p>
             );

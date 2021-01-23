@@ -1,6 +1,6 @@
 import React from "react";
 import { getPlayerCatalog, getPlayerSlug } from "helpers";
-import Link from "./Layout/Link";
+import { LinkAnchor } from "./Layout";
 
 export default function PlayerName({
   name,
@@ -19,8 +19,8 @@ export default function PlayerName({
   const catalog = getPlayerCatalog(name);
 
   return (
-    <Link href={`/players/${catalog}/${slug}`} title={name}>
+    <LinkAnchor href={`/players/${catalog}/${slug}`} title={name}>
       {displayName || name}
-    </Link>
+    </LinkAnchor>
   );
 }

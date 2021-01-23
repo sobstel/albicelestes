@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import Link from "./Link";
+import { LinkAnchor } from "components/Layout";
 
 type Props = {
   text: string;
@@ -22,9 +22,9 @@ export default function Header({ text, top, nav }: Props) {
             <ul className="inline-flex">
               {nav.map(({ href, text }) => (
                 <li key={href} className="ml-2">
-                  <Link href={href} active={router.asPath === href}>
+                  <LinkAnchor href={href} active={router.asPath === href}>
                     {text}
-                  </Link>
+                  </LinkAnchor>
                 </li>
               ))}
             </ul>

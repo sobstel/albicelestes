@@ -3,7 +3,7 @@ import React from "react";
 import pluralize from "pluralize";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { getMatchDate, getMatchScore } from "helpers";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import Header from "components/Layout/Header";
 import Fixtures from "components/Fixtures";
 import Info from "./Info";

@@ -8,7 +8,7 @@ import {
 import { MatchItem } from "types";
 import { fetchTeamInflections, fetchCompetitionInflections } from "data";
 import Section from "./Layout/Section";
-import Link from "./Layout/Link";
+import { LinkAnchor } from "./Layout";
 
 export type FixtureMatch = MatchItem;
 
@@ -34,13 +34,13 @@ export default function Fixtures({ title, matches }: Props) {
                   {getMatchDate(match, { withYear: true })}
                 </td>
                 <td className="whitespace-nowrap align-top pr-4">
-                  <Link
+                  <LinkAnchor
                     href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
                   >{`${
                     teamInflections[match.teams[0].name] ?? match.teams[0].name
                   } - ${
                     teamInflections[match.teams[1].name] ?? match.teams[1].name
-                  }`}</Link>
+                  }`}</LinkAnchor>
                 </td>
                 <td className="whitespace-nowrap align-top pr-4">
                   {getMatchScore(match, { withTeams: false, short: true })}

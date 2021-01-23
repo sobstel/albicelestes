@@ -1,7 +1,7 @@
 import React from "react";
 import { getMatchDate, getMatchScore } from "helpers";
 import { Match, MatchItem } from "types";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import Section from "components/Layout/Section";
 import Banner from "./Banner";
 import Goals from "./Goals";

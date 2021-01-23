@@ -10,13 +10,27 @@ type Props = {
   active?: boolean;
 };
 
-export default function Link(props: Props) {
+export default function LinkAnchor(props: Props) {
   const classNames = props.active
     ? ["text-black"]
     : ["text-link", "hover:text-link-hover"];
 
   if (props.important) {
     classNames.push("font-semibold");
+  }
+
+  // external link
+  if (props.href.startsWith("http")) {
+    return (
+      <a
+        href={props.href}
+        className={classNames.join(" ")}
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+      >
+        {props.children} ➔
+      </a>
+    );
   }
 
   return (

@@ -4,9 +4,8 @@ import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
 import { collectPlayers, getMatchYear, produceShortNames } from "helpers";
 import { PlayerItem } from "types";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import Section from "components/Layout/Section";
-import Separator from "components/Layout/Separator";
 import PlayerName from "components/PlayerName";
 import MatchesNav from "components/MatchesNav";
 import MatchesHeader from "components/MatchesHeader";
@@ -60,7 +59,6 @@ export default function DateRangeStats({ players, year }: Props) {
   return (
     <Layout title={["Players"]}>
       <MatchesNav year={parseInt(year, 10)} />
-      <Separator />
       <MatchesHeader year={year} />
 
       <Section>

@@ -11,9 +11,8 @@ import {
 } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
-import Layout from "components/Layout";
+import Layout from "components/Layout/Page";
 import MatchesHeader from "components/MatchesHeader";
-import Separator from "components/Layout/Separator";
 import MatchesNav from "components/MatchesNav";
 
 export type Props = {
@@ -33,7 +32,6 @@ export default function PageContainer({ year, matches, stat }: Props) {
   return (
     <Layout title={["Matches", year]}>
       <MatchesNav year={parseInt(year, 10)} />
-      <Separator />
       <MatchesHeader year={year} />
       <p className="mb-4">{statPhrase(stat)}</p>
       <Fixtures matches={matches} />

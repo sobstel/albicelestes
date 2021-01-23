@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "components/Layout/Link";
+import { LinkAnchor } from "components/Layout";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 
@@ -10,9 +10,12 @@ function Nav({ catalog }: { catalog?: string }) {
         {ALPHABET.map((_catalog) => {
           return (
             <li key={_catalog} className="mr-4 inline-flex">
-              <Link href={`/players/${_catalog}`} active={catalog === _catalog}>
+              <LinkAnchor
+                href={`/players/${_catalog}`}
+                active={catalog === _catalog}
+              >
                 {_catalog}
-              </Link>
+              </LinkAnchor>
             </li>
           );
         })}

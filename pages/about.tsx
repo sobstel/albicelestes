@@ -3,9 +3,8 @@ import React from "react";
 import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "helpers";
 import { Bibliography } from "types";
-import Layout from "components/Layout";
+import { Page, LinkAnchor } from "components/Layout";
 import Section from "components/Layout/Section";
-import ExternalLink from "components/Layout/ExternalLink";
 
 export async function getStaticProps() {
   const matches = fetchMatches();
@@ -44,7 +43,7 @@ type Props = {
 export default function PageContainer(props: Props) {
   const { stat, bibliography } = props;
   return (
-    <Layout title={["About"]}>
+    <Page title={["About"]}>
       <Section title="About">
         <p>Argentina football national team database</p>
       </Section>
@@ -62,7 +61,7 @@ export default function PageContainer(props: Props) {
           const item = bibliography[key];
           return (
             <p key={key}>
-              <ExternalLink href={item.url}>{item.name}</ExternalLink>
+              <LinkAnchor href={item.url}>{item.name}</LinkAnchor>
             </p>
           );
         })}
@@ -70,9 +69,9 @@ export default function PageContainer(props: Props) {
 
       <Section title="Created and maintained by">
         <p>
-          <ExternalLink href="https://www.sobstel.org">Sopel</ExternalLink>
+          <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
         </p>
       </Section>
-    </Layout>
+    </Page>
   );
 }
