@@ -72,7 +72,14 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
       {isAll ? (
         <>
           <MatchesNav year={MAX_YEAR} isYearInactive />
-          <Header text="Argentina (ALL)" />
+          <Header
+            top
+            text="Argentina"
+            nav={[
+              { text: "Recent", href: `/` },
+              { text: "All", href: `/all` },
+            ]}
+          />
         </>
       ) : (
         <>

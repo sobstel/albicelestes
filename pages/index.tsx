@@ -13,7 +13,7 @@ type Props = {
 };
 
 export async function getStaticProps(): Promise<{ props: Props }> {
-  const matches = R.pipe(fetchMatches(), R.reverse(), R.take(25));
+  const matches = R.pipe(fetchMatches(), R.reverse(), R.take(10));
 
   return {
     props: {
@@ -26,11 +26,15 @@ export default function YearIndexPage({ matches }: Props) {
   return (
     <Page title={["Matches"]}>
       <MatchesNav year={MAX_YEAR} isYearInactive />
-      <Header top text="Argentina" />
+      <Header
+        top
+        text="Argentina"
+        nav={[
+          { text: "Recent", href: `/` },
+          { text: "All", href: `/all` },
+        ]}
+      />
       <Fixtures matches={matches} />
-      <p>
-        <LinkAnchor href="/all">Go to full match list...</LinkAnchor>
-      </p>
     </Page>
   );
 }
