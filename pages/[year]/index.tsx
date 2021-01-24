@@ -6,14 +6,23 @@ import { fetchMatches } from "data";
 import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
-import { Page } from "components/layout";
+import { Page, Header } from "components/layout";
 import MatchesHeader from "components/MatchesHeader";
 import MatchesNav from "components/MatchesNav";
+
+const ALL = "all" as const;
 
 type Context = { params: { year: string } };
 
 export async function getStaticProps(context: Context) {
-  const year = context.params?.year || MAX_YEAR.toString();
+  // TODO: validate year and show 404 on invalid
+  const { year } = context.params;
+
+  if (year === ALL) {
+    return {
+      props: { year: ALL, matches: R.reverse(fetchMatches()), stat: null },
+    };
+  }
 
   const matches = R.pipe(
     fetchMatches(),
@@ -21,13 +30,7 @@ export async function getStaticProps(context: Context) {
     R.reverse()
   );
 
-  if (!matches) {
-    return {
-      props: { year, matches: [], stat: null },
-    };
-  }
-
-  const stat = collectTeamStat(matches);
+  const stat = matches.length && collectTeamStat(matches);
 
   return {
     props: {
@@ -42,7 +45,8 @@ export async function getStaticPaths() {
   return {
     paths: R.pipe(
       R.range(MIN_YEAR, MAX_YEAR + 1),
-      R.map((year) => ({ params: { year: year.toString() } }))
+      R.map((year) => ({ params: { year: year.toString() } })),
+      R.concat([{ params: { year: ALL } }])
     ),
     fallback: false,
   };
@@ -51,7 +55,7 @@ export async function getStaticPaths() {
 type Props = {
   matches: MatchItem[];
   year: string;
-  stat: TeamStat | null;
+  stat?: TeamStat | null;
 };
 
 // SMELL: copied from Pages/Team
@@ -62,11 +66,21 @@ function statPhrase(stat: TeamStat) {
 }
 
 export default function YearIndexPage({ year, matches, stat }: Props) {
+  const isAll = year === ALL;
   return (
     <Page title={["Matches", year]}>
-      <MatchesNav year={parseInt(year, 10)} />
-      <MatchesHeader year={year} />
-      {stat && <p className="mb-4">{statPhrase(stat)}</p>}
+      {isAll ? (
+        <>
+          <MatchesNav year={MAX_YEAR} isYearInactive />
+          <Header text="Argentina (ALL)" />
+        </>
+      ) : (
+        <>
+          <MatchesNav year={parseInt(year, 10)} />
+          <MatchesHeader year={year} />
+          {stat && <p className="mb-4">{statPhrase(stat)}</p>}
+        </>
+      )}
       <Fixtures matches={matches} />
     </Page>
   );
