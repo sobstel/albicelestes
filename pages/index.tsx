@@ -4,7 +4,7 @@ import { fetchMatches } from "data";
 import { getMatchItem } from "helpers";
 import { MatchItem } from "types";
 import { MAX_YEAR } from "config";
-import { Page, Header, LinkAnchor } from "components/layout";
+import { Page, Header } from "components/layout";
 import Fixtures from "components/Fixtures";
 import MatchesNav from "components/MatchesNav";
 
