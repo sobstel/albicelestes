@@ -3,47 +3,39 @@ import pluralize from "pluralize";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
-import {
-  collectPlayers,
-  collectTeamStat,
-  getMatchItem,
-  getMatchYear,
-} from "helpers";
+import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
-import { Page } from "components/layout";
+import { Page, Header } from "components/layout";
 import MatchesHeader from "components/MatchesHeader";
 import MatchesNav from "components/MatchesNav";
+
+const ALL = "all" as const;
 
 type Context = { params: { year: string } };
 
 export async function getStaticProps(context: Context) {
-  const year = context.params?.year || MAX_YEAR.toString();
+  // TODO: validate year and show 404 on invalid
+  const { year } = context.params;
 
-  const matches = R.pipe(
-    fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
-  );
-
-  if (!matches) {
+  if (year === ALL) {
     return {
-      props: { year, matches: [], players: [] },
+      props: { year: ALL, matches: R.reverse(fetchMatches()), stat: null },
     };
   }
 
-  const players = R.pipe(
-    matches,
-    collectPlayers,
-    R.sortBy((player) => -player.mp)
+  const matches = R.pipe(
+    fetchMatches(),
+    R.filter((match) => getMatchYear(match) === year),
+    R.reverse()
   );
 
-  const stat = collectTeamStat(matches);
+  const stat = matches.length && collectTeamStat(matches);
 
   return {
     props: {
       year,
       matches: R.map(matches, getMatchItem),
-      players,
       stat,
     },
   };
@@ -53,7 +45,8 @@ export async function getStaticPaths() {
   return {
     paths: R.pipe(
       R.range(MIN_YEAR, MAX_YEAR + 1),
-      R.map((year) => ({ params: { year: year.toString() } }))
+      R.map((year) => ({ params: { year: year.toString() } })),
+      R.concat([{ params: { year: ALL } }])
     ),
     fallback: false,
   };
@@ -62,7 +55,7 @@ export async function getStaticPaths() {
 type Props = {
   matches: MatchItem[];
   year: string;
-  stat: TeamStat;
+  stat?: TeamStat | null;
 };
 
 // SMELL: copied from Pages/Team
@@ -72,12 +65,29 @@ function statPhrase(stat: TeamStat) {
   }L), goals: ${stat.gf}-${stat.ga}`;
 }
 
-export default function DateRangeIndexPage({ year, matches, stat }: Props) {
+export default function YearIndexPage({ year, matches, stat }: Props) {
+  const isAll = year === ALL;
   return (
     <Page title={["Matches", year]}>
-      <MatchesNav year={parseInt(year, 10)} />
-      <MatchesHeader year={year} />
-      <p className="mb-4">{statPhrase(stat)}</p>
+      {isAll ? (
+        <>
+          <MatchesNav year={MAX_YEAR} isYearInactive />
+          <Header
+            top
+            text="Argentina"
+            nav={[
+              { text: "Recent", href: `/` },
+              { text: "All", href: `/all` },
+            ]}
+          />
+        </>
+      ) : (
+        <>
+          <MatchesNav year={parseInt(year, 10)} />
+          <MatchesHeader year={year} />
+          {stat && <p className="mb-4">{statPhrase(stat)}</p>}
+        </>
+      )}
       <Fixtures matches={matches} />
     </Page>
   );

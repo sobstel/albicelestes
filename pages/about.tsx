@@ -7,9 +7,8 @@ import { Page, Block, Header, LinkAnchor } from "components/layout";
 
 export async function getStaticProps() {
   const matches = fetchMatches();
-  const verifiedMatches = R.filter(
-    matches,
-    (match) => !!match.sources && match.sources.length > 0
+  const verifiedMatches = R.filter(matches, (match) =>
+    Boolean(match?.sources?.length)
   );
   const bibliography = fetchBibliography();
 
@@ -49,7 +48,8 @@ export default function PageContainer(props: Props) {
       <Block>
         <Header text="Status" />
         <p>
-          Matches: {stat.matchesTotal} (verified: {stat.matchesVerified})
+          Matches (inc. suspended): {stat.matchesTotal} (verified:{" "}
+          {stat.matchesVerified})
         </p>
         <p>Argentina players: {stat.playersTotal}</p>
         <p>Rival teams: {stat.teamsTotal}</p>

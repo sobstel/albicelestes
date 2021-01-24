@@ -3,7 +3,7 @@ import React, { ReactNode, useState, useEffect, useRef, useMemo } from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import useClientWidth from "hooks/useClientWidth";
 import { Block, LinkAnchor } from "components/layout";
-import { ItemWithRef } from "./Item";
+import Item from "./Item";
 import NavLink from "./NavLink";
 import ToggleLink from "./ToggleLink";
 
@@ -64,7 +64,13 @@ function yearRange({
   return [startYear, endYear];
 }
 
-export default function Nav({ year }: { year: number }) {
+export default function Nav({
+  year,
+  isYearInactive,
+}: {
+  year: number;
+  isYearInactive?: boolean;
+}) {
   const [prevYearsActive, setPrevYearsActive] = useState(false);
   const [nextYearsActive, setNextYearsActive] = useState(false);
 
@@ -104,11 +110,11 @@ export default function Nav({ year }: { year: number }) {
           />
         )}
         {yearItems(startYear, year - 1)}
-        <ItemWithRef ref={activeItemRef}>
-          <LinkAnchor href={`/${year}`} active>
+        <Item ref={activeItemRef}>
+          <LinkAnchor href={`/${year}`} active={!isYearInactive}>
             {year}
           </LinkAnchor>
-        </ItemWithRef>
+        </Item>
         {yearItems(year + 1, endYear)}
         {endYear < MAX_YEAR && (
           <ToggleLink

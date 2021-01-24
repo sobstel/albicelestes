@@ -43,13 +43,11 @@ export async function getStaticPaths() {
   return {
     paths: R.pipe(
       fetchMatches(),
-      R.reverse(),
       R.filter(
         (match) =>
           getMatchYear(match) >= String(MAX_YEAR - 4) ||
           /World Cup|Copa America/i.test(match.competition)
       ),
-      R.take(500),
       R.map((match) => ({
         params: {
           year: getMatchYear(match),

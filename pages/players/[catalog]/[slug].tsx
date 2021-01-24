@@ -21,7 +21,7 @@ import {
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { Page, Block, Header } from "components/layout";
 import Fixtures from "components/Fixtures";
-import InfoLinks from "components/shared/InfoLinks";
+import InfoLinks from "components/InfoLinks";
 
 type Context = { params: { catalog: string; slug: string } };
 
@@ -37,10 +37,14 @@ export async function getStaticProps(context: Context) {
     };
   }
 
-  const playerMatches = R.filter(matches, (match) =>
-    match.lineups[getMatchTeamIndex(match)].some(
-      (app) => getPlayerSlug(app.name) === slug
-    )
+  const playerMatches = R.pipe(
+    matches,
+    R.filter((match) =>
+      match.lineups[getMatchTeamIndex(match)].some(
+        (app) => getPlayerSlug(app.name) === slug
+      )
+    ),
+    R.reverse()
   );
 
   const name = findPlayerName(playerMatches, slug);
