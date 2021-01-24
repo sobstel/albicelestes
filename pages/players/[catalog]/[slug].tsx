@@ -37,10 +37,14 @@ export async function getStaticProps(context: Context) {
     };
   }
 
-  const playerMatches = R.filter(matches, (match) =>
-    match.lineups[getMatchTeamIndex(match)].some(
-      (app) => getPlayerSlug(app.name) === slug
-    )
+  const playerMatches = R.pipe(
+    matches,
+    R.filter((match) =>
+      match.lineups[getMatchTeamIndex(match)].some(
+        (app) => getPlayerSlug(app.name) === slug
+      )
+    ),
+    R.reverse()
   );
 
   const name = findPlayerName(playerMatches, slug);

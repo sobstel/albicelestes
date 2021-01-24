@@ -17,7 +17,8 @@ export async function getStaticProps(context: Context) {
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
+    R.filter((match) => getMatchYear(match) === year),
+    R.reverse()
   );
 
   if (!matches) {

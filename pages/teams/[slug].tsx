@@ -22,7 +22,8 @@ export async function getStaticProps(context: Context) {
     fetchMatches(),
     R.filter(
       (match) => !!R.find(match.teams, (team) => getTeamSlug(team) === slug)
-    )
+    ),
+    R.reverse()
   );
   const name = findTeamName(matches, slug);
   const stat = collectTeamStat(matches);
