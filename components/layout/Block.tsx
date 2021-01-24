@@ -1,5 +1,5 @@
 // import * as R from "remeda";
-import React, { ReactNode, forwardRef } from "react";
+import React, { ForwardedRef, forwardRef, ReactNode } from "react";
 
 type Props = {
   isNav?: boolean;
@@ -12,7 +12,7 @@ type Props = {
 
 function Block(
   { children, hasTopSeparator, hasBottomSeparator, className, isNav }: Props,
-  ref: unknown
+  ref: ForwardedRef<HTMLElement>
 ) {
   let wrapperElement = "section";
   if (isNav) wrapperElement = "nav";
@@ -36,7 +36,7 @@ function Block(
   return React.createElement(
     wrapperElement,
     { className: classNames.join(" "), ref },
-    <>{children}</>
+    children
   );
 }
 

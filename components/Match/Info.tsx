@@ -1,7 +1,7 @@
 import React from "react";
 import { Block, Header } from "components/layout";
 import { Match } from "types";
-import InfoLinks from "components/shared/InfoLinks";
+import InfoLinks from "components/InfoLinks";
 
 type Props = { match: Pick<Match, "info"> };
 

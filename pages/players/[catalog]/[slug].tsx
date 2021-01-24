@@ -21,7 +21,7 @@ import {
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { Page, Block, Header } from "components/layout";
 import Fixtures from "components/Fixtures";
-import InfoLinks from "components/shared/InfoLinks";
+import InfoLinks from "components/InfoLinks";
 
 type Context = { params: { catalog: string; slug: string } };
 

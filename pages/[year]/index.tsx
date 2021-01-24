@@ -3,12 +3,7 @@ import pluralize from "pluralize";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
-import {
-  collectPlayers,
-  collectTeamStat,
-  getMatchItem,
-  getMatchYear,
-} from "helpers";
+import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
 import { Page } from "components/layout";
@@ -27,15 +22,9 @@ export async function getStaticProps(context: Context) {
 
   if (!matches) {
     return {
-      props: { year, matches: [], players: [] },
+      props: { year, matches: [], stat: null },
     };
   }
-
-  const players = R.pipe(
-    matches,
-    collectPlayers,
-    R.sortBy((player) => -player.mp)
-  );
 
   const stat = collectTeamStat(matches);
 
@@ -43,7 +32,6 @@ export async function getStaticProps(context: Context) {
     props: {
       year,
       matches: R.map(matches, getMatchItem),
-      players,
       stat,
     },
   };
@@ -62,7 +50,7 @@ export async function getStaticPaths() {
 type Props = {
   matches: MatchItem[];
   year: string;
-  stat: TeamStat;
+  stat: TeamStat | null;
 };
 
 // SMELL: copied from Pages/Team
@@ -72,12 +60,12 @@ function statPhrase(stat: TeamStat) {
   }L), goals: ${stat.gf}-${stat.ga}`;
 }
 
-export default function DateRangeIndexPage({ year, matches, stat }: Props) {
+export default function YearIndexPage({ year, matches, stat }: Props) {
   return (
     <Page title={["Matches", year]}>
       <MatchesNav year={parseInt(year, 10)} />
       <MatchesHeader year={year} />
-      <p className="mb-4">{statPhrase(stat)}</p>
+      {stat && <p className="mb-4">{statPhrase(stat)}</p>}
       <Fixtures matches={matches} />
     </Page>
   );

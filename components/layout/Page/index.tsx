@@ -7,17 +7,19 @@ import PageFooter from "./PageFooter";
 
 type Props = {
   children: ReactNode;
-  title: string[];
+  title: string | string[];
   description?: string;
 };
 
 export default function Layout({ children, title, description }: Props) {
+  const formattedTitle = Array.isArray(title)
+    ? R.filter(title, (part) => Boolean(part)).join(" / ")
+    : title;
+
   return (
     <div className="text-xs md:text-sm leading-relaxed">
       <Head>
-        <title>
-          {R.filter(title, (part) => Boolean(part)).join(" / ")} / Albicelestes
-        </title>
+        <title>{formattedTitle} / Albicelestes</title>
         <link rel="shortcut icon" href="/favicon.png" />
         {description && <meta name="description" content={description} />}
       </Head>
