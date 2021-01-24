@@ -22,13 +22,6 @@ export async function getStaticProps(): Promise<{ props: Props }> {
   };
 }
 
-export async function getStaticPaths() {
-  return {
-    paths: [{}],
-    fallback: false,
-  };
-}
-
 export default function YearIndexPage({ matches }: Props) {
   return (
     <Page title={["Matches"]}>
