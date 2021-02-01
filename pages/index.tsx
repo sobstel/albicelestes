@@ -6,7 +6,7 @@ import { MatchItem } from "types";
 import { MAX_YEAR } from "config";
 import { Page, Header } from "components/layout";
 import Fixtures from "components/Fixtures";
-import MatchesNav from "components/MatchesNav";
+import YearNav from "components/YearNav";
 
 type Props = {
   matches: MatchItem[];
@@ -25,7 +25,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
 export default function YearIndexPage({ matches }: Props) {
   return (
     <Page title={["Matches"]}>
-      <MatchesNav year={MAX_YEAR} isYearInactive />
+      <YearNav year={MAX_YEAR} isYearInactive />
       <Header
         top
         text="Argentina"

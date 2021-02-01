@@ -6,8 +6,8 @@ import { collectPlayers, getMatchYear, produceShortNames } from "helpers";
 import { PlayerItem } from "types";
 import { Page, Block } from "components/layout";
 import PlayerName from "components/PlayerName";
-import MatchesNav from "components/MatchesNav";
-import MatchesHeader from "components/MatchesHeader";
+import YearNav from "components/YearNav";
+import YearHeader from "components/YearHeader";
 
 type Props = {
   players: PlayerItem[];
@@ -57,8 +57,8 @@ export default function YearStatsPage({ players, year }: Props) {
 
   return (
     <Page title={["Players"]}>
-      <MatchesNav year={parseInt(year, 10)} />
-      <MatchesHeader year={year} />
+      <YearNav year={parseInt(year, 10)} />
+      <YearHeader year={year} />
 
       <Block>
         <table>

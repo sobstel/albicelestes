@@ -7,8 +7,8 @@ import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import Fixtures from "components/Fixtures";
 import { Page, Header } from "components/layout";
-import MatchesHeader from "components/MatchesHeader";
-import MatchesNav from "components/MatchesNav";
+import YearHeader from "components/YearHeader";
+import YearNav from "components/YearNav";
 
 const ALL = "all" as const;
 
@@ -71,7 +71,7 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
     <Page title={["Matches", year]}>
       {isAll ? (
         <>
-          <MatchesNav year={MAX_YEAR} isYearInactive />
+          <YearNav year={MAX_YEAR} isYearInactive />
           <Header
             top
             text="Argentina"
@@ -83,8 +83,8 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
         </>
       ) : (
         <>
-          <MatchesNav year={parseInt(year, 10)} />
-          <MatchesHeader year={year} />
+          <YearNav year={parseInt(year, 10)} />
+          <YearHeader year={year} />
           {stat && <p className="mb-4">{statPhrase(stat)}</p>}
         </>
       )}

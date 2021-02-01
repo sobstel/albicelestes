@@ -3,7 +3,7 @@ import { Block, LinkAnchor } from "components/layout";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 
-export default function PlayersNav({ catalog }: { catalog?: string }) {
+export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
   return (
     <Block isNav hasBottomSeparator>
       <ul className="font-semibold uppercase">

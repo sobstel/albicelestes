@@ -4,7 +4,7 @@ import { fetchMatches } from "data";
 import { collectPlayers, sortByMatchesPlayed } from "helpers";
 import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
 import { Page, Block, LinkAnchor } from "components/layout";
-import PlayersNav from "components/PlayersNav";
+import PlayerCatalogNav from "components/PlayerCatalogNav";
 import { PlayerItem } from "types";
 
 export async function getStaticProps() {
@@ -31,7 +31,7 @@ export default function PlayerIndexPage({ catalog, players }: Props) {
 
   return (
     <Page title={titleParts}>
-      <PlayersNav catalog={catalog} />
+      <PlayerCatalogNav catalog={catalog} />
 
       {players && players.length > 0 && (
         <Block>

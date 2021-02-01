@@ -3,7 +3,7 @@ import { Header } from "components/layout";
 
 type Props = { year: string };
 
-export default function MatchesHeader({ year }: Props) {
+export default function YearHeader({ year }: Props) {
   const nav = [
     { text: "Matches", href: `/${year}` },
     { text: "Players", href: `/${year}/players` },

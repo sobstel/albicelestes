@@ -64,7 +64,7 @@ function yearRange({
   return [startYear, endYear];
 }
 
-export default function Nav({
+export default function YearNav({
   year,
   isYearInactive,
 }: {
