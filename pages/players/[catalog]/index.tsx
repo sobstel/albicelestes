@@ -4,7 +4,7 @@ import slugify from "slugify";
 import { fetchMatches } from "data";
 import { collectPlayers, getPlayerName, getPlayerCatalog } from "helpers";
 import Page, { Props } from "../";
-import { ALPHABET } from "components/PlayersNav";
+import { ALPHABET } from "components/PlayerCatalogNav";
 
 type Context = { params: { catalog: string } };
 
