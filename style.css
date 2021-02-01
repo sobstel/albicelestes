@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  th {
+    @apply align-top;
+    @apply pr-4;
+    @apply whitespace-nowrap;
+    @apply font-semibold;
+  }
+  th:last-child {
+    @apply pr-0;
+  }
+  td {
+    @apply align-top;
+    @apply pr-4;
+    @apply whitespace-nowrap;
+  }
+  td:last-child {
+    @apply pr-0;
+  }
+}
+
 ._video-container {
   overflow: hidden;
   position: relative;

@@ -64,17 +64,17 @@ export default function YearStatsPage({ players, year }: Props) {
         <table>
           <thead>
             <tr>
-              <th className="text-left font-semibold">Name</th>
-              <th className="pl-2 text-right font-semibold">
+              <th className="text-left">Name</th>
+              <th className="text-right ">
                 <abbr title="Matches Played">MP</abbr>
               </th>
-              <th className="pl-2 text-right font-semibold">
+              <th className="text-right ">
                 <abbr title="Sub in">in</abbr>
               </th>
-              <th className="pl-2 text-right font-semibold">
+              <th className="text-right ">
                 <abbr title="Sub out">out</abbr>
               </th>
-              <th className="pl-2 text-right font-semibold">
+              <th className="text-right">
                 <abbr title="Goals Scored">GS</abbr>
               </th>
             </tr>
@@ -89,10 +89,10 @@ export default function YearStatsPage({ players, year }: Props) {
                     linkify
                   />
                 </td>
-                <td className="pl-2 text-right">{mp}</td>
-                <td className="pl-2 text-right">{si > 0 && si}</td>
-                <td className="pl-2 text-right">{so > 0 && so}</td>
-                <td className="pl-2 text-right">{g > 0 && g}</td>
+                <td className="text-right">{mp}</td>
+                <td className="text-right">{si > 0 && si}</td>
+                <td className="text-right">{so > 0 && so}</td>
+                <td className="text-right">{g > 0 && g}</td>
               </tr>
             ))}
           </tbody>

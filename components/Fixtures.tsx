@@ -32,10 +32,8 @@ export default function Fixtures({ title, matches, headerText }: Props) {
           <tbody>
             {matches.map((match) => (
               <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
-                <td className="whitespace-nowrap align-top pr-4">
-                  {getMatchDate(match, { withYear: true })}
-                </td>
-                <td className="whitespace-nowrap align-top pr-4">
+                <td>{getMatchDate(match, { withYear: true })}</td>
+                <td>
                   <LinkAnchor
                     href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
                   >{`${
@@ -44,10 +42,10 @@ export default function Fixtures({ title, matches, headerText }: Props) {
                     teamInflections[match.teams[1].name] ?? match.teams[1].name
                   }`}</LinkAnchor>
                 </td>
-                <td className="whitespace-nowrap align-top pr-4">
+                <td>
                   {getMatchScore(match, { withTeams: false, short: true })}
                 </td>
-                <td className="whitespace-nowrap align-top">
+                <td>
                   <em>
                     {competitionInflections[match.competition] ??
                       match.competition}
