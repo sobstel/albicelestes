@@ -1,9 +1,9 @@
-import React, { ReactNode } from "react";
 import * as R from "remeda";
+import React, { ReactNode, useState, useEffect } from "react";
 import Head from "next/head";
-import NextNprogress from "nextjs-progressbar";
 import PageHeader from "./PageHeader";
 import PageFooter from "./PageFooter";
+import Spinner from "./Spinner";
 
 type Props = {
   children: ReactNode;
@@ -24,12 +24,7 @@ export default function Layout({ children, title, description }: Props) {
         {description && <meta name="description" content={description} />}
       </Head>
 
-      <NextNprogress
-        color="#000"
-        startPosition={0.3}
-        stopDelayMs={200}
-        height="3"
-      />
+      <Spinner />
 
       <div className="max-w-2xl m-auto px-3 font-mono antialiased">
         <PageHeader />
