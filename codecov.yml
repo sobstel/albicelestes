@@ -1,5 +1,5 @@
 codecov:
-  require_ci_to_pass: yes
+  require_ci_to_pass: no
 
 coverage:
   precision: 1
@@ -8,7 +8,7 @@ coverage:
   status:
     project:
       default:
-        target: 86%
+        target: 78%
     patch:
       default:
         target: 50%
