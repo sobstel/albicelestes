@@ -1,5 +1,5 @@
 import * as R from "remeda";
-import React, { ReactNode, useState, useEffect } from "react";
+import React, { ReactNode } from "react";
 import Head from "next/head";
 import PageHeader from "./PageHeader";
 import PageFooter from "./PageFooter";
