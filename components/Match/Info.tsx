@@ -18,13 +18,34 @@ export default function Info({ match }: Props) {
         <Block>
           <Header text="Videos" />
           {youtube.map((video) => (
-            <div key={video.id} className="mb-2 _video-container">
-              <iframe
-                src={`https://www.youtube.com/embed/${video.id}`}
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <div key={video.id}>
+              <div className="mb-2 _video-container">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  frameBorder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <style jsx>{`
+                ._video-container {
+                  overflow: hidden;
+                  position: relative;
+                  width: 100%;
+                }
+                ._video-container::after {
+                  padding-top: 56.25%;
+                  display: block;
+                  content: "";
+                }
+                ._video-container iframe {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                }
+              `}</style>
             </div>
           ))}
         </Block>

@@ -16,11 +16,11 @@ export default function Spinner() {
 
   return (
     <>
-      <div className="spinner" role="spinner">
-        <div className="spinner__icon"></div>
+      <div className="_spinner" role="spinner">
+        <div className="_spinner__icon"></div>
       </div>
       <style jsx>{`
-        .spinner {
+        ._spinner {
           display: block;
           position: fixed;
           z-index: 666;
@@ -28,7 +28,7 @@ export default function Spinner() {
           right: 1rem;
         }
 
-        .spinner__icon {
+        ._spinner__icon {
           width: 1rem;
           height: 1rem;
 
