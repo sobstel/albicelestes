@@ -9,18 +9,16 @@ import { MatchItem } from "types";
 import { fetchTeamInflections, fetchCompetitionInflections } from "data";
 import { Block, Header, LinkAnchor } from "./layout";
 
-export type FixtureMatch = MatchItem;
-
 type Props = {
   title?: string; // DEPREACTED
-  matches?: FixtureMatch[];
+  matches?: MatchItem[];
   headerText?: string;
 };
 
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
-export default function Fixtures({ title, matches, headerText }: Props) {
+export default function MatchList({ title, matches, headerText }: Props) {
   if (!matches?.length) return null;
 
   return (

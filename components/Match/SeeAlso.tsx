@@ -1,17 +1,18 @@
 import React from "react";
-import Fixtures, { FixtureMatch } from "components/Fixtures";
+import MatchList from "components/MatchList";
 import { Block, Header } from "components/layout";
 import { LinkAnchor } from "components/layout";
-import { Match } from "types";
+import { Match, MatchItem } from "types";
+import { TEAM_SLUG } from "config";
 
 type Props = {
   match: Pick<Match, "date" | "teams">;
-  prevMatch?: FixtureMatch;
-  nextMatch?: FixtureMatch;
+  prevMatch?: MatchItem;
+  nextMatch?: MatchItem;
 };
 
 export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
-  const otherTeam = match.teams.find((team) => team.slug !== "argentina");
+  const otherTeam = match.teams.find((team) => team.slug !== TEAM_SLUG);
   const year = match.date.slice(0, 4);
 
   return (
@@ -35,8 +36,8 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
         )}
       </Block>
 
-      {prevMatch && <Fixtures title="Previous match" matches={[prevMatch]} />}
-      {nextMatch && <Fixtures title="Next match" matches={[nextMatch]} />}
+      {prevMatch && <MatchList title="Previous match" matches={[prevMatch]} />}
+      {nextMatch && <MatchList title="Next match" matches={[nextMatch]} />}
     </>
   );
 }
