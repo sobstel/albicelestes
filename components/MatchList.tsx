@@ -51,6 +51,7 @@ function getResponsiveScore(match: MatchItem): string {
 
     if (myTeamIndex === 1) {
       // TODO: extract to sub-helpers handling home/away etc helper: isAwayTeam or isMyTeamAway as myTeamIndex === 1 is enigmatic
+      // getOtherTeam
 
       return getMatchScore(
         {
