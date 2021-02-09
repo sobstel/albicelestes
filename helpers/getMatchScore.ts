@@ -3,7 +3,7 @@ import { Match, Result } from "types";
 
 type MatchScoreOpts = {
   withTeams?: boolean;
-  short?: true;
+  short?: boolean;
 };
 
 // TODO: it should return score only just as it says -> extract getMatchTeams?
@@ -11,7 +11,7 @@ export default function getMatchScore(
   match: Pick<Match, "teams" | "score" | "pen" | "result">,
   localOpts: MatchScoreOpts = {}
 ): string {
-  const opts = { withTeams: true, short: false, ...localOpts };
+  const opts = { withTeams: false, short: false, ...localOpts };
 
   const [homeTeam, awayTeam] = match.teams;
 

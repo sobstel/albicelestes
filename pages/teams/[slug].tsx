@@ -78,7 +78,7 @@ function generateDescription({
       [
         getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        getMatchScore(lastMatch),
+        getMatchScore(lastMatch, { withTeams: true }),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ]).join(". ");

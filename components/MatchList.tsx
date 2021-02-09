@@ -15,13 +15,15 @@ type Props = {
   matches: MatchItem[];
 };
 
-const QUERY_COMPACT = "(max-device-width: 425px)";
-
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
+function useCompact(): boolean {
+  return useMediaQuery({ query: "(max-device-width: 425px)" });
+}
+
 function getResponsiveTeamLabel(match: MatchItem): string {
-  const isCompact = useMediaQuery({ query: QUERY_COMPACT });
+  const isCompact = useCompact();
 
   if (isCompact) {
     const myTeamIndex = getMatchTeamIndex(match);
@@ -42,7 +44,9 @@ function getResponsiveTeamLabel(match: MatchItem): string {
 }
 
 function getResponsiveScore(match: MatchItem): string {
-  const isCompact = useMediaQuery({ query: QUERY_COMPACT });
+  const isCompact = useCompact();
+
+  // TODO: reverse for isCompact
 
   const short = isCompact;
   return getMatchScore(match, { withTeams: false, short });

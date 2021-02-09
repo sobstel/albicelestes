@@ -40,9 +40,9 @@ function generateDescription(match: Match) {
       .concat(".");
   }
 
-  const description = `Details about ${getMatchScore(
-    match
-  )} football game played on ${getMatchDate(match, {
+  const description = `Details about ${getMatchScore(match, {
+    withTeams: true,
+  })} football game played on ${getMatchDate(match, {
     withYear: true,
     uppercase: false,
   })} (${match.competition}). ${lineupDescription}`.trim();
@@ -53,7 +53,7 @@ function generateDescription(match: Match) {
 export default function MatchPage({ match, prevMatch, nextMatch }: Props) {
   return (
     <Page title={title(match)} description={generateDescription(match)}>
-      <Header text={getMatchScore(match)} top />
+      <Header text={getMatchScore(match, { withTeams: true })} top />
       <p>
         {getMatchDate(match, { withYear: true })}, {match.competition}
       </p>
