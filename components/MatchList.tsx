@@ -46,10 +46,27 @@ function getResponsiveTeamLabel(match: MatchItem): string {
 function getResponsiveScore(match: MatchItem): string {
   const isCompact = useCompact();
 
-  // TODO: reverse for isCompact
+  if (isCompact) {
+    const myTeamIndex = getMatchTeamIndex(match);
 
-  const short = isCompact;
-  return getMatchScore(match, { withTeams: false, short });
+    if (myTeamIndex === 1) {
+      // TODO: extract to sub-helpers handling home/away etc helper: isAwayTeam or isMyTeamAway as myTeamIndex === 1 is enigmatic
+
+      return getMatchScore(
+        {
+          teams: [match.teams[1], match.teams[0]],
+          score: [match.score[1], match.score[0]],
+          pen: match.pen && [match.pen[1], match.pen[0]],
+          result: match.result,
+        },
+        { short: true }
+      );
+    }
+
+    return getMatchScore(match, { short: true });
+  }
+
+  return getMatchScore(match, { short: false });
 }
 
 function getResponsiveCompetitionName(match: MatchItem): string {
