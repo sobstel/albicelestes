@@ -33,7 +33,7 @@ describe(Lineups, () => {
     test("renders team headers", () => {
       const headers = container.querySelectorAll("h2");
       expect(headers[0].textContent).toEqual("Argentina (Marcelo Bielsa)");
-      expect(headers[1].textContent).toEqual("Uruguay (unknown)");
+      expect(headers[1].textContent).toEqual("Uruguay");
     });
 
     const lineupSections = container.querySelectorAll("section");
