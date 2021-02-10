@@ -8,10 +8,13 @@ export const fetchMatches = R.once((): Match[] => require("./matches.json"));
 type Inflections = Record<string, string>
 
 export const fetchCompetitionInflections = R.once(
-  (): Inflections  => require("./inflections/competitions.json")
+  (): Inflections => require("./inflections/competitions.json")
+);
+export const fetchShortCompetitionInflections = R.once(
+  (): Inflections => require("./inflections/short-competitions.json")
 );
 export const fetchPlayerInflections = R.once(
-  (): Inflections  => require("./inflections/players.json")
+  (): Inflections => require("./inflections/players.json")
 );
 export const fetchTeamInflections = R.once(
   (): Inflections => require("./inflections/teams.json")

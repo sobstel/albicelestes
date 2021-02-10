@@ -24002,7 +24002,7 @@
   },
   {
     "date": "1977-08-24",
-    "competition": "Jose Felix Bogado",
+    "competition": "Copa Félix Bogado",
     "venue": {"name": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [2, 1],
@@ -24050,7 +24050,7 @@
   },
   {
     "date": "1977-08-31",
-    "competition": "Jose Felix Bogado",
+    "competition": "Copa Félix Bogado",
     "venue": {"name": "Asuncion"},
     "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
     "score": [2, 0],
