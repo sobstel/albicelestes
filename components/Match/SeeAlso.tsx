@@ -3,7 +3,7 @@ import MatchList from "components/MatchList";
 import { Block, Header } from "components/layout";
 import { LinkAnchor } from "components/layout";
 import { Match, MatchItem } from "types";
-import { getMatchYear, getMatchTeamIndex } from "helpers";
+import { getMatchOtherTeam, getMatchYear } from "helpers";
 
 type Props = {
   match: Pick<Match, "date" | "teams">;
@@ -13,7 +13,7 @@ type Props = {
 
 export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
   const year = getMatchYear(match);
-  const otherTeam = match.teams[1 - getMatchTeamIndex(match)];
+  const otherTeam = getMatchOtherTeam(match);
 
   return (
     <>
