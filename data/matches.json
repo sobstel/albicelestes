@@ -341,6 +341,7 @@
         {"name": "Alberto Zumaran"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Colin Campbell"},
@@ -350,7 +351,6 @@
         {"name": "Juan Antonio Murray"},
         {"name": "Guillermo Ross"},
         {"name": "Carlos H Whaley"},
-        {"name": "Carlos T Wilson"},
         {"name": "Juan H Wood"}
       ]
     ]
@@ -426,6 +426,7 @@
         {"name": "Alberto Zumaran"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Luis Vernet Amadeo"},
         {"name": "Alfredo C Brown"},
         {"name": "Ernesto Brown"},
@@ -435,8 +436,7 @@
         {"name": "Martin Murphy"},
         {"name": "Juan A Rossi"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ]
     ]
   },
@@ -458,6 +458,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
@@ -467,8 +468,7 @@
         {"name": "Haroldo T Ratcliff"},
         {"name": "Maximiliano A Susan"},
         {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Gottlob E Weiss"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Gottlob E Weiss"}
       ],
       [
         {"name": "Juan Carlos Bertone"},
@@ -498,6 +498,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -507,8 +508,7 @@
         {"name": "Jose Susan"},
         {"name": "Maximiliano A Susan"},
         {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Gottlob E Weiss"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Gottlob E Weiss"}
       ],
       [
         {"name": "Jose Brachi"},
@@ -543,6 +543,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -552,8 +553,7 @@
         {"name": "Eduardo Rothschild"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Juan Carlos Bertone"},
@@ -604,6 +604,7 @@
         {"name": "Pedro Zuazu"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -613,8 +614,7 @@
         {"name": "Juan A Rossi"},
         {"name": "JB Sheridan"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ]
     ]
   },
@@ -638,6 +638,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -647,8 +648,7 @@
         {"name": "Henry J Lawrie"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Jose Piendibene"},
@@ -715,7 +715,7 @@
     "slug": "argentina-chile-2",
     "date": "1910-06-05",
     "competition": "Copa Centenario Revolución de Mayo",
-    "venue": {"name": "Gimnasia y Esgrima, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [5, 1],
     "result": "W",
@@ -733,6 +733,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -742,8 +743,7 @@
         {"name": "Miguel S Malbran"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Gottlob E Weiss"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Gottlob E Weiss"}
       ],
       [
         {"name": "Henry Allen"},
@@ -758,12 +758,21 @@
         {"name": "J Robson"},
         {"name": "Heriberto Sturgess"}
       ]
-    ]
+    ],
+    "info": {
+      "links": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Copa_Centenario_Revolución_de_Mayo",
+          "text": "Copa Centenario Revolución de Mayo @ Wikipedia"
+        }
+      ]
+    },
+    "sources": ["Wikipedia", "RSSSF"]
   },
   {
     "date": "1910-06-12",
     "competition": "Copa Centenario Revolución de Mayo",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 1],
     "result": "W",
@@ -780,6 +789,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -789,8 +799,7 @@
         {"name": "Arturo G Jacobs"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Jose Piendibene"},
@@ -805,7 +814,16 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Pedro Zuazu"}
       ]
-    ]
+    ],
+    "info": {
+      "links": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Copa_Centenario_Revolución_de_Mayo",
+          "text": "Copa Centenario Revolución de Mayo @ Wikipedia"
+        }
+      ]
+    },
+    "sources": ["Wikipedia", "RSSSF"]
   },
   {
     "date": "1910-08-15",
@@ -839,6 +857,7 @@
         {"name": "Pedro Zibechi"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -848,8 +867,7 @@
         {"name": "Juan Enrique Hayes"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ]
     ]
   },
@@ -873,6 +891,7 @@
     "lineups": [
       [],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Patricio B Browne"},
@@ -882,8 +901,7 @@
         {"name": "Henry J Lawrie"},
         {"name": "Martin Murphy"},
         {"name": "JB Sheridan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ]
     ]
   },
@@ -1001,6 +1019,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": ""},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -1010,8 +1029,7 @@
         {"name": "Carlos A Lett"},
         {"name": "Miguel S Malbran"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ],
       [
         {"name": "Pascual Somma"},
@@ -1063,6 +1081,7 @@
         {"name": "Cayetano Saporiti"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -1072,8 +1091,7 @@
         {"name": "Juan Enrique Hayes"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Cirilo P Russ"},
-        {"name": "Maximiliano A Susan"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Maximiliano A Susan"}
       ]
     ]
   },
@@ -1106,6 +1124,7 @@
         {"name": "Cayetano Saporiti"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -1115,8 +1134,7 @@
         {"name": "Juan Enrique Hayes"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ]
     ]
   },
@@ -1139,6 +1157,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -1148,8 +1167,7 @@
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Antonio Piaggio"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Jose Piendibene"},
@@ -1199,6 +1217,7 @@
         {"name": "Cayetano Saporiti"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
@@ -1208,8 +1227,7 @@
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Antonio Piaggio"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ]
     ]
   },
@@ -1244,6 +1262,7 @@
         {"name": "Carlos Scarone"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Antonio Ameal"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
@@ -1253,8 +1272,7 @@
         {"name": "Jose Morroni"},
         {"name": "Alberto Juan Ohaco"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ]
     ]
   },
@@ -1278,6 +1296,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "EM Hayes"},
@@ -1287,8 +1306,7 @@
         {"name": "Arturo Reparaz"},
         {"name": "Cirilo P Russ"},
         {"name": "Ernesto A Sande"},
-        {"name": "Maximiliano A Susan"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Maximiliano A Susan"}
       ],
       []
     ]
@@ -1326,6 +1344,7 @@
         {"name": "Carlos Scarone"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
@@ -1335,8 +1354,7 @@
         {"name": "Cirilo P Russ"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ]
     ]
   },
@@ -1405,6 +1423,7 @@
     "lineups": [
       [],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Guillermo Dannaher"},
@@ -1414,8 +1433,7 @@
         {"name": "Antonio Piaggio"},
         {"name": "Ernesto A Sande"},
         {"name": "Santiago Sayanes"},
-        {"name": "Maximiliano A Susan"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Maximiliano A Susan"}
       ]
     ]
   },
@@ -1482,6 +1500,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -1491,8 +1510,7 @@
         {"name": "Cirilo P Russ"},
         {"name": "Maximiliano A Susan"},
         {"name": "Jose N Viale"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Alfredo Foglino"},
@@ -1571,6 +1589,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Manuel Pedro Gonzalez"},
@@ -1580,8 +1599,7 @@
         {"name": "Jose Morroni"},
         {"name": "Maximiliano A Susan"},
         {"name": "Francisco Taggino"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Angel Romano"},
@@ -1617,6 +1635,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Manuel Pedro Gonzalez"},
@@ -1626,8 +1645,7 @@
         {"name": "Mario Luis Negri"},
         {"name": "Alberto J Olivari"},
         {"name": "Horacio H Vignoles"},
-        {"name": "Arnoldo P Watson Hutton"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Arnoldo P Watson Hutton"}
       ],
       [
         {"name": "Jose Piendibene", "out": "46"},
@@ -1708,6 +1726,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Donato Abatangelo"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -1717,8 +1736,7 @@
         {"name": "Ricardo Pepe"},
         {"name": "Juan Manuel Rogers"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ],
       [
         {"name": "Jose Perez"},
@@ -1834,6 +1852,7 @@
         {"name": "Pedro Zibechi"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -1843,8 +1862,7 @@
         {"name": "Alberto J Olivari"},
         {"name": "Luis Povey"},
         {"name": "Maximiliano A Susan"},
-        {"name": "Jose N Viale"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Jose N Viale"}
       ]
     ]
   },
@@ -2103,6 +2121,7 @@
         {"name": "Manuel Varela"}
       ],
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Geronimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -2112,8 +2131,7 @@
         {"name": "Juan Enrique Hayes"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Alberto J Olivari"},
-        {"name": "Juan Nelusco Perinetti"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Juan Nelusco Perinetti"}
       ]
     ]
   },
@@ -2230,6 +2248,7 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Carlos Tomás Wilson"},
         {"name": "Geronimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Carlos Guidi"},
@@ -2239,8 +2258,7 @@
         {"name": "Alberto Juan Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
-        {"name": "Armando Reyes"},
-        {"name": "Carlos T Wilson"}
+        {"name": "Armando Reyes"}
       ],
       [
         {"name": "Enrique Abello"},
@@ -41000,7 +41018,10 @@
     "date": "2006-06-16",
     "competition": "World Cup",
     "venue": {"name": "Veltins-Arena, Gelsenkirchen"},
-    "teams": [{"name": "Argentina"}, {"name": "Serbia and Montenegro", "slug": "serbia"}],
+    "teams": [
+      {"name": "Argentina"},
+      {"name": "Serbia and Montenegro", "slug": "serbia"}
+    ],
     "score": [6, 0],
     "result": "W",
     "goals": [
@@ -51715,20 +51736,13 @@
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [
-      [
-        {"name": "Lionel Messi", "min": "13", "type": "P"}
-      ],
-      []
-    ],
+    "goals": [[{"name": "Lionel Messi", "min": "13", "type": "P"}], []],
     "cards": [
       [
         {"name": "Leandro Paredes", "min": "21", "type": "Y"},
         {"name": "Nicolás Otamendi", "min": "78", "type": "Y"}
       ],
-      [
-        {"name": "Enner Valencia", "min": "43", "type": "Y"}
-      ]
+      [{"name": "Enner Valencia", "min": "43", "type": "Y"}]
     ],
     "coaches": [{"name": "Lionel Scaloni"}, {"name": "Gustavo Alfaro"}],
     "lineups": [
@@ -51778,9 +51792,7 @@
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [
-        {"name": "Marcelo Martins", "min": "24", "type": "G"}
-      ],
+      [{"name": "Marcelo Martins", "min": "24", "type": "G"}],
       [
         {"name": "Lautaro Martínez", "min": "45", "type": "G"},
         {"name": "Joaquín Correa", "min": "79", "type": "G"}
@@ -51852,12 +51864,8 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [
-        {"name": "Nicolás González", "min": "41", "type": "G"}
-      ],
-      [
-        {"name": "Ángel Romero", "min": "21", "type": "P"}
-      ]
+      [{"name": "Nicolás González", "min": "41", "type": "G"}],
+      [{"name": "Ángel Romero", "min": "21", "type": "P"}]
     ],
     "cards": [
       [
