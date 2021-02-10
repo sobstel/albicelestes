@@ -11,12 +11,13 @@ export default function Venue({ match }: Props) {
     return null;
   }
 
-  const { name } = match.venue;
+  const { name, city } = match.venue;
 
   return (
     <Block>
       <Header text="Venue" />
       {name}
+      {city && `, ${city}`}
     </Block>
   );
 }
