@@ -2210,7 +2210,7 @@
   },
   {
     "date": "1916-07-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Gimnasia, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [6, 1],
@@ -2259,7 +2259,7 @@
   },
   {
     "date": "1916-07-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Gimnasia, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 1],
@@ -2341,7 +2341,7 @@
   },
   {
     "date": "1916-07-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Gimnasia, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
@@ -2752,7 +2752,7 @@
   },
   {
     "date": "1917-10-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [4, 2],
@@ -2799,7 +2799,7 @@
   },
   {
     "date": "1917-10-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [1, 0],
@@ -2843,7 +2843,7 @@
   {
     "slug": "uruguay-argentina-3",
     "date": "1917-10-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -3236,7 +3236,7 @@
   },
   {
     "date": "1919-05-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 3],
@@ -3379,7 +3379,7 @@
   },
   {
     "date": "1919-05-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [3, 1],
@@ -3471,7 +3471,7 @@
   },
   {
     "date": "1919-05-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [4, 1],
@@ -3978,7 +3978,7 @@
   {
     "slug": "argentina-uruguay-3",
     "date": "1920-09-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "de Vina, Valparaiso"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
@@ -4020,7 +4020,7 @@
   },
   {
     "date": "1920-09-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "de Vina, Valparaiso"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
@@ -4062,7 +4062,7 @@
   },
   {
     "date": "1920-09-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "de Vina, Valparaiso"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 2],
@@ -4273,7 +4273,7 @@
   },
   {
     "date": "1921-10-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Barracas, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 0],
@@ -4312,7 +4312,7 @@
   },
   {
     "date": "1921-10-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Barracas, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [3, 0],
@@ -4358,7 +4358,7 @@
   },
   {
     "date": "1921-10-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Barracas, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
@@ -4425,7 +4425,7 @@
   },
   {
     "date": "1922-09-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [4, 0],
@@ -4472,7 +4472,7 @@
   },
   {
     "date": "1922-10-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -4511,7 +4511,7 @@
   },
   {
     "date": "1922-10-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
@@ -4553,7 +4553,7 @@
   },
   {
     "date": "1922-10-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Laranjeiras, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [2, 0],
@@ -5082,7 +5082,7 @@
   {
     "slug": "argentina-paraguay-3",
     "date": "1923-10-29",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 3],
@@ -5133,7 +5133,7 @@
   },
   {
     "date": "1923-11-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 1],
@@ -5225,7 +5225,7 @@
   {
     "slug": "uruguay-argentina-3",
     "date": "1923-12-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 0],
@@ -5822,7 +5822,7 @@
   {
     "slug": "paraguay-argentina-3",
     "date": "1924-10-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -5861,7 +5861,7 @@
   },
   {
     "date": "1924-10-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Central, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 0],
@@ -5907,7 +5907,7 @@
   {
     "slug": "uruguay-argentina-4",
     "date": "1924-11-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Parque Central, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -6063,7 +6063,7 @@
   {
     "slug": "argentina-paraguay-3",
     "date": "1925-11-29",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Boca Juniors, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [2, 0],
@@ -6108,7 +6108,7 @@
   },
   {
     "date": "1925-12-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Barracas, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [4, 1],
@@ -6156,7 +6156,7 @@
   {
     "slug": "argentina-paraguay-4",
     "date": "1925-12-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Boca Juniors, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [3, 1],
@@ -6203,7 +6203,7 @@
   {
     "slug": "argentina-brazil-2",
     "date": "1925-12-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Sportivo Barracas BUENOS AIRES"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 2],
@@ -6342,7 +6342,7 @@
   },
   {
     "date": "1926-10-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Sport de Nunoa SANTIAGO"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [5, 0],
@@ -6391,7 +6391,7 @@
   {
     "slug": "argentina-paraguay-3",
     "date": "1926-10-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Sport de Nunoa SANTIAGO"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [8, 0],
@@ -6442,7 +6442,7 @@
   },
   {
     "date": "1926-10-24",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Sport de Nunoa SANTIAGO"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 0],
@@ -6487,7 +6487,7 @@
   },
   {
     "date": "1926-10-31",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Sport de Nunoa SANTIAGO"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
@@ -6610,7 +6610,7 @@
   },
   {
     "date": "1927-10-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [7, 1],
@@ -6661,7 +6661,7 @@
   {
     "slug": "argentina-uruguay-2",
     "date": "1927-11-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 2],
@@ -6710,7 +6710,7 @@
   },
   {
     "date": "1927-11-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [1, 5],
@@ -7059,7 +7059,7 @@
   },
   {
     "date": "1929-11-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 0],
@@ -7105,7 +7105,7 @@
   },
   {
     "date": "1929-11-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 1],
@@ -7153,7 +7153,7 @@
   {
     "slug": "argentina-uruguay-3",
     "date": "1929-11-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 0],
@@ -8116,7 +8116,7 @@
   },
   {
     "date": "1935-01-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional Santa Beatriz, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [4, 1],
@@ -8165,7 +8165,7 @@
   },
   {
     "date": "1935-01-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional Santa Beatriz, Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [1, 4],
@@ -8215,7 +8215,7 @@
   },
   {
     "date": "1935-01-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional Santa Beatriz, Lima"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [3, 0],
@@ -8453,7 +8453,7 @@
   },
   {
     "date": "1936-12-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 1],
@@ -8500,7 +8500,7 @@
   },
   {
     "date": "1937-01-09",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo de Almagro BUENOS AIRES"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [6, 1],
@@ -8550,7 +8550,7 @@
   },
   {
     "date": "1937-01-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [1, 0],
@@ -8594,7 +8594,7 @@
   },
   {
     "date": "1937-01-23",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 3],
@@ -8649,7 +8649,7 @@
   },
   {
     "date": "1937-01-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 0],
@@ -8692,7 +8692,7 @@
   {
     "slug": "argentina-brazil-2",
     "date": "1937-02-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 0],
@@ -9905,7 +9905,7 @@
   },
   {
     "date": "1941-02-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [2, 1],
@@ -9953,7 +9953,7 @@
   },
   {
     "date": "1941-02-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [6, 1],
@@ -10005,7 +10005,7 @@
   },
   {
     "date": "1941-02-23",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
@@ -10049,7 +10049,7 @@
   {
     "slug": "chile-argentina-3",
     "date": "1941-03-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -10090,7 +10090,7 @@
   },
   {
     "date": "1942-01-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 3],
@@ -10143,7 +10143,7 @@
   },
   {
     "date": "1942-01-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 1],
@@ -10191,7 +10191,7 @@
   },
   {
     "date": "1942-01-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [12, 0],
@@ -10247,7 +10247,7 @@
   },
   {
     "date": "1942-01-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 1],
@@ -10299,7 +10299,7 @@
   },
   {
     "date": "1942-01-31",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [0, 0],
@@ -10340,7 +10340,7 @@
   },
   {
     "date": "1942-02-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -10860,7 +10860,7 @@
   },
   {
     "date": "1945-01-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [4, 0],
@@ -10911,7 +10911,7 @@
   },
   {
     "date": "1945-01-31",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [4, 2],
@@ -10962,7 +10962,7 @@
   },
   {
     "date": "1945-02-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [9, 1],
@@ -11019,7 +11019,7 @@
   },
   {
     "date": "1945-02-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
@@ -11070,7 +11070,7 @@
   },
   {
     "date": "1945-02-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [3, 1],
@@ -11119,7 +11119,7 @@
   },
   {
     "date": "1945-02-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
@@ -11528,7 +11528,7 @@
   },
   {
     "date": "1946-01-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [2, 0],
@@ -11580,7 +11580,7 @@
   },
   {
     "date": "1946-01-19",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [7, 1],
@@ -11632,7 +11632,7 @@
   },
   {
     "date": "1946-01-26",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [3, 1],
@@ -11682,7 +11682,7 @@
   },
   {
     "date": "1946-02-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "San Lorenzo, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 1],
@@ -11733,7 +11733,7 @@
   },
   {
     "date": "1946-02-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 0],
@@ -11783,7 +11783,7 @@
   },
   {
     "date": "1947-12-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [6, 0],
@@ -11834,7 +11834,7 @@
   },
   {
     "date": "1947-12-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [7, 0],
@@ -11889,7 +11889,7 @@
   },
   {
     "date": "1947-12-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 2],
@@ -11941,7 +11941,7 @@
   },
   {
     "date": "1947-12-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [1, 1],
@@ -11989,7 +11989,7 @@
   },
   {
     "date": "1947-12-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [6, 0],
@@ -12039,7 +12039,7 @@
   },
   {
     "date": "1947-12-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
     "score": [0, 2],
@@ -12088,7 +12088,7 @@
   },
   {
     "date": "1947-12-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Capwell, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 1],
@@ -12691,7 +12691,7 @@
   },
   {
     "date": "1955-03-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [5, 3],
@@ -12748,7 +12748,7 @@
   },
   {
     "date": "1955-03-09",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [4, 0],
@@ -12800,7 +12800,7 @@
   },
   {
     "date": "1955-03-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [2, 2],
@@ -12853,7 +12853,7 @@
   },
   {
     "date": "1955-03-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [6, 1],
@@ -12907,7 +12907,7 @@
   },
   {
     "date": "1955-03-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -12949,7 +12949,7 @@
   },
   {
     "date": "1956-01-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [2, 1],
@@ -12997,7 +12997,7 @@
   },
   {
     "date": "1956-01-29",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 0],
@@ -13044,7 +13044,7 @@
   },
   {
     "date": "1956-02-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -13085,7 +13085,7 @@
   },
   {
     "date": "1956-02-05",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -13126,7 +13126,7 @@
   },
   {
     "date": "1956-02-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -13810,7 +13810,7 @@
   },
   {
     "date": "1957-03-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [8, 2],
@@ -13867,7 +13867,7 @@
   },
   {
     "date": "1957-03-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [3, 0],
@@ -13921,7 +13921,7 @@
   },
   {
     "date": "1957-03-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 0],
@@ -13972,7 +13972,7 @@
   },
   {
     "date": "1957-03-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [6, 2],
@@ -14026,7 +14026,7 @@
   },
   {
     "date": "1957-04-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [3, 0],
@@ -14072,7 +14072,7 @@
   },
   {
     "date": "1957-04-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -14880,7 +14880,7 @@
   },
   {
     "date": "1959-03-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [6, 1],
@@ -14933,7 +14933,7 @@
   },
   {
     "date": "1959-03-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [2, 0],
@@ -14983,7 +14983,7 @@
   },
   {
     "date": "1959-03-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 1],
@@ -15035,7 +15035,7 @@
   },
   {
     "date": "1959-03-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [3, 1],
@@ -15087,7 +15087,7 @@
   },
   {
     "date": "1959-03-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 1],
@@ -15137,7 +15137,7 @@
   },
   {
     "date": "1959-04-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 1],
@@ -15241,7 +15241,7 @@
   {
     "slug": "argentina-paraguay-2",
     "date": "1959-12-09",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Modelo, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 2],
@@ -15297,7 +15297,7 @@
   },
   {
     "date": "1959-12-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Modelo, Guayaquil"},
     "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
     "score": [1, 1],
@@ -15345,7 +15345,7 @@
   },
   {
     "date": "1959-12-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Modelo, Guayaquil"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [5, 0],
@@ -15398,7 +15398,7 @@
   {
     "slug": "argentina-brazil-2",
     "date": "1959-12-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Modelo, Guayaquil"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [4, 1],
@@ -16921,7 +16921,7 @@
   },
   {
     "date": "1963-03-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [4, 2],
@@ -16974,7 +16974,7 @@
   },
   {
     "date": "1963-03-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [1, 2],
@@ -17024,7 +17024,7 @@
   },
   {
     "date": "1963-03-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [4, 2],
@@ -17077,7 +17077,7 @@
   },
   {
     "date": "1963-03-24",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Hernando Siles, La Paz"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [3, 0],
@@ -17125,7 +17125,7 @@
   },
   {
     "date": "1963-03-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Hernando Siles, La Paz"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
     "score": [3, 2],
@@ -17177,7 +17177,7 @@
   },
   {
     "date": "1963-03-31",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Hernando Siles, La Paz"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
@@ -18506,7 +18506,7 @@
   },
   {
     "date": "1967-01-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 1],
@@ -18556,7 +18556,7 @@
   },
   {
     "date": "1967-01-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [1, 0],
@@ -18596,7 +18596,7 @@
   },
   {
     "date": "1967-01-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [5, 1],
@@ -18647,7 +18647,7 @@
   },
   {
     "date": "1967-01-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 0],
@@ -18694,7 +18694,7 @@
   },
   {
     "date": "1967-02-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Centenario, Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -22660,7 +22660,7 @@
   },
   {
     "date": "1975-08-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Olimpico, Caracus"},
     "teams": [{"name": "Venezuela"}, {"name": "Argentina"}],
     "score": [1, 5],
@@ -22712,7 +22712,7 @@
   },
   {
     "date": "1975-08-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -22757,7 +22757,7 @@
   },
   {
     "date": "1975-08-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Rosario Central SANTA FE"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [11, 0],
@@ -22816,7 +22816,7 @@
   },
   {
     "date": "1975-08-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Gigante de Arroyito"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 1],
@@ -25106,7 +25106,7 @@
   },
   {
     "date": "1979-07-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Hernando Siles, La Paz"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -25154,7 +25154,7 @@
   },
   {
     "date": "1979-08-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -25198,7 +25198,7 @@
   },
   {
     "date": "1979-08-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Velez Sarsfield, BUENOS AIRES"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [3, 0],
@@ -25246,7 +25246,7 @@
   },
   {
     "date": "1979-08-23",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 2],
@@ -26754,7 +26754,7 @@
   },
   {
     "date": "1983-08-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Olimpico Atahualpa, Quito"},
     "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
     "score": [2, 2],
@@ -26806,7 +26806,7 @@
   },
   {
     "date": "1983-08-24",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Monumental Antonio Vespuci, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 0],
@@ -26848,7 +26848,7 @@
   },
   {
     "date": "1983-09-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Monumental Antonio Vespuci, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [2, 2],
@@ -26897,7 +26897,7 @@
   },
   {
     "date": "1983-09-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -28829,7 +28829,7 @@
   },
   {
     "date": "1987-06-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [1, 1],
@@ -28881,7 +28881,7 @@
   },
   {
     "date": "1987-07-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [3, 0],
@@ -28931,7 +28931,7 @@
   },
   {
     "date": "1987-07-09",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
@@ -28977,7 +28977,7 @@
   },
   {
     "date": "1987-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "River Plate, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [1, 2],
@@ -29603,7 +29603,7 @@
   },
   {
     "date": "1989-07-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Serra Dourada"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [1, 0],
@@ -29649,7 +29649,7 @@
   },
   {
     "date": "1989-07-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Serra Dourada"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [0, 0],
@@ -29697,7 +29697,7 @@
   },
   {
     "date": "1989-07-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Serra Dourada"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -29743,7 +29743,7 @@
   },
   {
     "date": "1989-07-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Serra Dourada"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [0, 0],
@@ -29787,7 +29787,7 @@
   },
   {
     "date": "1989-07-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
@@ -29837,7 +29837,7 @@
   },
   {
     "date": "1989-07-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 2],
@@ -29889,7 +29889,7 @@
   },
   {
     "date": "1989-07-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [0, 0],
@@ -31025,7 +31025,7 @@
   },
   {
     "date": "1991-07-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [3, 0],
@@ -31074,7 +31074,7 @@
   },
   {
     "date": "1991-07-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -31116,7 +31116,7 @@
   },
   {
     "date": "1991-07-12",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Regional"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 1],
@@ -31167,7 +31167,7 @@
   },
   {
     "date": "1991-07-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 2],
@@ -31221,7 +31221,7 @@
   {
     "slug": "brazil-argentina-2",
     "date": "1991-07-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 3],
@@ -31282,7 +31282,7 @@
   {
     "slug": "chile-argentina-2",
     "date": "1991-07-19",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -31327,7 +31327,7 @@
   },
   {
     "date": "1991-07-21",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [2, 1],
@@ -31804,7 +31804,7 @@
   },
   {
     "date": "1993-06-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [1, 0],
@@ -31849,7 +31849,7 @@
   },
   {
     "date": "1993-06-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [1, 1],
@@ -31894,7 +31894,7 @@
   },
   {
     "date": "1993-06-23",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [1, 1],
@@ -31943,7 +31943,7 @@
   },
   {
     "date": "1993-06-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [1, 1],
@@ -31989,7 +31989,7 @@
   {
     "slug": "argentina-colombia-2",
     "date": "1993-07-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 0],
@@ -32032,7 +32032,7 @@
   {
     "slug": "argentina-mexico-2",
     "date": "1993-07-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 1],
@@ -33597,7 +33597,7 @@
   },
   {
     "date": "1995-07-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Artigas, Paysandu"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [2, 1],
@@ -33646,7 +33646,7 @@
   },
   {
     "date": "1995-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Artigas, Paysandu"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [4, 0],
@@ -33696,7 +33696,7 @@
   },
   {
     "date": "1995-07-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Artigas, Paysandu"},
     "teams": [{"name": "Argentina"}, {"name": "USA"}],
     "score": [0, 3],
@@ -33747,7 +33747,7 @@
   },
   {
     "date": "1995-07-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Atilio Paiva Olivera"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 2],
@@ -34665,7 +34665,7 @@
   },
   {
     "date": "1997-06-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -34707,7 +34707,7 @@
   },
   {
     "date": "1997-06-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 0],
@@ -34758,7 +34758,7 @@
   },
   {
     "date": "1997-06-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Felix Capriles, Cochabamba"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
@@ -34804,7 +34804,7 @@
   },
   {
     "date": "1997-06-21",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Patria, Sucre"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -36158,7 +36158,7 @@
   },
   {
     "date": "1999-07-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Feliciano Caceres, Luque"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [3, 1],
@@ -36212,7 +36212,7 @@
   },
   {
     "date": "1999-07-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Feliciano Caceres, Luque"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 3],
@@ -36276,7 +36276,7 @@
   },
   {
     "date": "1999-07-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Feliciano Caceres, Luque"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 0],
@@ -36334,7 +36334,7 @@
   },
   {
     "date": "1999-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Antonio Oddone Sarubbi"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
@@ -39149,7 +39149,7 @@
   {
     "slug": "argentina-ecuador-2",
     "date": "2004-07-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Elias Aguirre"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [6, 1],
@@ -39201,7 +39201,7 @@
   },
   {
     "date": "2004-07-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Elias Aguirre"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [0, 1],
@@ -39258,7 +39258,7 @@
   },
   {
     "date": "2004-07-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Miguel Grau, Piura"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 2],
@@ -39322,7 +39322,7 @@
   },
   {
     "date": "2004-07-17",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Elias Aguirre"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -39372,7 +39372,7 @@
   {
     "slug": "argentina-colombia-2",
     "date": "2004-07-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [3, 0],
@@ -39435,7 +39435,7 @@
   },
   {
     "date": "2004-07-25",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Nacional, Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 2],
@@ -41578,7 +41578,7 @@
   },
   {
     "date": "2007-06-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Jose Pachencho Romero"},
     "teams": [{"name": "Argentina"}, {"name": "USA"}],
     "score": [4, 1],
@@ -41634,7 +41634,7 @@
   },
   {
     "date": "2007-07-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Jose Pachencho Romero"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [4, 2],
@@ -41702,7 +41702,7 @@
   },
   {
     "date": "2007-07-05",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Metropolitano"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 0],
@@ -41757,7 +41757,7 @@
   },
   {
     "date": "2007-07-08",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Metropolitano"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [4, 0],
@@ -41816,7 +41816,7 @@
   },
   {
     "date": "2007-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Polideportivo Cachamay, Guayana"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [3, 0],
@@ -41876,7 +41876,7 @@
   },
   {
     "date": "2007-07-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio José Pachencho Romero, Maracaibo"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 3],
@@ -45022,7 +45022,7 @@
   },
   {
     "date": "2011-07-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Ciudad de La Plata, La Plata"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [1, 1],
@@ -45079,7 +45079,7 @@
   },
   {
     "date": "2011-07-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Brigadier General Estanislao Lopez"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 0],
@@ -45130,7 +45130,7 @@
   },
   {
     "date": "2011-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Mario Alberto Kempes, Cordoba"},
     "teams": [{"name": "Argentina"}, {"name": "Costa Rica"}],
     "score": [3, 0],
@@ -45193,7 +45193,7 @@
   },
   {
     "date": "2011-07-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Brigadier General Estanislao Lopez"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
@@ -47681,7 +47681,7 @@
   },
   {
     "date": "2015-06-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio La Portada"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [2, 2],
@@ -47746,7 +47746,7 @@
   },
   {
     "date": "2015-06-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio La Portada"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
@@ -47798,7 +47798,7 @@
   },
   {
     "date": "2015-06-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Sausalito, Vina del Mar"},
     "teams": [{"name": "Argentina"}, {"name": "Jamaica"}],
     "score": [1, 0],
@@ -47853,7 +47853,7 @@
   },
   {
     "date": "2015-06-26",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Sausalito, Vina del Mar"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 0],
@@ -47913,7 +47913,7 @@
   {
     "slug": "argentina-paraguay-2",
     "date": "2015-06-30",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Municipal de Concepcion"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [6, 1],
@@ -47978,7 +47978,7 @@
   },
   {
     "date": "2015-07-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -48597,7 +48597,7 @@
   },
   {
     "date": "2016-06-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Levi's Stadium, Santa Clara"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 1],
@@ -48662,7 +48662,7 @@
   },
   {
     "date": "2016-06-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Soldier Field, Chicago"},
     "teams": [{"name": "Argentina"}, {"name": "Panama"}],
     "score": [5, 0],
@@ -48741,7 +48741,7 @@
   },
   {
     "date": "2016-06-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "CenturyLink Field, Seattle"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
     "score": [0, 3],
@@ -48806,7 +48806,7 @@
   },
   {
     "date": "2016-06-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Gillette Stadium, Foxborough"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [4, 1],
@@ -48877,7 +48877,7 @@
   },
   {
     "date": "2016-06-21",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "NRG Stadium, Houston"},
     "teams": [{"name": "USA"}, {"name": "Argentina"}],
     "score": [0, 4],
@@ -48943,7 +48943,7 @@
   {
     "slug": "argentina-chile-2",
     "date": "2016-06-26",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "MetLife Stadium, East Rutherford"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [0, 0],
@@ -50932,7 +50932,7 @@
   },
   {
     "date": "2019-06-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Itaipava Arena Fonte Nova, Salvador"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 2],
@@ -50995,7 +50995,7 @@
   },
   {
     "date": "2019-06-19",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
@@ -51054,7 +51054,7 @@
   },
   {
     "date": "2019-06-23",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Arena do Grêmio, Porto Alegre"},
     "teams": [{"name": "Qatar"}, {"name": "Argentina"}],
     "score": [0, 2],
@@ -51113,7 +51113,7 @@
   },
   {
     "date": "2019-06-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Maracanã, Rio de Janeiro"},
     "teams": [{"name": "Venezuela"}, {"name": "Argentina"}],
     "score": [0, 2],
@@ -51175,7 +51175,7 @@
   },
   {
     "date": "2019-07-02",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
@@ -51235,7 +51235,7 @@
   },
   {
     "date": "2019-07-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "venue": {"name": "Arena Corinthians, São Paulo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 1],
