@@ -2,6 +2,7 @@ import React from "react";
 import useBreakpoint from "hooks/useBreakpoint";
 import {
   getMatchDate,
+  getMatchOtherTeam,
   getMatchYear,
   getMatchScore,
   getMatchSlug,
@@ -19,15 +20,12 @@ const SmallTable = ({ matches }: Props) => (
     <tbody>
       {matches.map((match) => {
         const myTeamIndex = getMatchTeamIndex(match);
-        const otherTeamIndex = 1 - myTeamIndex;
-        const venueIndicator = myTeamIndex === 0 ? "(H)" : "(A)";
+        const otherTeam = getMatchOtherTeam(match);
+        const isMyTeamHome = myTeamIndex === 0;
 
         let scoreMatch = { ...match };
-        // reverse score when just other team name is displayed
-        if (myTeamIndex === 1) {
-          // TODO: extract to sub-helpers handling home/away etc helper: isAwayTeam or isMyTeamAway as myTeamIndex === 1 is enigmatic
-          // getOtherTeam
-
+        // reverse score when only other team name is displayed
+        if (!isMyTeamHome) {
           scoreMatch = {
             ...match,
             teams: [match.teams[1], match.teams[0]],
@@ -45,9 +43,8 @@ const SmallTable = ({ matches }: Props) => (
                 href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
               >
                 {[
-                  teamInflections[match.teams[otherTeamIndex].name] ??
-                    match.teams[otherTeamIndex].name,
-                  venueIndicator,
+                  teamInflections[otherTeam.name] ?? otherTeam.name,
+                  isMyTeamHome ? "(H)" : "(A)",
                 ].join(" ")}
               </LinkAnchor>
             </td>
