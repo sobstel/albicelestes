@@ -20,7 +20,7 @@ import {
 } from "helpers";
 import { MatchItem, PlayerInfo, PlayerStat } from "types";
 import { Page, Block, Header } from "components/layout";
-import Fixtures from "components/Fixtures";
+import MatchList from "components/MatchList";
 import InfoLinks from "components/InfoLinks";
 
 type Context = { params: { catalog: string; slug: string } };
@@ -110,7 +110,7 @@ function generateDescription({
       [
         getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        getMatchScore(lastMatch),
+        getMatchScore(lastMatch, { withTeams: true }),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ].join(". ");
@@ -140,7 +140,7 @@ export default function PlayerPage({
     >
       <Header text={name} top />
       <p className="mb-4">{statPhrase(stat)}</p>
-      <Fixtures matches={matches} />
+      <MatchList matches={matches} />
       {info.nicknames && (
         <Block>
           <Header text="Nickname(s)" />

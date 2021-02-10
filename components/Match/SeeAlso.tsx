@@ -1,18 +1,19 @@
 import React from "react";
-import Fixtures, { FixtureMatch } from "components/Fixtures";
+import MatchList from "components/MatchList";
 import { Block, Header } from "components/layout";
 import { LinkAnchor } from "components/layout";
-import { Match } from "types";
+import { Match, MatchItem } from "types";
+import { getMatchOtherTeam, getMatchYear } from "helpers";
 
 type Props = {
   match: Pick<Match, "date" | "teams">;
-  prevMatch?: FixtureMatch;
-  nextMatch?: FixtureMatch;
+  prevMatch?: MatchItem;
+  nextMatch?: MatchItem;
 };
 
 export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
-  const otherTeam = match.teams.find((team) => team.slug !== "argentina");
-  const year = match.date.slice(0, 4);
+  const year = getMatchYear(match);
+  const otherTeam = getMatchOtherTeam(match);
 
   return (
     <>
@@ -23,20 +24,28 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
             All matches in {year}
           </LinkAnchor>
         </p>
-        {otherTeam && otherTeam.slug && (
-          <p>
-            <LinkAnchor
-              href={`/teams/${otherTeam.slug}`}
-              title={`Argentina v ${otherTeam.name}`}
-            >
-              All matches against {otherTeam.name}
-            </LinkAnchor>
-          </p>
-        )}
+        <p>
+          <LinkAnchor
+            href={`/teams/${otherTeam.slug}`}
+            title={`Argentina v ${otherTeam.name}`}
+          >
+            All matches against {otherTeam.name}
+          </LinkAnchor>
+        </p>
       </Block>
 
-      {prevMatch && <Fixtures title="Previous match" matches={[prevMatch]} />}
-      {nextMatch && <Fixtures title="Next match" matches={[nextMatch]} />}
+      {prevMatch && (
+        <>
+          <Header text="Previous match" />
+          <MatchList matches={[prevMatch]} />
+        </>
+      )}
+      {nextMatch && (
+        <>
+          <Header text="Next match" />
+          <MatchList matches={[nextMatch]} />
+        </>
+      )}
     </>
   );
 }

@@ -5,7 +5,7 @@ import { getMatchItem } from "helpers";
 import { MatchItem } from "types";
 import { MAX_YEAR } from "config";
 import { Page, Header } from "components/layout";
-import Fixtures from "components/Fixtures";
+import MatchList from "components/MatchList";
 import YearNav from "components/YearNav";
 
 type Props = {
@@ -34,7 +34,7 @@ export default function YearIndexPage({ matches }: Props) {
           { text: "All", href: `/all` },
         ]}
       />
-      <Fixtures matches={matches} />
+      <MatchList matches={matches} />
     </Page>
   );
 }

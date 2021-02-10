@@ -5,7 +5,7 @@ import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
 import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
-import Fixtures from "components/Fixtures";
+import MatchList from "components/MatchList";
 import { Page, Header } from "components/layout";
 import YearHeader from "components/YearHeader";
 import YearNav from "components/YearNav";
@@ -88,7 +88,7 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
           {stat && <p className="mb-4">{statPhrase(stat)}</p>}
         </>
       )}
-      <Fixtures matches={matches} />
+      <MatchList matches={matches} />
     </Page>
   );
 }

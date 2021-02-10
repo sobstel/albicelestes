@@ -1,6 +1,6 @@
 import * as R from "remeda";
 import { Match, TeamItem } from "types";
-import { getMatchTeamIndex, getTeamSlug } from "helpers";
+import { getMatchOtherTeam, getTeamSlug } from "helpers";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]
@@ -9,8 +9,7 @@ export default function collectTeams(
     matches,
     R.reverse(),
     R.reduce((acc, match) => {
-      const otherTeamIndex = 1 - getMatchTeamIndex(match);
-      const otherTeam = match.teams[otherTeamIndex];
+      const otherTeam = getMatchOtherTeam(match);
       const slug = getTeamSlug(otherTeam);
 
       if (!acc[slug]) {

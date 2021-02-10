@@ -1,3 +1,4 @@
+import debounce from "lodash.debounce";
 import { useState, useEffect, RefObject } from "react";
 
 export default function useClientWidth(ref: RefObject<HTMLElement>) {
@@ -9,15 +10,19 @@ export default function useClientWidth(ref: RefObject<HTMLElement>) {
     }
   }
 
-  useEffect(() => {
-    handleClientWidth();
-  }, [ref]);
+  useEffect(() => handleClientWidth(), [ref]);
 
   useEffect(() => {
-    if (window) window.addEventListener("resize", handleClientWidth);
+    const debouncedHandleClientWidth = debounce(handleClientWidth, 300, {
+      maxWait: 300,
+      leading: true,
+      trailing: true,
+    });
+
+    window?.addEventListener("resize", debouncedHandleClientWidth);
 
     return function cleanup() {
-      if (window) window.removeEventListener("resize", handleClientWidth);
+      window?.removeEventListener("resize", debouncedHandleClientWidth);
     };
   }, []);
 

@@ -11,7 +11,7 @@ import {
 } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import { Page, Header } from "components/layout";
-import Fixtures from "components/Fixtures";
+import MatchList from "components/MatchList";
 
 type Context = { params: { slug: string } };
 
@@ -78,7 +78,7 @@ function generateDescription({
       [
         getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        getMatchScore(lastMatch),
+        getMatchScore(lastMatch, { withTeams: true }),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ]).join(". ");
@@ -93,7 +93,7 @@ export default function TeamPage({ name, matches, stat }: Props) {
     >
       <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
-      <Fixtures matches={matches} />
+      <MatchList matches={matches} />
     </Page>
   );
 }
