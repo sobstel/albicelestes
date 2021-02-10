@@ -186,7 +186,7 @@
       [],
       [
         {"name": "Alfredo C Brown", "min": "28", "type": "G"},
-        {"name": "Tristan Gonzalez", "min": "85", "type": "G"}
+        {"name": "Tristan González", "min": "85", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -214,7 +214,7 @@
         {"name": "Carlos J Buchanan"},
         {"name": "Zenon Diaz"},
         {"name": "Carlos Edgard Dickinson"},
-        {"name": "Tristan Gonzalez"},
+        {"name": "Tristan González"},
         {"name": "José Buruca Laforia"},
         {"name": "Gottlob Weiss"}
       ]
@@ -689,7 +689,7 @@
         {"name": "Elias Fernandez"},
         {"name": "Santiago Pio Gallino"},
         {"name": "Armando Ginocchio"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Haroldo M Grant"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Enrique Rojo"},
@@ -703,7 +703,7 @@
         {"name": "Luis Barriga"},
         {"name": "Colin Campbell"},
         {"name": "JP Davidson"},
-        {"name": "Prospero Gonzalez"},
+        {"name": "Prospero González"},
         {"name": "Juan Hamilton"},
         {"name": "Carlos Hormazabal"},
         {"name": "Andrés Hoyl"},
@@ -751,7 +751,7 @@
         {"name": "J MacWilliams"},
         {"name": "Carlos Hormazábal"},
         {"name": "Henry Allen"},
-        {"name": "Prospero Gonzalez"},
+        {"name": "Prospero González"},
         {"name": "Joe Robson"},
         {"name": "Colin Campbell"},
         {"name": "Heriberto Sturgess"},
@@ -795,7 +795,7 @@
         {"name": "Armando Ginocchio"},
         {"name": "Ernesto Brown"},
         {"name": "Arturo Jacobs"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Maximiliano Susán"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Arnoldo Watson Hutton"},
@@ -883,7 +883,7 @@
       [
         {"name": "Henry J Lawrie", "min": "17", "type": "G"},
         {"name": "Elias Fernandez", "min": "69", "type": "G"},
-        {"name": "Manuel Pedro Gonzalez", "min": "80", "type": "G"}
+        {"name": "Manuel Pedro González", "min": "80", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -897,7 +897,7 @@
         {"name": "Patricio B Browne"},
         {"name": "Elias Fernandez"},
         {"name": "Juan Olegario Gil"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Henry J Lawrie"},
         {"name": "Martin Murphy"},
         {"name": "JB Sheridan"},
@@ -914,7 +914,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Manuel Pedro Gonzalez", "min": "65", "type": "G"}],
+      [{"name": "Manuel Pedro González", "min": "65", "type": "G"}],
       [{"name": "José Piendibene", "min": "49", "type": "G"}]
     ],
     "cards": [[], []],
@@ -925,8 +925,8 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Santiago Pio Gallino"},
-        {"name": "Manuel Pedro Gonzalez"},
-        {"name": "Tomas Medro Gonzalez"},
+        {"name": "Manuel Pedro González"},
+        {"name": "Tomas Medro González"},
         {"name": "Haroldo M Grant"},
         {"name": "Juan José Rithner"},
         {"name": "Eduardo Rothschild"},
@@ -958,7 +958,7 @@
     "result": "L",
     "goals": [
       [
-        {"name": "Manuel Pedro Gonzalez", "min": "42", "type": "G"},
+        {"name": "Manuel Pedro González", "min": "42", "type": "G"},
         {"name": "José Viale", "min": "70", "type": "G"}
       ],
       [
@@ -978,8 +978,8 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Santiago Pio Gallino"},
-        {"name": "Manuel Pedro Gonzalez"},
-        {"name": "Tomas Medro Gonzalez"},
+        {"name": "Manuel Pedro González"},
+        {"name": "Tomas Medro González"},
         {"name": "Haroldo M Grant"},
         {"name": "Juan José Rithner"},
         {"name": "Eduardo Rothschild"},
@@ -1349,7 +1349,7 @@
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Robert Sidney Buck"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Cirilo P Russ"},
         {"name": "Maximiliano Susán"},
@@ -1374,7 +1374,7 @@
         {"name": "Juan Domingo Brown", "type": "G"},
         {"name": "Pedro Bleo Fournol Calomino", "type": "G"},
         {"name": "Pedro Bleo Fournol Calomino", "type": "G"},
-        {"name": "Manuel Pedro Gonzalez", "type": "G"},
+        {"name": "Manuel Pedro González", "type": "G"},
         {"name": "EM Hayes", "type": "G"}
       ]
     ],
@@ -1387,7 +1387,7 @@
         {"name": "Alfredo Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Pedro Bleo Fournol Calomino"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "EM Hayes"},
         {"name": "A Lennie"},
         {"name": "José Morroni"},
@@ -1428,7 +1428,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Guillermo Dannaher"},
         {"name": "Santiago Pio Gallino"},
-        {"name": "Carlos Gonzalez"},
+        {"name": "Carlos González"},
         {"name": "EM Hayes"},
         {"name": "Antonio Piaggio"},
         {"name": "Ernesto A Sande"},
@@ -1504,7 +1504,7 @@
         {"name": "Jorge Gibson Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Pablo Molina"},
         {"name": "Cirilo P Russ"},
@@ -1538,7 +1538,7 @@
     "goals": [
       [{"name": "Carlos Scarone", "min": "28", "type": "G"}],
       [
-        {"name": "Manuel Pedro Gonzalez", "min": "24", "type": "G"},
+        {"name": "Manuel Pedro González", "min": "24", "type": "G"},
         {"name": "Alberto Marcovecchio", "min": "92", "type": "G"},
         {"name": "José Viale", "min": "114", "type": "G"}
       ]
@@ -1563,8 +1563,8 @@
         {"name": "Juan José Bello"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Carlos Gonzalez"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Carlos González"},
+        {"name": "Manuel Pedro González"},
         {"name": "Juan Hospital"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Alberto J Olivari"},
@@ -1582,7 +1582,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Manuel Pedro Gonzalez", "min": "83", "type": "G"}],
+      [{"name": "Manuel Pedro González", "min": "83", "type": "G"}],
       [{"name": "Lucio Gorta", "min": "31", "type": "G"}]
     ],
     "cards": [[], []],
@@ -1592,7 +1592,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Arturo Jacobs"},
         {"name": "Angel H Mallen"},
         {"name": "Alberto Marcovecchio"},
@@ -1626,8 +1626,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Pedro Gonzalez", "min": "25", "type": "G"},
-        {"name": "Manuel Pedro Gonzalez", "min": "79", "type": "G"}
+        {"name": "Manuel Pedro González", "min": "25", "type": "G"},
+        {"name": "Manuel Pedro González", "min": "79", "type": "G"}
       ],
       [{"name": "Carlos Bastos", "min": "7", "type": "G"}]
     ],
@@ -1638,7 +1638,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Juan Hospital"},
         {"name": "Angel H Mallen"},
         {"name": "RS Meira"},
@@ -1817,7 +1817,7 @@
         {"name": "A Elgueta"},
         {"name": "O Ernst"},
         {"name": "M Geldes"},
-        {"name": "C Gonzalez"},
+        {"name": "C González"},
         {"name": "J Johnston"},
         {"name": "R Lester"},
         {"name": "A Skewes"},
@@ -1857,7 +1857,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Elias Fernandez"},
-        {"name": "Manuel Pedro Gonzalez"},
+        {"name": "Manuel Pedro González"},
         {"name": "Angel H Mallen"},
         {"name": "Alberto J Olivari"},
         {"name": "Luis Povey"},
@@ -2021,7 +2021,7 @@
       [
         {"name": "Mariano Aldea"},
         {"name": "Francisco Crespo"},
-        {"name": "Roberto Gonzalez Escarra"},
+        {"name": "Roberto González Escarra"},
         {"name": "Carlos Izaguirre"},
         {"name": "Juan José Lamas"},
         {"name": "Roberto Leonardi"},
@@ -2348,7 +2348,7 @@
         {"name": "E Cardenas"},
         {"name": "Alfredo France"},
         {"name": "Eufemio Fuentes"},
-        {"name": "E Gonzalez"},
+        {"name": "E González"},
         {"name": "Julio Paredes"},
         {"name": "Enrique Teuche"},
         {"name": "Ramon Unzaga"},
@@ -3528,7 +3528,7 @@
         {"name": "Alfredo France"},
         {"name": "Eufemio Fuentes"},
         {"name": "Pedro Gatica"},
-        {"name": "Oscar Gonzalez"},
+        {"name": "Oscar González"},
         {"name": "Manuel Guerrero"},
         {"name": "Horacio Munoz"}
       ]
@@ -4168,7 +4168,7 @@
       [
         {"name": "Wilfredo Carreras"},
         {"name": "Manuel Fleitas Solich"},
-        {"name": "Ramon 'Ramonete' Gonzalez"},
+        {"name": "Ramon 'Ramonete' González"},
         {"name": "Dario Lima"},
         {"name": "Medina"},
         {"name": "Cesar Mena Porta"},
@@ -4218,7 +4218,7 @@
         {"name": "Isidoro Benitez Casco"},
         {"name": "Wilfredo Carreras"},
         {"name": "Manuel Fleitas Solich"},
-        {"name": "Ramon 'Ramonete' Gonzalez"},
+        {"name": "Ramon 'Ramonete' González"},
         {"name": "Cesar Mena Porta"},
         {"name": "Angel Portaluppi"},
         {"name": "Arsenio Rodriguez"},
@@ -4352,7 +4352,7 @@
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
         {"name": "Pedro Bleo Fournol Calomino"},
-        {"name": "Vicente Gonzalez"},
+        {"name": "Vicente González"},
         {"name": "Julio Libonatti"},
         {"name": "Juan Salvador Presta"},
         {"name": "Blas Saruppo"},
@@ -4391,7 +4391,7 @@
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
         {"name": "Pedro Bleo Fournol Calomino"},
-        {"name": "Vicente Gonzalez"},
+        {"name": "Vicente González"},
         {"name": "Julio Libonatti"},
         {"name": "José Alfredo Lopez"},
         {"name": "Blas Saruppo"},
@@ -4481,7 +4481,7 @@
         {"name": "Manuel Bravo"},
         {"name": "Alberto Catalan"},
         {"name": "Aurelio Dominguez"},
-        {"name": "Oscar Gonzalez"},
+        {"name": "Oscar González"},
         {"name": "Manuel Ramirez"},
         {"name": "Victor Varas"},
         {"name": "Pedro Vergara"}
@@ -4645,7 +4645,7 @@
         {"name": "Alberto Catalan"},
         {"name": "Aurelio Dominguez"},
         {"name": "Luis Encina"},
-        {"name": "Oscar Gonzalez"},
+        {"name": "Oscar González"},
         {"name": "Manuel Ramirez"},
         {"name": "Victor Toro"},
         {"name": "Victor Varas"},
@@ -4906,7 +4906,7 @@
         {"name": "Roque Centurion Miranda"},
         {"name": "Carlos Elizeche Benitez"},
         {"name": "Espiridon Galeano"},
-        {"name": "Ramon 'Ramonete' Gonzalez"},
+        {"name": "Ramon 'Ramonete' González"},
         {"name": "Dario Lima"},
         {"name": "Ildefonso Lopez"},
         {"name": "Gaspar Nessi"},
@@ -6523,7 +6523,7 @@
         {"name": "Guillermo Saavedra"},
         {"name": "Guillermo Subiabre"},
         {"name": "David Arellano"},
-        {"name": "Oscar Gonzalez"},
+        {"name": "Oscar González"},
         {"name": "Juan Munoz"},
         {"name": "José M Olguin"},
         {"name": "Manuel Ramirez"},
@@ -7160,7 +7160,7 @@
         {"name": "Romilio Etcheverry"},
         {"name": "Delfin Benitez Caceres"},
         {"name": "Diogenes Dominguez"},
-        {"name": "Aurelo Gonzalez"},
+        {"name": "Aurelo González"},
         {"name": "Lino Nessi"},
         {"name": "Antonio Brunetti"},
         {"name": "Porfirio Sosa Lagos"},
@@ -7580,7 +7580,7 @@
     "result": "D",
     "goals": [
       [{"name": "Luis Felipe Monti", "min": "80", "type": "G"}],
-      [{"name": "Aurelo Gonzalez", "type": "G"}]
+      [{"name": "Aurelo González", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
@@ -7603,7 +7603,7 @@
         {"name": "Quiterio Olmedo"},
         {"name": "Tranquilino Garcete"},
         {"name": "Delfin Benitez Caceres"},
-        {"name": "Aurelo Gonzalez"},
+        {"name": "Aurelo González"},
         {"name": "Desiderio 'Alvarito' Alvarez"},
         {"name": "Rogelio Etcheverry"},
         {"name": "Benjamin Laterza"},
@@ -7650,7 +7650,7 @@
         {"name": "Quiterio Olmedo"},
         {"name": "Tranquilino Garcete"},
         {"name": "Delfin Benitez Caceres"},
-        {"name": "Aurelo Gonzalez"},
+        {"name": "Aurelo González"},
         {"name": "Desiderio 'Alvarito' Alvarez"},
         {"name": "Rogelio Etcheverry"},
         {"name": "J Domingo Jimenez"},
@@ -7879,7 +7879,7 @@
       [
         {"name": "Enrique Guaita"},
         {"name": "Ismael Arrese"},
-        {"name": "José Maria Gonzalez"},
+        {"name": "José Maria González"},
         {"name": "Atilio Herrera"},
         {"name": "Miguel Angel Lauri"},
         {"name": "José Maria Minella"},
@@ -7916,7 +7916,7 @@
         {"name": "Roberto Cherro"},
         {"name": "Enrique Guaita"},
         {"name": "Francisco Garraffa"},
-        {"name": "José Maria Gonzalez"},
+        {"name": "José Maria González"},
         {"name": "Atilio Herrera"},
         {"name": "Miguel Angel Lauri"},
         {"name": "Antonio Rivarola"},
@@ -7978,7 +7978,7 @@
         {"name": "Alberto Cuello"},
         {"name": "Bernabe Ferreyra"},
         {"name": "Francisco Garraffa"},
-        {"name": "José Maria Gonzalez"},
+        {"name": "José Maria González"},
         {"name": "Miguel Angel Lauri"},
         {"name": "José Maria Minella"},
         {"name": "Carlos Santamaria"}
@@ -8047,7 +8047,7 @@
         {"name": "Anibal Ciocca", "min": "58", "type": "G"}
       ],
       [
-        {"name": "Tomas Gonzalez Peralta", "min": "11", "type": "G"},
+        {"name": "Tomas González Peralta", "min": "11", "type": "G"},
         {"name": "Delfin Benitez Caceres", "min": "83", "type": "G"}
       ]
     ],
@@ -8077,10 +8077,10 @@
         {"name": "Tomas Beristain", "out": "46"},
         {"name": "Carlos Desiderio Peucelle", "in": "46"},
         {"name": "Alberto Cuello"},
-        {"name": "José Maria Gonzalez"},
+        {"name": "José Maria González"},
         {"name": "José Maria Minella"},
         {"name": "Arturo Naon"},
-        {"name": "Tomas Gonzalez Peralta"},
+        {"name": "Tomas González Peralta"},
         {"name": "Carlos Santamaria"},
         {"name": "Aaron Wergifker"}
       ]
@@ -8110,8 +8110,8 @@
         {"name": "Arturo Arrieta"},
         {"name": "Fernando Bello"},
         {"name": "Alberto Cuello"},
-        {"name": "José Maria Gonzalez"},
-        {"name": "Tomas Gonzalez Peralta"},
+        {"name": "José Maria González"},
+        {"name": "Tomas González Peralta"},
         {"name": "José Maria Minella"},
         {"name": "Arturo Naon"},
         {"name": "Carlos Santamaria"},
@@ -8532,7 +8532,7 @@
         {"name": "Alberto Zozaya", "min": "75", "type": "G"},
         {"name": "Alberto Zozaya", "min": "82", "type": "G"}
       ],
-      [{"name": "Aurelo Gonzalez", "type": "G"}]
+      [{"name": "Aurelo González", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
@@ -8553,12 +8553,12 @@
       ],
       [
         {"name": "Quiterio Olmedo"},
-        {"name": "Aurelo Gonzalez"},
+        {"name": "Aurelo González"},
         {"name": "Diego Ayala"},
         {"name": "Arsenio Erico"},
         {"name": "Eligio Esquivel"},
         {"name": "Rogelio Etcheverry"},
-        {"name": "Manuel Gonzalez"},
+        {"name": "Manuel González"},
         {"name": "Antonio Invernizzi"},
         {"name": "Miguel 'Migueli' Ortega"},
         {"name": "Lorenzo 'Mataco' Romero"},
@@ -8870,7 +8870,7 @@
         {"name": "Sabino Coletta"},
         {"name": "Enrique Garcia"},
         {"name": "Hector Garcia"},
-        {"name": "Tomas Gonzalez Peralta"},
+        {"name": "Tomas González Peralta"},
         {"name": "Celestino Martinez"},
         {"name": "Oscar E Montanes"},
         {"name": "José Manuel Moreno"}
@@ -9216,7 +9216,7 @@
         {"name": "Domingo Benitez"},
         {"name": "Teofilo Espinola"},
         {"name": "Eligio Esquivel"},
-        {"name": "Manuel Gonzalez"},
+        {"name": "Manuel González"},
         {"name": "Gorgonio Ibarrola"},
         {"name": "Benjamin Laterza"},
         {"name": "Juan Felix Lezcano"},
@@ -9251,7 +9251,7 @@
         {"name": "Isidro Escobar"},
         {"name": "Teofilo Espinola"},
         {"name": "Eligio Esquivel"},
-        {"name": "Manuel Gonzalez"},
+        {"name": "Manuel González"},
         {"name": "Gorgonio Ibarrola"},
         {"name": "Benjamin Laterza"},
         {"name": "Juan Felix Lezcano"},
@@ -9394,7 +9394,7 @@
         {"name": "Sebastian Inocencio Gualco"},
         {"name": "José Salomon"},
         {"name": "Victor Miguel Valussi", "out": ""},
-        {"name": "J Gonzalez", "in": ""},
+        {"name": "J González", "in": ""},
         {"name": "Manuel Araguez"},
         {"name": "Angel Perucca"},
         {"name": "Antonio Sastre"},
@@ -10916,7 +10916,7 @@
         {"name": "Benigno Gutierrez"},
         {"name": "Vicente Arraya"},
         {"name": "Ezequiel Calderon"},
-        {"name": "Zenon Gonzalez"},
+        {"name": "Zenon González"},
         {"name": "Fidel Orgaz"},
         {"name": "Walter Orozco", "out": ""},
         {"name": "Adrian Ortega", "in": ""},
@@ -11637,7 +11637,7 @@
         {"name": "Rene Fernandez"},
         {"name": "Vicente Arraya"},
         {"name": "Ezequiel Calderon"},
-        {"name": "Zenon Gonzalez"},
+        {"name": "Zenon González"},
         {"name": "Fidel Orgaz", "out": ""},
         {"name": "Felix Garzon", "in": ""},
         {"name": "Adrian Ortega"},
@@ -11898,7 +11898,7 @@
         {"name": "Fidel Orgaz", "in": ""},
         {"name": "Victor Agustin Ugarte"},
         {"name": "Vicente Arraya", "out": ""},
-        {"name": "Zenon Gonzalez"},
+        {"name": "Zenon González"},
         {"name": "Juan Guerra"},
         {"name": "Armando Tapia"},
         {"name": "Raul Vargas"}
@@ -12046,7 +12046,7 @@
         {"name": "Antonio Julio De La Hoz"},
         {"name": "Estupinan"},
         {"name": "Rigoberto Garcia"},
-        {"name": "Luis Gonzalez Rubio"},
+        {"name": "Luis González Rubio"},
         {"name": "Manuel Londono"},
         {"name": "Gabriel Mejia"},
         {"name": "Octavio 'Tolimita' Ruiz"},
@@ -12197,7 +12197,7 @@
         {"name": "Casiano Cespedes"},
         {"name": "Manuel Gavilan", "out": ""},
         {"name": "Doroteo Coronel", "in": ""},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Castor Sixto Cantero"},
         {"name": "Enrique Avalos"},
         {"name": "Cesar Lopez Fretes"},
@@ -12256,7 +12256,7 @@
         {"name": "Casiano Cespedes"},
         {"name": "Manuel Gavilan", "out": ""},
         {"name": "Doroteo Coronel", "in": ""},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Castor Sixto Cantero"},
         {"name": "Cesar Lopez Fretes"},
         {"name": "Francisco Calonga"},
@@ -12754,7 +12754,7 @@
         {"name": "Carlos Arce"},
         {"name": "R Bedoya", "out": ""},
         {"name": "Juan Leon Canete", "in": ""},
-        {"name": "Celso Gonzalez"},
+        {"name": "Celso González"},
         {"name": "Joel Jovellanos", "out": ""},
         {"name": "Salvador Villalba", "in": ""},
         {"name": "Robustiano Maciel"},
@@ -13079,7 +13079,7 @@
         {"name": "Juan Leon Canete"},
         {"name": "Antonio Ramon Gomez", "out": ""},
         {"name": "Maximo Rolon", "in": ""},
-        {"name": "Hermes Gonzalez"},
+        {"name": "Hermes González"},
         {"name": "Ireneo Hermosilla"},
         {"name": "Enrique Jara Saguier"},
         {"name": "Robustiano Maciel"},
@@ -13614,7 +13614,7 @@
         {"name": "Genaro Benitez"},
         {"name": "Manuel Benitez"},
         {"name": "Vidal Dominguez"},
-        {"name": "Hermes Gonzalez"},
+        {"name": "Hermes González"},
         {"name": "Asuncion R Olazar"},
         {"name": "Maximo Rolon"},
         {"name": "Dario Segovia"},
@@ -15520,7 +15520,7 @@
       ],
       [
         {"name": "Hector Hernandez Garcia", "min": "34", "type": "G"},
-        {"name": "Carlos Gonzalez Cabrera", "min": "40", "type": "G"}
+        {"name": "Carlos González Cabrera", "min": "40", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -15556,7 +15556,7 @@
         {"name": "Salvador Reyes"},
         {"name": "Juan Bosco Martinez-Mora"},
         {"name": "Jaime Gomez Munguia"},
-        {"name": "Carlos Gonzalez Cabrera", "out": "68"},
+        {"name": "Carlos González Cabrera", "out": "68"},
         {"name": "Raul Cardenas de la Vega", "in": "68"},
         {"name": "Sigfrido Mercado"},
         {"name": "Tomas Reynoso Contreras"}
@@ -15703,7 +15703,7 @@
         {"name": "Raul Cardenas de la Vega"},
         {"name": "Alfredo del Aguila"},
         {"name": "Hector Hernandez Garcia", "out": ""},
-        {"name": "Carlos Gonzalez Cabrera", "in": ""},
+        {"name": "Carlos González Cabrera", "in": ""},
         {"name": "Salvador Reyes"},
         {"name": "Juan Fernando Barron"},
         {"name": "Ramon Sigfrido Mercado Luna"},
@@ -15943,7 +15943,7 @@
         {"name": "José Varacka"},
         {"name": "Raul Oscar Belen"},
         {"name": "Norberto Constante Boggio", "out": ""},
-        {"name": "H Gonzalez", "in": ""},
+        {"name": "H González", "in": ""},
         {"name": "Norberto Menéndez", "out": ""},
         {"name": "Federico Sacchi", "in": ""},
         {"name": "Ruben Hector Sosa", "out": ""},
@@ -16169,7 +16169,7 @@
         {"name": "Edelmiro Arevalo"},
         {"name": "Joel Cabrera", "out": ""},
         {"name": "Eliseo Insfran", "in": ""},
-        {"name": "Juan Graciano Gonzalez", "out": ""},
+        {"name": "Juan Graciano González", "out": ""},
         {"name": "Fernando Lopez", "in": ""},
         {"name": "Antonio Insfran"},
         {"name": "Enrique Jara Saguier"},
@@ -16193,7 +16193,7 @@
         {"name": "M Blanco", "in": ""},
         {"name": "Martin Esteban Pando"},
         {"name": "H Carceo", "out": ""},
-        {"name": "Alberto Gonzalez", "in": ""},
+        {"name": "Alberto González", "in": ""},
         {"name": "José Maria Ramacciotti", "out": ""},
         {"name": "Carlos Timoteo Griguol", "in": ""},
         {"name": "Carmelo Simeone"},
@@ -16239,7 +16239,7 @@
         {"name": "Martin Esteban Pando", "in": ""},
         {"name": "Federico Sacchi"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "José Francisco Sanfilippo"},
         {"name": "Ruben Hector Sosa"},
         {"name": "Juan Hector Guidi"},
@@ -16285,7 +16285,7 @@
         {"name": "Federico Sacchi", "out": "54"},
         {"name": "Rafael Albrecht", "in": "54"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Martin Esteban Pando"},
         {"name": "José Francisco Sanfilippo"},
         {"name": "Ruben Hector Sosa"},
@@ -16337,7 +16337,7 @@
         {"name": "Oscar Raul Rossi", "out": "46"},
         {"name": "Martin Esteban Pando", "in": "46"},
         {"name": "Federico Sacchi"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "José Francisco Sanfilippo"},
         {"name": "Nestor Martin Errea", "out": ""},
         {"name": "Antonio Roma", "in": ""},
@@ -16461,7 +16461,7 @@
         {"name": "Oreste Omar Corbatta", "type": "P"},
         {"name": "Oreste Omar Corbatta", "type": "G"}
       ],
-      [{"name": "Juan Graciano Gonzalez", "type": "G"}]
+      [{"name": "Juan Graciano González", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
@@ -16477,7 +16477,7 @@
         {"name": "Raul Oscar Belen"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "José Francisco Sanfilippo", "out": ""},
-        {"name": "Alberto Gonzalez", "in": ""},
+        {"name": "Alberto González", "in": ""},
         {"name": "F Cielinsky"},
         {"name": "Juan José Pizzuti", "out": ""},
         {"name": "Oscar Raul Rossi", "in": ""},
@@ -16487,7 +16487,7 @@
         {"name": "Samuel Aguilar", "out": ""},
         {"name": "Ramon Mayeregger", "in": ""},
         {"name": "Salvador Breglia"},
-        {"name": "Juan Graciano Gonzalez"},
+        {"name": "Juan Graciano González"},
         {"name": "Enrique Jara Saguier", "out": ""},
         {"name": "Eliseo Insfran", "in": ""},
         {"name": "Justo Pastor Leiva"},
@@ -16778,7 +16778,7 @@
         {"name": "José Ramos Delgado"},
         {"name": "Federico Sacchi"},
         {"name": "Hector Osvaldo Facundo"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Juan Carlos Oleniak"},
         {"name": "Marcelo Pagani"},
         {"name": "Martin Esteban Pando"}
@@ -16808,7 +16808,7 @@
     "goals": [
       [
         {"name": "Daniel Willington", "type": "G"},
-        {"name": "Alberto Gonzalez", "type": "G"},
+        {"name": "Alberto González", "type": "G"},
         {"name": "Marcelo Pagani", "type": "G"}
       ],
       [{"name": "José Mattera", "type": "P"}]
@@ -16823,7 +16823,7 @@
         {"name": "Antonio Rattin"},
         {"name": "Carlos Alberto Sainz"},
         {"name": "José Varacka"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Marcelo Pagani", "out": ""},
         {"name": "Daniel Willington", "in": ""},
         {"name": "Ernesto Grillo"},
@@ -16980,11 +16980,11 @@
         {"name": "Jaime Silva"},
         {"name": "German Aceros"},
         {"name": "Delio Gamboa"},
-        {"name": "Hector Garzon Gonzalez"},
+        {"name": "Hector Garzon González"},
         {"name": "Carlos Aponte"},
         {"name": "Conrado Arango"},
         {"name": "Carlos Campillo"},
-        {"name": "Gonzalo Gonzalez"},
+        {"name": "Gonzalo González"},
         {"name": "Orlando Marin"},
         {"name": "Senen Mosquera"}
       ]
@@ -17230,7 +17230,7 @@
         {"name": "Salvador Breglia"},
         {"name": "Cesar Cabrera"},
         {"name": "Lucio Calonga"},
-        {"name": "Victor Gonzalez"},
+        {"name": "Victor González"},
         {"name": "Antonio Insfran"},
         {"name": "Mariano Osorio"},
         {"name": "Oppe Quinonez", "out": ""},
@@ -17868,7 +17868,7 @@
         {"name": "Norberto Raffo", "in": ""},
         {"name": "Alberto Rendo"},
         {"name": "Daniel Willington"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Angel Rojas"}
       ]
     ]
@@ -17981,7 +17981,7 @@
         {"name": "Ruben Marcos", "in": ""},
         {"name": "Leonel Sanchez"},
         {"name": "Humberto Donoso"},
-        {"name": "José Gonzalez"},
+        {"name": "José González"},
         {"name": "Roberto Hodge"},
         {"name": "Francisco Nitsche", "out": ""},
         {"name": "Manuel Astorga", "in": ""}
@@ -18012,7 +18012,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Ricardo Gonzalez", "min": "15", "type": "OG"},
+        {"name": "Ricardo González", "min": "15", "type": "OG"},
         {"name": "Ermindo Onega", "min": "26", "type": "G"},
         {"name": "Luis Artime", "min": "35", "type": "G"}
       ],
@@ -18038,8 +18038,8 @@
         {"name": "Benigno Apodaca"},
         {"name": "Vicente Bobadilla"},
         {"name": "Benjamin Caceres"},
-        {"name": "Ricardo Gonzalez"},
-        {"name": "Juan Graciano Gonzalez"},
+        {"name": "Ricardo González"},
+        {"name": "Juan Graciano González"},
         {"name": "Idalino Monges"},
         {"name": "José Felix Orrego"},
         {"name": "Vicente 'Pajarillo' Rodriguez"},
@@ -18064,7 +18064,7 @@
         {"name": "Vicente Bobadilla"},
         {"name": "Anibal Bordon"},
         {"name": "Genaro 'Bufalo' Garcia"},
-        {"name": "Juan Graciano Gonzalez"},
+        {"name": "Juan Graciano González"},
         {"name": "Epifanio Medina"},
         {"name": "Idalino Monges"},
         {"name": "Celino Mora"},
@@ -18203,7 +18203,7 @@
         {"name": "José Luis Luna", "out": ""},
         {"name": "Oscar Antonio Pianetti", "in": ""},
         {"name": "Ermindo Onega"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"},
         {"name": "Juan Carlos Lallana"},
         {"name": "Oscar Miguel Malbernat"}
@@ -18377,7 +18377,7 @@
         {"name": "Ermindo Onega"},
         {"name": "Jorge Raul Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"}
       ],
       [
@@ -18419,7 +18419,7 @@
         {"name": "Ermindo Onega"},
         {"name": "Jorge Raul Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"}
       ],
       [
@@ -18464,7 +18464,7 @@
         {"name": "Ermindo Onega"},
         {"name": "Jorge Raul Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"}
       ],
       [
@@ -18516,7 +18516,7 @@
         {"name": "Ermindo Onega"},
         {"name": "Jorge Raul Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"}
       ]
     ],
@@ -18559,7 +18559,7 @@
         {"name": "Benigno Apodaca"},
         {"name": "Vicente Bobadilla"},
         {"name": "Aristides Del Puerto"},
-        {"name": "Antonio Gonzalez"},
+        {"name": "Antonio González"},
         {"name": "Antonio Insfran"},
         {"name": "Francisco Miranda"},
         {"name": "Celino Mora"},
@@ -18589,7 +18589,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Oscar Osvaldo Calics"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"},
         {"name": "Angel Rojas", "out": ""},
         {"name": "Hector Rodolfo Veira", "in": ""},
@@ -18636,7 +18636,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Oscar Osvaldo Calics"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "David Acevedo", "out": ""},
         {"name": "Antonio Rosl", "in": ""},
         {"name": "Raul Emilio Bernao"},
@@ -18651,7 +18651,7 @@
         {"name": "Omar Colmenares", "in": ""},
         {"name": "S Gala", "out": ""},
         {"name": "Humberto Francisco Scovino", "in": ""},
-        {"name": "G Gonzalez"},
+        {"name": "G González"},
         {"name": "Luis Mendoza"},
         {"name": "David Motta"},
         {"name": "Ramon Naranjo"},
@@ -18686,7 +18686,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Oscar Osvaldo Calics"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas"},
         {"name": "David Acevedo"},
         {"name": "Raul Emilio Bernao"},
@@ -18744,7 +18744,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Oscar Osvaldo Calics"},
         {"name": "Luis Artime"},
-        {"name": "Alberto Gonzalez"},
+        {"name": "Alberto González"},
         {"name": "Oscar Mas", "out": ""},
         {"name": "Juan Carlos Carone", "in": ""},
         {"name": "David Acevedo"},
@@ -18869,7 +18869,7 @@
         {"name": "Vicente Bobadilla"},
         {"name": "Aristides Del Puerto"},
         {"name": "Sebastian Fleitas"},
-        {"name": "G Gonzalez"},
+        {"name": "G González"},
         {"name": "Luis Ivaldi"},
         {"name": "Juan Martinez"},
         {"name": "A Perez"},
@@ -19719,7 +19719,7 @@
         {"name": "Ramiro Blacutt"},
         {"name": "Juan Americo Diaz"},
         {"name": "Juan P Farias"},
-        {"name": "Remberto Gonzalez"},
+        {"name": "Remberto González"},
         {"name": "Jesus Herbas"},
         {"name": "José Issa"},
         {"name": "Isaac Maldonado"},
@@ -19827,7 +19827,7 @@
         {"name": "Limbert Cabrera"},
         {"name": "Griseldo Cobo"},
         {"name": "Juan Americo Diaz"},
-        {"name": "Remberto Gonzalez"},
+        {"name": "Remberto González"},
         {"name": "Jesus Herbas"},
         {"name": "Rene Rada"},
         {"name": "Mario Rojas"}
@@ -20089,7 +20089,7 @@
         {"name": "Anibal Bordon"},
         {"name": "Justiniano Enciso"},
         {"name": "Lorenzo Espinoza"},
-        {"name": "Carlos Alberto Gonzalez"},
+        {"name": "Carlos Alberto González"},
         {"name": "Severiano Irala"},
         {"name": "Lorenzo Jimenez"},
         {"name": "Valentin Mendoza"},
@@ -21568,7 +21568,7 @@
         {"name": "Francisco Valdes"},
         {"name": "Sergio Ahumada"},
         {"name": "Julio Crisosto"},
-        {"name": "Rafael Gonzalez"},
+        {"name": "Rafael González"},
         {"name": "Guillermo Munoz"},
         {"name": "Adolfo Nef"},
         {"name": "Patrico Paez", "out": ""},
@@ -21604,7 +21604,7 @@
         {"name": "Leonardo Veliz", "out": ""},
         {"name": "Guillermo Munoz", "in": ""},
         {"name": "Julio Crisosto"},
-        {"name": "Rafael Gonzalez"},
+        {"name": "Rafael González"},
         {"name": "Leonel Herrera"},
         {"name": "Patrico Pachuca"},
         {"name": "Patrico Paez"}
@@ -22483,7 +22483,7 @@
         {"name": "Alejandro Trujillo", "in": ""},
         {"name": "Manuel Gaete", "out": ""},
         {"name": "Miguel Angel Gamboa", "in": ""},
-        {"name": "Rafael Gonzalez"},
+        {"name": "Rafael González"},
         {"name": "Leonel Herrera"},
         {"name": "Juan Machuca"},
         {"name": "Javier Mendez"},
@@ -22542,7 +22542,7 @@
         {"name": "Mario Galindo"},
         {"name": "Sergio Ahumada"},
         {"name": "Leonardo Veliz"},
-        {"name": "Rafael Gonzalez"},
+        {"name": "Rafael González"},
         {"name": "Leonel Herrera"},
         {"name": "Eddio Inostroza"},
         {"name": "Javier Mendez", "out": ""},
@@ -22819,7 +22819,7 @@
         {"name": "Andrés Arizaleta"},
         {"name": "Ivan Garcia", "out": ""},
         {"name": "Acurcio", "in": ""},
-        {"name": "A Gonzalez"},
+        {"name": "A González"},
         {"name": "Ramon Iriarte", "out": ""},
         {"name": "Ruben Torres", "in": ""},
         {"name": "Luis Marquina"},
@@ -22995,7 +22995,7 @@
         {"name": "Osvaldo Aquino"},
         {"name": "Carlos Baez"},
         {"name": "Julio 'Pastelito' Diaz"},
-        {"name": "Gerardo Gonzalez"},
+        {"name": "Gerardo González"},
         {"name": "José Domingo Insfran"},
         {"name": "Daniel Martinez"},
         {"name": "Mariano Pesoa"},
@@ -23297,7 +23297,7 @@
         {"name": "Carlos Baez"},
         {"name": "Hugo Benitez Isasi"},
         {"name": "Gilberto Fleitas"},
-        {"name": "Gerardo Gonzalez"},
+        {"name": "Gerardo González"},
         {"name": "José Domingo Insfran"},
         {"name": "Apolinar Paniagua"},
         {"name": "Francisco Riveros"},
@@ -23441,7 +23441,7 @@
         {"name": "Leonardo Veliz"},
         {"name": "Julio Crisosto"},
         {"name": "Enzo Sergio Escobar"},
-        {"name": "Rafael Gonzalez"},
+        {"name": "Rafael González"},
         {"name": "Leonel Herrera"},
         {"name": "Adolfo Nef"},
         {"name": "Nelson Sanhueza", "out": ""},
@@ -24057,7 +24057,7 @@
         {"name": "Juan Espinola"},
         {"name": "Gustavo Fanego"},
         {"name": "Gilberto Fleitas"},
-        {"name": "Gerardo Gonzalez", "out": ""},
+        {"name": "Gerardo González", "out": ""},
         {"name": "Pedro Lopez", "in": ""},
         {"name": "Haifouco"},
         {"name": "Milciades Morel", "out": ""},
@@ -24087,7 +24087,7 @@
         {"name": "Juan Espinola"},
         {"name": "Pedro Nelson Fleitas", "out": ""},
         {"name": "Pedro Lopez", "in": ""},
-        {"name": "Gerardo Gonzalez"},
+        {"name": "Gerardo González"},
         {"name": "Oscar Lopez"},
         {"name": "Milciades Morel", "out": ""},
         {"name": "Alicio Solalinde", "in": ""},
@@ -26465,7 +26465,7 @@
         {"name": "Norberto Huezo"},
         {"name": "Joaquin Ventura", "out": "79"},
         {"name": "Mauricio Alfaro", "in": "79"},
-        {"name": "Jorge Gonzalez"},
+        {"name": "Jorge González"},
         {"name": "Luis Ramirez"},
         {"name": "José Rivas"}
       ]
@@ -27169,7 +27169,7 @@
         {"name": "Alberto José Marcico", "out": ""},
         {"name": "Marcelo Antonio Trobbiani", "in": ""},
         {"name": "Jorge Roberto Rinaldi", "out": ""},
-        {"name": "Gerardo Manuel Gonzalez", "in": ""},
+        {"name": "Gerardo Manuel González", "in": ""},
         {"name": "Alejandro Esteban Sabella"}
       ]
     ]
@@ -27194,7 +27194,7 @@
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Ricardo Gareca"},
-        {"name": "Gerardo Manuel Gonzalez"},
+        {"name": "Gerardo Manuel González"},
         {"name": "Alberto José Marcico"},
         {"name": "José Daniel Ponce"},
         {"name": "Eduardo Omar Saporiti", "out": ""},
@@ -27318,7 +27318,7 @@
         {"name": "Alberto José Marcico", "in": "66"},
         {"name": "Julian José Camino"},
         {"name": "Oscar Alberto Dertycia", "out": "77"},
-        {"name": "Gerardo Manuel Gonzalez", "in": "77"},
+        {"name": "Gerardo Manuel González", "in": "77"},
         {"name": "José Daniel Ponce"},
         {"name": "Miguel Angel Russo"}
       ]
@@ -27450,7 +27450,7 @@
         {"name": "Carlos Munoz"},
         {"name": "Manuel Negrete Arias"},
         {"name": "Enrique Lopez", "out": "80"},
-        {"name": "Raul Gonzalez Orihuela", "in": "80"},
+        {"name": "Raul González Orihuela", "in": "80"},
         {"name": "Luis Flores", "out": "28"},
         {"name": "Miguel Espana", "in": "28"},
         {"name": "Agustín Manzo"}
@@ -28634,7 +28634,7 @@
         {"name": "Oscar Roman Acosta", "min": "16", "type": "G"},
         {"name": "Walter Osvaldo Perazzo", "min": "80", "type": "G"}
       ],
-      [{"name": "Alfredo Gonzalez", "min": "63", "type": "G"}]
+      [{"name": "Alfredo González", "min": "63", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
@@ -28643,16 +28643,16 @@
       [
         {"name": "Cesar Calero", "out": ""},
         {"name": "Winston Giron", "in": ""},
-        {"name": "Alfredo Gonzalez"},
+        {"name": "Alfredo González"},
         {"name": "David Gruesso"},
         {"name": "Luis Fernando Martinez", "out": ""},
         {"name": "Alfonso Diaz", "in": ""},
         {"name": "Orlando Maturana"},
-        {"name": "Miguel Gonzalez Palacios"},
+        {"name": "Miguel González Palacios"},
         {"name": "Seferino Pena"},
         {"name": "Nestor Pizza"},
         {"name": "Wilson John Manuel Rodriguez"},
-        {"name": "Victor Gonzalez Scott"},
+        {"name": "Victor González Scott"},
         {"name": "Hernan Torres"}
       ]
     ]
@@ -28732,14 +28732,14 @@
         {"name": "Dorian Zuluaga", "in": ""},
         {"name": "Cesar Calero"},
         {"name": "Alfonso Diaz"},
-        {"name": "Alfredo Gonzalez"},
+        {"name": "Alfredo González"},
         {"name": "David Gruesso"},
         {"name": "Luis Fernando Martinez", "out": ""},
         {"name": "Hernan Garcia", "in": ""},
         {"name": "Orlando Maturana"},
         {"name": "Seferino Pena"},
         {"name": "Wilson John Manuel Rodriguez"},
-        {"name": "Victor Gonzalez Scott"},
+        {"name": "Victor González Scott"},
         {"name": "Hernan Torres"}
       ]
     ]
@@ -28839,7 +28839,7 @@
         {"name": "Ramon Angel Hicks", "out": ""},
         {"name": "Eumelio Ramon Palacios", "in": ""},
         {"name": "Gustavo Benitez"},
-        {"name": "Gabriel Gonzalez", "out": ""},
+        {"name": "Gabriel González", "out": ""},
         {"name": "Buenaventura Ferreira", "in": ""},
         {"name": "Justo Pastor Jacquet"}
       ]
@@ -29594,7 +29594,7 @@
         {"name": "Fernando Enrique Astengo"},
         {"name": "Marco Antonio Cornez"},
         {"name": "Ruben Alberto Espinoza"},
-        {"name": "Hugo Armando Gonzalez"},
+        {"name": "Hugo Armando González"},
         {"name": "Hernandez"},
         {"name": "Juvenal Olmos"},
         {"name": "Raul Elias Ormeno"},
@@ -29651,7 +29651,7 @@
       [
         {"name": "Leonel Contreras"},
         {"name": "Juan Covarrubias"},
-        {"name": "Hugo Armando Gonzalez"},
+        {"name": "Hugo Armando González"},
         {"name": "Alejandro Hisis"},
         {"name": "Juvenal Olmos"},
         {"name": "Raul Elias Ormeno", "out": "63"},
@@ -30015,7 +30015,7 @@
         {"name": "Israel Donis", "out": ""},
         {"name": "Vargas II", "in": ""},
         {"name": "Ferreira"},
-        {"name": "Gonzalez"},
+        {"name": "González"},
         {"name": "Victor Hernandez"},
         {"name": "Mattos"},
         {"name": "Melendez"},
@@ -31170,7 +31170,7 @@
         {"name": "José Luis Chilavert"},
         {"name": "Catalino Rivarola"},
         {"name": "Blas Marcelo Cristaldo"},
-        {"name": "Gabriel Gonzalez", "out": "72"},
+        {"name": "Gabriel González", "out": "72"},
         {"name": "Miguel Sanabria", "in": "72"},
         {"name": "Carlos Alberto Guirland"},
         {"name": "Justo Pastor Jacquet"},
@@ -32122,7 +32122,7 @@
         {"name": "Flavio Francisco Maestri", "in": "58"},
         {"name": "Alvaro Barco"},
         {"name": "José Luis Carranza"},
-        {"name": "Andrés Gonzalez"},
+        {"name": "Andrés González"},
         {"name": "Roberto Martinez", "out": "58"},
         {"name": "Dario Muchotrigo", "in": "58"},
         {"name": "Miguel Miranda"},
@@ -32185,7 +32185,7 @@
         {"name": "Alfredo Mendoza"},
         {"name": "Teofilo Barrios"},
         {"name": "Andrés Duarte"},
-        {"name": "Gabriel Gonzalez"},
+        {"name": "Gabriel González"},
         {"name": "Silvio Suarez"}
       ],
       [
@@ -32294,7 +32294,7 @@
         {"name": "Ronald Baroni", "out": "86"},
         {"name": "Flavio Francisco Maestri", "in": "86"},
         {"name": "José Luis Carranza"},
-        {"name": "Gustavo Gonzalez", "out": "65"},
+        {"name": "Gustavo González", "out": "65"},
         {"name": "Dario Muchotrigo", "in": "65"},
         {"name": "Miguel Miranda"},
         {"name": "José Alberto Soto"}
@@ -32336,7 +32336,7 @@
         {"name": "Alfredo Mendoza", "out": "63"},
         {"name": "Virgilio Ferreira", "in": "63"},
         {"name": "Teofilo Barrios"},
-        {"name": "Gabriel Gonzalez", "out": "85"},
+        {"name": "Gabriel González", "out": "85"},
         {"name": "Juan Ramon Jara", "in": "85"},
         {"name": "Vidal Sanabria"},
         {"name": "Silvio Suarez"},
@@ -33118,7 +33118,7 @@
         {"name": "Gabriel Rafael Mendoza", "in": "46"},
         {"name": "Rodrigo Barrera"},
         {"name": "Ardiman"},
-        {"name": "Pedro Gonzalez", "out": "46"},
+        {"name": "Pedro González", "out": "46"},
         {"name": "M Rojas", "in": "46"},
         {"name": "Mario Lepe", "out": "46"},
         {"name": "Raimundo Tupper", "in": "46"},
@@ -33958,7 +33958,7 @@
         {"name": "Wilmer Cabrera"},
         {"name": "Alexis Mendoza"},
         {"name": "Wilson Perez", "out": "84"},
-        {"name": "Gerson Gonzalez", "in": "84"},
+        {"name": "Gerson González", "in": "84"},
         {"name": "Luis Quinonez", "out": "46"},
         {"name": "Osvaldo E MacKenzie", "in": "46"},
         {"name": "Mauricio Serna"},
@@ -34061,8 +34061,8 @@
         {"name": "Marcos E Mathias", "in": "32"},
         {"name": "José Luis Dolgetta"},
         {"name": "Carlos José Garcia Mijares"},
-        {"name": "Leonardo Gonzalez"},
-        {"name": "William Gonzalez", "out": "32"},
+        {"name": "Leonardo González"},
+        {"name": "William González", "out": "32"},
         {"name": "Jaime", "in": "32"},
         {"name": "Sergio Hernandez"},
         {"name": "Stalin Rivas"},
@@ -34262,7 +34262,7 @@
         {"name": "Julio Cesar Encico"},
         {"name": "Richart Baez"},
         {"name": "Aristides Fabian Rojas", "out": "60"},
-        {"name": "Gabriel Gonzalez", "in": "60"},
+        {"name": "Gabriel González", "in": "60"},
         {"name": "Harles Daniel Bourdier"},
         {"name": "Vidal Sanabria", "out": "75"},
         {"name": "Francisco Javier Esteche", "in": "75"},
@@ -34298,8 +34298,8 @@
         {"name": "Luis Vera"},
         {"name": "Ruberth Dickson Moran"},
         {"name": "Giovanni Savarese"},
-        {"name": "Leonardo Gonzalez"},
-        {"name": "William Gonzalez"},
+        {"name": "Leonardo González"},
+        {"name": "William González"},
         {"name": "Diony Guerra", "out": "46"},
         {"name": "Luis Manuel Filosa", "in": "46"},
         {"name": "Felix José Hernandez", "out": "42"},
@@ -34460,7 +34460,7 @@
         {"name": "Robert Siboldi"}
       ],
       [
-        {"name": "Ignacio Gonzalez"},
+        {"name": "Ignacio González"},
         {"name": "José Chamot"},
         {"name": "Pablo Paz"},
         {"name": "Nelson Vivas"},
@@ -34505,7 +34505,7 @@
         {"name": "Ivan Valenciano"}
       ],
       [
-        {"name": "Ignacio Gonzalez"},
+        {"name": "Ignacio González"},
         {"name": "Hernan Diaz"},
         {"name": "Pablo Paz"},
         {"name": "Roberto Sensini"},
@@ -34561,7 +34561,7 @@
         {"name": "José Melgar", "in": "88"}
       ],
       [
-        {"name": "Ignacio Gonzalez"},
+        {"name": "Ignacio González"},
         {"name": "Hernan Diaz"},
         {"name": "Pablo Paz"},
         {"name": "Nelson Vivas"},
@@ -34708,7 +34708,7 @@
         {"name": "Maximo Wilson Tenorio"}
       ],
       [
-        {"name": "Ignacio Gonzalez"},
+        {"name": "Ignacio González"},
         {"name": "Pablo Rotchen"},
         {"name": "Mauricio Pellegrino"},
         {"name": "Claudio Husain"},
@@ -34764,7 +34764,7 @@
         {"name": "Nelson Parraguez"},
         {"name": "Nelson Cossio"},
         {"name": "Jorge Gomez"},
-        {"name": "Pedro Gonzalez"},
+        {"name": "Pedro González"},
         {"name": "Miguel Andris Ponce", "out": "69"},
         {"name": "Marcelo Miranda", "in": "69"},
         {"name": "Mario Salas"},
@@ -34973,7 +34973,7 @@
         {"name": "Gerson Diaz", "out": "70"},
         {"name": "Osvaldo Palencia", "in": "70"},
         {"name": "Alexander Echenique"},
-        {"name": "Leonardo Gonzalez", "out": "63"},
+        {"name": "Leonardo González", "out": "63"},
         {"name": "Johny Lucena", "in": "63"},
         {"name": "David Andrew Mac Intosh"},
         {"name": "Elvis Martinez"},
@@ -36561,7 +36561,7 @@
         {"name": "Juan Pablo Angel"},
         {"name": "Arley Betancourt", "out": "60"},
         {"name": "Neider Morantes", "in": "60"},
-        {"name": "Geovanni Gonzalez"},
+        {"name": "Geovanni González"},
         {"name": "Henry Zambrano", "out": "67"},
         {"name": "John Jairo Trellez", "in": "67"}
       ]
@@ -36760,7 +36760,7 @@
         {"name": "Rafael H Castellin"},
         {"name": "Juan Enrique Garcia", "out": "70"},
         {"name": "Francisco Martinez", "in": "70"},
-        {"name": "José Gonzalez"},
+        {"name": "José González"},
         {"name": "José de Jesus Vera"}
       ],
       [
@@ -37494,7 +37494,7 @@
         {"name": "Arley Dinas"},
         {"name": "Gonzalo Martinez"},
         {"name": "Alexander Viveros", "out": "46"},
-        {"name": "Jersson Gonzalez", "in": "46"},
+        {"name": "Jersson González", "in": "46"},
         {"name": "Mario Yepes"},
         {"name": "Freddy Rincon"},
         {"name": "Mauricio Serna"},
@@ -38192,8 +38192,8 @@
       [{"name": "Saul Martinez", "min": "7", "type": "G"}],
       [
         {"name": "Diego Milito", "min": "15", "type": "G"},
-        {"name": "Lucho Gonzalez", "min": "53", "type": "G"},
-        {"name": "Lucho Gonzalez", "min": "56", "type": "G"}
+        {"name": "Lucho González", "min": "53", "type": "G"},
+        {"name": "Lucho González", "min": "56", "type": "G"}
       ]
     ],
     "cards": [
@@ -38228,8 +38228,8 @@
         {"name": "Ariel Garce"},
         {"name": "Gabriel Milito"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Lucho Gonzalez"},
-        {"name": "Mariano Gonzalez", "out": "85"},
+        {"name": "Lucho González"},
+        {"name": "Mariano González", "out": "85"},
         {"name": "Clemente Rodriguez", "in": "85"},
         {"name": "Pablo Guinazu"},
         {"name": "Federico Insua", "out": "80"},
@@ -38274,8 +38274,8 @@
         {"name": "Gonzalo Rodriguez"},
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Lucho Gonzalez"},
-        {"name": "Mariano Gonzalez", "out": "86"},
+        {"name": "Lucho González"},
+        {"name": "Mariano González", "out": "86"},
         {"name": "Cesar Carignano", "in": "86"},
         {"name": "Pablo Guinazu"},
         {"name": "Federico Insua"},
@@ -38292,7 +38292,7 @@
     "teams": [{"name": "USA"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Lucho Gonzalez", "min": "9", "type": "G"}]],
+    "goals": [[], [{"name": "Lucho González", "min": "9", "type": "G"}]],
     "cards": [
       [
         {"name": "Carlos Bocanegra", "type": "Y"},
@@ -38333,8 +38333,8 @@
         {"name": "Gabriel Milito"},
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Lucho Gonzalez"},
-        {"name": "Mariano Gonzalez", "out": "46"},
+        {"name": "Lucho González"},
+        {"name": "Mariano González", "out": "46"},
         {"name": "Cesar Carignano", "in": "46"},
         {"name": "Pablo Guinazu"},
         {"name": "Federico Insua", "out": "77"},
@@ -38572,7 +38572,7 @@
         {"name": "Gabriel Milito"},
         {"name": "Clemente Rodriguez"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Federico Insua", "out": "70"},
         {"name": "Pablo Guinazu", "in": "70"},
         {"name": "Javier Mascherano"},
@@ -38650,7 +38650,7 @@
         {"name": "Andrés D'Alessandro", "in": "64"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "83"},
-        {"name": "Lucho Gonzalez", "in": "83"},
+        {"name": "Lucho González", "in": "83"},
         {"name": "Claudio Lopez", "out": "64"},
         {"name": "Javier Saviola", "in": "64"},
         {"name": "Diego Milito", "out": "46"},
@@ -38703,10 +38703,10 @@
         {"name": "Nelson Tapia"},
         {"name": "Cristian Alvarez"},
         {"name": "Pablo Contreras"},
-        {"name": "Marcos Gonzalez"},
+        {"name": "Marcos González"},
         {"name": "Rafael Olarra"},
         {"name": "Clarence Acuna"},
-        {"name": "Mark Gonzalez"},
+        {"name": "Mark González"},
         {"name": "Rodrigo Melendez"},
         {"name": "Milovan Mirosevic"},
         {"name": "Reinaldo Navia"},
@@ -38748,7 +38748,7 @@
         {"name": "Ruberth Dickson Moran", "out": "46"},
         {"name": "Gabriel José Urdaneta", "in": "46"},
         {"name": "Wilfredo Alvarado"},
-        {"name": "Hector Gonzalez", "out": "46"},
+        {"name": "Hector González", "out": "46"},
         {"name": "Luis Vallenilla Pacheco", "in": "46"},
         {"name": "Daniel Noriega"}
       ],
@@ -38759,7 +38759,7 @@
         {"name": "Nelson Vivas"},
         {"name": "Pablo Aimar"},
         {"name": "Andrés D'Alessandro", "out": "86"},
-        {"name": "Lucho Gonzalez", "in": "86"},
+        {"name": "Lucho González", "in": "86"},
         {"name": "Kily González"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
@@ -38899,7 +38899,7 @@
     "cards": [
       [
         {"name": "Roberto Ayala", "type": "Y"},
-        {"name": "Lucho Gonzalez", "type": "Y"}
+        {"name": "Lucho González", "type": "Y"}
       ],
       [
         {"name": "Edwin Tenorio", "type": "Y"},
@@ -38917,8 +38917,8 @@
         {"name": "Gabriel Heinze"},
         {"name": "Pablo Aimar"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Lucho Gonzalez"},
-        {"name": "Mariano Gonzalez", "out": "46"},
+        {"name": "Lucho González"},
+        {"name": "Mariano González", "out": "46"},
         {"name": "Carlos Tevez", "in": "46"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Cesar Delgado"},
@@ -39037,7 +39037,7 @@
         {"name": "Walter Samuel"},
         {"name": "Gabriel Heinze"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "61"},
+        {"name": "Lucho González", "out": "61"},
         {"name": "Pablo Aimar", "in": "61"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Pablo Sorin"},
@@ -39058,7 +39058,7 @@
     "cards": [
       [
         {"name": "Carlos Tevez", "type": "Y"},
-        {"name": "Lucho Gonzalez", "type": "Y"}
+        {"name": "Lucho González", "type": "Y"}
       ],
       [
         {"name": "Denis Caniza", "type": "Y"},
@@ -39076,7 +39076,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "66"},
+        {"name": "Lucho González", "out": "66"},
         {"name": "Mauro Rosales", "in": "66"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Pablo Sorin"},
@@ -39132,7 +39132,7 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Facundo Quiroga", "out": "2"},
-        {"name": "Mariano Gonzalez", "in": "2"},
+        {"name": "Mariano González", "in": "2"},
         {"name": "Roberto Ayala"},
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
@@ -39179,7 +39179,7 @@
         {"name": "Javier Saviola", "min": "74", "type": "G"},
         {"name": "Javier Saviola", "min": "79", "type": "G"},
         {"name": "Andrés D'Alessandro", "min": "84", "type": "G"},
-        {"name": "Lucho Gonzalez", "min": "90", "type": "G"}
+        {"name": "Lucho González", "min": "90", "type": "G"}
       ],
       [{"name": "Agustin Delgado", "min": "62", "type": "G"}]
     ],
@@ -39193,7 +39193,7 @@
         {"name": "Andrés D'Alessandro"},
         {"name": "Kily González", "out": "87"},
         {"name": "Clemente Rodriguez", "in": "87"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -39248,7 +39248,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Andrés D'Alessandro"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "66"},
+        {"name": "Lucho González", "out": "66"},
         {"name": "Carlos Tevez", "in": "66"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Pablo Sorin", "out": "76"},
@@ -39309,12 +39309,12 @@
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Clemente Rodriguez", "out": "46"},
-        {"name": "Mariano Gonzalez", "in": "46"},
+        {"name": "Mariano González", "in": "46"},
         {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
         {"name": "Andrés D'Alessandro"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "79"},
+        {"name": "Lucho González", "out": "79"},
         {"name": "Javier Saviola", "in": "79"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Zanetti"},
@@ -39378,7 +39378,7 @@
         {"name": "Andrés D'Alessandro", "out": "57"},
         {"name": "Carlos Tevez", "in": "57"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
         {"name": "Cesar Delgado"},
@@ -39398,7 +39398,7 @@
     "goals": [
       [
         {"name": "Carlos Tevez", "min": "32", "type": "G"},
-        {"name": "Lucho Gonzalez", "min": "51", "type": "G"},
+        {"name": "Lucho González", "min": "51", "type": "G"},
         {"name": "Juan Pablo Sorin", "min": "80", "type": "G"}
       ],
       []
@@ -39423,7 +39423,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Kily González", "out": "85"},
         {"name": "Diego Placente", "in": "85"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -39492,7 +39492,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "75"},
+        {"name": "Lucho González", "out": "75"},
         {"name": "Andrés D'Alessandro", "in": "75"},
         {"name": "Javier Mascherano"},
         {"name": "Mauro Rosales", "out": "64"},
@@ -39551,7 +39551,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Kily González", "out": "91"},
         {"name": "Diego Placente", "in": "91"},
-        {"name": "Mariano Gonzalez"},
+        {"name": "Mariano González"},
         {"name": "Mauro Rosales"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -39705,7 +39705,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Lucho Gonzalez", "min": "6", "type": "G"},
+        {"name": "Lucho González", "min": "6", "type": "G"},
         {"name": "Luciano Figueroa", "min": "32", "type": "G"},
         {"name": "Javier Zanetti", "min": "44", "type": "G"},
         {"name": "Luciano Figueroa", "min": "54", "type": "G"}
@@ -39717,7 +39717,7 @@
     ],
     "cards": [
       [
-        {"name": "Lucho Gonzalez", "type": "Y"},
+        {"name": "Lucho González", "type": "Y"},
         {"name": "Gabriel Heinze", "type": "Y"}
       ],
       [
@@ -39733,7 +39733,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucho Gonzalez", "out": "68"},
+        {"name": "Lucho González", "out": "68"},
         {"name": "Maxi Rodriguez", "in": "68"},
         {"name": "Román Riquelme"},
         {"name": "Juan Pablo Sorin"},
@@ -39801,7 +39801,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucho Gonzalez", "out": "45"},
+        {"name": "Lucho González", "out": "45"},
         {"name": "Javier Mascherano", "in": "45"},
         {"name": "Román Riquelme"},
         {"name": "Juan Pablo Sorin"},
@@ -39849,7 +39849,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
         {"name": "Santiago Solari", "out": "65"},
-        {"name": "Lucho Gonzalez", "in": "65"},
+        {"name": "Lucho González", "in": "65"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
         {"name": "Cesar Delgado", "out": "58"},
@@ -40040,7 +40040,7 @@
     "goals": [[{"name": "Hernan Crespo", "min": "65", "type": "G"}], []],
     "cards": [
       [
-        {"name": "Lucho Gonzalez", "type": "Y"},
+        {"name": "Lucho González", "type": "Y"},
         {"name": "Roberto Ayala", "type": "Y"}
       ],
       [
@@ -40059,7 +40059,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano", "out": "54"},
         {"name": "Luciano Galletti", "in": "54"},
         {"name": "Román Riquelme"},
@@ -40179,7 +40179,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Kily González"},
-        {"name": "Lucho Gonzalez", "out": "71"},
+        {"name": "Lucho González", "out": "71"},
         {"name": "Javier Zanetti", "in": "71"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
@@ -40553,7 +40553,7 @@
         {"name": "Lucas Ademar Bernardi"},
         {"name": "Andrés D'Alessandro", "out": "90"},
         {"name": "Mario Santana", "in": "90"},
-        {"name": "Lucho Gonzalez", "out": "82"},
+        {"name": "Lucho González", "out": "82"},
         {"name": "Pablo Zabaleta", "in": "82"},
         {"name": "Maxi Rodriguez"},
         {"name": "Lionel Scaloni"},
@@ -40607,7 +40607,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Román Riquelme", "out": "71"},
         {"name": "Andrés D'Alessandro", "in": "71"},
         {"name": "Juan Pablo Sorin"},
@@ -40649,7 +40649,7 @@
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Kily González", "out": "58"},
         {"name": "Carlos Tevez", "in": "58"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Román Riquelme", "out": "79"},
         {"name": "Mario Santana", "in": "79"},
         {"name": "Juan Pablo Sorin"},
@@ -40720,7 +40720,7 @@
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Kily González", "out": "65"},
         {"name": "Lionel Messi", "in": "65"},
-        {"name": "Lucho Gonzalez", "out": "65"},
+        {"name": "Lucho González", "out": "65"},
         {"name": "Cesar Delgado", "in": "65"},
         {"name": "Leonardo Ponzio"},
         {"name": "Román Riquelme"},
@@ -40770,7 +40770,7 @@
         {"name": "Fabricio Coloccini", "in": "74"},
         {"name": "Esteban Cambiasso"},
         {"name": "Román Riquelme", "out": "84"},
-        {"name": "Lucho Gonzalez", "in": "84"},
+        {"name": "Lucho González", "in": "84"},
         {"name": "Maxi Rodriguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -40825,7 +40825,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Daniel Rubén Bilos", "out": "60"},
-        {"name": "Lucho Gonzalez", "in": "60"},
+        {"name": "Lucho González", "in": "60"},
         {"name": "Román Riquelme"},
         {"name": "Maxi Rodriguez"},
         {"name": "Juan Pablo Sorin"},
@@ -40888,7 +40888,7 @@
         {"name": "Martin Demichelis"},
         {"name": "Walter Samuel"},
         {"name": "Fabricio Coloccini", "out": "60"},
-        {"name": "Lucho Gonzalez", "in": "60"},
+        {"name": "Lucho González", "in": "60"},
         {"name": "Esteban Cambiasso"},
         {"name": "Leonardo Ponzio"},
         {"name": "Román Riquelme"},
@@ -40971,7 +40971,7 @@
       [
         {"name": "Javier Saviola", "min": "41", "type": "Y"},
         {"name": "Gabriel Heinze", "min": "49", "type": "Y"},
-        {"name": "Lucho Gonzalez", "min": "81", "type": "Y"}
+        {"name": "Lucho González", "min": "81", "type": "Y"}
       ],
       [
         {"name": "Emmanuel Eboué", "min": "61", "type": "Y"},
@@ -40994,7 +40994,7 @@
         {"name": "Hernan Crespo", "out": "64"},
         {"name": "Rodrigo Palacio", "in": "64"},
         {"name": "Javier Saviola", "out": "76"},
-        {"name": "Lucho Gonzalez", "in": "76"}
+        {"name": "Lucho González", "in": "76"}
       ],
       [
         {"name": "Jean-Jacques Tizié"},
@@ -41051,7 +41051,7 @@
         {"name": "Nicolas Burdisso"},
         {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
-        {"name": "Lucho Gonzalez", "out": "17"},
+        {"name": "Lucho González", "out": "17"},
         {"name": "Esteban Cambiasso", "in": "17"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
@@ -41245,7 +41245,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "72"},
         {"name": "Esteban Cambiasso", "in": "72"},
@@ -41307,7 +41307,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Daniel Rubén Bilos", "out": "72"},
         {"name": "Federico Insua", "in": "72"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano", "out": "46"},
         {"name": "Leandro Somoza", "in": "46"},
         {"name": "Román Riquelme"},
@@ -41363,7 +41363,7 @@
         {"name": "Gabriel Milito"},
         {"name": "Pablo Zabaleta"},
         {"name": "Roberto Ayala"},
-        {"name": "Lucho Gonzalez", "out": "46"},
+        {"name": "Lucho González", "out": "46"},
         {"name": "Leandro Somoza", "in": "46"},
         {"name": "Federico Insua", "out": "56"},
         {"name": "Pablo Aimar", "in": "56"},
@@ -41423,7 +41423,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
         {"name": "Fernando Gago"},
-        {"name": "Lucho Gonzalez", "out": "79"},
+        {"name": "Lucho González", "out": "79"},
         {"name": "Jonas Gutierrez", "in": "79"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "79"},
@@ -41517,7 +41517,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
         {"name": "Fernando Gago"},
-        {"name": "Lucho Gonzalez", "out": "66"},
+        {"name": "Lucho González", "out": "66"},
         {"name": "Javier Mascherano", "in": "66"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi", "out": "88"},
@@ -41562,7 +41562,7 @@
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Nicolas Burdisso", "out": "46"},
-        {"name": "Lucho Gonzalez", "in": "46"},
+        {"name": "Lucho González", "in": "46"},
         {"name": "Gabriel Milito"},
         {"name": "Javier Horacio Pinola"},
         {"name": "Roberto Ayala"},
@@ -41696,7 +41696,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
         {"name": "Juan Sebastian Veron", "out": "80"},
-        {"name": "Lucho Gonzalez", "in": "80"},
+        {"name": "Lucho González", "in": "80"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi", "out": "84"},
         {"name": "Carlos Tevez", "in": "84"},
@@ -41735,7 +41735,7 @@
         {"name": "Rodrigo Palacio", "min": "90", "type": "Y"}
       ],
       [
-        {"name": "Edgar Daniel Gonzalez", "min": "9", "type": "Y"},
+        {"name": "Edgar Daniel González", "min": "9", "type": "Y"},
         {"name": "Jonathan Santana", "min": "39", "type": "Y"},
         {"name": "Edgar Barreto", "min": "90", "type": "Y"}
       ]
@@ -41752,7 +41752,7 @@
         {"name": "Esteban Cambiasso", "out": "67"},
         {"name": "Lionel Messi", "in": "67"},
         {"name": "Fernando Gago"},
-        {"name": "Lucho Gonzalez", "out": "66"},
+        {"name": "Lucho González", "out": "66"},
         {"name": "Javier Mascherano", "in": "66"},
         {"name": "Javier Zanetti"},
         {"name": "Rodrigo Palacio"},
@@ -41765,7 +41765,7 @@
         {"name": "Dario Veron"},
         {"name": "Julio dos Santos", "out": "69"},
         {"name": "Edgar Barreto", "in": "69"},
-        {"name": "Edgar Daniel Gonzalez"},
+        {"name": "Edgar Daniel González"},
         {"name": "Jonathan Santana", "out": "81"},
         {"name": "Roque Santa Cruz", "in": "81"},
         {"name": "Aureliano Torres"},
@@ -41935,7 +41935,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
         {"name": "Juan Sebastian Veron", "out": "67"},
-        {"name": "Lucho Gonzalez", "in": "67"},
+        {"name": "Lucho González", "in": "67"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Carlos Tevez"}
@@ -41995,7 +41995,7 @@
         {"name": "Nicolas Burdisso"},
         {"name": "Ezequiel Garay"},
         {"name": "Gabriel Milito"},
-        {"name": "Lucho Gonzalez", "out": "46"},
+        {"name": "Lucho González", "out": "46"},
         {"name": "Federico Insua", "in": "46"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez"},
@@ -42110,7 +42110,7 @@
         {"name": "Miguel Augusto Riffo"},
         {"name": "Arturo Vidal"},
         {"name": "Matías Fernández"},
-        {"name": "Mark Gonzalez"},
+        {"name": "Mark González"},
         {"name": "Manuel Iturra", "out": "62"},
         {"name": "Claudio Maldonado", "in": "62"},
         {"name": "Eduardo Rubio", "out": "46"},
@@ -42351,7 +42351,7 @@
         {"name": "Fabricio Coloccini", "in": "82"},
         {"name": "Gabriel Heinze"},
         {"name": "Fernando Gago"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez", "out": "90"},
         {"name": "Pablo Zabaleta", "in": "90"},
@@ -42634,12 +42634,12 @@
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucho Gonzalez"},
+        {"name": "Lucho González"},
         {"name": "Pablo Martin Ledesma", "out": "64"},
         {"name": "Fernando Cavenaghi", "in": "64"},
         {"name": "Javier Zanetti"},
         {"name": "German Denis", "out": "64"},
-        {"name": "Mariano Gonzalez", "in": "64"},
+        {"name": "Mariano González", "in": "64"},
         {"name": "Carlos Tevez", "out": "79"},
         {"name": "Lisandro Lopez", "in": "79"}
       ]
@@ -42865,7 +42865,7 @@
         {"name": "Carlos Carmona"},
         {"name": "Marco Estrada"},
         {"name": "Matías Fernández"},
-        {"name": "Mark Gonzalez", "out": "20"},
+        {"name": "Mark González", "out": "20"},
         {"name": "Hugo Droguett", "in": "20"},
         {"name": "Fabián Orellana", "out": "85"},
         {"name": "Hans Martinez", "in": "85"},
@@ -42929,7 +42929,7 @@
         {"name": "Juan Pablo Carrizo"},
         {"name": "Martin Demichelis"},
         {"name": "Jonas Gutierrez", "out": "71"},
-        {"name": "Lucho Gonzalez", "in": "71"},
+        {"name": "Lucho González", "in": "71"},
         {"name": "Gabriel Heinze"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -43054,7 +43054,7 @@
         {"name": "Alejandro Moreno", "in": "50"},
         {"name": "José Velázquez"},
         {"name": "Juan Arango"},
-        {"name": "Cesar Gonzalez"},
+        {"name": "Cesar González"},
         {"name": "Giancarlo Maldonado", "out": "78"},
         {"name": "Francisco Flores", "in": "78"},
         {"name": "Tomás Rincón"},
@@ -43079,7 +43079,7 @@
         {"name": "Joaquim Botero", "min": "66", "type": "G"},
         {"name": "Didi Torrico", "min": "87", "type": "G"}
       ],
-      [{"name": "Lucho Gonzalez", "min": "25", "type": "G"}]
+      [{"name": "Lucho González", "min": "25", "type": "G"}]
     ],
     "cards": [
       [
@@ -43113,7 +43113,7 @@
         {"name": "Martin Demichelis"},
         {"name": "Gabriel Heinze"},
         {"name": "Fernando Gago"},
-        {"name": "Lucho Gonzalez", "out": "69"},
+        {"name": "Lucho González", "out": "69"},
         {"name": "Marcos Angeleri", "in": "69"},
         {"name": "Javier Mascherano"},
         {"name": "Emiliano Papa"},
@@ -43732,7 +43732,7 @@
       []
     ],
     "cards": [[{"name": "Matias Caruzzo", "min": "19", "type": "Y"}], []],
-    "coaches": [{"name": "Diego Maradona"}, {"name": "Ronald Gonzalez Brenes"}],
+    "coaches": [{"name": "Diego Maradona"}, {"name": "Ronald González Brenes"}],
     "lineups": [
       [
         {"name": "Cristian Campestrini"},
@@ -44602,11 +44602,11 @@
         {"name": "Gabriel Cichero"},
         {"name": "Franklyn Lucena"},
         {"name": "Giovanny Romero", "out": "46"},
-        {"name": "Cesar Alexander Gonzalez", "in": "46"},
+        {"name": "Cesar Alexander González", "in": "46"},
         {"name": "Carlos Salazar", "out": "56"},
         {"name": "Giacomo Di Giorgi", "in": "56"},
         {"name": "Oswaldo Vizcarrondo"},
-        {"name": "Cesar Gonzalez", "out": "59"},
+        {"name": "Cesar González", "out": "59"},
         {"name": "Jesus Gomez", "in": "59"},
         {"name": "Edgar Jimenez", "out": "73"},
         {"name": "Evelio Hernandez", "in": "73"},
@@ -45300,7 +45300,7 @@
         {"name": "Ricardo Alvarez", "out": "62"},
         {"name": "Javier Pastore", "in": "62"},
         {"name": "Angel Di Maria"},
-        {"name": "Lucho Gonzalez", "out": "74"},
+        {"name": "Lucho González", "out": "74"},
         {"name": "José Sosa", "in": "74"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -45339,7 +45339,7 @@
         {"name": "Martin Demichelis"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo", "out": "69"},
-        {"name": "Lucho Gonzalez", "in": "69"},
+        {"name": "Lucho González", "in": "69"},
         {"name": "Pablo Zabaleta", "out": "83"},
         {"name": "Federico Fernández", "in": "83"},
         {"name": "Angel Di Maria", "out": "76"},
