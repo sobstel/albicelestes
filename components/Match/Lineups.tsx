@@ -5,11 +5,11 @@ import PlayerName from "components/PlayerName";
 import { getMatchTeamIndex, produceShortNames } from "helpers";
 import { Match, MatchCoach } from "types";
 
-function coachName(
+function coachNameSuffix(
   coaches: [MatchCoach, MatchCoach],
   teamIndex: number
 ): string {
-  return coaches[teamIndex]?.name || "unknown";
+  return coaches[teamIndex]?.name ? ` (${coaches[teamIndex]?.name})` : "";
 }
 
 type Props = {
@@ -34,10 +34,10 @@ export default function Lineups({ match }: Props) {
           lineup.length > 0 && (
             <Block key={teamIndex}>
               <Header
-                text={`${teams[teamIndex].name} (${coachName(
-                  coaches,
-                  teamIndex
-                )})`}
+                text={[
+                  teams[teamIndex].name,
+                  coachNameSuffix(coaches, teamIndex),
+                ].join("")}
               />
               {lineup.map((event, index) => (
                 <span key={`${teamIndex}-${index}`}>
