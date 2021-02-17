@@ -45,7 +45,7 @@ const Score = ({ match }: { match: MatchItem }) => {
   const score = getMatchScore(match, { short: true });
 
   if (isMyTeamAway) {
-    // TODO: move to some getMatchDisplayScore
+    // TODO: move to some getMatchScoreElements/Parts
     const regexp = /^(?<prefix>p\.)?(?<homeScore>\d+):(?<awayScore>\d+)/;
     const { prefix, homeScore, awayScore } = score.match(regexp)?.groups || {};
     return (
