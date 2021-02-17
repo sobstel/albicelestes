@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
 import { produceIndexedEvents, produceShortNames } from "helpers";
-import { getMatchTeamIndex } from "helpers";
+import { getMatchTeamIndex, sortByMinute } from "helpers";
 import { Match } from "types";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
@@ -13,7 +13,7 @@ export default function Cards({ match }: Props) {
     match.cards,
     produceIndexedEvents,
     R.flatten(),
-    R.sortBy((card) => card.min)
+    sortByMinute
   );
 
   if (cards.length === 0) {

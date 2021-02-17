@@ -25,3 +25,4 @@ export { default as produceIndexedEvents } from "./produceIndexedEvents";
 export { default as produceShortNames } from "./produceShortNames";
 
 export { default as sortByMatchesPlayed } from "./sortByMatchesPlayed";
+export { default as sortByMinute } from "./sortByMinute";
