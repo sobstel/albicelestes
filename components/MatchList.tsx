@@ -1,8 +1,6 @@
 import React from "react";
-import useBreakpoint from "hooks/useBreakpoint";
 import {
   getMatchDate,
-  getMatchOtherTeam,
   getMatchYear,
   getMatchScore,
   getMatchSlug,
@@ -15,77 +13,55 @@ import getMatchTeamIndex from "helpers/getMatchTeamIndex";
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();
 
-const SmallTable = ({ matches }: Props) => (
-  <table>
-    <tbody>
-      {matches.map((match) => {
-        const myTeamIndex = getMatchTeamIndex(match);
-        const otherTeam = getMatchOtherTeam(match);
-        const isMyTeamHome = myTeamIndex === 0;
+const Date = ({ match }: { match: MatchItem }) => {
+  return <>{getMatchDate(match, { withYear: true })}</>;
+};
 
-        let scoreMatch = { ...match };
-        // reverse score when only other team name is displayed
-        if (!isMyTeamHome) {
-          scoreMatch = {
-            ...match,
-            teams: [match.teams[1], match.teams[0]],
-            score: [match.score[1], match.score[0]],
-            pen: match.pen && [match.pen[1], match.pen[0]],
-            result: match.result,
-          };
-        }
+const Teams = ({ match }: { match: MatchItem }) => {
+  const myTeamIndex = getMatchTeamIndex(match);
+  const isMyTeamHome = myTeamIndex === 0;
 
-        return (
-          <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
-            <td>{getMatchDate(match, { withYear: true })}</td>
-            <td>
-              <LinkAnchor
-                href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}
-              >
-                {[
-                  teamInflections[otherTeam.name] ?? otherTeam.name,
-                  isMyTeamHome ? "(H)" : "(A)",
-                ].join(" ")}
-              </LinkAnchor>
-            </td>
-            <td>{getMatchScore(scoreMatch, { short: true })}</td>
-            <td>
-              <em>
-                {competitionInflections[match.competition] ?? match.competition}
-              </em>
-            </td>
-          </tr>
-        );
-      })}
-    </tbody>
-  </table>
-);
+  return (
+    <LinkAnchor href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}>
+      {isMyTeamHome ? (
+        <>
+          <span className="hidden md:inline">{match.teams[0].name} - </span>
+          {teamInflections[match.teams[1].name] ?? match.teams[1].name}
+        </>
+      ) : (
+        <>
+          {teamInflections[match.teams[0].name] ?? match.teams[0].name}
+          <span className="hidden md:inline"> - {match.teams[1].name}</span>
+        </>
+      )}
+      <span className="inline md:hidden"> {isMyTeamHome ? "(H)" : "(A)"}</span>
+    </LinkAnchor>
+  );
+};
 
-const StandardTable = ({ matches }: Props) => (
-  <table>
-    <tbody>
-      {matches.map((match) => (
-        <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
-          <td>{getMatchDate(match, { withYear: true })}</td>
-          <td>
-            <LinkAnchor href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}>
-              {[
-                teamInflections[match.teams[0].name] ?? match.teams[0].name,
-                teamInflections[match.teams[1].name] ?? match.teams[1].name,
-              ].join(" - ")}
-            </LinkAnchor>
-          </td>
-          <td>{getMatchScore(match, { short: true })}</td>
-          <td>
-            <em>
-              {competitionInflections[match.competition] ?? match.competition}
-            </em>
-          </td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-);
+const Score = ({ match }: { match: MatchItem }) => {
+  const myTeamIndex = getMatchTeamIndex(match);
+  const isMyTeamAway = myTeamIndex === 1;
+  const score = getMatchScore(match, { short: true });
+
+  if (isMyTeamAway) {
+    // TODO: move to some getMatchDisplayScore
+    const regexp = /^(?<prefix>p\.)?(?<homeScore>\d+):(?<awayScore>\d+)/;
+    const { prefix, homeScore, awayScore } = score.match(regexp)?.groups || {};
+    return (
+      <>
+        {prefix}
+        <span className="inline-flex flex-row-reverse md:flex-row">
+          <span>{homeScore}</span>
+          <span>:</span>
+          <span>{awayScore}</span>
+        </span>
+      </>
+    );
+  }
+
+  return score;
+};
 
 type Props = {
   matches: MatchItem[];
@@ -94,18 +70,33 @@ type Props = {
 export default function MatchList({ matches }: Props) {
   if (matches.length === 0) return null;
 
-  const isSmall = useBreakpoint("sm");
-
-  let table: JSX.Element;
-  if (isSmall) {
-    table = <SmallTable matches={matches} />;
-  } else {
-    table = <StandardTable matches={matches} />;
-  }
-
   return (
     <Block>
-      <div className="max-w-full overflow-hidden">{table}</div>
+      <div className="max-w-full overflow-hidden">
+        <table>
+          <tbody>
+            {matches.map((match) => (
+              <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
+                <td>
+                  <Date match={match} />
+                </td>
+                <td>
+                  <Teams match={match} />
+                </td>
+                <td>
+                  <Score match={match} />
+                </td>
+                <td>
+                  <em>
+                    {competitionInflections[match.competition] ??
+                      match.competition}
+                  </em>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </Block>
   );
 }
