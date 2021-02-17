@@ -4846,7 +4846,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Anibal Arganaraz"},
         {"name": "Pedro F Capalpo"},
         {"name": "Angel Chiessa"},
@@ -4887,7 +4887,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Angel Chiessa"},
         {"name": "Benjamin Delgado"},
         {"name": "Emilio Francisco Goin"},
@@ -5309,7 +5309,7 @@
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Mario Fortunato"},
         {"name": "J Gurrutchague"},
@@ -5631,7 +5631,7 @@
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Luis Felipe Monti"},
+        {"name": "Luis Monti"},
         {"name": "Natalio Perinetti"},
         {"name": "Lindolfo Acosta"},
         {"name": "Juan Anunziata"},
@@ -5673,7 +5673,7 @@
       [
         {"name": "José Lucarelli", "min": "48", "type": "G"},
         {"name": "José Lucarelli", "min": "53", "type": "G"},
-        {"name": "Luis Felipe Monti", "min": "58", "type": "G"}
+        {"name": "Luis Monti", "min": "58", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -5694,7 +5694,7 @@
       ],
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Luis Felipe Monti"},
+        {"name": "Luis Monti"},
         {"name": "Natalio Perinetti"},
         {"name": "Pablo Bartolucci"},
         {"name": "Gerardo Caldas"},
@@ -6097,7 +6097,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Juan Bianchi"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Mario Fortunato"},
@@ -6144,7 +6144,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Juan Bianchi"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Mario Fortunato"},
@@ -6191,7 +6191,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Juan Bianchi"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Mario Fortunato"},
@@ -6240,7 +6240,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Juan Bianchi"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Antonio Cerrotti"},
@@ -6379,7 +6379,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Roberto Cherro"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Antonio De Miguel"},
@@ -6431,7 +6431,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Roberto Cherro"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Antonio De Miguel"},
@@ -6531,7 +6531,7 @@
         {"name": "Leoncio Veloso"}
       ],
       [
-        {"name": "Ramon Orlando Muttis"},
+        {"name": "Ramón Muttis"},
         {"name": "Roberto Cherro"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Benjamin Delgado"},
@@ -6573,12 +6573,12 @@
         {"name": "José Vanzzino"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Rodolfo Orlandini"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Roberto Bacchi"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Pedro Omar"},
@@ -6651,8 +6651,8 @@
       [
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Luis Monti"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Octavio Diaz"},
@@ -6702,8 +6702,8 @@
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Luis Monti"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Octavio Diaz"},
@@ -6738,9 +6738,9 @@
       [
         {"name": "Juan Felix Maglio", "min": "22", "type": "G"},
         {"name": "Juan Felix Maglio", "min": "25", "type": "G"},
-        {"name": "Manuel Ferreira", "min": "30", "type": "G"},
+        {"name": "Manuel Ferreyra", "min": "30", "type": "G"},
         {"name": "Alfredo D Carricaberry", "min": "38", "type": "G"},
-        {"name": "Manuel Ferreira", "type": "G"}
+        {"name": "Manuel Ferreyra", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -6760,12 +6760,12 @@
         {"name": "Jorge Sarmiento"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Luis Monti"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Juan Felix Maglio"},
@@ -6826,11 +6826,11 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Juan Arrilaga"},
         {"name": "Pablo Bartolucci"},
         {"name": "Felipe Cherro"},
@@ -6887,10 +6887,10 @@
         {"name": "Zoilo Saldombide"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Carlos Spadaro"},
         {"name": "Jorge Alonso"},
         {"name": "Pablo Bartolucci"},
@@ -6910,7 +6910,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Carlos Desiderio Peucelle", "min": "58", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "58", "type": "G"},
         {"name": "Alejandro Scopelli", "min": "76", "type": "G"},
         {"name": "Domingo Tarasconi", "type": "G"}
       ],
@@ -6920,12 +6920,12 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
         {"name": "Marino Evaristo"},
         {"name": "Gerardo Moreyras"},
@@ -7021,11 +7021,11 @@
         {"name": "Andrés Mazzali"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Alejandro Scopelli"},
         {"name": "Jorge Alonso"},
         {"name": "Felipe Cherro"},
@@ -7048,12 +7048,12 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Luis Monti"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Alejandro Scopelli"},
         {"name": "Carlos Spadaro"},
         {"name": "Felipe Cherro"},
@@ -7084,7 +7084,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Carlos Desiderio Peucelle", "min": "27", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "27", "type": "G"},
         {"name": "Adolfo Zumelzú", "min": "38", "type": "G"},
         {"name": "Adolfo Zumelzú", "min": "58", "type": "G"}
       ],
@@ -7094,14 +7094,14 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Rodolfo Orlandini"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Manuel Seoane"},
         {"name": "Oscar Tarrio"}
@@ -7130,9 +7130,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Ferreira", "min": "7", "type": "G"},
-        {"name": "Manuel Ferreira", "min": "24", "type": "G"},
-        {"name": "Manuel Ferreira", "min": "48", "type": "G"},
+        {"name": "Manuel Ferreyra", "min": "7", "type": "G"},
+        {"name": "Manuel Ferreyra", "min": "24", "type": "G"},
+        {"name": "Manuel Ferreyra", "min": "48", "type": "G"},
         {"name": "Roberto Cherro", "min": "50", "type": "G"}
       ],
       [{"name": "Diogenes Dominguez", "type": "G"}]
@@ -7141,15 +7141,15 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Alberto Chividini"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Roberto Cherro"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Oscar Tarrio"}
       ],
@@ -7178,7 +7178,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Ferreira", "min": "14", "type": "G"},
+        {"name": "Manuel Ferreyra", "min": "14", "type": "G"},
         {"name": "Mario Evaristo", "min": "77", "type": "G"}
       ],
       []
@@ -7187,15 +7187,15 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Alberto Chividini"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Roberto Cherro"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Oscar Tarrio"}
       ],
@@ -7229,12 +7229,12 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Juan Evaristo"},
         {"name": "Rodolfo Orlandini"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
+        {"name": "Manuel Ferreyra"},
         {"name": "Natalio Perinetti"},
         {"name": "Francisco Varallo"},
         {"name": "Alberto Cuello"},
@@ -7259,53 +7259,54 @@
   {
     "date": "1930-07-15",
     "competition": "World Cup",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "France"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Luis Felipe Monti", "min": "81", "type": "G"}]],
+    "goals": [[], [{"name": "Luis Monti", "min": "81", "type": "G"}]],
     "cards": [[], []],
     "coaches": [{"name": "Raoul Caudron"}, {"name": "Francisco Olazar"}],
     "lineups": [
       [
         {"name": "Alexis Thépot"},
-        {"name": "Marcel Capelle"},
         {"name": "Étienne Mattler"},
-        {"name": "Augustin Chantrel"},
+        {"name": "Marcel Capelle"},
+        {"name": "Alex Villaplane"},
         {"name": "Marcel Pinel"},
-        {"name": "Alexandre Villaplane"},
-        {"name": "Edmond Delfour"},
-        {"name": "Marcel Langiller"},
-        {"name": "Lucien Laurent"},
+        {"name": "Augustin Chantrel"},
         {"name": "Ernest Liberati"},
-        {"name": "André Maschinot"}
+        {"name": "Edmond Delfour"},
+        {"name": "André Maschinot"},
+        {"name": "Lucien Laurent"},
+        {"name": "Marcel Langiller"}
       ],
       [
-        {"name": "Angel Bossio"},
-        {"name": "José Dellatorre"},
+        {"name": "Ángel Bossio"},
+        {"name": "José Della Torre"},
+        {"name": "Ramón Muttis"},
+        {"name": "Arico Suárez"},
+        {"name": "Luis Monti"},
         {"name": "Juan Evaristo"},
-        {"name": "Ramon Orlando Muttis"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Pedro Arico Suarez"},
-        {"name": "Roberto Cherro"},
-        {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
         {"name": "Natalio Perinetti"},
-        {"name": "Francisco Varallo"}
+        {"name": "Francisco Varallo"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Roberto Cherro"},
+        {"name": "Mario Evaristo"}
       ]
-    ]
+    ],
+    "source": ["Archivo sin Final"]
   },
   {
     "date": "1930-07-19",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Centenario, Montevideo"},
+    "venue": {"name": "Estadio Centenario", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [6, 3],
     "result": "W",
     "goals": [
       [
         {"name": "Guillermo Stábile", "min": "8", "type": "G"},
-        {"name": "Adolfo Zumelzú", "min": "12", "type": "G"},
+        {"name": "Adolfo Zumelzú", "min": "10", "type": "G"},
         {"name": "Guillermo Stábile", "min": "17", "type": "G"},
         {"name": "Francisco Varallo", "min": "53", "type": "G"},
         {"name": "Adolfo Zumelzú", "min": "55", "type": "G"},
@@ -7313,7 +7314,8 @@
       ],
       [
         {"name": "Manuel Rosas", "min": "42", "type": "G"},
-        {"name": "Roberto Gayón", "min": "75", "type": "G"}
+        {"name": "Manuel Rosas", "min": "68", "type": "G"},
+        {"name": "Roberto Gayón", "min": "76", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -7323,32 +7325,33 @@
     ],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
-        {"name": "Alberto Chividini"},
-        {"name": "José Dellatorre"},
-        {"name": "Rodolfo Orlandini"},
+        {"name": "Ángel Bossio"},
+        {"name": "José Della Torre"},
         {"name": "Fernando Paternoster"},
+        {"name": "Alberto Chividini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Atilio De Maria"},
-        {"name": "Carlos Desiderio Peucelle"},
-        {"name": "Carlos Spadaro"},
+        {"name": "Rodolfo Orlandini"},
+        {"name": "Carlos Peucelle"},
+        {"name": "Francisco Varallo"},
         {"name": "Guillermo Stábile"},
-        {"name": "Francisco Varallo"}
+        {"name": "Attilio Demaría"},
+        {"name": "Carlos Spadaro"}
       ],
       [
         {"name": "Oscar Bonfiglio"},
-        {"name": "Francisco Garza Gutierrez"},
-        {"name": "Rafael Garza Gutierrez"},
+        {"name": "Rafael Garza Gutiérrez"},
+        {"name": "Francisco Garza Gutiérrez"},
         {"name": "Manuel Rosas"},
-        {"name": "Raymundo Rodriguez"},
+        {"name": "Alfredo Sánchez"},
+        {"name": "Raymundo Rodríguez"},
         {"name": "Felipe Rosas"},
-        {"name": "Alfredo Sanchez"},
-        {"name": "Juan Carreno"},
+        {"name": "Hilario López"},
         {"name": "Roberto Gayón"},
-        {"name": "Hilario Lopez"},
-        {"name": "Felipe Olivares Rojas"}
+        {"name": "Juan Carreño"},
+        {"name": "Felipe Olivares"}
       ]
-    ]
+    ],
+    "sources": ["Archivo sin Final"]
   },
   {
     "date": "1930-07-22",
@@ -7369,15 +7372,15 @@
     "coaches": [{"name": "Francisco Olazar"}, {"name": "Gyorgy Orth"}],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
-        {"name": "José Dellatorre"},
+        {"name": "Ángel Bossio"},
+        {"name": "José Della Torre"},
         {"name": "Juan Evaristo"},
         {"name": "Rodolfo Orlandini"},
         {"name": "Fernando Paternoster"},
-        {"name": "Luis Felipe Monti"},
+        {"name": "Luis Monti"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Guillermo Stábile"},
         {"name": "Francisco Varallo"}
       ],
@@ -7405,11 +7408,11 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Luis Felipe Monti", "min": "20", "type": "G"},
+        {"name": "Luis Monti", "min": "20", "type": "G"},
         {"name": "Alejandro Scopelli", "min": "56", "type": "G"},
         {"name": "Guillermo Stábile", "min": "69", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "min": "80", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "min": "85", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "80", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "85", "type": "G"},
         {"name": "Guillermo Stábile", "min": "87", "type": "G"}
       ],
       [{"name": "Jimmy J Brown", "min": "89", "type": "G"}]
@@ -7419,14 +7422,14 @@
     "lineups": [
       [
         {"name": "Juan Botasso"},
-        {"name": "José Dellatorre"},
+        {"name": "José Della Torre"},
         {"name": "Juan Evaristo"},
         {"name": "Rodolfo Orlandini"},
         {"name": "Fernando Paternoster"},
-        {"name": "Luis Felipe Monti"},
+        {"name": "Luis Monti"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
         {"name": "Guillermo Stábile"}
       ],
@@ -7460,7 +7463,7 @@
         {"name": "Hector Castro", "min": "89", "type": "G"}
       ],
       [
-        {"name": "Carlos Desiderio Peucelle", "min": "20", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "20", "type": "G"},
         {"name": "Guillermo Stábile", "min": "37", "type": "G"}
       ]
     ],
@@ -7482,14 +7485,14 @@
       ],
       [
         {"name": "Juan Botasso"},
-        {"name": "José Dellatorre"},
+        {"name": "José Della Torre"},
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
-        {"name": "Luis Felipe Monti"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Luis Monti"},
+        {"name": "Arico Suárez"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Manuel Ferreyra"},
+        {"name": "Carlos Peucelle"},
         {"name": "Guillermo Stábile"},
         {"name": "Francisco Varallo"}
       ]
@@ -7550,14 +7553,14 @@
     "result": "D",
     "goals": [
       [],
-      [{"name": "Carlos Desiderio Peucelle", "min": "38", "type": "G"}]
+      [{"name": "Carlos Peucelle", "min": "38", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [],
       [
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Mario Artel"},
         {"name": "Carlos Bertetti"},
         {"name": "Emilio Castro"},
@@ -7579,7 +7582,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Luis Felipe Monti", "min": "80", "type": "G"}],
+      [{"name": "Luis Monti", "min": "80", "type": "G"}],
       [{"name": "Aurelo González", "type": "G"}]
     ],
     "cards": [[], []],
@@ -7588,7 +7591,7 @@
       [
         {"name": "Humberto Recanatini"},
         {"name": "Arcadio Julio Lopez"},
-        {"name": "Luis Felipe Monti"},
+        {"name": "Luis Monti"},
         {"name": "Alfredo Ciriaco de Vicenzi"},
         {"name": "Attilio Demaría"},
         {"name": "Carlos Spadaro"},
@@ -7635,7 +7638,7 @@
       [
         {"name": "Humberto Recanatini"},
         {"name": "Arcadio Julio Lopez"},
-        {"name": "Atilio De Maria"},
+        {"name": "Attilio Demaría"},
         {"name": "Alfredo Ciriaco de Vicenzi"},
         {"name": "Alfredo D Caricaberry"},
         {"name": "Emilio Castro"},
@@ -7677,10 +7680,10 @@
     "lineups": [
       [],
       [
-        {"name": "Angel Bossio", "out": ""},
+        {"name": "Ángel Bossio", "out": ""},
         {"name": "F Grimoldi", "in": ""},
         {"name": "Humberto Recanatini"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Juan Arrilaga"},
         {"name": "Mario Artel"},
         {"name": "Carlos Bertetti", "out": ""},
@@ -7704,7 +7707,7 @@
     "goals": [
       [],
       [
-        {"name": "Carlos Desiderio Peucelle", "type": "G"},
+        {"name": "Carlos Peucelle", "type": "G"},
         {"name": "Emilio Castro", "type": "G"},
         {"name": "Emilio Castro", "type": "G"},
         {"name": "Juan Felix Maglio", "type": "G"},
@@ -7716,10 +7719,10 @@
     "lineups": [
       [],
       [
-        {"name": "Angel Bossio", "out": ""},
+        {"name": "Ángel Bossio", "out": ""},
         {"name": "F Grimoldi", "in": ""},
         {"name": "Humberto Recanatini"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Mario Artel"},
         {"name": "Emilio Castro"},
         {"name": "Rodolfo De Jonge"},
@@ -7745,10 +7748,10 @@
     "lineups": [
       [],
       [
-        {"name": "Angel Bossio", "out": ""},
+        {"name": "Ángel Bossio", "out": ""},
         {"name": "E Funes", "in": ""},
         {"name": "Humberto Recanatini"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Mario Artel"},
         {"name": "Emilio Castro"},
         {"name": "Rodolfo De Jonge"},
@@ -7970,7 +7973,7 @@
         {"name": "Erebo Zunino"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Antonio Sastre"},
         {"name": "Francisco Varallo", "out": "83"},
         {"name": "Vicente Zito", "in": "83"},
@@ -8071,11 +8074,11 @@
         {"name": "Agenor Muniz"}
       ],
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Antonio Sastre"},
         {"name": "Delfin Benitez Caceres"},
         {"name": "Tomas Beristain", "out": "46"},
-        {"name": "Carlos Desiderio Peucelle", "in": "46"},
+        {"name": "Carlos Peucelle", "in": "46"},
         {"name": "Alberto Cuello"},
         {"name": "José Maria González"},
         {"name": "José Maria Minella"},
@@ -8095,7 +8098,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Carlos Desiderio Peucelle", "min": "68", "type": "G"},
+        {"name": "Carlos Peucelle", "min": "68", "type": "G"},
         {"name": "Antonio Sastre", "type": "G"}
       ],
       []
@@ -8106,7 +8109,7 @@
       [
         {"name": "Antonio Sastre"},
         {"name": "Francisco Varallo", "out": "46"},
-        {"name": "Carlos Desiderio Peucelle", "in": "46"},
+        {"name": "Carlos Peucelle", "in": "46"},
         {"name": "Arturo Arrieta"},
         {"name": "Fernando Bello"},
         {"name": "Alberto Cuello"},
@@ -8291,7 +8294,7 @@
     "result": "D",
     "goals": [
       [{"name": "Juan Emilio Piriz", "type": "G"}],
-      [{"name": "Carlos Desiderio Peucelle", "type": "G"}]
+      [{"name": "Carlos Peucelle", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
@@ -8312,8 +8315,8 @@
         {"name": "Alberto Taboada"}
       ],
       [
-        {"name": "Angel Bossio"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Ángel Bossio"},
+        {"name": "Carlos Peucelle"},
         {"name": "Francisco Varallo"},
         {"name": "Manuel Danil"},
         {"name": "Manuel De Saa"},
@@ -8346,7 +8349,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Angel Bossio"},
+        {"name": "Ángel Bossio"},
         {"name": "Francisco Varallo", "out": ""},
         {"name": "Rivarola", "in": ""},
         {"name": "Manuel Danil"},
@@ -8488,7 +8491,7 @@
     "lineups": [
       [
         {"name": "Antonio Sastre"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli", "out": "75"},
         {"name": "Roberto Cherro", "in": "75"},
         {"name": "Francisco Varallo"},
@@ -8539,7 +8542,7 @@
     "lineups": [
       [
         {"name": "Antonio Sastre"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
         {"name": "Francisco Varallo"},
         {"name": "Juan Alberto Estrada"},
@@ -8582,7 +8585,7 @@
         {"name": "Hector Blotto", "in": "84"},
         {"name": "Roberto Cherro", "out": "61"},
         {"name": "Vicente De La Mata", "in": "61"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Francisco Varallo"},
         {"name": "Juan Alberto Estrada"},
         {"name": "Luis Manuel Fazio"},
@@ -8633,7 +8636,7 @@
     "lineups": [
       [
         {"name": "Antonio Sastre"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
         {"name": "Francisco Varallo"},
         {"name": "Vicente De La Mata", "out": "46"},
@@ -8728,7 +8731,7 @@
       [
         {"name": "Antonio Sastre"},
         {"name": "Roberto Cherro", "out": "46"},
-        {"name": "Carlos Desiderio Peucelle", "in": "46"},
+        {"name": "Carlos Peucelle", "in": "46"},
         {"name": "Enrique Guaita"},
         {"name": "Francisco Varallo", "out": "84"},
         {"name": "Vicente De La Mata", "in": "84"},
@@ -8789,7 +8792,7 @@
       ],
       [
         {"name": "Antonio Sastre"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Manuel Fidel"},
         {"name": "Lorenzo Gilli"},
         {"name": "Enrique Gracia"},
@@ -8826,7 +8829,7 @@
       [
         {"name": "Antonio Sastre"},
         {"name": "Herminio Masantonio"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Manuel Fidel"},
         {"name": "Enrique Garcia"},
         {"name": "Lorenzo Gilli"},
@@ -8977,7 +8980,7 @@
         {"name": "Arcadio Julio Lopez"},
         {"name": "Antonio Sastre"},
         {"name": "Herminio Masantonio"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Sabino Coletta"},
         {"name": "Enrique Garcia"},
         {"name": "Oscar E Montanes"},
@@ -9027,7 +9030,7 @@
         {"name": "Arcadio Julio Lopez"},
         {"name": "Antonio Sastre"},
         {"name": "Herminio Masantonio"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Sabino Coletta"},
         {"name": "Enrique Garcia"},
         {"name": "Oscar E Montanes"},
@@ -9170,9 +9173,9 @@
         {"name": "Manuel Araguez"},
         {"name": "Angel Perucca"},
         {"name": "Antonio Sastre"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Luis Arrieta", "out": ""},
         {"name": "F Cassan", "in": ""},
         {"name": "Enrique Garcia"}
@@ -9312,10 +9315,10 @@
         {"name": "Manuel Araguez"},
         {"name": "Angel Perucca"},
         {"name": "Antonio Sastre"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo", "out": ""},
         {"name": "Manuel Fidel", "in": ""},
-        {"name": "Carlos Desiderio Peucelle", "out": ""},
+        {"name": "Carlos Peucelle", "out": ""},
         {"name": "T Zorilla", "in": ""},
         {"name": "F Cassan"},
         {"name": "Enrique Garcia"}
@@ -9380,9 +9383,9 @@
       [
         {"name": "Herminio Masantonio", "type": "G"},
         {"name": "Herminio Masantonio", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "type": "G"},
+        {"name": "Carlos Peucelle", "type": "G"},
+        {"name": "Carlos Peucelle", "type": "G"},
+        {"name": "Carlos Peucelle", "type": "G"},
         {"name": "Emilio Baldonedo", "type": "G"}
       ],
       [{"name": "Jair", "type": "G"}]
@@ -9398,10 +9401,10 @@
         {"name": "Manuel Araguez"},
         {"name": "Angel Perucca"},
         {"name": "Antonio Sastre"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo"},
         {"name": "Herminio Masantonio"},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Enrique Garcia"}
       ],
       [
@@ -9500,11 +9503,11 @@
         {"name": "Victor Miguel Valussi"},
         {"name": "Manuel Araguez"},
         {"name": "Angel Perucca"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo"},
         {"name": "Herminio Masantonio", "out": ""},
         {"name": "F Cassan", "in": ""},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Enrique Garcia"},
         {"name": "José Manuel Moreno"}
       ],
@@ -9535,7 +9538,7 @@
       [
         {"name": "F Cassan", "type": "G"},
         {"name": "Herminio Masantonio", "type": "G"},
-        {"name": "Carlos Desiderio Peucelle", "type": "G"},
+        {"name": "Carlos Peucelle", "type": "G"},
         {"name": "Emilio Baldonedo", "type": "G"},
         {"name": "Emilio Baldonedo", "type": "G"}
       ],
@@ -9550,11 +9553,11 @@
         {"name": "Victor Miguel Valussi"},
         {"name": "Manuel Araguez", "out": ""},
         {"name": "Roberto Sbarra", "in": ""},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo"},
         {"name": "Herminio Masantonio", "out": ""},
         {"name": "F Cassan", "in": ""},
-        {"name": "Carlos Desiderio Peucelle"},
+        {"name": "Carlos Peucelle"},
         {"name": "Enrique Gracia"},
         {"name": "H Leguizamon"},
         {"name": "José Manuel Moreno"}
@@ -9612,7 +9615,7 @@
         {"name": "Victor Miguel Valussi", "out": ""},
         {"name": "Jorge Alberti", "in": ""},
         {"name": "Antonio Sastre"},
-        {"name": "Pedro Arico Suarez"},
+        {"name": "Arico Suárez"},
         {"name": "Emilio Baldonedo"},
         {"name": "Herminio Masantonio"},
         {"name": "Gregorio Juan Esperon"},
