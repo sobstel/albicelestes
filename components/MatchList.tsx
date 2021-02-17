@@ -60,7 +60,7 @@ const Score = ({ match }: { match: MatchItem }) => {
     );
   }
 
-  return score;
+  return <>{score}</>;
 };
 
 type Props = {
