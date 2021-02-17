@@ -35,8 +35,10 @@ export type Match = {
   cards: [Card[], Card[]];
   coaches: [MatchCoach, MatchCoach];
   lineups: [Appearance[], Appearance[]];
-  sources?: string[];
   penaltyShootout?: { name: string; score: PenScore }[];
+  notes?: string[];
+  sources?: string[];
+  // DEPREACTED: move to individual json files
   info?: {
     youtube?: { id: string }[];
     images?: { url: string; source?: { name: string; url?: string } }[];
