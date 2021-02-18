@@ -5309,7 +5309,7 @@
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Mario Fortunato"},
         {"name": "J Gurrutchague"},
@@ -6578,7 +6578,7 @@
         {"name": "Rodolfo Orlandini"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Roberto Bacchi"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Pedro Omar"},
@@ -6652,7 +6652,7 @@
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
         {"name": "Luis Monti"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Octavio Diaz"},
@@ -6703,7 +6703,7 @@
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Luis Monti"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Octavio Diaz"},
@@ -6738,9 +6738,9 @@
       [
         {"name": "Juan Felix Maglio", "min": "22", "type": "G"},
         {"name": "Juan Felix Maglio", "min": "25", "type": "G"},
-        {"name": "Manuel Ferreyra", "min": "30", "type": "G"},
+        {"name": "Manuel Ferreira", "min": "30", "type": "G"},
         {"name": "Alfredo D Carricaberry", "min": "38", "type": "G"},
-        {"name": "Manuel Ferreyra", "type": "G"}
+        {"name": "Manuel Ferreira", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -6765,7 +6765,7 @@
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Luis Monti"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Ludovico Bidoglio"},
         {"name": "Alfredo D Carricaberry"},
         {"name": "Juan Felix Maglio"},
@@ -6830,7 +6830,7 @@
         {"name": "Juan Evaristo"},
         {"name": "Humberto Recanatini"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Juan Arrilaga"},
         {"name": "Pablo Bartolucci"},
         {"name": "Felipe Cherro"},
@@ -6924,7 +6924,7 @@
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
         {"name": "Marino Evaristo"},
@@ -7025,7 +7025,7 @@
         {"name": "Juan Evaristo"},
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Alejandro Scopelli"},
         {"name": "Jorge Alonso"},
         {"name": "Felipe Cherro"},
@@ -7053,7 +7053,7 @@
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Luis Monti"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Alejandro Scopelli"},
         {"name": "Carlos Spadaro"},
         {"name": "Felipe Cherro"},
@@ -7100,7 +7100,7 @@
         {"name": "Fernando Paternoster"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Manuel Seoane"},
@@ -7130,9 +7130,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Ferreyra", "min": "7", "type": "G"},
-        {"name": "Manuel Ferreyra", "min": "24", "type": "G"},
-        {"name": "Manuel Ferreyra", "min": "48", "type": "G"},
+        {"name": "Manuel Ferreira", "min": "7", "type": "G"},
+        {"name": "Manuel Ferreira", "min": "24", "type": "G"},
+        {"name": "Manuel Ferreira", "min": "48", "type": "G"},
         {"name": "Roberto Cherro", "min": "50", "type": "G"}
       ],
       [{"name": "Diogenes Dominguez", "type": "G"}]
@@ -7148,7 +7148,7 @@
         {"name": "Adolfo Zumelzú"},
         {"name": "Roberto Cherro"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Oscar Tarrio"}
@@ -7178,7 +7178,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Ferreyra", "min": "14", "type": "G"},
+        {"name": "Manuel Ferreira", "min": "14", "type": "G"},
         {"name": "Mario Evaristo", "min": "77", "type": "G"}
       ],
       []
@@ -7194,7 +7194,7 @@
         {"name": "Adolfo Zumelzú"},
         {"name": "Roberto Cherro"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Carlos Peucelle"},
         {"name": "Antonio Rivarola"},
         {"name": "Oscar Tarrio"}
@@ -7234,7 +7234,7 @@
         {"name": "Rodolfo Orlandini"},
         {"name": "Adolfo Zumelzú"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Natalio Perinetti"},
         {"name": "Francisco Varallo"},
         {"name": "Alberto Cuello"},
@@ -7289,12 +7289,12 @@
         {"name": "Juan Evaristo"},
         {"name": "Natalio Perinetti"},
         {"name": "Francisco Varallo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Roberto Cherro"},
         {"name": "Mario Evaristo"}
       ]
     ],
-    "source": ["Archivo sin Final"]
+    "source": ["Archivo sin Final", "El Gráfico"]
   },
   {
     "date": "1930-07-19",
@@ -7351,58 +7351,59 @@
         {"name": "Felipe Olivares"}
       ]
     ],
-    "sources": ["Archivo sin Final"]
+    "sources": ["Archivo sin Final", "El Gráfico"]
   },
   {
     "date": "1930-07-22",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Centenario, Montevideo"},
+    "venue": {"name": "Estadio Centenario", "city": "Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
       [
         {"name": "Guillermo Stábile", "min": "12", "type": "G"},
-        {"name": "Guillermo Stábile", "min": "13", "type": "G"},
+        {"name": "Guillermo Stábile", "min": "14", "type": "G"},
         {"name": "Mario Evaristo", "min": "51", "type": "G"}
       ],
-      [{"name": "Guillermo Arellano", "min": "15", "type": "G"}]
+      [{"name": "Guillermo Subiabre", "min": "16", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [{"name": "Francisco Olazar"}, {"name": "Gyorgy Orth"}],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
+        {"name": "Fernando Paternoster"},
         {"name": "José Della Torre"},
         {"name": "Juan Evaristo"},
-        {"name": "Rodolfo Orlandini"},
-        {"name": "Fernando Paternoster"},
         {"name": "Luis Monti"},
-        {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Rodolfo Orlandini"},
         {"name": "Carlos Peucelle"},
+        {"name": "Francisco Varallo"},
         {"name": "Guillermo Stábile"},
-        {"name": "Francisco Varallo"}
+        {"name": "Manuel Ferreira"},
+        {"name": "Mario Evaristo"}
       ],
       [
-        {"name": "Roberto Cortes"},
+        {"name": "Roberto Cortés"},
         {"name": "Ernesto Chaparro"},
         {"name": "Victor Morales"},
-        {"name": "Guillermo Saavedra"},
         {"name": "Arturo Torres"},
+        {"name": "Guillermo Saavedra"},
         {"name": "Casemiro Torres"},
-        {"name": "Juan Aguilera"},
         {"name": "Guillermo Arellano"},
         {"name": "Guillermo Subiabre"},
+        {"name": "Eberardo Villalobos"},
         {"name": "Carlos Vidal"},
-        {"name": "Eberardo Villalobos"}
+        {"name": "Juan Aguilera"}
       ]
-    ]
+    ],
+    "sources": ["Archivo sin Final", "El Gráfico"]
   },
   {
     "date": "1930-07-26",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Centenario, Montevideo"},
+    "venue": {"name": "Estadio Centenario", "city": "Montevideo"},
     "teams": [{"name": "Argentina"}, {"name": "USA"}],
     "score": [6, 1],
     "result": "W",
@@ -7415,52 +7416,53 @@
         {"name": "Carlos Peucelle", "min": "85", "type": "G"},
         {"name": "Guillermo Stábile", "min": "87", "type": "G"}
       ],
-      [{"name": "Jimmy J Brown", "min": "89", "type": "G"}]
+      [{"name": "James Brown", "min": "89", "type": "G"}]
     ],
     "cards": [[], []],
-    "coaches": [{"name": "Francisco Olazar"}, {"name": "Bob Miller"}],
+    "coaches": [{"name": "Francisco Olazar"}, {"name": "Robert Miller"}],
     "lineups": [
       [
         {"name": "Juan Botasso"},
         {"name": "José Della Torre"},
-        {"name": "Juan Evaristo"},
-        {"name": "Rodolfo Orlandini"},
         {"name": "Fernando Paternoster"},
+        {"name": "Juan Evaristo"},
         {"name": "Luis Monti"},
-        {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Rodolfo Orlandini"},
         {"name": "Carlos Peucelle"},
         {"name": "Alejandro Scopelli"},
-        {"name": "Guillermo Stábile"}
+        {"name": "Guillermo Stábile"},
+        {"name": "Manuel Ferreira"},
+        {"name": "Mario Evaristo"}
       ],
       [
-        {"name": "Jimmy Douglas"},
-        {"name": "Jimmy Gallagher"},
+        {"name": "James Douglas"},
         {"name": "George Moorhouse"},
-        {"name": "Raphael Tracey"},
         {"name": "Alexander Wood"},
-        {"name": "Andy Auld"},
-        {"name": "Jimmy J Brown"},
+        {"name": "James Gallagher"},
+        {"name": "Andrew Auld"},
+        {"name": "Raphael Tracey"},
+        {"name": "James Brown"},
+        {"name": "William Gonsalves"},
+        {"name": "Bertran Patenaude"},
         {"name": "Thomas Florie"},
-        {"name": "Billy Gonsalves"},
-        {"name": "Bart McGhee"},
-        {"name": "Bert Patenaude"}
+        {"name": "Bart McGhee"}
       ]
-    ]
+    ],
+    "sources": ["Archivo sin Final", "El Gráfico", "11v11", "Soccerway"]
   },
   {
     "date": "1930-07-30",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Centenario, Montevideo"},
+    "venue": {"name": "Estadio Centenario", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [4, 2],
     "result": "L",
     "goals": [
       [
         {"name": "Pablo Dorado", "min": "12", "type": "G"},
-        {"name": "Pedro Cea", "min": "57", "type": "G"},
+        {"name": "Pedro Cea", "min": "58", "type": "G"},
         {"name": "Santos Iriarte", "min": "68", "type": "G"},
-        {"name": "Hector Castro", "min": "89", "type": "G"}
+        {"name": "Héctor Castro", "min": "89", "type": "G"}
       ],
       [
         {"name": "Carlos Peucelle", "min": "20", "type": "G"},
@@ -7472,16 +7474,16 @@
     "lineups": [
       [
         {"name": "Enrique Ballestrero"},
-        {"name": "Ernesto Mascheroni"},
         {"name": "José Nasazzi"},
+        {"name": "Ernesto Mascheroni"},
         {"name": "José Leandro Andrade"},
-        {"name": "Lorenzo Fernandez"},
+        {"name": "Lorenzo Fernández"},
         {"name": "Álvaro Gestido"},
-        {"name": "Hector Castro"},
-        {"name": "Pedro Cea"},
         {"name": "Pablo Dorado"},
-        {"name": "Santos Iriarte"},
-        {"name": "Héctor Pedro Scarone"}
+        {"name": "Héctor Scarone"},
+        {"name": "Héctor Castro"},
+        {"name": "Pedro Cea"},
+        {"name": "Santos Iriarte"}
       ],
       [
         {"name": "Juan Botasso"},
@@ -7491,12 +7493,13 @@
         {"name": "Luis Monti"},
         {"name": "Arico Suárez"},
         {"name": "Mario Evaristo"},
-        {"name": "Manuel Ferreyra"},
+        {"name": "Manuel Ferreira"},
         {"name": "Carlos Peucelle"},
         {"name": "Guillermo Stábile"},
         {"name": "Francisco Varallo"}
       ]
-    ]
+    ],
+    "sources": ["Archivo sin Final", "El Gráfico", "11v11", "Soccerway"]
   },
   {
     "date": "1930-08-03",
