@@ -17,7 +17,7 @@ export default function PageFooter() {
             </LinkAnchor>
           </li>
           <li className="ml-4">
-            <LinkAnchor href="https://twitter.com/albicelestescom">
+            <LinkAnchor href="https://twitter.com/albisopel">
               twitter
             </LinkAnchor>
           </li>
