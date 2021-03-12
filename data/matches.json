@@ -7554,10 +7554,7 @@
     "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
-    "goals": [
-      [],
-      [{"name": "Carlos Peucelle", "min": "38", "type": "G"}]
-    ],
+    "goals": [[], [{"name": "Carlos Peucelle", "min": "38", "type": "G"}]],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -12325,9 +12322,7 @@
     "info": {
       "youtube": [{"id": "Xw2R3gscKmM"}],
       "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1588944180/albicelestes/1951-05-09-england/e9554943b2bb75a3390c1200585681e9_k10gwd.jpg"
-        }
+        {"url": "/m/1951/eng-arg-e9554943b2bb75a3390c1200585681e9_k10gwd.jpg"}
       ],
       "trivia": ["Attendance: 99000"]
     }
@@ -12563,11 +12558,7 @@
       ]
     ],
     "info": {
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1589370247/albicelestes/1953-05-14-england/Goal_grillo_england_1953_square_poaple.jpg"
-        }
-      ],
+      "images": [{"url": "/m/1953/goal_grillo_england_1953_square_poaple.jpg"}],
       "trivia": [
         "Argentina team was formed 2 weeks before the game from the five-man Independiete forward line, the Boca Juniors defence and Racing's midfield.",
         "First Grillo goal is called \"impossible goal\" because of the angle it was scored from.",
@@ -22147,18 +22138,10 @@
     ],
     "info": {
       "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582294266/albicelestes/1974-06-15-poland/polska-argentyna-1974-postcard-1_jeg8py.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582294267/albicelestes/1974-06-15-poland/polska-argentyna-1974-postcard-2_mzrtaw.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582294267/albicelestes/1974-06-15-poland/polska-argentyna-1974-postcard-3_rjh7bx.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582294267/albicelestes/1974-06-15-poland/polska-argentyna-1974-postcard-4_usdm6t.jpg"
-        }
+        {"url": "/m/1974/polska-argentyna-1974-postcard-1_jeg8py.jpg"},
+        {"url": "/m/1974/polska-argentyna-1974-postcard-2_mzrtaw.jpg"},
+        {"url": "/m/1974/polska-argentyna-1974-postcard-3_rjh7bx.jpg"},
+        {"url": "/m/1974/polska-argentyna-1974-postcard-4_usdm6t.jpg"}
       ]
     }
   },
@@ -23736,7 +23719,8 @@
         {"name": "Stanislaw Terlecki", "out": "60"},
         {"name": "Wlodzimierz Mazur", "in": "60"}
       ]
-    ]
+    ],
+    "info": {"images": [{"url": "/m/1977/polska-1977-lato.jpg"}]}
   },
   {
     "date": "1977-06-05",
@@ -28480,14 +28464,10 @@
       ]
     ],
     "info": {
-      "youtube": [{"id": "tIt_uUZdLCA"}],
+      "youtube": [{"id": "1wVho3I0NtU"}],
       "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298343/albicelestes/1986-06-22-england/Maradona_gol_a_inglaterra_buynwy.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298344/albicelestes/1986-06-22-england/Maradona_vs_england_sjuc9w.jpg"
-        }
+        {"url": "/m/1986/Maradona_gol_a_inglaterra_buynwy.jpg"},
+        {"url": "/m/1986//Maradona_vs_england_sjuc9w.jpg"}
       ],
       "links": [
         {
@@ -28605,14 +28585,14 @@
       "youtube": [{"id": "f2_VbbIq6Hw"}],
       "images": [
         {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298573/albicelestes/1986-06-29-germany/13528311_647442118755532_5074507052155761854_o_bwqusz.jpg",
+          "url": "/m/1986/13528311_647442118755532_5074507052155761854_o_bwqusz.jpg",
           "source": {
             "name": "Sobredosis De Futbol",
             "url": "https://www.facebook.com/SobredosisDeFutbol/"
           }
         },
         {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298573/albicelestes/1986-06-29-germany/13575953_647442258755518_1170025018331836654_o_r7kz6h.jpg",
+          "url": "/m/1986/13575953_647442258755518_1170025018331836654_o_r7kz6h.jpg",
           "source": {
             "name": "Sobredosis De Futbol",
             "url": "https://www.facebook.com/SobredosisDeFutbol/"
@@ -48550,12 +48530,8 @@
     ],
     "info": {
       "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298846/albicelestes/2016-03-29-bolivia/1pn6jwsfl5uy21a8xmnpjyyxnx_xqmak6.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298847/albicelestes/2016-03-29-bolivia/7jh2afh6ts1x1fsrn94wt5o1d_ojrdya.jpg"
-        }
+        {"url": "/m/2016/bolivia1.jpg"},
+        {"url": "/m/2016/bolivia2.jpg"}
       ]
     }
   },
@@ -48758,13 +48734,7 @@
         {"name": "Luis Tejada", "in": "75"}
       ]
     ],
-    "info": {
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582298932/albicelestes/2016-06-10-panama/Cko72VfUYAAa5qN_bcivep.jpg"
-        }
-      ]
-    }
+    "info": {"images": [{"url": "/m/2016/ca2016-panama-messi.jpg"}]}
   },
   {
     "date": "2016-06-14",
@@ -48891,16 +48861,7 @@
         {"name": "Salomón Rondón"}
       ]
     ],
-    "info": {
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582299030/albicelestes/2016-06-18-venezuela/higuainvenezuela_vzua6e.jpg"
-        },
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582299030/albicelestes/2016-06-18-venezuela/ClUxEiTWAAEbPBU_qhdmvc.jpg"
-        }
-      ]
-    }
+    "info": {"images": [{"url": "/m/2016/ca2016-ven-messi-higuain.jpg"}]}
   },
   {
     "date": "2016-06-21",
@@ -48955,11 +48916,8 @@
       ]
     ],
     "info": {
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/primaveracero/image/upload/v1582299101/albicelestes/2016-06-21-usa/ClhwHd7UkAAw9oc_gox9qz.jpg"
-        }
-      ],
+      "youtube": [{"id": "YNO9TdGHw5Q"}],
+      "images": [{"url": "/m/2016/ca2016-usa-lavezzi.jpg"}],
       "trivia": [
         "Both Lavezzi and Fernández substituted because of injury.",
         "Messi and Banega made 40 passes to each other (18 Messi to Banega; 22 Banega to Messi). (by OptaJavier)",

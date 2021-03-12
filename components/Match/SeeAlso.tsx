@@ -3,7 +3,7 @@ import MatchList from "components/MatchList";
 import { Block, Header } from "components/layout";
 import { LinkAnchor } from "components/layout";
 import { Match, MatchItem } from "types";
-import { getMatchOtherTeam, getMatchYear } from "helpers";
+import { getMatchOtherTeam, getMatchYear, getTeamSlug } from "helpers";
 
 type Props = {
   match: Pick<Match, "date" | "teams">;
@@ -26,7 +26,7 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
         </p>
         <p>
           <LinkAnchor
-            href={`/teams/${otherTeam.slug}`}
+            href={`/teams/${getTeamSlug(otherTeam)}`}
             title={`Argentina v ${otherTeam.name}`}
           >
             All matches against {otherTeam.name}

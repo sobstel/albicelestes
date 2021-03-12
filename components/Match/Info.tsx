@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Block, Header } from "components/layout";
 import { Match } from "types";
 import InfoLinks from "components/InfoLinks";
@@ -27,27 +28,27 @@ export default function Info({ match }: Props) {
                   allowFullScreen
                 />
               </div>
-              <style jsx>{`
-                ._video-container {
-                  overflow: hidden;
-                  position: relative;
-                  width: 100%;
-                }
-                ._video-container::after {
-                  padding-top: 56.25%;
-                  display: block;
-                  content: "";
-                }
-                ._video-container iframe {
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                }
-              `}</style>
             </div>
           ))}
+          <style jsx>{`
+            ._video-container {
+              overflow: hidden;
+              position: relative;
+              width: 100%;
+            }
+            ._video-container::after {
+              padding-top: 56.25%;
+              display: block;
+              content: "";
+            }
+            ._video-container iframe {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+          `}</style>
         </Block>
       )}
       {images && (
@@ -56,12 +57,7 @@ export default function Info({ match }: Props) {
           {images.map((image) => {
             return (
               <p key={image.url} className="mb-2">
-                <a
-                  href={image.url}
-                  className="text-link hover:text-link-hover"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={image.url} target="_blank" rel="noopener noreferrer">
                   <img src={image.url} className="w-full" />
                 </a>
               </p>
