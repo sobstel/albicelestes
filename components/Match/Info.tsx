@@ -26,6 +26,7 @@ export default function Info({ match }: Props) {
                   frameBorder="0"
                   allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -58,7 +59,7 @@ export default function Info({ match }: Props) {
             return (
               <p key={image.url} className="mb-2">
                 <a href={image.url} target="_blank" rel="noopener noreferrer">
-                  <img src={image.url} className="w-full" />
+                  <img src={image.url} loading="lazy" className="w-full" />
                 </a>
               </p>
             );
