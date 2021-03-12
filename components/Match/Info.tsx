@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Block, Header } from "components/layout";
 import { Match } from "types";
 import InfoLinks from "components/InfoLinks";
