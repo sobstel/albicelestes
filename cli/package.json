@@ -1,6 +1,9 @@
 {
   "name": "cli",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14.6.0"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
