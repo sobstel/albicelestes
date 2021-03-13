@@ -38,7 +38,7 @@ type Props = {
   };
 };
 
-export default function PageContainer(props: Props) {
+export default function AboutPage(props: Props) {
   const { stat, bibliography } = props;
   return (
     <Page title={["About"]}>
