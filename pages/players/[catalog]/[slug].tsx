@@ -1,7 +1,7 @@
 import * as R from "remeda";
 import pluralize from "pluralize";
+import stringSimilarity from "string-similarity";
 import React from "react";
-import Error from "next/error";
 import { useRouter } from "next/router";
 import { fetchMatches, fetchPlayerInfo } from "data";
 import {
@@ -18,22 +18,47 @@ import {
   findNearestPlayerSlug,
   findPlayerName,
 } from "helpers";
-import { MatchItem, PlayerInfo, PlayerStat } from "types";
+import { MatchItem, PlayerInfo, PlayerItem, PlayerStat } from "types";
 import { Page, Block, Header } from "components/layout";
 import MatchList from "components/MatchList";
 import InfoLinks from "components/InfoLinks";
+import PlayerList from "components/PlayerList";
 
 type Context = { params: { catalog: string; slug: string } };
 
-export async function getStaticProps(context: Context) {
+export type Props = {
+  slug: string;
+  name: string;
+  stat: PlayerStat;
+  matches: MatchItem[];
+  info: PlayerInfo;
+};
+
+export type ErrorProps = { errorCode: number; players: PlayerItem[] };
+
+export async function getStaticProps(
+  context: Context
+): Promise<{ props: Props | ErrorProps }> {
   const { slug: rawSlug } = context.params;
 
   const matches = fetchMatches();
   const slug = findNearestPlayerSlug(matches, rawSlug);
 
   if (!slug) {
+    const suggestedPlayers = R.pipe(
+      matches,
+      collectPlayers,
+      R.sortBy((player) => {
+        return -stringSimilarity.compareTwoStrings(
+          rawSlug,
+          getPlayerSlug(player.name)
+        );
+      }),
+      R.take(10)
+    );
+
     return {
-      props: { errorCode: 404 },
+      props: { errorCode: 404, players: suggestedPlayers },
     };
   }
 
@@ -58,7 +83,6 @@ export async function getStaticProps(context: Context) {
       matches: playerMatches.map(getMatchItem),
       stat,
       info,
-      errorCode: null,
     },
   };
 }
@@ -78,14 +102,6 @@ export async function getStaticPaths() {
 
   return { paths, fallback: true };
 }
-
-export type Props = {
-  slug: string;
-  name: string;
-  stat: PlayerStat;
-  matches: MatchItem[];
-  info: PlayerInfo;
-};
 
 function statPhrase({ mp, si, so, g, yc, rc }: PlayerStat) {
   return R.compact([
@@ -116,26 +132,31 @@ function generateDescription({
   ].join(". ");
 }
 
-export default function PlayerPage({
-  name,
-  stat,
-  matches,
-  info,
-  errorCode,
-}: Props & { errorCode: number | null }) {
-  if (errorCode) {
-    return <Error statusCode={errorCode} />;
+export default function PlayerPage(props: Props | ErrorProps) {
+  if ("errorCode" in props) {
+    return (
+      <Page title="Player not found">
+        <Header text="Suggested players" />
+        <PlayerList players={props.players} />
+      </Page>
+    );
   }
+
+  const { name, stat, matches, info } = props;
 
   const router = useRouter();
   if (router.isFallback) {
     // FIXME: have some loading component (or skeleton)
-    return <div>Loading...</div>;
+    return (
+      <Page title={"Loading"}>
+        <div>Loading...</div>
+      </Page>
+    );
   }
 
   return (
     <Page
-      title={[name]}
+      title={name}
       description={generateDescription({ name, stat, matches })}
     >
       <Header text={name} top />
