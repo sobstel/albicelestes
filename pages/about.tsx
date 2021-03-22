@@ -61,7 +61,11 @@ export default function AboutPage(props: Props) {
           const item = bibliography[key];
           return (
             <p key={key}>
-              <LinkAnchor href={item.url}>{item.name}</LinkAnchor>
+              {item.url ? (
+                <LinkAnchor href={item.url}>{item.name}</LinkAnchor>
+              ) : (
+                <>{item.name}</>
+              )}
             </p>
           );
         })}

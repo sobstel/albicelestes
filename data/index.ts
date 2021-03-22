@@ -20,7 +20,6 @@ export const fetchTeamInflections = R.once(
   (): Inflections => require("./inflections/teams.json")
 );
 
-
 export function fetchPlayerInfo(name: string, id: string): PlayerInfo {
   try {
     return require(`data/players/${getPlayerCatalog(name)}/${getPlayerSlug(
