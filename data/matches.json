@@ -9681,7 +9681,7 @@
   {
     "date": "1941-01-05",
     "competition": "Copa Presidente de Argentina",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -9730,7 +9730,7 @@
     "slug": "chile-argentina-2",
     "date": "1941-01-09",
     "competition": "Copa Presidente de Argentina",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [2, 5],
     "result": "W",
@@ -9927,7 +9927,7 @@
   {
     "date": "1941-02-12",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [2, 1],
     "result": "W",
@@ -9975,7 +9975,7 @@
   {
     "date": "1941-02-16",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [6, 1],
     "result": "W",
@@ -10027,7 +10027,7 @@
   {
     "date": "1941-02-23",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
@@ -10071,7 +10071,7 @@
     "slug": "chile-argentina-3",
     "date": "1941-03-04",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
@@ -10882,7 +10882,7 @@
   {
     "date": "1945-01-18",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [4, 0],
     "result": "W",
@@ -10933,7 +10933,7 @@
   {
     "date": "1945-01-31",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [4, 2],
     "result": "W",
@@ -10984,7 +10984,7 @@
   {
     "date": "1945-02-07",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [9, 1],
     "result": "W",
@@ -11041,7 +11041,7 @@
   {
     "date": "1945-02-11",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -11092,7 +11092,7 @@
   {
     "date": "1945-02-15",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [3, 1],
     "result": "W",
@@ -11141,7 +11141,7 @@
   {
     "date": "1945-02-25",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
@@ -12707,7 +12707,7 @@
   {
     "date": "1955-03-03",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [5, 3],
     "result": "W",
@@ -12764,7 +12764,7 @@
   {
     "date": "1955-03-09",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [4, 0],
     "result": "W",
@@ -12816,7 +12816,7 @@
   {
     "date": "1955-03-16",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [2, 2],
     "result": "D",
@@ -12869,7 +12869,7 @@
   {
     "date": "1955-03-27",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [6, 1],
     "result": "W",
@@ -12923,7 +12923,7 @@
   {
     "date": "1955-03-30",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
@@ -14416,7 +14416,7 @@
   {
     "date": "1957-10-13",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -15198,7 +15198,7 @@
   {
     "date": "1959-11-18",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [4, 2],
     "result": "L",
@@ -16847,7 +16847,7 @@
   {
     "date": "1962-11-07",
     "competition": "Copa Carlos Dittborn",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -17678,7 +17678,7 @@
   {
     "date": "1964-10-14",
     "competition": "Copa Carlos Dittborn",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -17956,7 +17956,7 @@
   {
     "date": "1965-07-21",
     "competition": "Copa Carlos Dittborn",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -18849,7 +18849,7 @@
   {
     "date": "1967-10-13",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -18895,7 +18895,7 @@
     "slug": "chile-argentina-2",
     "date": "1967-11-08",
     "competition": "*",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [3, 1],
     "result": "L",
@@ -19367,7 +19367,7 @@
   {
     "date": "1968-12-04",
     "competition": "Copa Carlos Dittborn",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -21576,7 +21576,7 @@
   {
     "date": "1973-07-18",
     "competition": "Copa Carlos Dittborn",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [3, 1],
     "result": "L",
@@ -25645,7 +25645,7 @@
         {"name": "Rodolfo Dubo"},
         {"name": "Manuel Rojas"},
         {"name": "Mario Soto"},
-        {"name": "Patricio Nazario Yanez"},
+        {"name": "Patricio Yáñez"},
         {"name": "Sandrino Castec", "out": ""},
         {"name": "Orlando Mondaca", "in": ""},
         {"name": "Luis Rojas"},
@@ -27692,7 +27692,7 @@
         {"name": "Patricio Mardones", "out": ""},
         {"name": "Mario Lepe", "in": ""},
         {"name": "Patrico Puebla"},
-        {"name": "Hugo Eduardo Rubio"},
+        {"name": "Hugo Rubio"},
         {"name": "Rene Serrano"}
       ]
     ]
@@ -29642,7 +29642,7 @@
         {"name": "Juvenal Olmos"},
         {"name": "Raul Elias Ormeno", "out": "63"},
         {"name": "Osvaldo Heriberto Hurtado", "in": "63"},
-        {"name": "Jaime Augusto Pizarro"},
+        {"name": "Jaime Pizarro"},
         {"name": "Hector Eduardo Puebla"},
         {"name": "Oscar Patricio Reyes"},
         {"name": "Roberto Antonio Rojas"},
@@ -31081,7 +31081,7 @@
   {
     "date": "1991-07-10",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
@@ -31090,35 +31090,37 @@
     "coaches": [{"name": "Aruro Salah"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
+        {"name": "Patricio Toledo"},
+        {"name": "Gabriel Mendoza"},
         {"name": "Lizardo Garrido"},
+        {"name": "Eduardo Vilches"},
         {"name": "Javier Margas"},
-        {"name": "Fabian Raphael Estay"},
-        {"name": "Nelson Parraguez", "out": "17"},
-        {"name": "Miguel Maurico Ramirez", "in": "17"},
-        {"name": "Ivan Luis Zamorano"},
-        {"name": "Jorge Alejandro Contreras"},
-        {"name": "Gabriel Rafael Mendoza"},
-        {"name": "Jaime Augusto Pizarro"},
-        {"name": "Hugo Eduardo Rubio", "out": "58"},
-        {"name": "Patricio Nazario Yanez", "in": "58"},
-        {"name": "Patrico Armando Toledo"},
-        {"name": "Eduardo Enrique Velches"}
+        {"name": "Nelson Parraguez", "out": "18"},
+        {"name": "Miguel Ramírez", "in": "18"},
+        {"name": "Jaime Pizarro"},
+        {"name": "Fabián Estay"},
+        {"name": "Jorge Contreras"},
+        {"name": "Iván Zamorano"},
+        {"name": "Hugo Rubio", "out": "58"},
+        {"name": "Patricio Yáñez", "in": "58"}
+
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
+        {"name": "Nèstor Craviotto"},
+        {"name": "Fabián Basualdo"},
+        {"name": "Oscar Ruggeri"},
         {"name": "Leonardo Astrada"},
         {"name": "Diego Simeone"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"},
-        {"name": "Fabián Basualdo"},
-        {"name": ""},
         {"name": "Dario Franco"},
         {"name": "Diego Latorre", "out": "46"},
-        {"name": "Leonardo Rodríguez", "in": "46"}
+        {"name": "Leonardo Rodríguez", "in": "46"},
+        {"name": "Gabriel Batistuta"},
+        {"name": "Claudio Caniggia"}
       ]
-    ]
+    ],
+    "sources": ["Fuji13", "El Gráfico"]
   },
   {
     "date": "1991-07-12",
@@ -31174,7 +31176,7 @@
   {
     "date": "1991-07-14",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [3, 2],
     "result": "W",
@@ -31228,7 +31230,7 @@
     "slug": "brazil-argentina-2",
     "date": "1991-07-17",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 3],
     "result": "W",
@@ -31289,31 +31291,31 @@
     "slug": "chile-argentina-2",
     "date": "1991-07-19",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
     "cards": [
-      [{"name": "Patricio Nazario Yanez", "min": "41", "type": "R"}],
+      [{"name": "Patricio Yáñez", "min": "41", "type": "R"}],
       []
     ],
     "coaches": [{"name": "Aruro Salah"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
+        {"name": "Patricio Toledo"},
         {"name": "Lizardo Garrido"},
-        {"name": "Miguel Maurico Ramirez"},
+        {"name": "Miguel Ramírez"},
         {"name": "Javier Margas"},
-        {"name": "Fabian Raphael Estay", "out": "68"},
-        {"name": "Jorge Alejandro Contreras", "in": "68"},
-        {"name": "Patricio Nazario Yanez"},
-        {"name": "Ivan Luis Zamorano"},
+        {"name": "Fabián Estay", "out": "68"},
+        {"name": "Jorge Contreras", "in": "68"},
+        {"name": "Patricio Yáñez"},
+        {"name": "Iván Zamorano"},
         {"name": "Ruben Alberto Espinoza", "out": "77"},
         {"name": "Ivo Alexis Basay", "in": "77"},
-        {"name": "Jaime Augusto Pizarro"},
-        {"name": "Hugo Eduardo Rubio"},
-        {"name": "Patrico Armando Toledo"},
-        {"name": "Eduardo Enrique Velches"}
+        {"name": "Jaime Pizarro"},
+        {"name": "Hugo Rubio"},
+        {"name": "Eduardo Vilches"}
       ],
       [
         {"name": "Sergio Goycochea"},
@@ -31334,7 +31336,7 @@
   {
     "date": "1991-07-21",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [2, 1],
     "result": "W",
@@ -32639,7 +32641,7 @@
   {
     "date": "1994-05-18",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [3, 3],
     "result": "D",
@@ -32660,7 +32662,7 @@
     "lineups": [
       [
         {"name": "Ronald Fuentes"},
-        {"name": "Miguel Maurico Ramirez"},
+        {"name": "Miguel Ramírez"},
         {"name": "Javier Margas"},
         {"name": "Nelson Parraguez"},
         {"name": "José Luis Sierra", "out": "83"},
@@ -32670,9 +32672,9 @@
         {"name": "Juan Carreno"},
         {"name": "Fabian Guevara", "out": "67"},
         {"name": "Marcelo Salas", "in": "67"},
-        {"name": "Gabriel Rafael Mendoza", "out": "46"},
+        {"name": "Gabriel Mendoza", "out": "46"},
         {"name": "Cristian Castaneda", "in": "46"},
-        {"name": "Patrico Armando Toledo"}
+        {"name": "Patricio Toledo"}
       ],
       [
         {"name": "Luis Islas"},
@@ -33079,7 +33081,7 @@
     "slug": "chile-argentina-2",
     "date": "1994-11-16",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 3],
     "result": "W",
@@ -33096,14 +33098,14 @@
     "lineups": [
       [
         {"name": "Marcelo Ramirez"},
-        {"name": "Miguel Maurico Ramirez", "out": "82"},
+        {"name": "Miguel Ramírez", "out": "82"},
         {"name": "Juan Silva", "in": "82"},
         {"name": "Ricardo Rojas", "out": "66"},
         {"name": "Pedro Reyes", "in": "66"},
         {"name": "Javier Margas"},
-        {"name": "Fabian Raphael Estay"},
+        {"name": "Fabián Estay"},
         {"name": "Nelson Parraguez", "out": "46"},
-        {"name": "Gabriel Rafael Mendoza", "in": "46"},
+        {"name": "Gabriel Mendoza", "in": "46"},
         {"name": "Rodrigo Barrera"},
         {"name": "Ardiman"},
         {"name": "Pedro González", "out": "46"},
@@ -33685,18 +33687,18 @@
       ],
       [
         {"name": "Marcelo Ramirez"},
-        {"name": "Miguel Maurico Ramirez"},
-        {"name": "Fabian Raphael Estay"},
+        {"name": "Miguel Ramírez"},
+        {"name": "Fabián Estay"},
         {"name": "Nelson Parraguez"},
         {"name": "Ivo Alexis Basay", "out": "85"},
         {"name": "Marcelo Salas", "in": "85"},
         {"name": "Patricio Mardones"},
-        {"name": "Gabriel Rafael Mendoza"},
+        {"name": "Gabriel Mendoza"},
         {"name": "Rodrigo Perez"},
         {"name": "Rodrigo Ruiz", "out": "46"},
         {"name": "Sebastian Rozental", "in": "46"},
         {"name": "Esteban Valencia"},
-        {"name": "Eduardo Enrique Velches"}
+        {"name": "Eduardo Vilches"}
       ]
     ]
   },
@@ -34357,7 +34359,7 @@
         {"name": "Sebastian Rozental", "out": "46"},
         {"name": "Marcelo Miranda", "in": "46"},
         {"name": "Marcelo Salas", "out": "75"},
-        {"name": "Ivan Luis Zamorano", "in": "75"},
+        {"name": "Iván Zamorano", "in": "75"},
         {"name": "Victor Castaneda", "out": "65"},
         {"name": "Wilson Contreras", "in": "65"},
         {"name": "Luis Chavarria"},
@@ -34973,7 +34975,7 @@
   {
     "date": "1997-09-10",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -35499,17 +35501,17 @@
       [
         {"name": "Nelson Tapia"},
         {"name": "Ronald Fuentes"},
-        {"name": "Miguel Maurico Ramirez"},
+        {"name": "Miguel Ramírez"},
         {"name": "Francisco Rojas"},
         {"name": "Ricardo Rojas", "out": "78"},
         {"name": "Juan Carreno", "in": "78"},
-        {"name": "Fabian Raphael Estay", "out": "60"},
+        {"name": "Fabián Estay", "out": "60"},
         {"name": "José Luis Sierra", "in": "60"},
         {"name": "Luis Eduardo Musrri", "out": "60"},
         {"name": "Fernando Cornejo", "in": "60"},
         {"name": "Nelson Parraguez"},
         {"name": "Marcelo Salas"},
-        {"name": "Ivan Luis Zamorano"},
+        {"name": "Iván Zamorano"},
         {"name": "Victor Castaneda"}
       ]
     ]
@@ -36711,7 +36713,7 @@
         {"name": "José Luis Sierra", "in": "69"},
         {"name": "Rodrigo Tello"},
         {"name": "Marcelo Salas"},
-        {"name": "Ivan Luis Zamorano"},
+        {"name": "Iván Zamorano"},
         {"name": "Patricio Ormazabal", "out": "83"},
         {"name": "Mauricio Aros", "in": "83"}
       ]
@@ -37151,7 +37153,7 @@
   {
     "date": "2000-11-15",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -37184,13 +37186,13 @@
         {"name": "Pedro Reyes"},
         {"name": "Francisco Rojas"},
         {"name": "Ricardo Rojas"},
-        {"name": "Fabian Raphael Estay", "out": "64"},
+        {"name": "Fabián Estay", "out": "64"},
         {"name": "Esteban Valencia", "in": "64"},
         {"name": "Claudio Maldonado", "out": "74"},
         {"name": "Moises Villarroel", "in": "74"},
         {"name": "David Pizarro"},
         {"name": "Marcelo Salas"},
-        {"name": "Ivan Luis Zamorano"},
+        {"name": "Iván Zamorano"},
         {"name": "Pablo Galdames"}
       ],
       [
@@ -39751,7 +39753,7 @@
   {
     "date": "2004-10-13",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
@@ -42825,7 +42827,7 @@
   {
     "date": "2008-10-15",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
@@ -46044,7 +46046,7 @@
   {
     "date": "2012-10-16",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -47988,7 +47990,7 @@
   {
     "date": "2015-07-04",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 0],
     "pen": [4, 1],
@@ -48411,7 +48413,7 @@
   {
     "date": "2016-03-24",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional Julio Martínez Prádanos, Santiago"},
+    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
