@@ -12,6 +12,9 @@ export default function PageFooter() {
             </LinkAnchor>
           </li>
           <li className="ml-4">
+            <LinkAnchor href="https://golazon.com/t/03l">golazon</LinkAnchor>
+          </li>
+          <li className="ml-4">
             <LinkAnchor href="https://github.com/sobstel/albicelestes">
               github
             </LinkAnchor>
