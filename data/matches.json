@@ -31104,7 +31104,6 @@
         {"name": "Iván Zamorano"},
         {"name": "Hugo Rubio", "out": "58"},
         {"name": "Patricio Yáñez", "in": "58"}
-
       ],
       [
         {"name": "Sergio Goycochea"},
@@ -31155,7 +31154,7 @@
         {"name": "Leonardo Rodríguez"},
         {"name": "Gustavo Zapata"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"},
+        {"name": "Claudio Caniggia"}
       ],
       [
         {"name": "José Luis Chilavert"},
@@ -31299,10 +31298,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [
-      [{"name": "Patricio Yáñez", "min": "41", "type": "R"}],
-      []
-    ],
+    "cards": [[{"name": "Patricio Yáñez", "min": "41", "type": "R"}], []],
     "coaches": [{"name": "Aruro Salah"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -51700,10 +51696,7 @@
     "date": "2020-10-09",
     "competition": "World Cup Quals",
     "round": "Group Stage",
-    "venue": {
-      "name": "Estadio Alberto José Armando",
-      "city": "Buenos Aires"
-    },
+    "venue": {"name": "Estadio Alberto José Armando", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [1, 0],
     "result": "W",
@@ -51827,10 +51820,7 @@
     "date": "2020-11-13",
     "competition": "World Cup Quals",
     "round": "Group Stage",
-    "venue": {
-      "name": "Estadio Alberto José Armando",
-      "city": "Buenos Aires"
-    },
+    "venue": {"name": "Estadio Alberto José Armando", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
     "result": "D",
