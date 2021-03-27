@@ -28705,7 +28705,7 @@
         {"name": "Fabián Basualdo"},
         {"name": "Domenech"},
         {"name": "José Carlos Fantaguzzi"},
-        {"name": "Blas Armando Giunta"},
+        {"name": "Blas Giunta"},
         {"name": "H Gutierrez", "out": ""},
         {"name": "Claudio Caniggia", "in": ""},
         {"name": "V Marchesini"},
@@ -28827,7 +28827,7 @@
         {"name": "Gustavo Benitez"},
         {"name": "Gabriel González", "out": ""},
         {"name": "Buenaventura Ferreira", "in": ""},
-        {"name": "Justo Pastor Jacquet"}
+        {"name": "Justo Jacquet"}
       ]
     ]
   },
@@ -29498,7 +29498,7 @@
         {"name": "Ernesto Enrique Corti", "out": "75"},
         {"name": "Claudio Martin Cabrera", "in": "75"},
         {"name": "Néstor Craviotto"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Julio Cesar Falcioni"}
       ]
     ]
@@ -29551,7 +29551,7 @@
         {"name": "Sergio Silvano Maciel", "in": "70"},
         {"name": "Fabián Basualdo", "out": "46"},
         {"name": "Gorti", "in": "46"},
-        {"name": "Carlos Alberto Enrique", "out": "46"},
+        {"name": "Carlos Enrique", "out": "46"},
         {"name": "Diego Simeone", "in": "46"},
         {"name": "Nestor Raul Gorosito"}
       ]
@@ -29599,7 +29599,7 @@
         {"name": "Mauro Gabriel Airez", "out": "86"},
         {"name": "Sergio Silvano Maciel", "in": "86"},
         {"name": "Fabián Basualdo"},
-        {"name": "Carlos Alberto Enrique", "out": "66"},
+        {"name": "Carlos Enrique", "out": "66"},
         {"name": "Diego Simeone", "in": "66"},
         {"name": "Nestor Raul Gorosito"}
       ]
@@ -29930,7 +29930,7 @@
         {"name": "Felix Britez Roman", "in": "86"},
         {"name": "Virginio Caceres"},
         {"name": "Julio Cesar Franco"},
-        {"name": "Gustavo Alfredo Neffa", "out": "59"},
+        {"name": "Gustavo Neffa", "out": "59"},
         {"name": "Ramon Alfredo Escobar", "in": "59"},
         {"name": "Eumelio Ramon Palacios"},
         {"name": "Vidal Sanabria"}
@@ -30702,7 +30702,7 @@
     "goals": [
       [
         {"name": "Dario Franco", "min": "38", "type": "G"},
-        {"name": "Antonio Ricardo Mohamed", "min": "47", "type": "G"}
+        {"name": "Antonio Mohamed", "min": "47", "type": "G"}
       ],
       []
     ],
@@ -30715,12 +30715,12 @@
         {"name": "Ramon Bello", "out": "74"},
         {"name": "Ariel Eduardo Boldrini", "in": "74"},
         {"name": "Fabián Basualdo"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"},
-        {"name": "Fernando Andrés Gamboa"},
+        {"name": "Fernando Gamboa"},
         {"name": "Diego Latorre", "out": "85"},
         {"name": "Carlos Alejandro Alfaro Moreno", "in": "85"},
-        {"name": "Antonio Ricardo Mohamed", "out": "85"},
+        {"name": "Antonio Mohamed", "out": "85"},
         {"name": "Gerardo Martino", "in": "85"},
         {"name": "José Luis Villarreal"},
         {"name": "David Visconti"}
@@ -30762,12 +30762,12 @@
         {"name": "Carlos Alejandro Alfaro Moreno", "in": "66"},
         {"name": "Ramon Bello"},
         {"name": "Fabián Basualdo"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Victor Hugo Ferreyra"},
         {"name": "Dario Franco"},
-        {"name": "Fernando Andrés Gamboa"},
+        {"name": "Fernando Gamboa"},
         {"name": "David Visconti", "out": "62"},
-        {"name": "Gustavo Miguel Zapata", "in": "62"}
+        {"name": "Gustavo Zapata", "in": "62"}
       ],
       [
         {"name": "Pablo Larios"},
@@ -30811,17 +30811,17 @@
       [
         {"name": "Sergio Goycochea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto", "out": "81"},
         {"name": "Dante Ruben Unali", "in": "81"},
         {"name": "Victor Hugo Ferreyra", "out": "65"},
         {"name": "Ariel Eduardo Boldrini", "in": "65"},
         {"name": "Dario Franco"},
-        {"name": "Fernando Andrés Gamboa"},
+        {"name": "Fernando Gamboa"},
         {"name": "Claudio García"},
         {"name": "Diego Latorre"},
         {"name": "Miguel Angel Luduena", "out": "55"},
-        {"name": "Blas Armando Giunta", "in": "55"},
+        {"name": "Blas Giunta", "in": "55"},
         {"name": "David Visconti", "out": ""},
         {"name": "Sergio Vázquez", "in": ""}
       ],
@@ -30873,16 +30873,16 @@
         {"name": "Sergio Goycochea"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez", "out": "88"},
-        {"name": "Fernando Andrés Gamboa", "in": "88"},
+        {"name": "Fernando Gamboa", "in": "88"},
         {"name": "Leonardo Astrada"},
         {"name": "Sergio Berti", "out": "84"},
-        {"name": "Gustavo Miguel Zapata", "in": "84"},
+        {"name": "Gustavo Zapata", "in": "84"},
         {"name": "Carlos Alejandro Alfaro Moreno", "out": "74"},
-        {"name": "Antonio Ricardo Mohamed", "in": "74"},
+        {"name": "Antonio Mohamed", "in": "74"},
         {"name": "Fabián Basualdo"},
         {"name": "David Carlos Nazareno Bisconti"},
         {"name": "Ariel Eduardo Boldrini"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"}
       ]
     ]
@@ -30909,7 +30909,7 @@
         {"name": "Diego Simeone"},
         {"name": "Carlos Alejandro Alfaro Moreno"},
         {"name": "Fabián Basualdo"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"},
         {"name": "Claudio García"},
         {"name": "David Visconti", "out": "71"},
@@ -30973,12 +30973,12 @@
         {"name": "Diego Simeone"},
         {"name": "Fabián Basualdo"},
         {"name": "Ariel Eduardo Boldrini"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"},
-        {"name": "Fernando Andrés Gamboa"},
+        {"name": "Fernando Gamboa"},
         {"name": "Claudio García"},
         {"name": "German Ricardo Martellotto", "out": "60"},
-        {"name": "Antonio Ricardo Mohamed", "in": "60"}
+        {"name": "Antonio Mohamed", "in": "60"}
       ]
     ]
   },
@@ -30993,7 +30993,7 @@
       [{"name": "José Neto", "min": "57", "type": "P"}],
       [{"name": "Claudio Caniggia", "min": "50", "type": "G"}]
     ],
-    "cards": [[], [{"name": "Carlos Alberto Enrique", "type": "R"}]],
+    "cards": [[], [{"name": "Carlos Enrique", "type": "R"}]],
     "coaches": [{"name": "Paulo Roberto Falcao"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -31020,7 +31020,7 @@
         {"name": "Claudio Caniggia", "out": "88"},
         {"name": "Claudio García", "in": "88"},
         {"name": "Néstor Craviotto"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"},
         {"name": "Diego Latorre", "out": "61"},
         {"name": "Fabián Basualdo", "in": "61"}
@@ -31126,53 +31126,54 @@
   {
     "date": "1991-07-12",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Regional"},
+    "venue": {"name": "Estadio Regional", "city": "Concepción"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [4, 1],
     "result": "W",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "40", "type": "G"},
-        {"name": "Diego Simeone", "min": "63", "type": "G"},
-        {"name": "Leonardo Astrada", "min": "72", "type": "G"},
-        {"name": "Claudio Caniggia", "min": "83", "type": "G"}
+        {"name": "Diego Simeone", "min": "61", "type": "G"},
+        {"name": "Leonardo Astrada", "min": "70", "type": "G"},
+        {"name": "Claudio Caniggia", "min": "81", "type": "G"}
       ],
-      [{"name": "José Cardozo", "min": "81", "type": "G"}]
+      [{"name": "José Cardozo", "min": "78", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Carlos Kiese"}],
     "lineups": [
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
+        {"name": "Carlos Enrique"},
+        {"name": "Fabián Basualdo", "out": "72"},
+        {"name": "Fernando Gamboa", "in": "72"},
         {"name": "Leonardo Astrada", "out": "77"},
-        {"name": "Blas Armando Giunta", "in": "77"},
-        {"name": "Leonardo Rodríguez"},
+        {"name": "Blas Giunta", "in": "77"},
+        {"name": "Oscar Ruggeri"},
         {"name": "Diego Simeone"},
+        {"name": "Leonardo Rodríguez"},
+        {"name": "Gustavo Zapata"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Fabián Basualdo", "out": "72"},
-        {"name": "Fernando Andrés Gamboa", "in": "72"},
-        {"name": "Carlos Alberto Enrique"},
-        {"name": "Gustavo Miguel Zapata"}
       ],
       [
         {"name": "José Luis Chilavert"},
+        {"name": "Silvio Suárez"},
+        {"name": "Blas Cristaldo"},
         {"name": "Catalino Rivarola"},
-        {"name": "Blas Marcelo Cristaldo"},
-        {"name": "Gabriel González", "out": "72"},
-        {"name": "Miguel Sanabria", "in": "72"},
-        {"name": "Carlos Alberto Guirland"},
-        {"name": "Justo Pastor Jacquet"},
-        {"name": "Luis Alberto Monzon"},
-        {"name": "Gustavo Alfredo Neffa"},
+        {"name": "Justo Jacquet"},
+        {"name": "Carlos Guirland"},
         {"name": "Felipe Peralta", "out": "72"},
         {"name": "José Cardozo", "in": "72"},
         {"name": "Vidal Sanabria"},
-        {"name": "Silvio Suarez"}
+        {"name": "Luis Alberto Monzón"},
+        {"name": "Gustavo Neffa"},
+        {"name": "Gabriel González", "out": "72"},
+        {"name": "Miguel Sanabria", "in": "72"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "Fuji46"]
   },
   {
     "date": "1991-07-14",
@@ -31184,48 +31185,49 @@
     "goals": [
       [
         {"name": "Diego Latorre", "min": "3", "type": "G"},
-        {"name": "", "min": "51", "type": "G"},
+        {"name": "Néstor Craviotto", "min": "51", "type": "G"},
         {"name": "Claudio García", "min": "57", "type": "G"}
       ],
       [
-        {"name": "Alfonso Orlando Yanez", "min": "35", "type": "P"},
-        {"name": "Jorge Hirano", "min": "67", "type": "G"}
+        {"name": "Alfonso Yañez", "min": "35", "type": "P"},
+        {"name": "Jorge Hirano", "min": "66", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Miguel Company"}],
     "lineups": [
       [
-        {"name": "Ramon Bello", "out": "81"},
-        {"name": "Dario Franco", "in": "81"},
-        {"name": "Ricardo Daniel Altamirano"},
-        {"name": ""},
-        {"name": "Carlos Alberto Enrique"},
-        {"name": "Fernando Andrés Gamboa"},
+        {"name": "Alejandro Lanari"},
+        {"name": "Ricardo Altamirano"},
+        {"name": "Fernando Gamboa"},
+        {"name": "Néstor Craviotto"},
+        {"name": "Carlos Enrique"},
+        {"name": "Blas Giunta"},
+        {"name": "Diego Latorre"},
+        {"name": "Gustavo Zapata"},
+        {"name": "Antonio Mohamed"},
         {"name": "Claudio García", "out": "74"},
         {"name": "Leonardo Astrada", "in": "74"},
-        {"name": "Blas Armando Giunta"},
-        {"name": "Alejandro Fabio Lanari"},
-        {"name": "Diego Latorre"},
-        {"name": "Antonio Ricardo Mohamed"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Ramon Bello", "out": "81"},
+        {"name": "Dario Franco", "in": "81"}
       ],
       [
-        {"name": "José Del Solar"},
-        {"name": "Ernesto Aguirre"},
-        {"name": "Jorge Fausto Arteaga"},
-        {"name": "Alvaro Barco"},
-        {"name": "Ricardo Alberto Bravo"},
-        {"name": "Jorge Hirano"},
-        {"name": "Eugenio La Rosa"},
-        {"name": "Jesus Manuel Purizaga", "out": "60"},
+        {"name": "Jesús Purizaga", "out": "60"},
         {"name": "Diosdado Palma", "in": "60"},
-        {"name": "Cesar Eduardo Rodriguez"},
-        {"name": "Mario Rodriguez"},
-        {"name": "Manuel Octavio Vidales"},
-        {"name": "Alfonso Orlando Yanez"}
+        {"name": "Ricardo Bravo"},
+        {"name": "Jorge Arteaga"},
+        {"name": "Alvaro Barco"},
+        {"name": "Octavio Vidales"},
+        {"name": "Mario Rodríguez"},
+        {"name": "César Rodríguez"},
+        {"name": "Alfonso Yañez"},
+        {"name": "José Del Solar"},
+        {"name": "Jorge Hirano"},
+        {"name": "Eugenio La Rosa", "out": "66"},
+        {"name": "Ernesto Aguirre", "in": "66"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "Fuji46"]
   },
   {
     "slug": "brazil-argentina-2",
@@ -31254,7 +31256,7 @@
       ],
       [
         {"name": "Claudio Caniggia", "min": "31", "type": "R"},
-        {"name": "Carlos Alberto Enrique", "min": "61", "type": "R"}
+        {"name": "Carlos Enrique", "min": "61", "type": "R"}
       ]
     ],
     "coaches": [{"name": "Paulo Roberto Falcao"}, {"name": "Alfio Basile"}],
@@ -31278,12 +31280,12 @@
         {"name": "Sergio Vázquez"},
         {"name": "Leonardo Astrada"},
         {"name": "Leonardo Rodríguez", "out": "79"},
-        {"name": "Blas Armando Giunta", "in": "79"},
+        {"name": "Blas Giunta", "in": "79"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
         {"name": "Fabián Basualdo"},
-        {"name": "Carlos Alberto Enrique"},
+        {"name": "Carlos Enrique"},
         {"name": "Dario Franco"}
       ]
     ]
@@ -31324,11 +31326,11 @@
         {"name": "Sergio Vázquez"},
         {"name": "Leonardo Astrada"},
         {"name": "Leonardo Rodríguez", "out": "85"},
-        {"name": "Blas Armando Giunta", "in": "85"},
+        {"name": "Blas Giunta", "in": "85"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco"}
       ]
@@ -31357,11 +31359,11 @@
         {"name": "Sergio Vázquez"},
         {"name": "Leonardo Astrada"},
         {"name": "Leonardo Rodríguez", "out": "70"},
-        {"name": "Blas Armando Giunta", "in": "70"},
+        {"name": "Blas Giunta", "in": "70"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco"}
       ],
@@ -31445,7 +31447,7 @@
         {"name": "Alberto Federico Acosta", "in": "55"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco"},
         {"name": "José Luis Villarreal"}
@@ -31496,7 +31498,7 @@
         {"name": "Claudio García", "in": "80"},
         {"name": "Claudio Caniggia", "out": "80"},
         {"name": "Leonardo Astrada", "in": "80"},
-        {"name": "Ricardo Daniel Altamirano", "out": "46"},
+        {"name": "Ricardo Altamirano", "out": "46"},
         {"name": "Sergio Fabian Zarate", "in": "46"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco"}
@@ -31575,7 +31577,7 @@
       [
         {"name": "Gabriel Batistuta", "min": "3", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "11", "type": "G"},
-        {"name": "Ricardo Daniel Altamirano", "min": "69", "type": "G"},
+        {"name": "Ricardo Altamirano", "min": "69", "type": "G"},
         {"name": "Alberto Federico Acosta", "min": "83", "type": "G"}
       ],
       []
@@ -31593,7 +31595,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "José Luis Villarreal", "out": "75"},
         {"name": "Diego Cagna", "in": "75"}
@@ -31657,7 +31659,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "José Luis Villarreal", "out": "81"},
         {"name": "Diego Cagna", "in": "81"}
@@ -31698,7 +31700,7 @@
         {"name": "Ramon Bello", "out": "84"},
         {"name": "Julio Alberto Zamora", "in": "84"},
         {"name": "Alberto Federico Acosta"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto"},
         {"name": "José Luis Villarreal", "out": "75"},
         {"name": "Nestor Raul Gorosito", "in": "75"}
@@ -31744,10 +31746,10 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia", "out": "80"},
         {"name": "Alberto Federico Acosta", "in": "80"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco", "out": "80"},
-        {"name": "Gustavo Miguel Zapata", "in": "80"}
+        {"name": "Gustavo Zapata", "in": "80"}
       ],
       [
         {"name": "Taffarel"},
@@ -31791,7 +31793,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto"}
       ],
       [
@@ -31834,10 +31836,10 @@
         {"name": "Nestor Raul Gorosito", "in": "63"},
         {"name": "Gabriel Batistuta"},
         {"name": "Alberto Federico Acosta"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto"},
         {"name": "Dario Franco", "out": "32"},
-        {"name": "Gustavo Miguel Zapata", "in": "32"},
+        {"name": "Gustavo Zapata", "in": "32"},
         {"name": "Claudio García"}
       ],
       [
@@ -31880,10 +31882,10 @@
         {"name": "Alejandro Mancuso", "in": "62"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Claudio García"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Jorge Campos"},
@@ -31929,9 +31931,9 @@
         {"name": "Gabriel Batistuta", "out": "78"},
         {"name": "Alberto Federico Acosta", "in": "78"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Oscar Cordoba"},
@@ -31988,10 +31990,10 @@
         {"name": "Gabriel Batistuta", "out": "62"},
         {"name": "Alberto Federico Acosta", "in": "62"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -32017,10 +32019,10 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Alberto Federico Acosta"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
-        {"name": "Gustavo Miguel Zapata", "out": "68"},
+        {"name": "Gustavo Zapata", "out": "68"},
         {"name": "Leonardo Rodríguez", "in": "68"}
       ],
       [
@@ -32065,11 +32067,11 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito", "out": "63"},
         {"name": "Leonardo Rodríguez", "in": "63"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Jorge Campos"},
@@ -32101,7 +32103,7 @@
         {"name": "Juan Reynoso", "min": "55", "type": "R"},
         {"name": "José Alberto Soto", "min": "80", "type": "R"}
       ],
-      [{"name": "Gustavo Miguel Zapata", "min": "59", "type": "R"}]
+      [{"name": "Gustavo Zapata", "min": "59", "type": "R"}]
     ],
     "coaches": [{"name": "Popovic"}, {"name": "Alfio Basile"}],
     "lineups": [
@@ -32131,9 +32133,9 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Alberto Federico Acosta", "out": "79"},
         {"name": "Claudio García", "in": "79"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -32189,7 +32191,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "José Luis Villarreal", "out": "46"},
         {"name": "José Basualdo", "in": "46"}
@@ -32238,8 +32240,8 @@
         {"name": "Ramon Bello"},
         {"name": "Alberto Federico Acosta", "out": "81"},
         {"name": "Leonardo Rodríguez", "in": "81"},
-        {"name": "Ricardo Daniel Altamirano"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Ricardo Altamirano"},
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -32264,7 +32266,7 @@
         {"name": "Sergio Goycochea"},
         {"name": "Jorge Borelli"},
         {"name": "Fernando Caceres", "out": "27"},
-        {"name": "Ricardo Daniel Altamirano", "in": "27"},
+        {"name": "Ricardo Altamirano", "in": "27"},
         {"name": "Oscar Ruggeri"},
         {"name": "Fernando Redondo"},
         {"name": "Leonardo Rodríguez", "out": "70"},
@@ -32273,7 +32275,7 @@
         {"name": "Ramon Bello"},
         {"name": "Néstor Craviotto"},
         {"name": "Nestor Raul Gorosito"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Percy Olivares"},
@@ -32313,10 +32315,10 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Nestor Raul Gorosito", "out": "70"},
         {"name": "Julio Alberto Zamora", "in": "70"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "José Luis Chilavert"},
@@ -32367,9 +32369,9 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ramon Bello"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Julio Cesar Saldana"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Oscar Cordoba"},
@@ -32427,7 +32429,7 @@
         {"name": "Carlos Javier MacAllister"},
         {"name": "Sergio Vázquez"},
         {"name": "José Basualdo", "out": "70"},
-        {"name": "Gustavo Miguel Zapata", "in": "70"},
+        {"name": "Gustavo Zapata", "in": "70"},
         {"name": "Diego Maradona"},
         {"name": "Hugo Perez"},
         {"name": "Fernando Redondo"},
@@ -32470,7 +32472,7 @@
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
         {"name": "Abel Balbo", "out": "70"},
-        {"name": "Gustavo Miguel Zapata", "in": "70"},
+        {"name": "Gustavo Zapata", "in": "70"},
         {"name": "Gabriel Batistuta"}
       ],
       [
@@ -33583,7 +33585,7 @@
         {"name": "Abel Balbo"},
         {"name": "Marcelo Gallardo"},
         {"name": "Alberto Federico Acosta"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Marcelo Adrian Gomez", "out": "62"},
         {"name": "Leonardo Astrada", "in": "62"},
         {"name": "Gabriel Francisco Schurrer"}
@@ -33734,7 +33736,7 @@
         {"name": "Marcelo Gallardo"},
         {"name": "Alberto Federico Acosta", "out": "65"},
         {"name": "Abel Balbo", "in": "65"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Gabriel Francisco Schurrer"}
       ],
       [
@@ -33990,7 +33992,7 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo", "out": "46"},
         {"name": "Ariel Ortega", "in": "46"},
-        {"name": "Ricardo Daniel Altamirano"},
+        {"name": "Ricardo Altamirano"},
         {"name": "Rolando Hernan Cristante"},
         {"name": "Roberto Luis Trotta"}
       ],
@@ -34508,7 +34510,7 @@
         {"name": "Juan Pablo Sorin", "in": "83"},
         {"name": "Ariel Ortega"},
         {"name": "Eduardo Magnolo Berizzo"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -34530,7 +34532,7 @@
       [],
       [
         {"name": "Nelson Vivas", "min": "66", "type": "R"},
-        {"name": "Gustavo Miguel Zapata", "min": "81", "type": "R"}
+        {"name": "Gustavo Zapata", "min": "81", "type": "R"}
       ]
     ],
     "coaches": [{"name": "Antonio Lopez Habas"}, {"name": "Daniel Passarella"}],
@@ -34565,7 +34567,7 @@
         {"name": "Julio Cruz"},
         {"name": "Nestor Raul Gorosito", "out": "46"},
         {"name": "Juan Sebastian Veron", "in": "46"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -34710,7 +34712,7 @@
         {"name": "Rodolfo Esteban Cardoso"},
         {"name": "Raul Ernesto Cardozo"},
         {"name": "Jorge Daniel Martinez"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -34745,7 +34747,7 @@
         {"name": "Sergio Berti", "in": "69"},
         {"name": "Jorge Daniel Martinez"},
         {"name": "Marcelo Leonardo Ojeda"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Ricardo Rojas"},
@@ -34793,7 +34795,7 @@
         {"name": "Rodolfo Esteban Cardoso", "out": "68"},
         {"name": "Sergio Berti", "in": "68"},
         {"name": "Raul Ernesto Cardozo"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "José Luis Chilavert"},
@@ -34830,7 +34832,7 @@
       [
         {"name": "Eduardo Magnolo Berizzo", "min": "68", "type": "R"},
         {"name": "Marcelo Gallardo", "min": "68", "type": "R"},
-        {"name": "Gustavo Miguel Zapata", "min": "75", "type": "R"}
+        {"name": "Gustavo Zapata", "min": "75", "type": "R"}
       ]
     ],
     "coaches": [
@@ -34867,7 +34869,7 @@
         {"name": "Sergio Berti", "in": "46"},
         {"name": "Raul Ernesto Cardozo", "out": "46"},
         {"name": "Jorge Daniel Martinez", "in": "46"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ]
     ]
   },
@@ -35085,7 +35087,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
         {"name": "Leonardo Astrada", "out": "82"},
-        {"name": "Gustavo Miguel Zapata", "in": "82"},
+        {"name": "Gustavo Zapata", "in": "82"},
         {"name": "Diego Simeone"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Gabriel Batistuta"},
@@ -35136,7 +35138,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
         {"name": "Leonardo Astrada", "out": "74"},
-        {"name": "Gustavo Miguel Zapata", "in": "74"},
+        {"name": "Gustavo Zapata", "in": "74"},
         {"name": "Diego Simeone"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo"},
@@ -35230,7 +35232,7 @@
     "cards": [
       [
         {"name": "Juan Sebastian Veron", "type": "Y"},
-        {"name": "Gustavo Miguel Zapata", "type": "Y"}
+        {"name": "Gustavo Zapata", "type": "Y"}
       ],
       [
         {"name": "Zlatko Yankov", "type": "Y"},
@@ -35252,7 +35254,7 @@
         {"name": "Claudio Lopez"},
         {"name": "Rodolfo Esteban Cardoso"},
         {"name": "Gustavo Adrian Lombardi"},
-        {"name": "Gustavo Miguel Zapata"}
+        {"name": "Gustavo Zapata"}
       ],
       [
         {"name": "Zdravko Zdravkov"},
