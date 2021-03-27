@@ -72,6 +72,17 @@ export default function AboutPage(props: Props) {
       </Block>
 
       <Block>
+        <Header text="Thanks" />
+        <p>
+          Esteban Bekerman (
+          <LinkAnchor href="https://twitter.com/entretiempos_ar">
+            Entre Tiempos
+          </LinkAnchor>
+          )
+        </p>
+      </Block>
+
+      <Block>
         <Header text="Created and maintained by" />
         <p>
           <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
