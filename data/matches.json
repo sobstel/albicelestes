@@ -26603,7 +26603,7 @@
         {"name": "Rodolfo Dubo"},
         {"name": "Miguel Angel Gamboa"},
         {"name": "Sandrino Castec"},
-        {"name": "Ruben Alberto Espinoza"},
+        {"name": "Rubén Espinoza"},
         {"name": "Juan C Orellana"},
         {"name": "Patrico Pacheco"},
         {"name": "Juan Rojas II"},
@@ -27688,7 +27688,7 @@
         {"name": "Osvaldo Heriberto Hurtado", "in": ""},
         {"name": "José Aravena"},
         {"name": "Marco Antonio Cornez"},
-        {"name": "Ruben Alberto Espinoza"},
+        {"name": "Rubén Espinoza"},
         {"name": "Patricio Mardones", "out": ""},
         {"name": "Mario Lepe", "in": ""},
         {"name": "Patrico Puebla"},
@@ -29298,7 +29298,7 @@
         {"name": "Fernando Fabian Lanzidei", "in": "52"}
       ],
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Jorginho"},
         {"name": "Ricardo Gomes"},
         {"name": "Luiz Carlos Winck"},
@@ -29565,7 +29565,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Ruben Alberto Espinoza", "min": "69", "type": "P"}],
+      [{"name": "Rubén Espinoza", "min": "69", "type": "P"}],
       [{"name": "Mauro Gabriel Airez", "min": "17", "type": "G"}]
     ],
     "cards": [[], []],
@@ -29579,7 +29579,7 @@
         {"name": "Jaime Ramirez"},
         {"name": "Fernando Enrique Astengo"},
         {"name": "Marco Antonio Cornez"},
-        {"name": "Ruben Alberto Espinoza"},
+        {"name": "Rubén Espinoza"},
         {"name": "Hugo Armando González"},
         {"name": "Hernandez"},
         {"name": "Juvenal Olmos"},
@@ -29810,7 +29810,7 @@
     ],
     "lineups": [
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Aldair"},
         {"name": "Branco"},
         {"name": "Mauro Galvao"},
@@ -30498,7 +30498,7 @@
     ],
     "lineups": [
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Branco"},
         {"name": "Jorginho"},
         {"name": "Mauro Galvao"},
@@ -30712,7 +30712,7 @@
       [
         {"name": "Sergio Goycochea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Ramon Bello", "out": "74"},
+        {"name": "Ramon Medina Bello", "out": "74"},
         {"name": "Ariel Eduardo Boldrini", "in": "74"},
         {"name": "Fabián Basualdo"},
         {"name": "Carlos Enrique"},
@@ -30760,7 +30760,7 @@
         {"name": "Leonardo Astrada"},
         {"name": "Sergio Berti", "out": "66"},
         {"name": "Carlos Alejandro Alfaro Moreno", "in": "66"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Fabián Basualdo"},
         {"name": "Carlos Enrique"},
         {"name": "Victor Hugo Ferreyra"},
@@ -30802,11 +30802,11 @@
       [
         {"name": "Renato Gaucho", "min": "7", "type": "G"},
         {"name": "Luiz Henrique", "min": "35", "type": "G"},
-        {"name": "Carlos Careca III", "min": "86", "type": "G"}
+        {"name": "Careca III", "min": "86", "type": "G"}
       ]
     ],
     "cards": [[{"name": "Claudio García", "min": "89", "type": "R"}], []],
-    "coaches": [{"name": "Alfio Basile"}, {"name": "Paulo Roberto Falcao"}],
+    "coaches": [{"name": "Alfio Basile"}, {"name": "Paulo Roberto Falcão"}],
     "lineups": [
       [
         {"name": "Sergio Goycochea"},
@@ -30994,10 +30994,10 @@
       [{"name": "Claudio Caniggia", "min": "50", "type": "G"}]
     ],
     "cards": [[], [{"name": "Carlos Enrique", "type": "R"}]],
-    "coaches": [{"name": "Paulo Roberto Falcao"}, {"name": "Alfio Basile"}],
+    "coaches": [{"name": "Paulo Roberto Falcão"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Branco"},
         {"name": "Ricardo Rocha"},
         {"name": "Mauro Silva"},
@@ -31005,7 +31005,7 @@
         {"name": "José Neto"},
         {"name": "João Paulo"},
         {"name": "Renato Gaucho"},
-        {"name": "Carlos Careca III", "out": "53"},
+        {"name": "Careca III", "out": "53"},
         {"name": "Bebeto", "in": "53"},
         {"name": "Cleber"},
         {"name": "Valdir III"}
@@ -31207,7 +31207,7 @@
         {"name": "Antonio Mohamed"},
         {"name": "Claudio García", "out": "74"},
         {"name": "Leonardo Astrada", "in": "74"},
-        {"name": "Ramon Bello", "out": "81"},
+        {"name": "Ramon Medina Bello", "out": "81"},
         {"name": "Dario Franco", "in": "81"}
       ],
       [
@@ -31243,7 +31243,7 @@
       ],
       [
         {"name": "Dario Franco", "min": "1", "type": "G"},
-        {"name": "Dario Franco", "min": "40", "type": "G"},
+        {"name": "Dario Franco", "min": "39", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "46", "type": "G"}
       ]
     ],
@@ -31251,43 +31251,46 @@
       [
         {"name": "Mazinho", "min": "31", "type": "R"},
         {"name": "Marcio Lopez", "min": "61", "type": "R"},
-        {"name": "Carlos Careca III", "min": "77", "type": "R"}
+        {"name": "Careca III", "min": "80", "type": "R"}
       ],
       [
         {"name": "Claudio Caniggia", "min": "31", "type": "R"},
         {"name": "Carlos Enrique", "min": "61", "type": "R"}
       ]
     ],
-    "coaches": [{"name": "Paulo Roberto Falcao"}, {"name": "Alfio Basile"}],
+    "coaches": [{"name": "Paulo Roberto Falcão"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
-        {"name": "Taffarel"},
-        {"name": "Branco"},
-        {"name": "Marcio Santos"},
+        {"name": "Cláudio Taffarel"},
+        {"name": "Mazinho I"},
+        {"name": "Márcio Santos"},
         {"name": "Ricardo Rocha"},
+        {"name": "Branco"},
         {"name": "Mauro Silva"},
-        {"name": "Mazinho"},
+        {"name": "Márcio"},
         {"name": "José Neto"},
-        {"name": "João Paulo"},
         {"name": "Luiz Henrique"},
-        {"name": "Marcio Lopez"},
-        {"name": "Silvio II"}
+        {"name": "Silvio II", "out": "46"},
+        {"name": "Renato Gaucho", "in": "46"},
+        {"name": "João Paulo", "out": "78"},
+        {"name": "Careca III", "in": "78"}
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
+        {"name": "Carlos Enrique"},
+        {"name": "Fabián Basualdo"},
         {"name": "Leonardo Astrada"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "Diego Simeone"},
+        {"name": "Dario Franco"},
         {"name": "Leonardo Rodríguez", "out": "79"},
         {"name": "Blas Giunta", "in": "79"},
-        {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"},
-        {"name": "Fabián Basualdo"},
-        {"name": "Carlos Enrique"},
-        {"name": "Dario Franco"}
+        {"name": "Claudio Caniggia"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "Fuji46"]
   },
   {
     "slug": "chile-argentina-2",
@@ -31303,34 +31306,35 @@
     "lineups": [
       [
         {"name": "Patricio Toledo"},
+        {"name": "Rubén Espinoza", "out": "77"},
+        {"name": "Ivo Basay", "in": "77"},
         {"name": "Lizardo Garrido"},
-        {"name": "Miguel Ramírez"},
+        {"name": "Eduardo Vilches"},
         {"name": "Javier Margas"},
-        {"name": "Fabián Estay", "out": "68"},
-        {"name": "Jorge Contreras", "in": "68"},
-        {"name": "Patricio Yáñez"},
-        {"name": "Iván Zamorano"},
-        {"name": "Ruben Alberto Espinoza", "out": "77"},
-        {"name": "Ivo Alexis Basay", "in": "77"},
+        {"name": "Miguel Ramírez"},
+        {"name": "Fabián Estay", "out": "67"},
+        {"name": "Jorge Contreras", "in": "67"},
         {"name": "Jaime Pizarro"},
+        {"name": "Patricio Yáñez"},
         {"name": "Hugo Rubio"},
-        {"name": "Eduardo Vilches"}
+        {"name": "Iván Zamorano"}
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
-        {"name": "Leonardo Astrada"},
-        {"name": "Leonardo Rodríguez", "out": "85"},
-        {"name": "Blas Giunta", "in": "85"},
-        {"name": "Diego Simeone"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
-        {"name": "Dario Franco"}
+        {"name": "Leonardo Astrada"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "Diego Simeone"},
+        {"name": "Dario Franco"},
+        {"name": "Leonardo Rodríguez", "out": "85"},
+        {"name": "Blas Giunta", "in": "85"},
+        {"name": "Gabriel Batistuta"},
+        {"name": "Ramon Medina Bello"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "Fuji46"]
   },
   {
     "date": "1991-07-21",
@@ -31351,34 +31355,36 @@
     "lineups": [
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
-        {"name": "Leonardo Astrada"},
-        {"name": "Leonardo Rodríguez", "out": "70"},
-        {"name": "Blas Giunta", "in": "70"},
-        {"name": "Diego Simeone"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
-        {"name": "Dario Franco"}
+        {"name": "Leonardo Astrada"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "Diego Simeone"},
+        {"name": "Dario Franco"},
+        {"name": "Leonardo Rodríguez", "out": "77"},
+        {"name": "Blas Giunta", "in": "77"},
+        {"name": "Gabriel Batistuta"},
+        {"name": "Claudio Caniggia"}
       ],
       [
         {"name": "Rene Higuita"},
         {"name": "Wilmer Cabrera"},
-        {"name": "Andrés Escobar"},
         {"name": "Luis Carlos Perea"},
+        {"name": "Andrés Escobar"},
+        {"name": "Diego Osorio"},
         {"name": "Leonel Alvarez"},
         {"name": "Eduardo Pimental"},
-        {"name": "Freddy Rincon", "out": "55"},
-        {"name": "Ivan Valenciano", "in": "55"},
+        {"name": "Freddy Rincon", "out": "46"},
+        {"name": "Bernardo Redin", "in": "46"},
         {"name": "Carlos Valderrama"},
         {"name": "Antony de Avila"},
-        {"name": "Alberto Usuriaga", "out": "48"},
-        {"name": "Bernardo Redin", "in": "48"},
-        {"name": "Diego Leon Osorio"}
+        {"name": "Alberto Usuriaga", "out": "46"},
+        {"name": "Ivan Valenciano", "in": "46"}
       ]
-    ]
+    ],
+    "info": {"youtube":[{"id":"8ouUYjTIN8Q"}]},
+    "sources": ["El Gráfico", "Fuji46"]
   },
   {
     "date": "1992-05-31",
@@ -31552,7 +31558,7 @@
         {"name": "Sergio Vázquez"},
         {"name": "Diego Cagna", "out": ""},
         {"name": "Alejandro Mancuso", "in": ""},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Alberto Federico Acosta"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
@@ -31672,7 +31678,7 @@
     "goals": [
       [
         {"name": "Néstor Craviotto", "min": "21", "type": "G"},
-        {"name": "Ramon Bello", "min": "53", "type": "G"}
+        {"name": "Ramon Medina Bello", "min": "53", "type": "G"}
       ],
       []
     ],
@@ -31693,7 +31699,7 @@
         {"name": "Leonardo Rodríguez", "out": "75"},
         {"name": "Diego Cagna", "in": "75"},
         {"name": "Diego Simeone"},
-        {"name": "Ramon Bello", "out": "84"},
+        {"name": "Ramon Medina Bello", "out": "84"},
         {"name": "Julio Alberto Zamora", "in": "84"},
         {"name": "Alberto Federico Acosta"},
         {"name": "Ricardo Altamirano"},
@@ -31748,7 +31754,7 @@
         {"name": "Gustavo Zapata", "in": "80"}
       ],
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Branco"},
         {"name": "Cafu"},
         {"name": "Ricardo Gomes"},
@@ -31926,7 +31932,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta", "out": "78"},
         {"name": "Alberto Federico Acosta", "in": "78"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Gustavo Zapata"}
@@ -31985,7 +31991,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta", "out": "62"},
         {"name": "Alberto Federico Acosta", "in": "62"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
@@ -32062,7 +32068,7 @@
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito", "out": "63"},
@@ -32145,9 +32151,9 @@
     "goals": [
       [{"name": "Estanislao Struway", "min": "45", "type": "G"}],
       [
-        {"name": "Ramon Bello", "min": "15", "type": "G"},
+        {"name": "Ramon Medina Bello", "min": "15", "type": "G"},
         {"name": "Fernando Redondo", "min": "65", "type": "G"},
-        {"name": "Ramon Bello", "min": "77", "type": "G"}
+        {"name": "Ramon Medina Bello", "min": "77", "type": "G"}
       ]
     ],
     "cards": [
@@ -32186,7 +32192,7 @@
         {"name": "Fernando Caceres", "in": "46"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "José Luis Villarreal", "out": "46"},
@@ -32206,7 +32212,7 @@
         {"name": "Ivan Valenciano", "min": "2", "type": "G"},
         {"name": "Adolfo Valencia", "min": "52", "type": "G"}
       ],
-      [{"name": "Ramon Bello", "min": "87", "type": "G"}]
+      [{"name": "Ramon Medina Bello", "min": "87", "type": "G"}]
     ],
     "cards": [[], [{"name": "Diego Simeone", "min": "77", "type": "R"}]],
     "coaches": [{"name": "Francisco Maturana"}, {"name": "Alfio Basile"}],
@@ -32233,7 +32239,7 @@
         {"name": "Julio Alberto Zamora", "in": "46"},
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Alberto Federico Acosta", "out": "81"},
         {"name": "Leonardo Rodríguez", "in": "81"},
         {"name": "Ricardo Altamirano"},
@@ -32251,7 +32257,7 @@
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "32", "type": "G"},
-        {"name": "Ramon Bello", "min": "37", "type": "G"}
+        {"name": "Ramon Medina Bello", "min": "37", "type": "G"}
       ],
       [{"name": "Roberto Palacios", "min": "66", "type": "G"}]
     ],
@@ -32268,7 +32274,7 @@
         {"name": "Leonardo Rodríguez", "out": "70"},
         {"name": "José Basualdo", "in": "70"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Néstor Craviotto"},
         {"name": "Nestor Raul Gorosito"},
         {"name": "Gustavo Zapata"}
@@ -32310,7 +32316,7 @@
         {"name": "Leonardo Rodríguez", "in": "63"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Nestor Raul Gorosito", "out": "70"},
         {"name": "Julio Alberto Zamora", "in": "70"},
@@ -32364,7 +32370,7 @@
         {"name": "Claudio García", "in": "54"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Ramon Bello"},
+        {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Julio Cesar Saldana"},
         {"name": "Gustavo Zapata"}
@@ -32517,7 +32523,7 @@
         {"name": "Leonardo Rodríguez", "out": "88"},
         {"name": "Roberto Carlos Monserrat", "in": "88"},
         {"name": "Abel Balbo"},
-        {"name": "Ramon Bello", "out": "89"},
+        {"name": "Ramon Medina Bello", "out": "89"},
         {"name": "Ariel Ortega", "in": "89"}
       ],
       [
@@ -32690,7 +32696,7 @@
         {"name": "Diego Simeone"},
         {"name": "Abel Balbo"},
         {"name": "Gabriel Batistuta", "out": "76"},
-        {"name": "Ramon Bello", "in": "76"}
+        {"name": "Ramon Medina Bello", "in": "76"}
       ]
     ]
   },
@@ -32988,7 +32994,7 @@
         {"name": "Oscar Ruggeri"},
         {"name": "Fernando Redondo"},
         {"name": "Leonardo Rodríguez", "out": "67"},
-        {"name": "Ramon Bello", "in": "67"},
+        {"name": "Ramon Medina Bello", "in": "67"},
         {"name": "Diego Simeone"},
         {"name": "Abel Balbo"},
         {"name": "Gabriel Batistuta"},
@@ -33066,7 +33072,7 @@
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
         {"name": "Roberto Sensini", "out": "60"},
-        {"name": "Ramon Bello", "in": "60"},
+        {"name": "Ramon Medina Bello", "in": "60"},
         {"name": "José Basualdo"},
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
@@ -33689,7 +33695,7 @@
         {"name": "Miguel Ramírez"},
         {"name": "Fabián Estay"},
         {"name": "Nelson Parraguez"},
-        {"name": "Ivo Alexis Basay", "out": "85"},
+        {"name": "Ivo Basay", "out": "85"},
         {"name": "Marcelo Salas", "in": "85"},
         {"name": "Patricio Mardones"},
         {"name": "Gabriel Mendoza"},
@@ -33779,7 +33785,7 @@
     ],
     "lineups": [
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Aldair"},
         {"name": "Andre Cruz"},
         {"name": "Jorginho"},
@@ -33788,7 +33794,7 @@
         {"name": "Leonardo"},
         {"name": "Edmundo"},
         {"name": "Savio"},
-        {"name": "Junior Oswaldo 'Juninho'"},
+        {"name": "Juninho Paulista"},
         {"name": "Cesar Sampaio"}
       ],
       [
@@ -34003,8 +34009,8 @@
         {"name": "Omar Donizete Candido"},
         {"name": "Rivaldo"},
         {"name": "Túlio Maravilha"},
-        {"name": "Alexandre Da Silva 'Amaral'"},
-        {"name": "Junior Oswaldo 'Juninho'"}
+        {"name": "Amaral"},
+        {"name": "Juninho Paulista"}
       ]
     ]
   },
@@ -35386,7 +35392,7 @@
     ],
     "lineups": [
       [
-        {"name": "Taffarel"},
+        {"name": "Cláudio Taffarel"},
         {"name": "Aldair"},
         {"name": "Cafu"},
         {"name": "Junior Baiano"},

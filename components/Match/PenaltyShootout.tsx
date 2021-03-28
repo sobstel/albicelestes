@@ -3,9 +3,9 @@ import * as R from "remeda";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 import { Match, PenScore } from "types";
-import { produceShortNames } from "helpers";
+import { getTeamSlug, produceShortNames } from "helpers";
 
-type Props = { match: Pick<Match, "penaltyShootout"> };
+type Props = { match: Pick<Match, "penaltyShootout" | "teams"> };
 
 function score(score: PenScore) {
   if (score === "x") {

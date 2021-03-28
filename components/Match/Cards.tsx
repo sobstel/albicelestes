@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
-import { produceIndexedEvents, produceShortNames } from "helpers";
+import { getTeamSlug, produceIndexedEvents, produceShortNames } from "helpers";
 import { getMatchTeamIndex, sortByMinute } from "helpers";
 import { Match } from "types";
 import { Block, Header } from "components/layout";
@@ -39,6 +39,7 @@ export default function Cards({ match }: Props) {
             name={card.name}
             displayName={shortNames[card.name]}
             linkify={card.teamIndex === myTeamIndex}
+            teamSlug={getTeamSlug(match.teams[card.teamIndex])}
           />{" "}
           {card.min && `${card.min}'`} {card.type && `(${card.type})`}
         </Fragment>

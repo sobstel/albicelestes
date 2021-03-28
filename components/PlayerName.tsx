@@ -6,13 +6,20 @@ export default function PlayerName({
   name,
   displayName,
   linkify = false,
+  teamSlug,
 }: {
   name: string;
   displayName?: string;
-  linkify: boolean;
+  linkify?: boolean;
+  teamSlug?: string;
 }) {
+  let normalizedDisplayName = displayName;
+  if (teamSlug === "brazil") {
+    normalizedDisplayName = name;
+  }
+
   if (!linkify) {
-    return <span title={name}>{displayName || name}</span>;
+    return <span title={name}>{normalizedDisplayName || name}</span>;
   }
 
   const slug = getPlayerSlug(name);
@@ -20,7 +27,7 @@ export default function PlayerName({
 
   return (
     <LinkAnchor href={`/players/${catalog}/${slug}`} title={name}>
-      {displayName || name}
+      {normalizedDisplayName || name}
     </LinkAnchor>
   );
 }

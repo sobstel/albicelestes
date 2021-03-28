@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
-import { getMatchTeamIndex, produceShortNames } from "helpers";
+import { getMatchTeamIndex, produceShortNames, getTeamSlug } from "helpers";
 import { Match, MatchCoach } from "types";
 
 function coachNameSuffix(
@@ -48,6 +48,7 @@ export default function Lineups({ match }: Props) {
                         name={event.name}
                         displayName={shortNames[event.name]}
                         linkify={teamIndex === myTeamIndex}
+                        teamSlug={getTeamSlug(teams[teamIndex])}
                       />
                     </>
                   )}
@@ -59,6 +60,7 @@ export default function Lineups({ match }: Props) {
                         name={event.name}
                         displayName={shortNames[event.name]}
                         linkify={teamIndex === myTeamIndex}
+                        teamSlug={getTeamSlug(teams[teamIndex])}
                       />
                       {`)`}
                     </>

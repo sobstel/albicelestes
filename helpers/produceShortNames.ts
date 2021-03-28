@@ -8,7 +8,8 @@ function shortenName(name: string) {
   if (playerInflections[name]) {
     return playerInflections[name];
   }
-  return getPlayerName(name).lastName;
+  const playerName = getPlayerName(name);
+  return playerName.lastName;
 }
 
 export default function produceShortNames(

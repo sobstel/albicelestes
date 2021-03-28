@@ -1,7 +1,12 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
 import { produceIndexedEvents } from "helpers";
-import { getMatchTeamIndex, produceShortNames, sortByMinute } from "helpers";
+import {
+  getMatchTeamIndex,
+  getTeamSlug,
+  produceShortNames,
+  sortByMinute,
+} from "helpers";
 import { Match } from "types";
 import { xor } from "utility";
 import { Block, Header } from "components/layout";
@@ -52,6 +57,7 @@ export default function Goals({ match }: Props) {
                   name={goal.name}
                   displayName={shortNames[goal.name]}
                   linkify={false}
+                  teamSlug={getTeamSlug(match.teams[teamIndex])}
                 />
                 {index < match.goals[teamIndex].length - 1 && ", "}
               </Fragment>
@@ -72,6 +78,7 @@ export default function Goals({ match }: Props) {
             name={goal.name}
             displayName={shortNames[goal.name]}
             linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
+            teamSlug={getTeamSlug(match.teams[goal.teamIndex])}
           />
           {goal.min && ` ${goal.min}'`}
           {goal.type !== "G" && ` [${goal.type}]`}
