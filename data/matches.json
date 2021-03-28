@@ -2614,10 +2614,7 @@
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [
-      [{"name": "Pedro Calomino", "min": "5", "type": "G"}],
-      []
-    ],
+    "goals": [[{"name": "Pedro Calomino", "min": "5", "type": "G"}], []],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -3879,10 +3876,7 @@
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [
-      [{"name": "Pedro Calomino", "min": "86", "type": "P"}],
-      []
-    ],
+    "goals": [[{"name": "Pedro Calomino", "min": "86", "type": "P"}], []],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -31305,7 +31299,7 @@
         {"name": "Ivan Valenciano", "in": "46"}
       ]
     ],
-    "info": {"youtube":[{"id":"8ouUYjTIN8Q"}]},
+    "info": {"youtube": [{"id": "8ouUYjTIN8Q"}]},
     "sources": ["El Gráfico", "Fuji46"]
   },
   {
@@ -37540,7 +37534,8 @@
         {"name": "Giovane Elber"},
         {"name": "Marcelinho Paraiba"}
       ]
-    ]
+    ],
+    "info": {"youtube": [{"id": "hoAF9XsqvOk"}]}
   },
   {
     "date": "2001-10-06",
@@ -44827,10 +44822,10 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Emiliano Insua"},
         {"name": "Fernando Belluschi", "out": "61"},
-        {"name": "Nicolas Santiago Bertolo", "in": "61"},
+        {"name": "Nicolás Bertolo", "in": "61"},
         {"name": "Mario Bolatti"},
         {"name": "Tino Costa", "out": "57"},
-        {"name": "Alejandro Ariel Cabral", "in": "57"},
+        {"name": "Ariel Cabral", "in": "57"},
         {"name": "Nicolás Gaitán"},
         {"name": "Diego Perotti", "out": "69"},
         {"name": "Franco Jara", "in": "69"},
@@ -44841,20 +44836,20 @@
   {
     "date": "2011-06-05",
     "competition": "Friendly",
-    "venue": {"name": "Stadion Wojska Polskiego, Warsaw"},
+    "venue": {"name": "Stadion Wojska Polskiego", "city": "Warsaw"},
     "teams": [{"name": "Poland"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
     "goals": [
       [
         {"name": "Adrian Mierzejewski", "min": "26", "type": "G"},
-        {"name": "Pawel Brozek", "min": "67", "type": "G"}
+        {"name": "Paweł Brożek", "min": "67", "type": "G"}
       ],
       [{"name": "Marco Ruben", "min": "47", "type": "G"}]
     ],
     "cards": [
       [
-        {"name": "Rafal Murawski", "min": "22", "type": "Y"},
+        {"name": "Rafał Murawski", "min": "22", "type": "Y"},
         {"name": "Robert Lewandowski", "min": "84", "type": "Y"},
         {"name": "Jakub Wawrzyniak", "min": "90", "type": "Y"}
       ],
@@ -44864,40 +44859,41 @@
     "lineups": [
       [
         {"name": "Wojciech Szczęsny"},
-        {"name": "Dariusz Dudka"},
-        {"name": "Tomasz Jodlowiec"},
         {"name": "Łukasz Piszczek"},
-        {"name": "Jakub Wawrzyniak"},
         {"name": "Grzegorz Wojtkowiak"},
+        {"name": "Tomasz Jodłowiec"},
+        {"name": "Jakub Wawrzyniak"},
         {"name": "Jakub Błaszczykowski"},
-        {"name": "Adrian Mierzejewski", "out": "80"},
-        {"name": "Michal Kucharczyk", "in": "80"},
-        {"name": "Rafal Murawski", "out": "76"},
+        {"name": "Dariusz Dudka"},
+        {"name": "Rafał Murawski", "out": "76"},
         {"name": "Adam Matuszczyk", "in": "76"},
+        {"name": "Adrian Mierzejewski", "out": "80"},
+        {"name": "Michał Kucharczyk", "in": "80"},
         {"name": "Kamil Grosicki", "out": "56"},
-        {"name": "Pawel Brozek", "in": "56"},
+        {"name": "Paweł Brożek", "in": "56"},
         {"name": "Robert Lewandowski", "out": "90"},
         {"name": "Mateusz Klich", "in": "90"}
       ],
       [
-        {"name": "Adrian Gabbarini"},
-        {"name": "Cristian Ansaldi"},
+        {"name": "Adrián Gabbarini"},
+        {"name": "Pablo Zabaleta", "out": "46"},
+        {"name": "Emiliano Insúa", "in": "46"},
+        {"name": "Mateo Musacchio"},
         {"name": "Federico Fazio", "out": "46"},
         {"name": "Jonathan Bottinelli", "in": "46"},
-        {"name": "Mateo Musacchio"},
-        {"name": "Pablo Zabaleta", "out": "46"},
-        {"name": "Emiliano Insua", "in": "46"},
-        {"name": "Nicolas Santiago Bertolo", "out": "46"},
-        {"name": "Fernando Belluschi", "in": "46"},
-        {"name": "Mario Bolatti"},
-        {"name": "Alejandro Ariel Cabral", "out": "68"},
-        {"name": "Mauro Formica", "in": "68"},
-        {"name": "Jonathan Cristaldo"},
+        {"name": "Cristian Ansaldi"},
         {"name": "Pablo Piatti", "out": "78"},
         {"name": "Nicolás Gaitán", "in": "78"},
+        {"name": "Mario Bolatti"},
+        {"name": "Nicolás Bertolo", "out": "46"},
+        {"name": "Fernando Belluschi", "in": "46"},
+        {"name": "Ariel Cabral", "out": "68"},
+        {"name": "Mauro Formica", "in": "68"},
+        {"name": "Jonathan Cristaldo"},
         {"name": "Marco Ruben"}
       ]
-    ]
+    ],
+    "sources": ["90minut", "PZPN"]
   },
   {
     "date": "2011-06-20",
