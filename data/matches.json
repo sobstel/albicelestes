@@ -2,105 +2,121 @@
   {
     "date": "1902-07-20",
     "competition": "Friendly",
-    "venue": {"name": "Paso del Molino"},
+    "venue": {"name": "Paso del Molino", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [0, 6],
     "result": "W",
     "goals": [
       [],
       [
-        {"name": "Carlos Edgard Dickinson", "min": "3", "type": "G"},
-        {"name": "Germano Arimalo", "min": "31", "type": "OG"},
-        {"name": "Edward O Morgan", "min": "64", "type": "G"},
-        {"name": "Carlos Carve Unoste", "min": "66", "type": "OG"},
-        {"name": "Juan O Anderson", "min": "71", "type": "G"},
-        {"name": "Jorge Gibson Brown", "min": "86", "type": "G"}
+        {"name": "Carlos Dickinson", "min": "3", "type": "G"},
+        {"name": "Germán Arímalo", "min": "31", "type": "OG"},
+        {"name": "Edward Morgan", "min": "64", "type": "G"},
+        {"name": "Carlos Carve Urioste", "min": "66", "type": "OG"},
+        {"name": "Juan Anderson", "min": "71", "type": "G"},
+        {"name": "Jorge Brown", "min": "86", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Germano Arimalo"},
-        {"name": "Luis Carpone"},
-        {"name": "Bolivar Cespedes"},
-        {"name": "Canos Cespedes"},
-        {"name": "Migeul Nebe"},
-        {"name": "Alberto Peixoto"},
-        {"name": "Ernesto Bouton Reves"},
-        {"name": "Gonzalo Rincon"},
         {"name": "Enrique Sardeson"},
+        {"name": "Carlos Carve Urioste"},
+        {"name": "Germán Arímalo"},
+        {"name": "Migeul Nebel"},
+        {"name": "Alberto Peixoto"},
+        {"name": "Luis Carbone"},
+        {"name": "Bolívar Céspedes"},
+        {"name": "Gonzalo Rincón"},
         {"name": "Juan Sardeson"},
-        {"name": "Carlos Carve Unoste"}
+        {"name": "Ernesto Boutón Reves"},
+        {"name": "Carlos Céspedes"}
       ],
       [
-        {"name": "Juan O Anderson"},
-        {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
-        {"name": "Carlos J Buchanan"},
-        {"name": "Walter Buchanan"},
-        {"name": "Carlos Edgard Dickinson"},
-        {"name": "Eduardo Patrico Duggan"},
         {"name": "José Buruca Laforia"},
         {"name": "William Leslie"},
-        {"name": "Juan José Moore"},
-        {"name": "Edward O Morgan"}
+        {"name": "Walter Buchanan"},
+        {"name": "Eduardo Duggan"},
+        {"name": "Carlos Buchanan"},
+        {"name": "Ernesto Brown"},
+        {"name": "Edward Morgan"},
+        {"name": "Juan Moore"},
+        {"name": "Juan Anderson"},
+        {"name": "Carlos Dickinson"},
+        {"name": "Jorge Brown"}
       ]
-    ]
+    ],
+    "info": [
+      {
+        "links": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Uruguay-Argentina_(1902)",
+            "text": "Uruguay vs Argentina (1902) - Wikipedia (IT)"
+          },
+          {
+            "url": "https://www.auf.org.uy/amistoso-uruguay-vs-argentina-19020720/",
+            "text": "Uruguay vs Argentina (1902) - AUF"
+          }
+        ]
+      }
+    ],
+    "sources": ["El Gráfico", "AUF", "Wikipedia"]
   },
   {
     "date": "1903-09-13",
     "competition": "Friendly",
-    "venue": {"name": "Hipica, Buenos Aires"},
+    "venue": {"name": "Hípica", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 3],
     "result": "L",
     "goals": [
       [
-        {"name": "Jorge Gibson Brown", "min": "51", "type": "G"},
-        {"name": "Jorge Gibson Brown", "min": "84", "type": "G"}
+        {"name": "Jorge Brown", "min": "51", "type": "G"},
+        {"name": "Jorge Brown", "min": "80", "type": "G"}
       ],
       [
-        {"name": "Carlos Cespedes", "min": "21", "type": "G"},
-        {"name": "Carlos Cespedes", "min": "58", "type": "G"},
-        {"name": "Bolivar Cespedes", "min": "61", "type": "G"}
+        {"name": "Carlos Céspedes", "min": "21", "type": "G"},
+        {"name": "Carlos Céspedes", "min": "58", "type": "G"},
+        {"name": "Bolívar Céspedes", "min": "61", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Carlos Carr Brown"},
-        {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
-        {"name": "Carlos J Buchanan"},
+        {"name": "Jorge Howard"},
+        {"name": "Carlos Brown"},
         {"name": "Walter Buchanan"},
-        {"name": "Carlos Edgard Dickinson"},
-        {"name": "Emilio B Firpo"},
-        {"name": "Jorge H Howard"},
-        {"name": "Eugenio Moore"},
-        {"name": "Juan José Moore"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Emilio Firpo"},
+        {"name": "Carlos Buchanan"},
+        {"name": "Ernesto Brown"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Juan Moore"},
+        {"name": "Jorge Brown"},
+        {"name": "Carlos Dickinson"},
+        {"name": "Eugenio Moore"}
       ],
       [
-        {"name": "Luis Carbone"},
-        {"name": "Amilcar Cespedes"},
-        {"name": "Bolivar Cespedes"},
-        {"name": "Carlos Cespedes"},
-        {"name": "Alejandro Cordero"},
-        {"name": "Eduardo De Castro"},
+        {"name": "Amílcar Céspedes"},
+        {"name": "Carlos Carve Urioste"},
+        {"name": "Ernesto Boutón Reyes"},
         {"name": "Miguel Nebel"},
+        {"name": "Luis Carbone"},
         {"name": "Gaudenolo Pigni"},
-        {"name": "Ernesto Bouton Reyes"},
-        {"name": "Gonzalo Rincon"},
-        {"name": "Carlos Carve Urioste"}
+        {"name": "Bolívar Céspedes"},
+        {"name": "Gonzalo Rincón"},
+        {"name": "Carlos Céspedes"},
+        {"name": "Alejandro Cordero"},
+        {"name": "Eduardo De Castro"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1905-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Sportiva BUENOS AIRES"},
+    "venue": {"name": "Sportiva", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
     "result": "D",
@@ -109,71 +125,33 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Carlos Carr Brown"},
-        {"name": "Juan Gibson Brown"},
-        {"name": "Patricio B Browne"},
-        {"name": "Carlos Edgard Dickinson"},
-        {"name": "Arthur H Forrester"},
-        {"name": "Pablo Frers"},
         {"name": "José Buruca Laforia"},
-        {"name": "Carlos A Lett"},
-        {"name": "Juan José Moore"},
+        {"name": "Carlos Brown"},
+        {"name": "Jorge Brown"},
         {"name": "J Rodman"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Patricio Browne"},
+        {"name": "Carlos Dickinson"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Juan Moore"},
+        {"name": "Arturo Forrester"},
+        {"name": "Carlos Lett"},
+        {"name": "Pablo Frers"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Candido Hernandez Bentancor"},
-        {"name": "Aniceto Camacho"},
+        {"name": "Carlos Carve Urioste"},
+        {"name": "Ernesto Boutón Reyes"},
         {"name": "Caferino Camacho"},
         {"name": "Luis Carbone"},
-        {"name": "Alejandro Cordero"},
-        {"name": "Carlos M Cuada"},
-        {"name": "Juan Pena"},
-        {"name": "Ernesto Bouton Reyes"},
         {"name": "Arturo Rovegno"},
-        {"name": "Carlos Carve Unoste"}
+        {"name": "Carlos Cuadra"},
+        {"name": "Juan Pena"},
+        {"name": "Aniceto Camacho"},
+        {"name": "Alejandro Cordero"},
+        {"name": "Cándido Hernández Bentancor"}
       ]
-    ]
-  },
-  {
-    "date": "1906-07-09",
-    "competition": "Friendly",
-    "venue": {"name": "Buenos Aires"},
-    "teams": [{"name": "Argentina"}, {"name": "South Africa"}],
-    "score": [0, 1],
-    "result": "L",
-    "goals": [[], [{"name": "WF Masson", "min": "70", "type": "G"}]],
-    "cards": [[], []],
-    "coaches": [null, null],
-    "lineups": [
-      [
-        {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
-        {"name": "Carlos J Buchanan"},
-        {"name": "Carlos Edgard Dickinson"},
-        {"name": "Arturo O Jacobs"},
-        {"name": "José Buruca Laforia"},
-        {"name": "Carlos A Lett"},
-        {"name": "M Reyna"},
-        {"name": "J Stanfield"}
-      ],
-      [
-        {"name": "J W Bimckes"},
-        {"name": "WC Brown"},
-        {"name": "T Chalmers"},
-        {"name": "G Hartigan"},
-        {"name": "HN Hedley"},
-        {"name": "A MacIntyre"},
-        {"name": "WF Masson"},
-        {"name": "JH Robinson"},
-        {"name": "WF Schmidt"},
-        {"name": "F Thorne"},
-        {"name": "R Tyler"}
-      ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1906-08-15",
@@ -194,26 +172,26 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Candido Hernandez Bentancor"},
+        {"name": "Cándido Hernández Bentancor"},
         {"name": "Aniceto Camacho"},
         {"name": "Caferino Camacho"},
         {"name": "Alejandro Cordero"},
         {"name": "Carlos Cibis Juarez"},
         {"name": "Felix Lourtet"},
         {"name": "Juan Pena"},
-        {"name": "Ernesto Bouton Reyes"},
-        {"name": "Carlos Carve Unoste"},
+        {"name": "Ernesto Boutón Reyes"},
+        {"name": "Carlos Carve Urioste"},
         {"name": "Pedro Zibechi"}
       ],
       [
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
-        {"name": "Carlos J Buchanan"},
+        {"name": "Patricio Browne"},
+        {"name": "Carlos Buchanan"},
         {"name": "Zenon Diaz"},
-        {"name": "Carlos Edgard Dickinson"},
+        {"name": "Carlos Dickinson"},
         {"name": "Tristan González"},
         {"name": "José Buruca Laforia"},
         {"name": "Gottlob Weiss"}
@@ -239,12 +217,12 @@
     "lineups": [
       [
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
-        {"name": "Carlos J Buchanan"},
+        {"name": "Patricio Browne"},
+        {"name": "Carlos Buchanan"},
         {"name": "Ricardo L Coulthurst"},
-        {"name": "Carlos Edgard Dickinson"},
+        {"name": "Carlos Dickinson"},
         {"name": "Hector J Henman"},
         {"name": "Wilfredo A Stocks"},
         {"name": "Arnoldo Watson Hutton"},
@@ -253,7 +231,7 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Martin Aphesteguy"},
-        {"name": "Candido Hernandez Bentancor"},
+        {"name": "Cándido Hernández Bentancor"},
         {"name": "Juan Carlos Bertone"},
         {"name": "Francisco Branda"},
         {"name": "Luis Pineyro Carve"},
@@ -285,7 +263,7 @@
       [
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Armando Ginocchio"},
         {"name": "Haroldo M Grant"},
@@ -345,7 +323,7 @@
         {"name": "Alfredo C Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Colin Campbell"},
-        {"name": "Arthur H Forrester"},
+        {"name": "Arturo Forrester"},
         {"name": "Arturo Jacobs"},
         {"name": "Ricardo Malbrán"},
         {"name": "Juan Antonio Murray"},
@@ -382,12 +360,12 @@
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
+        {"name": "Patricio Browne"},
         {"name": "Lucio Burgos"},
         {"name": "Guillermo Campbell"},
-        {"name": "Carlos Edgard Dickinson"},
+        {"name": "Carlos Dickinson"},
         {"name": "Maximiliano Susán"}
       ]
     ]
@@ -430,9 +408,9 @@
         {"name": "Luis Vernet Amadeo"},
         {"name": "Alfredo C Brown"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
-        {"name": "Patricio B Browne"},
-        {"name": "Carlos J Buchanan"},
+        {"name": "Jorge Brown"},
+        {"name": "Patricio Browne"},
+        {"name": "Carlos Buchanan"},
         {"name": "Martin Murphy"},
         {"name": "Juan A Rossi"},
         {"name": "Maximiliano Susán"},
@@ -463,7 +441,7 @@
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
+        {"name": "Patricio Browne"},
         {"name": "Martin Murphy"},
         {"name": "Haroldo T Ratcliff"},
         {"name": "Maximiliano Susán"},
@@ -501,9 +479,9 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
+        {"name": "Patricio Browne"},
         {"name": "Arturo Jacobs"},
         {"name": "José Susan"},
         {"name": "Maximiliano Susán"},
@@ -546,9 +524,9 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
+        {"name": "Patricio Browne"},
         {"name": "Arturo Jacobs"},
         {"name": "Eduardo Rothschild"},
         {"name": "Maximiliano Susán"},
@@ -606,7 +584,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Harold A Lloyd"},
@@ -629,7 +607,7 @@
     "goals": [
       [
         {"name": "Alfredo C Brown", "min": "3", "type": "G"},
-        {"name": "Jorge Gibson Brown", "min": "13", "type": "P"},
+        {"name": "Jorge Brown", "min": "13", "type": "P"},
         {"name": "Alfredo C Brown", "min": "65", "type": "G"}
       ],
       [{"name": "Santiago Raymonda", "min": "35", "type": "G"}]
@@ -641,7 +619,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Arturo Jacobs"},
@@ -734,7 +712,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Armando Ginocchio"},
         {"name": "Ernesto Brown"},
@@ -790,7 +768,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Armando Ginocchio"},
         {"name": "Ernesto Brown"},
@@ -859,7 +837,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Armando Ginocchio"},
@@ -894,7 +872,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio B Browne"},
+        {"name": "Patricio Browne"},
         {"name": "Elias Fernandez"},
         {"name": "Juan Olegario Gil"},
         {"name": "Manuel Pedro González"},
@@ -1021,12 +999,12 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Haroldo M Grant"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Carlos A Lett"},
+        {"name": "Carlos Lett"},
         {"name": "Miguel Malbrán"},
         {"name": "Maximiliano Susán"},
         {"name": "José Viale"}
@@ -1084,7 +1062,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
         {"name": "Elias Fernandez"},
@@ -1127,7 +1105,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Alfredo C Brown"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
         {"name": "Elias Fernandez"},
@@ -1159,7 +1137,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Eliseo Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
         {"name": "Elias Fernandez"},
@@ -1218,7 +1196,7 @@
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
         {"name": "Elias Fernandez"},
@@ -1265,7 +1243,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Antonio Ameal"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Guillermo Dannaher"},
         {"name": "Juan Enrique Hayes"},
@@ -1346,7 +1324,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Ernesto Brown"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Robert Sidney Buck"},
         {"name": "Manuel Pedro González"},
@@ -1422,7 +1400,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Manuel Pedro González"},
@@ -1774,7 +1752,7 @@
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Jorge Gibson Brown"},
+        {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Elias Fernandez"},

@@ -85,7 +85,7 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
         <>
           <YearNav year={parseInt(year, 10)} />
           <YearHeader year={year} />
-          {stat && <p className="mb-4">{statPhrase(stat)}</p>}
+          {stat ? <p className="mb-4">{statPhrase(stat)}</p> : null}
         </>
       )}
       <MatchList matches={matches} />
