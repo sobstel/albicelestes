@@ -47,20 +47,18 @@
         {"name": "Jorge Brown"}
       ]
     ],
-    "info": [
-      {
-        "links": [
-          {
-            "url": "https://it.wikipedia.org/wiki/Uruguay-Argentina_(1902)",
-            "text": "Uruguay vs Argentina (1902) - Wikipedia (IT)"
-          },
-          {
-            "url": "https://www.auf.org.uy/amistoso-uruguay-vs-argentina-19020720/",
-            "text": "Uruguay vs Argentina (1902) - AUF"
-          }
-        ]
-      }
-    ],
+    "info": {
+      "links": [
+        {
+          "url": "https://it.wikipedia.org/wiki/Uruguay-Argentina_(1902)",
+          "text": "Uruguay vs Argentina (1902) - Wikipedia (IT)"
+        },
+        {
+          "url": "https://www.auf.org.uy/amistoso-uruguay-vs-argentina-19020720/",
+          "text": "Uruguay vs Argentina (1902) - AUF"
+        }
+      ]
+    },
     "sources": ["El Gráfico", "AUF", "Wikipedia"]
   },
   {
