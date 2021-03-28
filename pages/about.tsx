@@ -8,7 +8,7 @@ import { Page, Block, Header, LinkAnchor } from "components/layout";
 export async function getStaticProps() {
   const matches = fetchMatches();
   const verifiedMatches = R.filter(matches, (match) =>
-    Boolean(match?.sources?.length)
+    Boolean(match.sources?.length)
   );
   const bibliography = fetchBibliography();
 
@@ -40,6 +40,10 @@ type Props = {
 
 export default function AboutPage(props: Props) {
   const { stat, bibliography } = props;
+  const verifiedRatio = Math.ceil(
+    (stat.matchesVerified / stat.matchesTotal) * 100
+  );
+
   return (
     <Page title={["About"]}>
       <Header top text="About" />
@@ -49,7 +53,7 @@ export default function AboutPage(props: Props) {
         <Header text="Status" />
         <p>
           Matches (inc. suspended): {stat.matchesTotal} (verified:{" "}
-          {stat.matchesVerified})
+          {stat.matchesVerified}, ~{verifiedRatio}%)
         </p>
         <p>Argentina players: {stat.playersTotal}</p>
         <p>Rival teams: {stat.teamsTotal}</p>
