@@ -3,7 +3,7 @@ import * as R from "remeda";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 import { Match, PenScore } from "types";
-import { getTeamSlug, produceShortNames } from "helpers";
+import { produceShortNames } from "helpers";
 
 type Props = { match: Pick<Match, "penaltyShootout" | "teams"> };
 
