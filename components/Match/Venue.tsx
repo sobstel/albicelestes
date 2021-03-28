@@ -1,3 +1,4 @@
+import * as R from "remeda";
 import React from "react";
 import { Block, Header } from "components/layout";
 import { Match } from "types";
@@ -16,8 +17,7 @@ export default function Venue({ match }: Props) {
   return (
     <Block>
       <Header text="Venue" />
-      {name}
-      {city && `, ${city}`}
+      {R.compact([name, city]).join(", ")}
     </Block>
   );
 }

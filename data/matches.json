@@ -1359,85 +1359,6 @@
     ]
   },
   {
-    "date": "1912-09-15",
-    "competition": "Friendly",
-    "venue": {"name": "RIO DE JANEIRO"},
-    "teams": [
-      {"name": "Brazil Rio XI", "slug": "brazil"},
-      {"name": "Argentina"}
-    ],
-    "score": [0, 5],
-    "result": "W",
-    "goals": [
-      [],
-      [
-        {"name": "Juan Domingo Brown", "type": "G"},
-        {"name": "Pedro Bleo Fournol Calomino", "type": "G"},
-        {"name": "Pedro Bleo Fournol Calomino", "type": "G"},
-        {"name": "Manuel Pedro González", "type": "G"},
-        {"name": "EM Hayes", "type": "G"}
-      ]
-    ],
-    "cards": [[], []],
-    "coaches": [null, null],
-    "lineups": [
-      [],
-      [
-        {"name": "Juan José Bello"},
-        {"name": "Alfredo Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Pedro Bleo Fournol Calomino"},
-        {"name": "Manuel Pedro González"},
-        {"name": "EM Hayes"},
-        {"name": "A Lennie"},
-        {"name": "José Morroni"},
-        {"name": "Juan José Rithner"},
-        {"name": "Ernesto A Sande"},
-        {"name": "Maximiliano Susán"}
-      ]
-    ]
-  },
-  {
-    "slug": "brazil-argentina-2",
-    "date": "1912-09-17",
-    "competition": "Friendly",
-    "venue": {"name": "RIO DE JANEIRO"},
-    "teams": [
-      {"name": "Brazil Rio XI", "slug": "brazil"},
-      {"name": "Argentina"}
-    ],
-    "score": [0, 5],
-    "result": "W",
-    "goals": [
-      [],
-      [
-        {"name": "Antonio Piaggio", "type": "G"},
-        {"name": "Antonio Piaggio", "type": "G"},
-        {"name": "EM Hayes", "type": "G"},
-        {"name": "EM Hayes", "type": "G"},
-        {"name": "EM Hayes", "type": "G"}
-      ]
-    ],
-    "cards": [[], []],
-    "coaches": [null, null],
-    "lineups": [
-      [],
-      [
-        {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Guillermo Dannaher"},
-        {"name": "Santiago Pio Gallino"},
-        {"name": "Carlos González"},
-        {"name": "EM Hayes"},
-        {"name": "Antonio Piaggio"},
-        {"name": "Ernesto A Sande"},
-        {"name": "Santiago Sayanes"},
-        {"name": "Maximiliano Susán"}
-      ]
-    ]
-  },
-  {
     "date": "1912-09-22",
     "competition": "Copa Honor Argentino",
     "venue": {"name": "Gimnasia, Buenos Aires"},
@@ -1451,7 +1372,7 @@
       [
         {"name": "Antonio Apraiz"},
         {"name": "Geronimo Badaracco"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Johnston"},
         {"name": "A Marquez"},
         {"name": "Antonio Piaggio"},
@@ -1920,7 +1841,7 @@
         {"name": "Alfredo Bruno", "min": "53", "type": "OG"}
       ],
       [
-        {"name": "Pedro Bleo Fournol Calomino", "min": "12", "type": "G"},
+        {"name": "Pedro Calomino", "min": "12", "type": "G"},
         {"name": "Guillermo Dannaher", "min": "81", "type": "G"}
       ]
     ],
@@ -1945,7 +1866,7 @@
         {"name": "Alfredo Bruno"},
         {"name": "Juan Cabano"},
         {"name": "Guillermo Dannaher"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Pedro Gallardo"},
         {"name": "Rodolfo Martinez"},
         {"name": "Pascual Polimeni"},
@@ -2464,7 +2385,7 @@
       [
         {"name": "Zoilo Canaveri"},
         {"name": "Zenon Diaz"},
-        {"name": "Emilio Fernandez"},
+        {"name": "Emilio Fernández"},
         {"name": "Carlos Guidi"},
         {"name": "Eduardo Hiller"},
         {"name": "Pedro Martinez"},
@@ -2567,11 +2488,11 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Emilio Fernández"},
         {"name": "Juan Domingo Brown"},
         {"name": "Juan Cabano"},
         {"name": "Zoilo Canaveri"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Emilio Fernandez"},
         {"name": "Candido Garcia"},
         {"name": "Ennis Hayes"},
         {"name": "Eduardo Hiller"},
@@ -2694,7 +2615,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [
-      [{"name": "Pedro Bleo Fournol Calomino", "min": "5", "type": "G"}],
+      [{"name": "Pedro Calomino", "min": "5", "type": "G"}],
       []
     ],
     "cards": [[], []],
@@ -2702,7 +2623,7 @@
     "lineups": [
       [
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Roberto Leonardi"},
         {"name": "Ernesto Mattozzi"},
@@ -2755,7 +2676,7 @@
       ],
       [
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Pedro Martinez"},
@@ -2777,7 +2698,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Pedro Bleo Fournol Calomino", "min": "15", "type": "G"},
+        {"name": "Pedro Calomino", "min": "15", "type": "G"},
         {"name": "Alberto Juan Ohaco", "min": "56", "type": "G"},
         {"name": "Alberto Juan Ohaco", "min": "58", "type": "G"},
         {"name": "Antonio Blanco", "min": "80", "type": "G"}
@@ -2790,7 +2711,7 @@
       [
         {"name": "Antonio Blanco"},
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Alfredo N Martin"},
         {"name": "Ernesto Mattozzi"},
@@ -2885,7 +2806,7 @@
       ],
       [
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Ennis Hayes"},
         {"name": "Carlos Isola"},
         {"name": "Alfredo N Martin"},
@@ -2916,7 +2837,7 @@
       [
         {"name": "Antonio Blanco"},
         {"name": "A Elordi"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "M Madero"},
         {"name": "Alfredo N Martin"},
@@ -2972,7 +2893,7 @@
         {"name": "Jaime Chavin"},
         {"name": "Antonio R Cortella"},
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Carlos Isola"},
         {"name": "José Laiolo"},
@@ -3017,7 +2938,7 @@
       ],
       [
         {"name": "Antonio Ferro"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Candido Garcia"},
         {"name": "Carlos Isola"},
         {"name": "José Laiolo"},
@@ -3046,7 +2967,7 @@
         {"name": "Eduardo Blanco"},
         {"name": "Roberto Castagnola"},
         {"name": "Edwin Clarcke"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Francia"},
         {"name": "Ennis Hayes"},
         {"name": "Carlos Isola"},
@@ -3091,7 +3012,7 @@
         {"name": "Antonio Blanco"},
         {"name": "Mario J Busso"},
         {"name": "Antonio R Cortella"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Ennis Hayes"},
         {"name": "Carlos Isola"},
         {"name": "José Alfredo Lopez"},
@@ -3149,7 +3070,7 @@
         {"name": "Eduardo Blanco"},
         {"name": "Jorge Calandra"},
         {"name": "Roberto Castagnola"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Ennis Hayes"},
         {"name": "Carlos Isola"},
         {"name": "Alfredo N Martin"},
@@ -3181,7 +3102,7 @@
         {"name": "Antonio Blanco"},
         {"name": "Jorge Calandra"},
         {"name": "Roberto Castagnola"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Ennis Hayes"},
         {"name": "Carlos Isola"},
         {"name": "Ernesto Mattozzi"},
@@ -3263,7 +3184,7 @@
       [
         {"name": "Carlos Izaguirre", "min": "34", "type": "G"},
         {"name": "Manuel Varela", "min": "79", "type": "OG"},
-        {"name": "Pedro Bleo Fournol Calomino", "type": "G"}
+        {"name": "Pedro Calomino", "type": "G"}
       ],
       [
         {"name": "Carlos Scarone", "min": "19", "type": "G"},
@@ -3277,7 +3198,7 @@
       [
         {"name": "Edwin Clarcke"},
         {"name": "Antonio R Cortella"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Carlos Izaguirre"},
         {"name": "José Laiolo"},
@@ -3430,7 +3351,7 @@
         {"name": "Enrique Brichetto"},
         {"name": "Roberto Castagnola"},
         {"name": "Edwin Clarcke"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Carlos Izaguirre"},
         {"name": "Pedro Martinez"},
@@ -3510,7 +3431,7 @@
         {"name": "Roberto Castagnola"},
         {"name": "Edwin Clarcke"},
         {"name": "Roberto Felice"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "Carlos Izaguirre"},
         {"name": "Alfredo N Martin"},
@@ -3607,7 +3528,7 @@
       [
         {"name": "Roberto Castagnola"},
         {"name": "Edwin Clarcke"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Isola"},
         {"name": "José Laiolo"},
         {"name": "Pedro Martinez"},
@@ -3702,7 +3623,7 @@
         {"name": "Inocencio Alzua"},
         {"name": "Roberto Castagnola"},
         {"name": "Marcos Crocce"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Ernesto Mattozzi"},
         {"name": "Francisco Olazar"},
@@ -3735,7 +3656,7 @@
         {"name": "Emilio Araya"},
         {"name": "Atilio Badalini"},
         {"name": "Roberto Castagnola"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Enrique Macchiavello"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Ernesto Mattozzi"},
@@ -3787,7 +3708,7 @@
         {"name": "Ernesto Celli"},
         {"name": "Jaime Chavin"},
         {"name": "Antonio R Cortella"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Alberto Gallo"},
         {"name": "Julio Libonatti"},
         {"name": "Eduardo Uslenghi"},
@@ -3850,7 +3771,7 @@
         {"name": "Adolfo Celli"},
         {"name": "Ernesto Celli"},
         {"name": "Jaime Chavin"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Alberto Gallo"},
         {"name": "Julio Libonatti"},
         {"name": "Alfredo N Martin"},
@@ -3895,7 +3816,7 @@
         {"name": "Adolfo Celli"},
         {"name": "Octavio Diaz"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Julio Libonatti"},
         {"name": "José Lucarelli"},
         {"name": "Juan Salvador Presta"},
@@ -3928,7 +3849,7 @@
         {"name": "Edwin Clarcke"},
         {"name": "Antonio R Cortella"},
         {"name": "Octavio Diaz"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Alberto Latorre Lelong"},
         {"name": "Julio Libonatti"},
         {"name": "José Lucarelli"},
@@ -3959,7 +3880,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [
-      [{"name": "Pedro Bleo Fournol Calomino", "min": "86", "type": "P"}],
+      [{"name": "Pedro Calomino", "min": "86", "type": "P"}],
       []
     ],
     "cards": [[], []],
@@ -3970,7 +3891,7 @@
         {"name": "Florindo Bearzotti"},
         {"name": "Antonio R Cortella"},
         {"name": "Manuel Dellavalle"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Angel Frumento"},
         {"name": "Ernesto Kiessel"},
         {"name": "Julio Libonatti"},
@@ -4015,7 +3936,7 @@
         {"name": "Antonio De Miguel"},
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Angel Frumento"},
         {"name": "Julio Libonatti"},
         {"name": "Americo Tesorieri"},
@@ -4068,7 +3989,7 @@
         {"name": "Florindo Bearzotti"},
         {"name": "Antonio R Cortella"},
         {"name": "Manuel Dellavalle"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Angel Frumento"},
         {"name": "Julio Libonatti"},
         {"name": "José Lucarelli"},
@@ -4114,7 +4035,7 @@
         {"name": "Roberto Bruzzone"},
         {"name": "Antonio R Cortella"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Angel Frumento"},
         {"name": "Julio Libonatti"},
         {"name": "Antonio Miguel"},
@@ -4184,7 +4105,7 @@
         {"name": "Edwin Clarcke"},
         {"name": "Pedro Corbella"},
         {"name": "Antonio R Cortella"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Odilon Lazaraga"},
         {"name": "Guillermo S Magistretti"},
         {"name": "Pascual Polimeni"},
@@ -4208,7 +4129,7 @@
       ],
       [
         {"name": "Edwin Clarcke", "min": "4", "type": "G"},
-        {"name": "Pedro Bleo Fournol Calomino", "min": "55", "type": "P"}
+        {"name": "Pedro Calomino", "min": "55", "type": "P"}
       ]
     ],
     "cards": [[], []],
@@ -4235,7 +4156,7 @@
         {"name": "Edwin Clarcke"},
         {"name": "Pedro Corbella"},
         {"name": "Antonio R Cortella"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Guillermo S Magistretti"},
         {"name": "Pascual Polimeni"},
         {"name": "Eduardo Uslenghi"}
@@ -4244,50 +4165,51 @@
   },
   {
     "date": "1921-09-25",
-    "competition": "Unofficial",
-    "venue": {"name": "VINA DEL MAR"},
+    "competition": "Friendly",
+    "venue": {"name": "Valparaíso Sporting Club", "city": "Viña del Mar"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 4],
     "result": "W",
     "goals": [
-      [{"name": "Guillermo Saavedra", "type": "G"}],
+      [{"name": "Guillermo Saavedra", "min": "60", "type": "G"}],
       [
-        {"name": "Manuel Seoane", "type": "G"},
-        {"name": "G Caldas", "type": "G"},
-        {"name": "R Lucarelli", "type": "G"},
-        {"name": "R Lucarelli", "type": "G"}
+        {"name": "Manuel Seoane", "min": "15", "type": "G"},
+        {"name": "Manuel Seoane", "min": "70", "type": "G"},
+        {"name": "Manuel Seoane", "min": "73", "type": "G"},
+        {"name": "Gerardo Caldás", "min": "85", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "G Barnel"},
+        {"name": "Victor Zavala"},
         {"name": "Ulises Poirier"},
         {"name": "Humberto Elgueta"},
-        {"name": "Guillermo Saavedra"},
-        {"name": "G Barnel"},
-        {"name": "Aurelio Dominguez"},
-        {"name": "Alfredo France"},
-        {"name": "Eufemio Fuentes"},
-        {"name": "Juan Legaretta"},
-        {"name": "Enrique Teuche"},
         {"name": "Victor Toro"},
-        {"name": "Victor Zavala"}
+        {"name": "Enrique Teuche"},
+        {"name": "Guillermo Saavedra"},
+        {"name": "Juan Legaretta"},
+        {"name": "Eufemio Fuentes"},
+        {"name": "Alfredo France"},
+        {"name": "Aurelio Domínguez"}
       ],
       [
-        {"name": "L Boffi"},
-        {"name": "G Caldas"},
-        {"name": "Roberto Castagnola"},
-        {"name": "Pedro Bleo Fournol Calomino"},
-        {"name": "Carlos Isola"},
-        {"name": "R Lucarelli"},
-        {"name": "Pedro Omer"},
-        {"name": "Manuel Pardal"},
-        {"name": "Juan Salvador Presta"},
+        {"name": "Emilio Fernández"},
+        {"name": "Pedro Omar"},
+        {"name": "Humberto Recanatini"},
+        {"name": "Ernesto Mattozzi"},
+        {"name": "Josè Boffi"},
+        {"name": "Luis Célico"},
+        {"name": "Adolfo Heissinger"},
+        {"name": "Albérico Zabaleta"},
+        {"name": "Gerardo Caldás"},
         {"name": "Manuel Seoane"},
-        {"name": "Eduardo Uslenghi"}
+        {"name": "Manuel Pardal"}
       ]
-    ]
+    ],
+    "sources": ["RSSSF", "El Gráfico"]
   },
   {
     "date": "1921-10-02",
@@ -4306,7 +4228,7 @@
         {"name": "Jaime Chavin"},
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Julio Libonatti"},
         {"name": "José Alfredo Lopez"},
         {"name": "Emilio Solari"},
@@ -4351,7 +4273,7 @@
         {"name": "Adolfo Celli"},
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Vicente González"},
         {"name": "Julio Libonatti"},
         {"name": "Juan Salvador Presta"},
@@ -4390,7 +4312,7 @@
         {"name": "Adolfo Celli"},
         {"name": "Manuel Dellavalle"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Vicente González"},
         {"name": "Julio Libonatti"},
         {"name": "José Alfredo Lopez"},
@@ -4631,7 +4553,7 @@
         {"name": "Ludovico Bidoglio"},
         {"name": "José Caldera"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Carlos Iribarren"},
         {"name": "Carlos Izaguirre"},
         {"name": "Guillermo S Magistretti"},
@@ -4726,7 +4648,7 @@
         {"name": "Pedro Castoldi"},
         {"name": "Edwin Clarcke"},
         {"name": "Raul Echeverria"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Carlos Iribarren"},
         {"name": "Carlos Izaguirre"},
         {"name": "Secundo Medici"},
@@ -4805,7 +4727,7 @@
         {"name": "Florindo Bearzotti"},
         {"name": "Adolfo Celli"},
         {"name": "Victorio Faggiani"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Juan Francia"},
         {"name": "Julio Libonetti"},
         {"name": "Secundo Medici"},
@@ -4929,7 +4851,7 @@
         {"name": "Juan Evaristo"},
         {"name": "Ludovico Bidoglo"},
         {"name": "Angel Chiessa"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Carlos Izaguirre"},
         {"name": "Ramon Muttis"},
         {"name": "Cesareo Onzari"},
@@ -5213,7 +5135,7 @@
     "coaches": [null, {"name": "Chico Netto"}],
     "lineups": [
       [
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "José Gurutchague"},
         {"name": "Jorge Iribarren"},
         {"name": "Carlos Lalaurette"},
@@ -5548,7 +5470,7 @@
         {"name": "Vicente Aguirre"},
         {"name": "Roberto Cochrane"},
         {"name": "Eduardo Dimare"},
-        {"name": "Pedro Bleo Fournol Calomino"},
+        {"name": "Pedro Calomino"},
         {"name": "Osvaldo Goicoechea"},
         {"name": "José Gurutchague"},
         {"name": "Alejandro Laurenzano"},
