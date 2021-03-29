@@ -154,7 +154,7 @@
   {
     "date": "1906-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Gran Parque Central", "city": "Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -246,13 +246,13 @@
   {
     "date": "1907-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Estudiantes, Buenos Aires"},
+    "venue": {"name": "Estudiantes", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Eliseo Brown", "min": "35", "type": "G"},
+        {"name": "Eliseo Brown", "min": "34", "type": "G"},
         {"name": "Arturo Jacobs", "min": "40", "type": "G"}
       ],
       [{"name": "Pedro Zibechi", "min": "68", "type": "G"}]
@@ -261,42 +261,43 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
+        {"name": "José Buruca Laforia"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Armando Ginocchio"},
-        {"name": "Haroldo M Grant"},
         {"name": "Arturo Jacobs"},
-        {"name": "José Buruca Laforia"},
+        {"name": "Haroldo Grant"},
         {"name": "R Pertino"},
-        {"name": "José Susan"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Alfredo Brown"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Eliseo Brown"},
+        {"name": "José Susán"}
       ],
       [
-        {"name": "Juan Carlos Bertone"},
-        {"name": "Francisco Branda"},
-        {"name": "Aniceto Camacho"},
-        {"name": "Caferino Camacho"},
-        {"name": "Rafael De Miquelerena"},
         {"name": "Santiago Demarchi"},
+        {"name": "Juan Carlos Bertone"},
         {"name": "Marcos Frommel"},
-        {"name": "Eugene Manana"},
+        {"name": "Caferino Camacho"},
+        {"name": "Francisco Branda"},
+        {"name": "Pedro Zúazu"},
+        {"name": "Rafael De Miquelerena"},
         {"name": "Juan Pena"},
-        {"name": "Pedro Zibechi"},
-        {"name": "Pedro Zúazu"}
+        {"name": "Aniceto Camacho"},
+        {"name": "Eugenio Mañana"},
+        {"name": "Pedro Zibechi"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF", "RSSSF"]
   },
   {
     "date": "1907-10-06",
     "competition": "Copa Newton",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [{"name": "Alberto Zumarán", "min": "55", "type": "G"}],
+      [{"name": "Pedro Zibechi", "min": "55", "type": "G"}],
       [
         {"name": "Ricardo Malbrán", "min": "27", "type": "G"},
         {"name": "Ricardo Malbrán", "min": "59", "type": "G"}
@@ -306,32 +307,33 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Juan Carlos Bertone"},
-        {"name": "Francisco Branda"},
-        {"name": "Alberto Cantury"},
-        {"name": "Luis Piñeyro Carve"},
-        {"name": "Rafael De Miquelerena"},
         {"name": "Santiago Demarchi"},
-        {"name": "Juan M Fernandez de la Sierra"},
-        {"name": "Luis Panizzi"},
-        {"name": "Pedro Zibechi"},
+        {"name": "Juan Fernández De La Sierra"},
+        {"name": "Juan Carlos Bertone"},
+        {"name": "Luis Piñeyro Carve"},
+        {"name": "Francisco Branda"},
         {"name": "Pedro Zúazu"},
-        {"name": "Alberto Zumarán"}
+        {"name": "Rafael De Miquelerena"},
+        {"name": "Alberto Cantury"},
+        {"name": "Luis Panizzi"},
+        {"name": "Alberto Zumarán"},
+        {"name": "Pedro Zibechi"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Colin Campbell"},
-        {"name": "Arturo Forrester"},
-        {"name": "Arturo Jacobs"},
-        {"name": "Ricardo Malbrán"},
-        {"name": "Juan Antonio Murray"},
         {"name": "Guillermo Ross"},
-        {"name": "Carlos H Whaley"},
-        {"name": "Juan H Wood"}
+        {"name": "Juan Murray"},
+        {"name": "Juan Wood"},
+        {"name": "Arturo Forrester"},
+        {"name": "Alfredo Brown"},
+        {"name": "Carlos Whaley"},
+        {"name": "Arturo Jacobs"},
+        {"name": "Ricardo Malbrán"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1908-07-09",
@@ -483,7 +485,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Patricio Browne"},
         {"name": "Arturo Jacobs"},
-        {"name": "José Susan"},
+        {"name": "José Susán"},
         {"name": "Maximiliano Susán"},
         {"name": "Arnoldo Watson Hutton"},
         {"name": "Gottlob Weiss"}
@@ -588,7 +590,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Harold A Lloyd"},
-        {"name": "Juan Antonio Murray"},
+        {"name": "Juan Murray"},
         {"name": "Juan A Rossi"},
         {"name": "JB Sheridan"},
         {"name": "Maximiliano Susán"},
@@ -668,7 +670,7 @@
         {"name": "Santiago Pio Gallino"},
         {"name": "Armando Ginocchio"},
         {"name": "Manuel Pedro González"},
-        {"name": "Haroldo M Grant"},
+        {"name": "Haroldo Grant"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Enrique Rojo"},
         {"name": "Maximiliano Susán"},
@@ -841,7 +843,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
         {"name": "Armando Ginocchio"},
-        {"name": "Haroldo M Grant"},
+        {"name": "Haroldo Grant"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Maximiliano Susán"},
         {"name": "José Viale"},
@@ -905,7 +907,7 @@
         {"name": "Santiago Pio Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
-        {"name": "Haroldo M Grant"},
+        {"name": "Haroldo Grant"},
         {"name": "Juan José Rithner"},
         {"name": "Eduardo Rothschild"},
         {"name": "José Viale"},
@@ -958,7 +960,7 @@
         {"name": "Santiago Pio Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
-        {"name": "Haroldo M Grant"},
+        {"name": "Haroldo Grant"},
         {"name": "Juan José Rithner"},
         {"name": "Eduardo Rothschild"},
         {"name": "José Viale"},
@@ -1002,7 +1004,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elias Fernandez"},
-        {"name": "Haroldo M Grant"},
+        {"name": "Haroldo Grant"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Carlos Lett"},
         {"name": "Miguel Malbrán"},
@@ -1372,7 +1374,6 @@
         {"name": "José Piendibene"},
         {"name": "Carlos Scarone"},
         {"name": "Ángel Romano"}
-
       ]
     ],
     "sources": ["El Gráfico", "AUF"]
@@ -7155,7 +7156,7 @@
   {
     "date": "1930-07-15",
     "competition": "World Cup",
-    "venue": {"name": "Gran Parque Central", "city": "Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "France"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
