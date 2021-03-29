@@ -114,7 +114,7 @@
   {
     "date": "1905-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Sportiva", "city": "Buenos Aires"},
+    "venue": {"name": "Campo de la Sociedad Sportiva", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
     "result": "D",
@@ -154,14 +154,14 @@
   {
     "date": "1906-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Gran Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
     "goals": [
       [],
       [
-        {"name": "Alfredo C Brown", "min": "28", "type": "G"},
+        {"name": "Alfredo Brown", "min": "28", "type": "G"},
         {"name": "Tristan González", "min": "85", "type": "G"}
       ]
     ],
@@ -170,36 +170,37 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Cándido Hernández Bentancor"},
-        {"name": "Aniceto Camacho"},
-        {"name": "Caferino Camacho"},
-        {"name": "Alejandro Cordero"},
-        {"name": "Carlos Cibis Juarez"},
-        {"name": "Felix Lourtet"},
-        {"name": "Juan Pena"},
-        {"name": "Ernesto Boutón Reyes"},
         {"name": "Carlos Carve Urioste"},
-        {"name": "Pedro Zibechi"}
+        {"name": "Ernesto Boutón Reyes"},
+        {"name": "Caferino Camacho"},
+        {"name": "Félix Lourtet"},
+        {"name": "Carlos Cibils Juárez"},
+        {"name": "Juan Pena"},
+        {"name": "Pedro Zibechi"},
+        {"name": "Aniceto Camacho"},
+        {"name": "Cándido Hernández Bentancor"},
+        {"name": "Alejandro Cordero"}
       ],
       [
-        {"name": "Alfredo C Brown"},
-        {"name": "Eliseo Brown"},
-        {"name": "Jorge Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Patricio Browne"},
-        {"name": "Carlos Buchanan"},
-        {"name": "Zenon Diaz"},
-        {"name": "Carlos Dickinson"},
-        {"name": "Tristan González"},
         {"name": "José Buruca Laforia"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Jorge Brown"},
+        {"name": "Zenón Díaz"},
+        {"name": "Carlos Dickinson"},
+        {"name": "Carlos Buchanan"},
+        {"name": "Patricio Browne"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Alfredo Brown"},
+        {"name": "Juan Domingo Brown"},
+        {"name": "Tristan González"},
+        {"name": "Eliseo Brown"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1906-10-21",
     "competition": "Copa Newton",
-    "venue": {"name": "Sportiva BUENOS AIRES"},
+    "venue": {"name": "Campo de la Sociedad Sportiva", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -214,32 +215,33 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Eliseo Brown"},
-        {"name": "Jorge Brown"},
+        {"name": "Ricardo Coulthurst"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio Browne"},
-        {"name": "Carlos Buchanan"},
-        {"name": "Ricardo L Coulthurst"},
+        {"name": "Jorge Brown"},
         {"name": "Carlos Dickinson"},
-        {"name": "Hector J Henman"},
-        {"name": "Wilfredo A Stocks"},
+        {"name": "Carlos Buchanan"},
+        {"name": "Patricio Browne"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Hèctor Henman"},
         {"name": "Arnoldo Watson Hutton"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Eliseo Brown"},
+        {"name": "Wilfredo Stocks"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Martin Aphesteguy"},
-        {"name": "Cándido Hernández Bentancor"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Juan Carlos Bertone"},
+        {"name": "Luis Piñeyro Carve"},
         {"name": "Francisco Branda"},
-        {"name": "Luis Pineyro Carve"},
+        {"name": "Enrique Sardeson"},
         {"name": "Rafael De Miquelerena"},
         {"name": "Juan Pena"},
         {"name": "Gilberto Peralta"},
-        {"name": "Enrique Sardeson"},
-        {"name": "Alberto Zumaran"}
+        {"name": "Alberto Zumarán"},
+        {"name": "Cándido Hernández Bentancor"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1907-08-15",
@@ -259,7 +261,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
@@ -294,7 +296,7 @@
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [{"name": "Alberto Zumaran", "min": "55", "type": "G"}],
+      [{"name": "Alberto Zumarán", "min": "55", "type": "G"}],
       [
         {"name": "Ricardo Malbrán", "min": "27", "type": "G"},
         {"name": "Ricardo Malbrán", "min": "59", "type": "G"}
@@ -307,18 +309,18 @@
         {"name": "Juan Carlos Bertone"},
         {"name": "Francisco Branda"},
         {"name": "Alberto Cantury"},
-        {"name": "Luis Pineyro Carve"},
+        {"name": "Luis Piñeyro Carve"},
         {"name": "Rafael De Miquelerena"},
         {"name": "Santiago Demarchi"},
         {"name": "Juan M Fernandez de la Sierra"},
         {"name": "Luis Panizzi"},
         {"name": "Pedro Zibechi"},
         {"name": "Pedro Zúazu"},
-        {"name": "Alberto Zumaran"}
+        {"name": "Alberto Zumarán"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Colin Campbell"},
         {"name": "Arturo Forrester"},
@@ -355,7 +357,7 @@
       [],
       [
         {"name": "Luis Vernet Amadeo"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
@@ -377,7 +379,7 @@
     "result": "D",
     "goals": [
       [
-        {"name": "Alberto Zumaran", "min": "28", "type": "G"},
+        {"name": "Alberto Zumarán", "min": "28", "type": "G"},
         {"name": "Juan Carlos Bertone", "min": "75", "type": "G"}
       ],
       [
@@ -397,14 +399,14 @@
         {"name": "Carlos Marques Castro"},
         {"name": "Pablo Dacal"},
         {"name": "Marcos Frommel"},
-        {"name": "Vicente Modena"},
+        {"name": "Vicente Módena"},
         {"name": "Raul Ribeyro"},
-        {"name": "Alberto Zumaran"}
+        {"name": "Alberto Zumarán"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Luis Vernet Amadeo"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Patricio Browne"},
@@ -435,7 +437,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
@@ -456,8 +458,8 @@
         {"name": "Pablo Dacal"},
         {"name": "Marcos Frommel"},
         {"name": "Guillermo Manito"},
-        {"name": "Vicente Modena"},
-        {"name": "Alberto Zumaran"}
+        {"name": "Vicente Módena"},
+        {"name": "Alberto Zumarán"}
       ]
     ]
   },
@@ -475,7 +477,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
@@ -495,7 +497,7 @@
         {"name": "Fedenco Crocker"},
         {"name": "Pablo Dacal"},
         {"name": "Anibal Zabican Falco"},
-        {"name": "Vicente Modena"},
+        {"name": "Vicente Módena"},
         {"name": "Juan Pena"},
         {"name": "Pedro Zúazu"}
       ]
@@ -513,7 +515,7 @@
         {"name": "Arnoldo Watson Hutton", "min": "25", "type": "G"},
         {"name": "Eliseo Brown", "min": "26", "type": "G"}
       ],
-      [{"name": "Alberto Zumaran", "min": "88", "type": "G"}]
+      [{"name": "Alberto Zumarán", "min": "88", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
@@ -537,12 +539,12 @@
         {"name": "José Brachi"},
         {"name": "Pablo Dacal"},
         {"name": "Anibal Zabican Falco"},
-        {"name": "Felix Lourtet"},
-        {"name": "Vicente Modena"},
+        {"name": "Félix Lourtet"},
+        {"name": "Vicente Módena"},
         {"name": "Carlos Ronzoni"},
         {"name": "Carlos Scarone"},
         {"name": "Pedro Zúazu"},
-        {"name": "Alberto Zumaran"}
+        {"name": "Alberto Zumarán"}
       ]
     ]
   },
@@ -604,9 +606,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Alfredo C Brown", "min": "3", "type": "G"},
+        {"name": "Alfredo Brown", "min": "3", "type": "G"},
         {"name": "Jorge Brown", "min": "13", "type": "P"},
-        {"name": "Alfredo C Brown", "min": "65", "type": "G"}
+        {"name": "Alfredo Brown", "min": "65", "type": "G"}
       ],
       [{"name": "Santiago Raymonda", "min": "35", "type": "G"}]
     ],
@@ -615,7 +617,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
@@ -634,7 +636,7 @@
         {"name": "Angel Cavallotti"},
         {"name": "Anibal Zabican Falco"},
         {"name": "Alberto Garcia I"},
-        {"name": "Felix Lourtet"},
+        {"name": "Félix Lourtet"},
         {"name": "Juan Pena"},
         {"name": "Santiago Raymonda"},
         {"name": "Pedro Zúazu"}
@@ -782,7 +784,7 @@
         {"name": "Juan Carlos Bertone"},
         {"name": "José Benincasa"},
         {"name": "Juan Pena"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Pedro Zúazu"},
         {"name": "Robert Sidney Buck"},
         {"name": "Pablo Dacal"},
@@ -825,8 +827,8 @@
         {"name": "José Benincasa"},
         {"name": "Juan Carlos Bertone"},
         {"name": "Pablo Dacal"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Juan Pena"},
         {"name": "Oscar Sanz"},
         {"name": "Carlos Scarone"},
@@ -912,11 +914,11 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Piendibene"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Juan Harley"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Luis Quaglia"},
         {"name": "Carlos Scarone"},
         {"name": "Pedro Seoanne"},
@@ -964,13 +966,13 @@
       ],
       [
         {"name": "José Piendibene"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Leonardo Crossley"},
         {"name": "Juan Harley"},
-        {"name": "Vicente Modena"},
+        {"name": "Vicente Módena"},
         {"name": "Luis Ouagha"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"},
         {"name": "Pedro Seoanne"},
         {"name": "Pedro Zúazu"}
@@ -1011,12 +1013,12 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "José Benincasa"},
         {"name": "José Brachi"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Jorge G Pacheco"},
+        {"name": " José María Durán"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ramon Rios"},
         {"name": "Carlos Ronzoni"}
       ]
@@ -1032,10 +1034,10 @@
     "goals": [
       [
         {"name": "Felipe Canavessi", "min": "58", "type": "G"},
-        {"name": "Angel Romano", "min": "60", "type": "G"}
+        {"name": "Ángel Romano", "min": "60", "type": "G"}
       ],
       [
-        {"name": "Alfredo C Brown", "min": "31", "type": "G"},
+        {"name": "Alfredo Brown", "min": "31", "type": "G"},
         {"name": "Eliseo Brown", "min": "54", "type": "G"},
         {"name": "Eliseo Brown", "min": "75", "type": "G"}
       ]
@@ -1047,18 +1049,18 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Brachi"},
         {"name": "Felipe Canavessi"},
         {"name": "Juan Harley"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ramon Rios"},
         {"name": "Carlos Ronzoni"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
@@ -1089,19 +1091,19 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Felipe Canavessi"},
         {"name": "Pablo Dacal"},
         {"name": "Juan Harley"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ramon Rios"},
         {"name": "Carlos Ronzoni"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo C Brown"},
+        {"name": "Alfredo Brown"},
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
@@ -1148,14 +1150,14 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Miguel Aphesteguy"},
         {"name": "Felipe Canavessi"},
         {"name": "Pablo Dacal"},
         {"name": "Juan Harley"},
-        {"name": "Vicente Modena"},
+        {"name": "Vicente Módena"},
         {"name": "Edmundo Novoa"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ramon Rios"}
       ]
     ]
@@ -1182,14 +1184,14 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Miguel Aphesteguy"},
         {"name": "Felipe Canavessi"},
         {"name": "Pablo Dacal"},
         {"name": "Juan Harley"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ramon Rios"}
       ],
       [
@@ -1228,13 +1230,13 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": " José María Durán"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
       ],
       [
@@ -1281,7 +1283,7 @@
         {"name": "Luis Povey"},
         {"name": "Arturo Reparaz"},
         {"name": "Cirilo P Russ"},
-        {"name": "Ernesto A Sande"},
+        {"name": "Ernesto Sande"},
         {"name": "Maximiliano Susán"}
       ],
       []
@@ -1299,7 +1301,7 @@
       [
         {"name": "Pablo Dacal", "min": "33", "type": "G"},
         {"name": "Carlos Scarone", "min": "43", "type": "G"},
-        {"name": "Angel Romano", "min": "77", "type": "G"}
+        {"name": "Ángel Romano", "min": "77", "type": "G"}
       ],
       []
     ],
@@ -1310,13 +1312,13 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": " José María Durán"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
       ],
       [
@@ -1346,32 +1348,34 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Antonio Apraiz"},
-        {"name": "Geronimo Badaracco"},
-        {"name": "Pedro Calomino"},
-        {"name": "Juan Johnston"},
-        {"name": "A Marquez"},
-        {"name": "Antonio Piaggio"},
-        {"name": "Pascual Polimeni"},
-        {"name": "Arturo Reparaz"},
         {"name": "Juan José Rithner"},
-        {"name": "Ernesto A Sande"},
-        {"name": "Santiago Sayanes"}
+        {"name": "Antonio Apraiz"},
+        {"name": "Arturo Reparaz"},
+        {"name": "Juan Johnston"},
+        {"name": "Ernesto Sande"},
+        {"name": "Gerónimo Badaracco"},
+        {"name": "Pedro Calomino"},
+        {"name": "A Márquez"},
+        {"name": "Antonio Piaggio"},
+        {"name": "Santiago Sayanes"},
+        {"name": "Pascual Polimeni"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Alfredo Foglino"},
-        {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
         {"name": "José Benincasa"},
+        {"name": "Martín Aphesteguy"},
+        {"name": "Jorge Pacheco"},
+        {"name": "José María Durán"},
+        {"name": "Alfredo Foglino"},
+        {"name": "Vicente Módena"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
-        {"name": "Carlos Scarone"}
+        {"name": "José Piendibene"},
+        {"name": "Carlos Scarone"},
+        {"name": "Ángel Romano"}
+
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-2",
@@ -1388,7 +1392,7 @@
         {"name": "José Viale", "min": "69", "type": "G"}
       ],
       [
-        {"name": "Angel Romano", "min": "17", "type": "G"},
+        {"name": "Ángel Romano", "min": "17", "type": "G"},
         {"name": "Pablo Dacal", "min": "38", "type": "G"},
         {"name": "Carlos Scarone", "min": "78", "type": "G"}
       ]
@@ -1413,13 +1417,13 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Vicente Modena"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "José María Durán"},
+        {"name": "Vicente Módena"},
+        {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
       ]
     ]
@@ -1446,14 +1450,14 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
-        {"name": "Angel Romano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Ángel Romano"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Francisco Castellino"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
+        {"name": " José María Durán"},
         {"name": "Antonio Marques Castro"},
         {"name": "Luis Ouaglia"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
       ],
       [
@@ -1499,15 +1503,15 @@
         {"name": "Arnoldo Watson Hutton"}
       ],
       [
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Miguel Aphesteguy"},
         {"name": "Pablo Dacal"},
         {"name": "Santiago Demarchi"},
-        {"name": "José Maria Duran Guani"},
+        {"name": " José María Durán"},
         {"name": "Antonio Fannasso"},
         {"name": "Lucio Gorta"},
         {"name": "Alfredo Granja"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Bernardo Savio"},
         {"name": "Pedro Seoanne"}
       ]
@@ -1548,14 +1552,14 @@
         {"name": "Cayetano Saporiti"},
         {"name": "José Piendibene", "out": "46"},
         {"name": "Luis Altamirano", "in": "46"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Carlos Bastos"},
         {"name": "José Benincasa"},
-        {"name": "José Maria Duran Guani"},
+        {"name": " José María Durán"},
         {"name": "Antonio Fannasso"},
-        {"name": "Vicente Modena", "out": "30"},
+        {"name": "Vicente Módena", "out": "30"},
         {"name": "Juan Delgado", "in": "30"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Bernardo Savio"},
         {"name": "Pedro Seoanne"}
       ]
@@ -1589,14 +1593,14 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Perez"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Carlos Marques Castro"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
+        {"name": " José María Durán"},
         {"name": "Lucio Gorta"},
         {"name": "Vicente Legarburo"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Pedro Zibechi"}
       ],
       [{"name": "Guillermo Dannaher"}, {"name": "R Guidi"}]
@@ -1639,11 +1643,11 @@
         {"name": "José Perez"},
         {"name": "José Piendibene"},
         {"name": "Luis Altamirano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "José Maria Duran Guani"},
-        {"name": "Jorge G Pacheco"},
+        {"name": " José María Durán"},
+        {"name": "Jorge Pacheco"},
         {"name": "Cayetano Saporiti"},
         {"name": "Bernardo Savio"},
         {"name": "Ricardo Vallarino"}
@@ -1669,7 +1673,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Guillermo Dannaher"},
         {"name": "Zenon Diaz"},
         {"name": "Carlos Guidi"},
@@ -1678,7 +1682,7 @@
         {"name": "Pascual Polimeni"},
         {"name": "Arturo Reparaz"},
         {"name": "Juan José Rithner"},
-        {"name": "Ernesto A Sande"},
+        {"name": "Ernesto Sande"},
         {"name": "Santiago Sayanes"}
       ],
       [
@@ -1691,7 +1695,7 @@
         {"name": "Lucio Gorta"},
         {"name": "Alfredo Granja"},
         {"name": "Alberto Landera"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "José Tognola"}
       ]
     ]
@@ -1738,12 +1742,12 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Lucio Gorta"},
         {"name": "Juan Harley"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Antonio Retta"},
         {"name": "Ricardo Vallarino"},
         {"name": "Pedro Zibechi"}
@@ -1779,13 +1783,13 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "Luis Altamirano"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Lucio Gorta"},
         {"name": "Juan Harley"},
         {"name": "Manuel Lazaro"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Ricardo Vallarino"}
       ],
       [
@@ -1838,7 +1842,7 @@
         {"name": "Ricardo Vallarino"}
       ],
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Alfredo Bruno"},
         {"name": "Juan Cabano"},
         {"name": "Guillermo Dannaher"},
@@ -1847,7 +1851,7 @@
         {"name": "Rodolfo Martinez"},
         {"name": "Pascual Polimeni"},
         {"name": "Juan José Rithner"},
-        {"name": "Ernesto A Sande"},
+        {"name": "Ernesto Sande"},
         {"name": "Santiago Sayanes"}
       ]
     ]
@@ -1965,7 +1969,7 @@
         {"name": "Ricardo Naon"},
         {"name": "Antonio Piaggio"},
         {"name": "Juan José Rithner"},
-        {"name": "Ernesto A Sande"},
+        {"name": "Ernesto Sande"},
         {"name": "Santiago Sayanes"}
       ],
       [
@@ -2007,7 +2011,7 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Perez"},
-        {"name": "Martin Aphesteguy"},
+        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Isabelino Gradin"},
@@ -2019,7 +2023,7 @@
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Elias Fernandez"},
@@ -2050,7 +2054,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
         {"name": "Candido Garcia"},
@@ -2066,11 +2070,11 @@
         {"name": "Cayetano Saporiti"},
         {"name": "José Perez"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Manuel Lazaro"},
-        {"name": "Jorge G Pacheco"},
+        {"name": "Jorge Pacheco"},
         {"name": "Bernardo Savio"},
         {"name": "José Vanzino"},
         {"name": "Manuel Varela"}
@@ -2109,7 +2113,7 @@
         {"name": "José Vanzino"}
       ],
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Angel Bethular"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -2146,7 +2150,7 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Carlos Guidi"},
         {"name": "Adolfo F Heissinger"},
@@ -2187,7 +2191,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Claudio Bincaz"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
@@ -2227,7 +2231,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Marcos Crocce"},
         {"name": "Adolfo F Heissinger"},
         {"name": "Juan Hospital"},
@@ -2266,7 +2270,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Zenon Diaz"},
         {"name": "Ennis Hayes"},
         {"name": "Juan Enrique Hayes"},
@@ -2330,7 +2334,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Juan Delgado"},
         {"name": "Isabelino Gradin"},
         {"name": "Rodolfo Maran"},
@@ -2368,7 +2372,7 @@
         {"name": "Alberto Juan Ohaco"},
         {"name": "Pascual Polimeni"},
         {"name": "Armando Reyes"},
-        {"name": "Ernesto A Sande"},
+        {"name": "Ernesto Sande"},
         {"name": "Santiago Sayanes"}
       ],
       [
@@ -2415,7 +2419,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Juan Delgado"},
         {"name": "Isabelino Gradin"},
         {"name": "Alfredo Granja"},
@@ -2515,7 +2519,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "José Benincasa"},
         {"name": "Isabelino Gradin"},
         {"name": "Carlos Mongelar"},
@@ -2534,7 +2538,7 @@
         {"name": "Ernesto Mattozzi"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"},
-        {"name": "Ernesto A Sande"}
+        {"name": "Ernesto Sande"}
       ]
     ]
   },
@@ -2610,7 +2614,7 @@
       [
         {"name": "Antonio Urdinaran"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Alfredo Balmeli"},
         {"name": "Juan Delgado"},
         {"name": "Isabelino Gradin"},
@@ -2630,7 +2634,7 @@
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
-    "goals": [[{"name": "Angel Romano", "min": "83", "type": "G"}], []],
+    "goals": [[{"name": "Ángel Romano", "min": "83", "type": "G"}], []],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -2639,7 +2643,7 @@
         {"name": "Antonio Urdinaran"},
         {"name": "Pascual Somma"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Jorge German Pacheco"},
         {"name": "Gregorio Rodriguez"},
@@ -2769,7 +2773,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Pascual Somma"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Jorge German Pacheco"},
         {"name": "Gregorio Rodriguez"},
@@ -2855,7 +2859,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Antonio Campolo"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "José Benincasa"},
         {"name": "Americo Carbone"},
         {"name": "Isabelino Gradin"},
@@ -2888,8 +2892,8 @@
     "goals": [
       [
         {"name": "Héctor Pedro Scarone", "min": "7", "type": "G"},
-        {"name": "Angel Romano", "min": "9", "type": "G"},
-        {"name": "Angel Romano", "min": "64", "type": "G"}
+        {"name": "Ángel Romano", "min": "9", "type": "G"},
+        {"name": "Ángel Romano", "min": "64", "type": "G"}
       ],
       [{"name": "Candido Garcia", "min": "23", "type": "G"}]
     ],
@@ -2901,7 +2905,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Americo Carbone"},
@@ -2936,7 +2940,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Eduardo Blanco"},
         {"name": "Roberto Castagnola"},
         {"name": "Edwin Clarcke"},
@@ -2954,7 +2958,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Juan Delgado"},
@@ -3000,7 +3004,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Sad Couture"},
@@ -3029,7 +3033,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Juan Delgado"},
@@ -3038,7 +3042,7 @@
         {"name": "José Vanzzino"}
       ],
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Antonio Blanco"},
         {"name": "Eduardo Blanco"},
         {"name": "Jorge Calandra"},
@@ -3071,7 +3075,7 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Geronimo Badaracco"},
+        {"name": "Gerónimo Badaracco"},
         {"name": "Antonio Blanco"},
         {"name": "Jorge Calandra"},
         {"name": "Roberto Castagnola"},
@@ -3089,7 +3093,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Antonio Campolo"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Santiago Anzuberro"},
         {"name": "Sad Couture"},
@@ -3186,7 +3190,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "José Perez"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Juan Delgado"},
         {"name": "Isabelino Gradin"},
@@ -3525,7 +3529,7 @@
         {"name": "Héctor Pedro Scarone", "min": "1", "type": "G"},
         {"name": "Omar Perez", "min": "17", "type": "G"},
         {"name": "Héctor Pedro Scarone", "min": "22", "type": "G"},
-        {"name": "Angel Romano", "min": "24", "type": "G"}
+        {"name": "Ángel Romano", "min": "24", "type": "G"}
       ],
       [{"name": "Ennis Hayes", "min": "83", "type": "G"}]
     ],
@@ -3537,7 +3541,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Vicente Clavijo"},
         {"name": "Juan Delgado"},
@@ -3584,7 +3588,7 @@
         {"name": "Pascual Ruotta"},
         {"name": "José Perez"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Vicente Clavijo"},
         {"name": "Omar Perez"},
         {"name": "Abraham Rebori"},
@@ -3642,7 +3646,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Americo Carbone"},
         {"name": "Vicente Clavijo"},
@@ -3692,7 +3696,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Manuel Beloutas"},
         {"name": "Americo Carbone"},
         {"name": "Arturo Fraga"},
@@ -3732,7 +3736,7 @@
         {"name": "Pascual Ruotta"},
         {"name": "José Perez"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Vicente Clavijo"},
@@ -3763,7 +3767,7 @@
     "goals": [
       [
         {"name": "Héctor Pedro Scarone", "min": "18", "type": "G"},
-        {"name": "Angel Romano", "min": "56", "type": "G"}
+        {"name": "Ángel Romano", "min": "56", "type": "G"}
       ],
       []
     ],
@@ -3777,7 +3781,7 @@
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Juan Delgado"},
@@ -3808,7 +3812,7 @@
     "goals": [
       [{"name": "Edwin Clarcke", "min": "46", "type": "G"}],
       [
-        {"name": "Angel Romano", "min": "6", "type": "G"},
+        {"name": "Ángel Romano", "min": "6", "type": "G"},
         {"name": "Pascual Somma", "min": "33", "type": "G"},
         {"name": "José Piendibene", "min": "85", "type": "G"}
       ]
@@ -3836,7 +3840,7 @@
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
         {"name": "Juan Delgado"},
@@ -3877,7 +3881,7 @@
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Juan Delgado"},
         {"name": "Isabelino Gradin"},
         {"name": "Juan Lagnazzi"}
@@ -3923,7 +3927,7 @@
         {"name": "Pascual Somma"},
         {"name": "José Perez"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"}
+        {"name": "Ángel Romano"}
       ]
     ]
   },
@@ -4296,7 +4300,7 @@
         {"name": "Antonio Campolo"},
         {"name": "Pascual Somma"},
         {"name": "José Piendibene"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Manuel Beloutas"},
         {"name": "José Benincasa"},
         {"name": "Norberto Casanello"},
@@ -4396,7 +4400,7 @@
         {"name": "Antonio Urdinaran"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Antonio Aguirre"},
         {"name": "Fausto Batignani"},
         {"name": "Felipe Buffoni"},
@@ -4597,7 +4601,7 @@
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
-    "goals": [[{"name": "Angel Romano", "min": "26", "type": "G"}], []],
+    "goals": [[{"name": "Ángel Romano", "min": "26", "type": "G"}], []],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -4606,7 +4610,7 @@
         {"name": "Antonio Urdinaran"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Antonio Aguirre"},
         {"name": "Fausto Batignani"},
         {"name": "Felipe Buffoni"},
@@ -4834,7 +4838,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "José Leandro Andrade"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Manuel Beloutas"},
         {"name": "jaime Bergolo"},
         {"name": "Alberto Nogues"},
@@ -4861,7 +4865,7 @@
       ],
       [
         {"name": "Alfredo Zibechi", "min": "65", "type": "G"},
-        {"name": "Angel Romano", "min": "72", "type": "G"}
+        {"name": "Ángel Romano", "min": "72", "type": "G"}
       ]
     ],
     "cards": [[], []],
@@ -4883,7 +4887,7 @@
       [
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "jaime Bergolo"},
         {"name": "Pedro Casella"},
         {"name": "Rodolfo Maran"},
@@ -4904,7 +4908,7 @@
     "result": "D",
     "goals": [
       [
-        {"name": "Angel Romano", "min": "9", "type": "G"},
+        {"name": "Ángel Romano", "min": "9", "type": "G"},
         {"name": "Zoilo Saldombide", "min": "15", "type": "G"}
       ],
       [
@@ -4919,7 +4923,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Felipe Buffoni"},
         {"name": "Pedro Casella"},
@@ -4964,7 +4968,7 @@
       [
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Santos Urdinarán"},
         {"name": "Pedro Casella"},
@@ -5620,7 +5624,7 @@
         {"name": "José Leandro Andrade"},
         {"name": "Pedro Cea"},
         {"name": "Pedro Petrone"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Santos Urdinarán"},
         {"name": "Andrés Mazzali"},
@@ -5674,7 +5678,7 @@
         {"name": "José Leandro Andrade"},
         {"name": "Pedro Cea"},
         {"name": "Pedro Petrone"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Alfredo Juan Ghierra"},
         {"name": "Andrés Mazzali"},
@@ -5720,7 +5724,7 @@
         {"name": "José Leandro Andrade"},
         {"name": "Pedro Cea"},
         {"name": "Pedro Petrone"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Santos Urdinarán"},
         {"name": "Andrés Mazzali"},
@@ -5831,7 +5835,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Pedro Cea"},
         {"name": "Pedro Petrone"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Santos Urdinarán"},
         {"name": "Juan Carlos Alzugaray"},
         {"name": "Pedro Arispe"},
@@ -6454,7 +6458,7 @@
       [
         {"name": "José Nasazzi"},
         {"name": "Álvaro Gestido"},
-        {"name": "Angel Romano"},
+        {"name": "Ángel Romano"},
         {"name": "Pascual Arispe"},
         {"name": "Pedro Arispe"},
         {"name": "Juan Pedro Arremon"},
@@ -7151,7 +7155,7 @@
   {
     "date": "1930-07-15",
     "competition": "World Cup",
-    "venue": {"name": "Parque Central", "city": "Montevideo"},
+    "venue": {"name": "Gran Parque Central", "city": "Montevideo"},
     "teams": [{"name": "France"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
