@@ -149,7 +149,12 @@
         {"name": "Cándido Hernández Bentancor"}
       ]
     ],
-    "sources": ["El Gráfico", "AUF"]
+    "info": {
+      "trivia": [
+        "Regular time ended in 0-0. Two additional extra time periods were played, the first of 15 minutes and the second of 6 minutes (due to lack of light)."
+      ]
+    },
+    "sources": ["El Gráfico", "AUF", "RSSSF"]
   },
   {
     "date": "1906-08-15",
@@ -428,7 +433,12 @@
         {"name": "José Brachi"}
       ]
     ],
-    "sources": ["El Gráfico", "AUF"]
+    "info": {
+      "trivia": [
+        "First match played with the Albiceleste (light blue/white vertical stripes) shirt."
+      ]
+    },
+    "sources": ["El Gráfico", "AUF", "RSSSF"]
   },
   {
     "slug": "argentina-uruguay-2",
