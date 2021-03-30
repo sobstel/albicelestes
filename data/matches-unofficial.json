@@ -1,0 +1,40 @@
+[
+  {
+    "date": "1908-07-09",
+    "competition": "Friendly",
+    "venue": {"name": "Metropolitana, Rio de Janeiro"},
+    "teams": [
+      {"name": "Brazil Rio XI", "slug": "brazil"},
+      {"name": "Argentina"}
+    ],
+    "score": [2, 3],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Lucio Burgos", "min": "14", "type": "G"},
+        {"name": "Maximiliano Susán", "min": "58", "type": "G"},
+        {"name": "Lucio Burgos", "min": "81", "type": "G"}
+      ]
+    ],
+    "cards": [[], []],
+    "coaches": [null, null],
+    "lineups": [
+      [],
+      [
+        {"name": "Guillermo Campbell"},
+        {"name": "Jorge Brown"},
+        {"name": "Juan Domingo Brown"},
+        {"name": "Carlos Dickinson"},
+        {"name": "Ernesto Brown"},
+        {"name": "Patricio Browne"},
+        {"name": "Luis Vernet Amadeo"},
+        {"name": "Alfredo Brown"},
+        {"name": "Eliseo Brown"},
+        {"name": "Lucio Burgos"},
+        {"name": "Maximiliano Susán"}
+      ]
+    ],
+    "sources": ["El Gráfico"]
+  }
+]

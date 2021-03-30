@@ -336,46 +336,9 @@
     "sources": ["El Gráfico", "AUF"]
   },
   {
-    "date": "1908-07-09",
-    "competition": "Friendly",
-    "venue": {"name": "Metropolitana, Rio de Janeiro"},
-    "teams": [
-      {"name": "Brazil Rio XI", "slug": "brazil"},
-      {"name": "Argentina"}
-    ],
-    "score": [2, 3],
-    "result": "W",
-    "goals": [
-      [],
-      [
-        {"name": "Lucio Burgos", "min": "14", "type": "G"},
-        {"name": "Maximiliano Susán", "min": "58", "type": "G"},
-        {"name": "Lucio Burgos", "min": "81", "type": "G"}
-      ]
-    ],
-    "cards": [[], []],
-    "coaches": [null, null],
-    "lineups": [
-      [],
-      [
-        {"name": "Luis Vernet Amadeo"},
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
-        {"name": "Ernesto Brown"},
-        {"name": "Jorge Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Patricio Browne"},
-        {"name": "Lucio Burgos"},
-        {"name": "Guillermo Campbell"},
-        {"name": "Carlos Dickinson"},
-        {"name": "Maximiliano Susán"}
-      ]
-    ]
-  },
-  {
     "date": "1908-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
@@ -395,41 +358,42 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "Caferino Camacho"},
-        {"name": "Alberto Cantury"},
-        {"name": "Luis Carbone"},
-        {"name": "Carlos Marques Castro"},
-        {"name": "Pablo Dacal"},
         {"name": "Marcos Frommel"},
+        {"name": "Carlos Marques Castro"},
+        {"name": "Luis Carbone"},
+        {"name": "Caferino Camacho"},
         {"name": "Vicente Módena"},
-        {"name": "Raul Ribeyro"},
+        {"name": "Pablo Dacal"},
+        {"name": "Alberto Cantury"},
+        {"name": "Raúl Ribeiro"},
         {"name": "Alberto Zumarán"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Luis Vernet Amadeo"},
-        {"name": "Alfredo Brown"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
+        {"name": "Martin Murphy"},
         {"name": "Patricio Browne"},
         {"name": "Carlos Buchanan"},
-        {"name": "Martin Murphy"},
-        {"name": "Juan A Rossi"},
+        {"name": "Luis Vernet Amadeo"},
         {"name": "Maximiliano Susán"},
+        {"name": "Alfredo Brown"},
+        {"name": "Ernesto Brown"},
+        {"name": "Juan Rossi"},
         {"name": "José Viale"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1908-09-13",
     "competition": "Copa Newton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Eliseo Brown", "min": "40", "type": "G"},
+        {"name": "Eliseo Brown", "min": "38", "type": "G"},
         {"name": "Arnoldo Watson Hutton", "min": "68", "type": "P"}
       ],
       [{"name": "José Brachi", "min": "82", "type": "G"}]
@@ -439,37 +403,38 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
-        {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio Browne"},
         {"name": "Martin Murphy"},
-        {"name": "Haroldo T Ratcliff"},
-        {"name": "Maximiliano Susán"},
+        {"name": "Patricio Browne"},
+        {"name": "Haroldo Ratcliff"},
+        {"name": "Ernesto Brown"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Alfredo Brown"},
         {"name": "Arnoldo Watson Hutton"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Eliseo Brown"},
+        {"name": "Maximiliano Susán"}
       ],
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "José Brachi"},
-        {"name": "Caferino Camacho"},
-        {"name": "Alberto Cantury"},
-        {"name": "Luis Carbone"},
-        {"name": "Pablo Dacal"},
         {"name": "Marcos Frommel"},
+        {"name": "Caferino Camacho"},
+        {"name": "Luis Carbone"},
         {"name": "Guillermo Manito"},
         {"name": "Vicente Módena"},
-        {"name": "Alberto Zumarán"}
+        {"name": "Pablo Dacal"},
+        {"name": "Alberto Cantury"},
+        {"name": "Alberto Zumarán"},
+        {"name": "José Brachi"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-2",
     "date": "1908-10-04",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 1],
     "result": "L",
@@ -479,36 +444,37 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Patricio Browne"},
-        {"name": "Arturo Jacobs"},
-        {"name": "José Susán"},
         {"name": "Maximiliano Susán"},
+        {"name": "Arturo Jacobs"},
+        {"name": "Gottlob Weiss"},
+        {"name": "Alfredo Brown"},
         {"name": "Arnoldo Watson Hutton"},
-        {"name": "Gottlob Weiss"}
+        {"name": "Eliseo Brown"},
+        {"name": "José Susán"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Brachi"},
+        {"name": "Aníbal Zapicán Falco"},
+        {"name": "Federico Crocker"},
         {"name": "Caferino Camacho"},
-        {"name": "Alberto Cantury"},
         {"name": "Luis Carbone"},
-        {"name": "Fedenco Crocker"},
-        {"name": "Pablo Dacal"},
-        {"name": "Anibal Zabican Falco"},
+        {"name": "Pedro Zúazu"},
         {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "Alberto Cantury"},
         {"name": "Juan Pena"},
-        {"name": "Pedro Zúazu"}
+        {"name": "José Brachi"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1909-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -524,47 +490,48 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Eliseo Brown"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Patricio Browne"},
+        {"name": "Ernesto Brown"},
         {"name": "Arturo Jacobs"},
-        {"name": "Eduardo Rothschild"},
         {"name": "Maximiliano Susán"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Eduardo Rothschild"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Eliseo Brown"},
+        {"name": "José Viale"}
       ],
       [
         {"name": "Cayetano Saporiti"},
+        {"name": "Aníbal Zapicán Falco"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "José Brachi"},
-        {"name": "Pablo Dacal"},
-        {"name": "Anibal Zabican Falco"},
         {"name": "Félix Lourtet"},
-        {"name": "Vicente Módena"},
-        {"name": "Carlos Ronzoni"},
-        {"name": "Carlos Scarone"},
         {"name": "Pedro Zúazu"},
-        {"name": "Alberto Zumarán"}
+        {"name": "Carlos Ronzoni"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "Carlos Scarone"},
+        {"name": "Alberto Zumarán"},
+        {"name": "José Brachi"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1909-09-19",
     "competition": "Copa Newton",
-    "venue": {"name": "Belvedere, Montevideo"},
+    "venue": {"name": "Belvedere", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
     "goals": [
       [
         {"name": "Santiago Raymonda", "min": "59", "type": "G"},
-        {"name": "Robert Sidney Buck", "min": "68", "type": "G"}
+        {"name": "Robert Buck", "min": "68", "type": "G"}
       ],
       [
         {"name": "José Viale", "min": "2", "type": "G"},
-        {"name": "Alberto Garcia I", "min": "9", "type": "OG"}
+        {"name": "Alberto García", "min": "9", "type": "OG"}
       ]
     ],
     "cards": [[], []],
@@ -572,37 +539,38 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
+        {"name": "Aníbal Zapicán Falco"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "José Brachi"},
-        {"name": "Robert Sidney Buck"},
-        {"name": "Felipe Canavessi"},
-        {"name": "Anibal Zabican Falco"},
-        {"name": "Alberto Garcia I"},
+        {"name": "Alberto García"},
         {"name": "Juan Harley"},
-        {"name": "Juan Pena"},
+        {"name": "Pedro Zúazu"},
+        {"name": "Robert Buck"},
+        {"name": "Felipe Canavessi"},
         {"name": "Santiago Raymonda"},
-        {"name": "Pedro Zúazu"}
+        {"name": "Juan Pena"},
+        {"name": "José Brachi"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
-        {"name": "Harold A Lloyd"},
+        {"name": "Harold Lloyd"},
         {"name": "Juan Murray"},
-        {"name": "Juan A Rossi"},
         {"name": "JB Sheridan"},
+        {"name": "Elías Fernández"},
+        {"name": "Juan Rossi"},
         {"name": "Maximiliano Susán"},
+        {"name": "Eliseo Brown"},
         {"name": "José Viale"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-2",
     "date": "1909-10-10",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 1],
     "result": "W",
@@ -619,31 +587,32 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
-        {"name": "Arturo Jacobs"},
-        {"name": "Henry J Lawrie"},
+        {"name": "Henry Lawrie"},
         {"name": "Maximiliano Susán"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Arturo Jacobs"},
+        {"name": "Elías Fernández"},
+        {"name": "Alfredo Brown"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Eliseo Brown"},
+        {"name": "José Viale"}
       ],
       [
-        {"name": "José Piendibene"},
+        {"name": "Miguel Ángel Cavallotti"},
+        {"name": "Aníbal Zapicán Falco"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "José Brachi"},
-        {"name": "Felipe Canavessi"},
-        {"name": "Angel Cavallotti"},
-        {"name": "Anibal Zabican Falco"},
-        {"name": "Alberto Garcia I"},
         {"name": "Félix Lourtet"},
+        {"name": "Pedro Zúazu"},
+        {"name": "Alberto García"},
+        {"name": "Felipe Canavessi"},
+        {"name": "José Piendibene"},
         {"name": "Juan Pena"},
         {"name": "Santiago Raymonda"},
-        {"name": "Pedro Zúazu"}
+        {"name": "José Brachi"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1910-05-27",
@@ -666,7 +635,7 @@
       [
         {"name": "Luis Vernet Amadeo"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Santiago Pio Gallino"},
         {"name": "Armando Ginocchio"},
         {"name": "Manuel Pedro González"},
@@ -788,7 +757,7 @@
         {"name": "Juan Pena"},
         {"name": "Martín Aphesteguy"},
         {"name": "Pedro Zúazu"},
-        {"name": "Robert Sidney Buck"},
+        {"name": "Robert Buck"},
         {"name": "Pablo Dacal"},
         {"name": "José Piendibene"},
         {"name": "Santiago Raymonda"},
@@ -841,7 +810,7 @@
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Armando Ginocchio"},
         {"name": "Haroldo Grant"},
         {"name": "Juan Enrique Hayes"},
@@ -861,8 +830,8 @@
     "goals": [
       [],
       [
-        {"name": "Henry J Lawrie", "min": "17", "type": "G"},
-        {"name": "Elias Fernandez", "min": "69", "type": "G"},
+        {"name": "Henry Lawrie", "min": "17", "type": "G"},
+        {"name": "Elías Fernández", "min": "69", "type": "G"},
         {"name": "Manuel Pedro González", "min": "80", "type": "G"}
       ]
     ],
@@ -875,10 +844,10 @@
         {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Patricio Browne"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Juan Olegario Gil"},
         {"name": "Manuel Pedro González"},
-        {"name": "Henry J Lawrie"},
+        {"name": "Henry Lawrie"},
         {"name": "Martin Murphy"},
         {"name": "JB Sheridan"},
         {"name": "José Viale"}
@@ -903,7 +872,7 @@
       [
         {"name": "Luis Vernet Amadeo"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Santiago Pio Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
@@ -956,7 +925,7 @@
       [
         {"name": "Luis Vernet Amadeo"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Santiago Pio Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
@@ -1003,7 +972,7 @@
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Haroldo Grant"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Carlos Lett"},
@@ -1067,7 +1036,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Cirilo P Russ"},
@@ -1110,7 +1079,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Maximiliano Susán"},
@@ -1142,7 +1111,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Antonio Piaggio"},
@@ -1201,9 +1170,9 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Henry J Lawrie"},
+        {"name": "Henry Lawrie"},
         {"name": "Alfredo Luis Peel Yates"},
         {"name": "Antonio Piaggio"},
         {"name": "Maximiliano Susán"},
@@ -1328,7 +1297,7 @@
         {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Robert Sidney Buck"},
+        {"name": "Robert Buck"},
         {"name": "Manuel Pedro González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Cirilo P Russ"},
@@ -1758,7 +1727,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Manuel Pedro González"},
         {"name": "Angel H Mallen"},
         {"name": "Alberto J Olivari"},
@@ -1830,12 +1799,12 @@
     "coaches": [null, null],
     "lineups": [
       [
+        {"name": "Miguel Ángel Cavallotti"},
         {"name": "Alfredo Foglino"},
         {"name": "José Piendibene"},
         {"name": "Carlos Bastos"},
         {"name": "José Benincasa"},
         {"name": "Fausto Broncini"},
-        {"name": "Angel Cavallotti"},
         {"name": "Pablo Dacal"},
         {"name": "Alfredo Granja"},
         {"name": "Juan Harley"},
@@ -2027,7 +1996,7 @@
         {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo A Chiappe"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Candido Garcia"},
         {"name": "Ennis Hayes"},
         {"name": "Juan Enrique Hayes"},
@@ -2531,7 +2500,7 @@
       [
         {"name": "Zenon Diaz"},
         {"name": "Alberto Felisari"},
-        {"name": "Elias Fernandez"},
+        {"name": "Elías Fernández"},
         {"name": "Carlos Guidi"},
         {"name": "Ennis Hayes"},
         {"name": "Juan Enrique Hayes"},
