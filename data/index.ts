@@ -10,9 +10,6 @@ type Inflections = Record<string, string>
 export const fetchCompetitionInflections = R.once(
   (): Inflections => require("./inflections/competitions.json")
 );
-export const fetchPlayerInflections = R.once(
-  (): Inflections => require("./inflections/players.json")
-);
 export const fetchTeamInflections = R.once(
   (): Inflections => require("./inflections/teams.json")
 );

@@ -31,13 +31,13 @@ describe(Goals, () => {
     const ps = container.querySelectorAll("p");
 
     test("renders correctly", () => {
-      expect(ps[0].textContent).toEqual("1:0 Ayala 5'");
-      expect(ps[1].textContent).toEqual("1:1 Forlán 25' [P]");
-      expect(ps[2].textContent).toEqual("2:1 Godín 90+2' [OG]");
-      expect(ps[3].textContent).toEqual("2:2 Forlán 90+4'");
-      expect(ps[4].textContent).toEqual("2:3 Ayala 91' [OG]");
-      expect(ps[5].textContent).toEqual("3:3 Sorín 117'");
-      expect(ps[6].textContent).toEqual("4:3 Sorín 119'");
+      expect(ps[0].textContent).toEqual("1:0 Roberto Ayala 5'");
+      expect(ps[1].textContent).toEqual("1:1 Diego Forlán 25' [P]");
+      expect(ps[2].textContent).toEqual("2:1 Diego Godín 90+2' [OG]");
+      expect(ps[3].textContent).toEqual("2:2 Diego Forlán 90+4'");
+      expect(ps[4].textContent).toEqual("2:3 Roberto Ayala 91' [OG]");
+      expect(ps[5].textContent).toEqual("3:3 Juan Pablo Sorín 117'");
+      expect(ps[6].textContent).toEqual("4:3 Juan Pablo Sorín 119'");
     });
 
     test("links my players", () => {
@@ -75,8 +75,8 @@ describe(Goals, () => {
     const ps = container.querySelectorAll("p");
 
     test("renders correctly", () => {
-      expect(ps[0].textContent).toEqual("ARG: Ayala, Zanetti");
-      expect(ps[1].textContent).toEqual("URU: Godín");
+      expect(ps[0].textContent).toEqual("ARG: Roberto Ayala, Javier Zanetti");
+      expect(ps[1].textContent).toEqual("URU: Diego Godín");
     });
   });
 });

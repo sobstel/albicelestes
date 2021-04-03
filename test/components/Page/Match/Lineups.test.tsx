@@ -40,13 +40,13 @@ describe(Lineups, () => {
 
     test("renders home team lineup", () => {
       expect(lineupSections[0].textContent).toContain(
-        "Romero, Ayala, Sorín, Crespo (70' Batistuta), Saviola"
+        "Sergio Romero, Roberto Ayala, Juan Pablo Sorín, Hernan Crespo (70' Gabriel Batistuta), Javier Saviola"
       );
     });
 
     test("renders away team lineup", () => {
       expect(lineupSections[1].textContent).toContain(
-        "Godín, Forlán (46' Cavani) (80' Suárez), Cáceres"
+        "Diego Godín, Diego Forlán (46' Edinson Cavani) (80' Luis Suárez), Martín Cáceres"
       );
     });
   });

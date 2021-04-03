@@ -1,12 +1,7 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
 import { produceIndexedEvents } from "helpers";
-import {
-  getMatchTeamIndex,
-  getTeamSlug,
-  produceShortNames,
-  sortByMinute,
-} from "helpers";
+import { getMatchTeamIndex, sortByMinute } from "helpers";
 import { Match } from "types";
 import { xor } from "utility";
 import { Block, Header } from "components/layout";
@@ -33,13 +28,6 @@ export default function Goals({ match }: Props) {
     return null;
   }
 
-  const shortNames = R.pipe(
-    match.lineups,
-    R.flatten(),
-    R.map((app) => app.name),
-    produceShortNames
-  );
-
   const myTeamIndex = getMatchTeamIndex(match);
 
   const hasIncompleteData = goals.some((goal) => !goal.min);
@@ -52,13 +40,7 @@ export default function Goals({ match }: Props) {
             {match.teams[teamIndex].name.slice(0, 3).toUpperCase()}:{" "}
             {match.goals[teamIndex].map((goal, index) => (
               <Fragment key={`${teamIndex}-${index}`}>
-                <PlayerName
-                  key={index}
-                  name={goal.name}
-                  displayName={shortNames[goal.name]}
-                  linkify={false}
-                  teamSlug={getTeamSlug(match.teams[teamIndex])}
-                />
+                <PlayerName key={index} name={goal.name} linkify={false} />
                 {index < match.goals[teamIndex].length - 1 && ", "}
               </Fragment>
             ))}
@@ -76,9 +58,7 @@ export default function Goals({ match }: Props) {
           {goal.min && `${goal.score.join(":")} `}
           <PlayerName
             name={goal.name}
-            displayName={shortNames[goal.name]}
             linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
-            teamSlug={getTeamSlug(match.teams[goal.teamIndex])}
           />
           {goal.min && ` ${goal.min}'`}
           {goal.type !== "G" && ` [${goal.type}]`}

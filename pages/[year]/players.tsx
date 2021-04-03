@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { fetchMatches } from "data";
-import { collectPlayers, getMatchYear, produceShortNames } from "helpers";
+import { collectPlayers, getMatchYear } from "helpers";
 import { PlayerItem } from "types";
 import { Page, Block } from "components/layout";
 import PlayerName from "components/PlayerName";
@@ -46,15 +46,6 @@ export async function getStaticProps(context: Context) {
 }
 
 export default function YearStatsPage({ players, year }: Props) {
-  let shortNames: Record<string, string> = {};
-  if (players) {
-    shortNames = R.pipe(
-      players,
-      R.map((player) => player.name),
-      produceShortNames
-    );
-  }
-
   return (
     <Page title={["Players"]}>
       <YearNav year={parseInt(year, 10)} />
@@ -83,11 +74,7 @@ export default function YearStatsPage({ players, year }: Props) {
             {players.map(({ name, mp, si, so, g }) => (
               <tr key={name}>
                 <td className="text-left">
-                  <PlayerName
-                    name={name}
-                    displayName={shortNames[name]}
-                    linkify
-                  />
+                  <PlayerName name={name} linkify />
                 </td>
                 <td className="text-right">{mp}</td>
                 <td className="text-right">{si > 0 && si}</td>

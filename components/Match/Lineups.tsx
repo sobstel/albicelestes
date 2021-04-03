@@ -1,8 +1,7 @@
 import React from "react";
-import * as R from "remeda";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
-import { getMatchTeamIndex, produceShortNames, getTeamSlug } from "helpers";
+import { getMatchTeamIndex } from "helpers";
 import { Match, MatchCoach } from "types";
 
 function coachNameSuffix(
@@ -18,12 +17,6 @@ type Props = {
 
 export default function Lineups({ match }: Props) {
   const { teams, lineups, coaches } = match;
-  const shortNames = R.pipe(
-    match.lineups,
-    R.flatten(),
-    R.map((app) => app.name),
-    produceShortNames
-  );
 
   const myTeamIndex = getMatchTeamIndex(match);
 
@@ -46,9 +39,7 @@ export default function Lineups({ match }: Props) {
                       {index > 0 && ", "}
                       <PlayerName
                         name={event.name}
-                        displayName={shortNames[event.name]}
                         linkify={teamIndex === myTeamIndex}
-                        teamSlug={getTeamSlug(teams[teamIndex])}
                       />
                     </>
                   )}
@@ -58,9 +49,7 @@ export default function Lineups({ match }: Props) {
                       {event.in && `${event.in}' `}
                       <PlayerName
                         name={event.name}
-                        displayName={shortNames[event.name]}
                         linkify={teamIndex === myTeamIndex}
-                        teamSlug={getTeamSlug(teams[teamIndex])}
                       />
                       {`)`}
                     </>
