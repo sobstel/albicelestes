@@ -47,7 +47,7 @@ export default function AboutPage(props: Props) {
   return (
     <Page title={["About"]}>
       <Header top text="About" />
-      <p>Argentina football national team database</p>
+      <p>Argentina Football National Team Archive</p>
 
       <Block>
         <Header text="Status" />

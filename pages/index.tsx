@@ -24,7 +24,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
 
 export default function YearIndexPage({ matches }: Props) {
   return (
-    <Page title={["Matches"]}>
+    <Page title={["Argentina National Team Archive"]}>
       <YearNav year={MAX_YEAR} isYearInactive />
       <Header
         top
