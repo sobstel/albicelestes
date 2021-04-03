@@ -45309,7 +45309,6 @@
     "venue": {"name": "Estadio Edgar Augusto Proenca, Belem"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
-    "pen": [2, 0],
     "result": "L",
     "goals": [
       [
