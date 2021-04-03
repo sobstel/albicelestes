@@ -652,7 +652,7 @@
         {"name": "Elías Fernández"},
         {"name": "Maximiliano Susán"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "José Viale"}
       ],
       [
@@ -755,7 +755,7 @@
         {"name": "Armando Ginocchio"},
         {"name": "Ernesto Brown"},
         {"name": "Arturo Jacobs"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Maximiliano Susán"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Arnoldo Watson Hutton"},
@@ -830,12 +830,12 @@
         {"name": "José Viale"}
       ]
     ],
-    "sources": ["El Gráfico", "AUF"]
+    "sources": ["El Gráfico", "AUF", "RSSSF"]
   },
   {
     "date": "1910-09-11",
     "competition": "Friendly",
-    "venue": {"name": "Valparaiso, Viña del Mar"},
+    "venue": {"name": "Valparaíso", "city": "Viña del Mar"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 3],
     "result": "W",
@@ -844,123 +844,140 @@
       [
         {"name": "Henry Lawrie", "min": "17", "type": "G"},
         {"name": "Elías Fernández", "min": "69", "type": "G"},
-        {"name": "Manuel Pedro González", "min": "80", "type": "G"}
+        {"name": "Manuel Paulino González", "min": "80", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
-      [],
+      [
+        {"name": "Pablo Woitas"},
+        {"name": "Bardie"},
+        {"name": "Forgie"},
+        {"name": "Lewis"},
+        {"name": "Balbontín"},
+        {"name": "Eickoff"},
+        {"name": "Brito"},
+        {"name": "Loades"},
+        {"name": "Colin Campbell"},
+        {"name": "Llantén"},
+        {"name": "Frank Simmons"}
+      ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Ernesto Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Patricio Browne"},
-        {"name": "Elías Fernández"},
-        {"name": "Juan Olegario Gil"},
-        {"name": "Manuel Pedro González"},
-        {"name": "Henry Lawrie"},
         {"name": "Martin Murphy"},
         {"name": "JB Sheridan"},
+        {"name": "Patricio Browne"},
+        {"name": "Ernesto Brown"},
+        {"name": "Elías Fernández"},
+        {"name": "Manuel Paulino González"},
+        {"name": "Juan Gil"},
+        {"name": "Henry Lawrie"},
         {"name": "José Viale"}
       ]
-    ]
+    ],
+    "sources": ["Partidos de la Roja", "El Gráfico"]
   },
   {
     "slug": "argentina-uruguay-2",
     "date": "1910-11-13",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Manuel Pedro González", "min": "65", "type": "G"}],
+      [{"name": "Manuel Paulino González", "min": "65", "type": "G"}],
       [{"name": "José Piendibene", "min": "49", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Luis Vernet Amadeo"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Elías Fernández"},
-        {"name": "Santiago Gallino"},
-        {"name": "Manuel Pedro González"},
-        {"name": "Tomas Medro González"},
-        {"name": "Haroldo Grant"},
         {"name": "Juan José Rithner"},
+        {"name": "Santiago Gallino"},
+        {"name": "Juan Domingo Brown"},
+        {"name": "Tomás González"},
+        {"name": "Haroldo Grant"},
+        {"name": "Luis Vernet Amadeo"},
+        {"name": "Elías Fernández"},
         {"name": "Eduardo Rothschild"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Manuel Paulino González"},
+        {"name": "José Viale"}
+
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene"},
-        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
-        {"name": "Juan Harley"},
-        {"name": "Vicente Módena"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
+        {"name": "Juan Harley"},
+        {"name": "Pedro Zúazu"},
+        {"name": "Vicente Módena"},
         {"name": "Luis Quaglia"},
+        {"name": "José Piendibene"},
         {"name": "Carlos Scarone"},
-        {"name": "Pedro Seoanne"},
-        {"name": "Pedro Zúazu"}
+        {"name": "Pedro Seoane"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-3",
     "date": "1910-11-27",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 6],
     "result": "L",
     "goals": [
       [
-        {"name": "Manuel Pedro González", "min": "42", "type": "G"},
+        {"name": "Manuel Paulino González", "min": "41", "type": "G"},
         {"name": "José Viale", "min": "70", "type": "G"}
       ],
       [
-        {"name": "Luis Ouagha", "min": "4", "type": "G"},
-        {"name": "Pedro Seoanne", "min": "35", "type": "G"},
+        {"name": "Luis Quaglia", "min": "4", "type": "G"},
+        {"name": "Pedro Seoane", "min": "35", "type": "G"},
         {"name": "José Piendibene", "min": "37", "type": "G"},
         {"name": "Carlos Scarone", "min": "40", "type": "G"},
         {"name": "Carlos Scarone", "min": "44", "type": "G"},
-        {"name": "Pedro Seoanne", "min": "65", "type": "G"}
+        {"name": "Pedro Seoane", "min": "65", "type": "G"}
       ]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Luis Vernet Amadeo"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "Elías Fernández"},
-        {"name": "Santiago Gallino"},
-        {"name": "Manuel Pedro González"},
-        {"name": "Tomas Medro González"},
-        {"name": "Haroldo Grant"},
         {"name": "Juan José Rithner"},
+        {"name": "Santiago Gallino"},
+        {"name": "Juan Domingo Brown"},
+        {"name": "Tomás González"},
+        {"name": "Haroldo Grant"},
+        {"name": "Luis Vernet Amadeo"},
+        {"name": "Elías Fernández"},
         {"name": "Eduardo Rothschild"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Manuel Paulino González"},
+        {"name": "José Viale"}
       ],
       [
-        {"name": "José Piendibene"},
-        {"name": "Martín Aphesteguy"},
-        {"name": "José Benincasa"},
         {"name": "Leonardo Crossley"},
-        {"name": "Juan Harley"},
-        {"name": "Vicente Módena"},
-        {"name": "Luis Ouagha"},
+        {"name": "José Benincasa"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
+        {"name": "Juan Harley"},
+        {"name": "Pedro Zúazu"},
+        {"name": "Vicente Módena"},
+        {"name": "Luis Quaglia"},
+        {"name": "José Piendibene"},
         {"name": "Carlos Scarone"},
-        {"name": "Pedro Seoanne"},
-        {"name": "Pedro Zúazu"}
+        {"name": "Pedro Seoane"}
+
       ]
-    ]
+    ],
+    "sources": ["AUF"]
   },
   {
     "date": "1911-08-15",
@@ -1310,7 +1327,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Robert Buck"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Cirilo P Russ"},
         {"name": "Maximiliano Susán"},
@@ -1387,7 +1404,7 @@
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Pablo Molina"},
         {"name": "Cirilo P Russ"},
@@ -1421,7 +1438,7 @@
     "goals": [
       [{"name": "Carlos Scarone", "min": "28", "type": "G"}],
       [
-        {"name": "Manuel Pedro González", "min": "24", "type": "G"},
+        {"name": "Manuel Paulino González", "min": "24", "type": "G"},
         {"name": "Alberto Marcovecchio", "min": "92", "type": "G"},
         {"name": "José Viale", "min": "114", "type": "G"}
       ]
@@ -1447,7 +1464,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
         {"name": "Carlos González"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Juan Hospital"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Alberto J Olivari"},
@@ -1465,7 +1482,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Manuel Pedro González", "min": "83", "type": "G"}],
+      [{"name": "Manuel Paulino González", "min": "83", "type": "G"}],
       [{"name": "Lucio Gorta", "min": "31", "type": "G"}]
     ],
     "cards": [[], []],
@@ -1475,7 +1492,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Arturo Jacobs"},
         {"name": "Angel H Mallen"},
         {"name": "Alberto Marcovecchio"},
@@ -1495,7 +1512,7 @@
         {"name": "Alfredo Granja"},
         {"name": "Jorge Pacheco"},
         {"name": "Bernardo Savio"},
-        {"name": "Pedro Seoanne"}
+        {"name": "Pedro Seoane"}
       ]
     ]
   },
@@ -1509,8 +1526,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Pedro González", "min": "25", "type": "G"},
-        {"name": "Manuel Pedro González", "min": "79", "type": "G"}
+        {"name": "Manuel Paulino González", "min": "25", "type": "G"},
+        {"name": "Manuel Paulino González", "min": "79", "type": "G"}
       ],
       [{"name": "Carlos Bastos", "min": "7", "type": "G"}]
     ],
@@ -1521,7 +1538,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Juan Hospital"},
         {"name": "Angel H Mallen"},
         {"name": "RS Meira"},
@@ -1543,7 +1560,7 @@
         {"name": "Juan Delgado", "in": "30"},
         {"name": "Jorge Pacheco"},
         {"name": "Bernardo Savio"},
-        {"name": "Pedro Seoanne"}
+        {"name": "Pedro Seoane"}
       ]
     ]
   },
@@ -1685,7 +1702,7 @@
   {
     "date": "1913-09-21",
     "competition": "Friendly",
-    "venue": {"name": "VALPARAISO"},
+    "venue": {"name": "Valparaíso"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -1740,7 +1757,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
         {"name": "Elías Fernández"},
-        {"name": "Manuel Pedro González"},
+        {"name": "Manuel Paulino González"},
         {"name": "Angel H Mallen"},
         {"name": "Alberto J Olivari"},
         {"name": "Luis Povey"},
@@ -3874,7 +3891,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1920-09-12",
     "competition": "Copa América",
-    "venue": {"name": "de Vina, Valparaiso"},
+    "venue": {"name": "de Vina, Valparaíso"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
     "result": "D",
@@ -3916,7 +3933,7 @@
   {
     "date": "1920-09-20",
     "competition": "Copa América",
-    "venue": {"name": "de Vina, Valparaiso"},
+    "venue": {"name": "de Vina, Valparaíso"},
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -3958,7 +3975,7 @@
   {
     "date": "1920-09-25",
     "competition": "Copa América",
-    "venue": {"name": "de Vina, Valparaiso"},
+    "venue": {"name": "de Vina, Valparaíso"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
