@@ -627,7 +627,7 @@
   {
     "date": "1910-05-27",
     "competition": "Friendly",
-    "venue": {"name": "Belgrano, Buenos Aires"},
+    "venue": {"name": "Belgrano", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [3, 1],
     "result": "W",
@@ -643,32 +643,33 @@
     "coaches": [null, null],
     "lineups": [
       [
-        {"name": "Luis Vernet Amadeo"},
-        {"name": "Arturo A Chiappe"},
-        {"name": "Elías Fernández"},
-        {"name": "Santiago Pio Gallino"},
-        {"name": "Armando Ginocchio"},
-        {"name": "Manuel Pedro González"},
-        {"name": "Haroldo Grant"},
-        {"name": "Juan Enrique Hayes"},
         {"name": "Enrique Rojo"},
+        {"name": "Santiago Gallino"},
+        {"name": "Arturo Chiappe"},
+        {"name": "Luis Vernet Amadeo"},
+        {"name": "Haroldo Grant"},
+        {"name": "Armando Ginocchio"},
+        {"name": "Elías Fernández"},
         {"name": "Maximiliano Susán"},
+        {"name": "Juan Enrique Hayes"},
+        {"name": "Manuel Pedro González"},
         {"name": "José Viale"}
       ],
       [
-        {"name": "Luis Carlos Gibson"},
-        {"name": "Arturo Acuña"},
-        {"name": "Henry Allen"},
+        {"name": "Leonard Gibson"},
+        {"name": "Carlos Hormazábal"},
         {"name": "Luis Barriga"},
+        {"name": "Andrés Hoyl"},
+        {"name": "Henry Allen"},
+        {"name": "Próspero González"},
+        {"name": "Arturo Acuña"},
+        {"name": "Frank Simmons"},
         {"name": "Colin Campbell"},
         {"name": "JP Davidson"},
-        {"name": "Prospero González"},
-        {"name": "Juan Hamilton"},
-        {"name": "Carlos Hormazabal"},
-        {"name": "Andrés Hoyl"},
-        {"name": "Frank Simmons"}
+        {"name": "Juan Hamilton"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "Partidos de la Roja"]
   },
   {
     "slug": "argentina-chile-2",
@@ -705,9 +706,9 @@
         {"name": "José Viale"}
       ],
       [
-        {"name": "Luis Carlos Gibson"},
-        {"name": "EF Ashe"},
+        {"name": "Leonard Gibson"},
         {"name": "J MacWilliams"},
+        {"name": "EF Ashe"},
         {"name": "Carlos Hormazábal"},
         {"name": "Henry Allen"},
         {"name": "Prospero González"},
@@ -726,7 +727,7 @@
         }
       ]
     },
-    "sources": ["El Gráfico", "RSSSF", "Wikipedia", "11v11"]
+    "sources": ["El Gráfico", "RSSSF", "Partidos de la Roja", "Fuji46"]
   },
   {
     "date": "1910-06-12",
@@ -737,7 +738,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "José Viale", "min": "15", "type": "G"},
+        {"name": "José Viale", "min": "16", "type": "G"},
         {"name": "Juan Enrique Hayes", "min": "43", "type": "G"},
         {"name": "Arnoldo Watson Hutton", "min": "50", "type": "G"},
         {"name": "Maximiliano Susán", "min": "64", "type": "G"}
@@ -782,12 +783,12 @@
         }
       ]
     },
-    "sources": ["El Gráfico", "RSSSF", "Wikipedia", "11v11"]
+    "sources": ["El Gráfico", "RSSSF", "AUF"]
   },
   {
     "date": "1910-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Belvedere, Montevideo"},
+    "venue": {"name": "Belvedere", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [3, 1],
     "result": "L",
@@ -804,31 +805,32 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene"},
-        {"name": "José Benincasa"},
         {"name": "Juan Carlos Bertone"},
-        {"name": "Pablo Dacal"},
-        {"name": "Vicente Módena"},
+        {"name": "José Benincasa"},
         {"name": "Jorge Pacheco"},
-        {"name": "Juan Pena"},
         {"name": "Oscar Sanz"},
+        {"name": "Juan Pena"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
         {"name": "Carlos Scarone"},
         {"name": "Pedro Zibechi"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elías Fernández"},
         {"name": "Armando Ginocchio"},
+        {"name": "Ernesto Brown"},
         {"name": "Haroldo Grant"},
-        {"name": "Juan Enrique Hayes"},
+        {"name": "Elías Fernández"},
         {"name": "Maximiliano Susán"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Juan Enrique Hayes"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "José Viale"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1910-09-11",
@@ -883,7 +885,7 @@
         {"name": "Luis Vernet Amadeo"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elías Fernández"},
-        {"name": "Santiago Pio Gallino"},
+        {"name": "Santiago Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
         {"name": "Haroldo Grant"},
@@ -936,7 +938,7 @@
         {"name": "Luis Vernet Amadeo"},
         {"name": "Juan Domingo Brown"},
         {"name": "Elías Fernández"},
-        {"name": "Santiago Pio Gallino"},
+        {"name": "Santiago Gallino"},
         {"name": "Manuel Pedro González"},
         {"name": "Tomas Medro González"},
         {"name": "Haroldo Grant"},
@@ -1384,7 +1386,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Manuel Pedro González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Pablo Molina"},
@@ -1443,7 +1445,7 @@
       [
         {"name": "Juan José Bello"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Carlos González"},
         {"name": "Manuel Pedro González"},
         {"name": "Juan Hospital"},
@@ -1472,7 +1474,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Manuel Pedro González"},
         {"name": "Arturo Jacobs"},
         {"name": "Angel H Mallen"},
@@ -1518,7 +1520,7 @@
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Manuel Pedro González"},
         {"name": "Juan Hospital"},
         {"name": "Angel H Mallen"},
@@ -1610,7 +1612,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Donato Abatangelo"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "José Morroni"},
         {"name": "Alberto Juan Ohaco"},
         {"name": "Alberto J Olivari"},
@@ -1736,7 +1738,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Elías Fernández"},
         {"name": "Manuel Pedro González"},
         {"name": "Angel H Mallen"},
@@ -1774,7 +1776,7 @@
       ],
       [
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Juan Hospital"},
         {"name": "Angel H Mallen"},
         {"name": "Carlos A Muttoni"},
@@ -2005,7 +2007,7 @@
         {"name": "Carlos Tomás Wilson"},
         {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Elías Fernández"},
         {"name": "Candido Garcia"},
         {"name": "Ennis Hayes"},
@@ -2036,7 +2038,7 @@
       [
         {"name": "Gerónimo Badaracco"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Candido Garcia"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Alberto Marcovecchio"},
@@ -2096,7 +2098,7 @@
         {"name": "Gerónimo Badaracco"},
         {"name": "Angel Bethular"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Candido Garcia"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Juan Hospital"},
@@ -2174,7 +2176,7 @@
         {"name": "Gerónimo Badaracco"},
         {"name": "Claudio Bincaz"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Carlos Guidi"},
         {"name": "Adolfo F Heissinger"},
         {"name": "José Laguna"},
@@ -2298,7 +2300,7 @@
       [
         {"name": "Antonio Blanco"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Alberto Felisari"},
         {"name": "Ennis Hayes"},
         {"name": "Juan Enrique Hayes"},
@@ -2452,7 +2454,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Juan Cabano"},
         {"name": "Zoilo Canaveri"},
-        {"name": "Arturo A Chiappe"},
+        {"name": "Arturo Chiappe"},
         {"name": "Candido Garcia"},
         {"name": "Ennis Hayes"},
         {"name": "Eduardo Hiller"},
