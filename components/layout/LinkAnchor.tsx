@@ -15,6 +15,8 @@ export default function LinkAnchor(props: Props) {
     ? ["text-black"]
     : ["text-link", "hover:text-link-hover"];
 
+  classNames.push("whitespace-nowrap");
+
   if (props.important) {
     classNames.push("font-semibold");
   }
