@@ -553,7 +553,7 @@
         {"name": "Aníbal Zapicán Falco"},
         {"name": "Juan Carlos Bertone"},
         {"name": "Alberto García"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Pedro Zúazu"},
         {"name": "Robert Buck"},
         {"name": "Felipe Canavessi"},
@@ -908,14 +908,13 @@
         {"name": "Arnoldo Watson Hutton"},
         {"name": "Manuel Paulino González"},
         {"name": "José Viale"}
-
       ],
       [
         {"name": "Cayetano Saporiti"},
         {"name": "José Benincasa"},
         {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Pedro Zúazu"},
         {"name": "Vicente Módena"},
         {"name": "Luis Quaglia"},
@@ -969,22 +968,21 @@
         {"name": "José Benincasa"},
         {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Pedro Zúazu"},
         {"name": "Vicente Módena"},
         {"name": "Luis Quaglia"},
         {"name": "José Piendibene"},
         {"name": "Carlos Scarone"},
         {"name": "Pedro Seoane"}
-
       ]
     ],
-    "sources": ["AUF"]
+    "sources": ["AUF", "RSSSF"]
   },
   {
     "date": "1911-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 2],
     "result": "L",
@@ -1000,36 +998,37 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Elías Fernández"},
+        {"name": "Manuel Malbrán"},
         {"name": "Haroldo Grant"},
+        {"name": "Ernesto Brown"},
+        {"name": "Elías Fernández"},
+        {"name": "Maximiliano Susán"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Carlos Lett"},
-        {"name": "Miguel Malbrán"},
-        {"name": "Maximiliano Susán"},
         {"name": "José Viale"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Pascual Somma"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
+        {"name": "Carlos Ronzoni"},
         {"name": "José Benincasa"},
+        {"name": "Jorge Pacheco"},
+        {"name": "José María Durán"},
+        {"name": "Ramón Ríos"},
         {"name": "José Brachi"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
-        {"name": "Jorge Pacheco"},
-        {"name": "Ramon Rios"},
-        {"name": "Carlos Ronzoni"}
+        {"name": "José Piendibene"},
+        {"name": "Ángel Romano"},
+        {"name": "Pascual Somma"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF", "RSSSF"]
   },
   {
     "date": "1911-09-17",
     "competition": "Copa Newton",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 3],
     "result": "W",
@@ -1049,39 +1048,41 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Pascual Somma"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
+        {"name": "Carlos Ronzoni"},
         {"name": "Martín Aphesteguy"},
+        {"name": "Jorge Pacheco"},
+        {"name": "John Harley"},
+        {"name": "Ramón Ríos"},
         {"name": "José Brachi"},
         {"name": "Felipe Canavessi"},
-        {"name": "Juan Harley"},
-        {"name": "Jorge Pacheco"},
-        {"name": "Ramon Rios"},
-        {"name": "Carlos Ronzoni"}
+        {"name": "José Piendibene"},
+        {"name": "Ángel Romano"},
+        {"name": "Pascual Somma"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elías Fernández"},
+        {"name": "Alfredo Dickinson"},
+        {"name": "Cirilo Russ"},
+        {"name": "Alfredo Peel Yates"},
+        {"name": "Maximiliano Susán"},
+        {"name": "Alfredo Brown"},
+        {"name": "Eliseo Brown"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Alfredo Luis Peel Yates"},
-        {"name": "Cirilo P Russ"},
-        {"name": "Maximiliano Susán"}
+        {"name": "Elías Fernández"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "uruguay-argentina-2",
     "date": "1911-10-08",
     "competition": "Copa Honor Uruguayo",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 1],
+    "aet": true,
     "result": "D",
     "goals": [
       [{"name": "José Piendibene", "min": "68", "type": "G"}],
@@ -1092,37 +1093,38 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
+        {"name": "Carlos Ronzoni"},
         {"name": "Martín Aphesteguy"},
-        {"name": "Felipe Canavessi"},
-        {"name": "Pablo Dacal"},
-        {"name": "Juan Harley"},
-        {"name": "Vicente Módena"},
         {"name": "Jorge Pacheco"},
-        {"name": "Ramon Rios"},
-        {"name": "Carlos Ronzoni"}
+        {"name": "John Harley"},
+        {"name": "Ramón Ríos"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Felipe Canavessi"},
+        {"name": "Ángel Romano"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Alfredo Lorenzo Dickinson"},
+        {"name": "Alfredo Peel Yates"},
+        {"name": "Ernesto Brown"},
+        {"name": "Alfredo Dickinson"},
         {"name": "Elías Fernández"},
+        {"name": "Alfredo Brown"},
+        {"name": "Arnoldo Watson Hutton"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Alfredo Luis Peel Yates"},
-        {"name": "Maximiliano Susán"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Maximiliano Susán"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-2",
     "date": "1911-10-22",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 0],
     "result": "W",
@@ -1138,37 +1140,38 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Eliseo Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elías Fernández"},
-        {"name": "Juan Enrique Hayes"},
-        {"name": "Alfredo Luis Peel Yates"},
-        {"name": "Antonio Piaggio"},
+        {"name": "Alfredo Peel Yates"},
         {"name": "Maximiliano Susán"},
+        {"name": "Alfredo Dickinson"},
+        {"name": "Elías Fernández"},
+        {"name": "Antonio Piaggio"},
+        {"name": "Ernesto Brown"},
+        {"name": "Juan Enrique Hayes"},
         {"name": "Arnoldo Watson Hutton"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
-        {"name": "Miguel Aphesteguy"},
-        {"name": "Felipe Canavessi"},
-        {"name": "Pablo Dacal"},
-        {"name": "Juan Harley"},
-        {"name": "Vicente Módena"},
         {"name": "Edmundo Novoa"},
+        {"name": "Miguel Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Ramon Rios"}
+        {"name": "John Harley"},
+        {"name": "Ramón Ríos"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Felipe Canavessi"},
+        {"name": "Ángel Romano"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "uruguay-argentina-3",
     "date": "1911-10-29",
     "competition": "Copa Honor Uruguayo",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [3, 0],
     "result": "L",
@@ -1185,31 +1188,32 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
-        {"name": "Martín Aphesteguy"},
         {"name": "Miguel Aphesteguy"},
-        {"name": "Felipe Canavessi"},
-        {"name": "Pablo Dacal"},
-        {"name": "Juan Harley"},
-        {"name": "Vicente Módena"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Ramon Rios"}
+        {"name": "John Harley"},
+        {"name": "Ramón Ríos"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Felipe Canavessi"},
+        {"name": "Ángel Romano"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Alfredo Lorenzo Dickinson"},
-        {"name": "Elías Fernández"},
-        {"name": "Juan Enrique Hayes"},
-        {"name": "Henry Lawrie"},
-        {"name": "Alfredo Luis Peel Yates"},
-        {"name": "Antonio Piaggio"},
+        {"name": "Alfredo Peel Yates"},
         {"name": "Maximiliano Susán"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Alfredo Dickinson"},
+        {"name": "Elías Fernández"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Antonio Piaggio"},
+        {"name": "Juan Enrique Hayes"},
+        {"name": "Henry Lawrie"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1912-08-15",
@@ -1236,7 +1240,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Vicente Módena"},
         {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
@@ -1284,7 +1288,7 @@
         {"name": "Alberto Juan Ohaco"},
         {"name": "Luis Povey"},
         {"name": "Arturo Reparaz"},
-        {"name": "Cirilo P Russ"},
+        {"name": "Cirilo Russ"},
         {"name": "Ernesto Sande"},
         {"name": "Maximiliano Susán"}
       ],
@@ -1318,7 +1322,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Vicente Módena"},
         {"name": "Jorge Pacheco"},
         {"name": "Carlos Scarone"}
@@ -1331,7 +1335,7 @@
         {"name": "Robert Buck"},
         {"name": "Manuel Paulino González"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "Cirilo P Russ"},
+        {"name": "Cirilo Russ"},
         {"name": "Maximiliano Susán"},
         {"name": "José Viale"},
         {"name": "Arnoldo Watson Hutton"}
@@ -1409,7 +1413,7 @@
         {"name": "Manuel Paulino González"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Pablo Molina"},
-        {"name": "Cirilo P Russ"},
+        {"name": "Cirilo Russ"},
         {"name": "Maximiliano Susán"},
         {"name": "José Viale"},
         {"name": "Arnoldo Watson Hutton"}
@@ -1455,7 +1459,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "Francisco Castellino"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Antonio Marques Castro"},
         {"name": "Luis Ouaglia"},
         {"name": "Jorge Pacheco"},
@@ -1508,7 +1512,7 @@
         {"name": "Miguel Aphesteguy"},
         {"name": "Pablo Dacal"},
         {"name": "Santiago Demarchi"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Antonio Fannasso"},
         {"name": "Lucio Gorta"},
         {"name": "Alfredo Granja"},
@@ -1556,7 +1560,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "Carlos Bastos"},
         {"name": "José Benincasa"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Antonio Fannasso"},
         {"name": "Vicente Módena", "out": "30"},
         {"name": "Juan Delgado", "in": "30"},
@@ -1598,7 +1602,7 @@
         {"name": "José Benincasa"},
         {"name": "Carlos Marques Castro"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Lucio Gorta"},
         {"name": "Vicente Legarburo"},
         {"name": "Jorge Pacheco"},
@@ -1647,7 +1651,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": " José María Durán"},
+        {"name": "José María Durán"},
         {"name": "Jorge Pacheco"},
         {"name": "Cayetano Saporiti"},
         {"name": "Bernardo Savio"},
@@ -1747,7 +1751,7 @@
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Lucio Gorta"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Jorge Pacheco"},
         {"name": "Antonio Retta"},
         {"name": "Ricardo Vallarino"},
@@ -1788,7 +1792,7 @@
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Lucio Gorta"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Manuel Lazaro"},
         {"name": "Jorge Pacheco"},
         {"name": "Ricardo Vallarino"}
@@ -1838,7 +1842,7 @@
         {"name": "Fausto Broncini"},
         {"name": "Pablo Dacal"},
         {"name": "Alfredo Granja"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Manuel Lazaro"},
         {"name": "Ricardo Vallarino"}
       ],
@@ -1897,7 +1901,7 @@
         {"name": "Pablo Dacal"},
         {"name": "Antonio Fannasso"},
         {"name": "Alfredo Granja"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Ricardo Vallarino"}
       ]
     ]
@@ -2016,7 +2020,7 @@
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
         {"name": "Isabelino Gradin"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Manuel Lazaro"},
         {"name": "Bernardo Savio"},
         {"name": "José Tognola"},
@@ -2109,7 +2113,7 @@
         {"name": "José Biachi"},
         {"name": "Pablo Ducal"},
         {"name": "Donisio Egula"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Carlos Scarone"},
         {"name": "José Vanzino"}
       ],
@@ -2385,7 +2389,7 @@
         {"name": "Antonio Marques Castro"},
         {"name": "Pablo Dacal"},
         {"name": "Antonio Fannasso"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Domingo Melogno"},
         {"name": "Carlos Scarone"}
       ]
@@ -2488,7 +2492,7 @@
         {"name": "Felipe Buffoni"},
         {"name": "Santiago Demarchi"},
         {"name": "Antonio Fannasso"},
-        {"name": "Juan Harley"},
+        {"name": "John Harley"},
         {"name": "Rodolfo Maran"},
         {"name": "Carlos Mongelar"},
         {"name": "Pascual Pascuarielio"},
@@ -51524,9 +51528,7 @@
       ]
     ],
     "sources": ["11v11", "Soccerway"],
-    "info": {
-      "trivia": ["Gabriel Jesus missed penalty in 10'."]
-    }
+    "info": {"trivia": ["Gabriel Jesus missed penalty in 10'."]}
   },
   {
     "date": "2019-11-18",

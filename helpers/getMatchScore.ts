@@ -8,7 +8,7 @@ type MatchScoreOpts = {
 
 // TODO: it should return score only just as it says -> extract getMatchTeams?
 export default function getMatchScore(
-  match: Pick<Match, "teams" | "score" | "pen" | "result">,
+  match: Pick<Match, "teams" | "score" | "aet" | "pen" | "result">,
   localOpts: MatchScoreOpts = {}
 ): string {
   const opts = { withTeams: false, short: false, ...localOpts };
@@ -23,7 +23,7 @@ export default function getMatchScore(
     score = "";
   }
 
-  const aet = !opts.short && !match.pen && "aet";
+  const aet = !opts.short && !match.pen && match.aet && "aet";
 
   return R.compact([teams, score, aet, pen]).join(" ");
 }
