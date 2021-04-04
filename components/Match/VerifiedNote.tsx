@@ -7,10 +7,10 @@ type Props = { match: Pick<Match, "sources"> };
 export default function VerifiedNote({ match: { sources } }: Props) {
   if (!sources || sources.length === 0) {
     return (
-      <p className="text-xs">
-        Data might not be accurate for this game yet. It needs to be verified.
-        <br />
-        Want to help? Drop me a line at przemek&#64;sobstel&#46;org.
+      <p className="text-xs italic">
+        Data might not be fully accurate for this game yet. It needs to be
+        verified with reliable sources. Want to help? Contace me at
+        przemek&#64;sobstel&#46;org.
       </p>
     );
   }

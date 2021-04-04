@@ -96,6 +96,13 @@ export default function MatchList({ matches }: Props) {
             ))}
           </tbody>
         </table>
+        {matches.length > 1 && (
+          <p className="mt-4 text-xs italic">
+            Data might not be fully accurate for some games yet. It needs to be
+            verified with reliable sources. Want to help? Contact me at
+            przemek&#64;sobstel&#46;org.
+          </p>
+        )}
       </div>
     </Block>
   );
