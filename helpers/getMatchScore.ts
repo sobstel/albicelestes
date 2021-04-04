@@ -23,5 +23,7 @@ export default function getMatchScore(
     score = "";
   }
 
-  return R.compact([teams, score, pen]).join(" ");
+  const aet = !opts.short && !match.pen && "aet";
+
+  return R.compact([teams, score, aet, pen]).join(" ");
 }

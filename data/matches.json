@@ -117,6 +117,7 @@
     "venue": {"name": "Campo de la Sociedad Sportiva", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
+    "aet": true,
     "result": "D",
     "goals": [[], []],
     "cards": [[], []],
@@ -723,7 +724,7 @@
       "links": [
         {
           "url": "https://en.wikipedia.org/wiki/Copa_Centenario_Revolución_de_Mayo",
-          "text": "Copa Centenario Revolución de Mayo @ Wikipedia"
+          "text": "Copa Centenario Revolución de Mayo (Wikipedia)"
         }
       ]
     },
@@ -779,7 +780,7 @@
       "links": [
         {
           "url": "https://en.wikipedia.org/wiki/Copa_Centenario_Revolución_de_Mayo",
-          "text": "Copa Centenario Revolución de Mayo @ Wikipedia"
+          "text": "Copa Centenario Revolución de Mayo (Wikipedia)"
         }
       ]
     },
@@ -886,6 +887,7 @@
     "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
+    "aet": true,
     "result": "D",
     "goals": [
       [{"name": "Manuel Paulino González", "min": "65", "type": "G"}],

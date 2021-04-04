@@ -29,6 +29,7 @@ export type Match = {
   venue?: { name: string; city?: string };
   teams: [MatchTeam, MatchTeam];
   score: Score;
+  aet?: true;
   pen?: Score;
   result: Result;
   goals: [Goal[], Goal[]];
