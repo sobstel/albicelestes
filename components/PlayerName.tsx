@@ -10,7 +10,7 @@ export default function PlayerName({
   linkify?: boolean;
 }) {
   if (!linkify) {
-    return <span title={name}>{name}</span>;
+    return <>{name}</>;
   }
 
   const slug = getPlayerSlug(name);
