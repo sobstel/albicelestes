@@ -1218,7 +1218,7 @@
   {
     "date": "1912-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [2, 0],
     "result": "L",
@@ -1234,72 +1234,38 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Alfredo Foglino"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
-        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
-        {"name": "Pablo Dacal"},
-        {"name": "José María Durán"},
-        {"name": "Vicente Módena"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Carlos Scarone"}
+        {"name": "José María Durán"},
+        {"name": "Alfredo Foglino"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Carlos Scarone"},
+        {"name": "Ángel Romano"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Antonio Ameal"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
+        {"name": "José Morroni"},
+        {"name": "Maximiliano Susán"},
+        {"name": "Ernesto Brown"},
+        {"name": "Alberto Ohaco"},
+        {"name": "Antonio Ameal"},
         {"name": "Guillermo Dannaher"},
         {"name": "Juan Enrique Hayes"},
-        {"name": "José Morroni"},
-        {"name": "Alberto Juan Ohaco"},
-        {"name": "Maximiliano Susán"},
         {"name": "José Viale"}
       ]
-    ]
-  },
-  {
-    "date": "1912-08-22",
-    "competition": "Copa Honor Argentino",
-    "venue": {"name": "Buenos Aires"},
-    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
-    "score": [4, 0],
-    "result": "W",
-    "goals": [
-      [
-        {"name": "EM Hayes", "type": "G"},
-        {"name": "EM Hayes", "type": "G"},
-        {"name": "Alberto Juan Ohaco", "type": "G"},
-        {"name": "Alfredo Brown", "type": "G"}
-      ],
-      []
     ],
-    "cards": [[], []],
-    "coaches": [null, null],
-    "lineups": [
-      [
-        {"name": "Carlos Tomás Wilson"},
-        {"name": "Alfredo Brown"},
-        {"name": "Juan Domingo Brown"},
-        {"name": "EM Hayes"},
-        {"name": "A Lennie"},
-        {"name": "Alberto Juan Ohaco"},
-        {"name": "Luis Povey"},
-        {"name": "Arturo Reparaz"},
-        {"name": "Cirilo Russ"},
-        {"name": "Ernesto Sande"},
-        {"name": "Maximiliano Susán"}
-      ],
-      []
-    ]
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "uruguay-argentina-2",
     "date": "1912-08-25",
     "competition": "Copa Honor Uruguayo",
-    "venue": {"name": "Parque Central, Montevideo"},
+    "venue": {"name": "Parque Central", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [3, 0],
     "result": "L",
@@ -1316,36 +1282,37 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Alfredo Foglino"},
-        {"name": "José Piendibene"},
-        {"name": "Ángel Romano"},
-        {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
-        {"name": "Pablo Dacal"},
-        {"name": "José María Durán"},
-        {"name": "Vicente Módena"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Carlos Scarone"}
+        {"name": "José María Durán"},
+        {"name": "Alfredo Foglino"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Carlos Scarone"},
+        {"name": "Ángel Romano"}
       ],
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Ernesto Brown"},
         {"name": "Jorge Brown"},
         {"name": "Juan Domingo Brown"},
-        {"name": "Robert Buck"},
-        {"name": "Manuel Paulino González"},
-        {"name": "Juan Enrique Hayes"},
         {"name": "Cirilo Russ"},
         {"name": "Maximiliano Susán"},
-        {"name": "José Viale"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Ernesto Brown"},
+        {"name": "Manuel Paulino González"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Sidney Buck"},
+        {"name": "Juan Enrique Hayes"},
+        {"name": "José Viale"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1912-09-22",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 1],
     "result": "L",
@@ -1637,7 +1604,7 @@
         {"name": "Juan Domingo Brown"},
         {"name": "Arturo Chiappe"},
         {"name": "José Morroni"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Alberto J Olivari"},
         {"name": "Ricardo Pepe"},
         {"name": "Juan Manuel Rogers"},
@@ -2065,7 +2032,7 @@
         {"name": "Candido Garcia"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Alberto Marcovecchio"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Alberto J Olivari"},
         {"name": "Rodolfo Fraga Petrao"},
         {"name": "Juan José Rithner"},
@@ -2126,7 +2093,7 @@
         {"name": "Juan Enrique Hayes"},
         {"name": "Juan Hospital"},
         {"name": "Juan José Lamas"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Pascual Polimeni"},
         {"name": "Juan José Rithner"}
       ]
@@ -2141,11 +2108,11 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Alberto Juan Ohaco", "min": "2", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "2", "type": "G"},
         {"name": "Juan Domingo Brown", "min": "60", "type": "P"},
         {"name": "Juan Domingo Brown", "min": "62", "type": "P"},
         {"name": "Alberto Marcovecchio", "min": "67", "type": "G"},
-        {"name": "Alberto Juan Ohaco", "min": "75", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "75", "type": "G"},
         {"name": "Alberto Marcovecchio", "min": "89", "type": "G"}
       ],
       [{"name": "Telesforo Segundo Baez", "type": "G"}]
@@ -2161,7 +2128,7 @@
         {"name": "Adolfo F Heissinger"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Pedro Martinez"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"}
@@ -2243,7 +2210,7 @@
         {"name": "Oscar Ivanesevich"},
         {"name": "Alberto Marcovecchio"},
         {"name": "Pedro Martinez"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"}
@@ -2282,7 +2249,7 @@
         {"name": "Adolfo F Heissinger"},
         {"name": "Carlos Isola"},
         {"name": "Pedro Martinez"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"}
@@ -2358,8 +2325,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Alberto Juan Ohaco", "min": "48", "type": "G"},
-        {"name": "Alberto Juan Ohaco", "min": "71", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "48", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "71", "type": "G"},
         {"name": "Eduardo Hiller", "min": "87", "type": "G"}
       ],
       [{"name": "Antonio Fannasso", "min": "23", "type": "G"}]
@@ -2374,7 +2341,7 @@
         {"name": "Carlos Guidi"},
         {"name": "Eduardo Hiller"},
         {"name": "Pedro Martinez"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Pascual Polimeni"},
         {"name": "Armando Reyes"},
         {"name": "Ernesto Sande"},
@@ -2681,8 +2648,8 @@
     "goals": [
       [
         {"name": "Pedro Calomino", "min": "15", "type": "G"},
-        {"name": "Alberto Juan Ohaco", "min": "56", "type": "G"},
-        {"name": "Alberto Juan Ohaco", "min": "58", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "56", "type": "G"},
+        {"name": "Alberto Ohaco", "min": "58", "type": "G"},
         {"name": "Antonio Blanco", "min": "80", "type": "G"}
       ],
       [{"name": "Neco", "type": "G"}, {"name": "Silvio Lagreca", "type": "G"}]
@@ -2697,7 +2664,7 @@
         {"name": "Carlos Isola"},
         {"name": "Alfredo N Martin"},
         {"name": "Ernesto Mattozzi"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Ricardo Pepe"},
         {"name": "Juan Nelusco Perinetti"},
@@ -2739,7 +2706,7 @@
         {"name": "Alfredo N Martin"},
         {"name": "Pedro Martinez"},
         {"name": "Ernesto Mattozzi"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"},
@@ -2794,7 +2761,7 @@
         {"name": "Alfredo N Martin"},
         {"name": "Pedro Martinez"},
         {"name": "Ernesto Mattozzi"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"}
@@ -2810,7 +2777,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Alberto Juan Ohaco", "min": "49", "type": "G"}],
+      [{"name": "Alberto Ohaco", "min": "49", "type": "G"}],
       [{"name": "Bartolo Munoz", "type": "G"}]
     ],
     "cards": [[], []],
@@ -2824,7 +2791,7 @@
         {"name": "M Madero"},
         {"name": "Alfredo N Martin"},
         {"name": "Ernesto Mattozzi"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Francisco Olazar"},
         {"name": "Juan Nelusco Perinetti"},
         {"name": "Armando Reyes"}
@@ -2927,7 +2894,7 @@
         {"name": "José Alfredo Lopez"},
         {"name": "Alfredo N Martin"},
         {"name": "Ernesto Mattozzi"},
-        {"name": "Alberto Juan Ohaco"},
+        {"name": "Alberto Ohaco"},
         {"name": "Nicolas Rofrano"},
         {"name": "Antonio Schiarretta"}
       ]

@@ -36,5 +36,40 @@
       ]
     ],
     "sources": ["El Gráfico"]
+  },
+  {
+    "date": "1912-08-22",
+    "competition": "Copa Honor Argentino",
+    "venue": {"name": "Buenos Aires"},
+    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
+    "score": [4, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "EM Hayes", "type": "G"},
+        {"name": "EM Hayes", "type": "G"},
+        {"name": "Alberto Ohaco", "type": "G"},
+        {"name": "Alfredo Brown", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [[], []],
+    "coaches": [null, null],
+    "lineups": [
+      [
+        {"name": "Carlos Tomás Wilson"},
+        {"name": "Alfredo Brown"},
+        {"name": "Juan Domingo Brown"},
+        {"name": "EM Hayes"},
+        {"name": "A Lennie"},
+        {"name": "Alberto Ohaco"},
+        {"name": "Luis Povey"},
+        {"name": "Arturo Reparaz"},
+        {"name": "Cirilo Russ"},
+        {"name": "Ernesto Sande"},
+        {"name": "Maximiliano Susán"}
+      ],
+      []
+    ]
   }
 ]
