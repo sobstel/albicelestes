@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Block, Header } from "components/layout";
 import PlayerName from "components/PlayerName";
 import { getMatchTeamIndex } from "helpers";
@@ -33,7 +33,7 @@ export default function Lineups({ match }: Props) {
                 ].join("")}
               />
               {lineup.map((event, index) => (
-                <span key={`${teamIndex}-${index}`}>
+                <Fragment key={`${teamIndex}-${index}`}>
                   {event.in === undefined && (
                     <>
                       {index > 0 && ", "}
@@ -54,7 +54,7 @@ export default function Lineups({ match }: Props) {
                       {`)`}
                     </>
                   )}
-                </span>
+                </Fragment>
               ))}
             </Block>
           )
