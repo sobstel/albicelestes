@@ -24,6 +24,7 @@
     "string-similarity": "^4.0.4"
   },
   "devDependencies": {
+    "@relative-ci/agent": "^1.5.0",
     "@testing-library/jest-dom": "^5.4.0",
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.19",
