@@ -1353,7 +1353,7 @@
     "slug": "argentina-uruguay-2",
     "date": "1912-10-06",
     "competition": "Copa Newton",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 3],
     "result": "D",
@@ -1451,9 +1451,49 @@
     "sources": ["El Gráfico", "AUF"]
   },
   {
+    "date": "1913-04-27",
+    "competition": "Friendly",
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
+    "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
+    "score": [0, 0],
+    "result": "D",
+    "goals": [[], []],
+    "cards": [[], []],
+    "coaches": [null, null],
+    "lineups": [
+      [
+        {"name": "Juan José Rithner"},
+        {"name": "Zenón Díaz"},
+        {"name": "Arturo Reparaz"},
+        {"name": "Juan Johnston"},
+        {"name": "Ernesto Sande"},
+        {"name": "Gerónimo Badaracco"},
+        {"name": "Conrado Grieshofer"},
+        {"name": "Santiago Sayanes"},
+        {"name": "Guillermo Dannaher"},
+        {"name": "Juan Enrique Hayes"},
+        {"name": "Pascual Polimeni"}
+      ],
+      [
+        {"name": "Cayetano Saporiti"},
+        {"name": "José Benincasa"},
+        {"name": "Martín Aphesteguy"},
+        {"name": "Jorge Pacheco"},
+        {"name": "José María Durán"},
+        {"name": "Alfredo Foglino"},
+        {"name": "Vicente Módena"},
+        {"name": "Pablo Dacal"},
+        {"name": "Lucio Gorla"},
+        {"name": "Ricardo Vallarino"},
+        {"name": "Antonio Farinasso"}
+      ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
+  },
+  {
     "date": "1913-06-15",
     "competition": "Copa Roque Sáenz Peña",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 1],
     "result": "D",
@@ -1496,7 +1536,7 @@
     "slug": "argentina-uruguay-2",
     "date": "1913-07-09",
     "competition": "Copa Roque Sáenz Peña",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -1585,7 +1625,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1913-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 0],
     "result": "W",
@@ -1650,7 +1690,7 @@
       [
         {"name": "Gerónimo Badaracco"},
         {"name": "Guillermo Dannaher"},
-        {"name": "Zenon Diaz"},
+        {"name": "Zenón Díaz"},
         {"name": "Carlos Guidi"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Juan José Lamas"},
@@ -2246,7 +2286,7 @@
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
-        {"name": "Zenon Diaz"},
+        {"name": "Zenón Díaz"},
         {"name": "Ennis Hayes"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Adolfo F Heissinger"},
@@ -2322,7 +2362,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1916-08-15",
     "competition": "Copa Newton",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [3, 1],
     "result": "W",
@@ -2339,7 +2379,7 @@
     "lineups": [
       [
         {"name": "Zoilo Canaveri"},
-        {"name": "Zenon Diaz"},
+        {"name": "Zenón Díaz"},
         {"name": "Emilio Fernández"},
         {"name": "Carlos Guidi"},
         {"name": "Eduardo Hiller"},
@@ -2405,7 +2445,7 @@
       [
         {"name": "Atilio Badalini"},
         {"name": "Pascual Carre"},
-        {"name": "Zenon Diaz"},
+        {"name": "Zenón Díaz"},
         {"name": "Alberto Felisari"},
         {"name": "Carlos Guidi"},
         {"name": "Carlos Isola"},
@@ -2421,7 +2461,7 @@
     "slug": "argentina-uruguay-4",
     "date": "1916-10-01",
     "competition": "Trofeo Circular",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [7, 2],
     "result": "W",
@@ -2503,7 +2543,7 @@
         {"name": "José Vanzzino"}
       ],
       [
-        {"name": "Zenon Diaz"},
+        {"name": "Zenón Díaz"},
         {"name": "Alberto Felisari"},
         {"name": "Elías Fernández"},
         {"name": "Carlos Guidi"},
@@ -2565,7 +2605,7 @@
   {
     "date": "1917-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
@@ -5209,7 +5249,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1923-12-08",
     "competition": "Copa Ministro de Relaciones Exteriores",
-    "venue": {"name": "Racing Club AVELLANEDA BA"},
+    "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 3],
     "result": "L",
