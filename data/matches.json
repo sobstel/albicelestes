@@ -1499,38 +1499,39 @@
     "result": "D",
     "goals": [
       [{"name": "Manuel Paulino González", "min": "83", "type": "G"}],
-      [{"name": "Lucio Gorta", "min": "31", "type": "G"}]
+      [{"name": "Lucio Gorla", "min": "31", "type": "G"}]
     ],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Juan Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "Manuel Paulino González"},
-        {"name": "Arturo Jacobs"},
-        {"name": "Angel H Mallen"},
-        {"name": "Alberto Marcovecchio"},
+        {"name": "Juan Brown"},
+        {"name": "Ángel Mallen"},
         {"name": "José Morroni"},
+        {"name": "Arturo Jacobs"},
         {"name": "Maximiliano Susán"},
-        {"name": "Francisco Taggino"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Manuel Paulino González"},
+        {"name": "Alberto Marcovecchio"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Francisco Taggino"}
       ],
       [
-        {"name": "Ángel Romano"},
-        {"name": "Miguel Aphesteguy"},
-        {"name": "Pablo Dacal"},
         {"name": "Santiago Demarchi"},
-        {"name": "José María Durán"},
-        {"name": "Antonio Fannasso"},
-        {"name": "Lucio Gorta"},
+        {"name": "Miguel Aphesteguy"},
         {"name": "Alfredo Granja"},
         {"name": "Jorge Pacheco"},
+        {"name": "José María Durán"},
         {"name": "Bernardo Savio"},
-        {"name": "Pedro Seoane"}
+        {"name": "Ángel Romano"},
+        {"name": "Pablo Dacal"},
+        {"name": "Lucio Gorla"},
+        {"name": "Pedro Seoane"},
+        {"name": "Antonio Fannasso"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-2",
@@ -1556,7 +1557,7 @@
         {"name": "Arturo Chiappe"},
         {"name": "Manuel Paulino González"},
         {"name": "Juan Hospital"},
-        {"name": "Angel H Mallen"},
+        {"name": "Ángel Mallen"},
         {"name": "RS Meira"},
         {"name": "Mario Luis Negri"},
         {"name": "Alberto Olivari"},
@@ -1592,8 +1593,8 @@
         {"name": "Pedro Zibechi", "min": "5", "type": "G"},
         {"name": "Vicente Legarburo", "min": "15", "type": "G"},
         {"name": "José Perez", "min": "53", "type": "G"},
-        {"name": "Lucio Gorta", "min": "85", "type": "G"},
-        {"name": "Lucio Gorta", "min": "90", "type": "G"}
+        {"name": "Lucio Gorla", "min": "85", "type": "G"},
+        {"name": "Lucio Gorla", "min": "90", "type": "G"}
       ],
       [
         {"name": "R Guidi", "min": "9", "type": "G"},
@@ -1613,7 +1614,7 @@
         {"name": "Carlos Marques Castro"},
         {"name": "Pablo Dacal"},
         {"name": "José María Durán"},
-        {"name": "Lucio Gorta"},
+        {"name": "Lucio Gorla"},
         {"name": "Vicente Legarburo"},
         {"name": "Jorge Pacheco"},
         {"name": "Pedro Zibechi"}
@@ -1707,7 +1708,7 @@
         {"name": "José Benincasa"},
         {"name": "Juan Delgado"},
         {"name": "Antonio Fannasso"},
-        {"name": "Lucio Gorta"},
+        {"name": "Lucio Gorla"},
         {"name": "Alfredo Granja"},
         {"name": "Alberto Landera"},
         {"name": "Jorge Pacheco"},
@@ -1760,7 +1761,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "Lucio Gorta"},
+        {"name": "Lucio Gorla"},
         {"name": "John Harley"},
         {"name": "Jorge Pacheco"},
         {"name": "Antonio Retta"},
@@ -1774,7 +1775,7 @@
         {"name": "Arturo Chiappe"},
         {"name": "Elías Fernández"},
         {"name": "Manuel Paulino González"},
-        {"name": "Angel H Mallen"},
+        {"name": "Ángel Mallen"},
         {"name": "Alberto Olivari"},
         {"name": "Luis Povey"},
         {"name": "Maximiliano Susán"},
@@ -1790,7 +1791,7 @@
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
-    "goals": [[{"name": "Lucio Gorta", "min": "62", "type": "G"}], []],
+    "goals": [[{"name": "Lucio Gorla", "min": "62", "type": "G"}], []],
     "cards": [[], []],
     "coaches": [null, null],
     "lineups": [
@@ -1801,7 +1802,7 @@
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
-        {"name": "Lucio Gorta"},
+        {"name": "Lucio Gorla"},
         {"name": "John Harley"},
         {"name": "Manuel Lazaro"},
         {"name": "Jorge Pacheco"},
@@ -1811,7 +1812,7 @@
         {"name": "Juan Brown"},
         {"name": "Arturo Chiappe"},
         {"name": "Juan Hospital"},
-        {"name": "Angel H Mallen"},
+        {"name": "Ángel Mallen"},
         {"name": "Carlos A Muttoni"},
         {"name": "Alberto Olivari"},
         {"name": "Juan Rogers"},
