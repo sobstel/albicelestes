@@ -1543,8 +1543,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Manuel Paulino González", "min": "25", "type": "G"},
-        {"name": "Manuel Paulino González", "min": "79", "type": "G"}
+        {"name": "Manuel Paulino González", "min": "23", "type": "G"},
+        {"name": "Manuel Paulino González", "min": "80", "type": "G"}
       ],
       [{"name": "Carlos Bastos", "min": "7", "type": "G"}]
     ],
@@ -1553,33 +1553,34 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Juan Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "Manuel Paulino González"},
-        {"name": "Juan Hospital"},
-        {"name": "Ángel Mallen"},
-        {"name": "RS Meira"},
-        {"name": "Mario Luis Negri"},
+        {"name": "Juan Brown"},
         {"name": "Alberto Olivari"},
-        {"name": "Horacio H Vignoles"},
-        {"name": "Arnoldo Watson Hutton"}
+        {"name": "Ángel Mallen"},
+        {"name": "Mario Negri"},
+        {"name": "Horacio Vignoles"},
+        {"name": "Arnoldo Watson Hutton"},
+        {"name": "Juan Hospital"},
+        {"name": "Manuel Paulino González"},
+        {"name": "Alfredo Meira"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Piendibene", "out": "46"},
-        {"name": "Luis Altamirano", "in": "46"},
-        {"name": "Martín Aphesteguy"},
-        {"name": "Carlos Bastos"},
         {"name": "José Benincasa"},
-        {"name": "José María Durán"},
-        {"name": "Antonio Fannasso"},
-        {"name": "Vicente Módena", "out": "30"},
-        {"name": "Juan Delgado", "in": "30"},
+        {"name": "Martín Aphesteguy"},
         {"name": "Jorge Pacheco"},
-        {"name": "Bernardo Savio"},
-        {"name": "Pedro Seoane"}
+        {"name": "José María Durán"},
+        {"name": "Bernardo Savio", "out": "60"},
+        {"name": "Juan Delgado", "in": "60"},
+        {"name": "Vicente Módena"},
+        {"name": "Carlos Bastos"},
+        {"name": "José Piendibene", "out": "30"},
+        {"name": "Luis Altamirano", "in": "30"},
+        {"name": "Pedro Seoane"},
+        {"name": "Antonio Farinasso"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1913-07-13",
