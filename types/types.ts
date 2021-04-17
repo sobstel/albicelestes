@@ -52,7 +52,14 @@ export type MatchCoach = { name: string } | null;
 
 export type MatchItem = Pick<
   Match,
-  "slug" | "date" | "competition" | "teams" | "score" | "pen" | "result"
+  | "slug"
+  | "date"
+  | "competition"
+  | "teams"
+  | "score"
+  | "pen"
+  | "result"
+  | "sources"
 >;
 
 export type MatchTeam = Team;

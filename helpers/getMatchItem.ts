@@ -10,6 +10,7 @@ export default function getMatchItem(match: Match): MatchItem {
     "score",
     "pen",
     "result",
+    "sources",
   ]);
 
   // Avoid serializing error when returned from `getStaticProps`

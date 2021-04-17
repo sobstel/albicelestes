@@ -1,4 +1,5 @@
 import React from "react";
+import * as R from "remeda";
 import {
   getMatchDate,
   getMatchYear,
@@ -70,6 +71,8 @@ type Props = {
 export default function MatchList({ matches }: Props) {
   if (matches.length === 0) return null;
 
+  const hasUnverifiedMatches = R.find(matches, (match) => !match.sources);
+
   return (
     <Block>
       <div className="max-w-full overflow-hidden">
@@ -78,7 +81,7 @@ export default function MatchList({ matches }: Props) {
             {matches.map((match) => (
               <tr key={`${getMatchYear(match)}-${getMatchSlug(match)}`}>
                 <td>
-                  <Date match={match} />
+                  <Date match={match} /> {!match.sources && <sup>*</sup>}
                 </td>
                 <td>
                   <Teams match={match} />
@@ -96,9 +99,9 @@ export default function MatchList({ matches }: Props) {
             ))}
           </tbody>
         </table>
-        {matches.length > 1 && (
+        {hasUnverifiedMatches && (
           <p className="mt-4 text-xs italic">
-            Data might not be fully accurate for some games yet. It needs to be
+            <sup>*</sup> Data might not be fully accurate. It needs to be
             verified with reliable sources. Want to help? Contact me at
             przemek&#64;sobstel&#46;org.
           </p>

@@ -71,5 +71,46 @@
       ],
       []
     ]
+  },
+  {
+    "date": "1913-07-13",
+    "competition": "Benefit",
+    "venue": {"name": "Montevideo"},
+    "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
+    "score": [5, 4],
+    "result": "L",
+    "goals": [
+      [
+        {"name": "Pedro Zibechi", "min": "5", "type": "G"},
+        {"name": "Vicente Legarburo", "min": "15", "type": "G"},
+        {"name": "José Perez", "min": "53", "type": "G"},
+        {"name": "Lucio Gorla", "min": "85", "type": "G"},
+        {"name": "Lucio Gorla", "min": "90", "type": "G"}
+      ],
+      [
+        {"name": "R Guidi", "min": "9", "type": "G"},
+        {"name": "R Guidi", "min": "28", "type": "G"},
+        {"name": "R Guidi", "min": "30", "type": "G"},
+        {"name": "Guillermo Dannaher", "min": "59", "type": "G"}
+      ]
+    ],
+    "cards": [[], []],
+    "coaches": [null, null],
+    "lineups": [
+      [
+        {"name": "Cayetano Saporiti"},
+        {"name": "José Perez"},
+        {"name": "Martín Aphesteguy"},
+        {"name": "José Benincasa"},
+        {"name": "Carlos Marques Castro"},
+        {"name": "Pablo Dacal"},
+        {"name": "José María Durán"},
+        {"name": "Lucio Gorla"},
+        {"name": "Vicente Legarburo"},
+        {"name": "Jorge Pacheco"},
+        {"name": "Pedro Zibechi"}
+      ],
+      [{"name": "Guillermo Dannaher"}, {"name": "R Guidi"}]
+    ]
   }
 ]
