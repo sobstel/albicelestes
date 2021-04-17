@@ -1491,6 +1491,7 @@
     "sources": ["El Gráfico", "AUF"]
   },
   {
+    "slug": "argentina-uruguay-2",
     "date": "1913-06-15",
     "competition": "Copa Roque Sáenz Peña",
     "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
@@ -1534,7 +1535,7 @@
     "sources": ["El Gráfico", "AUF"]
   },
   {
-    "slug": "argentina-uruguay-2",
+    "slug": "argentina-uruguay-3",
     "date": "1913-07-09",
     "competition": "Copa Roque Sáenz Peña",
     "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
@@ -1583,7 +1584,7 @@
     "sources": ["El Gráfico", "AUF"]
   },
   {
-    "slug": "argentina-uruguay-3",
+    "slug": "argentina-uruguay-4",
     "date": "1913-08-15",
     "competition": "Copa Lipton",
     "venue": {"name": "Racing Club", "city": "Avellaneda, Buenos Aires"},
@@ -1631,7 +1632,7 @@
     ]
   },
   {
-    "slug": "argentina-uruguay-4",
+    "slug": "argentina-uruguay-5",
     "date": "1913-08-31",
     "competition": "Copa Honor Argentino",
     "venue": {"name": "Gimnasia, Buenos Aires"},
