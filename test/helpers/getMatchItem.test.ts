@@ -67,7 +67,7 @@ describe("getMatchItem", () => {
         { name: "Luis Suárez" },
       ],
     ],
-    sources: ["11v11", "Soccerway"],
+    sources: ["El Gráfico"],
   } as Match;
 
   const expectedMatch = {
@@ -76,6 +76,7 @@ describe("getMatchItem", () => {
     teams: [{ name: "Argentina" }, { name: "Uruguay" }],
     score: [2, 2],
     result: "D",
+    sources: ["El Gráfico"],
   } as MatchItem;
 
   it("extracts match item", () => {
