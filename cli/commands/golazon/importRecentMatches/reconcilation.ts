@@ -128,7 +128,9 @@ export async function reconcileCoach(
     const lastMatchName = R.pipe(
       reversedRecentMatches,
       createSelectHavingTeamSlug(teamSlug),
-      R.map((match) => match.coaches[getMatchTeamIndex(match, teamSlug)]?.name),
+      R.map(
+        (match) => match.coaches?.[getMatchTeamIndex(match, teamSlug)]?.name
+      ),
       R.first()
     );
 

@@ -5,9 +5,12 @@ import { getMatchTeamIndex } from "helpers";
 import { Match, MatchCoach } from "types";
 
 function coachNameSuffix(
-  coaches: [MatchCoach, MatchCoach],
+  coaches: [MatchCoach, MatchCoach] | undefined,
   teamIndex: number
 ): string {
+  if (!coaches) {
+    return "";
+  }
   return coaches[teamIndex]?.name ? ` (${coaches[teamIndex]?.name})` : "";
 }
 

@@ -34,7 +34,7 @@ export type Match = {
   result: Result;
   goals: [Goal[], Goal[]];
   cards: [Card[], Card[]];
-  coaches: [MatchCoach, MatchCoach];
+  coaches?: [MatchCoach, MatchCoach];
   lineups: [Appearance[], Appearance[]];
   penaltyShootout?: { name: string; score: PenScore }[];
   notes?: string[];
