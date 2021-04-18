@@ -1,5 +1,3 @@
-const { RelativeCiAgentWebpackPlugin } = require("@relative-ci/agent");
-
 module.exports = {
   future: {
     webpack5: true,
@@ -32,14 +30,5 @@ module.exports = {
         permanent: true,
       },
     ];
-  },
-  webpack: function (config, options) {
-    const { dev, isServer } = options;
-
-    if (!dev && !isServer) {
-      config.plugins.push(new RelativeCiAgentWebpackPlugin());
-    }
-
-    return config;
   },
 };
