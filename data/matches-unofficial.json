@@ -17,8 +17,6 @@
         {"name": "Lucio Burgos", "min": "81", "type": "G"}
       ]
     ],
-    "cards": [[], []],
-    "coaches": [null, null],
     "lineups": [
       [],
       [
@@ -53,8 +51,6 @@
       ],
       []
     ],
-    "cards": [[], []],
-    "coaches": [null, null],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -94,8 +90,6 @@
         {"name": "Guillermo Dannaher", "min": "59", "type": "G"}
       ]
     ],
-    "cards": [[], []],
-    "coaches": [null, null],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},

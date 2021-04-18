@@ -2,7 +2,7 @@ import { collectTeams } from "helpers";
 import { Match } from "types";
 
 describe("collectTeams", () => {
-  const matches = [
+  const matches: Pick<Match, "teams">[] = [
     {
       teams: [{ name: "Argentina" }, { name: "Ecuador" }],
     },
@@ -15,7 +15,7 @@ describe("collectTeams", () => {
     {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
     },
-  ] as Pick<Match, "teams">[];
+  ];
 
   it("returns list of team items", () => {
     expect(collectTeams(matches)).toEqual([

@@ -2,7 +2,7 @@ import { collectPlayers } from "helpers";
 import { Match } from "types";
 
 describe("collectPlayers", () => {
-  const matches = [
+  const matches: Pick<Match, "teams" | "lineups" | "goals">[] = [
     {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       lineups: [[{ name: "Leo Messi" }, { name: "Javier Mascherano" }], []],
@@ -30,7 +30,7 @@ describe("collectPlayers", () => {
       lineups: [[{ name: "Leo Messi" }], []],
       goals: [[], []],
     },
-  ] as Pick<Match, "teams" | "lineups" | "goals">[];
+  ];
 
   function happyPath(testMatches: typeof matches) {
     expect(collectPlayers(testMatches)).toEqual([
@@ -45,14 +45,14 @@ describe("collectPlayers", () => {
   });
 
   it("does not include goals", () => {
-    const localMatches = [
+    const localMatches: typeof matches = [
       ...matches,
       {
         teams: [{ name: "Argentina" }, { name: "Brazil" }],
         lineups: [[], []],
         goals: [[{ name: "Dino", min: "10", type: "OG" }], []],
       },
-    ] as typeof matches;
+    ];
 
     happyPath(localMatches);
   });

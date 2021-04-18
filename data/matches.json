@@ -17,7 +17,6 @@
         {"name": "Jorge Brown", "min": "86", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Sardeson"},
@@ -78,7 +77,6 @@
         {"name": "Bolívar Céspedes", "min": "61", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Jorge Howard"},
@@ -118,7 +116,6 @@
     "aet": true,
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Buruca Laforia"},
@@ -168,7 +165,6 @@
         {"name": "Tristan González", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -213,7 +209,6 @@
       ],
       [{"name": "Gilberto Peralta", "min": "87", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ricardo Coulthurst"},
@@ -258,7 +253,6 @@
       ],
       [{"name": "Pedro Zibechi", "min": "68", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Buruca Laforia"},
@@ -303,7 +297,6 @@
         {"name": "Ricardo Malbrán", "min": "59", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Santiago Demarchi"},
@@ -351,7 +344,6 @@
         {"name": "Maximiliano Susán", "min": "60", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -396,7 +388,6 @@
       ],
       [{"name": "José Brachi", "min": "82", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -441,7 +432,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "José Brachi", "min": "82", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -486,7 +476,6 @@
       ],
       [{"name": "Alberto Zumarán", "min": "88", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -534,7 +523,6 @@
         {"name": "Alberto García", "min": "9", "type": "OG"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -581,7 +569,6 @@
       ],
       [{"name": "Santiago Raymonda", "min": "35", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -627,7 +614,6 @@
       ],
       [{"name": "Frank Simmons", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Rojo"},
@@ -676,7 +662,6 @@
       ],
       [{"name": "Colin Campbell", "min": "49", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -731,7 +716,6 @@
       ],
       [{"name": "José Piendibene", "min": "58", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -785,7 +769,6 @@
       ],
       [{"name": "Juan Enrique Hayes", "min": "71", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -831,7 +814,6 @@
         {"name": "Manuel Paulino González", "min": "80", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pablo Woitas"},
@@ -875,7 +857,6 @@
       [{"name": "Manuel Paulino González", "min": "65", "type": "G"}],
       [{"name": "José Piendibene", "min": "49", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan José Rithner"},
@@ -928,7 +909,6 @@
         {"name": "Pedro Seoane", "min": "65", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan José Rithner"},
@@ -973,7 +953,6 @@
         {"name": "Pablo Dacal", "min": "88", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1022,7 +1001,6 @@
         {"name": "Eliseo Brown", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1066,7 +1044,6 @@
       [{"name": "José Piendibene", "min": "68", "type": "G"}],
       [{"name": "Arnoldo Watson Hutton", "min": "21", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1112,7 +1089,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1159,7 +1135,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1204,7 +1179,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1251,7 +1225,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1290,7 +1263,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Arturo Reparaz", "min": "79", "type": "OG"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan José Rithner"},
@@ -1341,7 +1313,6 @@
         {"name": "Carlos Scarone", "min": "78", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1389,7 +1360,6 @@
         {"name": "José Viale", "min": "114", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1428,7 +1398,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan José Rithner"},
@@ -1471,7 +1440,6 @@
       [{"name": "Manuel Paulino González", "min": "83", "type": "G"}],
       [{"name": "Lucio Gorla", "min": "31", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1517,7 +1485,6 @@
       ],
       [{"name": "Carlos Bastos", "min": "7", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1567,7 +1534,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -1612,7 +1578,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -1650,7 +1615,6 @@
     "score": [0, 2],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "P Brito"},
@@ -1677,7 +1641,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Ricardo Vallarino", "min": "80", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1716,7 +1679,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Lucio Gorla", "min": "62", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1764,7 +1726,6 @@
         {"name": "Guillermo Dannaher", "min": "81", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Miguel Ángel Cavallotti"},
@@ -1808,7 +1769,6 @@
       ],
       [{"name": "Ricardo Vallarino", "min": "51", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Diomedes Bernasconi"},
@@ -1853,7 +1813,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Mariano Aldea"},
@@ -1892,7 +1851,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Rubens Salles", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Diomedes Bernasconi"},
@@ -1940,7 +1898,6 @@
         {"name": "Ennis Hayes", "min": "89", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -1984,7 +1941,6 @@
       ],
       [{"name": "José Piendibene", "min": "25", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -2029,7 +1985,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -2077,7 +2032,6 @@
       ],
       [{"name": "Telesforo Segundo Baez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
@@ -2118,7 +2072,6 @@
       [{"name": "José Laguna", "min": "10", "type": "G"}],
       [{"name": "Alencar", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -2157,7 +2110,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Adolfo F Heissinger", "min": "44", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -2195,7 +2147,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -2240,7 +2191,6 @@
       ],
       [{"name": "Isabelino Gradin", "min": "28", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Blanco"},
@@ -2286,7 +2236,6 @@
       ],
       [{"name": "Antonio Fannasso", "min": "23", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Zoilo Canaveri"},
@@ -2325,7 +2274,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Sallis", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [[], [{"name": "Sallis"}]]
   },
   {
@@ -2336,7 +2284,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Atilio Badalini", "min": "3", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2388,7 +2335,6 @@
         {"name": "Carlos Mongelar", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Emilio Fernández"},
@@ -2434,7 +2380,6 @@
       ],
       [{"name": "Carlos Guidi", "min": "33", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2478,7 +2423,6 @@
         {"name": "Alberto Marcovecchio", "min": "38", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2516,7 +2460,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Pedro Calomino", "min": "5", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Ferro"},
@@ -2555,7 +2498,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Ángel Romano", "min": "83", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2601,7 +2543,6 @@
       ],
       [{"name": "Neco", "type": "G"}, {"name": "Silvio Lagreca", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Blanco"},
@@ -2642,7 +2583,6 @@
       [{"name": "Louis Alberto Garcia", "min": "76", "type": "OG"}],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Blanco"},
@@ -2682,7 +2622,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Héctor Pedro Scarone", "min": "62", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2724,7 +2663,6 @@
       [{"name": "Alberto Ohaco", "min": "49", "type": "G"}],
       [{"name": "Bartolo Munoz", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Blanco"},
@@ -2765,7 +2703,6 @@
       [{"name": "Isabelino Gradin", "min": "7", "type": "G"}],
       [{"name": "Nicolas Rofrano", "min": "5", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2811,7 +2748,6 @@
       ],
       [{"name": "Candido Garcia", "min": "23", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2849,7 +2785,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -2894,7 +2829,6 @@
       ],
       [{"name": "Pascual Somma", "min": "18", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Blanco"},
@@ -2936,7 +2870,6 @@
       [{"name": "Carlos Scarone", "min": "61", "type": "G"}],
       [{"name": "Jorge Calandra", "min": "50", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
@@ -2981,7 +2914,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerónimo Badaracco"},
@@ -3028,7 +2960,6 @@
         {"name": "Alberto E Ochandio", "min": "87", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Lazaro 'Mbaraca' Avila"},
@@ -3077,7 +3008,6 @@
         {"name": "Isabelino Gradin", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Edwin Clarcke"},
@@ -3123,7 +3053,6 @@
         {"name": "Juan Carlos Adet", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Lazaro 'Mbaraca' Avila"},
@@ -3168,7 +3097,6 @@
         {"name": "José Laguna", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Lazaro 'Mbaraca' Avila"},
@@ -3213,7 +3141,6 @@
       ],
       [{"name": "Carlos Izaguirre", "min": "20", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Fortes"},
@@ -3258,7 +3185,6 @@
         {"name": "Alberto E Ochandio", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Lazaro 'Mbaraca' Avila"},
@@ -3304,7 +3230,6 @@
       ],
       [{"name": "Alfredo France", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Castagnola"},
@@ -3349,7 +3274,6 @@
         {"name": "Alberto E Ochandio", "min": "79", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -3387,7 +3311,6 @@
         {"name": "José Laiolo", "min": "84", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Martins"},
@@ -3433,7 +3356,6 @@
       ],
       [{"name": "Ennis Hayes", "min": "83", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -3478,7 +3400,6 @@
       ],
       [{"name": "Francisco Olazar", "min": "55", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -3523,7 +3444,6 @@
         {"name": "Héctor Pedro Scarone", "min": "42", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -3572,7 +3492,6 @@
       ],
       [{"name": "Arturo Fraga", "min": "72", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -3622,7 +3541,6 @@
         {"name": "Atilio Badalini", "min": "67", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -3666,7 +3584,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -3711,7 +3628,6 @@
         {"name": "José Piendibene", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Norberto Carabelli"},
@@ -3750,7 +3666,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Pedro Calomino", "min": "86", "type": "P"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Atilio Badalini"},
@@ -3792,7 +3707,6 @@
       [{"name": "Raul Echeverria", "min": "75", "type": "G"}],
       [{"name": "José Piendibene", "min": "10", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Atilio Badalini"},
@@ -3833,7 +3747,6 @@
       [{"name": "Aurelio Dominguez", "type": "G"}],
       [{"name": "Manuel Dellavalle", "min": "13", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ulises Poirier"},
@@ -3877,7 +3790,6 @@
         {"name": "Julio Libonatti", "min": "73", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Kuntz"},
@@ -3915,7 +3827,6 @@
     "score": [3, 1],
     "result": "W",
     "goals": [[], [{"name": "Osvaldo", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -3945,7 +3856,6 @@
       ],
       [{"name": "Pedro Corbella", "min": "25", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Wilfredo Carreras"},
@@ -3993,7 +3903,6 @@
         {"name": "Pedro Calomino", "min": "55", "type": "P"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Isidoro Benitez Casco"},
@@ -4039,7 +3948,6 @@
         {"name": "Gerardo Caldás", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "G Barnel"},
@@ -4078,7 +3986,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Julio Libonatti", "min": "27", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -4123,7 +4030,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -4161,7 +4067,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Julio Libonatti", "min": "57", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -4199,7 +4104,6 @@
     "score": [1, 3],
     "result": "L",
     "goals": [[{"name": "M Annunziata", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "M Annunziata"},
@@ -4234,7 +4138,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pedro Castoldi"},
@@ -4272,7 +4175,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Felipe Buffoni", "min": "43", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingo Tejera"},
@@ -4313,7 +4215,6 @@
       [{"name": "Amilcar", "type": "G"}, {"name": "Neco", "type": "G"}],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Kuntz"},
@@ -4357,7 +4258,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pedro Castoldi"},
@@ -4396,7 +4296,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Raul Echeverria", "min": "41", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -4438,7 +4337,6 @@
       [{"name": "Gamba", "type": "G"}, {"name": "Gamba", "type": "G"}],
       [{"name": "Juan Francia", "min": "17", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Francisco Abatte"},
@@ -4477,7 +4375,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Ángel Romano", "min": "26", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingo Tejera"},
@@ -4516,7 +4413,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Carlos Scarone", "min": "5", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingo Tejera"},
@@ -4566,7 +4462,6 @@
         {"name": "Zoilo Saldombide", "min": "56", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Atilio Badalini"},
@@ -4610,7 +4505,6 @@
         {"name": "J Vigliola", "type": "OG"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -4650,7 +4544,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Carlos Izaguirre", "min": "89", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -4688,7 +4581,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -4737,7 +4629,6 @@
         {"name": "Ángel Romano", "min": "72", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -4784,7 +4675,6 @@
         {"name": "Juan Carlos Irurieta", "min": "53", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Foglino"},
@@ -4829,7 +4719,6 @@
         {"name": "Adolfo Lopez", "min": "37", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alfredo Zibechi"},
@@ -4880,7 +4769,6 @@
         {"name": "Agustin Zelada", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vicente Aguirre"},
@@ -4924,7 +4812,6 @@
       ],
       [{"name": "Nilo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vicente Aguirre"},
@@ -4969,7 +4856,6 @@
         {"name": "Zeze", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Chico Netto"}],
     "lineups": [
       [
@@ -5015,7 +4901,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -5063,7 +4948,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -5112,7 +4996,6 @@
         {"name": "Hector Castro", "min": "63", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Natalio Perinetti"},
@@ -5157,7 +5040,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Chico Netto"}],
     "lineups": [
       [
@@ -5204,7 +5086,6 @@
         {"name": "Manuel Seoane", "min": "79", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Modesto Denis"},
@@ -5249,7 +5130,6 @@
       ],
       [{"name": "Domingo Tarasconi", "min": "55", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Modesto Denis"},
@@ -5296,7 +5176,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vicente Aguirre"},
@@ -5340,7 +5219,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Acevedo Alvarez"},
@@ -5379,7 +5257,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -5428,7 +5305,6 @@
         {"name": "Luis Monti", "min": "58", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pascual Ruotta"},
@@ -5470,7 +5346,6 @@
       [{"name": "Pedro Petrone", "min": "29", "type": "G"}],
       [{"name": "Domingo Tarasconi", "min": "85", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -5509,7 +5384,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -5554,7 +5428,6 @@
       ],
       [{"name": "Pedro Cea", "min": "30", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -5594,7 +5467,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Modesto Denis"},
@@ -5638,7 +5510,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Florindo Bearzotti"},
@@ -5677,7 +5548,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -5716,7 +5586,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Juan Carlos Irurieta", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -5745,7 +5614,6 @@
       [{"name": "Juan Evaristo", "min": "65", "type": "G"}],
       [{"name": "Luis Fretes", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -5790,7 +5658,6 @@
       ],
       [{"name": "Luis Fretes", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -5835,7 +5702,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -5881,7 +5747,6 @@
       ],
       [{"name": "Nilo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -5927,7 +5792,6 @@
       ],
       [{"name": "Manuel Fleitas Solich", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -5975,7 +5839,6 @@
         {"name": "Nilo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -6019,7 +5882,6 @@
       ],
       [{"name": "Ildefonso Lopez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Argento Arseni"},
@@ -6064,7 +5926,6 @@
       ],
       [{"name": "Luis Fretes", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Argento Arseni"},
@@ -6111,7 +5972,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -6162,7 +6022,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramón Muttis"},
@@ -6206,7 +6065,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -6247,7 +6105,6 @@
       [{"name": "Guillermo Saavedra", "type": "G"}],
       [{"name": "Domingo Tarasconi", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Cortes"},
@@ -6288,7 +6145,6 @@
       [],
       [{"name": "Alfredo D Carricaberry", "min": "76", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -6326,7 +6182,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Héctor Pedro Scarone", "min": "75", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rodolfo Orlandini"},
@@ -6375,7 +6230,6 @@
       ],
       [{"name": "Mario Alborta", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -6424,7 +6278,6 @@
         {"name": "Héctor Pedro Scarone", "min": "79", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Evaristo"},
@@ -6471,7 +6324,6 @@
         {"name": "Manuel Ferreira", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Jorge Pardon"},
@@ -6509,7 +6361,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Committee"}, null],
     "lineups": [
       [
@@ -6549,7 +6400,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Manuel Seoane", "min": "18", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6596,7 +6446,6 @@
         {"name": "Jorge Alonso", "min": "79", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingo Tejera"},
@@ -6641,7 +6490,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6682,7 +6530,6 @@
       [{"name": "Oscar Carbone", "min": "42", "type": "G"}],
       [{"name": "Juan Felix Maglio", "min": "63", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingo Tejera"},
@@ -6727,7 +6574,6 @@
       ],
       [{"name": "Juan Felix Maglio", "min": "89", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -6766,7 +6612,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6811,7 +6656,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6857,7 +6701,6 @@
       ],
       [{"name": "Diogenes Dominguez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6902,7 +6745,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6943,7 +6785,6 @@
       [{"name": "Francisco Varallo", "min": "11", "type": "G"}],
       [{"name": "Pedro Petrone", "min": "61", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -6981,7 +6822,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Luis Monti", "min": "81", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Raoul Caudron"}, {"name": "Francisco Olazar"}],
     "lineups": [
       [
@@ -7035,7 +6875,6 @@
         {"name": "Roberto Gayón", "min": "76", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Francisco Olazar"},
       {"name": "Juan Luque de Serralonga"}
@@ -7085,7 +6924,6 @@
       ],
       [{"name": "Guillermo Subiabre", "min": "16", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Francisco Olazar"}, {"name": "Gyorgy Orth"}],
     "lineups": [
       [
@@ -7135,7 +6973,6 @@
       ],
       [{"name": "James Brown", "min": "89", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Francisco Olazar"}, {"name": "Robert Miller"}],
     "lineups": [
       [
@@ -7186,7 +7023,6 @@
         {"name": "Guillermo Stábile", "min": "37", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alberto Suppici"}, {"name": "Francisco Olazar"}],
     "lineups": [
       [
@@ -7233,7 +7069,6 @@
       ],
       [{"name": "Blagoje Marjanovic", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Francisco Olazar"}, {"name": "Bosko Simonovic"}],
     "lineups": [
       [
@@ -7272,7 +7107,6 @@
     "score": [1, 1],
     "result": "D",
     "goals": [[], [{"name": "Carlos Peucelle", "min": "38", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -7301,7 +7135,6 @@
       [{"name": "Luis Monti", "min": "80", "type": "G"}],
       [{"name": "Aurelo González", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -7347,7 +7180,6 @@
       ],
       [{"name": "Delfin Benitez Caceres", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
@@ -7389,7 +7221,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Antonio Del Felice", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -7427,7 +7258,6 @@
         {"name": "Miguel Angel Lauri", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -7455,7 +7285,6 @@
     "score": [1, 1],
     "result": "D",
     "goals": [[], [{"name": "Emilio Castro", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -7488,7 +7317,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Cherro"},
@@ -7527,7 +7355,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Pablo Dorado", "min": "65", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Ballestrero"},
@@ -7571,7 +7398,6 @@
       ],
       [{"name": "Enrique Guaita", "min": "48", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Ballestrero"},
@@ -7620,7 +7446,6 @@
       ],
       [{"name": "Luis Mata", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Cherro"},
@@ -7662,7 +7487,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Francisco Varallo", "min": "66", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -7712,7 +7536,6 @@
         {"name": "Alberto Galateo", "min": "49", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jozsef Nagy"}, {"name": "Felipe Pascucci"}],
     "lineups": [
       [
@@ -7760,7 +7583,6 @@
         {"name": "Delfin Benitez Caceres", "min": "83", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Lorenzo Fernandez"},
@@ -7808,7 +7630,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -7855,7 +7676,6 @@
       ],
       [{"name": "Arturo Carmona", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -7903,7 +7723,6 @@
         {"name": "Herminio Masantonio", "min": "80", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Valdivieso"},
@@ -7951,7 +7770,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Ballestrero"},
@@ -7997,7 +7815,6 @@
       [{"name": "Juan Emilio Piriz", "type": "G"}],
       [{"name": "Carlos Peucelle", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Enrique Ballestrero"},
@@ -8045,7 +7862,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -8088,7 +7904,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Alberto Zozaya", "min": "71", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Arcadio Julio Lopez"},
@@ -8134,7 +7949,6 @@
       ],
       [{"name": "Diego Garcia", "min": "15", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Nasazzi"},
@@ -8183,7 +7997,6 @@
       ],
       [{"name": "Raul Toro", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8233,7 +8046,6 @@
       ],
       [{"name": "Aurelo González", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8272,7 +8084,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Alberto Zozaya", "min": "10", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre", "out": "84"},
@@ -8325,7 +8136,6 @@
         {"name": "Severino Varela", "min": "58", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8369,7 +8179,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Enrique Garcia", "min": "48", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8417,7 +8226,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8465,7 +8273,6 @@
         {"name": "Manuel Fidel", "min": "84", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Álvaro Gestido"},
@@ -8513,7 +8320,6 @@
       ],
       [{"name": "Agenor Muniz", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Sastre"},
@@ -8551,7 +8357,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "José Manuel Moreno", "min": "10", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -8646,7 +8451,6 @@
         {"name": "José Manuel Moreno", "min": "60", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Batatais"},
@@ -8695,7 +8499,6 @@
         {"name": "Enrique Garcia", "min": "23", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingos da Guia"},
@@ -8733,7 +8536,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "José Fabrini", "min": "5", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Desiderio 'Alvarito' Alvarez"},
@@ -8785,7 +8587,6 @@
         {"name": "Luis Arrieta", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julian Benegas"},
@@ -8833,7 +8634,6 @@
         {"name": "F Cassan", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Aymore"},
@@ -8879,7 +8679,6 @@
       ],
       [{"name": "Eduardo Mingo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "G Ballesteros"},
@@ -8925,7 +8724,6 @@
         {"name": "Angel R Laferrara", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Marcial Barrios"},
@@ -8972,7 +8770,6 @@
         {"name": "Manuel Fidel", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Aymore"},
@@ -9020,7 +8817,6 @@
       ],
       [{"name": "Enrique Sorrel", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Jorge Alberti"},
@@ -9068,7 +8864,6 @@
       ],
       [{"name": "Jair", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9118,7 +8913,6 @@
         {"name": "Patrico Pizarro I", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "G Ballesteros"},
@@ -9170,7 +8964,6 @@
         {"name": "Hercules", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9219,7 +9012,6 @@
       ],
       [{"name": "Leonidas", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9267,7 +9059,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Anibal Paz"},
@@ -9317,7 +9108,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon", "out": ""},
@@ -9364,7 +9154,6 @@
         {"name": "Luis Arrieta", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sergio Roberto Livingstone"},
@@ -9418,7 +9207,6 @@
         {"name": "Luis Arrieta", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sergio Roberto Livingstone"},
@@ -9460,7 +9248,6 @@
       [{"name": "Marcial Hurtado", "min": "87", "type": "G"}],
       [{"name": "Alberto Edmundo Belen", "min": "52", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Teodoro Fernandez"},
@@ -9505,7 +9292,6 @@
       [{"name": "Adelfo Magallanes", "min": "42", "type": "G"}],
       [{"name": "Alberto Edmundo Belen", "min": "11", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Teodoro Fernandez", "out": ""},
@@ -9556,7 +9342,6 @@
         {"name": "Juan Marvezzi", "min": "89", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gerardo Arce", "out": ""},
@@ -9605,7 +9390,6 @@
       ],
       [{"name": "Cesar Socarraz", "min": "53", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -9656,7 +9440,6 @@
       ],
       [{"name": "Augusto Freire", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9697,7 +9480,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Antonio Sastre", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -9740,7 +9522,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Enrique Garcia", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sergio Roberto Livingstone"},
@@ -9792,7 +9573,6 @@
         {"name": "Ruben Aveiro", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9838,7 +9618,6 @@
       ],
       [{"name": "Servilio", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9896,7 +9675,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9941,7 +9719,6 @@
       ],
       [{"name": "Teodoro Fernandez", "min": "19", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -9985,7 +9762,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -10025,7 +9801,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Bibiano Zapirain", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Anibal Paz"},
@@ -10075,7 +9850,6 @@
       ],
       [{"name": "Bibiano Zapirain", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sebastian Inocencio Gualco"},
@@ -10118,7 +9892,6 @@
       [{"name": "Antonio Alvarez", "type": "G"}],
       [{"name": "Alvarez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Schubert Gambetta"},
@@ -10168,7 +9941,6 @@
         {"name": "José Maria Medina", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10208,7 +9980,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "J Canteli", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Schubert Gambetta"},
@@ -10261,7 +10032,6 @@
         {"name": "Rinaldo Fioramonti Martino", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Castor Sixto Cantero"},
@@ -10317,7 +10087,6 @@
       ],
       [{"name": "Jaime Sarlanga", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Castor Sixto Cantero"},
@@ -10367,7 +10136,6 @@
         {"name": "Oscar Chirmini", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -10402,7 +10170,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Anibal Paz"},
@@ -10441,7 +10208,6 @@
         {"name": "Pedro Fernandez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10493,7 +10259,6 @@
         {"name": "Eligio Esquivel", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10542,7 +10307,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10595,7 +10359,6 @@
         {"name": "José L Mendoza", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10647,7 +10410,6 @@
       ],
       [{"name": "Arturo 'Guarapo' Mendoza", "min": "52", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon", "out": ""},
@@ -10698,7 +10460,6 @@
         {"name": "Norberto Méndez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sergio Roberto Livingstone"},
@@ -10747,7 +10508,6 @@
       ],
       [{"name": "Ademir", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10788,7 +10548,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Rinaldo Fioramonti Martino", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -10839,7 +10598,6 @@
       ],
       [{"name": "Rene Alejandro Pontoni", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Castor Sixto Cantero"},
@@ -10889,7 +10647,6 @@
         {"name": "Rinaldo Fioramonti Martino", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Castor Sixto Cantero"},
@@ -10934,7 +10691,6 @@
         {"name": "Rinaldo Fioramonti Martino", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Anibal Paz"},
@@ -10988,7 +10744,6 @@
         {"name": "José Maria Ortiz", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon", "out": ""},
@@ -11043,7 +10798,6 @@
         {"name": "Angel Labruna", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Barbosa"},
@@ -11098,7 +10852,6 @@
         {"name": "Rinaldo Fioramonti Martino", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingos da Guia"},
@@ -11147,7 +10900,6 @@
       ],
       [{"name": "R Martimo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Domingos da Guia"},
@@ -11251,7 +11003,6 @@
       ],
       [{"name": "Miguel Peredo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -11298,7 +11049,6 @@
       ],
       [{"name": "Juan Alcantara", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -11347,7 +11097,6 @@
       ],
       [{"name": "Juan Pedro Riephoff", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Salomon"},
@@ -11449,7 +11198,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Angel Perucca"},
@@ -11500,7 +11248,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Angel Perucca", "out": ""},
@@ -11553,7 +11300,6 @@
         {"name": "Valeriano Lopez", "min": "65", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Angel Perucca"},
@@ -11597,7 +11343,6 @@
       [{"name": "Alfredo Di Stefano", "type": "G"}],
       [{"name": "Fernando Riera", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Angel Perucca", "out": ""},
@@ -11651,7 +11396,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nestor Raul Rossi"},
@@ -11696,7 +11440,6 @@
         {"name": "Norberto Méndez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Victor Aguayo"},
@@ -11745,7 +11488,6 @@
       ],
       [{"name": "Julio Cesar Britos", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nestor Raul Rossi"},
@@ -11798,7 +11540,6 @@
         {"name": "Francisco Sosa", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Bravo", "out": ""},
@@ -11857,7 +11598,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Bravo", "out": ""},
@@ -11907,7 +11647,6 @@
       ],
       [{"name": "Mario Boyé", "min": "18", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Walter Winterbottom"}, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -11955,7 +11694,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Angel Labruna", "min": "54", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Fred Kiernan"},
@@ -11997,7 +11735,6 @@
       [],
       [{"name": "Ricardo Raymondo Infante", "min": "60", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Pedro Escartin/1"}, null],
     "lineups": [
       [
@@ -12045,7 +11782,6 @@
         {"name": "Angel Labruna", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Candido de Oliveira"}, null],
     "lineups": [
       [
@@ -12097,7 +11833,6 @@
       ],
       [{"name": "Tommy Taylor", "min": "40", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Walter Winterbottom"}],
     "lineups": [
       [
@@ -12146,7 +11881,6 @@
     "score": [0, 0],
     "result": "S",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Walter Winterbottom"}],
     "lineups": [
       [
@@ -12196,7 +11930,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Ernesto Grillo", "min": "86", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Pedro Escartin/4"}],
     "lineups": [
       [
@@ -12242,7 +11975,6 @@
         {"name": "Ernesto Grillo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Salvador do Carmo"}, null],
     "lineups": [
       [
@@ -12289,7 +12021,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Giovanni Viola"},
@@ -12343,7 +12074,6 @@
         {"name": "Salvador Villalba", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12394,7 +12124,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12446,7 +12175,6 @@
         {"name": "Oscar Gomez Sanchez", "min": "60", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12499,7 +12227,6 @@
       ],
       [{"name": "Omar Oscar Miguez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12542,7 +12269,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Rodolfo Micheli", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Misael Escutti"},
@@ -12589,7 +12315,6 @@
       ],
       [{"name": "Roberto Drago", "min": "55", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12636,7 +12361,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Julio Mussimesi"},
@@ -12676,7 +12400,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Carlos Cecconato", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Salvador Villalba"},
@@ -12716,7 +12439,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Luiz Trujilo 'Luizinho'", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gilmar"},
@@ -12756,7 +12478,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Javier Ambrois", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Wiliam Martinez"},
@@ -12797,7 +12518,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Guillermo Barbadillo"},
@@ -12837,7 +12557,6 @@
     "score": [6, 1],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [[], []]
   },
   {
@@ -12856,7 +12575,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -12908,7 +12626,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13014,7 +12731,6 @@
         {"name": "Enrique Omar Sivori", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13054,7 +12770,6 @@
     "score": [3, 3],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Antonio Lopez Herranz"},
       {"name": "Guillermo Stábile"}
@@ -13069,7 +12784,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Norberto Conde", "min": "65", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13116,7 +12830,6 @@
         {"name": "Ernesto Grillo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13159,7 +12872,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13200,7 +12912,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Norberto Conde", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13246,7 +12957,6 @@
       [{"name": "Antonio Valentin Angelillo", "min": "81", "type": "G"}],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Rygr"}],
     "lineups": [
       [
@@ -13292,7 +13002,6 @@
       [{"name": "Javier Ambrois", "type": "G"}],
       [{"name": "A Carabal", "type": "G"}, {"name": "A Carabal", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13342,7 +13051,6 @@
         {"name": "Omar Oscar Miguez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13391,7 +13099,6 @@
         {"name": "Garabal", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13447,7 +13154,6 @@
         {"name": "Luis A Valencia", "min": "38", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13501,7 +13207,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13549,7 +13254,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13604,7 +13308,6 @@
         {"name": "José Fernandez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13651,7 +13354,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13695,7 +13397,6 @@
       ],
       [{"name": "Enrique Omar Sivori", "min": "50", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13747,7 +13448,6 @@
         {"name": "J Broockers", "min": "76", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13790,7 +13490,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13837,7 +13536,6 @@
       [{"name": "Antonio Valentin Angelillo", "type": "G"}],
       [{"name": "Carlos Correa I", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -13884,7 +13582,6 @@
         {"name": "Miguel Antonio Juarez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13929,7 +13626,6 @@
       [{"name": "Mazzola", "type": "G"}, {"name": "Pelé", "type": "G"}],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -13977,7 +13673,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14022,7 +13717,6 @@
         {"name": "Norberto Conde", "min": "61", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14070,7 +13764,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amadeo Raul Carrizo"},
@@ -14116,7 +13809,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amadeo Raul Carrizo"},
@@ -14154,7 +13846,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Omar Oscar Miguez", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14200,7 +13891,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Raul Aveiro", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14251,7 +13941,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amadeo Raul Carrizo"},
@@ -14298,7 +13987,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amadeo Raul Carrizo"},
@@ -14355,7 +14043,6 @@
       ],
       [{"name": "Oreste Omar Corbatta", "min": "3", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Joséf 'Sepp' Herberger"},
       {"name": "Guillermo Stábile"}
@@ -14404,7 +14091,6 @@
       ],
       [{"name": "Peter McParland", "min": "4", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Peter Doherty"}],
     "lineups": [
       [
@@ -14453,7 +14139,6 @@
       ],
       [{"name": "Oreste Omar Corbatta", "min": "65", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Kolsky"}, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14502,7 +14187,6 @@
       ],
       [{"name": "Manuel Alvarez", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14550,7 +14234,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14600,7 +14283,6 @@
       ],
       [{"name": "Alberto Terry", "min": "38", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14651,7 +14333,6 @@
       ],
       [{"name": "Ildefonso Sanabria", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14703,7 +14384,6 @@
       ],
       [{"name": "Hector Demarco", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14747,7 +14427,6 @@
       [{"name": "Juan José Pizzuti", "type": "G"}],
       [{"name": "Pelé", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladislao Wenceslao Cap"},
@@ -14799,7 +14478,6 @@
         {"name": "Miguel Angel Ruiz", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14858,7 +14536,6 @@
         {"name": "Juan-Vicente Lezcano", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Francisco Lombardo"},
@@ -14905,7 +14582,6 @@
       [{"name": "Carlos Alberto Raffo", "type": "G"}],
       [{"name": "Ruben Hector Sosa", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -14959,7 +14635,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -15011,7 +14686,6 @@
       ],
       [{"name": "José da Silva Geraldo II", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Eliseo Mouriño"},
@@ -15051,7 +14725,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Eduardo Toba Muino"}],
     "lineups": [
       [
@@ -15103,7 +14776,6 @@
         {"name": "Carlos González Cabrera", "min": "40", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Guillermo Stábile"},
       {"name": "Ignacio Trelles Campos"}
@@ -15157,7 +14829,6 @@
       ],
       [{"name": "Juarez", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Aymore Moreira"}],
     "lineups": [
       [
@@ -15206,7 +14877,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Eduardo Toba Muino"}],
     "lineups": [
       [
@@ -15253,7 +14923,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Guillermo Stábile"},
       {"name": "Ignacio Trelles Campos"}
@@ -15301,7 +14970,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Neto Milton", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
@@ -15352,7 +15020,6 @@
       ],
       [{"name": "Djalma Santos", "type": "P"}, {"name": "Delem", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Aymore Moreira"}],
     "lineups": [
       [
@@ -15403,7 +15070,6 @@
         {"name": "Julinho", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Aymore Moreira"}],
     "lineups": [
       [
@@ -15445,7 +15111,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Ruben Hector Sosa", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
@@ -15500,7 +15165,6 @@
       ],
       [{"name": "Ruben Hector Sosa", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -15548,7 +15212,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Commission"}],
     "lineups": [
       [
@@ -15598,7 +15261,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
@@ -15654,7 +15316,6 @@
         {"name": "José Maria Ramacciotti", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "José Vicente Balseca"},
@@ -15701,7 +15362,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
@@ -15740,7 +15400,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ramon Mayeregger"},
@@ -15793,7 +15452,6 @@
         {"name": "Martin Esteban Pando", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Armando Ferreira"}, null],
     "lineups": [
       [
@@ -15840,7 +15498,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Pedro Escartin/9"}, null],
     "lineups": [
       [
@@ -15890,7 +15547,6 @@
       ],
       [{"name": "Federico Sacchi", "min": "67", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Giovanni Ferrari"}, null],
     "lineups": [
       [
@@ -15945,7 +15601,6 @@
         {"name": "Luis Artime", "min": "57", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Rudolf Vytlacil"}, null],
     "lineups": [
       [
@@ -15987,7 +15642,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vladimir Maslachenko"},
@@ -16040,7 +15694,6 @@
       ],
       [{"name": "Juan Graciano González", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
@@ -16094,7 +15747,6 @@
         {"name": "Viktor Ponedielnik", "min": "25", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
@@ -16137,7 +15789,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -16167,7 +15818,6 @@
       [{"name": "Emilio Alvarez", "type": "G"}],
       [{"name": "Ruben Hector Sosa", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Sosa"},
@@ -16206,7 +15856,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "José Arturo Chaires", "min": "21", "type": "OG"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Guillermo Stábile"},
       {"name": "Ignacio Trelles Campos"}
@@ -16255,7 +15904,6 @@
       [{"name": "Hector Osvaldo Facundo", "min": "4", "type": "G"}],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Juan Carlos Lorenzo"},
       {"name": "Georgi Pantchedjiev"}
@@ -16304,7 +15952,6 @@
       ],
       [{"name": "José Francisco Sanfilippo", "min": "81", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfred Ramsey"}, {"name": "Juan Carlos Lorenzo"}],
     "lineups": [
       [
@@ -16343,7 +15990,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Lajos Baroti"}],
     "lineups": [
       [
@@ -16389,7 +16035,6 @@
       ],
       [{"name": "José Mattera", "type": "P"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rogelio Antonio Dominguez"},
@@ -16433,7 +16078,6 @@
       [{"name": "Honorino Landa", "type": "G"}],
       [{"name": "Luis Artime", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Misael Escutti", "out": ""},
@@ -16474,7 +16118,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Luis Artime", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Marino Navarro"},
@@ -16529,7 +16172,6 @@
         {"name": "Carlos Campillo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Marino Navarro"},
@@ -16576,7 +16218,6 @@
         {"name": "Victor Zegarra", "min": "76", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Marino Navarro"},
@@ -16630,7 +16271,6 @@
         {"name": "Leonordo Palacios", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Marino Navarro"},
@@ -16678,7 +16318,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Aymore Moreira"}],
     "lineups": [
       [
@@ -16729,7 +16368,6 @@
         {"name": "Mario Rodriguez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Victor Agustin Ugarte"},
@@ -16773,7 +16411,6 @@
       [{"name": "Juan Carlos Lallana", "type": "G"}],
       [{"name": "Cesar Cabrera", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Marino Navarro"},
@@ -16825,7 +16462,6 @@
         {"name": "Juan Carlos Lallana", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -16880,7 +16516,6 @@
         {"name": "Enrique S Fernandez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -16931,7 +16566,6 @@
         {"name": "Ermindo Onega", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Eliseo Baez", "out": ""},
@@ -16986,7 +16620,6 @@
         {"name": "Pablo 'Pablito' Rojas", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amadeo Raul Carrizo", "out": ""},
@@ -17037,7 +16670,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Dr José Maria Antunes"}],
     "lineups": [
       [
@@ -17083,7 +16715,6 @@
         {"name": "Ermindo Onega", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -17123,7 +16754,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Angel Rojas", "min": "66", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Alfred Ramsey"}],
     "lineups": [
       [
@@ -17171,7 +16801,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -17206,7 +16835,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Rattin", "out": ""},
@@ -17254,7 +16882,6 @@
       [{"name": "Carlos Verdejo", "type": "G"}],
       [{"name": "Antonio Rattin", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Adan Godoy"},
@@ -17304,7 +16931,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Anibal Bordon"},
@@ -17359,7 +16985,6 @@
       ],
       [{"name": "Julio Cesar Pavon", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -17403,7 +17028,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Henri Guerin"}, {"name": "José María Minella"}],
     "lineups": [
       [
@@ -17443,7 +17067,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -17484,7 +17107,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Angel Rojas", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -17528,7 +17150,6 @@
       [{"name": "Leonel Sanchez", "type": "G"}],
       [{"name": "Oscar Mas", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Contreras"},
@@ -17578,7 +17199,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -17616,7 +17236,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Vicente Bobadilla"},
@@ -17662,7 +17281,6 @@
       ],
       [{"name": "Rolando Vargas", "min": "55", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -17706,7 +17324,6 @@
         {"name": "Luis Artime", "min": "39", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio 'Tony' Aguirre"},
@@ -17747,7 +17364,6 @@
       [{"name": "Ermindo Onega", "type": "G"}],
       [{"name": "Anatoli Banishevski", "min": "9", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Miguel Santoro"},
@@ -17791,7 +17407,6 @@
       [{"name": "Oscar Mas", "min": "10", "type": "G"}],
       [{"name": "Jan Liberda", "min": "49", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Osvaldo Juan Zubeldia"},
       {"name": "Antoni Brzezanczyk"}
@@ -17838,7 +17453,6 @@
     "score": [0, 2],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [[], []]
   },
   {
@@ -17856,7 +17470,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Edmondo Fabbri"}, null],
     "lineups": [
       [
@@ -17900,7 +17513,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Johann Buzek", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Edi Fruhwirth"}, null],
     "lineups": [[{"name": "Johann Buzek"}], []]
   },
@@ -17918,7 +17530,6 @@
       ],
       [{"name": "Pirri", "min": "67", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "José Villalonga"}],
     "lineups": [
       [
@@ -18005,7 +17616,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Dr Alfredo Foni"}],
     "lineups": [
       [
@@ -18092,7 +17702,6 @@
       ],
       [{"name": "Celino Mora", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -18133,7 +17742,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Raul Emilio Bernao", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -18179,7 +17787,6 @@
       ],
       [{"name": "Santana", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -18228,7 +17835,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Antonio Roma"},
@@ -18268,7 +17874,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Pedro Virgilio Rocha", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ladislao Mazurkiewicz"},
@@ -18312,7 +17917,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Pedro Araya", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -18359,7 +17963,6 @@
       ],
       [{"name": "Enzo Enrique Gennoni", "min": "62", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ignacio Calderon"},
@@ -18408,7 +18011,6 @@
       [{"name": "Sebastian Fleitas", "type": "G"}],
       [{"name": "Mario Pardo", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Raimundo Aguilera"},
@@ -18457,7 +18059,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -18507,7 +18108,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Agapito Britez Sanchez"},
@@ -18557,7 +18157,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Perfumo"},
@@ -18605,7 +18204,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [[{"name": "Roque Avallay"}, {"name": "Rodolfo Fischer"}], []]
   },
   {
@@ -18622,7 +18220,6 @@
       ],
       [{"name": "Rodolfo Fischer", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pablo Forlan"},
@@ -18673,7 +18270,6 @@
       ],
       [{"name": "Alfio Ruben Basile", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -18724,7 +18320,6 @@
         {"name": "Alberto Rendo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
       [
@@ -18774,7 +18369,6 @@
         {"name": "Raul Armando Savoy", "min": "65", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Eloy Campos"},
@@ -18821,7 +18415,6 @@
       [{"name": "Enrique Casaretto", "min": "23", "type": "G"}],
       [{"name": "Carlos José Veglio", "min": "28", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Eloy Campos"},
@@ -18873,7 +18466,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Perfumo"},
@@ -18921,7 +18513,6 @@
       ],
       [{"name": "Alberto Rendo", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -18964,7 +18555,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Raul Armando Savoy", "min": "36", "type": "P"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Valentin Suarez"}, {"name": "Ryszard Koncewicz"}],
     "lineups": [
       [
@@ -19009,7 +18599,6 @@
       [{"name": "Jorge Hector Olmedo", "min": "76", "type": "G"}],
       [{"name": "Vahidin Musemic", "min": "20", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Rajko Mitic"}],
     "lineups": [
       [
@@ -19054,7 +18643,6 @@
       [{"name": "Victorio Nicolas Cocco", "type": "G"}],
       [{"name": "Severiano Irala", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Perfumo"},
@@ -19096,7 +18684,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Raimundo Aguilera"},
@@ -19141,7 +18728,6 @@
       [{"name": "Leonardo Veliz", "type": "G"}],
       [{"name": "A Quintano", "type": "OG"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -19190,7 +18776,6 @@
       ],
       [{"name": "Adolfo Olivares", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Silvio Marzolini"},
@@ -19327,7 +18912,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [[], []]
   },
   {
@@ -19338,7 +18922,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Rafael Albrecht", "min": "62", "type": "P"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Silvio Marzolini"},
@@ -19431,7 +19014,6 @@
         {"name": "Oscar Mas", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Carlos Alberto"},
@@ -19473,7 +19055,6 @@
       [{"name": "Jairzinho", "type": "G"}, {"name": "Pelé", "type": "G"}],
       [{"name": "Miguel Angel Brindisi", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Emerson Leao"},
@@ -19519,7 +19100,6 @@
       ],
       [{"name": "Oscar Zubia", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Diaz"},
@@ -19563,7 +19143,6 @@
       ],
       [{"name": "Oscar Mas", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ladislao Mazurkiewicz", "out": ""},
@@ -19608,7 +19187,6 @@
       [{"name": "Severiano Irala", "type": "G"}],
       [{"name": "Miguel Angel Brindisi", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Raimundo Aguilera"},
@@ -19714,7 +19292,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Juan José Pizzuti"}, {"name": "Georges Boulogne"}],
     "lineups": [
       [
@@ -19759,7 +19336,6 @@
       [{"name": "Saturnino Arrua", "type": "P"}],
       [{"name": "Ángel Marcos", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Saturnino Arrua"},
@@ -19800,7 +19376,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "César Laraignée", "type": "P"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -19842,7 +19417,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Carlos Bianchi", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Jorge Carrascosa", "out": ""},
@@ -19885,7 +19459,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Norberto Madurga", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "César Laraignée"},
@@ -19928,7 +19501,6 @@
       [{"name": "Fransico Bertocchi", "type": "P"}],
       [{"name": "Carlos Bianchi", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ladislao Mazurkiewicz"},
@@ -19977,7 +19549,6 @@
         {"name": "Carlos Bianchi", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -20022,7 +19593,6 @@
       [{"name": "Norberto Madurga", "type": "G"}],
       [{"name": "Paulo Cezar Caju", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Mario Jorge Lobo Zagallo"}],
     "lineups": [
       [
@@ -20072,7 +19642,6 @@
         {"name": "Paulo Cezar Caju", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Mario Jorge Lobo Zagallo"}],
     "lineups": [
       [
@@ -20113,7 +19682,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Rodolfo Fischer", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Angel Hugo Bargas"},
@@ -20153,7 +19721,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Osvaldo Aquino"},
@@ -20206,7 +19773,6 @@
         {"name": "Ernesto Mastrangelo", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -20248,7 +19814,6 @@
     "score": [2, 0],
     "result": "W",
     "goals": [[{"name": "Rodolfo Fischer", "min": "40", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Mohamed El Gundi (Egypt)"}, null],
     "lineups": [
       [
@@ -20300,7 +19865,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Juan José Pizzuti"},
       {"name": "Antoine Tassy (Haiti)"}
@@ -20352,7 +19916,6 @@
       ],
       [{"name": "Jaime Moron", "min": "68", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
@@ -20393,7 +19956,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Juan José Pizzuti"}, {"name": "Georges Boulogne"}],
     "lineups": [
       [
@@ -20442,7 +20004,6 @@
       ],
       [{"name": "Miguel Angel Brindisi", "min": "29", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "José Augusto"}, null],
     "lineups": [
       [
@@ -20482,7 +20043,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "José Omar Pastoriza", "min": "75", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Miguel Santoro"},
@@ -20524,7 +20084,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Oscar Mas", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Miguel Santoro"},
@@ -20576,7 +20135,6 @@
         {"name": "Miguel Angel Brindisi", "min": "90", "type": "P"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Vujadin Mitic"}, null],
     "lineups": [
       [
@@ -20625,7 +20183,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
@@ -20667,7 +20224,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Asensi", "min": "33", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Ladislao Kubala/17"}, null],
     "lineups": [
       [
@@ -20713,7 +20269,6 @@
         {"name": "Ruben Ayala", "min": "40", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Hector Chumpitaz"},
@@ -20764,7 +20319,6 @@
         {"name": "Juan José Lopez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [],
@@ -20794,7 +20348,6 @@
     "score": [0, 2],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [[], []]
   },
   {
@@ -20811,7 +20364,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Javier Guzman"},
@@ -20869,7 +20421,6 @@
         {"name": "José-Luis Ghisso", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Helmut Schon"}, null],
     "lineups": [
       [
@@ -20913,7 +20464,6 @@
       [{"name": "Itzhak Shum", "min": "31", "type": "G"}],
       [{"name": "Ramon Heredia", "min": "36", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Itzhak Vissoker"},
@@ -20955,7 +20505,6 @@
       [{"name": "Miguel Angel Brindisi", "type": "G"}],
       [{"name": "Fernando Morena", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
@@ -20998,7 +20547,6 @@
     "score": [1, 1],
     "result": "D",
     "goals": [[], [{"name": "Carlos Babington", "type": "P"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Masnik"},
@@ -21052,7 +20600,6 @@
         {"name": "Julio Crisosto", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
@@ -21101,7 +20648,6 @@
       ],
       [{"name": "Miguel Angel Brindisi", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
       [
@@ -21151,7 +20697,6 @@
       ],
       [{"name": "Hector Bailetti", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
@@ -21406,7 +20951,6 @@
       ],
       [{"name": "Atila Kun", "min": "35", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Miguel Santoro"},
@@ -21447,7 +20991,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Mario Kempes", "min": "22", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Ştefan Kovács"}, {"name": "Vladislao Cap"}],
     "lineups": [
       [
@@ -21500,7 +21043,6 @@
         {"name": "Mario Kempes", "min": "89", "type": "P"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Joe Mercer"}, {"name": "Vladislao Cap"}],
     "lineups": [
       [
@@ -21549,7 +21091,6 @@
       ],
       [{"name": "Ruben Ayala", "min": "34", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Rinus Michels"}, null],
     "lineups": [
       [
@@ -21922,7 +21463,6 @@
       [{"name": "Roberto Domingo Rogel", "min": "83", "type": "G"}],
       [{"name": "Pirri", "min": "82", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ladislao Kubala/28"}],
     "lineups": [
       [
@@ -21970,7 +21510,6 @@
         {"name": "Juan José Lopez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Sergio Ahumada"},
@@ -22015,7 +21554,6 @@
       [{"name": "C Galleti", "type": "P"}],
       [{"name": "Javier Mendez", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22065,7 +21603,6 @@
         {"name": "Rene Alberto Alderete", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -22099,7 +21636,6 @@
       ],
       [{"name": "Ovidio Mezza", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [{"name": "Rene Alberto Alderete"}, {"name": "C Asteciano"}],
@@ -22136,7 +21672,6 @@
         {"name": "Norberto Alonso", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Fernando Morena"},
@@ -22186,7 +21721,6 @@
         {"name": "Leopoldo Luque", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alejo"},
@@ -22231,7 +21765,6 @@
       [{"name": "Nelinho", "type": "G"}, {"name": "Nelinho", "type": "G"}],
       [{"name": "Julio Daniel Asad", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Amaral"},
@@ -22289,7 +21822,6 @@
       ],
       [{"name": "L Luque", "type": "OG"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22331,7 +21863,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Danival", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22380,7 +21911,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22424,7 +21954,6 @@
       [{"name": "Fausto Vargas", "min": "5", "type": "G"}],
       [{"name": "Hugo Oscar Coscia", "min": "34", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Javier Sánchez"},
@@ -22477,7 +22006,6 @@
         {"name": "Hector Horacio Scotta", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Secundino Aifuch"},
@@ -22522,7 +22050,6 @@
       [{"name": "Mario Kempes", "type": "P"}],
       [{"name": "Zico", "type": "G"}, {"name": "Lula", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22563,7 +22090,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Mario Kempes", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Valeri Abramov"},
@@ -22612,7 +22138,6 @@
         {"name": "Rene Houseman", "min": "69", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Kazimierz Gorski"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -22661,7 +22186,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -22711,7 +22235,6 @@
       ],
       [{"name": "Dario Pereyra", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22761,7 +22284,6 @@
         {"name": "Francisco Riveros", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22806,7 +22328,6 @@
       [{"name": "Lula", "type": "G"}, {"name": "Neca", "type": "G"}],
       []
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -22854,7 +22375,6 @@
         {"name": "Rene Houseman", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -22902,7 +22422,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -22952,7 +22471,6 @@
         {"name": "Alfredo Quesada", "min": "90", "type": "OG"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -22994,7 +22512,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Daniel Passarella", "min": "62", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23036,7 +22553,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23079,7 +22595,6 @@
     "score": [2, 0],
     "result": "L",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [[], []]
   },
@@ -23100,7 +22615,6 @@
       ],
       [{"name": "Sandor Zombori", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Lajos Baroti"}],
     "lineups": [
       [
@@ -23146,7 +22660,6 @@
     "pen": [4, 1],
     "result": "W",
     "goals": [[{"name": "Daniel Bertoni", "type": "P"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Hesmat Mohajerani"}],
     "lineups": [
       [
@@ -23239,7 +22752,6 @@
         {"name": "Klaus Fischer", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Helmut Schon"}],
     "lineups": [
       [
@@ -23333,7 +22845,6 @@
       [{"name": "Daniel Passarella", "type": "P"}],
       [{"name": "Don Masson", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ally MacLeod"}],
     "lineups": [
       [
@@ -23374,7 +22885,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Michel Hidalgo"}],
     "lineups": [
       [
@@ -23419,7 +22929,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Daniel Passarella", "min": "32", "type": "P"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Cesar Luis Menotti"},
       {"name": "Stevan Vilotic / Gojko Zec"}
@@ -23472,7 +22981,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23521,7 +23029,6 @@
       ],
       [{"name": "Adalberto Escobar", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23564,7 +23071,6 @@
     "pen": [3, 1],
     "result": "L",
     "goals": [[{"name": "Alberto Tarantini", "type": "OG"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -23614,7 +23120,6 @@
       ],
       [{"name": "Percy Rojas", "min": "89", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23666,7 +23171,6 @@
         {"name": "Rene Houseman", "min": "30", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Marcos Calderon Medrano"},
       {"name": "Cesar Luis Menotti"}
@@ -23721,7 +23225,6 @@
       ],
       [{"name": "Nikolai Grincharov", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23769,7 +23272,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Stefan Kovacs"}],
     "lineups": [
       [
@@ -23823,7 +23325,6 @@
       ],
       [{"name": "Synan Braddish", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -23873,7 +23374,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Raul Bentancor"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -23922,7 +23422,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -24338,7 +23837,6 @@
       ],
       [{"name": "Hristo Bonev", "min": "10", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -24383,7 +23881,6 @@
     "pen": [8, 7],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ernst Happel"}],
     "lineups": [
       [
@@ -24437,7 +23934,6 @@
         {"name": "Daniel Passarella", "min": "56", "type": "P"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Enzo Bearzot"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24477,7 +23973,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Johnny Giles"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24527,7 +24022,6 @@
         {"name": "Diego Maradona", "min": "70", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jock Stein"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24573,7 +24067,6 @@
       [{"name": "Diego Maradona", "min": "29", "type": "G"}],
       [{"name": "Zico", "min": "68", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Cesar Luis Menotti"},
       {"name": "Vincenzo Bearzot (Italy)"}
@@ -24625,7 +24118,6 @@
       ],
       [{"name": "Carlos Angel Lopez", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24670,7 +24162,6 @@
       [{"name": "Tita", "type": "G"}, {"name": "Zico", "type": "G"}],
       [{"name": "Hugo Oscar Coscia", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24718,7 +24209,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Federico Sacchi"}, null],
     "lineups": [
       [
@@ -24815,7 +24305,6 @@
       ],
       [{"name": "José Antonio Castro", "min": "84", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jupp Derwall"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24868,7 +24357,6 @@
         {"name": "Roberto Osvaldo Diaz", "min": "90", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Miljan Miljanic"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -24917,7 +24405,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Diego Maradona", "min": "12", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -24968,7 +24455,6 @@
       ],
       [{"name": "Daniel Passarella", "min": "53", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Ron Greenwood"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -25066,7 +24552,6 @@
         {"name": "Diego Maradona", "min": "89", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Karl Stotz"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
@@ -25119,7 +24604,6 @@
         {"name": "Osvaldo Vargas", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25165,7 +24649,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25213,7 +24696,6 @@
       ],
       [{"name": "Wlodzimierz Ciolek", "min": "51", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ryszard Kulesza"}],
     "lineups": [
       [
@@ -25257,7 +24739,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Roberto Osvaldo Diaz", "min": "17", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Dr Jozef Venglos"}],
     "lineups": [
       [
@@ -25302,7 +24783,6 @@
       [{"name": "Diego Maradona", "min": "19", "type": "G"}],
       [{"name": "Khoren Oganesian", "min": "22", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25353,7 +24833,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25405,7 +24884,6 @@
       ],
       [{"name": "Horst Hrubesch", "min": "41", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Jupp Derwall"}],
     "lineups": [
       [
@@ -25449,7 +24927,6 @@
       [{"name": "Diego Maradona", "min": "30", "type": "G"}],
       [{"name": "Edevaldo", "min": "47", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25538,7 +25015,6 @@
       [{"name": "Americo Gallego", "min": "71", "type": "G"}],
       [{"name": "Zdenek Valek", "min": "14", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
     "lineups": [
       [
@@ -25580,7 +25056,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
     "lineups": [
       [
@@ -25628,7 +25103,6 @@
       [{"name": "Gabriel Calderon", "min": "67", "type": "G"}],
       [{"name": "Wolfgang Dremmler", "min": "33", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Jupp Derwall"}],
     "lineups": [
       [
@@ -25674,7 +25148,6 @@
       [{"name": "Roberto Osvaldo Diaz", "min": "42", "type": "G"}],
       [{"name": "Khoren Oganesian", "min": "68", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -25722,7 +25195,6 @@
       ],
       [{"name": "Stoicho Mladenov", "min": "2", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, null],
     "lineups": [
       [
@@ -25766,7 +25238,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Roberto Osvaldo Diaz", "min": "56", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Mircea Lucescu"}],
     "lineups": [
       [
@@ -25860,7 +25331,6 @@
       ],
       [{"name": "Gabor Poloskei", "min": "76", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Kalman Meszoly"}],
     "lineups": [
       [
@@ -26088,7 +25558,6 @@
         {"name": "Ricardo Gareca", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Rene Valenzuela"},
@@ -26128,7 +25597,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Carlos Manuel Morete", "min": "70", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -26171,7 +25639,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Rogelio Delgado", "min": "55", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Fernandez"},
@@ -26214,7 +25681,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -26308,7 +25774,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Ricardo Gareca", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -26358,7 +25823,6 @@
         {"name": "Lupo Senan Quinonez", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -26397,7 +25861,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Emerson Leao"},
@@ -26437,7 +25900,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Ricardo Gareca", "min": "79", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -26509,7 +25971,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "ZHAO Da Yu", "min": "85", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "LIU Hai Guang"},
@@ -26557,7 +26018,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [{"name": "Carlos Alberto Arregui"}, {"name": "Careca"}],
       [{"name": "Racz"}]
@@ -26610,7 +26070,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Jorge Barrios", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Wilmer Cabrera"},
@@ -26652,7 +26111,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -26695,7 +26153,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Miguel Prince", "min": "56", "type": "P"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gildardo Gomez"},
@@ -26739,7 +26196,6 @@
     "score": [4, 0],
     "result": "L",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [[], []]
   },
   {
@@ -26756,7 +26212,6 @@
         {"name": "Oscar Alberto Dertycia", "min": "33", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Paul Wolfisberg"}, null],
     "lineups": [
       [
@@ -26857,7 +26312,6 @@
         {"name": "Jorge Burruchaga", "min": "58", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Franz Beckenbauer"}, null],
     "lineups": [
       [
@@ -26903,7 +26357,6 @@
       [{"name": "Manuel Negrete Arias", "min": "15", "type": "G"}],
       [{"name": "Jorge Burruchaga", "min": "12", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Bora Milutinovic"}, null],
     "lineups": [
       [
@@ -26951,7 +26404,6 @@
       [{"name": "Ricardo Gareca", "min": "44", "type": "G"}],
       [{"name": "Luis Flores", "min": "61", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -26995,7 +26447,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Alfredo Mendoza", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Roberto Fernandez", "out": ""},
@@ -27089,7 +26540,6 @@
       [{"name": "Diego Maradona", "type": "P"}],
       [{"name": "Cesar Zabala", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -27136,7 +26586,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -27187,7 +26636,6 @@
         {"name": "Diego Maradona", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pedro Javier Acosta"},
@@ -27235,7 +26683,6 @@
         {"name": "Jorge Burruchaga", "min": "86", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Pedro Zape", "out": ""},
@@ -27284,7 +26731,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -27323,7 +26769,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Jorge Valdano", "min": "26", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -27364,7 +26809,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Juan Carlos Oblitas", "min": "7", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ruben Toribio Diaz"},
@@ -27415,7 +26859,6 @@
         {"name": "Geronimo Barbadillo", "min": "38", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -27460,7 +26903,6 @@
       [{"name": "Diego Maradona", "type": "G"}],
       [{"name": "Tomas Boy", "min": "65", "type": "P"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Luis Islas"},
@@ -27506,7 +26948,6 @@
       [{"name": "Javier Aguirre", "min": "1", "type": "G"}],
       [{"name": "Oscar Ruggeri", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Bora Milutinovic"}, null],
     "lineups": [
       [
@@ -27599,7 +27040,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Kjetil Osvold", "min": "83", "type": "G"}], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Erik Thorstvedt"},
@@ -27656,7 +27096,6 @@
         {"name": "Carlos Daniel Tapia", "min": "89", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Avi Cohen", "out": "34"},
@@ -27708,7 +27147,6 @@
       ],
       [{"name": "PARK Chang-Sun", "min": "73", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "KIM Jung Nam"}],
     "lineups": [
       [
@@ -27754,7 +27192,6 @@
       [{"name": "Alessandro Altobelli", "min": "6", "type": "P"}],
       [{"name": "Diego Maradona", "min": "34", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Enzo Bearzot"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -27803,7 +27240,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Ivan Vutzov"}],
     "lineups": [
       [
@@ -27845,7 +27281,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Pedro Pablo Pasculli", "min": "41", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Omar Borras"}],
     "lineups": [
       [
@@ -27893,7 +27328,6 @@
       ],
       [{"name": "Gary Lineker", "min": "80", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Bobby Robson"}],
     "lineups": [
       [
@@ -27954,7 +27388,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Guy Thijs"}],
     "lineups": [
       [
@@ -28008,7 +27441,6 @@
         {"name": "Rudi Völler", "min": "81", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Franz Beckenbauer"}
@@ -28085,7 +27517,6 @@
       ],
       [{"name": "Alfredo González", "min": "63", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [
       [{"name": "Oscar Roman Acosta"}, {"name": "Walter Osvaldo Perazzo"}],
@@ -28114,7 +27545,6 @@
     "score": [2, 1],
     "result": "L",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [[], []]
   },
@@ -28127,7 +27557,6 @@
     "score": [1, 1],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [[], []]
   },
@@ -28139,7 +27568,6 @@
     "score": [1, 2],
     "result": "W",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [[], []]
   },
@@ -28158,7 +27586,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [
       [
@@ -28208,7 +27635,6 @@
       ],
       [{"name": "Diego Maradona", "min": "62", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Azeglio Vicini"},
       {"name": "Carlos Salvador Bilardo"}
@@ -28258,7 +27684,6 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Oscar Garré", "type": "OG"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Parodi"}],
     "lineups": [
       [
@@ -28361,7 +27786,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Luis Grimaldi"}],
     "lineups": [
       [
@@ -28404,7 +27828,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Antonio Alzamendi", "min": "44", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Roberto Freitas"},
       {"name": "Carlos Salvador Bilardo"}
@@ -28456,7 +27879,6 @@
         {"name": "Juan Jairo Galeano", "min": "27", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Francisco Maturana"}
@@ -28505,7 +27927,6 @@
       [{"name": "Benjamin Galindo", "type": "G"}],
       [{"name": "Oscar Alberto Dertycia", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Mario Velarde"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [{"name": "Benjamin Galindo"}],
@@ -28521,7 +27942,6 @@
     "score": [1, 1],
     "result": "D",
     "goals": [[{"name": "Benjamin Galindo", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Mario Velarde"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [[{"name": "Benjamin Galindo"}], []]
   },
@@ -28536,7 +27956,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Jorge Burruchaga", "min": "55", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Franz Beckenbauer"}
@@ -28594,7 +28013,6 @@
         {"name": "Oleg Protasov", "min": "80", "type": "P"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Valeri Lobanovski"}
@@ -28644,7 +28062,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Lothar Matthäus", "min": "30", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Franz Beckenbauer"},
       {"name": "Carlos Salvador Bilardo"}
@@ -28699,7 +28116,6 @@
         {"name": "Hernan Edgardo Diaz", "type": "OG"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [
       [
@@ -28742,7 +28158,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [
       [
@@ -28791,7 +28206,6 @@
       ],
       [{"name": "Oscar Ruggeri", "min": "31", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Frank Arok"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -28884,7 +28298,6 @@
       [{"name": "Emilio Butragueño", "min": "7", "type": "G"}],
       [{"name": "Claudio Caniggia", "min": "43", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Luis Suarez"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -28928,7 +28341,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Arnoldo Iguaran", "min": "15", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Francisco Maturana"},
       {"name": "Carlos Salvador Bilardo"}
@@ -28983,7 +28395,6 @@
         {"name": "Carlos Alejandro Alfaro Moreno", "min": "36", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -29031,7 +28442,6 @@
       [{"name": "Rubén Espinoza", "min": "69", "type": "P"}],
       [{"name": "Mauro Gabriel Airez", "min": "17", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Orlando Aravena"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29076,7 +28486,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Claudio Caniggia", "min": "67", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Orlando Aravena"}
@@ -29216,7 +28625,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Jorge Habegger"}
@@ -29266,7 +28674,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Sebastian Lazaroni"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29362,7 +28769,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Salvador Bilardo"},
       {"name": "Eduardo Lujan Manera"}
@@ -29408,7 +28814,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Azeglio Vicini"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29456,7 +28861,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -29503,7 +28907,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Manuel Lapuente"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29556,7 +28959,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Manuel Lapuente"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29571,7 +28973,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Stewart McKimmie", "min": "32", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Andy Roxburgh"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -29618,7 +29019,6 @@
       [{"name": "Manfred Zsak", "min": "3", "type": "G"}],
       [{"name": "Jorge Burruchaga", "min": "31", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Joséf Hickersberger"},
       {"name": "Carlos Salvador Bilardo"}
@@ -29671,7 +29071,6 @@
       [{"name": "Kubilay Turkyilmaz", "min": "90", "type": "G"}],
       [{"name": "Abel Balbo", "min": "53", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Uli Stielike"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
@@ -29721,7 +29120,6 @@
         {"name": "Claudio Caniggia", "min": "68", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Ehneour and Gruundma"},
       {"name": "Carlos Salvador Bilardo"}
@@ -30169,7 +29567,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Kalman Meszoly"}],
     "lineups": [
       [
@@ -30214,7 +29611,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Manuel Lapuente"}],
     "lineups": [
       [
@@ -30312,7 +29708,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Dario Franco", "min": "33", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Bora Milutinovic"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -30361,7 +29756,6 @@
       [{"name": "Oscar Ruggeri", "min": "44", "type": "G"}],
       [{"name": "Igor Kolyvanov", "min": "50", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Anatoli Bychovets"}],
     "lineups": [
       [
@@ -30412,7 +29806,6 @@
         {"name": "Dario Franco", "min": "70", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Graham Taylor"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -30505,7 +29898,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Victor Pignanelli"}],
     "lineups": [
       [
@@ -30550,7 +29942,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Gabriel Batistuta", "min": "81", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Aruro Salah"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -30601,7 +29992,6 @@
       ],
       [{"name": "José Cardozo", "min": "78", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Carlos Kiese"}],
     "lineups": [
       [
@@ -30655,7 +30045,6 @@
         {"name": "Jorge Hirano", "min": "66", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Miguel Company"}],
     "lineups": [
       [
@@ -30813,7 +30202,6 @@
       ],
       [{"name": "Antony de Avila", "min": "69", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Luis Augusto Garcia"}],
     "lineups": [
       [
@@ -30857,7 +30245,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Gabriel Batistuta", "min": "53", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "Koft"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -30900,7 +30287,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Gabriel Batistuta", "min": "88", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Terry Yorath"}],
     "lineups": [
       [
@@ -30948,7 +30334,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Eddie Thomson"}],
     "lineups": [
       [
@@ -31097,7 +30482,6 @@
         {"name": "Diego Simeone", "min": "63", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [null, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -31244,7 +30628,6 @@
       [{"name": "Claudio Caniggia", "min": "29", "type": "P"}],
       [{"name": "Néstor Craviotto", "min": "12", "type": "OG"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Richard Moller Nielsen"}],
     "lineups": [
       [
@@ -31286,7 +30669,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Gabriel Batistuta", "min": "54", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [
       {"name": "Alfio Basile"},
       {"name": "Xavier Francisco Azkargorta"}
@@ -31334,7 +30716,6 @@
       [{"name": "Oscar Ruggeri", "min": "28", "type": "G"}],
       [{"name": "David Patino", "min": "14", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Miguel Mejia Baron"}],
     "lineups": [
       [
@@ -31429,7 +30810,6 @@
       [{"name": "Muller", "min": "37", "type": "G"}],
       [{"name": "Leonardo Rodríguez", "min": "69", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Alberto Parreira"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -31520,7 +30900,6 @@
       ],
       [{"name": "Benjamin Galindo", "min": "67", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Miguel Mejia Baron"}],
     "lineups": [
       [
@@ -31724,7 +31103,6 @@
       ],
       [{"name": "Roberto Palacios", "min": "66", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Vladimir Popovic (YUG)"}],
     "lineups": [
       [
@@ -31767,7 +31145,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Solalinde"}],
     "lineups": [
       [
@@ -31820,7 +31197,6 @@
         {"name": "Adolfo Valencia", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Francisco Maturana"}],
     "lineups": [
       [
@@ -31970,7 +31346,6 @@
       ],
       [{"name": "Andreas Möller", "min": "8", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Berti Vogts"}],
     "lineups": [
       [
@@ -32020,7 +31395,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Alberto Parreira"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -32068,7 +31442,6 @@
       ],
       [{"name": "Mohsen Kachloul", "min": "18", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Blinda"}],
     "lineups": [
       [
@@ -32125,7 +31498,6 @@
         {"name": "Oscar Ruggeri", "min": "83", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jozic"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -32171,7 +31543,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Byron Zosimo Tenorio", "min": "72", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Carlos Torres Garces"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -32222,7 +31593,6 @@
         {"name": "Claudio Caniggia", "min": "53", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Shlomo Sharf"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -32267,7 +31637,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Miroslav Blažević"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
@@ -32561,7 +31930,6 @@
         {"name": "Marcelo Escudero", "min": "79", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Aruro Salah"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -32609,7 +31977,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Hugo Perez", "min": "78", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Anghel Iordanescu"}],
     "lineups": [
       [
@@ -33036,7 +32403,6 @@
       ],
       [{"name": "Richart Baez", "min": "24", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Ladislao Kubala"}],
     "lineups": [
       [
@@ -33085,7 +32451,6 @@
       ],
       [{"name": "Demetrio Angola", "min": "79", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Antonio Lopez Habas"}],
     "lineups": [
       [
@@ -33136,7 +32501,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Xavier Azkargorta"}],
     "lineups": [
       [
@@ -33185,7 +32549,6 @@
         {"name": "Eric Wynalda", "min": "60", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Steve Sampson"}],
     "lineups": [
       [
@@ -33350,7 +32713,6 @@
       ],
       [{"name": "Ariel Ortega", "min": "80", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Javier Clemente"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -33391,7 +32753,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Hernan Dario Gomez"}],
     "lineups": [
       [
@@ -33495,7 +32856,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Rafael Santana"}],
     "lineups": [
       [
@@ -33545,7 +32905,6 @@
       ],
       [{"name": "Julio Baldivieso", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Dusan Draskovic"}],
     "lineups": [
       [
@@ -33595,7 +32954,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Francisco Maturana"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -33688,7 +33046,6 @@
       [{"name": "Gabriel Batistuta", "min": "26", "type": "G"}],
       [{"name": "José Luis Chilavert", "min": "42", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Daniel Passarella"},
       {"name": "Paulo Cesar Carpeggiani"}
@@ -33748,7 +33105,6 @@
         {"name": "José Fabian Albornoz", "min": "90", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Rafael Santana"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -33853,7 +33209,6 @@
         {"name": "Zoran Jovicic", "min": "77", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Slobodan Santrac"}],
     "lineups": [
       [
@@ -33899,7 +33254,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Juan Ahuntchain"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -34050,7 +33404,6 @@
       ],
       [{"name": "Alex Dario Aguinaga", "min": "67", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Francisco Maturana"}],
     "lineups": [
       [
@@ -34099,7 +33452,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Daniel Passarella"},
       {"name": "Juan Carlos Oblitas Saba"}
@@ -34147,7 +33499,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Francisco Maturana"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -34195,7 +33546,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Nelson Acosta"}],
     "lineups": [
       [
@@ -34243,7 +33593,6 @@
       [{"name": "Marcelo Gallardo", "min": "90", "type": "P"}],
       [{"name": "José Luis Chilavert", "min": "73", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Nelson Acosta"}],
     "lineups": [
       [
@@ -34405,7 +33754,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Eduardo Borrero"}],
     "lineups": [
       [
@@ -34454,7 +33802,6 @@
         {"name": "Claudio Lopez", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Nelson Acosta"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -34543,7 +33890,6 @@
       [{"name": "Fernando Caceres", "min": "69", "type": "G"}],
       [{"name": "Carlos Valderrama", "min": "10", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Hernan Dario Gomez"}],
     "lineups": [
       [
@@ -34593,7 +33939,6 @@
       ],
       [{"name": "Horatio Niculescu", "min": "81", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Anghel Iordanescu"}],
     "lineups": [
       [
@@ -34645,7 +33990,6 @@
       ],
       [{"name": "Anto Drobnjak", "min": "78", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Slobodan Santrac"}],
     "lineups": [
       [
@@ -34803,7 +34147,6 @@
         {"name": "Ariel Ortega", "min": "40", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Mick McCarthy"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
@@ -34848,7 +34191,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Claudio Lopez", "min": "84", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [
       {"name": "Mario Jorge Lobo Zagallo"},
       {"name": "Daniel Passarella"}
@@ -34901,7 +34243,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Fuad Muzurovic"}],
     "lineups": [
       [
@@ -34947,7 +34288,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Gabriel Batistuta", "min": "47", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Nelson Acosta"}],
     "lineups": [
       [
@@ -35352,7 +34692,6 @@
         {"name": "Marcelo Gallardo", "min": "68", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "José Omar Pastoriza"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
@@ -35395,7 +34734,6 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Juan Pablo Sorin", "min": "67", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Manuel Lapuente"}],
     "lineups": [
       [
@@ -35552,7 +34890,6 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Joe-Max Moore", "min": "88", "type": "G"}], []],
-    "cards": [[], []],
     "coaches": [{"name": "Bruce Arena"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
@@ -35594,7 +34931,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [null, {"name": "Kestius Latoza"}],
     "lineups": [
       [
@@ -35884,7 +35220,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Wanderley Luxemburgo"}],
     "lineups": [
       [
@@ -35939,7 +35274,6 @@
         {"name": "Ariel Ortega", "min": "88", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Wanderley Luxemburgo"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
@@ -35990,7 +35324,6 @@
       ],
       [{"name": "Ivan Cordoba", "min": "47", "type": "P"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Javier Alvarez"}],
     "lineups": [
       [
@@ -36039,7 +35372,6 @@
         {"name": "Mauricio Pochettino", "min": "77", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "José Antonio Camacho"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
@@ -36203,7 +35535,6 @@
         {"name": "Hernan Crespo", "min": "88", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "José Omar Pastoriza"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
@@ -36304,7 +35635,6 @@
         {"name": "Hernan Crespo", "min": "75", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Oscar Cordoba"},
@@ -36688,7 +36018,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Meza"}],
     "lineups": [
       [
@@ -36860,7 +36189,6 @@
         {"name": "Juan Pablo Sorin", "min": "90", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Carlos Aragones Espinoza"},
       {"name": "Marcelo Bielsa"}
@@ -37320,7 +36648,6 @@
         {"name": "Pablo Aimar", "min": "63", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Alioum Boukar"},
@@ -37693,7 +37020,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Gonzalo Rodriguez", "min": "14", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Oswaldo Sanchez"},
@@ -37908,7 +37234,6 @@
         {"name": "Gonzalo Rodriguez", "min": "82", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Seigo Narazaki"},
@@ -37951,7 +37276,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Javier Saviola", "min": "44", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "LEE Woon-Jae"},
@@ -38002,7 +37326,6 @@
         {"name": "Gabriel Milito", "min": "36", "type": "OG"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Franco Costanzo"},
@@ -38059,7 +37382,6 @@
         {"name": "Andrés D'Alessandro", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gustavo Munúa"},
@@ -38169,7 +37491,6 @@
         {"name": "Cesar Delgado", "min": "32", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Gilberto Angelucci"},
@@ -38382,7 +37703,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Kily González", "min": "52", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Nadir Lamyaghri"},
@@ -39014,7 +38334,6 @@
         {"name": "Mario Santana", "min": "39", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Seigo Narazaki"},
@@ -39310,7 +38629,6 @@
         {"name": "Hernan Crespo", "min": "81", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jurgen Klinsmann"}, {"name": "José Pekerman"}],
     "lineups": [
       [
@@ -39357,7 +38675,6 @@
       [{"name": "Fabricio Fuentes", "min": "23", "type": "OG"}],
       [{"name": "Rolando Zarate", "min": "67", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Oscar Perez"},
@@ -40221,7 +39538,6 @@
         {"name": "Roberto Ayala", "min": "73", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "lineups": [
       [],
       [
@@ -40847,7 +40163,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Juan Pablo Carrizo"},
@@ -40894,7 +40209,6 @@
       [{"name": "Marco Streller", "min": "63", "type": "G"}],
       [{"name": "Carlos Tevez", "min": "49", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Diego Benaglio"},
@@ -41368,7 +40682,6 @@
       ],
       [{"name": "Maxi Rodriguez", "min": "84", "type": "G"}]
     ],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Hakon Opdal", "out": "46"},
@@ -41414,7 +40727,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Martin Demichelis", "min": "49", "type": "G"}]],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Mark Schwarzer"},
@@ -42005,7 +41317,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "lineups": [
       [
         {"name": "Yury Zhevnov"},
@@ -42714,7 +42025,6 @@
         {"name": "Jesus Datolo", "min": "59", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Guus Hiddink"}, {"name": "Diego Maradona"}],
     "lineups": [
       [
@@ -44075,7 +43385,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Ricardo La Volpe"}, {"name": "Sergio Batista"}],
     "lineups": [
       [
@@ -44683,7 +43992,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Nicolás Otamendi", "min": "72", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [null, {"name": "Alejandro Sabella"}],
     "lineups": [
       [],
@@ -45826,7 +45134,6 @@
         {"name": "Lionel Messi", "min": "49", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Victor Hugo Monzon"}, {"name": "Alejandro Sabella"}],
     "lineups": [
       [],
@@ -46132,7 +45439,6 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "cards": [[], []],
     "coaches": [{"name": "Victor Piturca"}, {"name": "Alejandro Sabella"}],
     "lineups": [
       [],
@@ -46825,7 +46131,6 @@
       ],
       [{"name": "Anas Sharbini", "min": "11", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Gerardo Martino"}, {"name": "Niko Kovač"}],
     "lineups": [
       [
@@ -46935,7 +46240,6 @@
         {"name": "Federico Mancuello", "min": "88", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Albert Roca"}, {"name": "Gerardo Daniel Martino"}],
     "lineups": [
       [
@@ -47470,7 +46774,6 @@
       ],
       []
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Gerardo Martino"},
       {"name": "Julio César Baldivieso"}
@@ -48932,7 +48235,6 @@
         {"name": "Angel Di Maria", "min": "93", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [
       {"name": "Varadaraju Sundramoorthy"},
       {"name": "Jorge Sampaoli"}
@@ -49217,7 +48519,6 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Sergio Agüero", "min": "86", "type": "G"}]],
-    "cards": [[], []],
     "coaches": [{"name": "S. Cherchesov"}, {"name": "J. Sampaoli"}],
     "lineups": [
       [
@@ -49334,7 +48635,6 @@
         {"name": "Manuel Lanzini", "min": "85", "type": "G"}
       ]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jorge Sampaio"}, {"name": "Luigi Di Biagio"}],
     "lineups": [
       [
@@ -49519,7 +48819,6 @@
       [{"name": "Sergio Agüero", "min": "19", "type": "G"}],
       [{"name": "Alfred Finnbogason", "min": "23", "type": "G"}]
     ],
-    "cards": [[], []],
     "coaches": [{"name": "Jorge Sampaoli"}, {"name": "Hemir Hallgrimsson"}],
     "lineups": [
       [

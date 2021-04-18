@@ -2,7 +2,7 @@ import { findTeamName } from "helpers";
 import { Match } from "types";
 
 describe("findTeamName", () => {
-  const matches = [
+  const matches: Pick<Match, "teams">[] = [
     {
       teams: [
         { slug: "argentina", name: "Argentina" },
@@ -15,7 +15,7 @@ describe("findTeamName", () => {
         { slug: "argentina", name: "argentina" },
       ],
     },
-  ] as Pick<Match, "teams">[];
+  ];
 
   it("returns a team name", () => {
     expect(findTeamName(matches, "paraguay")).toEqual("Paraguay");

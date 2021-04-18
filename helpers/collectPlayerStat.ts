@@ -43,8 +43,10 @@ export default function collectPlayerStat(
     ["Y", "R"],
     (type) =>
       R.filter(statableMatches, (match) =>
-        match.cards[getMatchTeamIndex(match)].some(
-          (card) => card.type === type && getPlayerSlug(card.name) === slug
+        Boolean(
+          match.cards?.[getMatchTeamIndex(match)]?.some(
+            (card) => card.type === type && getPlayerSlug(card.name) === slug
+          )
         )
       ).length
   );

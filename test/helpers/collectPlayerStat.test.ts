@@ -1,7 +1,8 @@
 import { collectPlayerStat } from "helpers";
+import { Result } from "types";
 
 describe("collectPlayerStat", () => {
-  const matches = [
+  const matches: Parameters<typeof collectPlayerStat>[0] = [
     {
       teams: [{ name: "Argentina" }, { name: "Brazil" }],
       goals: [[{ name: "Javier Zanetti", type: "P" }], []],
@@ -16,7 +17,7 @@ describe("collectPlayerStat", () => {
         [{ name: "Javier Mascherano" }, { name: "Javier Zanetti", in: "46" }],
         [],
       ],
-      result: "W",
+      result: Result.Win,
     },
     {
       teams: [{ name: "England" }, { name: "Argentina" }],
@@ -26,30 +27,33 @@ describe("collectPlayerStat", () => {
         [{ name: "David Beckham" }],
         [{ name: "Diego Simeone" }, { name: "Javier Zanetti" }],
       ],
-      result: "W",
+      result: Result.Win,
     },
     {
       teams: [{ name: "Bolivia" }, { name: "Argentina" }],
       goals: [[], []],
-      cards: [[], []],
       lineups: [[], [{ name: "Javier Zanetti" }]],
-      result: "S",
+      result: Result.Suspended,
     },
     {
       teams: [{ name: "Peru" }, { name: "Argentina" }],
       goals: [[], []],
-      cards: [[], []],
       lineups: [[], [{ name: "Javier Zanetti", out: "75" }]],
-      result: "W",
+      result: Result.Win,
     },
     {
       teams: [{ name: "Argentina" }, { name: "Germany" }],
-      goals: [[{ name: "Lionel Messi" }, { name: "Javier Mascherano" }], []],
-      cards: [[], []],
+      goals: [
+        [
+          { name: "Lionel Messi", type: "G" },
+          { name: "Javier Mascherano", type: "G" },
+        ],
+        [],
+      ],
       lineups: [[{ name: "Lionel Messi" }, { name: "Javier Mascherano" }], []],
-      result: "W",
+      result: Result.Win,
     },
-  ] as Parameters<typeof collectPlayerStat>[0];
+  ];
 
   it("works correctly", () => {
     expect(collectPlayerStat(matches, "javier-zanetti")).toEqual({

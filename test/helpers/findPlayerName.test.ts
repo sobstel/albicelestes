@@ -2,7 +2,7 @@ import { findPlayerName } from "helpers";
 import { Match } from "types";
 
 describe("findPlayerName", () => {
-  const matches = [
+  const matches: Pick<Match, "teams" | "lineups">[] = [
     {
       teams: [{ name: "Argentina" }, { name: "Poland" }],
       lineups: [
@@ -21,7 +21,7 @@ describe("findPlayerName", () => {
         [{ name: "Maxi Rodríguez" }, { name: "Gabriel Batistua" }],
       ],
     },
-  ] as Pick<Match, "teams" | "lineups">[];
+  ];
 
   it("returns a player name", () => {
     expect(findPlayerName(matches, "maxi-rodriguez")).toEqual("Maxi Rodríguez");

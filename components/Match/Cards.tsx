@@ -9,6 +9,10 @@ import PlayerName from "components/PlayerName";
 type Props = { match: Pick<Match, "cards" | "lineups" | "teams"> };
 
 export default function Cards({ match }: Props) {
+  if (!match.cards) {
+    return null;
+  }
+
   const cards = R.pipe(
     match.cards,
     produceIndexedEvents,

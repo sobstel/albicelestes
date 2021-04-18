@@ -6,7 +6,7 @@ type Props = Parameters<typeof Goals>[0];
 
 describe(Goals, () => {
   describe("regular game", () => {
-    const match = {
+    const match: Props["match"] = {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       goals: [
         [
@@ -25,7 +25,7 @@ describe(Goals, () => {
         [{ name: "Roberto Ayala" }, { name: "Juan Pablo Sorín" }],
         [{ name: "Diego Godín" }, { name: "Diego Forlán" }],
       ],
-    } as Props["match"];
+    };
 
     const { container } = render(<Goals match={match} />);
     const ps = container.querySelectorAll("p");
@@ -56,7 +56,7 @@ describe(Goals, () => {
   });
 
   describe("game with incomplete data", () => {
-    const match = {
+    const match: Props["match"] = {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       goals: [
         [
@@ -69,7 +69,7 @@ describe(Goals, () => {
         [{ name: "Roberto Ayala" }, { name: "Javier Zanetti" }],
         [{ name: "Diego Godín" }],
       ],
-    } as Props["match"];
+    };
 
     const { container } = render(<Goals match={match} />);
     const ps = container.querySelectorAll("p");

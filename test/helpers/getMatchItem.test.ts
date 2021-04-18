@@ -1,14 +1,14 @@
 import { getMatchItem } from "helpers";
-import { Match, MatchItem } from "types";
+import { Match, MatchItem, Result } from "types";
 
 describe("getMatchItem", () => {
-  const match = {
+  const match: Match = {
     date: "2019-11-18",
     competition: "Friendly",
     venue: { name: "Bloomfield Stadium, Tel Aviv" },
     teams: [{ name: "Argentina" }, { name: "Uruguay" }],
     score: [2, 2],
-    result: "D",
+    result: Result.Draw,
     goals: [
       [
         { name: "Sergio Agüero", min: "63", type: "G" },
@@ -68,16 +68,16 @@ describe("getMatchItem", () => {
       ],
     ],
     sources: ["El Gráfico"],
-  } as Match;
+  };
 
-  const expectedMatch = {
+  const expectedMatch: MatchItem = {
     date: "2019-11-18",
     competition: "Friendly",
     teams: [{ name: "Argentina" }, { name: "Uruguay" }],
     score: [2, 2],
-    result: "D",
+    result: Result.Draw,
     sources: ["El Gráfico"],
-  } as MatchItem;
+  };
 
   it("extracts match item", () => {
     expect(getMatchItem(match)).toEqual(expectedMatch);

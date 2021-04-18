@@ -2,7 +2,7 @@ import { collectTeamStat } from "helpers";
 import { Result } from "types";
 
 describe("collectTeamStat", () => {
-  const matches = [
+  const matches: Parameters<typeof collectTeamStat>[0] = [
     {
       teams: [{ name: "Argentina" }, { name: "Brazil" }],
       score: [7, 1],
@@ -28,7 +28,7 @@ describe("collectTeamStat", () => {
       score: [0, 0],
       result: Result.Draw,
     },
-  ] as Parameters<typeof collectTeamStat>[0];
+  ];
 
   it("works correctly", () => {
     expect(collectTeamStat(matches)).toEqual({

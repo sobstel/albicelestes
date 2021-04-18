@@ -109,7 +109,7 @@ const toCards = async (match: Golazon.Match) => {
     return "Y";
   };
 
-  const convertedCards = [[], []] as Match["cards"];
+  const convertedCards: Required<Match["cards"]> = [[], []];
 
   for (const card of match.cards) {
     const index = findTeamIndex(match, card);

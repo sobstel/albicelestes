@@ -6,7 +6,7 @@ type Props = Parameters<typeof Lineups>[0];
 
 describe(Lineups, () => {
   describe("regular game", () => {
-    const match = {
+    const match: Props["match"] = {
       teams: [{ name: "Argentina" }, { name: "Uruguay" }],
       coaches: [{ name: "Marcelo Bielsa" }, null],
       lineups: [
@@ -26,7 +26,7 @@ describe(Lineups, () => {
           { name: "Martín Cáceres" },
         ],
       ],
-    } as Props["match"];
+    };
 
     const { container } = render(<Lineups match={match} />);
 
