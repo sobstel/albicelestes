@@ -1465,7 +1465,7 @@
         {"name": "Pablo Dacal"},
         {"name": "Lucio Gorla"},
         {"name": "Pedro Seoane"},
-        {"name": "Antonio Fannasso"}
+        {"name": "Antonio Farinasso"}
       ]
     ],
     "sources": ["El Gráfico", "AUF"]
@@ -1537,37 +1537,38 @@
     "lineups": [
       [
         {"name": "Carlos Tomás Wilson"},
-        {"name": "Donato Abatangelo"},
-        {"name": "Juan Brown"},
         {"name": "Arturo Chiappe"},
-        {"name": "José Morroni"},
-        {"name": "Alberto Ohaco"},
-        {"name": "Alberto Olivari"},
+        {"name": "Juan Brown"},
         {"name": "Ricardo Pepe"},
+        {"name": "José Morroni"},
+        {"name": "Alberto Olivari"},
         {"name": "Juan Rogers"},
+        {"name": "Alberto Ohaco"},
         {"name": "Maximiliano Susán"},
+        {"name": "Donato Abatángelo"},
         {"name": "José Viale"}
       ],
       [
-        {"name": "José Perez"},
-        {"name": "José Piendibene"},
-        {"name": "Luis Altamirano"},
-        {"name": "Martín Aphesteguy"},
-        {"name": "José Benincasa"},
-        {"name": "Pablo Dacal"},
-        {"name": "José María Durán"},
-        {"name": "Jorge Pacheco"},
         {"name": "Cayetano Saporiti"},
+        {"name": "José Benincasa"},
+        {"name": "Martín Aphesteguy"},
+        {"name": "Jorge Pacheco"},
+        {"name": "José María Durán"},
         {"name": "Bernardo Savio"},
-        {"name": "Ricardo Vallarino"}
+        {"name": "José Pérez"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Ricardo Vallarino"},
+        {"name": "Luis Altamirano"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "slug": "argentina-uruguay-5",
     "date": "1913-08-31",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 0],
     "result": "W",
@@ -1580,32 +1581,33 @@
     ],
     "lineups": [
       [
-        {"name": "Gerónimo Badaracco"},
-        {"name": "Guillermo Dannaher"},
-        {"name": "Zenón Díaz"},
-        {"name": "Carlos Guidi"},
-        {"name": "Juan Enrique Hayes"},
-        {"name": "Juan José Lamas"},
-        {"name": "Pascual Polimeni"},
-        {"name": "Arturo Reparaz"},
         {"name": "Juan José Rithner"},
+        {"name": "Zenón Díaz"},
+        {"name": "Arturo Reparaz"},
+        {"name": "Santiago Sayanes"},
         {"name": "Ernesto Sande"},
-        {"name": "Santiago Sayanes"}
+        {"name": "Gerónimo Badaracco"},
+        {"name": "Juan Lamas"},
+        {"name": "Guillermo Dannaher"},
+        {"name": "Juan Enrique Hayes"},
+        {"name": "Carlos Guidi"},
+        {"name": "Pascual Polimeni"}
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "Alfredo Foglino"},
-        {"name": "José Perez"},
         {"name": "José Benincasa"},
-        {"name": "Juan Delgado"},
-        {"name": "Antonio Fannasso"},
-        {"name": "Lucio Gorla"},
         {"name": "Alfredo Granja"},
-        {"name": "Alberto Landera"},
         {"name": "Jorge Pacheco"},
-        {"name": "José Tognola"}
+        {"name": "Juan Delgado"},
+        {"name": "Alfredo Foglino"},
+        {"name": "José Pérez"},
+        {"name": "Lucio Gorla"},
+        {"name": "José Tognola"},
+        {"name": "Antonio Farinasso"},
+        {"name": "Julio Landeira"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1913-09-21",
@@ -1758,7 +1760,7 @@
   {
     "date": "1914-09-13",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -1775,7 +1777,7 @@
         {"name": "Francisco Crespo"},
         {"name": "Pedro Gallardo"},
         {"name": "Carlos Izaguirre"},
-        {"name": "Juan José Lamas"},
+        {"name": "Juan Lamas"},
         {"name": "Carlos Galup Lanus"},
         {"name": "Delfin Lezcano"},
         {"name": "Ricardo Naon"},
@@ -1786,12 +1788,12 @@
       [
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "José Benincasa"},
         {"name": "Fausto Broncini"},
         {"name": "Pablo Dacal"},
-        {"name": "Antonio Fannasso"},
+        {"name": "Antonio Farinasso"},
         {"name": "Alfredo Granja"},
         {"name": "John Harley"},
         {"name": "Ricardo Vallarino"}
@@ -1801,7 +1803,7 @@
   {
     "date": "1914-09-20",
     "competition": "Friendly",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [3, 0],
     "result": "W",
@@ -1819,7 +1821,7 @@
         {"name": "Francisco Crespo"},
         {"name": "Roberto González Escarra"},
         {"name": "Carlos Izaguirre"},
-        {"name": "Juan José Lamas"},
+        {"name": "Juan Lamas"},
         {"name": "Roberto Leonardi"},
         {"name": "Aquiles H Molfino"},
         {"name": "Carlos A Muttoni"},
@@ -1846,7 +1848,7 @@
     "slug": "argentina-brazil-2",
     "date": "1914-09-27",
     "competition": "Copa Julio Roca",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 1],
     "result": "L",
@@ -1856,7 +1858,7 @@
         {"name": "Diomedes Bernasconi"},
         {"name": "Francisco Crespo"},
         {"name": "Carlos Izaguirre"},
-        {"name": "Juan José Lamas"},
+        {"name": "Juan Lamas"},
         {"name": "Carlos Galup Lanus"},
         {"name": "Roberto Leonardi"},
         {"name": "Ricardo Naon"},
@@ -1901,7 +1903,7 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Pablo Dacal"},
@@ -1930,7 +1932,7 @@
   {
     "date": "1915-08-15",
     "competition": "Copa Lipton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -1957,7 +1959,7 @@
       ],
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "Ángel Romano"},
         {"name": "José Benincasa"},
@@ -1989,7 +1991,7 @@
       [
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "José Benincasa"},
         {"name": "José Biachi"},
@@ -2007,7 +2009,7 @@
         {"name": "Candido Garcia"},
         {"name": "Juan Enrique Hayes"},
         {"name": "Juan Hospital"},
-        {"name": "Juan José Lamas"},
+        {"name": "Juan Lamas"},
         {"name": "Alberto Ohaco"},
         {"name": "Pascual Polimeni"},
         {"name": "Juan José Rithner"}
@@ -2017,7 +2019,7 @@
   {
     "date": "1916-07-06",
     "competition": "Copa América",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [6, 1],
     "result": "W",
@@ -2064,7 +2066,7 @@
   {
     "date": "1916-07-10",
     "competition": "Copa América",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 1],
     "result": "D",
@@ -2142,7 +2144,7 @@
   {
     "date": "1916-07-17",
     "competition": "Copa América",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
     "result": "D",
@@ -2234,7 +2236,7 @@
         {"name": "Alberto Ohaco", "min": "71", "type": "G"},
         {"name": "Eduardo Hiller", "min": "87", "type": "G"}
       ],
-      [{"name": "Antonio Fannasso", "min": "23", "type": "G"}]
+      [{"name": "Antonio Farinasso", "min": "23", "type": "G"}]
     ],
     "lineups": [
       [
@@ -2252,13 +2254,13 @@
       ],
       [
         {"name": "Antonio Urdinaran"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Miguel Benincasa"},
         {"name": "Antonio Brienza"},
         {"name": "Fausto Broncini"},
         {"name": "Antonio Marques Castro"},
         {"name": "Pablo Dacal"},
-        {"name": "Antonio Fannasso"},
+        {"name": "Antonio Farinasso"},
         {"name": "John Harley"},
         {"name": "Domingo Melogno"},
         {"name": "Carlos Scarone"}
@@ -2351,11 +2353,11 @@
       ],
       [
         {"name": "Antonio Urdinaran"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Benincasa"},
         {"name": "Felipe Buffoni"},
         {"name": "Santiago Demarchi"},
-        {"name": "Antonio Fannasso"},
+        {"name": "Antonio Farinasso"},
         {"name": "John Harley"},
         {"name": "Rodolfo Maran"},
         {"name": "Carlos Mongelar"},
@@ -2476,7 +2478,7 @@
       ],
       [
         {"name": "Antonio Urdinaran"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Alfredo Balmeli"},
         {"name": "Juan Delgado"},
@@ -2503,7 +2505,7 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Antonio Urdinaran"},
         {"name": "Pascual Somma"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Jorge German Pacheco"},
@@ -2627,7 +2629,7 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "Pascual Somma"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Jorge German Pacheco"},
@@ -2780,7 +2782,7 @@
   {
     "date": "1918-08-15",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 0],
     "result": "D",
@@ -2804,7 +2806,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
@@ -2818,7 +2820,7 @@
     "slug": "argentina-uruguay-2",
     "date": "1918-08-25",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 1],
     "result": "W",
@@ -2848,7 +2850,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Somma"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
@@ -2875,7 +2877,7 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "José Benincasa"},
@@ -2903,7 +2905,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1918-09-29",
     "competition": "Copa Newton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [2, 0],
     "result": "W",
@@ -2933,7 +2935,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Antonio Campolo"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Santiago Anzuberro"},
@@ -3026,7 +3028,7 @@
         {"name": "Cayetano Saporiti"},
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
         {"name": "Juan Delgado"},
@@ -3405,7 +3407,7 @@
         {"name": "Alfredo Foglino"},
         {"name": "Alfredo Zibechi"},
         {"name": "Pascual Ruotta"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "Ángel Romano"},
         {"name": "Vicente Clavijo"},
@@ -3433,7 +3435,7 @@
     "slug": "argentina-uruguay-2",
     "date": "1919-09-07",
     "competition": "Copa Lipton",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 2],
     "result": "L",
@@ -3477,7 +3479,7 @@
     "slug": "argentina-uruguay-3",
     "date": "1919-10-19",
     "competition": "Copa Honor Argentino",
-    "venue": {"name": "Gimnasia, Buenos Aires"},
+    "venue": {"name": "Gimnasia y Esgrima", "city": "Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [6, 1],
     "result": "W",
@@ -3547,7 +3549,7 @@
         {"name": "Alfredo Zibechi"},
         {"name": "Antonio Campolo"},
         {"name": "Pascual Ruotta"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "Ángel Romano"},
         {"name": "Héctor Pedro Scarone"},
@@ -3730,7 +3732,7 @@
         {"name": "Andras Ravera"},
         {"name": "Pascual Ruotta"},
         {"name": "Pascual Somma"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "José Piendibene"},
         {"name": "Ángel Romano"}
       ]
@@ -12527,7 +12529,7 @@
         {"name": "Rigoberto Felandro"},
         {"name": "Oscar Gomez Sanchez"},
         {"name": "Cornelio Heredia"},
-        {"name": "Juan Lamas"},
+        {"name": "Juan Lamas (II)"},
         {"name": "Carlos Lazon"},
         {"name": "Maximo Mosquera"},
         {"name": "Victor Salas"}

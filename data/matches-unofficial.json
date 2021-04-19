@@ -79,7 +79,7 @@
       [
         {"name": "Pedro Zibechi", "min": "5", "type": "G"},
         {"name": "Vicente Legarburo", "min": "15", "type": "G"},
-        {"name": "José Perez", "min": "53", "type": "G"},
+        {"name": "José Pérez", "min": "53", "type": "G"},
         {"name": "Lucio Gorla", "min": "85", "type": "G"},
         {"name": "Lucio Gorla", "min": "90", "type": "G"}
       ],
@@ -93,7 +93,7 @@
     "lineups": [
       [
         {"name": "Cayetano Saporiti"},
-        {"name": "José Perez"},
+        {"name": "José Pérez"},
         {"name": "Martín Aphesteguy"},
         {"name": "José Benincasa"},
         {"name": "Carlos Marques Castro"},
