@@ -146,7 +146,8 @@
     ],
     "info": {
       "trivia": [
-        "Regular time ended in 0-0. Two additional extra time periods were played, the first of 15 minutes and the second of 6 minutes (due to lack of light)."
+        "Regular time ended in 0-0. Two additional extra time periods were played, the first of 15 minutes and the second of 6 minutes (due to lack of light).",
+        "Despite goalless draw, the cup was given to Uruguay as a thank you for their visit."
       ]
     },
     "sources": ["El Gráfico", "AUF", "RSSSF"]
@@ -372,6 +373,9 @@
         {"name": "José Viale"}
       ]
     ],
+    "info": {
+      "trivia": "liseo Brown, whose conquest generated a legend.  Eliseo was said to have dribbled seven Uruguayans before putting the ball in the net."
+    },
     "sources": ["El Gráfico", "AUF"]
   },
   {
