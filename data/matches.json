@@ -41370,7 +41370,7 @@
         {"name": "Gabriel Heinze", "out": "46"},
         {"name": "Cata Diaz", "in": "46"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Ángel Di María", "out": "46"},
         {"name": "Sergio Agüero", "in": "46"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
@@ -41727,7 +41727,7 @@
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez", "out": "73"},
-        {"name": "Angel Di Maria", "in": "73"},
+        {"name": "Ángel Di María", "in": "73"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "78"},
@@ -41808,7 +41808,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Emiliano Papa"},
         {"name": "Maxi Rodriguez", "out": "57"},
-        {"name": "Angel Di Maria", "in": "57"},
+        {"name": "Ángel Di María", "in": "57"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Carlos Tevez", "out": "75"},
@@ -42136,7 +42136,7 @@
         {"name": "Paulo da Silva"},
         {"name": "Dario Veron"},
         {"name": "Edgar Barreto", "out": "82"},
-        {"name": "Victor Caceres", "in": "82"},
+        {"name": "Victor Cáceres", "in": "82"},
         {"name": "Cristian Riveros"},
         {"name": "Jonathan Santana", "out": "67"},
         {"name": "Eduardo Ledesma", "in": "67"},
@@ -42144,7 +42144,7 @@
         {"name": "Enrique Vera"},
         {"name": "Salvador Cabanas"},
         {"name": "Nelson Valdez", "out": "80"},
-        {"name": "Edgar Benitez", "in": "80"}
+        {"name": "Edgar Benítez", "in": "80"}
       ],
       [
         {"name": "Sergio Romero"},
@@ -42256,7 +42256,7 @@
         {"name": "Emiliano Insua"},
         {"name": "Pablo Aimar", "out": "76"},
         {"name": "Federico Insua", "in": "76"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez", "out": "46"},
         {"name": "Martin Palermo", "in": "46"},
@@ -42332,7 +42332,7 @@
         {"name": "Rolando Schiavi"},
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Ángel Di María", "out": "75"},
         {"name": "Fabian Monzon", "in": "75"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Sebastian Veron"},
@@ -42392,7 +42392,7 @@
         {"name": "Martin Demichelis"},
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago", "out": "75"},
         {"name": "Esteban Cambiasso", "in": "75"},
         {"name": "Javier Mascherano"},
@@ -42553,7 +42553,7 @@
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze", "out": "47"},
         {"name": "Clemente Rodriguez", "in": "47"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Sebastian Veron", "out": "90"},
         {"name": "Mario Bolatti", "in": "90"},
@@ -42640,7 +42640,7 @@
       [
         {"name": "Maxi Rodriguez", "min": "16", "type": "G"},
         {"name": "Maxi Rodriguez", "min": "32", "type": "G"},
-        {"name": "Angel Di Maria", "min": "37", "type": "G"},
+        {"name": "Ángel Di María", "min": "37", "type": "G"},
         {"name": "Carlos Tevez", "min": "63", "type": "G"},
         {"name": "Sergio Agüero", "min": "71", "type": "G"}
       ],
@@ -42662,7 +42662,7 @@
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze", "out": "59"},
         {"name": "Clemente Rodriguez", "in": "59"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano", "out": "59"},
         {"name": "Mario Bolatti", "in": "59"},
         {"name": "Javier Pastore", "out": "74"},
@@ -42713,7 +42713,7 @@
         {"name": "Walter Samuel"},
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria", "out": "85"},
+        {"name": "Ángel Di María", "out": "85"},
         {"name": "Nicolas Burdisso", "in": "85"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Sebastian Veron", "out": "74"},
@@ -42777,7 +42777,7 @@
         {"name": "Nicolas Burdisso", "in": "23"},
         {"name": "Jonas Gutierrez"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez"},
         {"name": "Lionel Messi"},
@@ -42847,7 +42847,7 @@
         {"name": "Clemente Rodriguez"},
         {"name": "Mario Bolatti"},
         {"name": "Maxi Rodriguez", "out": "63"},
-        {"name": "Angel Di Maria", "in": "63"},
+        {"name": "Ángel Di María", "in": "63"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "77"},
@@ -42881,7 +42881,7 @@
         {"name": "Martin Demichelis"},
         {"name": "Nicolás Otamendi"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria", "out": "79"},
+        {"name": "Ángel Di María", "out": "79"},
         {"name": "Jonas Gutierrez", "in": "79"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez", "out": "86"},
@@ -42940,7 +42940,7 @@
         {"name": "Nicolás Otamendi", "out": "70"},
         {"name": "Javier Pastore", "in": "70"},
         {"name": "Gabriel Heinze"},
-        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Ángel Di María", "out": "75"},
         {"name": "Sergio Agüero", "in": "75"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez"},
@@ -42973,7 +42973,7 @@
     "teams": [{"name": "Ireland"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Angel Di Maria", "min": "20", "type": "G"}]],
+    "goals": [[], [{"name": "Ángel Di María", "min": "20", "type": "G"}]],
     "cards": [[], [{"name": "Gabriel Heinze", "min": "59", "type": "Y"}]],
     "coaches": [{"name": "Giovanni Trappatoni"}, {"name": "Sergio Batista"}],
     "lineups": [
@@ -43004,7 +43004,7 @@
         {"name": "Gabriel Heinze", "out": "72"},
         {"name": "Emiliano Insua", "in": "72"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Ángel Di María", "out": "75"},
         {"name": "Jonas Gutierrez", "in": "75"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -43058,7 +43058,7 @@
         {"name": "Gonzalo Higuaín", "out": "68"},
         {"name": "Sergio Agüero", "in": "68"},
         {"name": "Carlos Tevez", "out": "60"},
-        {"name": "Angel Di Maria", "in": "60"}
+        {"name": "Ángel Di María", "in": "60"}
       ],
       [
         {"name": "Pepe Reina", "out": "46"},
@@ -43160,7 +43160,7 @@
         {"name": "Nicolás Pareja"},
         {"name": "Gabriel Heinze"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "70"},
         {"name": "Andrés D'Alessandro", "in": "70"},
@@ -43193,7 +43193,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Angel Di Maria", "min": "14", "type": "G"},
+        {"name": "Ángel Di María", "min": "14", "type": "G"},
         {"name": "Lionel Messi", "min": "90", "type": "P"}
       ],
       [{"name": "Cristiano Ronaldo", "min": "21", "type": "G"}]
@@ -43219,7 +43219,7 @@
         {"name": "Fernando Gago", "in": "62"},
         {"name": "Esteban Cambiasso", "out": "78"},
         {"name": "Lucas Biglia", "in": "78"},
-        {"name": "Angel Di Maria", "out": "66"},
+        {"name": "Ángel Di María", "out": "66"},
         {"name": "Javier Pastore", "in": "66"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Zanetti", "out": "62"},
@@ -43352,7 +43352,7 @@
         {"name": "Éver Banega"},
         {"name": "Esteban Cambiasso", "out": "75"},
         {"name": "Lucas Biglia", "in": "75"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
@@ -43701,7 +43701,7 @@
         {"name": "Éver Banega"},
         {"name": "Lucas Biglia", "out": "46"},
         {"name": "Fernando Gago", "in": "46"},
-        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Ángel Di María", "out": "46"},
         {"name": "Carlos Tevez", "in": "46"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Zanetti"},
@@ -43762,7 +43762,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega"},
         {"name": "Esteban Cambiasso", "out": "46"},
-        {"name": "Angel Di Maria", "in": "46"},
+        {"name": "Ángel Di María", "in": "46"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
@@ -43849,7 +43849,7 @@
       [
         {"name": "Sergio Agüero", "min": "45", "type": "G"},
         {"name": "Sergio Agüero", "min": "53", "type": "G"},
-        {"name": "Angel Di Maria", "min": "64", "type": "G"}
+        {"name": "Ángel Di María", "min": "64", "type": "G"}
       ],
       []
     ],
@@ -43872,7 +43872,7 @@
         {"name": "Nicolas Burdisso"},
         {"name": "Gabriel Milito"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "80"},
+        {"name": "Ángel Di María", "out": "80"},
         {"name": "Lucas Biglia", "in": "80"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -43938,7 +43938,7 @@
         {"name": "Nicolas Burdisso"},
         {"name": "Gabriel Milito"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "72"},
+        {"name": "Ángel Di María", "out": "72"},
         {"name": "Javier Pastore", "in": "72"},
         {"name": "Fernando Gago", "out": "96"},
         {"name": "Lucas Biglia", "in": "96"},
@@ -43987,7 +43987,7 @@
         {"name": "Federico Fernández", "in": "84"},
         {"name": "Ricardo Alvarez", "out": "62"},
         {"name": "Javier Pastore", "in": "62"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Lucho González", "out": "74"},
         {"name": "José Sosa", "in": "74"},
         {"name": "Javier Mascherano"},
@@ -44007,7 +44007,7 @@
     "goals": [
       [
         {"name": "Gonzalo Higuaín", "min": "24", "type": "G"},
-        {"name": "Angel Di Maria", "min": "26", "type": "G"},
+        {"name": "Ángel Di María", "min": "26", "type": "G"},
         {"name": "Elderson Echiéjilé", "min": "64", "type": "OG"}
       ],
       [{"name": "Chinedu Obasi", "min": "46", "type": "G"}]
@@ -44030,7 +44030,7 @@
         {"name": "Lucho González", "in": "69"},
         {"name": "Pablo Zabaleta", "out": "83"},
         {"name": "Federico Fernández", "in": "83"},
-        {"name": "Angel Di Maria", "out": "76"},
+        {"name": "Ángel Di María", "out": "76"},
         {"name": "Éver Banega", "in": "76"},
         {"name": "Javier Mascherano"},
         {"name": "José Sosa", "out": "89"},
@@ -44185,7 +44185,7 @@
         {"name": "Éver Banega", "out": "72"},
         {"name": "Fabian Rinaudo", "in": "72"},
         {"name": "Rodrigo Brana"},
-        {"name": "Angel Di Maria", "out": "85"},
+        {"name": "Ángel Di María", "out": "85"},
         {"name": "Jonas Gutierrez", "in": "85"},
         {"name": "José Sosa", "out": "79"},
         {"name": "Eduardo Salvio", "in": "79"},
@@ -44222,7 +44222,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta", "out": "65"},
         {"name": "Éver Banega", "in": "65"},
-        {"name": "Angel Di Maria", "out": "84"},
+        {"name": "Ángel Di María", "out": "84"},
         {"name": "Javier Pastore", "in": "84"},
         {"name": "Javier Mascherano"},
         {"name": "José Sosa", "out": "75"},
@@ -44390,7 +44390,7 @@
         {"name": "Sergio Agüero", "min": "20", "type": "G"},
         {"name": "Gonzalo Higuaín", "min": "29", "type": "G"},
         {"name": "Lionel Messi", "min": "31", "type": "G"},
-        {"name": "Angel Di Maria", "min": "75", "type": "G"}
+        {"name": "Ángel Di María", "min": "75", "type": "G"}
       ],
       []
     ],
@@ -44411,7 +44411,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Clemente Rodriguez"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "82"},
+        {"name": "Ángel Di María", "out": "82"},
         {"name": "Maxi Rodriguez", "in": "82"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -44465,7 +44465,7 @@
         {"name": "Clemente Rodriguez", "out": "88"},
         {"name": "Hugo Campagnaro", "in": "88"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "74"},
+        {"name": "Ángel Di María", "out": "74"},
         {"name": "Sergio Agüero", "in": "74"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -44502,7 +44502,7 @@
       [
         {"name": "Sami Khedira", "min": "45", "type": "OG"},
         {"name": "Lionel Messi", "min": "52", "type": "G"},
-        {"name": "Angel Di Maria", "min": "73", "type": "G"}
+        {"name": "Ángel Di María", "min": "73", "type": "G"}
       ]
     ],
     "cards": [
@@ -44536,7 +44536,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta", "out": "66"},
         {"name": "Hugo Campagnaro", "in": "66"},
-        {"name": "Angel Di Maria", "out": "73"},
+        {"name": "Ángel Di María", "out": "73"},
         {"name": "Pablo Guinazu", "in": "73"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano", "out": "80"},
@@ -44557,7 +44557,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Angel Di Maria", "min": "3", "type": "G"},
+        {"name": "Ángel Di María", "min": "3", "type": "G"},
         {"name": "Gonzalo Higuaín", "min": "30", "type": "G"},
         {"name": "Lionel Messi", "min": "64", "type": "G"}
       ],
@@ -44579,7 +44579,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Rodrigo Brana", "out": "88"},
         {"name": "Lucas Biglia", "in": "88"},
-        {"name": "Angel Di Maria", "out": "79"},
+        {"name": "Ángel Di María", "out": "79"},
         {"name": "Pablo Guinazu", "in": "79"},
         {"name": "Fernando Gago"},
         {"name": "Lionel Messi"},
@@ -44603,7 +44603,7 @@
       [],
       [
         {"name": "Hugo Campagnaro", "min": "88", "type": "Y"},
-        {"name": "Angel Di Maria", "min": "89", "type": "Y"}
+        {"name": "Ángel Di María", "min": "89", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Sergio Markarian"}, {"name": "Alejandro Sabella"}],
@@ -44614,7 +44614,7 @@
         {"name": "Federico Fernández"},
         {"name": "Ezequiel Garay"},
         {"name": "Marcos Rojo"},
-        {"name": "Angel Di Maria", "out": "89"},
+        {"name": "Ángel Di María", "out": "89"},
         {"name": "Maxi Rodriguez", "in": "89"},
         {"name": "Fernando Gago", "out": "60"},
         {"name": "Pablo Guinazu", "in": "60"},
@@ -44714,7 +44714,7 @@
         {"name": "Marcos Rojo", "out": "67"},
         {"name": "Hugo Campagnaro", "in": "67"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -44754,7 +44754,7 @@
         {"name": "Gonzalo Higuaín", "min": "31", "type": "G"}
       ]
     ],
-    "cards": [[], [{"name": "Angel Di Maria", "min": "51", "type": "Y"}]],
+    "cards": [[], [{"name": "Ángel Di María", "min": "51", "type": "Y"}]],
     "coaches": [{"name": "Daniel Borghi"}, {"name": "Alejandro Sabella"}],
     "lineups": [
       [],
@@ -44763,7 +44763,7 @@
         {"name": "Federico Fernández"},
         {"name": "Ezequiel Garay"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -44795,7 +44795,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Tino Costa", "out": "46"},
         {"name": "Franco Di Santo", "in": "46"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Eduardo Salvio", "out": "46"},
         {"name": "Ricardo Alvarez", "in": "46"},
@@ -44908,7 +44908,7 @@
         {"name": "Fabricio Coloccini", "in": "87"},
         {"name": "Pablo Zabaleta", "out": "61"},
         {"name": "Cristian Ansaldi", "in": "61"},
-        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Ángel Di María", "out": "46"},
         {"name": "Walter Montillo", "in": "46"},
         {"name": "Fernando Gago", "out": "68"},
         {"name": "Éver Banega", "in": "68"},
@@ -44993,7 +44993,7 @@
         {"name": "Clemente Rodriguez"},
         {"name": "Éver Banega", "out": "61"},
         {"name": "Leonardo Ponzio", "in": "61"},
-        {"name": "Angel Di Maria", "out": "90"},
+        {"name": "Ángel Di María", "out": "90"},
         {"name": "Pablo Guinazu", "in": "90"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -45037,7 +45037,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano", "out": "81"},
         {"name": "Ezequiel Lavezzi", "in": "81"},
         {"name": "Walter Montillo", "out": "57"},
@@ -45074,7 +45074,7 @@
     "cards": [
       [],
       [
-        {"name": "Angel Di Maria", "min": "56", "type": "Y"},
+        {"name": "Ángel Di María", "min": "56", "type": "Y"},
         {"name": "Federico Fernández", "min": "58", "type": "Y"},
         {"name": "Ezequiel Garay", "min": "67", "type": "Y"},
         {"name": "José Basanta", "min": "90", "type": "Y"}
@@ -45092,7 +45092,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega", "out": "75"},
         {"name": "Lucas Biglia", "in": "75"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Sergio Agüero", "out": "60"},
         {"name": "Lionel Messi", "in": "60"},
@@ -45184,7 +45184,7 @@
         {"name": "Ezequiel Garay", "out": "72"},
         {"name": "Fabricio Coloccini", "in": "72"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "81"},
+        {"name": "Ángel Di María", "out": "81"},
         {"name": "Ricardo Alvarez", "in": "81"},
         {"name": "Érik Lamela", "out": "46"},
         {"name": "Éver Banega", "in": "46"},
@@ -45210,7 +45210,7 @@
       [
         {"name": "Lionel Messi", "min": "12", "type": "P"},
         {"name": "Sergio Agüero", "min": "32", "type": "G"},
-        {"name": "Angel Di Maria", "min": "49", "type": "G"},
+        {"name": "Ángel Di María", "min": "49", "type": "G"},
         {"name": "Lionel Messi", "min": "52", "type": "P"},
         {"name": "Maxi Rodriguez", "min": "90", "type": "G"}
       ]
@@ -45225,7 +45225,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Fabricio Coloccini"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago", "out": "86"},
         {"name": "Maxi Rodriguez", "in": "86"},
         {"name": "Lionel Messi"},
@@ -45265,7 +45265,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Éver Banega"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "90"},
+        {"name": "Ángel Di María", "out": "90"},
         {"name": "Leandro Somoza", "in": "90"},
         {"name": "Sergio Agüero"},
         {"name": "Ezequiel Lavezzi", "out": "87"},
@@ -45354,7 +45354,7 @@
         {"name": "Maxi Rodriguez", "in": "79"},
         {"name": "Éver Banega", "out": "69"},
         {"name": "Lucas Biglia", "in": "69"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Gonzalo Higuaín", "out": "71"},
         {"name": "Rodrigo Palacio", "in": "71"},
@@ -45387,7 +45387,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "86"},
+        {"name": "Ángel Di María", "out": "86"},
         {"name": "Augusto Fernández", "in": "86"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez", "out": "72"},
@@ -45431,7 +45431,7 @@
         {"name": "Federico Fernández"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "90"},
+        {"name": "Ángel Di María", "out": "90"},
         {"name": "Maxi Rodriguez", "in": "90"},
         {"name": "Fernando Gago", "out": "57"},
         {"name": "Lucas Biglia", "in": "57"},
@@ -45470,7 +45470,7 @@
         {"name": "José Basanta", "in": "46"},
         {"name": "Federico Fernández"},
         {"name": "Marcos Rojo"},
-        {"name": "Angel Di Maria", "out": "63"},
+        {"name": "Ángel Di María", "out": "63"},
         {"name": "Enzo Perez", "in": "63"},
         {"name": "Fernando Gago", "out": "46"},
         {"name": "Lucas Biglia", "in": "46"},
@@ -45510,7 +45510,7 @@
         {"name": "Sergio Agüero", "in": "58"},
         {"name": "Marcos Rojo"},
         {"name": "Ricardo Alvarez", "out": "51"},
-        {"name": "Angel Di Maria", "in": "51"},
+        {"name": "Ángel Di María", "in": "51"},
         {"name": "Lucas Biglia", "out": "14"},
         {"name": "Hugo Campagnaro", "in": "14"},
         {"name": "Augusto Fernández"},
@@ -45551,7 +45551,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Maxi Rodriguez", "out": "46"},
         {"name": "Gonzalo Higuaín", "in": "46"},
@@ -45602,7 +45602,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "90"},
+        {"name": "Ángel Di María", "out": "90"},
         {"name": "Lucas Biglia", "in": "90"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
@@ -45678,7 +45678,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi", "out": "63"},
@@ -45697,12 +45697,12 @@
     "teams": [{"name": "Argentina"}, {"name": "Switzerland"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Angel Di Maria", "min": "118", "type": "G"}], []],
+    "goals": [[{"name": "Ángel Di María", "min": "118", "type": "G"}], []],
     "cards": [
       [
         {"name": "Marcos Rojo", "min": "90", "type": "Y"},
         {"name": "Ezequiel Garay", "min": "120", "type": "Y"},
-        {"name": "Angel Di Maria", "min": "120", "type": "Y"}
+        {"name": "Ángel Di María", "min": "120", "type": "Y"}
       ],
       [
         {"name": "Granit Xhaka", "min": "36", "type": "Y"},
@@ -45718,7 +45718,7 @@
         {"name": "Marcos Rojo", "out": "105"},
         {"name": "José Basanta", "in": "105"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago", "out": "106"},
         {"name": "Lucas Biglia", "in": "106"},
         {"name": "Javier Mascherano"},
@@ -45769,7 +45769,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "33"},
+        {"name": "Ángel Di María", "out": "33"},
         {"name": "Enzo Perez", "in": "33"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -45929,7 +45929,7 @@
         {"name": "Sergio Agüero", "min": "20", "type": "G"},
         {"name": "Érik Lamela", "min": "40", "type": "G"},
         {"name": "Federico Fernández", "min": "47", "type": "G"},
-        {"name": "Angel Di Maria", "min": "50", "type": "G"}
+        {"name": "Ángel Di María", "min": "50", "type": "G"}
       ]
     ],
     "cards": [
@@ -45969,7 +45969,7 @@
         {"name": "Pablo Zabaleta", "out": "77"},
         {"name": "Hugo Campagnaro", "in": "77"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "86"},
+        {"name": "Ángel Di María", "out": "86"},
         {"name": "Ricardo Alvarez", "in": "86"},
         {"name": "Érik Lamela", "out": "68"},
         {"name": "Fernando Gago", "in": "68"},
@@ -46026,7 +46026,7 @@
         {"name": "Federico Fernández"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Érik Lamela", "out": "61"},
         {"name": "Javier Pastore", "in": "61"},
         {"name": "Javier Mascherano"},
@@ -46090,7 +46090,7 @@
         {"name": "Fernando Gago", "out": "73"},
         {"name": "Javier Mascherano", "in": "73"},
         {"name": "Nicolás Gaitán", "out": "73"},
-        {"name": "Angel Di Maria", "in": "73"},
+        {"name": "Ángel Di María", "in": "73"},
         {"name": "Javier Pastore", "out": "60"},
         {"name": "Lionel Messi", "in": "60"},
         {"name": "Enzo Perez", "out": "73"},
@@ -46125,7 +46125,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Éver Banega", "out": "71"},
         {"name": "Roberto Pereyra", "in": "71"},
-        {"name": "Angel Di Maria", "out": "77"},
+        {"name": "Ángel Di María", "out": "77"},
         {"name": "Érik Lamela", "in": "77"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez"},
@@ -46197,7 +46197,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Facundo Roncaglia"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "61"},
+        {"name": "Ángel Di María", "out": "61"},
         {"name": "Érik Lamela", "in": "61"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "73"},
@@ -46251,7 +46251,7 @@
         {"name": "Mateo Musacchio"},
         {"name": "Lucas Orban"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria", "out": "73"},
+        {"name": "Ángel Di María", "out": "73"},
         {"name": "Federico Mancuello", "in": "73"},
         {"name": "Roberto Pereyra"},
         {"name": "Gonzalo Higuaín"},
@@ -46291,7 +46291,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Facundo Roncaglia"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "79"},
+        {"name": "Ángel Di María", "out": "79"},
         {"name": "Ezequiel Lavezzi", "in": "79"},
         {"name": "Federico Mancuello", "out": "46"},
         {"name": "Roberto Pereyra", "in": "46"},
@@ -46327,11 +46327,11 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Angel Di Maria", "min": "25", "type": "G"},
+        {"name": "Ángel Di María", "min": "25", "type": "G"},
         {"name": "Sergio Agüero", "min": "29", "type": "P"},
         {"name": "Sergio Agüero", "min": "31", "type": "G"},
         {"name": "Sergio Agüero", "min": "51", "type": "G"},
-        {"name": "Angel Di Maria", "min": "55", "type": "P"}
+        {"name": "Ángel Di María", "min": "55", "type": "P"}
       ],
       []
     ],
@@ -46354,7 +46354,7 @@
         {"name": "Facundo Roncaglia", "out": "61"},
         {"name": "Milton Casco", "in": "61"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Fernando Gago"},
         {"name": "Javier Pastore"},
         {"name": "Sergio Agüero", "out": "61"},
@@ -46422,7 +46422,7 @@
         {"name": "Facundo Roncaglia"},
         {"name": "Éver Banega", "out": "80"},
         {"name": "Lucas Biglia", "in": "80"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "75"},
         {"name": "Carlos Tevez", "in": "75"},
@@ -46435,13 +46435,13 @@
         {"name": "Pablo Aguilar"},
         {"name": "Marcos Caceres"},
         {"name": "Paulo da Silva"},
-        {"name": "Victor Caceres"},
+        {"name": "Victor Cáceres"},
         {"name": "Nestor Ortigoza"},
         {"name": "Richard Ortiz", "out": "45"},
         {"name": "Derlis González", "in": "45"},
         {"name": "Miguel Samudio"},
         {"name": "Raul Bobadilla", "out": "66"},
-        {"name": "Edgar Benitez", "in": "66"},
+        {"name": "Edgar Benítez", "in": "66"},
         {"name": "Roque Santa Cruz", "out": "79"},
         {"name": "Lucas Barrios", "in": "79"},
         {"name": "Nelson Valdez"}
@@ -46477,7 +46477,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "79"},
         {"name": "Éver Banega", "in": "79"},
@@ -46528,7 +46528,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "84"},
+        {"name": "Ángel Di María", "out": "84"},
         {"name": "Érik Lamela", "in": "84"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "58"},
@@ -46587,7 +46587,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "87"},
+        {"name": "Ángel Di María", "out": "87"},
         {"name": "Ezequiel Lavezzi", "in": "87"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "77"},
@@ -46626,8 +46626,8 @@
       [
         {"name": "Marcos Rojo", "min": "15", "type": "G"},
         {"name": "Javier Pastore", "min": "27", "type": "G"},
-        {"name": "Angel Di Maria", "min": "47", "type": "G"},
-        {"name": "Angel Di Maria", "min": "53", "type": "G"},
+        {"name": "Ángel Di María", "min": "47", "type": "G"},
+        {"name": "Ángel Di María", "min": "53", "type": "G"},
         {"name": "Sergio Agüero", "min": "80", "type": "G"},
         {"name": "Gonzalo Higuaín", "min": "83", "type": "G"}
       ],
@@ -46639,9 +46639,9 @@
         {"name": "Lucas Biglia", "min": "13", "type": "Y"}
       ],
       [
-        {"name": "Victor Caceres", "min": "13", "type": "Y"},
+        {"name": "Victor Cáceres", "min": "13", "type": "Y"},
         {"name": "Paulo da Silva", "min": "30", "type": "Y"},
-        {"name": "Richard Ortiz", "min": "60", "type": "Y"}
+        {"name": "Richard Ortiz", "min": "59", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Gerardo Martino"}, {"name": "Ramon Diaz"}],
@@ -46652,33 +46652,35 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
         {"name": "Javier Mascherano", "out": "77"},
         {"name": "Fernando Gago", "in": "77"},
+        {"name": "Lucas Biglia"},
         {"name": "Javier Pastore", "out": "73"},
         {"name": "Éver Banega", "in": "73"},
+        {"name": "Ángel Di María"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "81"},
         {"name": "Gonzalo Higuaín", "in": "81"}
       ],
       [
         {"name": "Justo Villar"},
-        {"name": "Pablo Aguilar"},
         {"name": "Paulo da Silva"},
+        {"name": "Pablo Aguilar"},
         {"name": "Ivan Piris"},
         {"name": "Bruno Valdez"},
-        {"name": "Victor Caceres"},
+        {"name": "Victor Cáceres"},
         {"name": "Richard Ortiz"},
-        {"name": "Edgar Benitez"},
+        {"name": "Edgar Benítez"},
         {"name": "Derlis González", "out": "26"},
         {"name": "Raul Bobadilla", "in": "26"},
         {"name": "Roque Santa Cruz", "out": "30"},
         {"name": "Lucas Barrios", "in": "30"},
         {"name": "Nelson Valdez", "out": "56"},
-        {"name": "Oscar Romero", "in": "56"}
+        {"name": "Óscar Romero", "in": "56"}
       ]
-    ]
+    ],
+    "info": {"youtube": {"id": "D5WJIalAI4A"}},
+    "sources": ["Soccerway"]
   },
   {
     "date": "2015-07-04",
@@ -46726,7 +46728,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "29"},
+        {"name": "Ángel Di María", "out": "29"},
         {"name": "Ezequiel Lavezzi", "in": "29"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "81"},
@@ -46898,7 +46900,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Facundo Roncaglia"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "70"},
         {"name": "Ezequiel Lavezzi", "in": "70"},
@@ -46952,7 +46954,7 @@
         {"name": "Pablo Aguilar"},
         {"name": "Paulo da Silva"},
         {"name": "Bruno Valdez"},
-        {"name": "Victor Caceres"},
+        {"name": "Victor Cáceres"},
         {"name": "Nestor Ortigoza", "out": "38"},
         {"name": "Eduardo Aranda", "in": "38"},
         {"name": "Richard Ortiz"},
@@ -46960,7 +46962,7 @@
         {"name": "Lucas Barrios", "out": "68"},
         {"name": "Federico Santander", "in": "68"},
         {"name": "Derlis González", "out": "77"},
-        {"name": "Oscar Romero", "in": "77"},
+        {"name": "Óscar Romero", "in": "77"},
         {"name": "Dario Lezcano"}
       ],
       [
@@ -46969,7 +46971,7 @@
         {"name": "Emmanuel Mas"},
         {"name": "Nicolás Otamendi"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Matías Kranevitter"},
         {"name": "Javier Mascherano"},
         {"name": "Javier Pastore", "out": "68"},
@@ -47019,7 +47021,7 @@
         {"name": "Éver Banega", "out": "81"},
         {"name": "Érik Lamela", "in": "81"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Gonzalo Higuaín", "out": "81"},
         {"name": "Paulo Dybala", "in": "81"},
@@ -47093,7 +47095,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Gonzalo Higuaín", "out": "70"},
         {"name": "Paulo Dybala", "in": "70"},
@@ -47112,7 +47114,7 @@
     "goals": [
       [{"name": "Felipe Gutiérrez", "min": "11", "type": "G"}],
       [
-        {"name": "Angel Di Maria", "min": "20", "type": "G"},
+        {"name": "Ángel Di María", "min": "20", "type": "G"},
         {"name": "Gabriel Mercado", "min": "25", "type": "G"}
       ]
     ],
@@ -47156,7 +47158,7 @@
         {"name": "Éver Banega", "out": "73"},
         {"name": "Augusto Fernández", "in": "73"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "81"},
+        {"name": "Ángel Di María", "out": "81"},
         {"name": "Ezequiel Lavezzi", "in": "81"},
         {"name": "Matías Kranevitter"},
         {"name": "Lionel Messi"},
@@ -47200,7 +47202,7 @@
         {"name": "Éver Banega", "out": "84"},
         {"name": "Augusto Fernández", "in": "84"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "31"},
+        {"name": "Ángel Di María", "out": "31"},
         {"name": "Ángel Correa", "in": "31"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -47265,7 +47267,7 @@
         {"name": "Marcos Rojo", "out": "78"},
         {"name": "Victor Cuesta", "in": "78"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Érik Lamela", "out": "64"},
         {"name": "Nicolás Gaitán", "in": "64"},
         {"name": "Javier Mascherano"},
@@ -47303,14 +47305,14 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Angel Di Maria", "min": "51", "type": "G"},
+        {"name": "Ángel Di María", "min": "51", "type": "G"},
         {"name": "Éver Banega", "min": "59", "type": "G"}
       ],
       [{"name": "José Fuenzalida", "min": "90", "type": "G"}]
     ],
     "cards": [
       [
-        {"name": "Angel Di Maria", "min": "65", "type": "Y"},
+        {"name": "Ángel Di María", "min": "65", "type": "Y"},
         {"name": "Marcos Rojo", "min": "69", "type": "Y"}
       ],
       [
@@ -47332,7 +47334,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "80"},
+        {"name": "Ángel Di María", "out": "80"},
         {"name": "Érik Lamela", "in": "80"},
         {"name": "Augusto Fernández"},
         {"name": "Nicolás Gaitán", "out": "87"},
@@ -47404,7 +47406,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "43"},
+        {"name": "Ángel Di María", "out": "43"},
         {"name": "Érik Lamela", "in": "43"},
         {"name": "Augusto Fernández", "out": "61"},
         {"name": "Lionel Messi", "in": "61"},
@@ -47658,7 +47660,7 @@
         {"name": "Éver Banega", "out": "111"},
         {"name": "Érik Lamela", "in": "111"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "57"},
+        {"name": "Ángel Di María", "out": "57"},
         {"name": "Matías Kranevitter", "in": "57"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -47696,7 +47698,7 @@
         {"name": "Paulo Dybala", "min": "29", "type": "Y"},
         {"name": "Paulo Dybala", "min": "45", "type": "Y"},
         {"name": "Paulo Dybala", "min": "45", "type": "R"},
-        {"name": "Angel Di Maria", "min": "48", "type": "Y"}
+        {"name": "Ángel Di María", "min": "48", "type": "Y"}
       ],
       [
         {"name": "Jorge Fucile", "min": "10", "type": "Y"},
@@ -47715,7 +47717,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "83"},
+        {"name": "Ángel Di María", "out": "83"},
         {"name": "Nicolás Gaitán", "in": "83"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -47793,7 +47795,7 @@
         {"name": "Éver Banega"},
         {"name": "Lucas Biglia", "out": "71"},
         {"name": "Lucas Alario", "in": "71"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Érik Lamela", "out": "67"},
         {"name": "Ángel Correa", "in": "67"},
         {"name": "Javier Mascherano"},
@@ -47851,7 +47853,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Matías Kranevitter"},
         {"name": "Javier Mascherano"},
         {"name": "Sergio Agüero", "out": "73"},
@@ -47887,7 +47889,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Éver Banega", "out": "70"},
         {"name": "Lucas Pratto", "in": "70"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Nicolás Gaitán", "out": "59"},
         {"name": "Paulo Dybala", "in": "59"},
         {"name": "Javier Mascherano"},
@@ -47905,7 +47907,7 @@
         {"name": "Cristian Riveros"},
         {"name": "Rodrigo Rojas", "out": "75"},
         {"name": "Bruno Valdez", "in": "75"},
-        {"name": "Oscar Romero"},
+        {"name": "Óscar Romero"},
         {"name": "Derlis González"},
         {"name": "Ángel Romero", "out": "80"},
         {"name": "Hernán Pérez", "in": "80"}
@@ -47961,7 +47963,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "71"},
+        {"name": "Ángel Di María", "out": "71"},
         {"name": "Ángel Correa", "in": "71"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez", "out": "46"},
@@ -47982,7 +47984,7 @@
       [
         {"name": "Lionel Messi", "min": "10", "type": "G"},
         {"name": "Lucas Pratto", "min": "23", "type": "G"},
-        {"name": "Angel Di Maria", "min": "84", "type": "G"}
+        {"name": "Ángel Di María", "min": "84", "type": "G"}
       ],
       []
     ],
@@ -48011,7 +48013,7 @@
         {"name": "Éver Banega", "out": "62"},
         {"name": "Enzo Perez", "in": "62"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "85"},
+        {"name": "Ángel Di María", "out": "85"},
         {"name": "Marcos Acuña", "in": "85"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -48068,7 +48070,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "58"},
@@ -48140,7 +48142,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Facundo Roncaglia"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Enzo Perez", "out": "70"},
         {"name": "Marcos Acuña", "in": "70"},
         {"name": "Guido Pizarro"},
@@ -48191,7 +48193,7 @@
         {"name": "Éver Banega", "out": "81"},
         {"name": "Manuel Lanzini", "in": "81"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "94"},
+        {"name": "Ángel Di María", "out": "94"},
         {"name": "Marcos Acuña", "in": "94"},
         {"name": "Lionel Messi"},
         {"name": "Paulo Dybala", "out": "69"},
@@ -48215,7 +48217,7 @@
         {"name": "Joaquín Correa", "min": "31", "type": "G"},
         {"name": "Alejandro Gómez", "min": "60", "type": "G"},
         {"name": "Lucas Alario", "min": "90", "type": "G"},
-        {"name": "Angel Di Maria", "min": "93", "type": "G"}
+        {"name": "Ángel Di María", "min": "93", "type": "G"}
       ]
     ],
     "coaches": [
@@ -48251,7 +48253,7 @@
         {"name": "Éver Banega", "in": "46"},
         {"name": "Joaquín Correa", "out": "46"},
         {"name": "Lucas Alario", "in": "46"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Alejandro Gómez", "out": "70"},
         {"name": "Ignacio Martin Fernandez", "in": "70"},
         {"name": "Manuel Lanzini", "out": "60"},
@@ -48305,7 +48307,7 @@
         {"name": "Marcos Acuña", "out": "54"},
         {"name": "Lautaro Acosta", "in": "54"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "90"},
+        {"name": "Ángel Di María", "out": "90"},
         {"name": "Joaquín Correa", "in": "90"},
         {"name": "Guido Pizarro"},
         {"name": "Lionel Messi"},
@@ -48350,7 +48352,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Lautaro Acosta"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "24"},
+        {"name": "Ángel Di María", "out": "24"},
         {"name": "Marcos Acuña", "in": "24"},
         {"name": "Javier Mascherano"},
         {"name": "Guido Pizarro"},
@@ -48408,7 +48410,7 @@
         {"name": "Fernando Gago", "in": "58", "out": "65"},
         {"name": "Enzo Perez", "in": "65"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Ángel Di María", "out": "46"},
         {"name": "Emiliano Rigoni", "in": "46"},
         {"name": "Alejandro Gómez"},
         {"name": "Javier Mascherano"},
@@ -48482,7 +48484,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Acuña"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "84"},
+        {"name": "Ángel Di María", "out": "84"},
         {"name": "Leandro Paredes", "in": "84"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez"},
@@ -48526,7 +48528,7 @@
         {"name": "Sergio Romero"},
         {"name": "Nicolás Otamendi"},
         {"name": "Germán Pezzella"},
-        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Ángel Di María", "out": "75"},
         {"name": "Diego Perotti", "in": "75"},
         {"name": "Matías Kranevitter"},
         {"name": "Giovani Lo Celso", "out": "59"},
@@ -48570,7 +48572,7 @@
         {"name": "Germán Pezzella", "out": "80"},
         {"name": "Emiliano Insua", "in": "80"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "76"},
+        {"name": "Ángel Di María", "out": "76"},
         {"name": "Emiliano Rigoni", "in": "76"},
         {"name": "Giovani Lo Celso", "out": "58"},
         {"name": "Alejandro Gómez", "in": "58"},
@@ -48646,7 +48648,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico"},
         {"name": "Lucas Biglia"},
-        {"name": "Angel Di Maria", "out": "64"},
+        {"name": "Ángel Di María", "out": "64"},
         {"name": "Diego Perotti", "in": "64"},
         {"name": "Manuel Lanzini"},
         {"name": "Giovani Lo Celso", "out": "76"},
@@ -48758,7 +48760,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico", "out": "71"},
         {"name": "Marcos Acuña", "in": "71"},
-        {"name": "Angel Di Maria", "out": "59"},
+        {"name": "Ángel Di María", "out": "59"},
         {"name": "Cristian Pavón", "in": "59"},
         {"name": "Manuel Lanzini", "out": "59"},
         {"name": "Maximiliano Meza", "in": "59"},
@@ -48811,7 +48813,7 @@
         {"name": "Nicolás Tagliafico"},
         {"name": "Lucas Biglia", "out": "54"},
         {"name": "Éver Banega", "in": "54"},
-        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Ángel Di María", "out": "75"},
         {"name": "Cristian Pavón", "in": "75"},
         {"name": "Javier Mascherano"},
         {"name": "Maximiliano Meza", "out": "84"},
@@ -48953,7 +48955,7 @@
         {"name": "Nicolás Tagliafico", "out": "80"},
         {"name": "Sergio Agüero", "in": "80"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria", "out": "72"},
+        {"name": "Ángel Di María", "out": "72"},
         {"name": "Maximiliano Meza", "in": "72"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez", "out": "61"},
@@ -48978,7 +48980,7 @@
         {"name": "Kylian Mbappé", "min": "68", "type": "G"}
       ],
       [
-        {"name": "Angel Di Maria", "min": "41", "type": "G"},
+        {"name": "Ángel Di María", "min": "41", "type": "G"},
         {"name": "Gabriel Mercado", "min": "48", "type": "G"},
         {"name": "Sergio Agüero", "min": "90", "type": "G"}
       ]
@@ -49023,7 +49025,7 @@
         {"name": "Federico Fazio", "in": "46"},
         {"name": "Nicolás Tagliafico"},
         {"name": "Éver Banega"},
-        {"name": "Angel Di Maria"},
+        {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
         {"name": "Enzo Perez", "out": "66"},
         {"name": "Sergio Agüero", "in": "66"},
@@ -49642,7 +49644,7 @@
         {"name": "Germán Pezzella"},
         {"name": "Renzo Saravia"},
         {"name": "Nicolás Tagliafico"},
-        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Ángel Di María", "out": "46"},
         {"name": "Rodrigo De Paul", "in": "46"},
         {"name": "Giovani Lo Celso"},
         {"name": "Leandro Paredes"},
@@ -49709,7 +49711,7 @@
         {"name": "Sergio Agüero", "in": "46"},
         {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez", "out": "67"},
-        {"name": "Angel Di Maria", "in": "67"}
+        {"name": "Ángel Di María", "in": "67"}
       ],
       [
         {"name": "Gatito Fernández"},
@@ -49725,7 +49727,7 @@
         {"name": "Derlis González", "out": "90"},
         {"name": "Juan Escobar", "in": "90"},
         {"name": "Federico Santander", "out": "72"},
-        {"name": "Oscar Romero", "in": "72"}
+        {"name": "Óscar Romero", "in": "72"}
       ]
     ]
   },
@@ -49846,7 +49848,7 @@
         {"name": "Sergio Agüero", "out": "85"},
         {"name": "Paulo Dybala", "in": "85"},
         {"name": "Lautaro Martínez", "out": "64"},
-        {"name": "Angel Di Maria", "in": "64"}
+        {"name": "Ángel Di María", "in": "64"}
       ]
     ]
   },
@@ -49900,7 +49902,7 @@
         {"name": "Nicolás Tagliafico", "out": "85"},
         {"name": "Paulo Dybala", "in": "85"},
         {"name": "Marcos Acuña", "out": "60"},
-        {"name": "Angel Di Maria", "in": "60"},
+        {"name": "Ángel Di María", "in": "60"},
         {"name": "Rodrigo De Paul", "out": "67"},
         {"name": "Giovani Lo Celso", "in": "67"},
         {"name": "Leandro Paredes"},
@@ -49955,7 +49957,7 @@
         {"name": "Sergio Agüero", "out": "81"},
         {"name": "Matías Suárez", "in": "81"},
         {"name": "Paulo Dybala", "out": "67"},
-        {"name": "Angel Di Maria", "in": "67"}
+        {"name": "Ángel Di María", "in": "67"}
       ],
       [
         {"name": "Gabriel Arias"},
@@ -50539,7 +50541,7 @@
         {"name": "Rodrigo De Paul", "out": "83"},
         {"name": "Lucas Alario", "in": "83"},
         {"name": "Lucas Ocampos", "out": "60"},
-        {"name": "Angel Di Maria", "in": "60"},
+        {"name": "Ángel Di María", "in": "60"},
         {"name": "Nicolás González"},
         {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez", "out": "83"},
@@ -50624,7 +50626,7 @@
         {"name": "Rodrigo De Paul", "out": "57"},
         {"name": "Lucas Ocampos", "in": "57"},
         {"name": "Nicolás González", "out": "72"},
-        {"name": "Angel Di Maria", "in": "72"},
+        {"name": "Ángel Di María", "in": "72"},
         {"name": "Lautaro Martínez", "out": "89"},
         {"name": "Alejandro Gómez", "in": "89"},
         {"name": "Lionel Messi"}
