@@ -374,7 +374,7 @@
       ]
     ],
     "info": {
-      "trivia": "liseo Brown, whose conquest generated a legend.  Eliseo was said to have dribbled seven Uruguayans before putting the ball in the net."
+      "trivia": ["Eliseo Brown, whose conquest generated a legend.  Eliseo was said to have dribbled seven Uruguayans before putting the ball in the net."]
     },
     "sources": ["El Gráfico", "AUF"]
   },
@@ -46679,7 +46679,7 @@
         {"name": "Óscar Romero", "in": "56"}
       ]
     ],
-    "info": {"youtube": {"id": "D5WJIalAI4A"}},
+    "info": {"youtube": [{"id": "D5WJIalAI4A"}]},
     "sources": ["Soccerway"]
   },
   {

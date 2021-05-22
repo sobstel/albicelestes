@@ -2,6 +2,6 @@ import { program } from "commander";
 import action from "./action";
 
 program
-  .command("data:pretty-format")
-  .description("Pretty format matches json")
+  .command("data:validate-format")
+  .description("Validate format of matches json")
   .action(action);

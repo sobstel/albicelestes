@@ -1,70 +1,122 @@
-export type Appearance = {
-  name: string;
-  in?: string;
-  out?: string;
-};
+import {
+  Array,
+  Boolean,
+  Dictionary,
+  Literal,
+  Null,
+  Number,
+  Optional,
+  Record,
+  Static,
+  String,
+  Tuple,
+  Union,
+} from "runtypes";
 
-export type Bibliography = Record<string, BibliographyItem>;
-type BibliographyItem = { name: string; url?: string };
+export type Appearance = Static<typeof rtAppearance>;
+export type Bibliography = Static<typeof rtBibliography>;
+export type Card = Static<typeof rtCard>;
+export type Goal = Static<typeof rtGoal>;
+export type InfoLink = Static<typeof rtInfoLink>;
+export type Match = Static<typeof rtMatch>;
+export type MatchCoach = Static<typeof rtMatchCoach>;
+export type MatchItem = Static<typeof rtMatchItem>;
+export type MatchTeam = Static<typeof rtMatchTeam>;
+export type PenScore = Static<typeof rtPenScore>;
+export enum Result {
+  Win = "W",
+  Draw = "D",
+  Loss = "L",
+  Suspended = "S",
+}
+export type Score = Static<typeof rtScore>;
+export type Team = Static<typeof rtTeam>;
+export type TeamItem = Static<typeof rtTeamItem>;
 
-export type Card = {
-  name: string;
-  min?: string;
-  type: "Y" | "R";
-};
+const rtBibliographyItem = Record({ name: String, url: Optional(String) });
+const rtBibliography = Dictionary(rtBibliographyItem, String);
 
-export type Goal = {
-  name: string;
-  min?: string;
-  type: "G" | "P" | "OG";
-};
+const rtTeam = Record({ name: String, slug: Optional(String) });
+const rtTeamItem = rtTeam.And(Record({ mp: Number }));
+const rtMatchTeam = rtTeam;
 
-export type InfoLink = { url: string; text: string; desc?: string };
+const rtScore = Tuple(Number, Number);
 
-export type Match = {
-  slug?: string;
-  date: string;
-  competition: string;
-  round?: string;
-  venue?: { name: string; city?: string };
-  teams: [MatchTeam, MatchTeam];
-  score: Score;
-  aet?: true;
-  pen?: Score;
-  result: Result;
-  goals: [Goal[], Goal[]];
-  cards?: [Card[], Card[]];
-  coaches?: [MatchCoach, MatchCoach];
-  lineups: [Appearance[], Appearance[]];
-  penaltyShootout?: { name: string; score: PenScore }[];
-  notes?: string[];
-  sources?: string[];
-  // DEPREACTED: move to individual json files
-  info?: {
-    youtube?: { id: string }[];
-    images?: { url: string; source?: { name: string; url?: string } }[];
-    trivia?: string[];
-    links?: InfoLink[];
-  };
-};
+const rtPenScore = Union(rtScore, Literal("x"));
 
-export type MatchCoach = { name: string } | null;
+const rtResult = Union(Literal("W"), Literal("D"), Literal("L"), Literal("S"));
 
-export type MatchItem = Pick<
-  Match,
-  | "slug"
-  | "date"
-  | "competition"
-  | "teams"
-  | "score"
-  | "pen"
-  | "result"
-  | "sources"
->;
+const rtGoal = Record({
+  name: String,
+  min: Optional(String),
+  type: Union(Literal("G"), Literal("P"), Literal("OG")),
+});
 
-export type MatchTeam = Team;
+const rtCard = Record({
+  name: String,
+  min: Optional(String),
+  type: Union(Literal("Y"), Literal("R")),
+});
 
-export type PenScore = Score | "x";
+const rtMatchCoach = Record({ name: String }).Or(Null);
+
+const rtAppearance = Record({
+  name: String,
+  in: Optional(String),
+  out: Optional(String),
+});
+
+const rtInfoLink = Record({
+  url: String,
+  text: String,
+  desc: Optional(String),
+});
+
+export const rtMatch = Record({
+  slug: Optional(String),
+  date: String,
+  competition: String,
+  round: Optional(String),
+  venue: Optional(Record({ name: String, city: Optional(String) })),
+  teams: Tuple(rtMatchTeam, rtMatchTeam),
+  score: rtScore,
+  aet: Optional(Boolean),
+  pen: Optional(rtScore),
+  result: rtResult,
+  goals: Tuple(Array(rtGoal), Array(rtGoal)),
+  cards: Optional(Tuple(Array(rtCard), Array(rtCard))),
+  coaches: Optional(Tuple(rtMatchCoach, rtMatchCoach)),
+  lineups: Tuple(Array(rtAppearance), Array(rtAppearance)),
+  penaltyShootout: Optional(Array(Record({ name: String, score: rtPenScore }))),
+  notes: Optional(Array(String)),
+  sources: Optional(Array(String)),
+  info: Optional(
+    Record({
+      youtube: Optional(Array(Record({ id: String }))),
+      images: Optional(
+        Array(
+          Record({
+            url: String,
+            source: Optional(Record({ name: String, url: Optional(String) })),
+          })
+        )
+      ),
+      trivia: Optional(Array(String)),
+      links: Optional(Array(rtInfoLink)),
+    })
+  ),
+});
+
+const rtMatchItem = rtMatch.pick(
+  "slug",
+  "date",
+  "competition",
+  "teams",
+  "score",
+  "pen",
+  "result",
+  "sources"
+);
 
 export type PlayerInfo = {
   nicknames?: string[];
@@ -93,22 +145,6 @@ export type PlayerStat = {
   yc: number;
   rc: number;
 };
-
-export enum Result {
-  Win = "W",
-  Draw = "D",
-  Loss = "L",
-  Suspended = "S",
-}
-
-export type Score = [number, number];
-
-export type Team = {
-  name: string;
-  slug?: string;
-};
-
-export type TeamItem = Team & { mp: number };
 
 export type TeamStat = {
   mp: number;

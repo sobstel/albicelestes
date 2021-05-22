@@ -37,6 +37,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Validate matches.json
+        run: ./bin/dios validate-format
       - run: yarn lint
       - run: yarn test --coverage
 

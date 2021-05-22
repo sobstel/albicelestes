@@ -25,7 +25,7 @@ const toSlug = (match: Golazon.Match, dbMatches: Match[]) => {
   return false;
 };
 
-const toResult = (match: Golazon.Match) => {
+const toResult = (match: Golazon.Match): Result => {
   if (match.suspended) return Result.Suspended;
 
   const { ft, home_name: homeName } = match;
