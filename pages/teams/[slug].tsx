@@ -51,8 +51,8 @@ export async function getStaticPaths() {
 type Props = {
   slug: string;
   name: string;
-  matches: MatchItem[];
-  competitions: string[];
+  matches: Array<MatchItem>;
+  competitions: Array<string>;
   stat: TeamStat;
 };
 

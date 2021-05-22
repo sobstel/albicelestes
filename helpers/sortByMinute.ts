@@ -1,8 +1,8 @@
 import * as R from "remeda";
 
 export default function sortByMinute<T extends { min?: string }>(
-  items: T[]
-): T[] {
+  items: Array<T>
+): Array<T> {
   return R.sortBy(items, (item) => {
     if (!item?.min) return false;
 

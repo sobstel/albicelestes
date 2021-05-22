@@ -7,7 +7,7 @@ import Spinner from "./Spinner";
 
 type Props = {
   children: ReactNode;
-  title: string | string[];
+  title: string | Array<string>;
   description?: string;
 };
 

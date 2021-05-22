@@ -17,7 +17,7 @@ function Block(
   let wrapperElement = "section";
   if (isNav) wrapperElement = "nav";
 
-  const classNames: string[] = className?.split(" ") ?? [];
+  const classNames: Array<string> = className?.split(" ") ?? [];
 
   classNames.push("my-4");
 

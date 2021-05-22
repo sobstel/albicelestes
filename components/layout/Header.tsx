@@ -5,7 +5,7 @@ import { LinkAnchor } from "components/layout";
 type Props = {
   text: string;
   top?: boolean;
-  nav?: { href: string; text: string }[];
+  nav?: Array<{ href: string; text: string }>;
 };
 
 export default function Header({ text, top, nav }: Props) {

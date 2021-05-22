@@ -4,7 +4,7 @@ import { getMatchOtherTeam, getTeamSlug } from "helpers";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]
-): TeamItem[] {
+): Array<TeamItem> {
   return R.pipe(
     matches,
     R.reverse(),

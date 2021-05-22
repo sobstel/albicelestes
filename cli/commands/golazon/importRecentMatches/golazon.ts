@@ -22,11 +22,11 @@ export type Match = {
   ft: Score;
   ht: Score;
   ps?: Score;
-  goals: Goal[];
-  cards: Card[];
-  home_players: Player[];
+  goals: Array<Goal>;
+  cards: Array<Card>;
+  home_players: Array<Player>;
   home_coach: Person;
-  away_players: Player[];
+  away_players: Array<Player>;
   away_coach: Person;
   competition_id: string;
   competition_name: string;
@@ -34,7 +34,9 @@ export type Match = {
   round_name: string;
   teamtype: string | null;
   venue: { name: string; city: string };
-  penalty_shootout: (Person & { code: "G" | "M"; score: Score })[];
+  penalty_shootout: Array<Person & { code: "G" | "M"; score: Score }>;
 };
 
-export type Team = { recentFixtures: { match_id: string; date: string }[] };
+export type Team = {
+  recentFixtures: Array<{ match_id: string; date: string }>;
+};

@@ -9,7 +9,7 @@ import MatchList from "components/MatchList";
 import YearNav from "components/YearNav";
 
 type Props = {
-  matches: MatchItem[];
+  matches: Array<MatchItem>;
 };
 
 export async function getStaticProps(): Promise<{ props: Props }> {

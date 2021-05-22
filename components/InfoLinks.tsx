@@ -2,7 +2,7 @@ import React from "react";
 import { InfoLink } from "types";
 import { Block, Header, LinkAnchor } from "components/layout";
 
-type Props = { links?: InfoLink[] };
+type Props = { links?: Array<InfoLink> };
 
 export default function InfoLinks({ links }: Props) {
   if (!links || links.length === 0) return null;

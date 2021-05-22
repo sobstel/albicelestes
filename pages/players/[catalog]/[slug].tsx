@@ -30,11 +30,11 @@ export type Props = {
   slug: string;
   name: string;
   stat: PlayerStat;
-  matches: MatchItem[];
+  matches: Array<MatchItem>;
   info: PlayerInfo;
 };
 
-export type ErrorProps = { errorCode: number; players: PlayerItem[] };
+export type ErrorProps = { errorCode: number; players: Array<PlayerItem> };
 
 export async function getStaticProps(
   context: Context

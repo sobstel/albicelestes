@@ -4,7 +4,7 @@ import { Match, Result, Team } from "types";
 import * as Golazon from "./golazon";
 import { reconcilePlayer, reconcileCoach } from "./reconcilation";
 
-const toSlug = (match: Golazon.Match, dbMatches: Match[]) => {
+const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
   const slug = getMatchSlug({
     teams: [{ name: match.home_name }, { name: match.away_name }],
   });
@@ -36,7 +36,7 @@ const toResult = (match: Golazon.Match): Result => {
   return Result.Draw;
 };
 
-const toLineup = async (players: Golazon.Player[], teamSlug: string) => {
+const toLineup = async (players: Array<Golazon.Player>, teamSlug: string) => {
   const lineup = [];
   for (const player of players) {
     const name = await reconcilePlayer(player, teamSlug);
@@ -145,7 +145,7 @@ const toTeams = (match: Golazon.Match): [Team, Team] => {
 
 export const toMatch = async (
   match: Golazon.Match,
-  dbMatches: Match[]
+  dbMatches: Array<Match>
 ): Promise<Match> => {
   const slug = toSlug(match, dbMatches);
   const homeTeamSlug = getTeamSlug({ name: match["home_name"] });

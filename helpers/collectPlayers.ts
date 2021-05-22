@@ -26,7 +26,7 @@ function increment(
 
 export default function collectPlayers(
   matches: Pick<Match, "teams" | "lineups" | "goals">[]
-): PlayerItem[] {
+): Array<PlayerItem> {
   return R.pipe(
     matches,
     R.reduce((acc, match) => {

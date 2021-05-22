@@ -18,7 +18,7 @@ export default async (): Promise<void> => {
   ) as Golazon.Team;
 
   spinner.next("Fetch matches and last match from DB");
-  const matches = loadData("matches") as Match[];
+  const matches = loadData("matches") as Array<Match>;
   const lastMatch = R.last(matches);
   if (!lastMatch) {
     throw new Error("Last match not found");

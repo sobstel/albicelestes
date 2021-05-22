@@ -65,7 +65,7 @@ const Score = ({ match }: { match: MatchItem }) => {
 };
 
 type Props = {
-  matches: MatchItem[];
+  matches: Array<MatchItem>;
 };
 
 export default function MatchList({ matches }: Props) {

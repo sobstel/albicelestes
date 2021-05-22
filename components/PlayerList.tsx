@@ -4,7 +4,7 @@ import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "helpers";
 import { Block, LinkAnchor } from "components/layout";
 
 export type Props = {
-  players?: PlayerItem[];
+  players?: Array<PlayerItem>;
 };
 
 export default function PlayerList({ players }: Props) {

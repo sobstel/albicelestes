@@ -16,7 +16,7 @@ export async function getStaticProps() {
   return { props: { teams } };
 }
 
-type Props = { teams: TeamItem[] };
+type Props = { teams: Array<TeamItem> };
 
 export default function TeamIndexPage({ teams }: Props) {
   return (

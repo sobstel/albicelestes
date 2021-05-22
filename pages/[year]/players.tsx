@@ -10,7 +10,7 @@ import YearNav from "components/YearNav";
 import YearHeader from "components/YearHeader";
 
 type Props = {
-  players: PlayerItem[];
+  players: Array<PlayerItem>;
   year: string;
 };
 

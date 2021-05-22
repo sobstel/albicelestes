@@ -23,6 +23,10 @@ export type MatchCoach = Static<typeof rtMatchCoach>;
 export type MatchItem = Static<typeof rtMatchItem>;
 export type MatchTeam = Static<typeof rtMatchTeam>;
 export type PenScore = Static<typeof rtPenScore>;
+export type PlayerInfo = Static<typeof rtPlayerInfo>;
+export type PlayerItem = Static<typeof rtPlayerItem>;
+export type PlayerName = Static<typeof rtPlayerName>;
+export type PlayerStat = Static<typeof rtPlayerStat>;
 export enum Result {
   Win = "W",
   Draw = "D",
@@ -32,6 +36,7 @@ export enum Result {
 export type Score = Static<typeof rtScore>;
 export type Team = Static<typeof rtTeam>;
 export type TeamItem = Static<typeof rtTeamItem>;
+export type TeamStat = Static<typeof rtTeamStat>;
 
 const rtBibliographyItem = Record({ name: String, url: Optional(String) });
 const rtBibliography = Dictionary(rtBibliographyItem, String);
@@ -118,39 +123,39 @@ const rtMatchItem = rtMatch.pick(
   "sources"
 );
 
-export type PlayerInfo = {
-  nicknames?: string[];
-  links?: InfoLink[];
-};
+const rtPlayerInfo = Record({
+  nicknames: Optional(Array(String)),
+  links: Optional(Array(rtInfoLink)),
+});
 
-export type PlayerItem = {
-  name: string;
-  mp: number;
-  si: number;
-  so: number;
-  g: number;
-};
+const rtPlayerItem = Record({
+  name: String,
+  mp: Number,
+  si: Number,
+  so: Number,
+  g: Number,
+});
 
-export type PlayerName = {
-  firstName: string;
-  middleName: string;
-  lastName: string;
-};
+const rtPlayerName = Record({
+  firstName: String,
+  middleName: String,
+  lastName: String,
+});
 
-export type PlayerStat = {
-  mp: number;
-  si: number;
-  so: number;
-  g: number;
-  yc: number;
-  rc: number;
-};
+const rtPlayerStat = Record({
+  mp: Number,
+  si: Number,
+  so: Number,
+  g: Number,
+  yc: Number,
+  rc: Number,
+});
 
-export type TeamStat = {
-  mp: number;
-  mw: number;
-  md: number;
-  ml: number;
-  gf: number;
-  ga: number;
-};
+const rtTeamStat = Record({
+  mp: Number,
+  mw: Number,
+  md: Number,
+  ml: Number,
+  gf: Number,
+  ga: Number,
+});

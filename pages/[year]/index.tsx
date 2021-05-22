@@ -53,7 +53,7 @@ export async function getStaticPaths() {
 }
 
 type Props = {
-  matches: MatchItem[];
+  matches: Array<MatchItem>;
   year: string;
   stat?: TeamStat | null;
 };

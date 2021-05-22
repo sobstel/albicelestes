@@ -20,7 +20,7 @@ export async function getStaticProps() {
 
 export type Props = {
   catalog?: string;
-  players?: PlayerItem[];
+  players?: Array<PlayerItem>;
 };
 
 export default function PlayerIndexPage({ catalog, players }: Props) {

@@ -3,7 +3,7 @@ import { getPlayerCatalog, getPlayerSlug } from "helpers";
 import { Match, PlayerInfo, Bibliography } from "types";
 
 // NOTE: "import" is not used to prevent tsc from checking files that are too big
-export const fetchMatches = R.once((): Match[] => require("./matches.json"));
+export const fetchMatches = R.once((): Array<Match> => require("./matches.json"));
 
 type Inflections = Record<string, string>
 
