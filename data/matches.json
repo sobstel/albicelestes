@@ -374,7 +374,9 @@
       ]
     ],
     "info": {
-      "trivia": ["Eliseo Brown, whose conquest generated a legend.  Eliseo was said to have dribbled seven Uruguayans before putting the ball in the net."]
+      "trivia": [
+        "Eliseo Brown, whose conquest generated a legend.  Eliseo was said to have dribbled seven Uruguayans before putting the ball in the net."
+      ]
     },
     "sources": ["El Gráfico", "AUF"]
   },
@@ -13071,7 +13073,7 @@
     "slug": "brazil-argentina-3",
     "date": "1956-12-05",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -13554,7 +13556,7 @@
   {
     "date": "1957-07-07",
     "competition": "Copa Julio Roca",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -15134,7 +15136,7 @@
     "slug": "brazil-argentina-2",
     "date": "1960-07-12",
     "competition": "Copa del Atlantico",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [5, 1],
     "result": "L",
@@ -15159,7 +15161,7 @@
         {"name": "Pelé"},
         {"name": "Macia José Pepe"},
         {"name": "Aldemar"},
-        {"name": "Coutinho"},
+        {"name": "Philippe Coutinho"},
         {"name": "Sabara"},
         {"name": "José Zequinha"}
       ],
@@ -16455,7 +16457,7 @@
         {"name": "Mengálvio"},
         {"name": "Pelé"},
         {"name": "Macia José Pepe"},
-        {"name": "Coutinho"},
+        {"name": "Philippe Coutinho"},
         {"name": "Dari"},
         {"name": "Mauro Ramos de Oliveira"},
         {"name": "José Zequinha"}
@@ -16482,7 +16484,7 @@
     "slug": "brazil-argentina-2",
     "date": "1963-04-16",
     "competition": "Copa Julio Roca",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [5, 2],
     "result": "L",
@@ -16642,7 +16644,7 @@
   {
     "date": "1964-05-31",
     "competition": "Copa das Nacoes",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Portugal"}],
     "score": [2, 0],
     "result": "W",
@@ -16732,7 +16734,7 @@
   {
     "date": "1964-06-06",
     "competition": "Copa das Nacoes",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [1, 0],
     "result": "W",
@@ -16772,7 +16774,7 @@
     "slug": "brazil-argentina-2",
     "date": "1964-09-07",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [3, 0],
     "result": "L",
@@ -17045,7 +17047,7 @@
   {
     "date": "1965-06-09",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
@@ -18241,7 +18243,7 @@
   {
     "date": "1968-08-07",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [4, 1],
     "result": "L",
@@ -18288,7 +18290,7 @@
     "slug": "brazil-argentina-2",
     "date": "1968-08-11",
     "competition": "Friendly",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [3, 2],
     "result": "L",
@@ -19030,7 +19032,7 @@
     "slug": "brazil-argentina-2",
     "date": "1970-03-08",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -19975,7 +19977,7 @@
   {
     "date": "1972-06-29",
     "competition": "Independence",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Portugal"}, {"name": "Argentina"}],
     "score": [3, 1],
     "result": "L",
@@ -20021,7 +20023,7 @@
   {
     "date": "1972-07-02",
     "competition": "Independence",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Argentina"}, {"name": "USSR", "slug": "russia"}],
     "score": [1, 0],
     "result": "W",
@@ -20102,7 +20104,7 @@
   {
     "date": "1972-07-09",
     "competition": "Independence",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Yugoslavia", "slug": "serbia"}, {"name": "Argentina"}],
     "score": [4, 2],
     "result": "L",
@@ -21740,7 +21742,7 @@
   {
     "date": "1975-08-06",
     "competition": "Copa América",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -22303,7 +22305,7 @@
   {
     "date": "1976-05-19",
     "competition": "Copa del Atlantico",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
     "result": "L",
@@ -24137,7 +24139,7 @@
   {
     "date": "1979-08-02",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -25839,7 +25841,7 @@
   {
     "date": "1983-09-14",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
@@ -28646,7 +28648,7 @@
   {
     "date": "1989-07-12",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
     "result": "L",
@@ -28695,7 +28697,7 @@
   {
     "date": "1989-07-14",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [0, 2],
     "result": "L",
@@ -28747,7 +28749,7 @@
   {
     "date": "1989-07-16",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [0, 0],
     "result": "D",
@@ -34169,7 +34171,7 @@
   {
     "date": "1998-04-29",
     "competition": "Friendly",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
@@ -41243,7 +41245,7 @@
   {
     "date": "2008-06-18",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
@@ -45528,7 +45530,7 @@
   {
     "date": "2014-06-15",
     "competition": "World Cup",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Bosnia and Herzegovina"}],
     "score": [2, 1],
     "result": "W",
@@ -45582,7 +45584,7 @@
   {
     "date": "2014-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Argentina"}, {"name": "Iran"}],
     "score": [1, 0],
     "result": "W",
@@ -45862,7 +45864,7 @@
   {
     "date": "2014-07-13",
     "competition": "World Cup",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
@@ -47917,13 +47919,13 @@
   {
     "date": "2016-11-10",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [3, 0],
     "result": "L",
     "goals": [
       [
-        {"name": "Coutinho", "min": "24", "type": "G"},
+        {"name": "Philippe Coutinho", "min": "24", "type": "G"},
         {"name": "Neymar", "min": "45", "type": "G"},
         {"name": "Paulinho", "min": "59", "type": "G"}
       ],
@@ -47951,7 +47953,7 @@
         {"name": "Marcelo"},
         {"name": "Paulinho"},
         {"name": "Renato Augusto"},
-        {"name": "Coutinho", "out": "84"},
+        {"name": "Philippe Coutinho", "out": "84"},
         {"name": "Douglas Costa", "in": "84"},
         {"name": "Gabriel Jesus"},
         {"name": "Neymar"}
@@ -48179,7 +48181,7 @@
         {"name": "Paulinho"},
         {"name": "Renato Augusto"},
         {"name": "Willian"},
-        {"name": "Coutinho"},
+        {"name": "Philippe Coutinho"},
         {"name": "Gabriel Jesus"}
       ],
       [
@@ -49280,7 +49282,7 @@
         {"name": "Miranda"},
         {"name": "Arthur"},
         {"name": "Casemiro"},
-        {"name": "Coutinho"},
+        {"name": "Philippe Coutinho"},
         {"name": "Roberto Firmino"},
         {"name": "Gabriel Jesus"},
         {"name": "Neymar"}
@@ -49612,14 +49614,14 @@
   {
     "date": "2019-06-15",
     "competition": "Copa América",
-    "venue": {"name": "Itaipava Arena Fonte Nova, Salvador"},
+    "venue": {"name": "Itaipava Arena Fonte Nova", "city": "Salvador"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [0, 2],
     "result": "L",
     "goals": [
       [],
       [
-        {"name": "Roger Martinez", "min": "71", "type": "G"},
+        {"name": "Roger Martínez", "min": "71", "type": "G"},
         {"name": "Duván Zapata", "min": "86", "type": "G"}
       ]
     ],
@@ -49633,7 +49635,7 @@
         {"name": "Radamel Falcao", "min": "19", "type": "Y"},
         {"name": "Juan Cuadrado", "min": "60", "type": "Y"},
         {"name": "Duván Zapata", "min": "87", "type": "Y"},
-        {"name": "Jefferson Lerma", "min": "90", "type": "Y"}
+        {"name": "Jefferson Lerma", "min": "90+4", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Lionel Scaloni"}, {"name": "Carlos Queiroz"}],
@@ -49644,12 +49646,12 @@
         {"name": "Germán Pezzella"},
         {"name": "Renzo Saravia"},
         {"name": "Nicolás Tagliafico"},
-        {"name": "Ángel Di María", "out": "46"},
-        {"name": "Rodrigo De Paul", "in": "46"},
-        {"name": "Giovani Lo Celso"},
         {"name": "Leandro Paredes"},
         {"name": "Guido Rodríguez", "out": "67"},
         {"name": "Guido Pizarro", "in": "67"},
+        {"name": "Giovani Lo Celso"},
+        {"name": "Ángel Di María", "out": "46"},
+        {"name": "Rodrigo De Paul", "in": "46"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "79"},
         {"name": "Matías Suárez", "in": "79"}
@@ -49668,14 +49670,15 @@
         {"name": "Radamel Falcao", "out": "81"},
         {"name": "Duván Zapata", "in": "81"},
         {"name": "Luis Muriel", "out": "14"},
-        {"name": "Roger Martinez", "in": "14"}
+        {"name": "Roger Martínez", "in": "14"}
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-06-19",
     "competition": "Copa América",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 1],
     "result": "D",
@@ -49699,42 +49702,44 @@
     "lineups": [
       [
         {"name": "Franco Armani"},
-        {"name": "Milton Casco"},
         {"name": "Nicolás Otamendi"},
-        {"name": "Germán Pezzella"},
+        {"name": "Milton Casco"},
         {"name": "Nicolás Tagliafico"},
+        {"name": "Germán Pezzella"},
+        {"name": "Roberto Pereyra", "out": "46"},
+        {"name": "Sergio Agüero", "in": "46"},
+        {"name": "Leandro Paredes"},
         {"name": "Rodrigo De Paul", "out": "87"},
         {"name": "Matías Suárez", "in": "87"},
         {"name": "Giovani Lo Celso"},
-        {"name": "Leandro Paredes"},
-        {"name": "Roberto Pereyra", "out": "46"},
-        {"name": "Sergio Agüero", "in": "46"},
         {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez", "out": "67"},
         {"name": "Ángel Di María", "in": "67"}
       ],
       [
         {"name": "Gatito Fernández"},
+        {"name": "Ivan Piris"},
+        {"name": "Gustavo Gómez"},
         {"name": "Júnior Alonso"},
         {"name": "Santiago Arzamendia"},
-        {"name": "Gustavo Gómez"},
-        {"name": "Ivan Piris"},
+        {"name": "Rodrigo Rojas"},
         {"name": "Miguel Almirón", "out": "87"},
         {"name": "Celso Ortíz", "in": "87"},
         {"name": "Matías Rojas"},
-        {"name": "Rodrigo Rojas"},
         {"name": "Richard Sánchez"},
-        {"name": "Derlis González", "out": "90"},
-        {"name": "Juan Escobar", "in": "90"},
         {"name": "Federico Santander", "out": "72"},
-        {"name": "Óscar Romero", "in": "72"}
+        {"name": "Óscar Romero", "in": "72"},
+        {"name": "Derlis González", "out": "90"},
+        {"name": "Juan Escobar", "in": "90"}
       ]
-    ]
+    ],
+    "info": {"trivia": ["Armani saved penalty from Derlis González (63')."]},
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-06-23",
     "competition": "Copa América",
-    "venue": {"name": "Arena do Grêmio, Porto Alegre"},
+    "venue": {"name": "Arena do Grêmio", "city": "Porto Alegre"},
     "teams": [{"name": "Qatar"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -49749,7 +49754,7 @@
       [
         {"name": "Almoez Ali", "min": "51", "type": "Y"},
         {"name": "Karim Boudiaf", "min": "75", "type": "Y"},
-        {"name": "Akram Afif", "min": "89", "type": "Y"}
+        {"name": "Abdullah Al-Ahrak", "min": "89", "type": "Y"}
       ],
       [
         {"name": "Giovani Lo Celso", "min": "42", "type": "Y"},
@@ -49761,16 +49766,16 @@
       [
         {"name": "Saad Al Sheeb"},
         {"name": "Ró-Ró"},
-        {"name": "Salem Al Hajri", "out": "77"},
-        {"name": "Abdullah Al Ahrak", "in": "77"},
-        {"name": "Abdulaziz Hatem"},
         {"name": "Bassam Al Rawi"},
-        {"name": "Karim Boudiaf"},
         {"name": "Boualem Khoukhi"},
+        {"name": "Salem Al Hajri", "out": "77"},
+        {"name": "Abdullah Al-Ahrak", "in": "77"},
         {"name": "Tarek Salman"},
-        {"name": "Hasan Al Haydos"},
-        {"name": "Akram Afif"},
-        {"name": "Almoez Ali"}
+        {"name": "Hassan Al-Haidos"},
+        {"name": "Karim Boudiaf"},
+        {"name": "Abdulaziz Hatem"},
+        {"name": "Almoez Ali"},
+        {"name": "Akram Afif"}
       ],
       [
         {"name": "Franco Armani"},
@@ -49779,21 +49784,22 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Renzo Saravia"},
         {"name": "Nicolás Tagliafico"},
+        {"name": "Leandro Paredes"},
         {"name": "Rodrigo De Paul"},
         {"name": "Giovani Lo Celso", "out": "55"},
         {"name": "Marcos Acuña", "in": "55"},
-        {"name": "Leandro Paredes"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero"},
         {"name": "Lautaro Martínez", "out": "76"},
         {"name": "Paulo Dybala", "in": "76"}
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway", "Google", "Wikipedia"]
   },
   {
     "date": "2019-06-28",
     "competition": "Copa América",
-    "venue": {"name": "Maracanã, Rio de Janeiro"},
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Venezuela"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -49808,8 +49814,8 @@
       [
         {"name": "Tomás Rincón", "min": "12", "type": "Y"},
         {"name": "Yangel Herrera", "min": "15", "type": "Y"},
-        {"name": "Salomón Rondón", "min": "45", "type": "Y"},
-        {"name": "Yeferson Soteldo", "min": "90", "type": "Y"}
+        {"name": "Salomón Rondón", "min": "44", "type": "Y"},
+        {"name": "Yeferson Soteldo", "min": "90+5", "type": "Y"}
       ],
       [
         {"name": "Lautaro Martínez", "min": "16", "type": "Y"},
@@ -49820,42 +49826,43 @@
     "lineups": [
       [
         {"name": "Wuilker Faríñez"},
-        {"name": "Jhon Chancellor"},
-        {"name": "Ronald Hernández"},
         {"name": "Roberto Rosales", "out": "83"},
         {"name": "Luis Seijas", "in": "83"},
-        {"name": "Yangel Herrera"},
+        {"name": "Jhon Chancellor"},
         {"name": "Luis Mago", "out": "56"},
         {"name": "Yeferson Soteldo", "in": "56"},
-        {"name": "Júnior Moreno"},
+        {"name": "Ronald Hernández"},
         {"name": "Tomás Rincón"},
+        {"name": "Júnior Moreno"},
+        {"name": "Yangel Herrera"},
+        {"name": "Salomón Rondón"},
         {"name": "Darwin Machís", "out": "71"},
         {"name": "Joséf Martínez", "in": "71"},
-        {"name": "Jhon Murillo"},
-        {"name": "Salomón Rondón"}
+        {"name": "Jhon Murillo"}
       ],
       [
         {"name": "Franco Armani"},
-        {"name": "Juan Foyth"},
         {"name": "Nicolás Otamendi"},
-        {"name": "Germán Pezzella"},
         {"name": "Nicolás Tagliafico"},
+        {"name": "Germán Pezzella"},
+        {"name": "Juan Foyth"},
+        {"name": "Leandro Paredes"},
         {"name": "Marcos Acuña", "out": "68"},
         {"name": "Giovani Lo Celso", "in": "68"},
         {"name": "Rodrigo De Paul"},
-        {"name": "Leandro Paredes"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "85"},
         {"name": "Paulo Dybala", "in": "85"},
         {"name": "Lautaro Martínez", "out": "64"},
         {"name": "Ángel Di María", "in": "64"}
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-07-02",
     "competition": "Copa América",
-    "venue": {"name": "Estádio Mineirão, Belo Horizonte"},
+    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [2, 0],
     "result": "L",
@@ -49876,41 +49883,50 @@
         {"name": "Marcos Acuña", "min": "40", "type": "Y"},
         {"name": "Juan Foyth", "min": "56", "type": "Y"},
         {"name": "Lautaro Martínez", "min": "58", "type": "Y"},
-        {"name": "Sergio Agüero", "min": "90", "type": "Y"}
+        {"name": "Sergio Agüero", "min": "90+4", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Tite"}, {"name": "Lionel Scaloni"}],
     "lineups": [
       [
         {"name": "Alisson Becker"},
-        {"name": "Alex Sandro"},
-        {"name": "Dani Alves"},
-        {"name": "Marquinhos"},
         {"name": "Thiago Silva"},
-        {"name": "Arthur"},
+        {"name": "Alex Sandro"},
+        {"name": "Marquinhos", "out": "64"},
+        {"name": "Miranda", "in": "64"},
+        {"name": "Dani Alves"},
+        {"name": "Philippe Coutinho"},
         {"name": "Casemiro"},
-        {"name": "Coutinho"},
+        {"name": "Arthur"},
+        {"name": "Éverton", "out": "46"},
+        {"name": "Willian", "in": "46"},
         {"name": "Roberto Firmino"},
-        {"name": "Everton"},
-        {"name": "Gabriel Jesus"}
+        {"name": "Gabriel Jesus", "out": "80"},
+        {"name": "Allan", "in": "80"}
       ],
       [
         {"name": "Franco Armani"},
-        {"name": "Juan Foyth"},
         {"name": "Nicolás Otamendi"},
-        {"name": "Germán Pezzella"},
         {"name": "Nicolás Tagliafico", "out": "85"},
         {"name": "Paulo Dybala", "in": "85"},
-        {"name": "Marcos Acuña", "out": "60"},
-        {"name": "Ángel Di María", "in": "60"},
+        {"name": "Germán Pezzella"},
+        {"name": "Juan Foyth"},
+        {"name": "Leandro Paredes"},
+        {"name": "Marcos Acuña", "out": "59"},
+        {"name": "Ángel Di María", "in": "59"},
         {"name": "Rodrigo De Paul", "out": "67"},
         {"name": "Giovani Lo Celso", "in": "67"},
-        {"name": "Leandro Paredes"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero"},
         {"name": "Lautaro Martínez"}
       ]
-    ]
+    ],
+    "info": {
+      "trivia": [
+        "Ridiculously poor and biased refereeing. Two clear penalties not given to Argentina (despite VAR being available)."
+      ]
+    },
+    "sources": ["Soccerway"]
   },
   {
     "date": "2019-07-06",
@@ -50284,7 +50300,7 @@
         {"name": "Casemiro", "out": "86"},
         {"name": "Wesley", "in": "86"},
         {"name": "Lucas Paquetá", "out": "46"},
-        {"name": "Coutinho", "in": "46"},
+        {"name": "Philippe Coutinho", "in": "46"},
         {"name": "Willian", "out": "71"},
         {"name": "Rodrygo", "in": "71"},
         {"name": "Roberto Firmino"},

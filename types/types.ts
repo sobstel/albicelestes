@@ -93,7 +93,6 @@ export const rtMatch = Record({
   coaches: Optional(Tuple(rtMatchCoach, rtMatchCoach)),
   lineups: Tuple(Array(rtAppearance), Array(rtAppearance)),
   penaltyShootout: Optional(Array(Record({ name: String, score: rtPenScore }))),
-  notes: Optional(Array(String)),
   sources: Optional(Array(String)),
   info: Optional(
     Record({
