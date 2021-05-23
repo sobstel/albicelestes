@@ -20,14 +20,13 @@ export async function getStaticProps(context: Context) {
 
   if (year === ALL) {
     return {
-      props: { year: ALL, matches: R.reverse(fetchMatches()), stat: null },
+      props: { year: ALL, matches: fetchMatches(), stat: null },
     };
   }
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year),
-    R.reverse()
+    R.filter((match) => getMatchYear(match) === year)
   );
 
   const stat = matches.length && collectTeamStat(matches);

@@ -68,8 +68,7 @@ export async function getStaticProps(
       match.lineups[getMatchTeamIndex(match)].some(
         (app) => getPlayerSlug(app.name) === slug
       )
-    ),
-    R.reverse()
+    )
   );
 
   const name = findPlayerName(playerMatches, slug);
