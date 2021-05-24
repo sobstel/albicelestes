@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import { Block, LinkAnchor } from "components/layout";
 import Logo from "./Logo";
 
-// TODO: use our link
 function NavLink({ href, children }: { href: string; children: ReactNode }) {
   const router = useRouter();
   const active = router?.pathname.startsWith(href);

@@ -155,7 +155,7 @@ export const toMatch = async (
     ...(slug && { slug }),
     date: match.date,
     competition: match["competition_name"],
-    round: match["round_name"], // TODO: add to albicelestes types
+    round: match["round_name"],
     venue: { name: match.venue.name, city: match.venue.city },
     teams: toTeams(match),
     score: match.ft,

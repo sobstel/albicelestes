@@ -12,7 +12,6 @@ export default function Header({ text, top, nav }: Props) {
   const router = useRouter();
   const Hx = top ? "h1" : "h2";
 
-  // TODO: return header if no navigation
   if (!nav) {
     return <Hx className="font-semibold uppercase my-4">{text}</Hx>;
   }

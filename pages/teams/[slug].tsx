@@ -7,6 +7,7 @@ import {
   getMatchDate,
   getMatchScore,
   getMatchItem,
+  getMatchTeams,
   getTeamSlug,
 } from "helpers";
 import { MatchItem, TeamStat } from "types";
@@ -77,7 +78,9 @@ function generateDescription({
       [
         getMatchDate(lastMatch, { withYear: true }),
         ": ",
-        getMatchScore(lastMatch, { withTeams: true }),
+        getMatchTeams(lastMatch),
+        " ",
+        getMatchScore(lastMatch),
         ` (${lastMatch.competition})...`,
       ].join(""),
   ]).join(". ");

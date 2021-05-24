@@ -13,6 +13,7 @@ export { default as getMatchDate } from "./getMatchDate";
 export { default as getMatchItem } from "./getMatchItem";
 export { default as getMatchScore } from "./getMatchScore";
 export { default as getMatchSlug } from "./getMatchSlug";
+export { default as getMatchTeams } from "./getMatchTeams";
 export { default as getMatchOtherTeam } from "./getMatchOtherTeam";
 export { default as getMatchTeamIndex } from "./getMatchTeamIndex";
 export { default as getMatchYear } from "./getMatchYear";
