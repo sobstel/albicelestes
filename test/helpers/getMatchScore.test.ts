@@ -5,7 +5,6 @@ describe("getMatchScore", () => {
   it("returns team names with score", () => {
     expect(
       getMatchScore({
-        teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [3, 1],
         result: Result.Win,
       })
@@ -15,7 +14,6 @@ describe("getMatchScore", () => {
   it("marks game if suspended", () => {
     expect(
       getMatchScore({
-        teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [0, 0],
         result: Result.Suspended,
       })
@@ -25,7 +23,6 @@ describe("getMatchScore", () => {
   it("can show penalty score", () => {
     expect(
       getMatchScore({
-        teams: [{ name: "Argentina" }, { name: "Uruguay" }],
         score: [1, 1],
         pen: [5, 4],
         result: Result.Win,
