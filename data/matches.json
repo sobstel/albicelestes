@@ -49549,7 +49549,7 @@
   {
     "date": "2019-06-07",
     "competition": "Friendly",
-    "venue": {"name": "Estadio San Juan del Bicentenario, San Juan"},
+    "venue": {"name": "Estadio San Juan del Bicentenario", "city": "San Juan"},
     "teams": [{"name": "Argentina"}, {"name": "Nicaragua"}],
     "score": [5, 1],
     "result": "W",
@@ -49561,7 +49561,7 @@
         {"name": "Lautaro Martínez", "min": "73", "type": "G"},
         {"name": "Roberto Pereyra", "min": "81", "type": "G"}
       ],
-      [{"name": "Juan Barrera", "min": "90", "type": "P"}]
+      [{"name": "Juan Barrera", "min": "90+1", "type": "P"}]
     ],
     "cards": [
       [{"name": "Lautaro Martínez", "min": "49", "type": "Y"}],
@@ -49592,7 +49592,7 @@
         {"name": "Roberto Pereyra", "in": "57"}
       ],
       [
-        {"name": "Justo Lorente", "out": "46"},
+        {"name": "Justo Lkorente", "out": "46"},
         {"name": "Henry Maradiaga", "in": "46"},
         {"name": "Luis Copete"},
         {"name": "Carlos Montenegro", "out": "46"},
@@ -49605,11 +49605,13 @@
         {"name": "Renato Punyed", "out": "59"},
         {"name": "Daniel Cadena", "in": "59"},
         {"name": "Manuel Rosas"},
-        {"name": "Byron Bonilla"},
+        {"name": "Byron Bonilla", "out": "63"},
+        {"name": "Armando Goufas", "in": "63"},
         {"name": "Carlos Chavarria", "out": "46"},
         {"name": "Luis Galeano", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["11v11", "Soccerway"]
   },
   {
     "date": "2019-06-15",

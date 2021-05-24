@@ -5,9 +5,8 @@ type MatchScoreOpts = {
   short?: boolean;
 };
 
-// TODO: it should return score only just as it says -> extract getMatchTeams?
 export default function getMatchScore(
-  match: Pick<Match, "teams" | "score" | "aet" | "pen" | "result">,
+  match: Pick<Match, "score" | "aet" | "pen" | "result">,
   localOpts: MatchScoreOpts = {}
 ): string {
   const opts = { short: false, ...localOpts };
