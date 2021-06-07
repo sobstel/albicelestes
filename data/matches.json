@@ -50651,5 +50651,69 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2021-06-04",
+    "competition": "World Cup Quals",
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Único Madre de Ciudades",
+      "city": "Santiago del Estero"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Chile"}],
+    "score": [1, 1],
+    "result": "D",
+    "goals": [
+      [{"name": "Lionel Messi", "min": "24", "type": "P"}],
+      [{"name": "Alexis Sánchez", "min": "36", "type": "G"}]
+    ],
+    "cards": [
+      [
+        {"name": "Lucas Martínez Quarta", "min": "43", "type": "Y"},
+        {"name": "Sergio Romero", "min": "52", "type": "Y"}
+      ],
+      [
+        {"name": "Pablo Galdames", "min": "2", "type": "Y"},
+        {"name": "Charles Aránguiz", "min": "68", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Martín Lasarte"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Lucas Martínez Quarta", "out": "46"},
+        {"name": "Lisandro Martínez", "in": "46"},
+        {"name": "Sergio Romero"},
+        {"name": "Juan Foyth", "out": "81"},
+        {"name": "Nahuel Molina", "in": "81"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Leandro Paredes", "out": "81"},
+        {"name": "Exequiel Palacios", "in": "81"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Angel Di Maria", "out": "62"},
+        {"name": "Ricardo Alvarez", "in": "62"},
+        {"name": "Lucas Ocampos", "out": "46"},
+        {"name": "Ángel Correa", "in": "46"},
+        {"name": "Lautaro Martínez"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Claudio Bravo"},
+        {"name": "Gary Medel"},
+        {"name": "Mauricio Isla"},
+        {"name": "Guillermo Maripán"},
+        {"name": "Eugenio Mena"},
+        {"name": "Pablo Galdames", "out": "65"},
+        {"name": "César Pinares", "in": "65"},
+        {"name": "Charles Aránguiz", "out": "86"},
+        {"name": "Tomás Alarcón", "in": "86"},
+        {"name": "Erick Pulgar"},
+        {"name": "Jean Meneses"},
+        {"name": "Alexis Sánchez"},
+        {"name": "Eduardo Vargas", "out": "81"},
+        {"name": "Carlos Palacios", "in": "81"}
+      ]
+    ],
+    "sources": ["Golazon", "Soccerway"]
   }
 ]

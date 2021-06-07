@@ -41,7 +41,9 @@ export default async (): Promise<void> => {
     );
 
     const match = await Conversion.toMatch(golazonMatch, matches);
-    matches.push(match);
+    if (match) {
+      matches.push(match);
+    }
   }
 
   spinner.next(`Save matches...`);

@@ -146,7 +146,11 @@ const toTeams = (match: Golazon.Match): [Team, Team] => {
 export const toMatch = async (
   match: Golazon.Match,
   dbMatches: Array<Match>
-): Promise<Match> => {
+): Promise<Match | false> => {
+  if (match.postponed) {
+    return false;
+  }
+
   const slug = toSlug(match, dbMatches);
   const homeTeamSlug = getTeamSlug({ name: match["home_name"] });
   const awayTeamSlug = getTeamSlug({ name: match["away_name"] });
