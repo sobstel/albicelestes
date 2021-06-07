@@ -19,6 +19,7 @@ export type Match = {
   away_name: string;
   ended?: boolean;
   suspended?: boolean;
+  postponed?: boolean;
   ft: Score;
   ht: Score;
   ps?: Score;
