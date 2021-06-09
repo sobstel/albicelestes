@@ -50715,5 +50715,81 @@
       ]
     ],
     "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-06-08",
+    "competition": "WC Qualification South America",
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Metropolitano",
+      "city": "Barranquilla"
+    },
+    "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
+    "score": [2, 2],
+    "result": "D",
+    "goals": [
+      [
+        {"name": "Luis Muriel", "min": "51", "type": "P"},
+        {"name": "Miguel Borja", "min": "90+4", "type": "G"}
+      ],
+      [
+        {"name": "Sergio Romero", "min": "3", "type": "G"},
+        {"name": "Leandro Paredes", "min": "8", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Yerry Mina", "min": "34", "type": "Y"},
+        {"name": "Duván Zapata", "min": "45+3", "type": "Y"},
+        {"name": "Stefan Medina", "min": "47", "type": "Y"},
+        {"name": "William Tesillo", "min": "57", "type": "Y"},
+        {"name": "Miguel Borja", "min": "90+1", "type": "Y"}
+      ],
+      [
+        {"name": "Sergio Romero", "min": "45+9", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "49", "type": "Y"},
+        {"name": "Leandro Paredes", "min": "62", "type": "Y"},
+        {"name": "Germán Pezzella", "min": "79", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Reinaldo Rueda"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "David Ospina"},
+        {"name": "Stefan Medina", "out": "75"},
+        {"name": "Yairo Moreno", "in": "75"},
+        {"name": "Davinson Sánchez"},
+        {"name": "Yerry Mina"},
+        {"name": "William Tesillo"},
+        {"name": "Mateus Uribe"},
+        {"name": "Jefferson Lerma", "out": "30"},
+        {"name": "Luis Muriel", "in": "30"},
+        {"name": "Gustavo Cuéllar", "out": "46"},
+        {"name": "Wilmar Barrios", "in": "46"},
+        {"name": "Juan Cuadrado"},
+        {"name": "Luis Díaz", "out": "46"},
+        {"name": "Edwin Cardona", "in": "46"},
+        {"name": "Duván Zapata", "out": "46"},
+        {"name": "Miguel Borja", "in": "46"}
+      ],
+      [
+        {"name": "Emiliano Martínez", "out": "40"},
+        {"name": "Agustín Marchesín", "in": "40"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Sergio Romero", "out": "64"},
+        {"name": "Germán Pezzella", "in": "64"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Marcos Acuña"},
+        {"name": "Giovani Lo Celso", "out": "54"},
+        {"name": "Exequiel Palacios", "in": "54"},
+        {"name": "Leandro Paredes"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Nicolás González", "out": "65"},
+        {"name": "Juan Foyth", "in": "65"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez"}
+      ]
+    ],
+    "sources": ["Golazon", "Soccerway"]
   }
 ]
