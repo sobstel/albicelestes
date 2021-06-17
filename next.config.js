@@ -1,5 +1,8 @@
 module.exports = {
   webpack5: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       {
