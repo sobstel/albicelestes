@@ -11,7 +11,11 @@ export default function collectTeamStat(
   const mp = statableMatches.length;
 
   // countBy
-  const { W: mw, D: md, L: ml } = R.reduce(
+  const {
+    W: mw,
+    D: md,
+    L: ml,
+  } = R.reduce(
     statableMatches,
     (acc, match) => {
       if (match.result !== "S") {
