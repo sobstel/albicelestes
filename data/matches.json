@@ -50720,10 +50720,7 @@
     "date": "2021-06-08",
     "competition": "WC Qualification South America",
     "round": "Group Stage",
-    "venue": {
-      "name": "Estadio Metropolitano",
-      "city": "Barranquilla"
-    },
+    "venue": {"name": "Estadio Metropolitano", "city": "Barranquilla"},
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
@@ -50788,6 +50785,71 @@
         {"name": "Juan Foyth", "in": "65"},
         {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez"}
+      ]
+    ],
+    "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "slug": "argentina-chile-2",
+    "date": "2021-06-14",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Estádio Nilton Santos", "city": "Rio de Janeiro"},
+    "teams": [{"name": "Argentina"}, {"name": "Chile"}],
+    "score": [1, 1],
+    "result": "D",
+    "goals": [
+      [{"name": "Lionel Messi", "min": "33", "type": "G"}],
+      [{"name": "Eduardo Vargas", "min": "57", "type": "G"}]
+    ],
+    "cards": [
+      [
+        {"name": "Lucas Martínez Quarta", "min": "30", "type": "Y"},
+        {"name": "Lautaro Martínez", "min": "62", "type": "Y"}
+      ],
+      [
+        {"name": "Mauricio Isla", "min": "25", "type": "Y"},
+        {"name": "Erick Pulgar", "min": "32", "type": "Y"},
+        {"name": "Arturo Vidal", "min": "35", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Martín Lasarte"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Lucas Martínez Quarta"},
+        {"name": "Gonzalo Montiel", "out": "85"},
+        {"name": "Nahuel Molina", "in": "85"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Leandro Paredes", "out": "68"},
+        {"name": "Exequiel Palacios", "in": "68"},
+        {"name": "Giovani Lo Celso", "out": "67"},
+        {"name": "Angel Di Maria", "in": "67"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Lautaro Martínez", "out": "80"},
+        {"name": "Sergio Agüero", "in": "80"},
+        {"name": "Lionel Messi"},
+        {"name": "Nicolás González", "out": "80"},
+        {"name": "Joaquín Correa", "in": "80"}
+      ],
+      [
+        {"name": "Claudio Bravo"},
+        {"name": "Mauricio Isla"},
+        {"name": "Gary Medel", "out": "84"},
+        {"name": "Enzo Roco", "in": "84"},
+        {"name": "Eugenio Mena"},
+        {"name": "Guillermo Maripán"},
+        {"name": "Charles Aránguiz"},
+        {"name": "Arturo Vidal", "out": "85"},
+        {"name": "Tomás Alarcón", "in": "85"},
+        {"name": "Jean Meneses", "out": "90+3"},
+        {"name": "Pablo Galdames", "in": "90+3"},
+        {"name": "Erick Pulgar"},
+        {"name": "Eduardo Vargas", "out": "77"},
+        {"name": "César Pinares", "in": "77"},
+        {"name": "Carlos Palacios", "out": "77"},
+        {"name": "Benjamin Brereton", "in": "77"}
       ]
     ],
     "sources": ["Golazon", "Soccerway"]
