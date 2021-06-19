@@ -7037,11 +7037,7 @@
         {"name": "Francisco Varallo"}
       ]
     ],
-    "info": {
-      "images": [
-        {"url": "/m/1930/arg-uru-1930-final-prematch.jpg"}
-      ]
-    },
+    "info": {"images": [{"url": "/m/1930/arg-uru-1930-final-prematch.jpg"}]},
     "sources": ["Archivo sin Final", "El Gráfico", "11v11", "Soccerway"]
   },
   {
@@ -50858,5 +50854,65 @@
       ]
     ],
     "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-06-19",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Estádio Nacional", "city": "Brasília"},
+    "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[{"name": "Guido Rodríguez", "min": "13", "type": "G"}], []],
+    "cards": [
+      [
+        {"name": "Giovani Lo Celso", "min": "48", "type": "Y"},
+        {"name": "Emiliano Martínez", "min": "75", "type": "Y"},
+        {"name": "Joaquín Correa", "min": "90+1", "type": "Y"}
+      ],
+      [
+        {"name": "Lucas Torreira", "min": "62", "type": "Y"},
+        {"name": "Brian Ocampo", "min": "90", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Óscar Tabárez"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Cristian Romero"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nahuel Molina"},
+        {"name": "Marcos Acuña"},
+        {"name": "Giovani Lo Celso", "out": "52"},
+        {"name": "Exequiel Palacios", "in": "52"},
+        {"name": "Rodrigo De Paul", "out": "90+3"},
+        {"name": "Germán Pezzella", "in": "90+3"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Nicolás González", "out": "70"},
+        {"name": "Angel Di Maria", "in": "70"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "52"},
+        {"name": "Joaquín Correa", "in": "52"}
+      ],
+      [
+        {"name": "Fernando Muslera"},
+        {"name": "Matías Viña"},
+        {"name": "José Giménez"},
+        {"name": "Giovanni González", "out": "70"},
+        {"name": "Facundo Torres", "in": "70"},
+        {"name": "Diego Godín"},
+        {"name": "Nicolás De La Cruz", "out": "65"},
+        {"name": "Brian Ocampo", "in": "65"},
+        {"name": "Rodrigo Bentancur", "out": "46"},
+        {"name": "Nahitan Nández", "in": "46"},
+        {"name": "Federico Valverde", "out": "84"},
+        {"name": "Fernando Gorriarán", "in": "84"},
+        {"name": "Lucas Torreira", "out": "64"},
+        {"name": "Mathías Vecino", "in": "64"},
+        {"name": "Luis Suárez"},
+        {"name": "Edinson Cavani"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
