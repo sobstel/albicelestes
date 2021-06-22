@@ -50914,6 +50914,62 @@
         {"name": "Edinson Cavani"}
       ]
     ],
-    "sources": ["Golazon"]
+    "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-06-22",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Estádio Nacional", "city": "Brasília"},
+    "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[{"name": "Alejandro Gómez", "min": "10", "type": "G"}], []],
+    "cards": [
+      [{"name": "Leandro Paredes", "min": "34", "type": "Y"}],
+      [
+        {"name": "Gustavo Gómez", "min": "16", "type": "Y"},
+        {"name": "Ángel Cardozo Lucena", "min": "78", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Eduardo Berizzo"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Germán Pezzella"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Cristian Romero"},
+        {"name": "Alejandro Gómez", "out": "72"},
+        {"name": "Rodrigo De Paul", "in": "72"},
+        {"name": "Leandro Paredes", "out": "81"},
+        {"name": "Nicolás Domínguez", "in": "81"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Angel Di Maria", "out": "81"},
+        {"name": "Ángel Correa", "in": "81"},
+        {"name": "Lionel Messi"},
+        {"name": "Sergio Agüero", "out": "59"},
+        {"name": "Joaquín Correa", "in": "59"}
+      ],
+      [
+        {"name": "Antony Silva"},
+        {"name": "Gustavo Gómez"},
+        {"name": "Alberto Espínola"},
+        {"name": "Júnior Alonso"},
+        {"name": "Santiago Arzamendia"},
+        {"name": "Alejandro Romero", "out": "66"},
+        {"name": "Óscar Romero", "in": "66"},
+        {"name": "Adrián Cubas", "out": "66"},
+        {"name": "Ángel Cardozo Lucena", "in": "66"},
+        {"name": "Miguel Almirón"},
+        {"name": "Robert Piris Da Motta", "out": "82"},
+        {"name": "Richard Sánchez", "in": "82"},
+        {"name": "Ángel Romero", "out": "87"},
+        {"name": "Derlis González", "in": "87"},
+        {"name": "Gabriel Ávalos", "out": "87"},
+        {"name": "Miguel Samudio", "in": "87"}
+      ]
+    ],
+    "sources": ["Golazon", "Soccerway"]
   }
 ]
