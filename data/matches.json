@@ -50857,7 +50857,7 @@
     "sources": ["Golazon", "Soccerway"]
   },
   {
-    "date": "2021-06-19",
+    "date": "2021-06-18",
     "competition": "Copa America",
     "round": "Group Stage",
     "venue": {"name": "Estádio Nacional", "city": "Brasília"},
@@ -50917,7 +50917,7 @@
     "sources": ["Golazon", "Soccerway"]
   },
   {
-    "date": "2021-06-22",
+    "date": "2021-06-21",
     "competition": "Copa America",
     "round": "Group Stage",
     "venue": {"name": "Estádio Nacional", "city": "Brasília"},
@@ -50971,5 +50971,70 @@
       ]
     ],
     "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-06-28",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Arena Pantanal", "city": "Cuiabá"},
+    "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
+    "score": [1, 4],
+    "result": "W",
+    "goals": [
+      [{"name": "Erwin Saavedra", "min": "60", "type": "G"}],
+      [
+        {"name": "Alejandro Gómez", "min": "6", "type": "G"},
+        {"name": "Lionel Messi", "min": "33", "type": "P"},
+        {"name": "Lionel Messi", "min": "42", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "65", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Rodrigo Ramallo", "min": "86", "type": "Y"},
+        {"name": "Diego Wayar", "min": "90+2", "type": "Y"}
+      ],
+      [{"name": "Marcos Acuña", "min": "90", "type": "Y"}]
+    ],
+    "coaches": [{"name": "César Farías"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Carlos Lampe"},
+        {"name": "Adrián Jusino"},
+        {"name": "Roberto Fernández", "out": "81"},
+        {"name": "Diego Wayar", "in": "81"},
+        {"name": "Luis Haquin"},
+        {"name": "Diego Bejarano"},
+        {"name": "Erwin Saavedra", "out": "85"},
+        {"name": "Moisés Villarroel", "in": "85"},
+        {"name": "Jeyson Chura", "out": "61"},
+        {"name": "Henry Vaca", "in": "61"},
+        {"name": "Ramiro Vaca"},
+        {"name": "Boris Cespedes", "out": "61"},
+        {"name": "José Sagredo", "in": "61"},
+        {"name": "Leonel Justiniano"},
+        {"name": "Gilbert Álvarez", "out": "61"},
+        {"name": "Rodrigo Ramallo", "in": "61"}
+      ],
+      [
+        {"name": "Franco Armani"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Germán Pezzella"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Marcos Acuña"},
+        {"name": "Exequiel Palacios", "out": "71"},
+        {"name": "Nicolás Domínguez", "in": "71"},
+        {"name": "Guido Rodríguez", "out": "71"},
+        {"name": "Leandro Paredes", "in": "71"},
+        {"name": "Alejandro Gómez", "out": "56"},
+        {"name": "Ricardo Alvarez", "in": "56"},
+        {"name": "Lionel Messi"},
+        {"name": "Ángel Correa", "out": "64"},
+        {"name": "Giovani Lo Celso", "in": "64"},
+        {"name": "Sergio Agüero", "out": "63"},
+        {"name": "Lautaro Martínez", "in": "63"}
+      ]
+    ],
+    "sources": ["Golazon", "Google"]
   }
 ]
