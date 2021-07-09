@@ -51151,9 +51151,9 @@
         {"name": "Angel Di Maria", "in": "71"},
         {"name": "Nicolás González", "out": "83"},
         {"name": "Nicolás Tagliafico", "in": "83"},
+        {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez", "out": "90+4"},
-        {"name": "Sergio Agüero", "in": "90+4"},
-        {"name": "Lionel Messi"}
+        {"name": "Sergio Agüero", "in": "90+4"}
       ],
       [
         {"name": "Hernán Galíndez"},
@@ -51222,8 +51222,8 @@
         {"name": "Guido Rodríguez"},
         {"name": "Nicolás González", "out": "67"},
         {"name": "Angel Di Maria", "in": "67"},
-        {"name": "Lautaro Martínez"},
-        {"name": "Lionel Messi"}
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez"}
       ],
       [
         {"name": "David Ospina"},
