@@ -42205,7 +42205,7 @@
         {"name": "Luis Rodriguez", "in": "57"},
         {"name": "Federico Insua", "out": "66"},
         {"name": "Nicolás Gaitán", "in": "66"},
-        {"name": "Enzo Perez", "out": "46"},
+        {"name": "Enzo Pérez", "out": "46"},
         {"name": "Jesus Mendez", "in": "46"},
         {"name": "Leonel Vangioni"},
         {"name": "Martin Palermo", "out": "57"},
@@ -42262,7 +42262,7 @@
         {"name": "Federico Insua", "in": "76"},
         {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "46"},
+        {"name": "Enzo Pérez", "out": "46"},
         {"name": "Martin Palermo", "in": "46"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "67"},
@@ -42437,7 +42437,7 @@
         {"name": "Fabian Monzon"},
         {"name": "Clemente Rodriguez"},
         {"name": "Nicolás Gaitán", "out": "46"},
-        {"name": "Enzo Perez", "in": "46"},
+        {"name": "Enzo Pérez", "in": "46"},
         {"name": "Gabriel Hauche", "out": "61"},
         {"name": "Franco Jara", "in": "61"},
         {"name": "Juan Mercier", "out": "68"},
@@ -43448,7 +43448,7 @@
         {"name": "Cristian Chavez"},
         {"name": "Gabriel Hauche", "out": "46"},
         {"name": "Luciano Roman Aued", "in": "46"},
-        {"name": "Enzo Perez", "out": "68"},
+        {"name": "Enzo Pérez", "out": "68"},
         {"name": "Mauricio Sperdutti", "in": "68"},
         {"name": "Ariel Rojas", "out": "65"},
         {"name": "Fabian Monzon", "in": "65"},
@@ -43489,7 +43489,7 @@
         {"name": "Gabriel Hauche", "min": "12", "type": "G"},
         {"name": "Federico Fernández", "min": "37", "type": "G"},
         {"name": "Gabriel Hauche", "min": "45", "type": "G"},
-        {"name": "Enzo Perez", "min": "74", "type": "G"}
+        {"name": "Enzo Pérez", "min": "74", "type": "G"}
       ],
       [
         {"name": "Pablo Zeballos", "min": "17", "type": "G"},
@@ -43522,7 +43522,7 @@
         {"name": "Diego Morales", "in": "65"},
         {"name": "Érik Lamela", "out": "58"},
         {"name": "Pablo Mouche", "in": "58"},
-        {"name": "Enzo Perez", "out": "77"},
+        {"name": "Enzo Pérez", "out": "77"},
         {"name": "Lucas Viatri", "in": "77"},
         {"name": "Fabian Rinaudo"},
         {"name": "Diego Valeri", "out": "86"},
@@ -44627,7 +44627,7 @@
         {"name": "Hugo Campagnaro"},
         {"name": "Gonzalo Higuaín"},
         {"name": "Ezequiel Lavezzi", "out": "74"},
-        {"name": "Enzo Perez", "in": "74"}
+        {"name": "Enzo Pérez", "in": "74"}
       ]
     ]
   },
@@ -45465,7 +45465,7 @@
       ],
       []
     ],
-    "cards": [[{"name": "Enzo Perez", "min": "72", "type": "Y"}], []],
+    "cards": [[{"name": "Enzo Pérez", "min": "72", "type": "Y"}], []],
     "coaches": [{"name": "Alejandro Sabella"}, {"name": "Stephen Hart"}],
     "lineups": [
       [
@@ -45475,7 +45475,7 @@
         {"name": "Federico Fernández"},
         {"name": "Marcos Rojo"},
         {"name": "Ángel Di María", "out": "63"},
-        {"name": "Enzo Perez", "in": "63"},
+        {"name": "Enzo Pérez", "in": "63"},
         {"name": "Fernando Gago", "out": "46"},
         {"name": "Lucas Biglia", "in": "46"},
         {"name": "Javier Mascherano", "out": "70"},
@@ -45520,7 +45520,7 @@
         {"name": "Augusto Fernández"},
         {"name": "Javier Mascherano", "out": "77"},
         {"name": "Emanuel Mammana", "in": "77"},
-        {"name": "Enzo Perez"},
+        {"name": "Enzo Pérez"},
         {"name": "Maxi Rodriguez", "out": "58"},
         {"name": "Fernando Gago", "in": "58"},
         {"name": "Ezequiel Lavezzi", "out": "58"},
@@ -45774,7 +45774,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
         {"name": "Ángel Di María", "out": "33"},
-        {"name": "Enzo Perez", "in": "33"},
+        {"name": "Enzo Pérez", "in": "33"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "81"},
@@ -45826,7 +45826,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "81"},
+        {"name": "Enzo Pérez", "out": "81"},
         {"name": "Rodrigo Palacio", "in": "81"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "82"},
@@ -45906,7 +45906,7 @@
         {"name": "Pablo Zabaleta"},
         {"name": "Lucas Biglia"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "86"},
+        {"name": "Enzo Pérez", "out": "86"},
         {"name": "Fernando Gago", "in": "86"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "78"},
@@ -45978,7 +45978,7 @@
         {"name": "Érik Lamela", "out": "68"},
         {"name": "Fernando Gago", "in": "68"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "46"},
+        {"name": "Enzo Pérez", "out": "46"},
         {"name": "Augusto Fernández", "in": "46"},
         {"name": "Sergio Agüero", "out": "83"},
         {"name": "Nicolás Gaitán", "in": "83"}
@@ -46035,7 +46035,7 @@
         {"name": "Javier Pastore", "in": "61"},
         {"name": "Javier Mascherano"},
         {"name": "Roberto Pereyra", "out": "76"},
-        {"name": "Enzo Perez", "in": "76"},
+        {"name": "Enzo Pérez", "in": "76"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "61"},
         {"name": "Gonzalo Higuaín", "in": "61"}
@@ -46097,7 +46097,7 @@
         {"name": "Ángel Di María", "in": "73"},
         {"name": "Javier Pastore", "out": "60"},
         {"name": "Lionel Messi", "in": "60"},
-        {"name": "Enzo Perez", "out": "73"},
+        {"name": "Enzo Pérez", "out": "73"},
         {"name": "Roberto Pereyra", "in": "73"},
         {"name": "Leonel Vangioni"},
         {"name": "Gonzalo Higuaín"}
@@ -46132,7 +46132,7 @@
         {"name": "Ángel Di María", "out": "77"},
         {"name": "Érik Lamela", "in": "77"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez"},
+        {"name": "Enzo Pérez"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "62"},
         {"name": "Carlos Tevez", "in": "62"}
@@ -46603,7 +46603,7 @@
       [
         {"name": "David Ospina"},
         {"name": "Santiago Arias"},
-        {"name": "Jeison Murillo"},
+        {"name": "Yeison Murillo"},
         {"name": "Cristián Zapata"},
         {"name": "Juan Zúñiga"},
         {"name": "Juan Cuadrado"},
@@ -47077,7 +47077,7 @@
       [
         {"name": "David Ospina"},
         {"name": "Frank Fabra"},
-        {"name": "Jeison Murillo"},
+        {"name": "Yeison Murillo"},
         {"name": "Helibelton Palacios"},
         {"name": "Cristián Zapata"},
         {"name": "Alexander Mejia", "out": "78"},
@@ -47104,7 +47104,7 @@
         {"name": "Gonzalo Higuaín", "out": "70"},
         {"name": "Paulo Dybala", "in": "70"},
         {"name": "Ezequiel Lavezzi", "out": "86"},
-        {"name": "Enzo Perez", "in": "86"}
+        {"name": "Enzo Pérez", "in": "86"}
       ]
     ]
   },
@@ -47970,7 +47970,7 @@
         {"name": "Ángel Di María", "out": "71"},
         {"name": "Ángel Correa", "in": "71"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "46"},
+        {"name": "Enzo Pérez", "out": "46"},
         {"name": "Sergio Agüero", "in": "46"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín"}
@@ -48002,7 +48002,7 @@
       [
         {"name": "James Rodríguez", "min": "29", "type": "Y"},
         {"name": "Santiago Arias", "min": "32", "type": "Y"},
-        {"name": "Kevin Balanta", "min": "59", "type": "Y"},
+        {"name": "Éder Balanta", "min": "59", "type": "Y"},
         {"name": "Juan Cuadrado", "min": "77", "type": "Y"}
       ]
     ],
@@ -48011,36 +48011,38 @@
       [
         {"name": "Sergio Romero"},
         {"name": "Ramiro Funes Mori"},
+        {"name": "Nicolás Otamendi"},
         {"name": "Emmanuel Mas"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
-        {"name": "Éver Banega", "out": "62"},
-        {"name": "Enzo Perez", "in": "62"},
+        {"name": "Javier Mascherano"},
         {"name": "Lucas Biglia"},
+        {"name": "Éver Banega", "out": "63"},
+        {"name": "Enzo Pérez", "in": "63"},
         {"name": "Ángel Di María", "out": "85"},
         {"name": "Marcos Acuña", "in": "85"},
-        {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
         {"name": "Lucas Pratto", "out": "79"},
         {"name": "Gonzalo Higuaín", "in": "79"}
       ],
       [
         {"name": "David Ospina"},
-        {"name": "Santiago Arias"},
-        {"name": "Kevin Balanta"},
-        {"name": "Jeison Murillo"},
+        {"name": "Yeison Murillo"},
         {"name": "Davinson Sánchez"},
+        {"name": "Éder Balanta"},
+        {"name": "Santiago Arias"},
+        {"name": "Carlos Sánchez"},
         {"name": "Wilmar Barrios", "out": "46"},
         {"name": "Macnelly Torres", "in": "46"},
-        {"name": "Juan Cuadrado"},
-        {"name": "James Rodríguez"},
-        {"name": "Carlos Sánchez"},
         {"name": "Daniel Torres", "out": "67"},
         {"name": "Jonathan Copete", "in": "67"},
+        {"name": "Juan Cuadrado"},
+        {"name": "James Rodríguez"},
         {"name": "Radamel Falcao", "out": "76"},
         {"name": "Carlos Bacca", "in": "76"}
       ]
-    ]
+    ],
+    "info": {"youtube": [{"id": "ovUxI7vWaYE"}]},
+    "sources": ["ESPN"]
   },
   {
     "date": "2017-03-24",
@@ -48147,7 +48149,7 @@
         {"name": "Facundo Roncaglia"},
         {"name": "Éver Banega"},
         {"name": "Ángel Di María"},
-        {"name": "Enzo Perez", "out": "70"},
+        {"name": "Enzo Pérez", "out": "70"},
         {"name": "Marcos Acuña", "in": "70"},
         {"name": "Guido Pizarro"},
         {"name": "Ángel Correa", "out": "56"},
@@ -48412,7 +48414,7 @@
         {"name": "Marcos Acuña"},
         {"name": "Éver Banega", "out": "58"},
         {"name": "Fernando Gago", "in": "58", "out": "65"},
-        {"name": "Enzo Perez", "in": "65"},
+        {"name": "Enzo Pérez", "in": "65"},
         {"name": "Lucas Biglia"},
         {"name": "Ángel Di María", "out": "46"},
         {"name": "Emiliano Rigoni", "in": "46"},
@@ -48491,7 +48493,7 @@
         {"name": "Ángel Di María", "out": "84"},
         {"name": "Leandro Paredes", "in": "84"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez"},
+        {"name": "Enzo Pérez"},
         {"name": "Eduardo Salvio", "out": "90"},
         {"name": "Federico Fazio", "in": "90"},
         {"name": "Lionel Messi"},
@@ -48538,7 +48540,7 @@
         {"name": "Giovani Lo Celso", "out": "59"},
         {"name": "Alejandro Gómez", "in": "59"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "87"},
+        {"name": "Enzo Pérez", "out": "87"},
         {"name": "Éver Banega", "in": "87"},
         {"name": "Eduardo Salvio", "out": "78"},
         {"name": "Cristian Pavón", "in": "78"},
@@ -48581,7 +48583,7 @@
         {"name": "Giovani Lo Celso", "out": "58"},
         {"name": "Alejandro Gómez", "in": "58"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez"},
+        {"name": "Enzo Pérez"},
         {"name": "Sergio Agüero", "out": "46"},
         {"name": "Darío Benedetto", "in": "46"},
         {"name": "Paulo Dybala", "out": "63"},
@@ -48882,7 +48884,7 @@
         {"name": "Marcos Acuña"},
         {"name": "Javier Mascherano"},
         {"name": "Maximiliano Meza"},
-        {"name": "Enzo Perez", "out": "68"},
+        {"name": "Enzo Pérez", "out": "68"},
         {"name": "Paulo Dybala", "in": "68"},
         {"name": "Eduardo Salvio", "out": "56"},
         {"name": "Cristian Pavón", "in": "56"},
@@ -48962,7 +48964,7 @@
         {"name": "Ángel Di María", "out": "72"},
         {"name": "Maximiliano Meza", "in": "72"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "61"},
+        {"name": "Enzo Pérez", "out": "61"},
         {"name": "Cristian Pavón", "in": "61"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín"}
@@ -49031,7 +49033,7 @@
         {"name": "Éver Banega"},
         {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
-        {"name": "Enzo Perez", "out": "66"},
+        {"name": "Enzo Pérez", "out": "66"},
         {"name": "Sergio Agüero", "in": "66"},
         {"name": "Lionel Messi"},
         {"name": "Cristian Pavón", "out": "75"},
@@ -49133,7 +49135,7 @@
     "lineups": [
       [
         {"name": "David Ospina"},
-        {"name": "Jeison Murillo"},
+        {"name": "Yeison Murillo"},
         {"name": "Helibelton Palacios"},
         {"name": "Deiver Machado"},
         {"name": "Davinson Sánchez"},
@@ -50720,7 +50722,7 @@
   },
   {
     "date": "2021-06-08",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Metropolitano", "city": "Barranquilla"},
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
@@ -51036,5 +51038,222 @@
       ]
     ],
     "sources": ["Golazon", "Google"]
+  },
+  {
+    "slug": "bolivia-argentina-2",
+    "date": "2021-06-29",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Arena Pantanal", "city": "Cuiabá, Mato Grosso"},
+    "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
+    "score": [1, 4],
+    "result": "W",
+    "goals": [
+      [{"name": "Erwin Saavedra", "min": "60", "type": "G"}],
+      [
+        {"name": "Alejandro Gómez", "min": "6", "type": "G"},
+        {"name": "Lionel Messi", "min": "33", "type": "P"},
+        {"name": "Lionel Messi", "min": "42", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "65", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Rodrigo Ramallo", "min": "86", "type": "Y"},
+        {"name": "Diego Wayar", "min": "90+2", "type": "Y"}
+      ],
+      [{"name": "Marcos Acuña", "min": "90", "type": "Y"}]
+    ],
+    "coaches": [{"name": "César Farías"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Carlos Lampe"},
+        {"name": "Adrián Jusino"},
+        {"name": "Roberto Fernández", "out": "81"},
+        {"name": "Diego Wayar", "in": "81"},
+        {"name": "Luis Haquin"},
+        {"name": "Diego Bejarano"},
+        {"name": "Erwin Saavedra", "out": "85"},
+        {"name": "Moisés Villarroel", "in": "85"},
+        {"name": "Jeyson Chura", "out": "61"},
+        {"name": "Henry Vaca", "in": "61"},
+        {"name": "Ramiro Vaca"},
+        {"name": "Boris Cespedes", "out": "61"},
+        {"name": "José Sagredo", "in": "61"},
+        {"name": "Leonel Justiniano"},
+        {"name": "Gilbert Álvarez", "out": "61"},
+        {"name": "Rodrigo Ramallo", "in": "61"}
+      ],
+      [
+        {"name": "Franco Armani"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Germán Pezzella"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Marcos Acuña"},
+        {"name": "Exequiel Palacios", "out": "71"},
+        {"name": "Nicolás Domínguez", "in": "71"},
+        {"name": "Guido Rodríguez", "out": "71"},
+        {"name": "Leandro Paredes", "in": "71"},
+        {"name": "Alejandro Gómez", "out": "56"},
+        {"name": "Julián Álvarez", "in": "56"},
+        {"name": "Lionel Messi"},
+        {"name": "Ángel Correa", "out": "64"},
+        {"name": "Giovani Lo Celso", "in": "64"},
+        {"name": "Sergio Agüero", "out": "63"},
+        {"name": "Lautaro Martínez", "in": "63"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2021-07-04",
+    "competition": "Copa America",
+    "round": "Quarter-finals",
+    "venue": {
+      "name": "Estádio Olímpico Pedro Ludovico Teixeira",
+      "city": "Goiânia, Goiás"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Rodrigo De Paul", "min": "40", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "84", "type": "G"},
+        {"name": "Lionel Messi", "min": "90+3", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [
+        {"name": "Nicolás Otamendi", "min": "45+4", "type": "Y"},
+        {"name": "Nicolás González", "min": "66", "type": "Y"}
+      ],
+      [
+        {"name": "Angelo Preciado", "min": "20", "type": "Y"},
+        {"name": "Alan Franco", "min": "31", "type": "Y"},
+        {"name": "Pervis Estupiñán", "min": "44", "type": "Y"},
+        {"name": "Piero Hincapié", "min": "90+2", "type": "R"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Gustavo Alfaro"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina"},
+        {"name": "Germán Pezzella"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Acuña"},
+        {"name": "Leandro Paredes", "out": "71"},
+        {"name": "Guido Rodríguez", "in": "71"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Giovani Lo Celso", "out": "71"},
+        {"name": "Angel Di Maria", "in": "71"},
+        {"name": "Nicolás González", "out": "83"},
+        {"name": "Nicolás Tagliafico", "in": "83"},
+        {"name": "Lautaro Martínez", "out": "90+4"},
+        {"name": "Sergio Agüero", "in": "90+4"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Hernán Galíndez"},
+        {"name": "Pervis Estupiñán"},
+        {"name": "Robert Arboleda"},
+        {"name": "Angelo Preciado", "out": "83"},
+        {"name": "Leonardo Campana", "in": "83"},
+        {"name": "Piero Hincapié"},
+        {"name": "Diego Palacios", "out": "46"},
+        {"name": "Gonzalo Plata", "in": "46"},
+        {"name": "Jhegson Méndez"},
+        {"name": "Carlos Gruezo", "out": "46"},
+        {"name": "Michael Estrada", "in": "46"},
+        {"name": "Alan Franco", "out": "70"},
+        {"name": "Felipe Caicedo", "in": "70"},
+        {"name": "Ángel Mena"},
+        {"name": "Enner Valencia"}
+      ]
+    ],
+    "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-07-07",
+    "competition": "Copa America",
+    "round": "Semi-finals",
+    "venue": {
+      "name": "Estádio Nacional de Brasília",
+      "city": "Brasília, Distrito Federal"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
+    "score": [1, 1],
+    "pen": [3, 2],
+    "result": "D",
+    "goals": [
+      [{"name": "Lautaro Martínez", "min": "7", "type": "G"}],
+      [{"name": "Luis Díaz", "min": "61", "type": "G"}]
+    ],
+    "cards": [
+      [
+        {"name": "Giovani Lo Celso", "min": "21", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "72", "type": "Y"},
+        {"name": "Guido Rodríguez", "min": "87", "type": "Y"},
+        {"name": "Germán Pezzella", "min": "90+1", "type": "Y"}
+      ],
+      [
+        {"name": "Juan Cuadrado", "min": "45+4", "type": "Y"},
+        {"name": "Frank Fabra", "min": "55", "type": "Y"},
+        {"name": "Miguel Borja", "min": "63", "type": "Y"},
+        {"name": "Daniel Muñoz", "min": "75", "type": "Y"},
+        {"name": "Edwin Cardona", "min": "86", "type": "Y"},
+        {"name": "Wilmar Barrios", "min": "88", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Reinaldo Rueda"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina", "out": "46"},
+        {"name": "Gonzalo Montiel", "in": "46"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Germán Pezzella"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Giovani Lo Celso", "out": "56"},
+        {"name": "Leandro Paredes", "in": "56"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Nicolás González", "out": "67"},
+        {"name": "Angel Di Maria", "in": "67"},
+        {"name": "Lautaro Martínez"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "David Ospina"},
+        {"name": "Davinson Sánchez"},
+        {"name": "Daniel Muñoz"},
+        {"name": "Yerry Mina"},
+        {"name": "William Tesillo", "out": "46"},
+        {"name": "Frank Fabra", "in": "46"},
+        {"name": "Gustavo Cuéllar", "out": "46"},
+        {"name": "Yimmi Chará", "in": "46"},
+        {"name": "Wilmar Barrios"},
+        {"name": "Juan Cuadrado"},
+        {"name": "Luis Díaz"},
+        {"name": "Rafael Borré", "out": "46"},
+        {"name": "Edwin Cardona", "in": "46"},
+        {"name": "Duván Zapata", "out": "60"},
+        {"name": "Miguel Borja", "in": "60"}
+      ]
+    ],
+    "penaltyShootout": [
+      {"name": "Juan Cuadrado", "score": [0, 1]},
+      {"name": "Lionel Messi", "score": [1, 1]},
+      {"name": "Davinson Sánchez", "score": "x"},
+      {"name": "Rodrigo De Paul", "score": "x"},
+      {"name": "Yerry Mina", "score": "x"},
+      {"name": "Leandro Paredes", "score": [2, 1]},
+      {"name": "Miguel Borja", "score": [2, 2]},
+      {"name": "Lautaro Martínez", "score": [3, 2]},
+      {"name": "Edwin Cardona", "score": "x"}
+    ],
+    "sources": ["Golazon", "Soccerway"]
   }
 ]
