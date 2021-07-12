@@ -50856,6 +50856,7 @@
         {"name": "Benjamin Brereton", "in": "77"}
       ]
     ],
+    "info": {"youtube": [{"id": "SDrGeb6TfOU"}]},
     "sources": ["Golazon", "Soccerway"]
   },
   {
@@ -50916,6 +50917,7 @@
         {"name": "Edinson Cavani"}
       ]
     ],
+    "info": {"youtube": [{"id": "9V2R3yqpNnQ"}]},
     "sources": ["Golazon", "Soccerway"]
   },
   {
@@ -50972,6 +50974,7 @@
         {"name": "Miguel Samudio", "in": "87"}
       ]
     ],
+    "info": {"youtube": [{"id": "0pUm_cJMOmE"}]},
     "sources": ["Golazon", "Soccerway"]
   },
   {
@@ -51037,76 +51040,11 @@
         {"name": "Lautaro Martínez", "in": "63"}
       ]
     ],
+    "info": {"youtube": [{"id": "YWbcdWaMl9Y"}]},
     "sources": ["Golazon", "Google"]
   },
   {
-    "slug": "bolivia-argentina-2",
-    "date": "2021-06-29",
-    "competition": "Copa America",
-    "round": "Group Stage",
-    "venue": {"name": "Arena Pantanal", "city": "Cuiabá, Mato Grosso"},
-    "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
-    "score": [1, 4],
-    "result": "W",
-    "goals": [
-      [{"name": "Erwin Saavedra", "min": "60", "type": "G"}],
-      [
-        {"name": "Alejandro Gómez", "min": "6", "type": "G"},
-        {"name": "Lionel Messi", "min": "33", "type": "P"},
-        {"name": "Lionel Messi", "min": "42", "type": "G"},
-        {"name": "Lautaro Martínez", "min": "65", "type": "G"}
-      ]
-    ],
-    "cards": [
-      [
-        {"name": "Rodrigo Ramallo", "min": "86", "type": "Y"},
-        {"name": "Diego Wayar", "min": "90+2", "type": "Y"}
-      ],
-      [{"name": "Marcos Acuña", "min": "90", "type": "Y"}]
-    ],
-    "coaches": [{"name": "César Farías"}, {"name": "Lionel Scaloni"}],
-    "lineups": [
-      [
-        {"name": "Carlos Lampe"},
-        {"name": "Adrián Jusino"},
-        {"name": "Roberto Fernández", "out": "81"},
-        {"name": "Diego Wayar", "in": "81"},
-        {"name": "Luis Haquin"},
-        {"name": "Diego Bejarano"},
-        {"name": "Erwin Saavedra", "out": "85"},
-        {"name": "Moisés Villarroel", "in": "85"},
-        {"name": "Jeyson Chura", "out": "61"},
-        {"name": "Henry Vaca", "in": "61"},
-        {"name": "Ramiro Vaca"},
-        {"name": "Boris Cespedes", "out": "61"},
-        {"name": "José Sagredo", "in": "61"},
-        {"name": "Leonel Justiniano"},
-        {"name": "Gilbert Álvarez", "out": "61"},
-        {"name": "Rodrigo Ramallo", "in": "61"}
-      ],
-      [
-        {"name": "Franco Armani"},
-        {"name": "Lisandro Martínez"},
-        {"name": "Germán Pezzella"},
-        {"name": "Gonzalo Montiel"},
-        {"name": "Marcos Acuña"},
-        {"name": "Exequiel Palacios", "out": "71"},
-        {"name": "Nicolás Domínguez", "in": "71"},
-        {"name": "Guido Rodríguez", "out": "71"},
-        {"name": "Leandro Paredes", "in": "71"},
-        {"name": "Alejandro Gómez", "out": "56"},
-        {"name": "Julián Álvarez", "in": "56"},
-        {"name": "Lionel Messi"},
-        {"name": "Ángel Correa", "out": "64"},
-        {"name": "Giovani Lo Celso", "in": "64"},
-        {"name": "Sergio Agüero", "out": "63"},
-        {"name": "Lautaro Martínez", "in": "63"}
-      ]
-    ],
-    "sources": ["Golazon"]
-  },
-  {
-    "date": "2021-07-04",
+    "date": "2021-07-03",
     "competition": "Copa America",
     "round": "Quarter-finals",
     "venue": {
@@ -51173,10 +51111,11 @@
         {"name": "Enner Valencia"}
       ]
     ],
+    "info": {"youtube": [{"id": "AjhlUT-IiMY"}]},
     "sources": ["Golazon", "Soccerway"]
   },
   {
-    "date": "2021-07-07",
+    "date": "2021-07-06",
     "competition": "Copa America",
     "round": "Semi-finals",
     "venue": {
@@ -51254,6 +51193,72 @@
       {"name": "Lautaro Martínez", "score": [3, 2]},
       {"name": "Edwin Cardona", "score": "x"}
     ],
+    "info": {"youtube": [{"id": "YL1SVxj_W1M"}]},
     "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-07-10",
+    "competition": "Copa America",
+    "round": "Final",
+    "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
+    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[{"name": "Angel Di Maria", "min": "22", "type": "G"}], []],
+    "cards": [
+      [
+        {"name": "Leandro Paredes", "min": "33", "type": "Y"},
+        {"name": "Giovani Lo Celso", "min": "51", "type": "Y"},
+        {"name": "Rodrigo De Paul", "min": "68", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "81", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "89", "type": "Y"}
+      ],
+      [
+        {"name": "Fred", "min": "3", "type": "Y"},
+        {"name": "Renan Lodi", "min": "70", "type": "Y"},
+        {"name": "Lucas Paquetá", "min": "72", "type": "Y"},
+        {"name": "Marquinhos", "min": "82", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Tite"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Cristian Romero", "out": "79"},
+        {"name": "Germán Pezzella", "in": "79"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Acuña"},
+        {"name": "Leandro Paredes", "out": "54"},
+        {"name": "Guido Rodríguez", "in": "54"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Giovani Lo Celso", "out": "63"},
+        {"name": "Nicolás Tagliafico", "in": "63"},
+        {"name": "Angel Di Maria", "out": "79"},
+        {"name": "Exequiel Palacios", "in": "79"},
+        {"name": "Lautaro Martínez", "out": "79"},
+        {"name": "Nicolás González", "in": "79"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Ederson"},
+        {"name": "Thiago Silva"},
+        {"name": "Danilo"},
+        {"name": "Renan Lodi", "out": "76"},
+        {"name": "Emerson", "in": "76"},
+        {"name": "Marquinhos"},
+        {"name": "Casemiro"},
+        {"name": "Fred", "out": "46"},
+        {"name": "Roberto Firmino", "in": "46"},
+        {"name": "Lucas Paquetá", "out": "76"},
+        {"name": "Gabriel Barbosa", "in": "76"},
+        {"name": "Éverton", "out": "63"},
+        {"name": "Vinícius Júnior", "in": "63"},
+        {"name": "Richarlison"},
+        {"name": "Neymar"}
+      ]
+    ],
+    "info": {"youtube": [{"id": "6tLxv5EsszA"}, {"id": "9HAqRMVr93Q"}]},
+    "sources": ["Golazon", "Wikipedia"]
   }
 ]
