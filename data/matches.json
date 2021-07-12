@@ -51258,7 +51258,10 @@
         {"name": "Neymar"}
       ]
     ],
-    "info": {"youtube": [{"id": "6tLxv5EsszA"}, {"id": "9HAqRMVr93Q"}]},
+    "info": {
+      "youtube": [{"id": "6tLxv5EsszA"}, {"id": "9HAqRMVr93Q"}],
+      "images": [{"url": "/m/2021/argentina-campeon.jpg"}]
+    },
     "sources": ["Golazon", "Wikipedia"]
   }
 ]
