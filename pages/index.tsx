@@ -13,7 +13,7 @@ type Props = {
 };
 
 export async function getStaticProps(): Promise<{ props: Props }> {
-  const matches = R.pipe(fetchMatches(), R.reverse(), R.take(10));
+  const matches = R.pipe(fetchMatches(), R.reverse(), R.take(10), R.reverse());
 
   return {
     props: {
