@@ -35,7 +35,6 @@ const Teams = ({ match }: { match: MatchItem }) => {
           <span className="hidden md:inline"> - {match.teams[1].name}</span>
         </>
       )}
-      <span className="inline md:hidden"> {isMyTeamHome ? "(H)" : "(A)"}</span>
     </LinkAnchor>
   );
 };
