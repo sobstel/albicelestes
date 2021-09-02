@@ -22,7 +22,7 @@ const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
     return `${slug}-${slugsCount + 1}`;
   }
 
-  return false;
+  return;
 };
 
 const toResult = (match: Golazon.Match): Result => {
@@ -69,7 +69,7 @@ const findTeamIndex = (
     return 1;
   }
 
-  return false;
+  return;
 };
 
 const toGoals = async (match: Golazon.Match) => {
@@ -82,7 +82,7 @@ const toGoals = async (match: Golazon.Match) => {
 
   for (const goal of match.goals) {
     const index = findTeamIndex(match, goal);
-    if (index === false) continue;
+    if (index === undefined) continue;
 
     const name = await reconcilePlayer(
       goal,
@@ -113,7 +113,7 @@ const toCards = async (match: Golazon.Match) => {
 
   for (const card of match.cards) {
     const index = findTeamIndex(match, card);
-    if (index === false) continue;
+    if (index === undefined) continue;
 
     const name = await reconcilePlayer(
       card,
@@ -146,9 +146,9 @@ const toTeams = (match: Golazon.Match): [Team, Team] => {
 export const toMatch = async (
   match: Golazon.Match,
   dbMatches: Array<Match>
-): Promise<Match | false> => {
+): Promise<Match | undefined> => {
   if (match.postponed) {
-    return false;
+    return;
   }
 
   const slug = toSlug(match, dbMatches);

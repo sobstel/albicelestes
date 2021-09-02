@@ -3,7 +3,6 @@ import inquirer from "inquirer";
 import {
   getMatchItem,
   getMatchTeamIndex,
-  getMatchYear,
   getPlayerSlug,
   getTeamSlug,
 } from "helpers";
@@ -11,14 +10,8 @@ import { Match, MatchItem } from "types";
 import { loadData, saveData } from "cli/utlity";
 import * as Golazon from "./golazon";
 
-const scopeYear = new Date().getFullYear() - 10;
 const matches = loadData("matches") as Array<Match>;
-
-const reversedRecentMatches = R.pipe(
-  matches,
-  R.reverse(),
-  R.takeWhile((match) => Number(getMatchYear(match)) > scopeYear)
-);
+const reversedMatches = R.reverse(matches);
 
 const createSelectHavingTeamSlug = (teamSlug: string) => {
   return R.filter((match: Match) => {
@@ -45,7 +38,7 @@ export async function reconcilePlayer(
   }
 
   const suggestedPlayersObj = R.pipe(
-    reversedRecentMatches,
+    reversedMatches,
     createSelectHavingTeamSlug(teamSlug),
     R.reduce((result, match) => {
       R.pipe(
@@ -70,16 +63,9 @@ export async function reconcilePlayer(
     R.reverse()
   );
 
-  if (suggestedPlayers.length === 1) {
-    playerNames[playerId] = suggestedPlayers[0].name;
-    saveData(teamCacheResource, playerNames);
-
-    return suggestedPlayers[0].name;
-  }
-
   const message = `Unrecognized player [${teamSlug} > ${playerId}: ${player.name}]`;
 
-  if (suggestedPlayers.length > 1) {
+  if (suggestedPlayers.length > 0) {
     const { name } = await inquirer.prompt([
       {
         type: "rawlist",
@@ -126,7 +112,7 @@ export async function reconcileCoach(
     const coachSlug = getPlayerSlug(coach.name);
 
     const lastMatchName = R.pipe(
-      reversedRecentMatches,
+      reversedMatches,
       createSelectHavingTeamSlug(teamSlug),
       R.map(
         (match) => match.coaches?.[getMatchTeamIndex(match, teamSlug)]?.name

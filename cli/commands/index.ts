@@ -5,4 +5,4 @@ import "./data/prettyFormat";
 import "./data/validateFormat";
 
 // golazon
-import "./golazon/importRecentMatches";
+import "./golazon/importMatches";
