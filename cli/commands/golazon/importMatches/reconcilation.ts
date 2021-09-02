@@ -3,7 +3,6 @@ import inquirer from "inquirer";
 import {
   getMatchItem,
   getMatchTeamIndex,
-  getMatchYear,
   getPlayerSlug,
   getTeamSlug,
 } from "helpers";
@@ -12,6 +11,7 @@ import { loadData, saveData } from "cli/utlity";
 import * as Golazon from "./golazon";
 
 const matches = loadData("matches") as Array<Match>;
+const reversedMatches = R.reverse(matches);
 
 const createSelectHavingTeamSlug = (teamSlug: string) => {
   return R.filter((match: Match) => {
@@ -38,8 +38,7 @@ export async function reconcilePlayer(
   }
 
   const suggestedPlayersObj = R.pipe(
-    matches,
-    R.reverse(),
+    reversedMatches,
     createSelectHavingTeamSlug(teamSlug),
     R.reduce((result, match) => {
       R.pipe(
@@ -113,7 +112,7 @@ export async function reconcileCoach(
     const coachSlug = getPlayerSlug(coach.name);
 
     const lastMatchName = R.pipe(
-      reversedRecentMatches,
+      reversedMatches,
       createSelectHavingTeamSlug(teamSlug),
       R.map(
         (match) => match.coaches?.[getMatchTeamIndex(match, teamSlug)]?.name

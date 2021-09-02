@@ -88,6 +88,6 @@ export default async (year: string): Promise<void> => {
   }
 
   spinner.next(`Save updated matches...`);
-  // saveData("matches", updatedMatches);
+  saveData("matches", updatedMatches);
   spinner.done();
 };
