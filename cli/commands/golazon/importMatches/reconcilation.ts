@@ -11,14 +11,7 @@ import { Match, MatchItem } from "types";
 import { loadData, saveData } from "cli/utlity";
 import * as Golazon from "./golazon";
 
-const scopeYear = new Date().getFullYear() - 10;
 const matches = loadData("matches") as Array<Match>;
-
-const reversedRecentMatches = R.pipe(
-  matches,
-  R.reverse(),
-  R.takeWhile((match) => Number(getMatchYear(match)) > scopeYear)
-);
 
 const createSelectHavingTeamSlug = (teamSlug: string) => {
   return R.filter((match: Match) => {
@@ -45,7 +38,8 @@ export async function reconcilePlayer(
   }
 
   const suggestedPlayersObj = R.pipe(
-    reversedRecentMatches,
+    matches,
+    R.reverse(),
     createSelectHavingTeamSlug(teamSlug),
     R.reduce((result, match) => {
       R.pipe(
