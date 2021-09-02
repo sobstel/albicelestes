@@ -37,7 +37,3 @@ export type Match = {
   venue: { name: string; city: string };
   penalty_shootout: Array<Person & { code: "G" | "M"; score: Score }>;
 };
-
-export type Team = {
-  recentFixtures: Array<{ match_id: string; date: string }>;
-};
