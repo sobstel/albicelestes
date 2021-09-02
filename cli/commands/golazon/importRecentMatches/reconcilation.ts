@@ -70,16 +70,9 @@ export async function reconcilePlayer(
     R.reverse()
   );
 
-  if (suggestedPlayers.length === 1) {
-    playerNames[playerId] = suggestedPlayers[0].name;
-    saveData(teamCacheResource, playerNames);
-
-    return suggestedPlayers[0].name;
-  }
-
   const message = `Unrecognized player [${teamSlug} > ${playerId}: ${player.name}]`;
 
-  if (suggestedPlayers.length > 1) {
+  if (suggestedPlayers.length > 0) {
     const { name } = await inquirer.prompt([
       {
         type: "rawlist",
