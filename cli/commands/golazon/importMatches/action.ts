@@ -42,6 +42,7 @@ export default async (year: string): Promise<void> => {
 
   spinner.next("Fetch matches from local DB");
   const matches = loadData("matches") as Array<Match>;
+  spinner.done();
 
   const updatedMatches: Array<Match> = [];
 
@@ -50,17 +51,19 @@ export default async (year: string): Promise<void> => {
       isSameMatchDate(golazonFixture["date"], match["date"])
     );
     if (sameDateGolazonFixture && !isMatchAlreadyVerified(match)) {
+      spinner.next(
+        `${sameDateGolazonFixture.date}: ${sameDateGolazonFixture.home_name} v ${sameDateGolazonFixture.away_name}`
+      );
       const golazonMatch = await fetchGolazonMatch(
         sameDateGolazonFixture["match_id"]
       );
       const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
       if (convertedMatch) {
-        message.info(
-          `${convertedMatch.date}: ${convertedMatch.teams[0].name} v ${convertedMatch.teams[1].name} `
-        );
         updatedMatches.push(convertedMatch);
+        spinner.done();
         continue;
       }
+      spinner.done();
     }
 
     const lastUpdatedMatch = R.last(updatedMatches);
@@ -68,20 +71,24 @@ export default async (year: string): Promise<void> => {
       golazonFixtures,
       (golazonFixture) =>
         (!lastUpdatedMatch ||
+          !isSameMatchDate(golazonFixture["date"], lastUpdatedMatch["date"])) &&
+        !isSameMatchDate(golazonFixture["date"], match["date"]) &&
+        (!lastUpdatedMatch ||
           dayjs(golazonFixture["date"]).isAfter(lastUpdatedMatch["date"])) &&
         dayjs(golazonFixture["date"]).isBefore(match["date"])
     );
     for (const inRangeGolazonFixture of inRangeGolazonFixtures) {
+      spinner.next(
+        `${inRangeGolazonFixture.date}: ${inRangeGolazonFixture.home_name} v ${inRangeGolazonFixture.away_name}`
+      );
       const golazonMatch = await fetchGolazonMatch(
         inRangeGolazonFixture["match_id"]
       );
       const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
       if (convertedMatch) {
-        message.info(
-          `${convertedMatch.date}: ${convertedMatch.teams[0].name} v ${convertedMatch.teams[1].name} `
-        );
         updatedMatches.push(convertedMatch);
       }
+      spinner.done();
     }
 
     updatedMatches.push(match);

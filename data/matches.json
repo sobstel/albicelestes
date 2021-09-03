@@ -47558,7 +47558,7 @@
         {"name": "José Velázquez", "in": "85"},
         {"name": "Luis Seijas", "out": "55"},
         {"name": "Juanpi", "in": "55"},
-        {"name": "Joséf Martínez", "out": "80"},
+        {"name": "Josef Martínez", "out": "80"},
         {"name": "Yonathan Del Valle", "in": "80"},
         {"name": "Salomón Rondón"}
       ]
@@ -47757,7 +47757,7 @@
     "goals": [
       [
         {"name": "Juanpi", "min": "35", "type": "G"},
-        {"name": "Joséf Martínez", "min": "53", "type": "G"}
+        {"name": "Josef Martínez", "min": "53", "type": "G"}
       ],
       [
         {"name": "Lucas Pratto", "min": "58", "type": "G"},
@@ -47784,7 +47784,7 @@
         {"name": "Arles Flores"},
         {"name": "Juanpi"},
         {"name": "Tomás Rincón"},
-        {"name": "Joséf Martínez", "out": "78"},
+        {"name": "Josef Martínez", "out": "78"},
         {"name": "Jacobo Kouffaty", "in": "78"},
         {"name": "Adalberto Peñaranda"},
         {"name": "Salomón Rondón"}
@@ -48382,7 +48382,7 @@
         {"name": "Johan Moreno"},
         {"name": "Jhon Murillo"},
         {"name": "Salomón Rondón", "out": "82"},
-        {"name": "Joséf Martínez", "in": "82"}
+        {"name": "Josef Martínez", "in": "82"}
       ]
     ]
   },
@@ -49422,9 +49422,10 @@
     ]
   },
   {
+    "slug": "argentina-venezuela-2",
     "date": "2019-03-22",
-    "competition": "Friendly",
-    "venue": {"name": "Wanda Metropolitano, Madrid"},
+    "competition": "Friendlies",
+    "venue": {"name": "Estadio Wanda Metropolitano", "city": "Madrid"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [1, 3],
     "result": "L",
@@ -49433,7 +49434,7 @@
       [
         {"name": "Salomón Rondón", "min": "6", "type": "G"},
         {"name": "Jhon Murillo", "min": "44", "type": "G"},
-        {"name": "Joséf Martínez", "min": "76", "type": "P"}
+        {"name": "Josef Martínez", "min": "75", "type": "P"}
       ]
     ],
     "cards": [
@@ -49446,8 +49447,8 @@
         {"name": "Ronald Hernández", "min": "47", "type": "Y"},
         {"name": "Salomón Rondón", "min": "56", "type": "Y"},
         {"name": "Yordan Osorio", "min": "63", "type": "Y"},
-        {"name": "Tomás Rincón", "min": "83", "type": "Y"},
-        {"name": "Juanpi Añor", "min": "87", "type": "Y"}
+        {"name": "Tomás Rincón", "min": "82", "type": "Y"},
+        {"name": "Juanpi", "min": "87", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Lionel Scaloni"}, {"name": "Rafael Dudamel"}],
@@ -49455,43 +49456,47 @@
       [
         {"name": "Franco Armani"},
         {"name": "Juan Foyth"},
-        {"name": "Lisandro Martínez"},
         {"name": "Gabriel Mercado", "out": "46"},
         {"name": "Walter Kannemann", "in": "46"},
+        {"name": "Lisandro Martínez", "out": "46"},
+        {"name": "Domingo Blanco", "in": "46"},
         {"name": "Gonzalo Montiel"},
         {"name": "Nicolás Tagliafico"},
         {"name": "Giovani Lo Celso", "out": "78"},
         {"name": "Roberto Pereyra", "in": "78"},
+        {"name": "Leandro Paredes"},
         {"name": "Gonzalo Martínez", "out": "46"},
         {"name": "Matías Suárez", "in": "46"},
-        {"name": "Leandro Paredes"},
-        {"name": "Lionel Messi"},
         {"name": "Lautaro Martínez", "out": "70"},
-        {"name": "Darío Benedetto", "in": "70"}
+        {"name": "Darío Benedetto", "in": "70"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Wuilker Faríñez"},
-        {"name": "Ronald Hernández"},
-        {"name": "Yordan Osorio"},
-        {"name": "Roberto Rosales"},
         {"name": "Mikel Villanueva"},
-        {"name": "Yangel Herrera", "out": "64"},
-        {"name": "Yeferson Soteldo", "in": "64"},
+        {"name": "Yordan Osorio"},
+        {"name": "Ronald Hernández"},
+        {"name": "Roberto Rosales"},
         {"name": "Júnior Moreno"},
         {"name": "Tomás Rincón"},
+        {"name": "Yangel Herrera", "out": "64"},
+        {"name": "Yeferson Soteldo", "in": "64"},
         {"name": "Darwin Machís", "out": "79"},
-        {"name": "Juanpi Añor", "in": "79"},
+        {"name": "Juanpi", "in": "79"},
         {"name": "Jhon Murillo", "out": "89"},
         {"name": "Jan Hurtado", "in": "89"},
         {"name": "Salomón Rondón", "out": "72"},
-        {"name": "Joséf Martínez", "in": "72"}
+        {"name": "Josef Martínez", "in": "72"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "morocco-argentina-2",
     "date": "2019-03-26",
-    "competition": "Friendly",
-    "venue": {"name": "Stade Ibn Batouta, Tangiers"},
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {"name": "Grand Stade de Tanger", "city": "Tanger"},
     "teams": [{"name": "Morocco"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
@@ -49512,43 +49517,44 @@
     "lineups": [
       [
         {"name": "Yassine Bounou"},
-        {"name": "Medhi Benatia", "out": "61"},
-        {"name": "Yunis Abdelhamid", "in": "61"},
         {"name": "Manuel Da Costa", "out": "87"},
         {"name": "Oussama Idrissi", "in": "87"},
+        {"name": "Medhi Benatia", "out": "61"},
+        {"name": "Yunis Abdelhamid", "in": "61"},
         {"name": "Achraf Hakimi"},
-        {"name": "Romain Saïss"},
-        {"name": "Younès Belhanda", "out": "87"},
-        {"name": "Mehdi Bourabia", "in": "87"},
-        {"name": "Sofiane Boufal"},
-        {"name": "Karim El Ahmadi", "out": "62"},
-        {"name": "Youssef Aït Bennasser", "in": "62"},
         {"name": "Noussair Mazraoui"},
+        {"name": "Karim El Ahmadi", "out": "61"},
+        {"name": "Youssef Aït Bennasser", "in": "61"},
         {"name": "Moubarak Boussoufa", "out": "74"},
         {"name": "Fayçal Fajr", "in": "74"},
+        {"name": "Romain Saïss"},
+        {"name": "Sofiane Boufal"},
+        {"name": "Younès Belhanda", "out": "87"},
+        {"name": "Mehdi Bourabia", "in": "87"},
         {"name": "Khalid Boutaïb", "out": "75"},
         {"name": "Rachid Alioui", "in": "75"}
       ],
       [
         {"name": "Esteban Andrada", "out": "67"},
         {"name": "Juan Musso", "in": "67"},
-        {"name": "Walter Kannemann"},
-        {"name": "Gonzalo Montiel"},
-        {"name": "Germán Pezzella", "out": "76"},
-        {"name": "Matías Zaracho", "in": "76"},
+        {"name": "Germán Pezzella"},
         {"name": "Marcos Acuña"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Walter Kannemann"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Roberto Pereyra", "out": "90+2"},
+        {"name": "Iván Marcone", "in": "90+2"},
+        {"name": "Leandro Paredes", "out": "76"},
+        {"name": "Matías Zaracho", "in": "76"},
         {"name": "Rodrigo De Paul", "out": "62"},
         {"name": "Ángel Correa", "in": "62"},
-        {"name": "Leandro Paredes"},
-        {"name": "Roberto Pereyra", "out": "90"},
-        {"name": "Iván Marcone", "in": "90"},
-        {"name": "Guido Rodríguez"},
         {"name": "Paulo Dybala", "out": "79"},
         {"name": "Giovani Lo Celso", "in": "79"},
         {"name": "Lautaro Martínez", "out": "56"},
         {"name": "Matías Suárez", "in": "56"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2019-06-07",
@@ -49843,7 +49849,7 @@
         {"name": "Yangel Herrera"},
         {"name": "Salomón Rondón"},
         {"name": "Darwin Machís", "out": "71"},
-        {"name": "Joséf Martínez", "in": "71"},
+        {"name": "Josef Martínez", "in": "71"},
         {"name": "Jhon Murillo"}
       ],
       [
