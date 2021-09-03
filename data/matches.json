@@ -49424,7 +49424,7 @@
   {
     "slug": "argentina-venezuela-2",
     "date": "2019-03-22",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "Estadio Wanda Metropolitano", "city": "Madrid"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [1, 3],
@@ -49494,8 +49494,7 @@
   {
     "slug": "morocco-argentina-2",
     "date": "2019-03-26",
-    "competition": "Friendlies",
-    "round": "Friendlies 1",
+    "competition": "Friendly",
     "venue": {"name": "Grand Stade de Tanger", "city": "Tanger"},
     "teams": [{"name": "Morocco"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -51273,5 +51272,70 @@
       "images": [{"url": "/m/2021/argentina-campeon.jpg"}]
     },
     "sources": ["Golazon", "Wikipedia"]
+  },
+  {
+    "date": "2021-09-03",
+    "competition": "World Cup Quals",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Olímpico de la UCV", "city": "Caracas"},
+    "teams": [{"name": "Venezuela"}, {"name": "Argentina"}],
+    "score": [1, 3],
+    "result": "W",
+    "goals": [
+      [{"name": "Yeferson Soteldo", "min": "90+4", "type": "P"}],
+      [
+        {"name": "Lautaro Martínez", "min": "45+2", "type": "G"},
+        {"name": "Joaquín Correa", "min": "71", "type": "G"},
+        {"name": "Ángel Correa", "min": "74", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Adrián Martínez", "min": "32", "type": "R"},
+        {"name": "Yeferson Soteldo", "min": "45", "type": "Y"},
+        {"name": "Jan Hurtado", "min": "79", "type": "Y"}
+      ],
+      []
+    ],
+    "coaches": [{"name": "Leonardo González"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Wuilker Faríñez"},
+        {"name": "José Velázquez", "out": "25"},
+        {"name": "Adrián Martínez", "in": "25"},
+        {"name": "Alexander González", "out": "67"},
+        {"name": "Ronald Hernández", "in": "67"},
+        {"name": "Nahuel Ferraresi"},
+        {"name": "Oscar González"},
+        {"name": "Jefferson Savarino", "out": "46"},
+        {"name": "Daniel Carrillo", "in": "46"},
+        {"name": "José Martínez"},
+        {"name": "Tomás Rincón"},
+        {"name": "Yeferson Soteldo"},
+        {"name": "Eric Ramírez", "out": "35"},
+        {"name": "Mikel Villanueva", "in": "35"},
+        {"name": "Joséf Martínez", "out": "67"},
+        {"name": "Jan Hurtado", "in": "67"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Marcos Acuña"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Germán Pezzella"},
+        {"name": "Rodrigo De Paul", "out": "76"},
+        {"name": "Exequiel Palacios", "in": "76"},
+        {"name": "Angel Di Maria", "out": "63"},
+        {"name": "Ángel Correa", "in": "63"},
+        {"name": "Giovani Lo Celso", "out": "62"},
+        {"name": "Joaquín Correa", "in": "62"},
+        {"name": "Guido Rodríguez", "out": "80"},
+        {"name": "Paulo Dybala", "in": "80"},
+        {"name": "Lautaro Martínez", "out": "75"},
+        {"name": "Alejandro Gómez", "in": "75"},
+        {"name": "Lionel Messi"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]

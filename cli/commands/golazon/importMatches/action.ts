@@ -94,6 +94,30 @@ export default async (year: string): Promise<void> => {
     updatedMatches.push(match);
   }
 
+  const lastMatch = R.last(matches);
+  const recentGolazonFixtures = R.filter(golazonFixtures, (golazonFixture) => {
+    return Boolean(
+      lastMatch &&
+        dayjs(golazonFixture["date"]).subtract(1, "day").isAfter(lastMatch.date)
+    );
+  });
+
+  for (const recentGolazonFixture of recentGolazonFixtures) {
+    if (!recentGolazonFixture["ended"]) continue;
+
+    spinner.next(
+      `${recentGolazonFixture.date}: ${recentGolazonFixture.home_name} v ${recentGolazonFixture.away_name}`
+    );
+    const golazonMatch = await fetchGolazonMatch(
+      recentGolazonFixture["match_id"]
+    );
+    spinner.done();
+    const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
+    if (convertedMatch) {
+      updatedMatches.push(convertedMatch);
+    }
+  }
+
   spinner.next(`Save updated matches...`);
   saveData("matches", updatedMatches);
   spinner.done();
