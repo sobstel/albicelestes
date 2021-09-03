@@ -49404,10 +49404,7 @@
     "slug": "argentina-mexico-3",
     "date": "2018-11-21",
     "competition": "Friendlies",
-    "venue": {
-      "name": "Estadio Malvinas Argentinas",
-      "city": "Mendoza"
-    },
+    "venue": {"name": "Estadio Malvinas Argentinas", "city": "Mendoza"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 0],
     "result": "W",
@@ -51383,7 +51380,7 @@
         {"name": "Lionel Messi"}
       ]
     ],
-    "info": {"youtube": {"id": "6MhPzDOWpYc"}},
+    "info": {"youtube": [{"id": "6MhPzDOWpYc"}]},
     "sources": ["Golazon"]
   }
 ]
