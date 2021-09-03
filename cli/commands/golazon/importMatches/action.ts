@@ -25,10 +25,27 @@ const isSameMatchDate = (date1: string, date2: string) =>
 const isMatchAlreadyVerified = (match: Match) =>
   Boolean(match?.sources?.length);
 
-const fetchGolazonMatch = async (matchId: string) => {
-  const response = await got(MATCH_URL.replace("ID", matchId));
+const importMatch = async (
+  golazonFixture: Golazon.Match,
+  matches: Array<Match>
+) => {
+  spinner.next(
+    `${golazonFixture.date}: ${golazonFixture.home_name} v ${golazonFixture.away_name}`
+  );
+  const response = await got(
+    MATCH_URL.replace("ID", golazonFixture["match_id"])
+  );
   const golazonMatch: Golazon.Match = JSON.parse(response.body);
-  return golazonMatch;
+  spinner.done();
+  if (
+    !golazonMatch["ended"] ||
+    !golazonMatch?.["home_players"]?.length ||
+    !golazonMatch?.["away_players"]?.length
+  ) {
+    return;
+  }
+  const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
+  return convertedMatch;
 };
 
 export default async (year: string): Promise<void> => {
@@ -51,19 +68,11 @@ export default async (year: string): Promise<void> => {
       isSameMatchDate(golazonFixture["date"], match["date"])
     );
     if (sameDateGolazonFixture && !isMatchAlreadyVerified(match)) {
-      spinner.next(
-        `${sameDateGolazonFixture.date}: ${sameDateGolazonFixture.home_name} v ${sameDateGolazonFixture.away_name}`
-      );
-      const golazonMatch = await fetchGolazonMatch(
-        sameDateGolazonFixture["match_id"]
-      );
-      const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
-      if (convertedMatch) {
-        updatedMatches.push(convertedMatch);
-        spinner.done();
+      const importedMatch = await importMatch(sameDateGolazonFixture, matches);
+      if (importedMatch) {
+        updatedMatches.push(importedMatch);
         continue;
       }
-      spinner.done();
     }
 
     const lastUpdatedMatch = R.last(updatedMatches);
@@ -78,17 +87,10 @@ export default async (year: string): Promise<void> => {
         dayjs(golazonFixture["date"]).isBefore(match["date"])
     );
     for (const inRangeGolazonFixture of inRangeGolazonFixtures) {
-      spinner.next(
-        `${inRangeGolazonFixture.date}: ${inRangeGolazonFixture.home_name} v ${inRangeGolazonFixture.away_name}`
-      );
-      const golazonMatch = await fetchGolazonMatch(
-        inRangeGolazonFixture["match_id"]
-      );
-      const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
-      if (convertedMatch) {
-        updatedMatches.push(convertedMatch);
+      const importedMatch = await importMatch(inRangeGolazonFixture, matches);
+      if (importedMatch) {
+        updatedMatches.push(importedMatch);
       }
-      spinner.done();
     }
 
     updatedMatches.push(match);
@@ -103,18 +105,9 @@ export default async (year: string): Promise<void> => {
   });
 
   for (const recentGolazonFixture of recentGolazonFixtures) {
-    if (!recentGolazonFixture["ended"]) continue;
-
-    spinner.next(
-      `${recentGolazonFixture.date}: ${recentGolazonFixture.home_name} v ${recentGolazonFixture.away_name}`
-    );
-    const golazonMatch = await fetchGolazonMatch(
-      recentGolazonFixture["match_id"]
-    );
-    spinner.done();
-    const convertedMatch = await Conversion.toMatch(golazonMatch, matches);
-    if (convertedMatch) {
-      updatedMatches.push(convertedMatch);
+    const importedMatch = await importMatch(recentGolazonFixture, matches);
+    if (importedMatch) {
+      updatedMatches.push(importedMatch);
     }
   }
 
