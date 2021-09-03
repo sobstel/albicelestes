@@ -1,4 +1,3 @@
-import * as R from "remeda";
 import React from "react";
 import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "helpers";
@@ -7,9 +6,6 @@ import { Page, Block, Header, LinkAnchor } from "components/layout";
 
 export async function getStaticProps() {
   const matches = fetchMatches();
-  const verifiedMatches = R.filter(matches, (match) =>
-    Boolean(match.sources?.length)
-  );
   const bibliography = fetchBibliography();
 
   const playersTotal = collectPlayers(matches).length;
@@ -18,7 +14,6 @@ export async function getStaticProps() {
   const props: Props = {
     stat: {
       matchesTotal: matches.length,
-      matchesVerified: verifiedMatches.length,
       playersTotal,
       teamsTotal,
     },
@@ -32,7 +27,6 @@ type Props = {
   bibliography: Bibliography;
   stat: {
     matchesTotal: number;
-    matchesVerified: number;
     playersTotal: number;
     teamsTotal: number;
   };
@@ -40,9 +34,6 @@ type Props = {
 
 export default function AboutPage(props: Props) {
   const { stat, bibliography } = props;
-  const verifiedRatio = Math.ceil(
-    (stat.matchesVerified / stat.matchesTotal) * 100
-  );
 
   return (
     <Page title={["About"]}>
@@ -52,8 +43,8 @@ export default function AboutPage(props: Props) {
       <Block>
         <Header text="Status" />
         <p>
-          Matches (inc. suspended): {stat.matchesTotal} (verified:{" "}
-          {stat.matchesVerified}, ~{verifiedRatio}%)
+          Matches (inc. suspended):{" "}
+          <LinkAnchor href="/status">{stat.matchesTotal}</LinkAnchor>
         </p>
         <p>Argentina players: {stat.playersTotal}</p>
         <p>Rival teams: {stat.teamsTotal}</p>
