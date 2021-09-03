@@ -48614,61 +48614,67 @@
   },
   {
     "date": "2018-03-23",
-    "competition": "Friendly",
-    "venue": {"name": "City of Manchester Stadium"},
-    "teams": [{"name": "Italy"}, {"name": "Argentina"}],
-    "score": [0, 2],
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {"name": "Etihad Stadium", "city": "Manchester"},
+    "teams": [{"name": "Argentina"}, {"name": "Italy"}],
+    "score": [2, 0],
     "result": "W",
     "goals": [
-      [],
       [
         {"name": "Éver Banega", "min": "75", "type": "G"},
         {"name": "Manuel Lanzini", "min": "85", "type": "G"}
-      ]
-    ],
-    "coaches": [{"name": "Jorge Sampaio"}, {"name": "Luigi Di Biagio"}],
-    "lineups": [
-      [
-        {"name": "Gianluigi Buffon"},
-        {"name": "Leonardo Bonucci"},
-        {"name": "Mattia De Sciglio"},
-        {"name": "Daniele Rugani"},
-        {"name": "Alessandro Florenzi", "out": "61"},
-        {"name": "Davide Zappacosta", "in": "61"},
-        {"name": "Jorginho"},
-        {"name": "Marco Parolo", "out": "61"},
-        {"name": "Lorenzo Pellegrini", "in": "61"},
-        {"name": "Marco Verratti", "out": "72"},
-        {"name": "Bryan Cristante", "in": "72"},
-        {"name": "Federico Chiesa", "out": "61"},
-        {"name": "Antonio Candreva", "in": "61"},
-        {"name": "Ciro Immobile", "out": "74"},
-        {"name": "Patrick Cutrone", "in": "74"},
-        {"name": "Lorenzo Insigne"}
       ],
+      []
+    ],
+    "cards": [[], []],
+    "coaches": [{"name": "Jorge Sampaoli"}, {"name": "Luigi Di Biagio"}],
+    "lineups": [
       [
         {"name": "Willy Caballero"},
         {"name": "Fabricio Bustos", "out": "89"},
         {"name": "Gabriel Mercado", "in": "89"},
-        {"name": "Federico Fazio"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Federico Fazio"},
         {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "64"},
+        {"name": "Angel Di Maria", "out": "64"},
         {"name": "Diego Perotti", "in": "64"},
-        {"name": "Manuel Lanzini"},
-        {"name": "Giovani Lo Celso", "out": "76"},
-        {"name": "Cristian Pavón", "in": "76"},
         {"name": "Leandro Paredes", "out": "64"},
         {"name": "Éver Banega", "in": "64"},
+        {"name": "Giovani Lo Celso", "out": "76"},
+        {"name": "Cristian Pavón", "in": "76"},
+        {"name": "Manuel Lanzini"},
         {"name": "Gonzalo Higuaín"}
+      ],
+      [
+        {"name": "Gianluigi Buffon"},
+        {"name": "Alessandro Florenzi", "out": "61"},
+        {"name": "Davide Zappacosta", "in": "61"},
+        {"name": "Mattia De Sciglio"},
+        {"name": "Daniele Rugani"},
+        {"name": "Leonardo Bonucci"},
+        {"name": "Jorginho", "out": "86"},
+        {"name": "Andrea Belotti", "in": "86"},
+        {"name": "Marco Verratti", "out": "72"},
+        {"name": "Bryan Cristante", "in": "72"},
+        {"name": "Marco Parolo", "out": "61"},
+        {"name": "Lorenzo Pellegrini", "in": "61"},
+        {"name": "Ciro Immobile", "out": "74"},
+        {"name": "Patrick Cutrone", "in": "74"},
+        {"name": "Federico Chiesa", "out": "61"},
+        {"name": "Antonio Candreva", "in": "61"},
+        {"name": "Lorenzo Insigne"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "spain-argentina-2",
     "date": "2018-03-27",
-    "competition": "Friendly",
-    "venue": {"name": "Wanda Metropolitano, Madrid"},
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {"name": "Estadio Wanda Metropolitano", "city": "Madrid"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [6, 1],
     "result": "L",
@@ -48695,49 +48701,58 @@
         {"name": "Cristian Pavón", "min": "89", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Julen Lopetegui "}, {"name": "Jorge Luis Sampaoli"}],
+    "coaches": [{"name": "Julen Lopetegui "}, {"name": "Jorge Sampaoli"}],
     "lineups": [
       [
         {"name": "David De Gea"},
         {"name": "Daniel Carvajal"},
+        {"name": "Jordi Alba", "out": "79"},
+        {"name": "Marcos Alonso", "in": "79"},
         {"name": "Gerard Piqué", "out": "72"},
         {"name": "César Azpilicueta", "in": "72"},
         {"name": "Sergio Ramos"},
-        {"name": "Jordi Alba", "out": "79"},
-        {"name": "Marcos Alonso", "in": "79"},
-        {"name": "Marco Asensio"},
+        {"name": "Koke"},
+        {"name": "Thiago Alcántara", "out": "82"},
+        {"name": "Dani Parejo", "in": "82"},
         {"name": "Andrés Iniesta", "out": "56"},
         {"name": "Saúl Ñiguez", "in": "56"},
-        {"name": "Koke"},
-        {"name": "Thiago Alcántara"},
-        {"name": "Isco"},
-        {"name": "Diego Costa"}
+        {"name": "Isco", "out": "76"},
+        {"name": "Lucas Vázquez", "in": "76"},
+        {"name": "Diego Costa", "out": "46"},
+        {"name": "Iago Aspas", "in": "46"},
+        {"name": "Marco Asensio"}
       ],
       [
         {"name": "Sergio Romero", "out": "22"},
         {"name": "Willy Caballero", "in": "22"},
         {"name": "Fabricio Bustos", "out": "62"},
         {"name": "Gabriel Mercado", "in": "62"},
+        {"name": "Nicolás Tagliafico"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
-        {"name": "Nicolás Tagliafico"},
-        {"name": "Éver Banega", "out": "62"},
-        {"name": "Pablo Perez", "in": "62"},
-        {"name": "Lucas Biglia"},
-        {"name": "Giovani Lo Celso", "out": "84"},
-        {"name": "Marcos Acuña", "in": "84"},
         {"name": "Javier Mascherano", "out": "56"},
         {"name": "Cristian Pavón", "in": "56"},
+        {"name": "Lucas Biglia"},
         {"name": "Maximiliano Meza"},
+        {"name": "Éver Banega", "out": "62"},
+        {"name": "Pablo Perez", "in": "62"},
+        {"name": "Giovani Lo Celso", "out": "84"},
+        {"name": "Marcos Acuña", "in": "84"},
         {"name": "Gonzalo Higuaín", "out": "59"},
         {"name": "Lautaro Martínez", "in": "59"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2018-05-30",
-    "competition": "Friendly",
-    "venue": {"name": "Estadio Alberto José Armando"},
+    "slug": "argentina-haiti-2",
+    "date": "2018-05-29",
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {
+      "name": "Estadio Alberto José Armando",
+      "city": "Ciudad de Buenos Aires"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Haiti"}],
     "score": [4, 0],
     "result": "W",
@@ -48761,18 +48776,18 @@
     "lineups": [
       [
         {"name": "Willy Caballero"},
-        {"name": "Federico Fazio", "out": "46"},
-        {"name": "Marcos Rojo", "in": "46"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Nicolás Tagliafico", "out": "71"},
         {"name": "Marcos Acuña", "in": "71"},
-        {"name": "Ángel Di María", "out": "59"},
-        {"name": "Cristian Pavón", "in": "59"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Federico Fazio", "out": "46"},
+        {"name": "Marcos Rojo", "in": "46"},
+        {"name": "Javier Mascherano"},
         {"name": "Manuel Lanzini", "out": "59"},
         {"name": "Maximiliano Meza", "in": "59"},
         {"name": "Giovani Lo Celso", "out": "75"},
         {"name": "Éver Banega", "in": "75"},
-        {"name": "Javier Mascherano"},
+        {"name": "Angel Di Maria", "out": "59"},
+        {"name": "Cristian Pavón", "in": "59"},
         {"name": "Eduardo Salvio"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "59"},
@@ -48780,29 +48795,32 @@
       ],
       [
         {"name": "Johnny Placide"},
+        {"name": "Ricardo Adé"},
         {"name": "Carlens Arcus", "out": "89"},
         {"name": "Waldo Vernet", "in": "89"},
+        {"name": "Christian"},
         {"name": "Mechack Jérôme"},
-        {"name": "Ricardo Adé"},
-        {"name": "Bryan Alceus", "out": "67"},
-        {"name": "Brian Chevreuil", "in": "67"},
-        {"name": "Mikaël Cantave", "out": "78"},
-        {"name": "Richelor Sprangers", "in": "78"},
         {"name": "Zachiray Herivaux", "out": "67"},
         {"name": "Bryan Labissiere", "in": "67"},
-        {"name": "Alex Júnior"},
+        {"name": "Bryan Alceus", "out": "67"},
+        {"name": "Brian Chevreuil", "in": "67"},
         {"name": "Jimmy-Shammar Sanon", "out": "46"},
         {"name": "Derrick Etienne", "in": "46"},
+        {"name": "Mikaël Cantave", "out": "78"},
+        {"name": "Richelor Sprangers", "in": "78"},
         {"name": "Fabien Vorbe", "out": "46"},
         {"name": "Steeven Saba", "in": "46"},
         {"name": "Duckens Nazon"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-iceland-2",
     "date": "2018-06-16",
     "competition": "World Cup",
-    "venue": {"name": "Spartak Stadium, Moscow"},
+    "round": "Group Stage",
+    "venue": {"name": "Otkrytiye Arena", "city": "Moskva"},
     "teams": [{"name": "Argentina"}, {"name": "Iceland"}],
     "score": [1, 1],
     "result": "D",
@@ -48810,46 +48828,50 @@
       [{"name": "Sergio Agüero", "min": "19", "type": "G"}],
       [{"name": "Alfred Finnbogason", "min": "23", "type": "G"}]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Jorge Sampaoli"}, {"name": "Hemir Hallgrimsson"}],
     "lineups": [
       [
         {"name": "Willy Caballero"},
+        {"name": "Nicolás Tagliafico"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
-        {"name": "Nicolás Tagliafico"},
+        {"name": "Javier Mascherano"},
+        {"name": "Eduardo Salvio"},
         {"name": "Lucas Biglia", "out": "54"},
         {"name": "Éver Banega", "in": "54"},
-        {"name": "Ángel Di María", "out": "75"},
-        {"name": "Cristian Pavón", "in": "75"},
-        {"name": "Javier Mascherano"},
         {"name": "Maximiliano Meza", "out": "84"},
         {"name": "Gonzalo Higuaín", "in": "84"},
-        {"name": "Eduardo Salvio"},
-        {"name": "Lionel Messi"},
-        {"name": "Sergio Agüero"}
+        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Cristian Pavón", "in": "75"},
+        {"name": "Sergio Agüero"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Hannes Halldórsson"},
-        {"name": "Hördur Magnússon"},
         {"name": "Birkir Saevarsson"},
-        {"name": "Ragnar Sigurdsson"},
+        {"name": "Hördur Magnússon"},
         {"name": "Kári Arnason"},
-        {"name": "Birkir Bjarnason"},
+        {"name": "R. Sigurðsson"},
         {"name": "Aron Gunnarsson", "out": "76"},
         {"name": "Ari Skúlason", "in": "76"},
-        {"name": "Emil Hallfredsson"},
-        {"name": "Gylfi Sigurdsson"},
-        {"name": "Jóhann Berg Gudmundsson", "out": "63"},
+        {"name": "Johann Berg Guðmundsson", "out": "63"},
         {"name": "Rúrik Gíslason", "in": "63"},
+        {"name": "Emil Hallfredsson"},
+        {"name": "Gylfi Sigurðsson"},
+        {"name": "Birkir Bjarnason"},
         {"name": "Alfred Finnbogason", "out": "89"},
         {"name": "Björn Sigurdarson", "in": "89"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-croatia-2",
     "date": "2018-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Nizhny Novograd Stadium"},
+    "round": "Group Stage",
+    "venue": {"name": "Stadion Nizhny Novgorod", "city": "Nizhniy Novgorod"},
     "teams": [{"name": "Argentina"}, {"name": "Croatia"}],
     "score": [0, 3],
     "result": "L",
@@ -48858,7 +48880,7 @@
       [
         {"name": "Ante Rebić", "min": "53", "type": "G"},
         {"name": "Luka Modrić", "min": "80", "type": "G"},
-        {"name": "Ivan Rakitić", "min": "90", "type": "G"}
+        {"name": "Ivan Rakitić", "min": "90+1", "type": "G"}
       ]
     ],
     "cards": [
@@ -48871,49 +48893,55 @@
         {"name": "Ante Rebić", "min": "39", "type": "Y"},
         {"name": "Mario Mandžukić", "min": "58", "type": "Y"},
         {"name": "Šime Vrsaljko", "min": "67", "type": "Y"},
-        {"name": "Marcelo Brozović", "min": "90", "type": "Y"}
+        {"name": "Vedran Corluka", "min": "90+4", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Jorge Sampaoli"}, {"name": "Zlatko Dalic"}],
     "lineups": [
       [
         {"name": "Willy Caballero"},
+        {"name": "Nicolás Tagliafico"},
         {"name": "Gabriel Mercado"},
         {"name": "Nicolás Otamendi"},
-        {"name": "Nicolás Tagliafico"},
-        {"name": "Marcos Acuña"},
         {"name": "Javier Mascherano"},
-        {"name": "Maximiliano Meza"},
-        {"name": "Enzo Pérez", "out": "68"},
-        {"name": "Paulo Dybala", "in": "68"},
+        {"name": "Marcos Acuña"},
         {"name": "Eduardo Salvio", "out": "56"},
         {"name": "Cristian Pavón", "in": "56"},
-        {"name": "Lionel Messi"},
+        {"name": "Enzo Pérez", "out": "68"},
+        {"name": "Paulo Dybala", "in": "68"},
+        {"name": "Maximiliano Meza"},
         {"name": "Sergio Agüero", "out": "54"},
-        {"name": "Gonzalo Higuaín", "in": "54"}
+        {"name": "Gonzalo Higuaín", "in": "54"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Danijel Subašić"},
-        {"name": "Dejan Lovren"},
-        {"name": "Ivan Strinic"},
-        {"name": "Domagoj Vida"},
         {"name": "Šime Vrsaljko"},
+        {"name": "Ivan Strinic"},
+        {"name": "Dejan Lovren"},
+        {"name": "Domagoj Vida"},
         {"name": "Marcelo Brozović"},
-        {"name": "Luka Modrić"},
         {"name": "Ivan Rakitić"},
+        {"name": "Luka Modrić"},
         {"name": "Ivan Perišić", "out": "82"},
         {"name": "Mateo Kovačić", "in": "82"},
-        {"name": "Mario Mandžukić", "out": "90"},
-        {"name": "Vedran Corluka", "in": "90"},
         {"name": "Ante Rebić", "out": "57"},
-        {"name": "Andrej Kramarić", "in": "57"}
+        {"name": "Andrej Kramarić", "in": "57"},
+        {"name": "Mario Mandžukić", "out": "90+2"},
+        {"name": "Vedran Corluka", "in": "90+2"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "nigeria-argentina-2",
     "date": "2018-06-26",
     "competition": "World Cup",
-    "venue": {"name": "Saint Petersburg Stadium, Saint Petersburg"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Saint-Petersburg Stadium",
+      "city": "Sankt-Peterburg (St. Petersburg)"
+    },
     "teams": [{"name": "Nigeria"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
@@ -48927,54 +48955,57 @@
     "cards": [
       [
         {"name": "Leon Balogun", "min": "32", "type": "Y"},
-        {"name": "John Obi Mikel", "min": "90", "type": "Y"}
+        {"name": "John Obi Mikel", "min": "90+1", "type": "Y"}
       ],
       [
         {"name": "Javier Mascherano", "min": "49", "type": "Y"},
         {"name": "Éver Banega", "min": "64", "type": "Y"},
-        {"name": "Lionel Messi", "min": "90", "type": "Y"}
+        {"name": "Lionel Messi", "min": "90+4", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Gernot Rohr"}, {"name": "Jorge Sampaoli"}],
     "lineups": [
       [
         {"name": "Francis Uzoho"},
-        {"name": "Leon Balogun"},
         {"name": "Brian Idowu"},
         {"name": "Kenneth Omeruo", "out": "90"},
         {"name": "Alex Iwobi", "in": "90"},
+        {"name": "Leon Balogun"},
         {"name": "William Troost-Ekong"},
         {"name": "Wilfred Ndidi"},
+        {"name": "Victor Moses"},
         {"name": "Peter Etebo"},
         {"name": "John Obi Mikel"},
-        {"name": "Victor Moses"},
         {"name": "Kelechi Iheanacho", "out": "46"},
         {"name": "Odion Ighalo", "in": "46"},
-        {"name": "Ahmed Musa", "out": "90"},
-        {"name": "Simy Nwankwo", "in": "90"}
+        {"name": "Ahmed Musa", "out": "90+2"},
+        {"name": "Simy Nwankwo", "in": "90+2"}
       ],
       [
         {"name": "Franco Armani"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
-        {"name": "Marcos Rojo"},
         {"name": "Nicolás Tagliafico", "out": "80"},
         {"name": "Sergio Agüero", "in": "80"},
-        {"name": "Éver Banega"},
-        {"name": "Ángel Di María", "out": "72"},
-        {"name": "Maximiliano Meza", "in": "72"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Rojo"},
         {"name": "Javier Mascherano"},
+        {"name": "Éver Banega"},
         {"name": "Enzo Pérez", "out": "61"},
         {"name": "Cristian Pavón", "in": "61"},
-        {"name": "Lionel Messi"},
-        {"name": "Gonzalo Higuaín"}
+        {"name": "Angel Di Maria", "out": "72"},
+        {"name": "Maximiliano Meza", "in": "72"},
+        {"name": "Gonzalo Higuaín"},
+        {"name": "Lionel Messi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "france-argentina-2",
     "date": "2018-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Kazan Arena, Kazan"},
+    "round": "Round of 16",
+    "venue": {"name": "Kazan' Arena", "city": "Kazan'"},
     "teams": [{"name": "France"}, {"name": "Argentina"}],
     "score": [4, 3],
     "result": "L",
@@ -48986,65 +49017,71 @@
         {"name": "Kylian Mbappé", "min": "68", "type": "G"}
       ],
       [
-        {"name": "Ángel Di María", "min": "41", "type": "G"},
+        {"name": "Angel Di Maria", "min": "41", "type": "G"},
         {"name": "Gabriel Mercado", "min": "48", "type": "G"},
-        {"name": "Sergio Agüero", "min": "90", "type": "G"}
+        {"name": "Sergio Agüero", "min": "90+3", "type": "G"}
       ]
     ],
     "cards": [
       [
         {"name": "Blaise Matuidi", "min": "72", "type": "Y"},
         {"name": "Benjamin Pavard", "min": "73", "type": "Y"},
-        {"name": "Olivier Giroud", "min": "90", "type": "Y"}
+        {"name": "Olivier Giroud", "min": "90+3", "type": "Y"}
       ],
       [
         {"name": "Marcos Rojo", "min": "11", "type": "Y"},
         {"name": "Nicolás Tagliafico", "min": "19", "type": "Y"},
         {"name": "Javier Mascherano", "min": "43", "type": "Y"},
-        {"name": "Éver Banega", "min": "49", "type": "Y"},
-        {"name": "Nicolás Otamendi", "min": "90", "type": "Y"}
+        {"name": "Éver Banega", "min": "50", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "90+3", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Didier Deschamps"}, {"name": "Jorge Sampaoli"}],
     "lineups": [
       [
         {"name": "Hugo Lloris"},
-        {"name": "Lucas Hernández"},
         {"name": "Benjamin Pavard"},
-        {"name": "Samuel Umtiti"},
+        {"name": "Lucas Hernández"},
         {"name": "Raphaël Varane"},
+        {"name": "Samuel Umtiti"},
+        {"name": "Paul Pogba"},
         {"name": "N'Golo Kanté"},
         {"name": "Blaise Matuidi", "out": "75"},
         {"name": "Corentin Tolisso", "in": "75"},
-        {"name": "Paul Pogba"},
-        {"name": "Antoine Griezmann", "out": "83"},
-        {"name": "Nabil Fekir", "in": "83"},
-        {"name": "Olivier Giroud"},
         {"name": "Kylian Mbappé", "out": "89"},
-        {"name": "Florian Thauvin", "in": "89"}
+        {"name": "Florian Thauvin", "in": "89"},
+        {"name": "Olivier Giroud"},
+        {"name": "Antoine Griezmann", "out": "83"},
+        {"name": "Nabil Fekir", "in": "83"}
       ],
       [
         {"name": "Franco Armani"},
         {"name": "Gabriel Mercado"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Javier Mascherano"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo", "out": "46"},
         {"name": "Federico Fazio", "in": "46"},
-        {"name": "Nicolás Tagliafico"},
         {"name": "Éver Banega"},
-        {"name": "Ángel Di María"},
-        {"name": "Javier Mascherano"},
         {"name": "Enzo Pérez", "out": "66"},
         {"name": "Sergio Agüero", "in": "66"},
+        {"name": "Angel Di Maria"},
         {"name": "Lionel Messi"},
         {"name": "Cristian Pavón", "out": "75"},
         {"name": "Maximiliano Meza", "in": "75"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2018-09-07",
-    "competition": "Friendly",
-    "venue": {"name": "Los Angeles Memorial Coliseum, Los Angeles"},
+    "slug": "argentina-guatemala-2",
+    "date": "2018-09-08",
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {
+      "name": "United Airlines Field at the Los Angeles Memorial Coliseum",
+      "city": "Los Angeles, California"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Guatemala"}],
     "score": [3, 0],
     "result": "W",
@@ -49052,7 +49089,7 @@
       [
         {"name": "Gonzalo Martínez", "min": "27", "type": "P"},
         {"name": "Giovani Lo Celso", "min": "35", "type": "G"},
-        {"name": "Giovanni Simeone", "min": "45", "type": "G"}
+        {"name": "Giovanni Simeone", "min": "44", "type": "G"}
       ],
       []
     ],
@@ -49060,11 +49097,11 @@
       [
         {"name": "Franco Vázquez", "min": "63", "type": "Y"},
         {"name": "Nicolás Tagliafico", "min": "79", "type": "Y"},
-        {"name": "Giovanni Simeone", "min": "90", "type": "Y"}
+        {"name": "Giovanni Simeone", "min": "90+1", "type": "Y"}
       ],
       [
         {"name": "Kevin Norales", "min": "51", "type": "Y"},
-        {"name": "José Contreras", "min": "53", "type": "Y"},
+        {"name": "José Contreras", "min": "58", "type": "Y"},
         {"name": "Jean Márquez", "min": "70", "type": "Y"}
       ]
     ],
@@ -49072,48 +49109,51 @@
     "lineups": [
       [
         {"name": "Gerónimo Rulli"},
-        {"name": "Ramiro Funes Mori", "out": "66"},
-        {"name": "Walter Kannemann", "in": "66"},
         {"name": "Germán Pezzella", "out": "56"},
         {"name": "Alan Franco", "in": "56"},
-        {"name": "Renzo Saravia"},
+        {"name": "Ramiro Funes Mori", "out": "66"},
+        {"name": "Walter Kannemann", "in": "66"},
         {"name": "Nicolás Tagliafico"},
-        {"name": "Giovani Lo Celso"},
-        {"name": "Gonzalo Martínez", "out": "56"},
-        {"name": "Franco Vázquez", "in": "56"},
+        {"name": "Renzo Saravia"},
         {"name": "Exequiel Palacios", "out": "66"},
         {"name": "Franco Cervi", "in": "66"},
+        {"name": "Giovani Lo Celso"},
         {"name": "Leandro Paredes", "out": "46"},
-        {"name": "Matías Vargas", "in": "46"},
-        {"name": "Cristian Pavón", "out": "46"},
         {"name": "Santiago Ascacíbar", "in": "46"},
+        {"name": "Gonzalo Martínez", "out": "56"},
+        {"name": "Franco Vázquez", "in": "56"},
+        {"name": "Cristian Pavón", "out": "46"},
+        {"name": "Matías Vargas", "in": "46"},
         {"name": "Giovanni Simeone"}
       ],
       [
         {"name": "Paulo Motta"},
-        {"name": "Frank de León"},
+        {"name": "Allen Yanes", "out": "46"},
+        {"name": "Cristian Jiménez", "in": "46"},
+        {"name": "Elías Vásquez", "out": "46"},
+        {"name": "Carlos Gallardo", "in": "46"},
         {"name": "Rafael Morales"},
         {"name": "Héctor Moreira"},
-        {"name": "Elías Vásquez", "out": "46"},
-        {"name": "Cristian Jiménez", "in": "46"},
-        {"name": "Allen Yanes", "out": "46"},
-        {"name": "Carlos Gallardo", "in": "46"},
-        {"name": "José Contreras", "out": "70"},
-        {"name": "Edgar Macal", "in": "70"},
-        {"name": "Rodrigo Saravia", "out": "59"},
+        {"name": "Kevin Norales", "out": "63"},
+        {"name": "Marvin Ceballos", "in": "63"},
+        {"name": "Renzo Saravia", "out": "59"},
         {"name": "Jean Márquez", "in": "59"},
         {"name": "Jorge Vargas", "out": "46"},
         {"name": "Wilber Pérez", "in": "46"},
-        {"name": "José Martinez"},
-        {"name": "Kevin Norales", "out": "63"},
-        {"name": "Marvin Ceballos", "in": "63"}
+        {"name": "José Contreras", "out": "70"},
+        {"name": "Edgar Macal", "in": "70"},
+        {"name": "Frank de León"},
+        {"name": "José Martínez"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2018-09-11",
-    "competition": "Friendly",
-    "venue": {"name": "MetLife Stadium, East Rutherford"},
+    "slug": "colombia-argentina-2",
+    "date": "2018-09-12",
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {"name": "MetLife Stadium", "city": "East Rutherford, New Jersey"},
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
@@ -49135,15 +49175,15 @@
     "lineups": [
       [
         {"name": "David Ospina"},
-        {"name": "Yeison Murillo"},
         {"name": "Helibelton Palacios"},
         {"name": "Deiver Machado"},
         {"name": "Davinson Sánchez"},
-        {"name": "Wilmar Barrios"},
-        {"name": "Juan Cuadrado", "out": "78"},
-        {"name": "Luis Díaz", "in": "78"},
+        {"name": "Yeison Murillo"},
         {"name": "Gustavo Cuéllar", "out": "62"},
         {"name": "Mateus Uribe", "in": "62"},
+        {"name": "Juan Cuadrado", "out": "78"},
+        {"name": "Luis Díaz", "in": "78"},
+        {"name": "Wilmar Barrios"},
         {"name": "Juan Quintero", "out": "73"},
         {"name": "Nicolás Benedetti", "in": "73"},
         {"name": "Radamel Falcao", "out": "79"},
@@ -49154,97 +49194,103 @@
       [
         {"name": "Franco Armani"},
         {"name": "Fabricio Bustos"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Germán Pezzella"},
         {"name": "Nicolás Tagliafico", "out": "85"},
         {"name": "Giovanni Simeone", "in": "85"},
+        {"name": "Germán Pezzella"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Rodrigo Battaglia"},
         {"name": "Giovani Lo Celso", "out": "70"},
         {"name": "Cristian Pavón", "in": "70"},
-        {"name": "Gonzalo Martínez", "out": "46"},
-        {"name": "Franco Cervi", "in": "46"},
-        {"name": "Maximiliano Meza", "out": "68"},
-        {"name": "Leandro Paredes", "in": "68"},
         {"name": "Exequiel Palacios", "out": "54"},
         {"name": "Paulo Dybala", "in": "54"},
+        {"name": "Maximiliano Meza", "out": "68"},
+        {"name": "Leandro Paredes", "in": "68"},
+        {"name": "Gonzalo Martínez", "out": "46"},
+        {"name": "Franco Cervi", "in": "46"},
         {"name": "Mauro Icardi", "out": "85"},
         {"name": "Marcos Acuña", "in": "85"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2018-10-11",
-    "competition": "Friendly",
-    "venue": {"name": "Prince Faisal bin Fahd Stadium, Riyadh"},
-    "teams": [{"name": "Argentina"}, {"name": "Iraq"}],
-    "score": [4, 0],
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {
+      "name": "Prince Faisal bin Fahd Stadium",
+      "city": "Ar-Riyāḍ (Riyadh)"
+    },
+    "teams": [{"name": "Iraq"}, {"name": "Argentina"}],
+    "score": [0, 4],
     "result": "W",
     "goals": [
+      [],
       [
         {"name": "Lautaro Martínez", "min": "18", "type": "G"},
-        {"name": "Roberto Pereyra", "min": "53", "type": "G"},
         {"name": "Germán Pezzella", "min": "82", "type": "G"},
-        {"name": "Franco Cervi", "min": "90", "type": "G"}
-      ],
-      []
+        {"name": "Franco Cervi", "min": "90+1", "type": "G"}
+      ]
     ],
     "cards": [
-      [],
       [
         {"name": "Ali Adnan", "min": "27", "type": "Y"},
         {"name": "Mazin Fayyadh", "min": "76", "type": "Y"}
-      ]
+      ],
+      []
     ],
-    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Srečko Katanec"}],
+    "coaches": [{"name": "Srečko Katanec"}, {"name": "Lionel Scaloni"}],
     "lineups": [
       [
+        {"name": "Jalal Hassan Hachim"},
+        {"name": "Mustafa Nadhim"},
+        {"name": "Ali Faez Atiyah", "out": "77"},
+        {"name": "Rebin Sulaka Adhamat", "in": "77"},
+        {"name": "Ahmad Ibrahim Al-Qafaje", "out": "57"},
+        {"name": "Mahdi Kamil", "in": "57"},
+        {"name": "Alaa Ali Mhawi"},
+        {"name": "Ali Adnan", "out": "68"},
+        {"name": "Husam Kadhim", "in": "68"},
+        {"name": "Osama Rashid"},
+        {"name": "Bashar Rasan", "out": "70"},
+        {"name": "Mazin Fayyadh", "in": "70"},
+        {"name": "Amjad Attwan"},
+        {"name": "Ahmed Yasin", "out": "46"},
+        {"name": "Mohanad Ali", "in": "46"},
+        {"name": "Justin Meram", "out": "46"},
+        {"name": "Hussein Ali", "in": "46"}
+      ],
+      [
         {"name": "Sergio Romero"},
+        {"name": "Germán Pezzella"},
         {"name": "Fabricio Bustos", "out": "75"},
         {"name": "Walter Kannemann", "in": "75"},
         {"name": "Ramiro Funes Mori"},
-        {"name": "Germán Pezzella"},
         {"name": "Marcos Acuña"},
         {"name": "Rodrigo De Paul", "out": "46"},
-        {"name": "Roberto Pereyra", "in": "46"},
-        {"name": "Maximiliano Meza", "out": "46"},
-        {"name": "Santiago Ascacíbar", "in": "46"},
+        {"name": "Eduardo Salvio", "in": "46"},
         {"name": "Leandro Paredes", "out": "60"},
         {"name": "Franco Cervi", "in": "60"},
-        {"name": "Franco Vázquez", "out": "46"},
-        {"name": "Eduardo Salvio", "in": "46"},
+        {"name": "Maximiliano Meza", "out": "46"},
+        {"name": "Santiago Ascacíbar", "in": "46"},
+        {"name": "Franco Vázquez"},
         {"name": "Paulo Dybala"},
         {"name": "Lautaro Martínez", "out": "57"},
         {"name": "Giovanni Simeone", "in": "57"}
-      ],
-      [
-        {"name": "Jalal Hassan"},
-        {"name": "Ali Adnan", "out": "68"},
-        {"name": "Hussam Kadhem", "in": "68"},
-        {"name": "Ali Faez", "out": "77"},
-        {"name": "Rebin Solaka", "in": "77"},
-        {"name": "Ahmad Khalaf", "out": "57"},
-        {"name": "Mahdi Kamel", "in": "57"},
-        {"name": "Alaa Ali Mhawi"},
-        {"name": "Mustafa Nadhim"},
-        {"name": "Osama Rashid"},
-        {"name": "Bashar Resan", "out": "70"},
-        {"name": "Mazin Fayyadh", "in": "70"},
-        {"name": "Ahmed Yaseen", "out": "46"},
-        {"name": "Mohanad Kadhim", "in": "46"},
-        {"name": "Amjad Attwan"},
-        {"name": "Justin Meram", "out": "46"},
-        {"name": "Hussein Ali", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-brazil-2",
     "date": "2018-10-16",
-    "competition": "Superclasico de las Americas",
-    "venue": {"name": "King Abdullah Sports City Stadium, Jeddah"},
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {"name": "King Abdullah Sports City", "city": "Jeddah"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 1],
     "result": "L",
-    "goals": [[], [{"name": "Miranda", "min": "90", "type": "G"}]],
+    "goals": [[], [{"name": "Miranda", "min": "90+3", "type": "G"}]],
     "cards": [
       [
         {"name": "Leandro Paredes", "min": "18", "type": "Y"},
@@ -49254,7 +49300,7 @@
         {"name": "Rodrigo Battaglia", "min": "84", "type": "Y"}
       ],
       [
-        {"name": "Neymar", "min": "67", "type": "Y"},
+        {"name": "Neymar", "min": "66", "type": "Y"},
         {"name": "Miranda", "min": "71", "type": "Y"}
       ]
     ],
@@ -49262,41 +49308,49 @@
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Nicolás Otamendi"},
-        {"name": "Germán Pezzella"},
-        {"name": "Renzo Saravia"},
         {"name": "Nicolás Tagliafico", "out": "82"},
         {"name": "Marcos Acuña", "in": "82"},
+        {"name": "Renzo Saravia"},
+        {"name": "Germán Pezzella"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Leandro Paredes"},
         {"name": "Rodrigo Battaglia"},
         {"name": "Giovani Lo Celso", "out": "73"},
         {"name": "Eduardo Salvio", "in": "73"},
-        {"name": "Leandro Paredes"},
-        {"name": "Ángel Correa", "out": "68"},
-        {"name": "Roberto Pereyra", "in": "68"},
+        {"name": "Mauro Icardi", "out": "88"},
+        {"name": "Giovanni Simeone", "in": "88"},
+        {"name": "Ángel Correa", "out": "67"},
+        {"name": "Roberto Pereyra", "in": "67"},
         {"name": "Paulo Dybala", "out": "58"},
-        {"name": "Lautaro Martínez", "in": "58"},
-        {"name": "Mauro Icardi", "out": "87"},
-        {"name": "Giovanni Simeone", "in": "87"}
+        {"name": "Lautaro Martínez", "in": "58"}
       ],
       [
         {"name": "Alisson Becker"},
-        {"name": "Danilo"},
-        {"name": "Filipe Luís"},
-        {"name": "Marquinhos"},
         {"name": "Miranda"},
+        {"name": "Filipe Luís"},
+        {"name": "Danilo", "out": "53"},
+        {"name": "Fabinho", "in": "53"},
+        {"name": "Marquinhos"},
+        {"name": "Philippe Coutinho"},
         {"name": "Arthur"},
         {"name": "Casemiro"},
-        {"name": "Philippe Coutinho"},
         {"name": "Roberto Firmino"},
-        {"name": "Gabriel Jesus"},
-        {"name": "Neymar"}
+        {"name": "Neymar"},
+        {"name": "Gabriel Jesus", "out": "65"},
+        {"name": "Richarlison", "in": "65"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2018-11-16",
-    "competition": "Friendly",
-    "venue": {"name": "Estadio Mario Alberto Kempes, Cordoba"},
+    "slug": "argentina-mexico-3",
+    "date": "2018-11-17",
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {
+      "name": "Estadio Mario Alberto Kempes",
+      "city": "Ciudad de Córdoba, Provincia de Córdoba"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 0],
     "result": "W",
@@ -49319,12 +49373,12 @@
         {"name": "Ramiro Funes Mori"},
         {"name": "Renzo Saravia"},
         {"name": "Nicolás Tagliafico"},
-        {"name": "Marcos Acuña", "out": "86"},
-        {"name": "Érik Lamela", "in": "86"},
-        {"name": "Giovani Lo Celso", "out": "68"},
-        {"name": "Maximiliano Meza", "in": "68"},
-        {"name": "Leandro Paredes", "out": "85"},
-        {"name": "Gastón Giménez", "in": "85"},
+        {"name": "Marcos Acuña", "out": "89"},
+        {"name": "Érik Lamela", "in": "89"},
+        {"name": "Giovani Lo Celso", "out": "67"},
+        {"name": "Maximiliano Meza", "in": "67"},
+        {"name": "Leandro Paredes", "out": "88"},
+        {"name": "Gastón Giménez", "in": "88"},
         {"name": "Ángel Correa", "out": "46"},
         {"name": "Rodrigo De Paul", "in": "46"},
         {"name": "Paulo Dybala", "out": "72"},
@@ -49335,29 +49389,34 @@
       [
         {"name": "Guillermo Ochoa"},
         {"name": "Néstor Araújo"},
-        {"name": "Miguel Layún", "out": "77"},
-        {"name": "Isaác Brizuela", "in": "77"},
-        {"name": "Diego Reyes"},
+        {"name": "Luis Rodríguez", "out": "46"},
+        {"name": "Julio Domínguez", "in": "46"},
         {"name": "Jesús Gallardo", "out": "46"},
         {"name": "Gerardo Arteaga", "in": "46"},
-        {"name": "Marco Fabián", "out": "46"},
-        {"name": "Julio Domínguez", "in": "46"},
+        {"name": "Diego Reyes"},
+        {"name": "Miguel Layún", "out": "79"},
+        {"name": "Isaác Brizuela", "in": "79"},
         {"name": "Javier Güemez"},
         {"name": "Erick Gutiérrez", "out": "74"},
         {"name": "Roberto Alvarado", "in": "74"},
-        {"name": "Luis Rodríguez", "out": "46"},
-        {"name": "Ángel Zaldívar", "in": "46"},
-        {"name": "Raúl Jiménez"},
+        {"name": "Marco Fabián", "out": "46"},
+        {"name": "Víctor Guzmán", "in": "46"},
         {"name": "Alan Pulido", "out": "46"},
-        {"name": "Víctor Guzmán", "in": "46"}
+        {"name": "Ángel Zaldívar", "in": "46"},
+        {"name": "Raúl Jiménez"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-mexico-2",
-    "date": "2018-11-20",
-    "competition": "Friendly",
-    "venue": {"name": "Estadio Malvinas, Mendoza"},
+    "slug": "argentina-mexico-3",
+    "date": "2018-11-21",
+    "competition": "Friendlies",
+    "round": "Friendlies 1",
+    "venue": {
+      "name": "Estadio Malvinas Argentinas",
+      "city": "Mendoza, Provincia de Mendoza"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 0],
     "result": "W",
@@ -49374,52 +49433,49 @@
         {"name": "Érik Lamela", "min": "45", "type": "Y"},
         {"name": "Walter Kannemann", "min": "71", "type": "Y"}
       ],
-      [
-        {"name": "Jesús Gallardo", "min": "62", "type": "Y"},
-        {"name": "Luis Rodríguez", "min": "74", "type": "Y"}
-      ]
+      [{"name": "Luis Rodríguez", "min": "74", "type": "Y"}]
     ],
     "coaches": [{"name": "Lionel Scaloni"}, {"name": "Ricardo Ferretti"}],
     "lineups": [
       [
         {"name": "Gerónimo Rulli", "out": "59"},
         {"name": "Paolo Gazzaniga", "in": "59"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Walter Kannemann"},
-        {"name": "Gabriel Mercado"},
         {"name": "Marcos Acuña"},
-        {"name": "Santiago Ascacíbar", "out": "55"},
-        {"name": "Leandro Paredes", "in": "55"},
-        {"name": "Rodrigo De Paul", "out": "46"},
-        {"name": "Franco Cervi", "in": "46"},
-        {"name": "Érik Lamela", "out": "59"},
-        {"name": "Giovani Lo Celso", "in": "59"},
+        {"name": "Walter Kannemann"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Gabriel Mercado"},
         {"name": "Maximiliano Meza", "out": "73"},
         {"name": "Giovanni Simeone", "in": "73"},
+        {"name": "Santiago Ascacíbar", "out": "55"},
+        {"name": "Leandro Paredes", "in": "55"},
         {"name": "Roberto Pereyra"},
+        {"name": "Érik Lamela", "out": "59"},
+        {"name": "Giovani Lo Celso", "in": "59"},
+        {"name": "Rodrigo De Paul", "out": "46"},
+        {"name": "Franco Cervi", "in": "46"},
         {"name": "Mauro Icardi", "out": "81"},
         {"name": "Paulo Dybala", "in": "81"}
       ],
       [
         {"name": "José Corona"},
-        {"name": "Edson Álvarez"},
-        {"name": "Gerardo Arteaga", "out": "46"},
-        {"name": "Jesús Gallardo", "in": "46"},
+        {"name": "Gerardo Arteaga"},
         {"name": "Julio Domínguez", "out": "46"},
         {"name": "Hiram Mier", "in": "46"},
-        {"name": "Erick Aguirre"},
-        {"name": "Javier Aquino", "out": "46"},
-        {"name": "Luis Rodríguez", "in": "46"},
         {"name": "Jesús Dueñas"},
         {"name": "Erick Gutiérrez", "out": "46"},
         {"name": "Roberto Alvarado", "in": "46"},
+        {"name": "Edson Álvarez"},
+        {"name": "Erick Aguirre"},
         {"name": "Víctor Guzmán"},
-        {"name": "Isaác Brizuela", "out": "63"},
-        {"name": "Ángel Zaldívar", "in": "63"},
+        {"name": "Javier Aquino", "out": "46"},
+        {"name": "Luis Rodríguez", "in": "46"},
         {"name": "Henry Martín", "out": "82"},
-        {"name": "Alan Pulido", "in": "82"}
+        {"name": "Alan Pulido", "in": "82"},
+        {"name": "Isaác Brizuela", "out": "63"},
+        {"name": "Ángel Zaldívar", "in": "63"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "slug": "argentina-venezuela-2",
@@ -51336,9 +51392,7 @@
         {"name": "Lionel Messi"}
       ]
     ],
-    "info": {
-      "youtube": {"id": "6MhPzDOWpYc"}
-    },
+    "info": {"youtube": {"id": "6MhPzDOWpYc"}},
     "sources": ["Golazon"]
   }
 ]
