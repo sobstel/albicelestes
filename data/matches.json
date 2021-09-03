@@ -48614,7 +48614,7 @@
   },
   {
     "date": "2018-03-23",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "Etihad Stadium", "city": "Manchester"},
     "teams": [{"name": "Argentina"}, {"name": "Italy"}],
     "score": [2, 0],
@@ -48671,7 +48671,7 @@
   {
     "slug": "spain-argentina-2",
     "date": "2018-03-27",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "Estadio Wanda Metropolitano", "city": "Madrid"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [6, 1],
@@ -48745,7 +48745,7 @@
   {
     "slug": "argentina-haiti-2",
     "date": "2018-05-29",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {
       "name": "Estadio Alberto José Armando",
       "city": "Ciudad de Buenos Aires"
@@ -49073,7 +49073,7 @@
   {
     "slug": "argentina-guatemala-2",
     "date": "2018-09-08",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {
       "name": "United Airlines Field at the Los Angeles Memorial Coliseum",
       "city": "Los Angeles, California"
@@ -49147,7 +49147,7 @@
   {
     "slug": "colombia-argentina-2",
     "date": "2018-09-12",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "MetLife Stadium", "city": "East Rutherford, New Jersey"},
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -49210,7 +49210,7 @@
   },
   {
     "date": "2018-10-11",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {
       "name": "Prince Faisal bin Fahd Stadium",
       "city": "Ar-Riyāḍ (Riyadh)"
@@ -49278,7 +49278,7 @@
   {
     "slug": "argentina-brazil-2",
     "date": "2018-10-16",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "King Abdullah Sports City", "city": "Jeddah"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 1],
@@ -49338,7 +49338,7 @@
   {
     "slug": "argentina-mexico-3",
     "date": "2018-11-17",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {
       "name": "Estadio Mario Alberto Kempes",
       "city": "Ciudad de Córdoba, Provincia de Córdoba"
@@ -49403,7 +49403,7 @@
   {
     "slug": "argentina-mexico-3",
     "date": "2018-11-21",
-    "competition": "Friendlies",
+    "competition": "Friendly",
     "venue": {"name": "Estadio Malvinas Argentinas", "city": "Mendoza"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 0],
@@ -50845,7 +50845,7 @@
   {
     "slug": "argentina-chile-2",
     "date": "2021-06-14",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estádio Nilton Santos", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
@@ -50910,7 +50910,7 @@
   },
   {
     "date": "2021-06-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estádio Nacional", "city": "Brasília"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
@@ -50971,7 +50971,7 @@
   },
   {
     "date": "2021-06-21",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estádio Nacional", "city": "Brasília"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
@@ -51028,7 +51028,7 @@
   },
   {
     "date": "2021-06-28",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Arena Pantanal", "city": "Cuiabá"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
@@ -51094,7 +51094,7 @@
   },
   {
     "date": "2021-07-03",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Quarter-finals",
     "venue": {
       "name": "Estádio Olímpico Pedro Ludovico Teixeira",
@@ -51165,7 +51165,7 @@
   },
   {
     "date": "2021-07-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Semi-finals",
     "venue": {
       "name": "Estádio Nacional de Brasília",
@@ -51247,7 +51247,7 @@
   },
   {
     "date": "2021-07-10",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Final",
     "venue": {"name": "Maracanã", "city": "Rio de Janeiro"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
