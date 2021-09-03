@@ -1,4 +1,3 @@
-import * as R from "remeda";
 import React from "react";
 import { fetchBibliography, fetchMatches } from "data";
 import { collectPlayers, collectTeams } from "helpers";
