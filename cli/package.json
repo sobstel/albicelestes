@@ -10,8 +10,8 @@
     "dayjs": "^1.10.6",
     "got": "^11.8.0",
     "inquirer": "^8.1.2",
-    "ora": "^5.1.0",
-    "ts-node": "^10.2.0"
+    "ora": "^6.0.0",
+    "ts-node": "^10.2.1"
   },
   "devDependencies": {
     "@types/inquirer": "^7.3.3"
