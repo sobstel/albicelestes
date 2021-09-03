@@ -48615,7 +48615,6 @@
   {
     "date": "2018-03-23",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {"name": "Etihad Stadium", "city": "Manchester"},
     "teams": [{"name": "Argentina"}, {"name": "Italy"}],
     "score": [2, 0],
@@ -48673,7 +48672,6 @@
     "slug": "spain-argentina-2",
     "date": "2018-03-27",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {"name": "Estadio Wanda Metropolitano", "city": "Madrid"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [6, 1],
@@ -48748,7 +48746,6 @@
     "slug": "argentina-haiti-2",
     "date": "2018-05-29",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {
       "name": "Estadio Alberto José Armando",
       "city": "Ciudad de Buenos Aires"
@@ -49077,7 +49074,6 @@
     "slug": "argentina-guatemala-2",
     "date": "2018-09-08",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {
       "name": "United Airlines Field at the Los Angeles Memorial Coliseum",
       "city": "Los Angeles, California"
@@ -49152,7 +49148,6 @@
     "slug": "colombia-argentina-2",
     "date": "2018-09-12",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {"name": "MetLife Stadium", "city": "East Rutherford, New Jersey"},
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
     "score": [0, 0],
@@ -49216,7 +49211,6 @@
   {
     "date": "2018-10-11",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {
       "name": "Prince Faisal bin Fahd Stadium",
       "city": "Ar-Riyāḍ (Riyadh)"
@@ -49285,7 +49279,6 @@
     "slug": "argentina-brazil-2",
     "date": "2018-10-16",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {"name": "King Abdullah Sports City", "city": "Jeddah"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [0, 1],
@@ -49346,7 +49339,6 @@
     "slug": "argentina-mexico-3",
     "date": "2018-11-17",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {
       "name": "Estadio Mario Alberto Kempes",
       "city": "Ciudad de Córdoba, Provincia de Córdoba"
@@ -49412,7 +49404,6 @@
     "slug": "argentina-mexico-3",
     "date": "2018-11-21",
     "competition": "Friendlies",
-    "round": "Friendlies 1",
     "venue": {
       "name": "Estadio Malvinas Argentinas",
       "city": "Mendoza, Provincia de Mendoza"
