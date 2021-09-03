@@ -2,7 +2,7 @@ import * as R from "remeda";
 import got from "got";
 import dayjs from "dayjs";
 import isBetween from "dayjs/plugin/isBetween";
-import { loadData, saveData, message, spinner } from "cli/utlity";
+import { loadData, saveData, spinner } from "cli/utlity";
 import { Match } from "types";
 import * as Golazon from "./golazon";
 import * as Conversion from "./conversion";
