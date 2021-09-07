@@ -44,7 +44,7 @@ export default function StatusPage(props: Props) {
       };
     }),
     R.values,
-    R.sortBy((stat) => stat.name)
+    R.sortBy((stat) => stat.total)
   );
 
   return (
