@@ -43,8 +43,8 @@ export default function AboutPage(props: Props) {
       <Block>
         <Header text="Status" />
         <p>
-          Matches (inc. suspended):{" "}
-          <LinkAnchor href="/status">{stat.matchesTotal}</LinkAnchor>
+          Matches (inc. suspended): {stat.matchesTotal} (
+          <LinkAnchor href="/status">verification status</LinkAnchor>)
         </p>
         <p>Argentina players: {stat.playersTotal}</p>
         <p>Rival teams: {stat.teamsTotal}</p>

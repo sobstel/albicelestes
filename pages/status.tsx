@@ -44,22 +44,23 @@ export default function StatusPage(props: Props) {
       };
     }),
     R.values,
-    R.sortBy((stat) => stat.total)
+    R.sortBy((stat) => -stat.total)
   );
 
   return (
     <Page title={["Status"]}>
-      <Header top text="Status" />
-      <p>
-        Matches: {matchesTotal} (verified: {matchesVerified}, ~{verifiedRatio}%)
-      </p>
-
+      <Header top text="Data verification status" />
       <Block>
-        <Header text="By competition" />
         <table>
+          <tr key="all">
+            <th className="text-left">TOTAL</th>
+            <th className="text-right">{matchesTotal}</th>
+            <th className="text-right">{matchesVerified}</th>
+            <th className="text-right">{verifiedRatio}%</th>
+          </tr>
           {R.map(competitionStats, (stat) => (
             <tr key={stat.name}>
-              <td>{stat.name}</td>
+              <td className="text-left">{stat.name}</td>
               <td className="text-right">{stat.total}</td>
               <td className="text-right">{stat.verified}</td>
               <td className="text-right">{stat.ratio}%</td>
