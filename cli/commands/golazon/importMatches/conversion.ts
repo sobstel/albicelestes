@@ -25,6 +25,24 @@ const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
   return;
 };
 
+const toCompetition = (match: Golazon.Match): string => {
+  const name = match["competition_name"];
+  if (name === "WC Qualification South America") {
+    return "World Cup Quals";
+  }
+  if (name === "Friendlies") {
+    return "Friendly";
+  }
+  return name;
+};
+
+const toRound = (match: Golazon.Match): string | undefined => {
+  if (match["competition_name"] === "Friendlies") {
+    return;
+  }
+  return match["round_name"];
+};
+
 const toResult = (match: Golazon.Match): Result => {
   if (match.suspended) return Result.Suspended;
 
@@ -154,12 +172,13 @@ export const toMatch = async (
   const slug = toSlug(match, dbMatches);
   const homeTeamSlug = getTeamSlug({ name: match["home_name"] });
   const awayTeamSlug = getTeamSlug({ name: match["away_name"] });
+  const round = toRound(match);
 
   const dbMatch: Match = {
     ...(slug && { slug }),
     date: match.date,
-    competition: match["competition_name"],
-    round: match["round_name"],
+    competition: toCompetition(match),
+    ...(round && { round }),
     venue: { name: match.venue.name, city: match.venue.city },
     teams: toTeams(match),
     score: match.ft,

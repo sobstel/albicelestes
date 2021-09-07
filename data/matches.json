@@ -48047,7 +48047,7 @@
   {
     "slug": "argentina-chile-2",
     "date": "2017-03-23",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Monumental Antonio Vespucio Liberti",
@@ -48110,7 +48110,7 @@
   {
     "slug": "bolivia-argentina-2",
     "date": "2017-03-28",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Hernando Siles", "city": "La Paz"},
     "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
@@ -48170,8 +48170,7 @@
   {
     "slug": "brazil-argentina-2",
     "date": "2017-06-09",
-    "competition": "Friendlies",
-    "round": "Friendlies 1",
+    "competition": "Friendly",
     "venue": {"name": "Melbourne Cricket Ground", "city": "Melbourne"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -48228,8 +48227,7 @@
   {
     "slug": "singapore-argentina-2",
     "date": "2017-06-13",
-    "competition": "Friendlies",
-    "round": "Friendlies 1",
+    "competition": "Friendly",
     "venue": {"name": "The National Stadium", "city": "Singapore"},
     "teams": [{"name": "Singapore"}, {"name": "Argentina"}],
     "score": [0, 6],
@@ -48293,7 +48291,7 @@
   {
     "slug": "uruguay-argentina-2",
     "date": "2017-08-31",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Centenario", "city": "Montevideo"},
     "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
@@ -48350,7 +48348,7 @@
   {
     "slug": "argentina-venezuela-2",
     "date": "2017-09-05",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Monumental Antonio Vespucio Liberti",
@@ -48417,7 +48415,7 @@
   {
     "slug": "argentina-peru-2",
     "date": "2017-10-05",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Alberto José Armando",
@@ -48478,7 +48476,7 @@
   {
     "slug": "ecuador-argentina-2",
     "date": "2017-10-10",
-    "competition": "WC Qualification South America",
+    "competition": "World Cup Quals",
     "round": "Group Stage",
     "venue": {"name": "Estadio Olímpico Atahualpa", "city": "Quito"},
     "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
@@ -48543,8 +48541,7 @@
   {
     "slug": "russia-argentina-2",
     "date": "2017-11-11",
-    "competition": "Friendlies",
-    "round": "Friendlies 1",
+    "competition": "Friendly",
     "venue": {"name": "Stadion Luzhniki", "city": "Moskva"},
     "teams": [{"name": "Russia"}, {"name": "Argentina"}],
     "score": [0, 1],
@@ -48595,8 +48592,7 @@
   {
     "slug": "argentina-nigeria-2",
     "date": "2017-11-14",
-    "competition": "Friendlies",
-    "round": "Friendlies 1",
+    "competition": "Friendly",
     "venue": {"name": "Stadion FK Krasnodar", "city": "Krasnodar"},
     "teams": [{"name": "Argentina"}, {"name": "Nigeria"}],
     "score": [2, 4],
