@@ -21,20 +21,45 @@ const createSelectHavingTeamSlug = (teamSlug: string) => {
   });
 };
 
+function getCachedName(
+  person: Golazon.Person,
+  teamSlug: string
+): string | undefined {
+  const personId = person["person_id"];
+  const teamCacheResource = `golazon/playerNames/${teamSlug}`;
+  const playerNames = (loadData(teamCacheResource) || {}) as Record<
+    string,
+    string
+  >;
+
+  if (personId in playerNames) {
+    return playerNames[personId];
+  }
+  return;
+}
+
+function setCachedName(person: Golazon.Person, teamSlug: string, name: string) {
+  const personId = person["person_id"];
+  const teamCacheResource = `golazon/playerNames/${teamSlug}`;
+  const playerNames = (loadData(teamCacheResource) || {}) as Record<
+    string,
+    string
+  >;
+
+  playerNames[personId] = name;
+  saveData(teamCacheResource, playerNames);
+}
+
 export async function reconcilePlayer(
   player: Golazon.Player,
   teamSlug: string
 ): Promise<string> {
   const slug = getPlayerSlug(player.name);
   const playerId = player["person_id"];
-  const teamCacheResource = `golazon/playerNames/${teamSlug}`;
 
-  const playerNames = (loadData(teamCacheResource) || {}) as Record<
-    string,
-    string
-  >;
-  if (playerId in playerNames) {
-    return playerNames[playerId];
+  const cachedName = getCachedName(player, teamSlug);
+  if (cachedName) {
+    return cachedName;
   }
 
   const suggestedPlayersObj = R.pipe(
@@ -82,9 +107,7 @@ export async function reconcilePlayer(
     ]);
 
     if (name !== "other") {
-      playerNames[playerId] = name;
-      saveData(teamCacheResource, playerNames);
-
+      setCachedName(player, teamSlug, name);
       return name;
     }
   }
@@ -98,9 +121,7 @@ export async function reconcilePlayer(
     },
   ]);
 
-  playerNames[playerId] = name;
-  saveData(teamCacheResource, playerNames);
-
+  setCachedName(player, teamSlug, name);
   return name;
 }
 
@@ -110,6 +131,11 @@ export async function reconcileCoach(
 ): Promise<string> {
   if (coach) {
     const coachSlug = getPlayerSlug(coach.name);
+
+    const cachedName = getCachedName(coach, teamSlug);
+    if (cachedName) {
+      return cachedName;
+    }
 
     const lastMatchName = R.pipe(
       reversedMatches,
@@ -136,6 +162,10 @@ export async function reconcileCoach(
       default: coach?.name,
     },
   ]);
+
+  if (coach) {
+    setCachedName(coach, teamSlug, name);
+  }
 
   return name;
 }
