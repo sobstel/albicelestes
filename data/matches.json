@@ -48051,7 +48051,7 @@
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Monumental Antonio Vespucio Liberti",
-      "city": "Capital Federal, Ciudad de Buenos Aires"
+      "city": "Buenos Aires"
     },
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [1, 0],
@@ -48352,7 +48352,7 @@
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Monumental Antonio Vespucio Liberti",
-      "city": "Capital Federal, Ciudad de Buenos Aires"
+      "city": "Buenos Aires"
     },
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [1, 1],
@@ -51423,5 +51423,72 @@
     ],
     "info": {"youtube": [{"id": "6MhPzDOWpYc"}, {"id": "d2YHRsK5P1k"}]},
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2021-09-09",
+    "competition": "World Cup Quals",
+    "venue": {
+      "name": "Estadio Monumental Antonio Vespucio Liberti",
+      "city": "Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "14", "type": "G"},
+        {"name": "Lionel Messi", "min": "64", "type": "G"},
+        {"name": "Lionel Messi", "min": "88", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Luis Haquin", "min": "23", "type": "Y"},
+        {"name": "Moisés Villarroel", "min": "31", "type": "Y"},
+        {"name": "Ramiro Vaca", "min": "79", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "César Farías"}],
+    "lineups": [
+      [
+        {"name": "Juan Musso"},
+        {"name": "Nicolás Otamendi", "out": "82"},
+        {"name": "Lucas Martínez Quarta", "in": "82"},
+        {"name": "Nahuel Molina"},
+        {"name": "Marcos Acuña"},
+        {"name": "Germán Pezzella"},
+        {"name": "Rodrigo De Paul", "out": "82"},
+        {"name": "Exequiel Palacios", "in": "82"},
+        {"name": "Leandro Paredes"},
+        {"name": "Angel Di Maria", "out": "71"},
+        {"name": "Nicolás González", "in": "71"},
+        {"name": "Alejandro Gómez", "out": "62"},
+        {"name": "Joaquín Correa", "in": "62"},
+        {"name": "Lautaro Martínez", "out": "71"},
+        {"name": "Ángel Correa", "in": "71"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Carlos Lampe"},
+        {"name": "Jesus Sagredo", "out": "77"},
+        {"name": "Gabriel Villamíl", "in": "77"},
+        {"name": "Jairo Quinteros"},
+        {"name": "José Sagredo"},
+        {"name": "Adrián Jusino"},
+        {"name": "Luis Haquin"},
+        {"name": "Leonel Justiniano"},
+        {"name": "Erwin Saavedra", "out": "68"},
+        {"name": "Roberto Fernández", "in": "68"},
+        {"name": "Moisés Villarroel", "out": "46"},
+        {"name": "Ramiro Vaca", "in": "46"},
+        {"name": "Henry Vaca", "out": "68"},
+        {"name": "Carmelo Algarañaz", "in": "68"},
+        {"name": "Marcelo Martins"}
+      ]
+    ],
+    "info": {"youtube": [{"id": "tBvx4chqs9s"}]},
+    "sources": ["Golazon", "Soccerway"]
   }
 ]

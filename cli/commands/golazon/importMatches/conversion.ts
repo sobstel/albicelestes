@@ -40,6 +40,9 @@ const toRound = (match: Golazon.Match): string | undefined => {
   if (match["competition_name"] === "Friendlies") {
     return;
   }
+  if (match["competition_name"] === "Regular Season") {
+    return;
+  }
   return match["round_name"];
 };
 
