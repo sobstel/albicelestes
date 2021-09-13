@@ -81,4 +81,4 @@ There are `DB.*`, `F`/`functions`, `H`/`helpers`, `U`/`utility` automatically in
 
 ### Deployment
 
-Automated with github actions. See [workflows](./github/workflows).
+Automated with github actions. See [workflows](./.github/workflows).
