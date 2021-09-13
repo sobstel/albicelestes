@@ -12,7 +12,6 @@
     - [CLI](#cli)
       - [Console](#console)
   - [Deployment](#deployment)
-  - [Other notes](#other-notes)
 
 <!-- /TOC -->
 
@@ -28,7 +27,11 @@ Database: `/data/` (main file: `/data/matches.json`)
 ### Specific rules
 
 - Final score: FT or AET (if aet or pen)
-- Result: score (+ pen), eg. if score is 2-2 p. 5-4, then first team marked as winner (W)
+- Result: score (+ pen), eg. if score is 2-2 p. 5-4, then first team marked as winner (W) <sup>\*</sup>
+
+<sup>\*</sup> - this might be reviewed soon as per statistical convention in football,
+matches decided in extra time should be counted as wins and losses,
+while matches decided by penalty shoot-out should be counted as draws
 
 ## Tech
 
@@ -79,7 +82,3 @@ There are `DB.*`, `F`/`functions`, `H`/`helpers`, `U`/`utility` automatically in
 ### Deployment
 
 Automated with github actions. See [workflows](./github/workflows).
-
-### Other notes
-
-- Images uploaded and stored at cloudinary
