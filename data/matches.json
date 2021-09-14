@@ -47109,72 +47109,82 @@
     ]
   },
   {
+    "slug": "chile-argentina-2",
     "date": "2016-03-24",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional", "city": "Santiago"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Nacional Julio Martínez Prádanos",
+      "city": "Santiago de Chile"
+    },
     "teams": [{"name": "Chile"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
     "goals": [
       [{"name": "Felipe Gutiérrez", "min": "11", "type": "G"}],
       [
-        {"name": "Ángel Di María", "min": "20", "type": "G"},
+        {"name": "Angel Di Maria", "min": "20", "type": "G"},
         {"name": "Gabriel Mercado", "min": "25", "type": "G"}
       ]
     ],
     "cards": [
       [
         {"name": "Felipe Gutiérrez", "min": "31", "type": "Y"},
-        {"name": "Claudio Bravo", "min": "90", "type": "Y"}
+        {"name": "Claudio Bravo", "min": "90+3", "type": "Y"}
       ],
       [
         {"name": "Sergio Romero", "min": "47", "type": "Y"},
         {"name": "Ramiro Funes Mori", "min": "48", "type": "Y"},
-        {"name": "Nicolás Otamendi", "min": "90", "type": "Y"}
+        {"name": "Ezequiel Lavezzi", "min": "87", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "90+2", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Juan Antonio Pizzi"},
-      {"name": "Gerardo Daniel Martino"}
-    ],
+    "coaches": [{"name": "Juan Antonio Pizzi"}, {"name": "Gerardo Martino"}],
     "lineups": [
       [
         {"name": "Claudio Bravo"},
-        {"name": "Marcelo Díaz", "out": "21"},
-        {"name": "Bryan Rabello", "in": "21"},
-        {"name": "Gonzalo Jara"},
-        {"name": "Eugenio Mena"},
         {"name": "Mauricio Isla"},
+        {"name": "Eugenio Mena"},
         {"name": "Gary Medel"},
+        {"name": "Gonzalo Jara"},
         {"name": "Jean Beausejour"},
+        {"name": "Felipe Gutiérrez"},
+        {"name": "Marcelo Díaz", "out": "21"},
+        {"name": "Bryan Rabello", "in": "21", "out": "69"},
+        {"name": "Mauricio Pinilla", "in": "69"},
         {"name": "Matías Fernández", "out": "7"},
         {"name": "Francisco Silva", "in": "7"},
-        {"name": "Felipe Gutiérrez"},
-        {"name": "Alexis Sánchez"},
-        {"name": "Fabián Orellana"}
+        {"name": "Fabián Orellana"},
+        {"name": "Alexis Sánchez"}
       ],
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Matías Kranevitter"},
+        {"name": "Lucas Biglia"},
         {"name": "Éver Banega", "out": "73"},
         {"name": "Augusto Fernández", "in": "73"},
-        {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "81"},
+        {"name": "Angel Di Maria", "out": "81"},
         {"name": "Ezequiel Lavezzi", "in": "81"},
-        {"name": "Matías Kranevitter"},
-        {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "67"},
-        {"name": "Gonzalo Higuaín", "in": "67"}
+        {"name": "Gonzalo Higuaín", "in": "67"},
+        {"name": "Lionel Messi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-bolivia-2",
     "date": "2016-03-29",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Mario Alberto Kempes, Cordoba"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Mario Alberto Kempes",
+      "city": "Ciudad de Córdoba, Provincia de Córdoba"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [2, 0],
     "result": "W",
@@ -47193,54 +47203,53 @@
       ]
     ],
     "coaches": [
-      {"name": "Gerardo Daniel Martino"},
+      {"name": "Gerardo Martino"},
       {"name": "Julio César Baldivieso"}
     ],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Martin Demichelis"},
         {"name": "Gabriel Mercado"},
-        {"name": "Javier Horacio Pinola"},
         {"name": "Marcos Rojo"},
+        {"name": "Javier Mascherano"},
+        {"name": "Martin Demichelis"},
+        {"name": "Javier Pinola"},
+        {"name": "Lucas Biglia"},
         {"name": "Éver Banega", "out": "84"},
         {"name": "Augusto Fernández", "in": "84"},
-        {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "31"},
+        {"name": "Angel Di Maria", "out": "31"},
         {"name": "Ángel Correa", "in": "31"},
-        {"name": "Javier Mascherano"},
-        {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "78"},
-        {"name": "Sergio Agüero", "in": "78"}
+        {"name": "Sergio Agüero", "in": "78"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Carlos Lampe"},
-        {"name": "Marvin Bejarano"},
-        {"name": "Ronald Eguino"},
-        {"name": "Luis Gutierrez"},
-        {"name": "Fernando Marteli"},
-        {"name": "Martin Smedberg-Dalence"},
-        {"name": "Danny Bejarano", "out": "46"},
-        {"name": "Fernando Saucedo", "in": "46"},
         {"name": "Diego Bejarano"},
+        {"name": "Marvin Bejarano"},
+        {"name": "Luis Gutierrez"},
+        {"name": "Luis Martelli"},
+        {"name": "Ronald Eguino"},
         {"name": "Jhasmani Campos", "out": "46"},
         {"name": "Samuel Galindo", "in": "46"},
         {"name": "Alejandro Chumacero", "out": "75"},
         {"name": "Juan Arce", "in": "75"},
+        {"name": "Diego Bejarano", "out": "46"},
+        {"name": "Fernando Saucedo", "in": "46"},
+        {"name": "Martin Smedberg-Dalence"},
         {"name": "Yasmani Duk"}
       ]
     ],
-    "info": {
-      "images": [
-        {"url": "/m/2016/bolivia1.jpg"},
-        {"url": "/m/2016/bolivia2.jpg"}
-      ]
-    }
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-honduras-2",
     "date": "2016-05-27",
     "competition": "Friendly",
-    "venue": {"name": "Estadio San Juan del Bicentenario, San Juan"},
+    "venue": {
+      "name": "Estadio San Juan del Bicentenario",
+      "city": "San Juan, Provincia de San Juan"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Honduras"}],
     "score": [1, 0],
     "result": "W",
@@ -47248,7 +47257,7 @@
     "cards": [
       [
         {"name": "Lucas Biglia", "min": "30", "type": "Y"},
-        {"name": "Javier Mascherano", "min": "90", "type": "Y"}
+        {"name": "Javier Mascherano", "min": "90+2", "type": "Y"}
       ],
       [
         {"name": "Jorge Claros", "min": "35", "type": "Y"},
@@ -47256,67 +47265,67 @@
         {"name": "Ever Alvarado", "min": "75", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Gerardo Daniel Martino"},
-      {"name": "Jorge Luis Pinto"}
-    ],
+    "coaches": [{"name": "Gerardo Martino"}, {"name": "Jorge Luis Pinto"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado", "out": "77"},
         {"name": "Facundo Roncaglia", "in": "77"},
-        {"name": "Nicolás Otamendi", "out": "77"},
-        {"name": "Jonatan Maidana", "in": "77"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Marcos Rojo", "out": "78"},
         {"name": "Victor Cuesta", "in": "78"},
+        {"name": "Nicolás Otamendi", "out": "77"},
+        {"name": "Jonatan Maidana", "in": "77"},
+        {"name": "Javier Mascherano"},
         {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María"},
         {"name": "Érik Lamela", "out": "64"},
         {"name": "Nicolás Gaitán", "in": "64"},
-        {"name": "Javier Mascherano"},
-        {"name": "Lionel Messi", "out": "64"},
-        {"name": "Éver Banega", "in": "64"},
+        {"name": "Angel Di Maria"},
         {"name": "Gonzalo Higuaín", "out": "65"},
-        {"name": "Sergio Agüero", "in": "65"}
+        {"name": "Sergio Agüero", "in": "65"},
+        {"name": "Lionel Messi", "out": "64"},
+        {"name": "Éver Banega", "in": "64"}
       ],
       [
         {"name": "Donis Escober"},
-        {"name": "Bryan Acosta", "out": "46"},
-        {"name": "Oliver Morazan", "in": "46"},
+        {"name": "Johnny Palacios"},
+        {"name": "Maynor Figueroa"},
+        {"name": "Johnny Leverón"},
         {"name": "Brayan Beckeles", "out": "70"},
         {"name": "Odis Borjas", "in": "70"},
-        {"name": "Maynor Figueroa"},
         {"name": "Emilio Izaguirre", "out": "71"},
         {"name": "Ever Alvarado", "in": "71"},
-        {"name": "Johnny Leverón"},
-        {"name": "Johnny Palacios"},
+        {"name": "Bryan Acosta", "out": "45"},
+        {"name": "Oliver Morazan", "in": "45"},
         {"name": "Jorge Claros"},
-        {"name": "Alberth Elis"},
         {"name": "Romell Quioto", "out": "83"},
         {"name": "Rony Martinez", "in": "83"},
+        {"name": "Alberth Elis"},
         {"name": "Marco Vega", "out": "46"},
         {"name": "Carlos Discua", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2016-06-06",
-    "competition": "Copa América",
-    "venue": {"name": "Levi's Stadium, Santa Clara"},
+    "slug": "argentina-chile-3",
+    "date": "2016-06-07",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Levi's Stadium", "city": "Santa Clara, California"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Ángel Di María", "min": "51", "type": "G"},
+        {"name": "Angel Di Maria", "min": "51", "type": "G"},
         {"name": "Éver Banega", "min": "59", "type": "G"}
       ],
-      [{"name": "José Fuenzalida", "min": "90", "type": "G"}]
+      [{"name": "José Fuenzalida", "min": "90+3", "type": "G"}]
     ],
     "cards": [
       [
-        {"name": "Ángel Di María", "min": "65", "type": "Y"},
+        {"name": "Angel Di Maria", "min": "65", "type": "Y"},
         {"name": "Marcos Rojo", "min": "69", "type": "Y"}
       ],
       [
@@ -47326,49 +47335,49 @@
         {"name": "Jean Beausejour", "min": "86", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Gerardo Daniel Martino"},
-      {"name": "Juan Antonio Pizzi"}
-    ],
+    "coaches": [{"name": "Gerardo Martino"}, {"name": "Juan Antonio Pizzi"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
+        {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Éver Banega"},
-        {"name": "Ángel Di María", "out": "80"},
-        {"name": "Érik Lamela", "in": "80"},
         {"name": "Augusto Fernández"},
         {"name": "Nicolás Gaitán", "out": "87"},
         {"name": "Matías Kranevitter", "in": "87"},
-        {"name": "Javier Mascherano"},
+        {"name": "Angel Di Maria", "out": "80"},
+        {"name": "Érik Lamela", "in": "80"},
         {"name": "Gonzalo Higuaín", "out": "74"},
         {"name": "Sergio Agüero", "in": "74"}
       ],
       [
         {"name": "Claudio Bravo"},
-        {"name": "Marcelo Díaz"},
-        {"name": "Gonzalo Jara"},
+        {"name": "Mauricio Isla"},
         {"name": "Eugenio Mena", "out": "54"},
         {"name": "Fabián Orellana", "in": "54"},
-        {"name": "Arturo Vidal"},
-        {"name": "Mauricio Isla"},
         {"name": "Gary Medel"},
+        {"name": "Gonzalo Jara"},
+        {"name": "Jean Beausejour"},
+        {"name": "Marcelo Díaz"},
         {"name": "Charles Aránguiz", "out": "82"},
         {"name": "José Fuenzalida", "in": "82"},
-        {"name": "Jean Beausejour"},
-        {"name": "Alexis Sánchez"},
+        {"name": "Arturo Vidal"},
         {"name": "Eduardo Vargas", "out": "68"},
-        {"name": "Mauricio Pinilla", "in": "68"}
+        {"name": "Mauricio Pinilla", "in": "68"},
+        {"name": "Alexis Sánchez"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2016-06-10",
-    "competition": "Copa América",
-    "venue": {"name": "Soldier Field, Chicago"},
+    "slug": "argentina-panama-2",
+    "date": "2016-06-11",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Soldier Field", "city": "Chicago, Illinois"},
     "teams": [{"name": "Argentina"}, {"name": "Panama"}],
     "score": [5, 0],
     "result": "W",
@@ -47398,36 +47407,33 @@
         {"name": "Luis Henriquez", "min": "78", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Gerardo Daniel Martino"},
-      {"name": "Hernán Darío Gómez"}
-    ],
+    "coaches": [{"name": "Gerardo Martino"}, {"name": "Hernán Darío Gómez"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
-        {"name": "Éver Banega"},
-        {"name": "Ángel Di María", "out": "43"},
-        {"name": "Érik Lamela", "in": "43"},
+        {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Nicolás Gaitán"},
         {"name": "Augusto Fernández", "out": "61"},
         {"name": "Lionel Messi", "in": "61"},
-        {"name": "Nicolás Gaitán"},
-        {"name": "Javier Mascherano"},
+        {"name": "Éver Banega"},
+        {"name": "Angel Di Maria", "out": "43"},
+        {"name": "Érik Lamela", "in": "43"},
         {"name": "Gonzalo Higuaín", "out": "76"},
         {"name": "Sergio Agüero", "in": "76"}
       ],
       [
         {"name": "Jaime Penedo"},
-        {"name": "Felipe Baloy"},
         {"name": "Adolfo Machado"},
         {"name": "Roderick Miller"},
+        {"name": "Felipe Baloy"},
         {"name": "Luis Henriquez"},
+        {"name": "Aníbal Godoy"},
         {"name": "Armando Cooper", "out": "76"},
         {"name": "Abdiel Arroyo", "in": "76"},
-        {"name": "Aníbal Godoy"},
         {"name": "Gabriel Gómez"},
         {"name": "Valentín Pimentel", "out": "20"},
         {"name": "Miguel Camargo", "in": "20"},
@@ -47436,77 +47442,82 @@
         {"name": "Luis Tejada", "in": "75"}
       ]
     ],
-    "info": {"images": [{"url": "/m/2016/ca2016-panama-messi.jpg"}]}
+    "sources": ["Golazon"]
   },
   {
-    "date": "2016-06-14",
-    "competition": "Copa América",
-    "venue": {"name": "CenturyLink Field, Seattle"},
-    "teams": [{"name": "Bolivia"}, {"name": "Argentina"}],
-    "score": [0, 3],
+    "slug": "argentina-bolivia-2",
+    "date": "2016-06-15",
+    "competition": "Copa America",
+    "round": "Group Stage",
+    "venue": {"name": "Lumen Field", "city": "Seattle, Washington"},
+    "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
+    "score": [3, 0],
     "result": "W",
     "goals": [
-      [],
       [
         {"name": "Érik Lamela", "min": "13", "type": "G"},
         {"name": "Ezequiel Lavezzi", "min": "15", "type": "G"},
         {"name": "Victor Cuesta", "min": "32", "type": "G"}
-      ]
+      ],
+      []
     ],
     "cards": [
+      [
+        {"name": "Éver Banega", "min": "27", "type": "Y"},
+        {"name": "Victor Cuesta", "min": "90+2", "type": "Y"}
+      ],
       [
         {"name": "Edward Zenteno", "min": "12", "type": "Y"},
         {"name": "Jhasmani Campos", "min": "81", "type": "Y"},
         {"name": "Alejandro Melean", "min": "87", "type": "Y"}
-      ],
-      [
-        {"name": "Éver Banega", "min": "27", "type": "Y"},
-        {"name": "Victor Cuesta", "min": "90", "type": "Y"}
       ]
     ],
     "coaches": [
-      {"name": "Julio César Baldivieso"},
-      {"name": "Gerardo Daniel Martino"}
+      {"name": "Gerardo Martino"},
+      {"name": "Julio César Baldivieso"}
     ],
     "lineups": [
       [
+        {"name": "Sergio Romero"},
+        {"name": "Facundo Roncaglia"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Nicolás Otamendi", "out": "75"},
+        {"name": "Jonatan Maidana", "in": "75"},
+        {"name": "Victor Cuesta"},
+        {"name": "Matías Kranevitter"},
+        {"name": "Éver Banega", "out": "46"},
+        {"name": "Lucas Biglia", "in": "46"},
+        {"name": "Érik Lamela"},
+        {"name": "Gonzalo Higuaín", "out": "46"},
+        {"name": "Lionel Messi", "in": "46"},
+        {"name": "Ezequiel Lavezzi"},
+        {"name": "Sergio Agüero"}
+      ],
+      [
         {"name": "Carlos Lampe"},
-        {"name": "Nelson Cabrera"},
         {"name": "Luis Gutierrez"},
-        {"name": "Martin Smedberg-Dalence", "out": "85"},
-        {"name": "Carmelo Algarañaz", "in": "85"},
         {"name": "Edward Zenteno"},
-        {"name": "Pedro Azogue"},
-        {"name": "Jhasmani Campos"},
+        {"name": "Nelson Cabrera"},
         {"name": "Alejandro Melean"},
         {"name": "Erwin Saavedra"},
+        {"name": "Jhasmani Campos"},
+        {"name": "Pedro Azogue"},
+        {"name": "Martin Smedberg-Dalence", "out": "85"},
+        {"name": "Carmelo Algarañaz", "in": "85"},
         {"name": "Juan Arce", "out": "46"},
         {"name": "Cristhian Machado", "in": "46"},
         {"name": "Yasmani Duk", "out": "24"},
         {"name": "Diego Bejarano", "in": "24"}
-      ],
-      [
-        {"name": "Sergio Romero"},
-        {"name": "Victor Cuesta"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Nicolás Otamendi", "out": "75"},
-        {"name": "Jonatan Maidana", "in": "75"},
-        {"name": "Facundo Roncaglia"},
-        {"name": "Éver Banega", "out": "46"},
-        {"name": "Lucas Biglia", "in": "46"},
-        {"name": "Matías Kranevitter"},
-        {"name": "Érik Lamela"},
-        {"name": "Sergio Agüero"},
-        {"name": "Gonzalo Higuaín", "out": "46"},
-        {"name": "Lionel Messi", "in": "46"},
-        {"name": "Ezequiel Lavezzi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-venezuela-2",
     "date": "2016-06-18",
-    "competition": "Copa América",
-    "venue": {"name": "Gillette Stadium, Foxborough"},
+    "competition": "Copa America",
+    "round": "Quarter-finals",
+    "venue": {"name": "Gillette Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
     "score": [4, 1],
     "result": "W",
@@ -47528,48 +47539,49 @@
         {"name": "Salomón Rondón", "min": "77", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Gerardo Daniel Martino"}, {"name": "Rafael Dudamel"}],
+    "coaches": [{"name": "Gerardo Martino"}, {"name": "Rafael Dudamel"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
+        {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Augusto Fernández"},
         {"name": "Éver Banega", "out": "80"},
         {"name": "Lucas Biglia", "in": "80"},
-        {"name": "Augusto Fernández"},
         {"name": "Nicolás Gaitán", "out": "67"},
         {"name": "Érik Lamela", "in": "67"},
-        {"name": "Javier Mascherano"},
-        {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "74"},
-        {"name": "Sergio Agüero", "in": "74"}
+        {"name": "Sergio Agüero", "in": "74"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Dani Hernández"},
-        {"name": "Wilker Angel"},
-        {"name": "Rolf Feltscher"},
-        {"name": "Oswaldo Vizcarrondo"},
         {"name": "Alexander González"},
-        {"name": "Arquímedes Figuera"},
-        {"name": "Alejandro Guerra"},
+        {"name": "Rolf Feltscher"},
+        {"name": "Wilker Angel"},
+        {"name": "Oswaldo Vizcarrondo"},
         {"name": "Tomás Rincón", "out": "85"},
         {"name": "José Velázquez", "in": "85"},
+        {"name": "Alejandro Guerra"},
+        {"name": "Arquímedes Figuera"},
         {"name": "Luis Seijas", "out": "55"},
         {"name": "Juanpi", "in": "55"},
-        {"name": "Josef Martínez", "out": "80"},
+        {"name": "Joséf Martínez", "out": "80"},
         {"name": "Yonathan Del Valle", "in": "80"},
         {"name": "Salomón Rondón"}
       ]
     ],
-    "info": {"images": [{"url": "/m/2016/ca2016-ven-messi-higuain.jpg"}]}
+    "sources": ["Golazon"]
   },
   {
-    "date": "2016-06-21",
-    "competition": "Copa América",
-    "venue": {"name": "NRG Stadium, Houston"},
-    "teams": [{"name": "USA"}, {"name": "Argentina"}],
+    "date": "2016-06-22",
+    "competition": "Copa America",
+    "round": "Semi-finals",
+    "venue": {"name": "NRG Stadium", "city": "Houston, Texas"},
+    "teams": [{"name": "United States"}, {"name": "Argentina"}],
     "score": [0, 4],
     "result": "W",
     "goals": [
@@ -47585,57 +47597,50 @@
     "coaches": [{"name": "Jürgen Klinsmann"}, {"name": "Gerardo Martino"}],
     "lineups": [
       [
-        {"name": "Brad Guzan"},
-        {"name": "John Brooks"},
+        {"name": "Bradley Guzan"},
         {"name": "DeAndre Yedlin"},
         {"name": "Geoff Cameron"},
-        {"name": "Fabian Johnson"},
+        {"name": "John Brooks"},
         {"name": "Graham Zusi"},
-        {"name": "Kyle Beckerman", "out": "60"},
-        {"name": "Steve Birnbaum", "in": "60"},
+        {"name": "Fabian Johnson"},
         {"name": "Michael Bradley"},
-        {"name": "Gyasi Zardes"},
+        {"name": "Kyle Beckerman", "out": "60"},
+        {"name": "Steven Birnbaum", "in": "60"},
         {"name": "Clint Dempsey", "out": "78"},
         {"name": "Darlington Nagbe", "in": "78"},
         {"name": "Chris Wondolowski", "out": "46"},
-        {"name": "Christian Pulisic", "in": "46"}
+        {"name": "Christian Pulisic", "in": "46"},
+        {"name": "Gyasi Zardes"}
       ],
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo", "out": "84"},
         {"name": "Victor Cuesta", "in": "84"},
-        {"name": "Éver Banega"},
+        {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Augusto Fernández", "out": "59"},
         {"name": "Lucas Biglia", "in": "59"},
-        {"name": "Javier Mascherano"},
-        {"name": "Lionel Messi"},
+        {"name": "Éver Banega"},
         {"name": "Gonzalo Higuaín"},
+        {"name": "Lionel Messi"},
         {"name": "Ezequiel Lavezzi", "out": "67"},
         {"name": "Érik Lamela", "in": "67"}
       ]
     ],
-    "info": {
-      "youtube": [{"id": "YNO9TdGHw5Q"}],
-      "images": [{"url": "/m/2016/ca2016-usa-lavezzi.jpg"}],
-      "trivia": [
-        "Both Lavezzi and Fernández substituted because of injury.",
-        "Messi and Banega made 40 passes to each other (18 Messi to Banega; 22 Banega to Messi). (by OptaJavier)",
-        "\"You saw tonight why Argentina are the No. 1 team in the world.\" (Jurgen Klinsmann)"
-      ]
-    }
+    "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-chile-2",
-    "date": "2016-06-26",
-    "competition": "Copa América",
-    "venue": {"name": "MetLife Stadium, East Rutherford"},
+    "slug": "argentina-chile-3",
+    "date": "2016-06-27",
+    "competition": "Copa America",
+    "round": "Final",
+    "venue": {"name": "MetLife Stadium", "city": "East Rutherford, New Jersey"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
     "score": [0, 0],
     "pen": [2, 4],
-    "result": "L",
+    "result": "D",
     "goals": [[], []],
     "cards": [
       [
@@ -47653,46 +47658,63 @@
         {"name": "Charles Aránguiz", "min": "69", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Gerardo Martino"}, {"name": "Juan Pizzi"}],
+    "coaches": [{"name": "Gerardo Martino"}, {"name": "Juan Antonio Pizzi"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
         {"name": "Gabriel Mercado"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Javier Mascherano"},
+        {"name": "Lucas Biglia"},
         {"name": "Éver Banega", "out": "111"},
         {"name": "Érik Lamela", "in": "111"},
-        {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "57"},
+        {"name": "Angel Di Maria", "out": "57"},
         {"name": "Matías Kranevitter", "in": "57"},
-        {"name": "Javier Mascherano"},
-        {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "70"},
-        {"name": "Sergio Agüero", "in": "70"}
+        {"name": "Sergio Agüero", "in": "70"},
+        {"name": "Lionel Messi"}
       ],
       [
         {"name": "Claudio Bravo"},
-        {"name": "Marcelo Díaz"},
-        {"name": "Gonzalo Jara"},
-        {"name": "Arturo Vidal"},
         {"name": "Mauricio Isla"},
-        {"name": "Gary Medel"},
-        {"name": "Charles Aránguiz"},
         {"name": "Jean Beausejour"},
+        {"name": "Gary Medel"},
+        {"name": "Gonzalo Jara"},
         {"name": "José Fuenzalida", "out": "80"},
         {"name": "Edson Puch", "in": "80"},
-        {"name": "Alexis Sánchez", "out": "103"},
-        {"name": "Francisco Silva", "in": "103"},
+        {"name": "Marcelo Díaz"},
+        {"name": "Arturo Vidal"},
+        {"name": "Charles Aránguiz"},
         {"name": "Eduardo Vargas", "out": "109"},
-        {"name": "Nicolás Castillo", "in": "109"}
+        {"name": "Nicolás Castillo", "in": "109"},
+        {"name": "Alexis Sánchez", "out": "104"},
+        {"name": "Francisco Silva", "in": "104"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Vidal", "score": "x"},
+      {"name": "Messi", "score": "x"},
+      {"name": "Castillo", "score": [0, 1]},
+      {"name": "Mascherano", "score": [1, 1]},
+      {"name": "Aránguiz", "score": [1, 2]},
+      {"name": "Agüero", "score": [2, 2]},
+      {"name": "Beausejour", "score": [2, 3]},
+      {"name": "Biglia", "score": "x"},
+      {"name": "Silva", "score": [2, 4]}
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2016-09-02",
+    "slug": "argentina-uruguay-2",
+    "date": "2016-09-01",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Malvinas, Mendoza"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Malvinas Argentinas",
+      "city": "Mendoza, Provincia de Mendoza"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
@@ -47700,64 +47722,70 @@
     "cards": [
       [
         {"name": "Paulo Dybala", "min": "29", "type": "Y"},
-        {"name": "Paulo Dybala", "min": "45", "type": "Y"},
-        {"name": "Paulo Dybala", "min": "45", "type": "R"},
-        {"name": "Ángel Di María", "min": "48", "type": "Y"}
+        {"name": "Paulo Dybala", "min": "45+1", "type": "Y"},
+        {"name": "Paulo Dybala", "min": "45+1", "type": "R"},
+        {"name": "Angel Di Maria", "min": "48", "type": "Y"}
       ],
       [
         {"name": "Jorge Fucile", "min": "10", "type": "Y"},
         {"name": "Edinson Cavani", "min": "38", "type": "Y"},
         {"name": "José Giménez", "min": "42", "type": "Y"},
         {"name": "Nicolás Lodeiro", "min": "58", "type": "Y"},
-        {"name": "Gastón Ramirez", "min": "90", "type": "Y"}
+        {"name": "Gastón Ramirez", "min": "90+1", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Edgardo Bauza"}, {"name": "Oscar Tabarez"}],
+    "coaches": [{"name": "Edgardo Bauza"}, {"name": "Óscar Tabárez"}],
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Emmanuel Mas"},
-        {"name": "Nicolás Otamendi"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "83"},
-        {"name": "Nicolás Gaitán", "in": "83"},
+        {"name": "Emmanuel Mas"},
         {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Lucas Biglia"},
+        {"name": "Angel Di Maria", "out": "85"},
+        {"name": "Nicolás Gaitán", "in": "85"},
         {"name": "Lionel Messi"},
-        {"name": "Paulo Dybala"},
         {"name": "Lucas Pratto", "out": "71"},
-        {"name": "Lucas Alario", "in": "71"}
+        {"name": "Lucas Alario", "in": "71"},
+        {"name": "Paulo Dybala"}
       ],
       [
         {"name": "Fernando Muslera"},
-        {"name": "Jorge Fucile", "out": "86"},
-        {"name": "Diego Rolán", "in": "86"},
-        {"name": "José Giménez"},
-        {"name": "Diego Godín"},
+        {"name": "Jorge Fucile", "out": "87"},
+        {"name": "Diego Rolán", "in": "87"},
         {"name": "Gastón Silva"},
         {"name": "Mathías Corujo"},
+        {"name": "José Giménez"},
+        {"name": "Diego Godín"},
+        {"name": "Carlos Sánchez", "out": "70"},
+        {"name": "Gastón Ramirez", "in": "70"},
         {"name": "Egidio Arévalo"},
         {"name": "Nicolás Lodeiro", "out": "60"},
         {"name": "Cristian Rodriguez", "in": "60"},
-        {"name": "Carlos Sánchez", "out": "69"},
-        {"name": "Gastón Ramirez", "in": "69"},
-        {"name": "Edinson Cavani"},
-        {"name": "Luis Suárez"}
+        {"name": "Luis Suárez"},
+        {"name": "Edinson Cavani"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "venezuela-argentina-2",
     "date": "2016-09-06",
     "competition": "World Cup Quals",
-    "venue": {"name": "Merida"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Olímpico Metropolitano de Mérida",
+      "city": "Mérida"
+    },
     "teams": [{"name": "Venezuela"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
     "goals": [
       [
         {"name": "Juanpi", "min": "35", "type": "G"},
-        {"name": "Josef Martínez", "min": "53", "type": "G"}
+        {"name": "Joséf Martínez", "min": "53", "type": "G"}
       ],
       [
         {"name": "Lucas Pratto", "min": "58", "type": "G"},
@@ -47776,41 +47804,45 @@
     "lineups": [
       [
         {"name": "Dani Hernández"},
-        {"name": "Mikel Villanueva"},
-        {"name": "Oswaldo Vizcarrondo"},
         {"name": "Alexander González", "out": "71"},
         {"name": "Victor Garcia", "in": "71"},
+        {"name": "Mikel Villanueva"},
+        {"name": "Oswaldo Vizcarrondo"},
         {"name": "José Velázquez"},
         {"name": "Arles Flores"},
         {"name": "Juanpi"},
         {"name": "Tomás Rincón"},
-        {"name": "Josef Martínez", "out": "78"},
-        {"name": "Jacobo Kouffaty", "in": "78"},
-        {"name": "Adalberto Peñaranda"},
-        {"name": "Salomón Rondón"}
+        {"name": "Joséf Martínez", "out": "78"},
+        {"name": "Jacobo Kouffaty", "in": "78", "out": "81"},
+        {"name": "Yonathan Del Valle", "in": "81"},
+        {"name": "Salomón Rondón"},
+        {"name": "Adalberto Peñaranda"}
       ],
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Nicolás Otamendi"},
+        {"name": "Pablo Zabaleta"},
         {"name": "Marcos Rojo", "out": "83"},
         {"name": "Nicolás Gaitán", "in": "83"},
-        {"name": "Pablo Zabaleta"},
-        {"name": "Éver Banega"},
-        {"name": "Lucas Biglia", "out": "71"},
-        {"name": "Lucas Alario", "in": "71"},
-        {"name": "Ángel Di María"},
+        {"name": "Javier Mascherano"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Érik Lamela", "out": "67"},
         {"name": "Ángel Correa", "in": "67"},
-        {"name": "Javier Mascherano"},
+        {"name": "Lucas Biglia", "out": "71"},
+        {"name": "Lucas Alario", "in": "71"},
+        {"name": "Éver Banega"},
+        {"name": "Angel Di Maria"},
         {"name": "Lucas Pratto"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "peru-argentina-2",
     "date": "2016-10-07",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Nacional de Perú, Lima"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
@@ -47838,40 +47870,46 @@
       [
         {"name": "Pedro Gallese"},
         {"name": "Aldo Corzo"},
-        {"name": "Christian Ramos"},
         {"name": "Alberto Rodríguez"},
+        {"name": "Christian Ramos"},
         {"name": "Miguel Trauco"},
-        {"name": "Cristian Cueva", "out": "84"},
-        {"name": "Carlos Lobaton", "in": "84"},
-        {"name": "Renato Tapia"},
         {"name": "Yoshimar Yotún"},
         {"name": "Cristián Benavente", "out": "46"},
         {"name": "Luiz da Silva", "in": "46"},
+        {"name": "Renato Tapia"},
         {"name": "Édison Flores", "out": "58"},
         {"name": "Raúl Ruidíaz", "in": "58"},
+        {"name": "Cristian Cueva", "out": "84"},
+        {"name": "Carlos Lobaton", "in": "84"},
         {"name": "Paolo Guerrero"}
       ],
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
-        {"name": "Nicolás Otamendi"},
-        {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
-        {"name": "Ángel Di María"},
-        {"name": "Matías Kranevitter"},
+        {"name": "Marcos Rojo"},
         {"name": "Javier Mascherano"},
-        {"name": "Sergio Agüero", "out": "73"},
-        {"name": "Éver Banega", "in": "73"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Ramiro Funes Mori"},
+        {"name": "Matías Kranevitter"},
+        {"name": "Angel Di Maria"},
         {"name": "Paulo Dybala", "out": "65"},
         {"name": "Ángel Correa", "in": "65"},
-        {"name": "Gonzalo Higuaín"}
+        {"name": "Gonzalo Higuaín"},
+        {"name": "Sergio Agüero", "out": "73"},
+        {"name": "Éver Banega", "in": "73"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "argentina-paraguay-2",
     "date": "2016-10-11",
     "competition": "World Cup Quals",
-    "venue": {"name": "Estadio Mario Alberto Kempes, Cordoba"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Mario Alberto Kempes",
+      "city": "Ciudad de Córdoba, Provincia de Córdoba"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [0, 1],
     "result": "L",
@@ -47887,60 +47925,66 @@
     "lineups": [
       [
         {"name": "Sergio Romero"},
-        {"name": "Martin Demichelis"},
         {"name": "Gabriel Mercado"},
-        {"name": "Mateo Musacchio"},
         {"name": "Marcos Rojo"},
+        {"name": "Martin Demichelis"},
+        {"name": "Mateo Musacchio"},
+        {"name": "Javier Mascherano"},
         {"name": "Éver Banega", "out": "70"},
         {"name": "Lucas Pratto", "in": "70"},
-        {"name": "Ángel Di María"},
         {"name": "Nicolás Gaitán", "out": "59"},
         {"name": "Paulo Dybala", "in": "59"},
-        {"name": "Javier Mascherano"},
-        {"name": "Sergio Agüero"},
-        {"name": "Gonzalo Higuaín"}
+        {"name": "Angel Di Maria"},
+        {"name": "Gonzalo Higuaín"},
+        {"name": "Sergio Agüero"}
       ],
       [
         {"name": "Justo Villar"},
-        {"name": "Júnior Alonso"},
-        {"name": "Paulo da Silva"},
-        {"name": "Gustavo Gómez"},
-        {"name": "Miguel Almirón", "out": "68"},
-        {"name": "Celso Ortíz", "in": "68"},
         {"name": "Jorge Moreira"},
+        {"name": "Júnior Alonso"},
+        {"name": "Gustavo Gómez"},
+        {"name": "Paulo da Silva"},
         {"name": "Cristian Riveros"},
+        {"name": "Óscar Romero"},
         {"name": "Rodrigo Rojas", "out": "75"},
         {"name": "Bruno Valdez", "in": "75"},
-        {"name": "Óscar Romero"},
-        {"name": "Derlis González"},
+        {"name": "Miguel Almirón", "out": "68"},
+        {"name": "Celso Ortíz", "in": "68"},
         {"name": "Ángel Romero", "out": "80"},
-        {"name": "Hernán Pérez", "in": "80"}
+        {"name": "Hernán Pérez", "in": "80"},
+        {"name": "Derlis González"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
+    "slug": "brazil-argentina-2",
     "date": "2016-11-10",
     "competition": "World Cup Quals",
-    "venue": {"name": "Mineirão", "city": "Belo Horizonte"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estádio Governador Magalhães Pinto",
+      "city": "Belo Horizonte, Minas Gerais"
+    },
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [3, 0],
     "result": "L",
     "goals": [
       [
-        {"name": "Philippe Coutinho", "min": "24", "type": "G"},
-        {"name": "Neymar", "min": "45", "type": "G"},
-        {"name": "Paulinho", "min": "59", "type": "G"}
+        {"name": "Philippe Coutinho", "min": "25", "type": "G"},
+        {"name": "Neymar", "min": "45+1", "type": "G"},
+        {"name": "Paulinho", "min": "58", "type": "G"}
       ],
       []
     ],
     "cards": [
       [
-        {"name": "Fernandinho", "min": "5", "type": "Y"},
+        {"name": "Fernandinho", "min": "6", "type": "Y"},
         {"name": "Marcelo", "min": "48", "type": "Y"}
       ],
       [
-        {"name": "Ramiro Funes Mori", "min": "55", "type": "Y"},
-        {"name": "Nicolás Otamendi", "min": "61", "type": "Y"},
+        {"name": "Ramiro Funes Mori", "min": "56", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "63", "type": "Y"},
         {"name": "Lucas Biglia", "min": "84", "type": "Y"}
       ]
     ],
@@ -47948,34 +47992,37 @@
     "lineups": [
       [
         {"name": "Alisson Becker"},
-        {"name": "Dani Alves"},
-        {"name": "Marquinhos"},
-        {"name": "Miranda"},
-        {"name": "Fernandinho"},
         {"name": "Marcelo"},
+        {"name": "Marquinhos"},
+        {"name": "Miranda", "out": "87"},
+        {"name": "Thiago Silva", "in": "87"},
+        {"name": "Dani Alves"},
+        {"name": "Fernandinho"},
         {"name": "Paulinho"},
         {"name": "Renato Augusto"},
-        {"name": "Philippe Coutinho", "out": "84"},
-        {"name": "Douglas Costa", "in": "84"},
-        {"name": "Gabriel Jesus"},
+        {"name": "Philippe Coutinho", "out": "85"},
+        {"name": "Douglas Costa", "in": "85"},
+        {"name": "Gabriel Jesus", "out": "82"},
+        {"name": "Roberto Firmino", "in": "82"},
         {"name": "Neymar"}
       ],
       [
         {"name": "Sergio Romero"},
-        {"name": "Ramiro Funes Mori"},
+        {"name": "Pablo Zabaleta"},
         {"name": "Emmanuel Mas"},
         {"name": "Nicolás Otamendi"},
-        {"name": "Pablo Zabaleta"},
-        {"name": "Lucas Biglia"},
-        {"name": "Ángel Di María", "out": "71"},
-        {"name": "Ángel Correa", "in": "71"},
+        {"name": "Ramiro Funes Mori"},
         {"name": "Javier Mascherano"},
+        {"name": "Lucas Biglia"},
         {"name": "Enzo Pérez", "out": "46"},
         {"name": "Sergio Agüero", "in": "46"},
-        {"name": "Lionel Messi"},
-        {"name": "Gonzalo Higuaín"}
+        {"name": "Angel Di Maria", "out": "71"},
+        {"name": "Ángel Correa", "in": "71"},
+        {"name": "Gonzalo Higuaín"},
+        {"name": "Lionel Messi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2016-11-15",
