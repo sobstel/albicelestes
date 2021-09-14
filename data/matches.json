@@ -47109,7 +47109,6 @@
     ]
   },
   {
-    "slug": "chile-argentina-2",
     "date": "2016-03-24",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47177,7 +47176,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-bolivia-2",
     "date": "2016-03-29",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47243,7 +47241,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-honduras-2",
     "date": "2016-05-27",
     "competition": "Friendly",
     "venue": {
@@ -47308,7 +47305,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-chile-3",
     "date": "2016-06-07",
     "competition": "Copa America",
     "round": "Group Stage",
@@ -47373,7 +47369,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-panama-2",
     "date": "2016-06-11",
     "competition": "Copa America",
     "round": "Group Stage",
@@ -47513,7 +47508,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-venezuela-2",
     "date": "2016-06-18",
     "competition": "Copa America",
     "round": "Quarter-finals",
@@ -47632,7 +47626,7 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-chile-3",
+    "slug": "argentina-chile-2",
     "date": "2016-06-27",
     "competition": "Copa America",
     "round": "Final",
@@ -47707,7 +47701,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-uruguay-2",
     "date": "2016-09-01",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47771,7 +47764,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "venezuela-argentina-2",
     "date": "2016-09-06",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47838,7 +47830,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "peru-argentina-2",
     "date": "2016-10-07",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47902,7 +47893,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-paraguay-2",
     "date": "2016-10-11",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -47958,7 +47948,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "brazil-argentina-2",
     "date": "2016-11-10",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -48027,7 +48016,7 @@
   {
     "date": "2016-11-15",
     "competition": "World Cup Quals",
-    "venue": {"name": "SAN JUAN"},
+    "venue": {"name": "San Juan"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [3, 0],
     "result": "W",
@@ -49424,7 +49413,7 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-mexico-3",
+    "slug": "argentina-mexico",
     "date": "2018-11-17",
     "competition": "Friendly",
     "venue": {
@@ -49489,7 +49478,7 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-mexico-3",
+    "slug": "argentina-mexico-2",
     "date": "2018-11-21",
     "competition": "Friendly",
     "venue": {"name": "Estadio Malvinas Argentinas", "city": "Mendoza"},
