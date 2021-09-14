@@ -24,6 +24,11 @@ export default function PageFooter() {
               twitter
             </LinkAnchor>
           </li>
+          <li className="ml-4">
+            <LinkAnchor href="https://www.youtube.com/channel/UCtBjQEaQFBAwJjkZxvciCUw">
+              youtube
+            </LinkAnchor>
+          </li>
         </ul>
       </Block>
     </footer>
