@@ -1,8 +1,19 @@
 import * as R from "remeda";
+import dayjs from "dayjs";
 import { getMatchSlug, getMatchYear, getTeamSlug } from "helpers";
 import { Match, Result, Team } from "types";
 import * as Golazon from "./golazon";
 import { reconcilePlayer, reconcileCoach } from "./reconcilation";
+
+const toDate = (match: Golazon.Match) => {
+  // if time is early, then it most likely means that local date was a day before
+  if (match.time < "09:00") {
+    return dayjs(`${match.date} ${match.time}`)
+      .subtract(1, "day")
+      .format("YYYY-MM-DD");
+  }
+  return match.date;
+};
 
 const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
   const slug = getMatchSlug({
@@ -10,19 +21,18 @@ const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
   });
   const year = getMatchYear({ date: match.date });
 
-  const slugsCount =
-    R.filter(
-      dbMatches,
-      (dbMatch) =>
-        getMatchYear(dbMatch) === year &&
-        getMatchSlug(dbMatch).indexOf(slug) === 0
-    ).length || 0;
+  const prevSlugsCount = R.pipe(
+    dbMatches,
+    R.filter((dbMatch) => dbMatch.date < match.date),
+    R.filter((dbMatch) => getMatchYear(dbMatch) === year),
+    R.filter((dbMatch) => getMatchSlug(dbMatch).indexOf(slug) === 0)
+  )?.length;
 
-  if (slugsCount > 0) {
-    return `${slug}-${slugsCount + 1}`;
+  if (!prevSlugsCount) {
+    return;
   }
 
-  return;
+  return `${slug}-${prevSlugsCount + 1}`;
 };
 
 const toCompetition = (match: Golazon.Match): string => {
@@ -179,7 +189,7 @@ export const toMatch = async (
 
   const dbMatch: Match = {
     ...(slug && { slug }),
-    date: match.date,
+    date: toDate(match),
     competition: toCompetition(match),
     ...(round && { round }),
     venue: { name: match.venue.name, city: match.venue.city },
