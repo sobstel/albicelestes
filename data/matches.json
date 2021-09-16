@@ -38461,7 +38461,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
         {"name": "Lucho González", "out": "68"},
-        {"name": "Maxi Rodriguez", "in": "68"},
+        {"name": "Maxi Rodríguez", "in": "68"},
         {"name": "Román Riquelme"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -38643,7 +38643,7 @@
         {"name": "Luciano Galletti", "in": "71"},
         {"name": "Román Riquelme"},
         {"name": "Lionel Scaloni", "out": "46"},
-        {"name": "Maxi Rodriguez", "in": "46"},
+        {"name": "Maxi Rodríguez", "in": "46"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo"},
@@ -38715,7 +38715,7 @@
         {"name": "Carmelo Angulo", "type": "Y"},
         {"name": "Lorgio Alvarez", "type": "Y"}
       ],
-      [{"name": "Maxi Rodriguez", "type": "Y"}]
+      [{"name": "Maxi Rodríguez", "type": "Y"}]
     ],
     "lineups": [
       [
@@ -38743,7 +38743,7 @@
         {"name": "Esteban Cambiasso"},
         {"name": "Luciano Galletti", "out": "84"},
         {"name": "Leonardo Palacio", "in": "84"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Scaloni"},
         {"name": "Luciano Figueroa", "out": "75"},
         {"name": "Rolando Zarate", "in": "75"},
@@ -38857,7 +38857,7 @@
         {"name": "Esteban Cambiasso"},
         {"name": "Luciano Galletti"},
         {"name": "Kily González"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Javier Zanetti"},
         {"name": "Aldo Duscher", "out": "31"},
         {"name": "Carlos Tevez", "in": "31"}
@@ -38955,7 +38955,7 @@
         {"name": "Lucas Ademar Bernardi"},
         {"name": "Luciano Galletti"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Mario Santana"},
         {"name": "Juan Pablo Sorin", "out": "79"},
         {"name": "Javier Zanetti", "in": "79"},
@@ -39156,7 +39156,7 @@
       [
         {"name": "German Lux"},
         {"name": "Gabriel Milito", "out": "66"},
-        {"name": "Maxi Rodriguez", "in": "66"},
+        {"name": "Maxi Rodríguez", "in": "66"},
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
@@ -39239,7 +39239,7 @@
     "goals": [
       [{"name": "Sandor Torghelle", "min": "29", "type": "G"}],
       [
-        {"name": "Maxi Rodriguez", "min": "19", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "19", "type": "G"},
         {"name": "Gabriel Heinze", "min": "63", "type": "G"}
       ]
     ],
@@ -39271,7 +39271,7 @@
         {"name": "Mario Santana", "in": "90"},
         {"name": "Lucho González", "out": "82"},
         {"name": "Pablo Zabaleta", "in": "82"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Scaloni"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo"},
@@ -39465,7 +39465,7 @@
     "cards": [
       [
         {"name": "Walter Samuel", "min": "32", "type": "Y"},
-        {"name": "Maxi Rodriguez", "min": "79", "type": "Y"}
+        {"name": "Maxi Rodríguez", "min": "79", "type": "Y"}
       ],
       [
         {"name": "Luke Young", "min": "26", "type": "Y"},
@@ -39484,7 +39484,7 @@
         {"name": "Esteban Cambiasso"},
         {"name": "Román Riquelme", "out": "84"},
         {"name": "Lucho González", "in": "84"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "70"},
@@ -39538,7 +39538,7 @@
         {"name": "Daniel Rubén Bilos", "out": "60"},
         {"name": "Lucho González", "in": "60"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Lionel Messi", "out": "81"},
         {"name": "Carlos Tevez", "in": "81"},
@@ -39620,13 +39620,13 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Maxi Rodriguez", "min": "28", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "28", "type": "G"},
         {"name": "Juan Pablo Sorin", "min": "36", "type": "G"}
       ],
       []
     ],
     "cards": [
-      [{"name": "Maxi Rodriguez", "min": "58", "type": "Y"}],
+      [{"name": "Maxi Rodríguez", "min": "58", "type": "Y"}],
       [{"name": "Flavio", "min": "90", "type": "Y"}]
     ],
     "lineups": [
@@ -39641,7 +39641,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "68"},
         {"name": "Lionel Messi", "in": "68"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo"},
         {"name": "Javier Saviola", "out": "68"},
@@ -39699,7 +39699,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "90"},
         {"name": "Pablo Aimar", "in": "90"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo", "out": "64"},
         {"name": "Rodrigo Palacio", "in": "64"},
@@ -39736,9 +39736,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Maxi Rodriguez", "min": "6", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "6", "type": "G"},
         {"name": "Esteban Cambiasso", "min": "31", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "41", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "41", "type": "G"},
         {"name": "Hernan Crespo", "min": "78", "type": "G"},
         {"name": "Carlos Tevez", "min": "84", "type": "G"},
         {"name": "Lionel Messi", "min": "88", "type": "G"}
@@ -39765,7 +39765,7 @@
         {"name": "Esteban Cambiasso", "in": "17"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez", "out": "75"},
+        {"name": "Maxi Rodríguez", "out": "75"},
         {"name": "Lionel Messi", "in": "75"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo"},
@@ -39838,7 +39838,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "80"},
         {"name": "Pablo Aimar", "in": "80"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Messi"},
         {"name": "Carlos Tevez"}
       ]
@@ -39854,7 +39854,7 @@
     "goals": [
       [
         {"name": "Hernan Crespo", "min": "10", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "98", "type": "G"}
+        {"name": "Maxi Rodríguez", "min": "98", "type": "G"}
       ],
       [{"name": "Rafael Márquez", "min": "6", "type": "G"}]
     ],
@@ -39880,7 +39880,7 @@
         {"name": "Pablo Aimar", "in": "76"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Scaloni"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo", "out": "75"},
@@ -39927,7 +39927,7 @@
       [
         {"name": "Juan Pablo Sorin", "min": "46", "type": "Y"},
         {"name": "Javier Mascherano", "min": "60", "type": "Y"},
-        {"name": "Maxi Rodriguez", "min": "88", "type": "Y"},
+        {"name": "Maxi Rodríguez", "min": "88", "type": "Y"},
         {"name": "Julio Cruz", "min": "96", "type": "Y"}
       ]
     ],
@@ -39959,7 +39959,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "72"},
         {"name": "Esteban Cambiasso", "in": "72"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo", "out": "79"},
         {"name": "Julio Cruz", "in": "79"},
@@ -40077,7 +40077,7 @@
         {"name": "Federico Insua", "out": "56"},
         {"name": "Pablo Aimar", "in": "56"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "17"},
+        {"name": "Maxi Rodríguez", "out": "17"},
         {"name": "Daniel Rubén Bilos", "in": "17"},
         {"name": "Lionel Messi", "out": "62"},
         {"name": "Javier Saviola", "in": "62"},
@@ -40667,7 +40667,7 @@
         {"name": "John Carew", "min": "11", "type": "P"},
         {"name": "John Carew", "min": "58", "type": "G"}
       ],
-      [{"name": "Maxi Rodriguez", "min": "84", "type": "G"}]
+      [{"name": "Maxi Rodríguez", "min": "84", "type": "G"}]
     ],
     "lineups": [
       [
@@ -40696,7 +40696,7 @@
         {"name": "Lucho González", "out": "46"},
         {"name": "Federico Insua", "in": "46"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Ezequiel Lavezzi", "out": "46"},
@@ -40769,7 +40769,7 @@
       []
     ],
     "cards": [
-      [{"name": "Maxi Rodriguez", "min": "42", "type": "Y"}],
+      [{"name": "Maxi Rodríguez", "min": "42", "type": "Y"}],
       [
         {"name": "Gonzalo Fierro", "min": "22", "type": "Y"},
         {"name": "Arturo Vidal", "min": "25", "type": "Y"},
@@ -40789,7 +40789,7 @@
         {"name": "Esteban Cambiasso"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez", "out": "68"},
+        {"name": "Maxi Rodríguez", "out": "68"},
         {"name": "Fernando Gago", "in": "68"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi", "out": "83"},
@@ -40912,7 +40912,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "75"},
-        {"name": "Maxi Rodriguez", "in": "75"},
+        {"name": "Maxi Rodríguez", "in": "75"},
         {"name": "Carlos Tevez", "out": "82"},
         {"name": "German Denis", "in": "82"}
       ],
@@ -40988,7 +40988,7 @@
         {"name": "Hugo Ibarra"},
         {"name": "Gabriel Milito"},
         {"name": "Esteban Cambiasso", "out": "75"},
-        {"name": "Maxi Rodriguez", "in": "75"},
+        {"name": "Maxi Rodríguez", "in": "75"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
@@ -41049,7 +41049,7 @@
         {"name": "Fernando Gago"},
         {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "90"},
+        {"name": "Maxi Rodríguez", "out": "90"},
         {"name": "Pablo Zabaleta", "in": "90"},
         {"name": "Javier Zanetti"},
         {"name": "Sergio Agüero", "out": "85"},
@@ -41070,7 +41070,7 @@
       [
         {"name": "Nicolas Burdisso", "min": "10", "type": "G"},
         {"name": "Lionel Messi", "min": "17", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "29", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "29", "type": "G"},
         {"name": "Sergio Agüero", "min": "70", "type": "G"}
       ]
     ],
@@ -41114,7 +41114,7 @@
         {"name": "Fernando Gago", "out": "78"},
         {"name": "Éver Banega", "in": "78"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "73"},
+        {"name": "Maxi Rodríguez", "out": "73"},
         {"name": "Jonas Gutierrez", "in": "73"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi", "out": "84"},
@@ -41177,7 +41177,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "74"},
+        {"name": "Maxi Rodríguez", "out": "74"},
         {"name": "Fernando Cavenaghi", "in": "74"},
         {"name": "Lionel Messi", "out": "46"},
         {"name": "José Sosa", "in": "46"},
@@ -41218,7 +41218,7 @@
         {"name": "Javier Mascherano", "out": "63"},
         {"name": "Julio Cruz", "in": "63"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodriguez", "out": "46"},
+        {"name": "Maxi Rodríguez", "out": "46"},
         {"name": "Fernando Gago", "in": "46"},
         {"name": "Juan Sebastian Veron", "out": "85"},
         {"name": "Rodrigo Palacio", "in": "85"},
@@ -41590,7 +41590,7 @@
     "teams": [{"name": "Scotland"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Maxi Rodriguez", "min": "8", "type": "G"}]],
+    "goals": [[], [{"name": "Maxi Rodríguez", "min": "8", "type": "G"}]],
     "cards": [
       [
         {"name": "Gary Caldwell", "min": "45", "type": "Y"},
@@ -41629,7 +41629,7 @@
         {"name": "Javier Mascherano"},
         {"name": "Emiliano Papa", "out": "86"},
         {"name": "Cata Diaz", "in": "86"},
-        {"name": "Maxi Rodriguez", "out": "90"},
+        {"name": "Maxi Rodríguez", "out": "90"},
         {"name": "José Sosa", "in": "90"},
         {"name": "Javier Zanetti"},
         {"name": "Ezequiel Lavezzi", "out": "75"},
@@ -41657,7 +41657,7 @@
         {"name": "Jeremy Toulalan", "min": "18", "type": "Y"},
         {"name": "William Gallas", "min": "38", "type": "Y"}
       ],
-      [{"name": "Maxi Rodriguez", "min": "58", "type": "Y"}]
+      [{"name": "Maxi Rodríguez", "min": "58", "type": "Y"}]
     ],
     "coaches": [{"name": "Ray Domenech"}, {"name": "Diego Maradona"}],
     "lineups": [
@@ -41683,7 +41683,7 @@
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Emiliano Papa"},
-        {"name": "Maxi Rodriguez", "out": "81"},
+        {"name": "Maxi Rodríguez", "out": "81"},
         {"name": "Marcos Angeleri", "in": "81"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
@@ -41705,7 +41705,7 @@
       [
         {"name": "Lionel Messi", "min": "25", "type": "G"},
         {"name": "Carlos Tevez", "min": "47", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "51", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "51", "type": "G"},
         {"name": "Sergio Agüero", "min": "72", "type": "G"}
       ],
       []
@@ -41730,7 +41730,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "73"},
+        {"name": "Maxi Rodríguez", "out": "73"},
         {"name": "Ángel Di María", "in": "73"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
@@ -41811,7 +41811,7 @@
         {"name": "Marcos Angeleri", "in": "69"},
         {"name": "Javier Mascherano"},
         {"name": "Emiliano Papa"},
-        {"name": "Maxi Rodriguez", "out": "57"},
+        {"name": "Maxi Rodríguez", "out": "57"},
         {"name": "Ángel Di María", "in": "57"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
@@ -41903,7 +41903,7 @@
     "coaches": [{"name": "Diego Maradona"}, {"name": "Eduardo Lara"}],
     "lineups": [
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Martin Demichelis"},
         {"name": "Cata Diaz"},
         {"name": "Jonas Gutierrez"},
@@ -41977,7 +41977,7 @@
         {"name": "Jefferson Montero", "in": "13"}
       ],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Martin Demichelis"},
         {"name": "Nicolás Otamendi"},
         {"name": "Jonas Gutierrez"},
@@ -41986,7 +41986,7 @@
         {"name": "Sebastian Alejandro Battaglia"},
         {"name": "Fernando Gago", "out": "75"},
         {"name": "Juan Sebastian Veron", "in": "75"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Javier Zanetti"},
         {"name": "Lionel Messi"},
         {"name": "Carlos Tevez", "out": "67"},
@@ -42032,7 +42032,7 @@
         {"name": "Roman Pavlyuchenko", "in": "46"}
       ],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Nicolas Burdisso"},
         {"name": "Nicolás Otamendi", "out": "46"},
         {"name": "Cata Diaz", "in": "46"},
@@ -42041,7 +42041,7 @@
         {"name": "Mario Bolatti", "out": "65"},
         {"name": "Sebastian Alejandro Battaglia", "in": "65"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "58"},
+        {"name": "Maxi Rodríguez", "out": "58"},
         {"name": "Jesus Datolo", "in": "58"},
         {"name": "Javier Zanetti"},
         {"name": "Sergio Agüero", "out": "63"},
@@ -42082,13 +42082,13 @@
     "coaches": [{"name": "Diego MARADONA"}, {"name": "DUNGA"}],
     "lineups": [
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Sebastian Dominguez"},
         {"name": "Nicolás Otamendi"},
         {"name": "Gabriel Heinze"},
         {"name": "Jesus Datolo"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "46"},
+        {"name": "Maxi Rodríguez", "out": "46"},
         {"name": "Sergio Agüero", "in": "46"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
@@ -42400,7 +42400,7 @@
         {"name": "Fernando Gago", "out": "75"},
         {"name": "Esteban Cambiasso", "in": "75"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "85"},
+        {"name": "Maxi Rodríguez", "out": "85"},
         {"name": "Ezequiel Lavezzi", "in": "85"},
         {"name": "Lionel Messi", "out": "83"},
         {"name": "Diego Perotti", "in": "83"},
@@ -42642,8 +42642,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Maxi Rodriguez", "min": "16", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "32", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "16", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "32", "type": "G"},
         {"name": "Ángel Di María", "min": "37", "type": "G"},
         {"name": "Carlos Tevez", "min": "63", "type": "G"},
         {"name": "Sergio Agüero", "min": "71", "type": "G"}
@@ -42671,7 +42671,7 @@
         {"name": "Mario Bolatti", "in": "59"},
         {"name": "Javier Pastore", "out": "74"},
         {"name": "Ariel Garce", "in": "74"},
-        {"name": "Maxi Rodriguez", "out": "46"},
+        {"name": "Maxi Rodríguez", "out": "46"},
         {"name": "Juan Sebastian Veron", "in": "46"},
         {"name": "Gonzalo Higuaín", "out": "68"},
         {"name": "Martin Palermo", "in": "68"},
@@ -42721,7 +42721,7 @@
         {"name": "Nicolas Burdisso", "in": "85"},
         {"name": "Javier Mascherano"},
         {"name": "Juan Sebastian Veron", "out": "74"},
-        {"name": "Maxi Rodriguez", "in": "74"},
+        {"name": "Maxi Rodríguez", "in": "74"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "79"},
         {"name": "Diego Milito", "in": "79"},
@@ -42783,7 +42783,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Ángel Di María"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín", "out": "82"},
         {"name": "Mario Bolatti", "in": "82"},
@@ -42850,7 +42850,7 @@
         {"name": "Nicolás Otamendi"},
         {"name": "Clemente Rodriguez"},
         {"name": "Mario Bolatti"},
-        {"name": "Maxi Rodriguez", "out": "63"},
+        {"name": "Maxi Rodríguez", "out": "63"},
         {"name": "Ángel Di María", "in": "63"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Lionel Messi"},
@@ -42888,7 +42888,7 @@
         {"name": "Ángel Di María", "out": "79"},
         {"name": "Jonas Gutierrez", "in": "79"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "86"},
+        {"name": "Maxi Rodríguez", "out": "86"},
         {"name": "Javier Pastore", "in": "86"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín"},
@@ -42947,7 +42947,7 @@
         {"name": "Ángel Di María", "out": "75"},
         {"name": "Sergio Agüero", "in": "75"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Lionel Messi"},
         {"name": "Gonzalo Higuaín"},
         {"name": "Carlos Tevez"}
@@ -43349,7 +43349,7 @@
         {"name": "Jozy Altidore"}
       ],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Nicolas Burdisso"},
         {"name": "Gabriel Milito"},
         {"name": "Marcos Rojo"},
@@ -43394,7 +43394,7 @@
         {"name": "Josue Martinez", "in": "88"}
       ],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Marcos Angeleri"},
         {"name": "Ezequiel Garay"},
         {"name": "Gabriel Milito", "out": "46"},
@@ -44181,7 +44181,7 @@
     "coaches": [{"name": "Alejandro Sabella"}, {"name": "Daniel Borghi"}],
     "lineups": [
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Nicolas Burdisso"},
         {"name": "Nicolás Otamendi"},
         {"name": "Marcos Rojo"},
@@ -44219,7 +44219,7 @@
     "lineups": [
       [],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "Nicolas Burdisso"},
         {"name": "Martin Demichelis"},
         {"name": "Nicolás Otamendi"},
@@ -44370,7 +44370,7 @@
         {"name": "Rodrigo Brana", "out": "46"},
         {"name": "Fernando Gago", "in": "46"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "70"},
+        {"name": "Maxi Rodríguez", "out": "70"},
         {"name": "Eduardo Salvio", "in": "70"},
         {"name": "José Sosa"},
         {"name": "Lionel Messi"},
@@ -44416,7 +44416,7 @@
         {"name": "Clemente Rodriguez"},
         {"name": "Pablo Zabaleta"},
         {"name": "Ángel Di María", "out": "82"},
-        {"name": "Maxi Rodriguez", "in": "82"},
+        {"name": "Maxi Rodríguez", "in": "82"},
         {"name": "Fernando Gago"},
         {"name": "Javier Mascherano"},
         {"name": "Lionel Messi"},
@@ -44619,7 +44619,7 @@
         {"name": "Ezequiel Garay"},
         {"name": "Marcos Rojo"},
         {"name": "Ángel Di María", "out": "89"},
-        {"name": "Maxi Rodriguez", "in": "89"},
+        {"name": "Maxi Rodríguez", "in": "89"},
         {"name": "Fernando Gago", "out": "60"},
         {"name": "Pablo Guinazu", "in": "60"},
         {"name": "Javier Mascherano"},
@@ -44675,7 +44675,7 @@
         {"name": "Clemente Rodriguez"},
         {"name": "Rodrigo Brana"},
         {"name": "Pablo Guinazu"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Manuel Martinez", "out": "87"},
         {"name": "Leandro Somoza", "in": "87"},
         {"name": "Hernan Barcos", "out": "76"},
@@ -44966,7 +44966,7 @@
         {"name": "Gonzalo Higuaín", "out": "80"},
         {"name": "Rodrigo Palacio", "in": "80"},
         {"name": "Ezequiel Lavezzi", "out": "84"},
-        {"name": "Maxi Rodriguez", "in": "84"}
+        {"name": "Maxi Rodríguez", "in": "84"}
       ],
       []
     ]
@@ -45125,7 +45125,7 @@
     "lineups": [
       [],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "José Basanta", "out": "64"},
         {"name": "Javier Mascherano", "in": "64"},
         {"name": "Clemente Rodriguez"},
@@ -45182,7 +45182,7 @@
         {"name": "Dani Osvaldo"}
       ],
       [
-        {"name": "Mariano Andujar"},
+        {"name": "Mariano Andújar"},
         {"name": "José Basanta"},
         {"name": "Federico Fernández"},
         {"name": "Ezequiel Garay", "out": "72"},
@@ -45193,7 +45193,7 @@
         {"name": "Érik Lamela", "out": "46"},
         {"name": "Éver Banega", "in": "46"},
         {"name": "Javier Mascherano", "out": "76"},
-        {"name": "Maxi Rodriguez", "in": "76"},
+        {"name": "Maxi Rodríguez", "in": "76"},
         {"name": "Hugo Campagnaro"},
         {"name": "Gonzalo Higuaín", "out": "61"},
         {"name": "Ezequiel Lavezzi", "in": "61"},
@@ -45216,7 +45216,7 @@
         {"name": "Sergio Agüero", "min": "32", "type": "G"},
         {"name": "Ángel Di María", "min": "49", "type": "G"},
         {"name": "Lionel Messi", "min": "52", "type": "P"},
-        {"name": "Maxi Rodriguez", "min": "90", "type": "G"}
+        {"name": "Maxi Rodríguez", "min": "90", "type": "G"}
       ]
     ],
     "cards": [[], [{"name": "Pablo Zabaleta", "min": "69", "type": "Y"}]],
@@ -45231,7 +45231,7 @@
         {"name": "Lucas Biglia"},
         {"name": "Ángel Di María"},
         {"name": "Fernando Gago", "out": "86"},
-        {"name": "Maxi Rodriguez", "in": "86"},
+        {"name": "Maxi Rodríguez", "in": "86"},
         {"name": "Lionel Messi"},
         {"name": "Sergio Agüero", "out": "76"},
         {"name": "Éver Banega", "in": "76"},
@@ -45273,7 +45273,7 @@
         {"name": "Leandro Somoza", "in": "90"},
         {"name": "Sergio Agüero"},
         {"name": "Ezequiel Lavezzi", "out": "87"},
-        {"name": "Maxi Rodriguez", "in": "87"},
+        {"name": "Maxi Rodríguez", "in": "87"},
         {"name": "Rodrigo Palacio", "out": "80"},
         {"name": "Érik Lamela", "in": "80"}
       ],
@@ -45294,8 +45294,8 @@
         {"name": "Edinson Cavani", "min": "49", "type": "G"}
       ],
       [
-        {"name": "Maxi Rodriguez", "min": "14", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "41", "type": "G"}
+        {"name": "Maxi Rodríguez", "min": "14", "type": "G"},
+        {"name": "Maxi Rodríguez", "min": "41", "type": "G"}
       ]
     ],
     "cards": [[], [{"name": "Érik Lamela", "min": "18", "type": "Y"}]],
@@ -45328,7 +45328,7 @@
         {"name": "Mauro Icardi", "in": "81"},
         {"name": "Érik Lamela", "out": "75"},
         {"name": "Marcos Rojo", "in": "75"},
-        {"name": "Maxi Rodriguez"},
+        {"name": "Maxi Rodríguez"},
         {"name": "Hugo Campagnaro"},
         {"name": "Rodrigo Palacio"}
       ]
@@ -45355,7 +45355,7 @@
         {"name": "Facundo Roncaglia", "out": "63"},
         {"name": "Pablo Zabaleta", "in": "63"},
         {"name": "Ricky Álvarez", "out": "79"},
-        {"name": "Maxi Rodriguez", "in": "79"},
+        {"name": "Maxi Rodríguez", "in": "79"},
         {"name": "Éver Banega", "out": "69"},
         {"name": "Lucas Biglia", "in": "69"},
         {"name": "Ángel Di María"},
@@ -45394,7 +45394,7 @@
         {"name": "Ángel Di María", "out": "86"},
         {"name": "Augusto Fernández", "in": "86"},
         {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodriguez", "out": "72"},
+        {"name": "Maxi Rodríguez", "out": "72"},
         {"name": "Lucas Biglia", "in": "72"},
         {"name": "Sergio Agüero", "out": "77"},
         {"name": "Érik Lamela", "in": "77"},
@@ -45456,7 +45456,7 @@
         {"name": "Marcos Rojo"},
         {"name": "Pablo Zabaleta"},
         {"name": "Angel Di Maria", "out": "90"},
-        {"name": "Maxi Rodriguez", "in": "90"},
+        {"name": "Maxi Rodríguez", "in": "90"},
         {"name": "Fernando Gago", "out": "57"},
         {"name": "Lucas Biglia", "in": "57"},
         {"name": "Gonzalo Higuaín", "out": "77"},
@@ -45482,7 +45482,7 @@
       [
         {"name": "Rodrigo Palacio", "min": "45+1", "type": "G"},
         {"name": "Javier Mascherano", "min": "51", "type": "G"},
-        {"name": "Maxi Rodriguez", "min": "64", "type": "G"}
+        {"name": "Maxi Rodríguez", "min": "64", "type": "G"}
       ],
       []
     ],
@@ -45510,7 +45510,7 @@
         {"name": "Fernando Gago", "out": "46"},
         {"name": "Lucas Biglia", "in": "46"},
         {"name": "Ezequiel Lavezzi", "out": "56"},
-        {"name": "Maxi Rodriguez", "in": "56"},
+        {"name": "Maxi Rodríguez", "in": "56"},
         {"name": "Lionel Messi"},
         {"name": "Rodrigo Palacio", "out": "76"},
         {"name": "Augusto Fernández", "in": "76"}
@@ -45582,7 +45582,7 @@
         {"name": "Angel Di Maria", "in": "57"},
         {"name": "Ezequiel Lavezzi", "out": "58"},
         {"name": "Lionel Messi", "in": "58"},
-        {"name": "Maxi Rodriguez", "out": "58"},
+        {"name": "Maxi Rodríguez", "out": "58"},
         {"name": "Sergio Agüero", "in": "58"}
       ],
       [
@@ -45642,7 +45642,7 @@
         {"name": "Federico Fernández"},
         {"name": "Angel Di Maria"},
         {"name": "Lionel Messi"},
-        {"name": "Maxi Rodriguez", "out": "46"},
+        {"name": "Maxi Rodríguez", "out": "46"},
         {"name": "Gonzalo Higuaín", "in": "46"},
         {"name": "Sergio Agüero", "out": "87"},
         {"name": "Lucas Biglia", "in": "87"}
@@ -45949,7 +45949,7 @@
         {"name": "Sergio Agüero", "in": "82"},
         {"name": "Lionel Messi"},
         {"name": "Ezequiel Lavezzi", "out": "101"},
-        {"name": "Maxi Rodriguez", "in": "101"}
+        {"name": "Maxi Rodríguez", "in": "101"}
       ]
     ],
     "penaltyShootout": [
@@ -46073,7 +46073,7 @@
       ],
       [
         {"name": "Sergio Romero", "out": "80"},
-        {"name": "Mariano Andujar", "in": "80"},
+        {"name": "Mariano Andújar", "in": "80"},
         {"name": "Federico Fernández"},
         {"name": "Javier Mascherano"},
         {"name": "Martin Demichelis"},
