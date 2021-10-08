@@ -51713,5 +51713,62 @@
     ],
     "info": {"youtube": [{"id": "tBvx4chqs9s"}]},
     "sources": ["Golazon", "Soccerway"]
+  },
+  {
+    "date": "2021-10-07",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {"name": "Estadio Defensores del Chaco", "city": "Asunción"},
+    "teams": [{"name": "Paraguay"}, {"name": "Argentina"}],
+    "score": [0, 0],
+    "result": "D",
+    "goals": [[], []],
+    "cards": [
+      [
+        {"name": "Mathías Villasanti", "min": "21", "type": "Y"},
+        {"name": "Júnior Alonso", "min": "65", "type": "Y"}
+      ],
+      []
+    ],
+    "coaches": [{"name": "Eduardo Berizzo"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Antony Silva"},
+        {"name": "Santiago Arzamendia", "out": "74"},
+        {"name": "Richard Sánchez", "in": "74"},
+        {"name": "Omar Alderete"},
+        {"name": "Gustavo Gómez"},
+        {"name": "Robert Rojas"},
+        {"name": "Júnior Alonso"},
+        {"name": "Jorge Morel", "out": "63"},
+        {"name": "Ángel Cardozo Lucena", "in": "63"},
+        {"name": "Mathías Villasanti", "out": "89"},
+        {"name": "Fabián Balbuena", "in": "89"},
+        {"name": "Miguel Almirón"},
+        {"name": "Antonio Sanabria", "out": "74"},
+        {"name": "Derlis González", "in": "74"},
+        {"name": "Ángel Romero", "out": "89"},
+        {"name": "Juan Escobar", "in": "89"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Cristian Romero"},
+        {"name": "Marcos Acuña", "out": "57"},
+        {"name": "Nicolás Tagliafico", "in": "57"},
+        {"name": "Nahuel Molina"},
+        {"name": "Giovani Lo Celso", "out": "76"},
+        {"name": "Nicolás González", "in": "76"},
+        {"name": "Angel Di Maria", "out": "67"},
+        {"name": "Guido Rodríguez", "in": "67"},
+        {"name": "Leandro Paredes"},
+        {"name": "Rodrigo De Paul", "out": "67"},
+        {"name": "Alejandro Gómez", "in": "67"},
+        {"name": "Joaquín Correa", "out": "76"},
+        {"name": "Julián Álvarez", "in": "76"},
+        {"name": "Lionel Messi"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
