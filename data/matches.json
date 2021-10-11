@@ -51770,5 +51770,68 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "slug": "argentina-uruguay-2",
+    "date": "2021-10-10",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio Monumental Antonio Vespucio Liberti",
+      "city": "Capital Federal, Ciudad de Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "38", "type": "G"},
+        {"name": "Rodrigo De Paul", "min": "44", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "62", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [[], []],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Óscar Tabárez"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi", "out": "81"},
+        {"name": "Nicolas Medina", "in": "81"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Cristian Romero"},
+        {"name": "Leandro Paredes", "out": "75"},
+        {"name": "Exequiel Palacios", "in": "75"},
+        {"name": "Giovani Lo Celso"},
+        {"name": "Rodrigo De Paul", "out": "65"},
+        {"name": "Angel Di Maria", "in": "65"},
+        {"name": "Nicolás González", "out": "75"},
+        {"name": "Julián Álvarez", "in": "75"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "65"},
+        {"name": "Joaquín Correa", "in": "65"}
+      ],
+      [
+        {"name": "Fernando Muslera"},
+        {"name": "Ronald Araújo", "out": "73"},
+        {"name": "Giovanni González", "in": "73"},
+        {"name": "Diego Godín"},
+        {"name": "Matías Viña", "out": "63"},
+        {"name": "Joaquín Piquerez", "in": "63"},
+        {"name": "Sebastián Coates"},
+        {"name": "Nahitan Nández", "out": "63"},
+        {"name": "Lucas Torreira", "in": "63"},
+        {"name": "Nicolás De La Cruz", "out": "46"},
+        {"name": "Darwin Núñez", "in": "46"},
+        {"name": "Mathías Vecino"},
+        {"name": "Brian Rodríguez", "out": "46"},
+        {"name": "Edinson Cavani", "in": "46"},
+        {"name": "Federico Valverde"},
+        {"name": "Luis Suárez"}
+      ]
+    ],
+    "info": {"youtube": [{"id": "25noGhuZltM"}]},
+    "sources": ["Golazon"]
   }
 ]
