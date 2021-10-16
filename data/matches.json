@@ -51833,5 +51833,64 @@
     ],
     "info": {"youtube": [{"id": "25noGhuZltM"}]},
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2021-10-14",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio Monumental Antonio Vespucio Liberti",
+      "city": "Capital Federal, Ciudad de Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Peru"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[{"name": "Lautaro Martínez", "min": "43", "type": "G"}], []],
+    "cards": [
+      [],
+      [
+        {"name": "Yoshimar Yotún", "min": "41", "type": "Y"},
+        {"name": "Raziel García", "min": "45+2", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Ricardo Gareca"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Cristian Romero"},
+        {"name": "Marcos Acuña"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Angel Di Maria", "out": "73"},
+        {"name": "Nicolás González", "in": "73"},
+        {"name": "Giovani Lo Celso", "out": "90+4"},
+        {"name": "Exequiel Palacios", "in": "90+4"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Leandro Paredes", "out": "73"},
+        {"name": "Guido Rodríguez", "in": "73"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "85"},
+        {"name": "Joaquín Correa", "in": "85"}
+      ],
+      [
+        {"name": "Pedro Gallese"},
+        {"name": "Alexander Callens"},
+        {"name": "Miguel Trauco"},
+        {"name": "Jhilmar Lora"},
+        {"name": "Carlos Zambrano"},
+        {"name": "Pedro Aquino"},
+        {"name": "Yoshimar Yotún", "out": "74"},
+        {"name": "Wilder Cartagena", "in": "74"},
+        {"name": "Christofer Gonzáles", "out": "85"},
+        {"name": "Marcos López", "in": "85"},
+        {"name": "Cristian Cueva"},
+        {"name": "Raziel García", "out": "73"},
+        {"name": "Gabriel Costa", "in": "73"},
+        {"name": "Gianluca Lapadula", "out": "60"},
+        {"name": "Jefferson Farfán", "in": "60"}
+      ]
+    ],
+    "info": {"youtube": [{"id": "slPoczNjxZY"}]},
+    "sources": ["Golazon"]
   }
 ]
