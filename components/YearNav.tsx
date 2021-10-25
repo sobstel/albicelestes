@@ -1,9 +1,16 @@
 import * as R from "remeda";
-import React, { useContext } from "react";
-import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
+import React, { ReactNode, useContext } from "react";
+import {
+  getItemsPos,
+  ScrollMenu,
+  VisibilityContext,
+} from "react-horizontal-scrolling-menu";
 import { MIN_YEAR, MAX_YEAR } from "config";
 import { Block, LinkAnchor } from "components/layout";
-import Item from "./Item";
+
+function Item({ children }: { children: ReactNode; itemId: string }) {
+  return <li className="px-2 inline-block">{children}</li>;
+}
 
 function LeftArrow() {
   const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
@@ -29,13 +36,28 @@ function RightArrow() {
   );
 }
 
+type scrollVisibilityApiType = React.ContextType<typeof VisibilityContext>;
+
 export default function YearNav({ activeYear }: { activeYear?: number }) {
+  const handleInit = ({
+    getItemById,
+    scrollToItem,
+  }: scrollVisibilityApiType) => {
+    if (activeYear) {
+      scrollToItem(getItemById(String(activeYear)), "auto", "center");
+    }
+  };
+
   return (
     <Block isNav hasBottomSeparator>
       <ul className="font-semibold">
-        <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+        <ScrollMenu
+          LeftArrow={LeftArrow}
+          RightArrow={RightArrow}
+          onInit={handleInit}
+        >
           {R.map(R.range(MIN_YEAR, MAX_YEAR + 1), (year) => (
-            <Item key={year} itemId={year}>
+            <Item itemId={String(year)}>
               <LinkAnchor href={`/${year}`} disabled={year === activeYear}>
                 {year}
               </LinkAnchor>
