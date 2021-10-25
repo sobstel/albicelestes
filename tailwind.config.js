@@ -14,6 +14,9 @@ module.exports = {
   },
   variants: {
     textColor: ["hover"],
+    extend: {
+      padding: ["first", "last"],
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
