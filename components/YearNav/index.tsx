@@ -20,8 +20,6 @@ function LeftArrow() {
 function RightArrow() {
   const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
 
-  console.log({ VisibilityContext: useContext(VisibilityContext) });
-
   return (
     <div className="ml-2">
       <LinkAnchor disabled={isLastItemVisible} onClick={() => scrollNext()}>
