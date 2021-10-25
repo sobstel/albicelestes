@@ -18,10 +18,12 @@
     "pluralize": "^8.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-horizontal-scrolling-menu": "^2.5.0",
     "remeda": "^0.0.30",
     "runtypes": "^6.4.1",
     "slugify": "^1.6.1",
-    "string-similarity": "^4.0.4"
+    "string-similarity": "^4.0.4",
+    "tailwind-scrollbar-hide": "^1.0.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.4.0",

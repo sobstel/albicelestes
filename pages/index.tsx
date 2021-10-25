@@ -3,7 +3,6 @@ import * as R from "remeda";
 import { fetchMatches } from "data";
 import { getMatchItem } from "helpers";
 import { MatchItem } from "types";
-import { MAX_YEAR } from "config";
 import { Page, Header } from "components/layout";
 import MatchList from "components/MatchList";
 import YearNav from "components/YearNav";
@@ -25,7 +24,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
 export default function YearIndexPage({ matches }: Props) {
   return (
     <Page title={["Argentina National Team Archive"]}>
-      <YearNav year={MAX_YEAR} isYearInactive />
+      <YearNav />
       <Header
         top
         text="Argentina"

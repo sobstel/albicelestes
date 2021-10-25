@@ -12,7 +12,7 @@ export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
             <li key={_catalog} className="mr-4 inline-flex">
               <LinkAnchor
                 href={`/players/${_catalog}`}
-                active={catalog === _catalog}
+                disabled={catalog === _catalog}
               >
                 {_catalog}
               </LinkAnchor>

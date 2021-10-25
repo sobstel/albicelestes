@@ -70,7 +70,7 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
     <Page title={["Matches", year]}>
       {isAll ? (
         <>
-          <YearNav year={MAX_YEAR} isYearInactive />
+          <YearNav />
           <Header
             top
             text="Argentina"
@@ -82,7 +82,7 @@ export default function YearIndexPage({ year, matches, stat }: Props) {
         </>
       ) : (
         <>
-          <YearNav year={parseInt(year, 10)} />
+          <YearNav activeYear={parseInt(year, 10)} />
           <YearHeader year={year} />
           {stat ? <p className="mb-4">{statPhrase(stat)}</p> : null}
         </>

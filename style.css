@@ -21,3 +21,13 @@
     @apply pr-0;
   }
 }
+
+@layer utilities {
+  /* https://stackoverflow.com/a/4407335/219272 */
+  .select-none-x {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    user-select: none; /* Chrome, Edge, Opera, Firefox */
+  }
+}
