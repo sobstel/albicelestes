@@ -48,7 +48,7 @@ export async function getStaticProps(context: Context) {
 export default function YearStatsPage({ players, year }: Props) {
   return (
     <Page title={["Players"]}>
-      <YearNav year={parseInt(year, 10)} />
+      <YearNav activeYear={parseInt(year, 10)} />
       <YearHeader year={year} />
 
       <Block>

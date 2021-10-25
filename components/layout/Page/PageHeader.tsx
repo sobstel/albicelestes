@@ -5,10 +5,10 @@ import Logo from "./Logo";
 
 function NavLink({ href, children }: { href: string; children: ReactNode }) {
   const router = useRouter();
-  const active = router?.pathname.startsWith(href);
+  const disabled = router?.pathname.startsWith(href);
 
   return (
-    <LinkAnchor href={href} active={active} important>
+    <LinkAnchor href={href} disabled={disabled} important>
       {children}
     </LinkAnchor>
   );

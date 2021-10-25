@@ -26,7 +26,7 @@ export default function Header({ text, top, nav }: Props) {
             <ul className="inline-flex">
               {nav.map(({ href, text }) => (
                 <li key={href} className="ml-2">
-                  <LinkAnchor href={href} active={router.asPath === href}>
+                  <LinkAnchor href={href} disabled={router.asPath === href}>
                     {text}
                   </LinkAnchor>
                 </li>

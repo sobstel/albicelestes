@@ -1,6 +1,6 @@
 import React, { ForwardedRef, forwardRef, ReactNode } from "react";
 
-type Props = { children: ReactNode };
+type Props = { children: ReactNode; itemId: number };
 
 function Item({ children }: Props, ref: ForwardedRef<HTMLLIElement>) {
   return (

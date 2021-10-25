@@ -1,139 +1,50 @@
 import * as R from "remeda";
-import React, { ReactNode, useState, useEffect, useRef, useMemo } from "react";
+import React, { useContext } from "react";
+import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { MIN_YEAR, MAX_YEAR } from "config";
-import useClientWidth from "hooks/useClientWidth";
 import { Block, LinkAnchor } from "components/layout";
 import Item from "./Item";
-import NavLink from "./NavLink";
-import ToggleLink from "./ToggleLink";
 
-function FadeIn({ children }: { children: ReactNode }) {
-  const [opacity, setOpacity] = useState(0);
-
-  useEffect(() => {
-    setOpacity(100);
-  }, []);
+function LeftArrow() {
+  const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
 
   return (
-    <div
-      className={`transition-opacity duration-300 ease-in-out opacity-${opacity}`}
-    >
-      {children}
+    <div className="mr-2">
+      <LinkAnchor disabled={isFirstItemVisible} onClick={() => scrollPrev()}>
+        {"<<"}
+      </LinkAnchor>
     </div>
   );
 }
 
-function yearItems(startYear: number, endYear: number) {
-  if (endYear < startYear) return null;
-  const years = R.range(startYear, endYear + 1);
-  return years.map((year) => <NavLink key={year} year={year} />);
-}
+function RightArrow() {
+  const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
 
-function yearRange({
-  width,
-  year,
-  itemWidth,
-}: {
-  width: number;
-  itemWidth: number;
-  year: number;
-}) {
-  // subtracts toggle links and active item
-  const itemsNum = Math.floor(width / itemWidth) - 3;
-
-  let prevItemsNum = Math.max(Math.floor(itemsNum / 2), 0);
-  let nextItemsNum = itemsNum - prevItemsNum;
-
-  if (year - prevItemsNum < MIN_YEAR) {
-    prevItemsNum = year - MIN_YEAR;
-    nextItemsNum = itemsNum - prevItemsNum;
-  }
-
-  if (year + nextItemsNum > MAX_YEAR) {
-    nextItemsNum = MAX_YEAR - year;
-    prevItemsNum = itemsNum - nextItemsNum;
-  }
-
-  let startYear = year - prevItemsNum;
-  let endYear = year + nextItemsNum;
-
-  // show more year items if one of toggle items not displayed
-  if (startYear === MIN_YEAR) endYear += 1;
-  if (endYear === MAX_YEAR) startYear -= 1;
-
-  return [startYear, endYear];
-}
-
-export default function YearNav({
-  year,
-  isYearInactive,
-}: {
-  year: number;
-  isYearInactive?: boolean;
-}) {
-  const [prevYearsActive, setPrevYearsActive] = useState(false);
-  const [nextYearsActive, setNextYearsActive] = useState(false);
-
-  const togglePrevYears = () => {
-    setNextYearsActive(false);
-    setPrevYearsActive((prevYearsActive) => !prevYearsActive);
-  };
-  const toggleNextYears = () => {
-    setPrevYearsActive(false);
-    setNextYearsActive((nextYearsActive) => !nextYearsActive);
-  };
-
-  useEffect(() => {
-    if (prevYearsActive) setPrevYearsActive(false);
-    if (nextYearsActive) setNextYearsActive(false);
-  }, [year]);
-
-  const containerRef = useRef<HTMLDivElement>(null);
-  const clientWidth = useClientWidth(containerRef);
-  const activeItemRef = useRef<HTMLLIElement>(null);
-
-  // useMemo to avoid repaint/reflow on activeItem witdh reading
-  const [startYear, endYear] = useMemo(() => {
-    if (!clientWidth) return [year, year];
-    const itemWidth = activeItemRef?.current?.clientWidth || 50;
-    return yearRange({ width: clientWidth, itemWidth, year });
-  }, [clientWidth, year]);
+  console.log({ VisibilityContext: useContext(VisibilityContext) });
 
   return (
-    <Block isNav hasBottomSeparator ref={containerRef}>
-      <ul className="-mx-2 font-semibold">
-        {startYear > MIN_YEAR && (
-          <ToggleLink
-            onClick={togglePrevYears}
-            active={prevYearsActive}
-            label={"<<"}
-          />
-        )}
-        {yearItems(startYear, year - 1)}
-        <Item ref={activeItemRef}>
-          <LinkAnchor href={`/${year}`} active={!isYearInactive}>
-            {year}
-          </LinkAnchor>
-        </Item>
-        {yearItems(year + 1, endYear)}
-        {endYear < MAX_YEAR && (
-          <ToggleLink
-            onClick={toggleNextYears}
-            active={nextYearsActive}
-            label={">>"}
-          />
-        )}
+    <div className="ml-2">
+      <LinkAnchor disabled={isLastItemVisible} onClick={() => scrollNext()}>
+        {">>"}
+      </LinkAnchor>
+    </div>
+  );
+}
+
+export default function YearNav({ activeYear }: { activeYear?: number }) {
+  return (
+    <Block isNav hasBottomSeparator>
+      <ul className="font-semibold">
+        <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+          {R.map(R.range(MIN_YEAR, MAX_YEAR + 1), (year) => (
+            <Item key={year} itemId={year}>
+              <LinkAnchor href={`/${year}`} disabled={year === activeYear}>
+                {year}
+              </LinkAnchor>
+            </Item>
+          ))}
+        </ScrollMenu>
       </ul>
-      {prevYearsActive && (
-        <FadeIn>
-          <ul>{yearItems(MIN_YEAR, startYear - 1)?.reverse()}</ul>
-        </FadeIn>
-      )}
-      {nextYearsActive && (
-        <FadeIn>
-          <ul>{yearItems(endYear + 1, MAX_YEAR)}</ul>
-        </FadeIn>
-      )}
     </Block>
   );
 }

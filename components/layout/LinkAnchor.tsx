@@ -1,22 +1,53 @@
 import classNames from "classnames";
-import React, { ReactNode } from "react";
+import React, { MouseEvent, ReactNode } from "react";
 import NextLink from "next/link";
 
 type Props = {
-  href: string;
+  href?: string;
   children: ReactNode;
   important?: boolean;
   title?: string;
   rel?: string;
-  active?: boolean;
+  disabled?: boolean;
+  onClick?: () => void;
 };
 
 export default function LinkAnchor(props: Props) {
-  const anchorClass = classNames({
-    "text-black": props.active,
-    "text-link hover:text-link-hover": !props.active,
+  const anchorClass = classNames("select-none select-none-x", {
+    "text-black": props.disabled,
+    "text-link hover:text-link-hover cursor-pointer": !props.disabled,
     "font-semibold": props.important,
   });
+
+  if (props.disabled) {
+    return (
+      <span className={anchorClass} title={props.title}>
+        {props.children}
+      </span>
+    );
+  }
+
+  const handleClick = (event: MouseEvent) => {
+    if (props.onClick) {
+      event.preventDefault();
+      props.onClick();
+    }
+  };
+
+  const anchor = (
+    <a
+      className={anchorClass}
+      title={props.title}
+      rel={props.rel}
+      onClick={handleClick}
+    >
+      {props.children}
+    </a>
+  );
+
+  if (!props.href) {
+    return anchor;
+  }
 
   // external link
   if (props.href.startsWith("http")) {
@@ -32,11 +63,5 @@ export default function LinkAnchor(props: Props) {
     );
   }
 
-  return (
-    <NextLink href={props.href}>
-      <a className={anchorClass} title={props.title} rel={props.rel}>
-        {props.children}
-      </a>
-    </NextLink>
-  );
+  return <NextLink href={props.href}>{anchor}</NextLink>;
 }
