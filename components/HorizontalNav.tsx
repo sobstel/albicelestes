@@ -8,10 +8,11 @@ function Item({ children }: { children: ReactNode; itemId: string }) {
 }
 
 function LeftArrow() {
-  const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
+  const { initComplete, isFirstItemVisible, scrollPrev } =
+    useContext(VisibilityContext);
   const handleClick = () => scrollPrev();
 
-  if (isFirstItemVisible) {
+  if (!initComplete || isFirstItemVisible) {
     return null;
   }
 
@@ -23,10 +24,11 @@ function LeftArrow() {
 }
 
 function RightArrow() {
-  const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
+  const { initComplete, isLastItemVisible, scrollNext } =
+    useContext(VisibilityContext);
   const handleClick = () => scrollNext();
 
-  if (isLastItemVisible) {
+  if (!initComplete && isLastItemVisible) {
     return null;
   }
 
