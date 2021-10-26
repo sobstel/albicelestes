@@ -1,25 +1,21 @@
 import React from "react";
-import { Block, LinkAnchor } from "components/layout";
+import { Block } from "components/layout";
+import HorizontalNav from "components/HorizontalNav";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 
 export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
+  const items = ALPHABET.map((_catalog) => ({
+    id: _catalog,
+    href: `/players/${_catalog}`,
+    text: _catalog,
+  }));
+
   return (
     <Block isNav hasBottomSeparator>
-      <ul className="font-semibold uppercase">
-        {ALPHABET.map((_catalog) => {
-          return (
-            <li key={_catalog} className="mr-4 inline-flex">
-              <LinkAnchor
-                href={`/players/${_catalog}`}
-                disabled={catalog === _catalog}
-              >
-                {_catalog}
-              </LinkAnchor>
-            </li>
-          );
-        })}
-      </ul>
+      <div className="font-semibold uppercase">
+        <HorizontalNav items={items} activeItemId={catalog} />
+      </div>
     </Block>
   );
 }

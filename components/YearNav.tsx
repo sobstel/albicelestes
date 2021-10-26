@@ -1,68 +1,21 @@
 import * as R from "remeda";
-import React, { ReactNode, useContext } from "react";
-import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
+import React from "react";
 import { MIN_YEAR, MAX_YEAR } from "config";
-import { Block, LinkAnchor } from "components/layout";
-
-function Item({ children }: { children: ReactNode; itemId: string }) {
-  return <>{children}</>;
-}
-
-function LeftArrow() {
-  const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
-
-  return (
-    <div className="mr-4">
-      <LinkAnchor disabled={isFirstItemVisible} onClick={() => scrollPrev()}>
-        {"<<"}
-      </LinkAnchor>
-    </div>
-  );
-}
-
-function RightArrow() {
-  const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
-
-  return (
-    <div className="ml-4">
-      <LinkAnchor disabled={isLastItemVisible} onClick={() => scrollNext()}>
-        {">>"}
-      </LinkAnchor>
-    </div>
-  );
-}
-
-type scrollVisibilityApiType = React.ContextType<typeof VisibilityContext>;
+import { Block } from "components/layout";
+import HorizontalNav from "components/HorizontalNav";
 
 export default function YearNav({ activeYear }: { activeYear?: number }) {
-  const handleInit = ({
-    getItemById,
-    scrollToItem,
-  }: scrollVisibilityApiType) => {
-    if (activeYear) {
-      scrollToItem(getItemById(String(activeYear)), "auto", "center");
-    }
-  };
+  const items = R.map(R.range(MIN_YEAR, MAX_YEAR + 1), (year) => ({
+    id: String(year),
+    href: `/${year}`,
+    text: String(year),
+  }));
 
   return (
     <Block isNav hasBottomSeparator>
-      <ul className="font-semibold">
-        <ScrollMenu
-          LeftArrow={LeftArrow}
-          RightArrow={RightArrow}
-          onInit={handleInit}
-          scrollContainerClassName="scrollbar-hide"
-          itemClassName="pr-4 last:pr-0 inline-block"
-        >
-          {R.map(R.range(MIN_YEAR, MAX_YEAR + 1), (year) => (
-            <Item itemId={String(year)}>
-              <LinkAnchor href={`/${year}`} disabled={year === activeYear}>
-                {year}
-              </LinkAnchor>
-            </Item>
-          ))}
-        </ScrollMenu>
-      </ul>
+      <div className="font-semibold">
+        <HorizontalNav items={items} activeItemId={String(activeYear)} />
+      </div>
     </Block>
   );
 }
