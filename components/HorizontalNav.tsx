@@ -1,7 +1,12 @@
 import * as R from "remeda";
-import React, { ReactNode, useContext } from "react";
+import React, { ContextType, ReactNode, useContext } from "react";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { LinkAnchor } from "components/layout";
+
+type Props = {
+  items: ReadonlyArray<{ id: string; href: string; text: string }>;
+  activeItemId?: string;
+};
 
 function Item({ children }: { children: ReactNode; itemId: string }) {
   return <>{children}</>;
@@ -39,18 +44,11 @@ function RightArrow() {
   );
 }
 
-type scrollVisibilityApiType = React.ContextType<typeof VisibilityContext>;
-
-type Props = {
-  items: ReadonlyArray<{ id: string; href: string; text: string }>;
-  activeItemId?: string;
-};
-
 export default function HorizontalNav({ items, activeItemId }: Props) {
   const handleInit = ({
     getItemById,
     scrollToItem,
-  }: scrollVisibilityApiType) => {
+  }: ContextType<typeof VisibilityContext>) => {
     if (activeItemId) {
       scrollToItem(getItemById(activeItemId), "auto", "center");
     }
