@@ -51893,5 +51893,58 @@
     ],
     "info": {"youtube": [{"id": "slPoczNjxZY"}]},
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2021-11-12",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {"name": "Estadio Campeón del Siglo", "city": "Montevideo"},
+    "teams": [{"name": "Uruguay"}, {"name": "Argentina"}],
+    "score": [0, 1],
+    "result": "W",
+    "goals": [[], [{"name": "Angel Di Maria", "min": "7", "type": "G"}]],
+    "cards": [
+      [{"name": "Martín Cáceres", "min": "48", "type": "Y"}],
+      [{"name": "Paulo Dybala", "min": "18", "type": "Y"}]
+    ],
+    "coaches": [{"name": "Óscar Tabárez"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Fernando Muslera"},
+        {"name": "José Giménez"},
+        {"name": "Diego Godín"},
+        {"name": "Martín Cáceres"},
+        {"name": "Joaquín Piquerez"},
+        {"name": "Lucas Torreira"},
+        {"name": "Mathías Vecino", "out": "64"},
+        {"name": "Agustín Álvarez", "in": "64"},
+        {"name": "Rodrigo Bentancur", "out": "76"},
+        {"name": "Mauro Arambarri", "in": "76"},
+        {"name": "Nahitan Nández", "out": "81"},
+        {"name": "Fernando Gorriarán", "in": "81"},
+        {"name": "Brian Rodríguez", "out": "46"},
+        {"name": "Facundo Torres", "in": "46"},
+        {"name": "Luis Suárez"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina"},
+        {"name": "Cristian Romero"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Acuña"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Giovani Lo Celso", "out": "76"},
+        {"name": "Lionel Messi", "in": "76"},
+        {"name": "Rodrigo De Paul", "out": "81"},
+        {"name": "Exequiel Palacios", "in": "81"},
+        {"name": "Angel Di Maria", "out": "55"},
+        {"name": "Ángel Correa", "in": "55"},
+        {"name": "Paulo Dybala", "out": "46"},
+        {"name": "Joaquín Correa", "in": "46"},
+        {"name": "Lautaro Martínez", "out": "55"},
+        {"name": "Alejandro Gómez", "in": "55"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
