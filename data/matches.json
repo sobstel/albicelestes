@@ -51946,5 +51946,70 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "slug": "argentina-brazil-2",
+    "date": "2021-11-16",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio San Juan del Bicentenario",
+      "city": "San Juan, Provincia de San Juan"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
+    "score": [0, 0],
+    "result": "D",
+    "goals": [[], []],
+    "cards": [
+      [
+        {"name": "Leandro Paredes", "min": "45+1", "type": "Y"},
+        {"name": "Cristian Romero", "min": "50", "type": "Y"},
+        {"name": "Germán Pezzella", "min": "59", "type": "Y"},
+        {"name": "Marcos Acuña", "min": "76", "type": "Y"}
+      ],
+      [
+        {"name": "Lucas Paquetá", "min": "45", "type": "Y"},
+        {"name": "Fabinho", "min": "73", "type": "Y"},
+        {"name": "Antony", "min": "76", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Tite"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina"},
+        {"name": "Marcos Acuña"},
+        {"name": "Cristian Romero", "out": "53"},
+        {"name": "Germán Pezzella", "in": "53"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Leandro Paredes", "out": "46"},
+        {"name": "Lisandro Martínez", "in": "46"},
+        {"name": "Giovani Lo Celso", "out": "86"},
+        {"name": "Nicolás Domínguez", "in": "86"},
+        {"name": "Angel Di Maria", "out": "75"},
+        {"name": "Julián Álvarez", "in": "75"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "46"},
+        {"name": "Joaquín Correa", "in": "46"}
+      ],
+      [
+        {"name": "Alisson Becker"},
+        {"name": "Danilo"},
+        {"name": "Alex Sandro"},
+        {"name": "Marquinhos"},
+        {"name": "Eder Militão"},
+        {"name": "Fabinho"},
+        {"name": "Fred"},
+        {"name": "Lucas Paquetá", "out": "79"},
+        {"name": "Gerson Santos da Silva", "in": "79"},
+        {"name": "Raphinha", "out": "69"},
+        {"name": "Antony", "in": "69"},
+        {"name": "Vinícius Júnior"},
+        {"name": "Matheus Cunha", "out": "86"},
+        {"name": "Gabriel Jesus", "in": "86"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
