@@ -11,7 +11,7 @@ process.on("unhandledRejection", (reason) => {
     message.error(reason.stack ?? "");
   } else {
     spinner.error("Unhandled rejection");
-    message.error(reason?.toString() ?? "");
+    message.error((reason as Error)?.toString() ?? "");
   }
 });
 
