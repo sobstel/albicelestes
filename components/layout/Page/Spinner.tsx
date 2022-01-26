@@ -37,7 +37,7 @@ export default function Spinner() {
           border-left-color: #000;
           border-radius: 50%;
 
-          -webkit-animation: pinner 400ms linear infinite;
+          -webkit-animation: spinner 400ms linear infinite;
           animation: spinner 400ms linear infinite;
         }
 
