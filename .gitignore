@@ -30,4 +30,5 @@ yarn-error.log*
 .now
 .vercel
 stuff/
+.idea
 

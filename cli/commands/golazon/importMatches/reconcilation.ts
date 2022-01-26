@@ -50,6 +50,22 @@ function setCachedName(person: Golazon.Person, teamSlug: string, name: string) {
   saveData(teamCacheResource, playerNames);
 }
 
+// Get name from the reconciler that cannot be commited into repository
+async function getNameFromProprietaryReconciler(
+  playerId: string | undefined
+): Promise<string | void> {
+  if (!playerId) {
+    return;
+  }
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const proprietaryReconciler = require("./proprietaryReconciler");
+    return await proprietaryReconciler(playerId);
+  } catch (e) {
+    return;
+  }
+}
+
 export async function reconcilePlayer(
   player: Golazon.Player,
   teamSlug: string
@@ -117,7 +133,8 @@ export async function reconcilePlayer(
       type: "input",
       name: "name",
       message,
-      default: player.name,
+      default:
+        (await getNameFromProprietaryReconciler(playerId)) ?? player.name,
     },
   ]);
 
@@ -159,7 +176,9 @@ export async function reconcileCoach(
       type: "input",
       name: "name",
       message: `Unrecognized coach [${teamSlug} > ${coach?.["person_id"]}: ${coach?.name}]`,
-      default: coach?.name,
+      default:
+        (await getNameFromProprietaryReconciler(coach?.["person_id"])) ??
+        coach?.name,
     },
   ]);
 
