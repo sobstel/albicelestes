@@ -23,9 +23,12 @@ const toSlug = (match: Golazon.Match, dbMatches: Array<Match>) => {
 
   const prevSlugsCount = R.pipe(
     dbMatches,
-    R.filter((dbMatch) => dbMatch.date < match.date),
     R.filter((dbMatch) => getMatchYear(dbMatch) === year),
-    R.filter((dbMatch) => getMatchSlug(dbMatch).indexOf(slug) === 0)
+    R.filter((dbMatch) => getMatchSlug(dbMatch).indexOf(slug) === 0),
+    R.filter((dbMatch) =>
+      // in case dates are slightly wrong, move date more behind
+      dayjs(dbMatch.date).isBefore(dayjs(match.date).subtract(3, "day"))
+    )
   )?.length;
 
   if (!prevSlugsCount) {
