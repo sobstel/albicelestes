@@ -26,6 +26,7 @@ Database: `/data/` (main file: `/data/matches.json`)
 
 ### Specific rules
 
+- Date: local date
 - Final score: FT or AET (if aet or pen)
 - Result: score (+ pen), eg. if score is 2-2 p. 5-4, then first team marked as winner (W) <sup>\*</sup>
 
