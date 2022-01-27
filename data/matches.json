@@ -46147,8 +46147,8 @@
       "city": "Rio de Janeiro, Rio de Janeiro"
     },
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
-    "score": [0, 0],
-    "result": "D",
+    "score": [1, 0],
+    "result": "W",
     "goals": [[{"name": "Mario Götze", "min": "113", "type": "G"}], []],
     "cards": [
       [
