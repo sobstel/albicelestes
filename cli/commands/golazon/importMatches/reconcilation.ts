@@ -104,7 +104,7 @@ export async function reconcilePlayer(
     R.reverse()
   );
 
-  const message = `Unrecognized player [${teamSlug} > ${playerId}: ${player.name}]`;
+  let message = `Unrecognized player [${teamSlug} > ${playerId}: ${player.name}]`;
 
   if (suggestedPlayers.length > 0) {
     const { name } = await inquirer.prompt([
@@ -128,13 +128,14 @@ export async function reconcilePlayer(
     }
   }
 
+  message += ` [${await getNameFromProprietaryReconciler(playerId)}]`;
+
   const { name } = await inquirer.prompt([
     {
       type: "input",
       name: "name",
       message,
-      default:
-        (await getNameFromProprietaryReconciler(playerId)) ?? player.name,
+      default: player.name,
     },
   ]);
 
