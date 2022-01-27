@@ -34217,7 +34217,7 @@
     "date": "1998-05-14",
     "competition": "Friendly",
     "venue": {"name": "Estadio Olimpico, Cordoba"},
-    "teams": [{"name": "Argentina"}, {"name": "Bosnia and Herzegovina"}],
+    "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
@@ -43027,7 +43027,7 @@
     "date": "2010-08-11",
     "competition": "Friendly",
     "venue": {"name": "Aviva Stadium", "city": "Dublin"},
-    "teams": [{"name": "Republic of Ireland"}, {"name": "Argentina"}],
+    "teams": [{"name": "Ireland"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Angel Di Maria", "min": "20", "type": "G"}]],
