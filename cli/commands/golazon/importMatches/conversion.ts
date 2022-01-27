@@ -43,6 +43,9 @@ const toCompetition = (match: Golazon.Match): string => {
   if (name === "WC Qualification South America") {
     return "World Cup Quals";
   }
+  if (name === "Copa America") {
+    return "Copa América";
+  }
   if (name === "Friendlies") {
     return "Friendly";
   }
