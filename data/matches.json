@@ -43764,7 +43764,7 @@
   {
     "slug": "argentina-bolivia-2",
     "date": "2011-07-01",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Único Diego Armando Maradona",
@@ -43828,7 +43828,7 @@
   {
     "slug": "argentina-colombia-2",
     "date": "2011-07-06",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Brigadier General Estanislao López",
@@ -43885,7 +43885,7 @@
   {
     "slug": "argentina-costa-rica-2",
     "date": "2011-07-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {
       "name": "Estadio Mario Alberto Kempes",
@@ -43953,7 +43953,7 @@
   },
   {
     "date": "2011-07-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Quarter-finals",
     "venue": {
       "name": "Estadio Brigadier General Estanislao López",
@@ -47015,7 +47015,7 @@
   },
   {
     "date": "2015-06-13",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estadio La Portada de La Serena", "city": "La Serena"},
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
@@ -47083,7 +47083,7 @@
   },
   {
     "date": "2015-06-16",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estadio La Portada de La Serena", "city": "La Serena"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
@@ -47140,7 +47140,7 @@
   },
   {
     "date": "2015-06-20",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Estadio Sausalito", "city": "Viña del Mar"},
     "teams": [{"name": "Argentina"}, {"name": "Jamaica"}],
@@ -47197,7 +47197,7 @@
   },
   {
     "date": "2015-06-26",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Quarter-finals",
     "venue": {"name": "Estadio Sausalito", "city": "Viña del Mar"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
@@ -47342,7 +47342,7 @@
   },
   {
     "date": "2015-07-04",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Final",
     "venue": {
       "name": "Estadio Nacional Julio Martínez Prádanos",
@@ -47988,7 +47988,7 @@
   },
   {
     "date": "2016-06-07",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Levi's Stadium", "city": "Santa Clara, California"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
@@ -48052,7 +48052,7 @@
   },
   {
     "date": "2016-06-11",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Soldier Field", "city": "Chicago, Illinois"},
     "teams": [{"name": "Argentina"}, {"name": "Panama"}],
@@ -48124,7 +48124,7 @@
   {
     "slug": "argentina-bolivia-2",
     "date": "2016-06-15",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Group Stage",
     "venue": {"name": "Lumen Field", "city": "Seattle, Washington"},
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
@@ -48191,7 +48191,7 @@
   },
   {
     "date": "2016-06-18",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Quarter-finals",
     "venue": {"name": "Gillette Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
@@ -48254,7 +48254,7 @@
   },
   {
     "date": "2016-06-22",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Semi-finals",
     "venue": {"name": "NRG Stadium", "city": "Houston, Texas"},
     "teams": [{"name": "United States"}, {"name": "Argentina"}],
@@ -48310,7 +48310,7 @@
   {
     "slug": "argentina-chile-2",
     "date": "2016-06-27",
-    "competition": "Copa America",
+    "competition": "Copa América",
     "round": "Final",
     "venue": {"name": "MetLife Stadium", "city": "East Rutherford, New Jersey"},
     "teams": [{"name": "Argentina"}, {"name": "Chile"}],
