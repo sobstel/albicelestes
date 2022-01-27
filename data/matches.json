@@ -38713,13 +38713,13 @@
     "cards": [
       [
         {"name": "Carmelo Angulo", "type": "Y"},
-        {"name": "Lorgio Alvarez", "type": "Y"}
+        {"name": "Lorgio Álvarez", "type": "Y"}
       ],
       [{"name": "Maxi Rodríguez", "type": "Y"}]
     ],
     "lineups": [
       [
-        {"name": "Lorgio Alvarez"},
+        {"name": "Lorgio Álvarez"},
         {"name": "Ronald Raldes"},
         {"name": "Oscar Sanchez"},
         {"name": "Carmelo Angulo", "out": "69"},
@@ -43811,7 +43811,7 @@
         {"name": "Luis Gutierrez"},
         {"name": "Ronald Rivero"},
         {"name": "Ronald Raldes"},
-        {"name": "Lorgio Álvare"},
+        {"name": "Lorgio Álvarez"},
         {"name": "Wálter Flores"},
         {"name": "Jaime Robles"},
         {"name": "Joselito Vaca", "out": "64"},
