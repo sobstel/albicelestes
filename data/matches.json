@@ -43255,7 +43255,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-venezuela-2",
     "date": "2011-03-16",
     "competition": "Friendly",
     "venue": {
@@ -43376,7 +43375,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "costa-rica-argentina-2",
     "date": "2011-03-29",
     "competition": "Friendly",
     "venue": {"name": "Estadio Nacional de Costa Rica", "city": "San José"},
@@ -43762,7 +43760,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-bolivia-2",
     "date": "2011-07-01",
     "competition": "Copa América",
     "round": "Group Stage",
@@ -43826,7 +43823,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-colombia-2",
     "date": "2011-07-06",
     "competition": "Copa América",
     "round": "Group Stage",
@@ -43883,7 +43879,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-costa-rica-2",
     "date": "2011-07-11",
     "competition": "Copa América",
     "round": "Group Stage",
@@ -44145,7 +44140,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-brazil-2",
     "date": "2011-09-14",
     "competition": "Friendly",
     "venue": {
@@ -44194,7 +44188,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "brazil-argentina-2",
     "date": "2011-09-28",
     "competition": "Friendly",
     "venue": {
@@ -44322,7 +44315,7 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "venezuela-argentina-3",
+    "slug": "venezuela-argentina-2",
     "date": "2011-10-11",
     "competition": "World Cup Quals",
     "round": "Group Stage",
