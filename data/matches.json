@@ -44817,7 +44817,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "peru-argentina-2",
     "date": "2012-09-11",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -44940,7 +44939,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-uruguay-2",
     "date": "2012-10-12",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -45005,7 +45003,6 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "chile-argentina-2",
     "date": "2012-10-16",
     "competition": "World Cup Quals",
     "round": "Group Stage",
@@ -45118,7 +45115,7 @@
     "sources": ["Golazon"]
   },
   {
-    "slug": "argentina-brazil-3",
+    "slug": "argentina-brazil-2",
     "date": "2012-11-21",
     "competition": "Friendly",
     "venue": {
