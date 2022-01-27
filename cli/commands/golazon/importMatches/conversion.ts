@@ -187,6 +187,11 @@ export const toMatch = async (
   const awayTeamSlug = getTeamSlug({ name: match["away_name"] });
   const round = toRound(match);
 
+  const existingDbMatch = R.find(
+    dbMatches,
+    (dbMatch) => dbMatch.date === match.date
+  );
+
   const dbMatch: Match = {
     ...(slug && { slug }),
     date: toDate(match),
@@ -201,10 +206,14 @@ export const toMatch = async (
     cards: await toCards(match),
     coaches: [
       {
-        name: await reconcileCoach(match["home_coach"], homeTeamSlug),
+        name:
+          existingDbMatch?.coaches?.[0]?.name ||
+          (await reconcileCoach(match["home_coach"], homeTeamSlug)),
       },
       {
-        name: await reconcileCoach(match["away_coach"], awayTeamSlug),
+        name:
+          existingDbMatch?.coaches?.[1]?.name ||
+          (await reconcileCoach(match["away_coach"], awayTeamSlug)),
       },
     ],
     lineups: [
