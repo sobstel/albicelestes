@@ -52570,5 +52570,81 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-01-27",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {"name": "Estadio Zorros del Desierto", "city": "Calama"},
+    "teams": [{"name": "Chile"}, {"name": "Argentina"}],
+    "score": [1, 2],
+    "result": "W",
+    "goals": [
+      [{"name": "Benjamin Brereton", "min": "20", "type": "G"}],
+      [
+        {"name": "Angel Di Maria", "min": "9", "type": "G"},
+        {"name": "Lautaro Martínez", "min": "34", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Sebastián Vegas", "min": "27", "type": "Y"},
+        {"name": "Guillermo Maripán", "min": "69", "type": "Y"},
+        {"name": "Erick Pulgar", "min": "76", "type": "Y"},
+        {"name": "Alexis Sánchez", "min": "79", "type": "Y"},
+        {"name": "Joaquín Montecinos", "min": "89", "type": "Y"}
+      ],
+      [
+        {"name": "Nicolás Otamendi", "min": "38", "type": "Y"},
+        {"name": "Rodrigo De Paul", "min": "53", "type": "Y"},
+        {"name": "Leandro Paredes", "min": "72", "type": "Y"},
+        {"name": "Nicolás Tagliafico", "min": "90+4", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Martín Lasarte"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Claudio Bravo", "out": "35"},
+        {"name": "Brayan Cortés", "in": "35"},
+        {"name": "Gary Medel"},
+        {"name": "Paulo Díaz", "out": "60"},
+        {"name": "Mauricio Isla", "in": "60"},
+        {"name": "Sebastián Vegas", "out": "46"},
+        {"name": "Humberto Suazo", "in": "46"},
+        {"name": "Guillermo Maripán"},
+        {"name": "Charles Aránguiz"},
+        {"name": "Marcelino Núñez", "out": "60"},
+        {"name": "Joaquín Montecinos", "in": "60"},
+        {"name": "Erick Pulgar"},
+        {"name": "Alexis Sánchez"},
+        {"name": "Benjamin Brereton"},
+        {"name": "Eduardo Vargas", "out": "85"},
+        {"name": "Víctor Dávila", "in": "85"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Rodrigo De Paul", "out": "71"},
+        {"name": "Giovani Lo Celso", "in": "71"},
+        {"name": "Alejandro Gómez"},
+        {"name": "Leandro Paredes"},
+        {"name": "Angel Di Maria", "out": "85"},
+        {"name": "Ángel Correa", "in": "85"},
+        {"name": "Lautaro Martínez", "out": "78"},
+        {"name": "Julián Álvarez", "in": "78"},
+        {"name": "Nicolás González", "out": "70"},
+        {"name": "Marcos Acuña", "in": "70"}
+      ]
+    ],
+    "info": {
+      "youtube": [{"id": "qH_fiZc_4hI"}],
+      "trivia": [
+        "Coach Lionel Scaloni was COVID positive and didn't make the trip to Chile for this match."
+      ]
+    },
+    "sources": ["Golazon"]
   }
 ]
