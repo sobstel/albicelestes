@@ -52646,5 +52646,68 @@
       ]
     },
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-02-01",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio Mario Alberto Kempes",
+      "city": "Ciudad de Córdoba, Provincia de Córdoba"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
+    "score": [1, 0],
+    "result": "W",
+    "goals": [[{"name": "Lautaro Martínez", "min": "29", "type": "G"}], []],
+    "cards": [
+      [
+        {"name": "Marcos Acuña", "min": "44", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "58", "type": "Y"}
+      ],
+      [
+        {"name": "Luis Suárez", "min": "77", "type": "Y"},
+        {"name": "Davinson Sánchez", "min": "90", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Reinaldo Rueda"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Marcos Acuña"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Gonzalo Montiel"},
+        {"name": "Germán Pezzella"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Alejandro Gómez", "out": "80"},
+        {"name": "Lucas Martínez Quarta", "in": "80"},
+        {"name": "Giovani Lo Celso", "out": "80"},
+        {"name": "Emiliano Buendía", "in": "80"},
+        {"name": "Lucas Ocampos", "out": "58"},
+        {"name": "Maximiliano Meza", "in": "58"},
+        {"name": "Angel Di Maria", "out": "69"},
+        {"name": "Nicolás González", "in": "69"},
+        {"name": "Lautaro Martínez", "out": "69"},
+        {"name": "Paulo Dybala", "in": "69"}
+      ],
+      [
+        {"name": "Fabian Vargas"},
+        {"name": "Davinson Sánchez"},
+        {"name": "Johan Mojica"},
+        {"name": "Stefan Medina", "out": "67"},
+        {"name": "Diego Valoyes", "in": "67"},
+        {"name": "William Tesillo"},
+        {"name": "Mateus Uribe", "out": "57"},
+        {"name": "Víctor Cantillo", "in": "57"},
+        {"name": "James Rodríguez", "out": "57"},
+        {"name": "Luis Suárez", "in": "57"},
+        {"name": "Juan Cuadrado"},
+        {"name": "Wilmar Barrios", "out": "75"},
+        {"name": "Gustavo Cuéllar", "in": "75"},
+        {"name": "Luis Díaz"},
+        {"name": "Miguel Borja", "out": "75"},
+        {"name": "Radamel Falcao", "in": "75"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
