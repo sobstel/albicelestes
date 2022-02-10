@@ -1,11 +1,15 @@
 import React, { ReactNode } from "react";
 import { useRouter } from "next/router";
 import { Block, LinkAnchor } from "components/layout";
-import Logo from "./Logo";
 
 function NavLink({ href, children }: { href: string; children: ReactNode }) {
   const router = useRouter();
-  const disabled = router?.pathname.startsWith(href);
+  const disabled =
+    href === "/"
+      ? Boolean(router?.pathname.match(/^\/(\[year\])?$/))
+      : router?.pathname.startsWith(href);
+
+  console.log({ router, pathname: router?.pathname, disabled });
 
   return (
     <LinkAnchor href={href} disabled={disabled} important>
@@ -19,10 +23,8 @@ export default function PageHeader() {
     <header>
       <Block isNav hasBottomSeparator className="flex">
         <ul className="inline-flex items-center uppercase font-sans text-sm md:text-base">
-          <li className="w-8 h-8 mr-4 hover:opacity-80">
-            <LinkAnchor href="/" title="Albicelestes.com">
-              <Logo />
-            </LinkAnchor>
+          <li className="mr-4">
+            <NavLink href="/">Matches</NavLink>
           </li>
           <li className="mr-4">
             <NavLink href="/players">Players</NavLink>

@@ -32,7 +32,7 @@
   }
 }
 
-a[href^="http"] {
+a[href^he="http"] {
   background: url(/external.svg) center right no-repeat;
   background-size: 10px;
   padding-right: 13px;
