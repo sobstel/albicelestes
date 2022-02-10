@@ -1,6 +1,6 @@
 import React from "react";
 import * as R from "remeda";
-import { MIN_YEAR, MAX_YEAR } from "config";
+import { MAX_YEAR } from "config";
 import { fetchMatches } from "data";
 import { collectPlayers, getMatchYear } from "helpers";
 import { PlayerItem } from "types";

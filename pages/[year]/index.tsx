@@ -1,12 +1,12 @@
 import React from "react";
 import pluralize from "pluralize";
 import * as R from "remeda";
-import { MIN_YEAR, MAX_YEAR } from "config";
+import { MAX_YEAR } from "config";
 import { fetchMatches } from "data";
 import { collectTeamStat, getMatchItem, getMatchYear } from "helpers";
 import { MatchItem, TeamStat } from "types";
 import MatchList from "components/MatchList";
-import { Page, Header } from "components/layout";
+import { Page } from "components/layout";
 import YearHeader from "components/YearHeader";
 import YearNav from "components/YearNav";
 
