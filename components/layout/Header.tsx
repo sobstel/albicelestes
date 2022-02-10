@@ -13,11 +13,15 @@ export default function Header({ text, top, nav }: Props) {
   const Hx = top ? "h1" : "h2";
 
   if (!nav) {
-    return <Hx className="font-semibold uppercase my-4">{text}</Hx>;
+    return (
+      <Hx className="font-sans  font-semibold text-sm md:text-base uppercase my-4">
+        {text}
+      </Hx>
+    );
   }
 
   return (
-    <div className="flex items-center font-semibold uppercase my-4">
+    <div className="flex items-center font-sans font-semibold  uppercase my-4">
       <Hx>{text}</Hx>
       {nav && (
         <>

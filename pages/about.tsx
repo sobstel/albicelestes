@@ -51,6 +51,26 @@ export default function AboutPage(props: Props) {
       </Block>
 
       <Block>
+        <Header text="Links" />
+        <p>
+          <LinkAnchor href="https://golazon.com/t/03l">golazon</LinkAnchor>
+        </p>
+        <p>
+          <LinkAnchor href="https://github.com/sobstel/albicelestes">
+            github
+          </LinkAnchor>
+        </p>
+        <p>
+          <LinkAnchor href="https://twitter.com/albisopel">twitter</LinkAnchor>
+        </p>
+        <p>
+          <LinkAnchor href="https://www.youtube.com/channel/UCtBjQEaQFBAwJjkZxvciCUw">
+            youtube
+          </LinkAnchor>
+        </p>
+      </Block>
+
+      <Block>
         <Header text="Sources" />
         {Object.keys(bibliography).map((key) => {
           const item = bibliography[key];
