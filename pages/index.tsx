@@ -25,14 +25,7 @@ export default function YearIndexPage({ matches }: Props) {
   return (
     <Page title={["Argentina National Team Archive"]}>
       <YearNav />
-      <Header
-        top
-        text="Argentina"
-        nav={[
-          { text: "Recent", href: `/` },
-          { text: "All", href: `/all` },
-        ]}
-      />
+      <Header top text="Recent matches" />
       <MatchList matches={matches} />
     </Page>
   );

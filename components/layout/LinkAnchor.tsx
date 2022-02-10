@@ -10,6 +10,7 @@ type Props = {
   rel?: string;
   disabled?: boolean;
   onClick?: () => void;
+  className?: string;
 };
 
 export default function LinkAnchor(props: Props) {
@@ -17,6 +18,7 @@ export default function LinkAnchor(props: Props) {
     "text-black": props.disabled,
     "text-link hover:text-link-hover cursor-pointer": !props.disabled,
     "font-semibold": props.important,
+    ...(props.className && { [props.className]: true }),
   });
 
   if (props.disabled) {

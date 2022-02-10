@@ -1,6 +1,6 @@
-import React from "react";
-import { Block } from "components/layout";
-import HorizontalNav from "components/HorizontalNav";
+import React, { Fragment } from "react";
+import { Block, LinkAnchor } from "components/layout";
+import * as R from "remeda";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 
@@ -14,7 +14,14 @@ export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
   return (
     <Block isNav hasBottomSeparator>
       <div className="font-semibold uppercase">
-        <HorizontalNav items={items} activeItemId={catalog} />
+        {R.map(items, ({ id, href, text }) => (
+          <Fragment key={id}>
+            <LinkAnchor href={href} disabled={id === catalog} className="mr-2">
+              {text}
+            </LinkAnchor>{" "}
+          </Fragment>
+        ))}
+        <span className="clear-left">&nbsp;</span>
       </div>
     </Block>
   );

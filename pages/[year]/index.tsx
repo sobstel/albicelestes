@@ -10,30 +10,29 @@ import { Page, Header } from "components/layout";
 import YearHeader from "components/YearHeader";
 import YearNav from "components/YearNav";
 
-const ALL = "all" as const;
-
 type Context = { params: { year: string } };
 
 export async function getStaticProps(context: Context) {
   // TODO: validate year and show 404 on invalid
   const { year } = context.params;
 
-  if (year === ALL) {
-    return {
-      props: { year: ALL, matches: fetchMatches(), stat: null },
-    };
-  }
+  const yearBase = parseInt(String(parseInt(year) / 10), 10);
+  const yearFrom = `${yearBase}0`;
+  const yearTo = `${yearBase}9`;
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
+    R.filter(
+      (match) =>
+        getMatchYear(match) >= yearFrom && getMatchYear(match) <= yearTo
+    )
   );
 
   const stat = matches.length && collectTeamStat(matches);
 
   return {
     props: {
-      year,
+      year: yearFrom,
       matches: R.map(matches, getMatchItem),
       stat,
     },
@@ -43,9 +42,8 @@ export async function getStaticProps(context: Context) {
 export async function getStaticPaths() {
   return {
     paths: R.pipe(
-      R.range(MIN_YEAR, MAX_YEAR + 1),
-      R.map((year) => ({ params: { year: year.toString() } })),
-      R.concat([{ params: { year: ALL } }])
+      R.range(1900, MAX_YEAR + 1),
+      R.map((year) => ({ params: { year: year.toString() } }))
     ),
     fallback: false,
   };
@@ -65,28 +63,11 @@ function statPhrase(stat: TeamStat) {
 }
 
 export default function YearIndexPage({ year, matches, stat }: Props) {
-  const isAll = year === ALL;
   return (
     <Page title={["Matches", year]}>
-      {isAll ? (
-        <>
-          <YearNav />
-          <Header
-            top
-            text="Argentina"
-            nav={[
-              { text: "Recent", href: `/` },
-              { text: "All", href: `/all` },
-            ]}
-          />
-        </>
-      ) : (
-        <>
-          <YearNav activeYear={parseInt(year, 10)} />
-          <YearHeader year={year} />
-          {stat ? <p className="mb-4">{statPhrase(stat)}</p> : null}
-        </>
-      )}
+      <YearNav activeYear={parseInt(year, 10)} />
+      <YearHeader year={year} />
+      {stat ? <p className="mb-4">{statPhrase(stat)}</p> : null}
       <MatchList matches={matches} />
     </Page>
   );

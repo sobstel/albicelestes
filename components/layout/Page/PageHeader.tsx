@@ -18,7 +18,7 @@ export default function PageHeader() {
   return (
     <header>
       <Block isNav hasBottomSeparator className="flex">
-        <ul className="inline-flex items-center uppercase text-sm md:text-base">
+        <ul className="inline-flex items-center uppercase font-sans text-sm md:text-base">
           <li className="w-8 h-8 mr-4 hover:opacity-80">
             <LinkAnchor href="/" title="Albicelestes.com">
               <Logo />

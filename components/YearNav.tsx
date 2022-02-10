@@ -1,20 +1,31 @@
 import * as R from "remeda";
-import React from "react";
-import { MIN_YEAR, MAX_YEAR } from "config";
-import { Block } from "components/layout";
-import HorizontalNav from "components/HorizontalNav";
+import React, { Fragment } from "react";
+import { Block, LinkAnchor } from "components/layout";
 
 export default function YearNav({ activeYear }: { activeYear?: number }) {
-  const items = R.map(R.range(MIN_YEAR, MAX_YEAR + 1), (year) => ({
-    id: String(year),
-    href: `/${year}`,
-    text: String(year),
-  }));
+  const items = R.map(R.range(0, 13), (n) => {
+    const year = n * 10 + 1900;
+    return {
+      id: String(year),
+      href: `/${year}`,
+      text: String(year),
+    };
+  });
 
   return (
     <Block isNav hasBottomSeparator>
-      <div className="font-semibold">
-        <HorizontalNav items={items} activeItemId={String(activeYear)} />
+      <div className="w-full font-semibold">
+        {R.map(items, ({ id, href, text }) => (
+          <Fragment key={id}>
+            <LinkAnchor
+              href={href}
+              disabled={id === String(activeYear)}
+              className="mr-1"
+            >
+              {text}
+            </LinkAnchor>{" "}
+          </Fragment>
+        ))}
       </div>
     </Block>
   );

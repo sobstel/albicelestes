@@ -19,7 +19,7 @@ type Context = { params: { year: string } };
 export async function getStaticPaths() {
   return {
     paths: R.pipe(
-      R.range(MIN_YEAR, MAX_YEAR + 1),
+      R.range(1900, MAX_YEAR + 1),
       R.map((year) => ({ params: { year: year.toString() } }))
     ),
     fallback: false,
@@ -29,9 +29,16 @@ export async function getStaticPaths() {
 export async function getStaticProps(context: Context) {
   const year = context.params?.year || MAX_YEAR.toString();
 
+  const yearBase = parseInt(String(parseInt(year) / 10), 10);
+  const yearFrom = `${yearBase}0`;
+  const yearTo = `${yearBase}9`;
+
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
+    R.filter(
+      (match) =>
+        getMatchYear(match) >= yearFrom && getMatchYear(match) <= yearTo
+    )
   );
 
   const players = R.pipe(
@@ -41,7 +48,7 @@ export async function getStaticProps(context: Context) {
   );
 
   return {
-    props: { year, players },
+    props: { year: yearFrom, players },
   };
 }
 
