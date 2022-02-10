@@ -60,7 +60,7 @@ export default function LinkAnchor(props: Props) {
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
-        {props.children} ➔
+        {props.children}
       </a>
     );
   }
