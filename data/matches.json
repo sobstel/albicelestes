@@ -14624,7 +14624,7 @@
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
-        {"name": "Roberto Sosa"},
+        {"name": "José Sosa"},
         {"name": "Mario Omar Mendez"},
         {"name": "Horacio Troche", "out": ""},
         {"name": "Victoriano Manghini", "in": ""},
@@ -15806,7 +15806,7 @@
     ],
     "lineups": [
       [
-        {"name": "Roberto Sosa"},
+        {"name": "José Sosa"},
         {"name": "Emilio Alvarez"},
         {"name": "Horacio Troche"},
         {"name": "Nestor Goncalvez"},
@@ -16037,7 +16037,7 @@
         {"name": "Cesar Luis Menotti"}
       ],
       [
-        {"name": "Roberto Sosa"},
+        {"name": "José Sosa"},
         {"name": "Emilio Alvarez"},
         {"name": "Jorge Manicera"},
         {"name": "Ricardo Pavoni"},
@@ -41125,7 +41125,7 @@
         {"name": "Maxi Rodriguez", "out": "73"},
         {"name": "Jonás Gutiérrez", "in": "73"},
         {"name": "Sergio Agüero", "out": "84"},
-        {"name": "Roberto Sosa", "in": "84"}
+        {"name": "José Sosa", "in": "84"}
       ]
     ],
     "sources": ["Golazon"]
