@@ -32,8 +32,8 @@
   }
 }
 
-a[href^he="http"] {
-  background: url(/external.svg) center right no-repeat;
+a[href^="http"] {
+  background: url(data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%3E%3Cpath%20fill%3D%22%23FFF%22%20stroke%3D%22%234887bf%22%20stroke-width%3D%2210%22%20d%3D%22m43%2C35H5v60h60V57M45%2C5v10l10%2C10-30%2C30%2020%2C20%2030-30%2010%2C10h10V5z%22%2F%3E%3C%2Fsvg%3E) center right no-repeat;
   background-size: 10px;
   padding-right: 13px;
 }
