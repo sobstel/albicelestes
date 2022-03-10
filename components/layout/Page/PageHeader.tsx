@@ -9,8 +9,6 @@ function NavLink({ href, children }: { href: string; children: ReactNode }) {
       ? Boolean(router?.pathname.match(/^\/(\[year\])?$/))
       : router?.pathname.startsWith(href);
 
-  console.log({ router, pathname: router?.pathname, disabled });
-
   return (
     <LinkAnchor href={href} disabled={disabled} important>
       {children}
