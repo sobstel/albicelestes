@@ -29551,6 +29551,7 @@
       {"name": "Maradona", "score": [3, 4]},
       {"name": "Serena", "score": "x"}
     ],
+    "info": {"youtube": [{"id": "nY-G9pP70Vw"}]},
     "sources": ["Golazon"]
   },
   {
@@ -33359,10 +33360,7 @@
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Claudio Lopez", "min": "10", "type": "G"}]],
-    "cards": [
-      [],
-      [{"name": "Eduardo Berizzo", "min": "45", "type": "R"}]
-    ],
+    "cards": [[], [{"name": "Eduardo Berizzo", "min": "45", "type": "R"}]],
     "coaches": [{"name": "Hernan Dario Gomez"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
