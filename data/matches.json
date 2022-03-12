@@ -37045,65 +37045,68 @@
   {
     "date": "2003-02-08",
     "competition": "Friendly",
-    "venue": {"name": "Orange Bowl, Miami"},
-    "teams": [{"name": "USA"}, {"name": "Argentina"}],
+    "venue": {"name": "Miami Orange Bowl", "city": "Miami, Florida"},
+    "teams": [{"name": "United States"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Lucho González", "min": "9", "type": "G"}]],
     "cards": [
       [
-        {"name": "Carlos Bocanegra", "type": "Y"},
-        {"name": "Bobby Convey", "type": "Y"},
-        {"name": "Ben Olsen", "type": "Y"}
+        {"name": "Ben Olsen", "min": "20", "type": "Y"},
+        {"name": "Bobby Convey", "min": "45", "type": "Y"},
+        {"name": "Carlos Bocanegra", "min": "71", "type": "Y"}
       ],
       [
-        {"name": "Andrés D'Alessandro", "type": "Y"},
-        {"name": "Pablo Guinazu", "type": "Y"},
-        {"name": "Diego Milito", "type": "Y"},
-        {"name": "Federico Insua", "type": "Y"},
-        {"name": "Andrés D'Alessandro", "min": "91", "type": "Y"},
-        {"name": "Andrés D'Alessandro", "min": "91", "type": "R"}
+        {"name": "Andrés D'Alessandro", "min": "13", "type": "Y"},
+        {"name": "Diego Milito", "min": "42", "type": "Y"},
+        {"name": "Federico Insúa", "min": "54", "type": "Y"},
+        {"name": "Pablo Guinazu", "min": "74", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "90+1", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "90+1", "type": "R"}
       ]
     ],
+    "coaches": [{"name": "Bruce Arena"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "Tim Howard"},
-        {"name": "Danny Califf"},
         {"name": "Carlos Bocanegra", "out": "90"},
         {"name": "Steve Ralston", "in": "90"},
         {"name": "DaMarcus Beasley"},
+        {"name": "Danny Califf"},
         {"name": "Bobby Convey"},
-        {"name": "Landon Donovan"},
+        {"name": "Ben Olsen", "out": "46"},
+        {"name": "Taylor Twellman", "in": "46"},
         {"name": "Chris Klein", "out": "79"},
         {"name": "Jeff Cunningham", "in": "79"},
-        {"name": "Pablo Mastroeni"},
-        {"name": "Ben Olsen"},
         {"name": "Clint Mathis"},
+        {"name": "Pablo Mastroeni"},
         {"name": "Sasha Victorine", "out": "56"},
-        {"name": "Nick Garcia", "in": "56"}
+        {"name": "Nick Garcia", "in": "56"},
+        {"name": "Landon Donovan"}
       ],
       [
         {"name": "Sebastian Saja"},
-        {"name": "Nicolás Burdisso"},
-        {"name": "Ariel Garce"},
         {"name": "Gabriel Milito"},
-        {"name": "Sebastian Alejandro Battaglia"},
-        {"name": "Andrés D'Alessandro"},
+        {"name": "Nicolás Burdisso"},
+        {"name": "Ariel Garcé"},
+        {"name": "Sebastián Battaglia"},
+        {"name": "Pablo Guinazu"},
+        {"name": "Federico Insúa", "out": "77"},
+        {"name": "Leandro Romagnoli", "in": "77"},
         {"name": "Lucho González"},
+        {"name": "Andrés D'Alessandro"},
         {"name": "Mariano González", "out": "46"},
         {"name": "Cesar Carignano", "in": "46"},
-        {"name": "Pablo Guinazu"},
-        {"name": "Federico Insua", "out": "77"},
-        {"name": "Leandro Romagnoli", "in": "77"},
         {"name": "Diego Milito", "out": "85"},
         {"name": "Clemente Rodriguez", "in": "85"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2003-02-12",
+    "date": "2003-02-11",
     "competition": "Friendly",
-    "venue": {"name": "ArenA Amsterdam, Amsterdam"},
+    "venue": {"name": "Johan Cruijff Arena", "city": "Amsterdam"},
     "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
@@ -37111,25 +37114,22 @@
       [{"name": "Giovanni van Bronckhorst", "min": "87", "type": "G"}],
       []
     ],
-    "cards": [
-      [],
-      [
-        {"name": "Claudio Lopez", "type": "Y"},
-        {"name": "Walter Samuel", "type": "Y"}
-      ]
-    ],
+    "cards": [[], []],
+    "coaches": [{"name": ""}, {"name": ""}],
     "lineups": [
       [
         {"name": "Ronald Waterreus"},
         {"name": "Frank de Boer"},
+        {"name": "Fernando Ricksen"},
         {"name": "Jaap Stam", "out": "46"},
         {"name": "Michael Reiziger", "in": "46"},
-        {"name": "Fernando Ricksen"},
-        {"name": "Phillip Cocu"},
-        {"name": "Edgar Davids"},
-        {"name": "Clarence Seedorf"},
-        {"name": "Mark van Bommel"},
         {"name": "Bolo Zenden"},
+        {"name": "Clarence Seedorf"},
+        {"name": "Edgar Davids"},
+        {"name": "Mark van Bommel", "out": "71"},
+        {"name": "Giovanni van Bronckhorst", "in": "71"},
+        {"name": "Phillip Cocu", "out": "81"},
+        {"name": "Paul Bosvelt", "in": "81"},
         {"name": "Patrick Kluivert"},
         {"name": "Ruud Van Nistelrooy", "out": "46"},
         {"name": "Roy Makaay", "in": "46"}
@@ -37137,22 +37137,22 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Facundo Quiroga"},
-        {"name": "Walter Samuel"},
-        {"name": "Roberto Ayala"},
-        {"name": "Pablo Aimar"},
-        {"name": "Gustavo Lopez", "out": "58"},
-        {"name": "Javier Saviola", "in": "58"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "74"},
-        {"name": "Esteban Cambiasso", "in": "74"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Javier Zanetti"},
-        {"name": "Claudio Lopez", "out": "81"},
+        {"name": "Roberto Ayala"},
+        {"name": "Walter Samuel"},
+        {"name": "Gustavo Adrián López", "out": "59"},
+        {"name": "Javier Saviola", "in": "59"},
+        {"name": "Juan Sebastián Verón", "out": "72"},
+        {"name": "Esteban Cambiasso", "in": "72"},
+        {"name": "Pablo Aimar"},
+        {"name": "Claudio López", "out": "81"},
         {"name": "Santiago Solari", "in": "81"},
-        {"name": "Ariel Ortega", "out": "62"},
-        {"name": "Marcelo Gallardo", "in": "62"}
+        {"name": "Ariel Ortega", "out": "63"},
+        {"name": "Marcelo Gallardo", "in": "63"}
       ]
     ],
-    "info": {"youtube": [{"id": "Ud4A9Xe9cLU"}]}
+    "sources": ["Golazon"]
   },
   {
     "date": "2003-04-30",
