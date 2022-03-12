@@ -35346,9 +35346,9 @@
     ]
   },
   {
-    "date": "1999-11-17",
+    "date": "1999-11-16",
     "competition": "Friendly",
-    "venue": {"name": "Estadio de La Cartuja, Seville"},
+    "venue": {"name": "Estadio Olímpico de Sevilla", "city": "Sevilla"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -35356,43 +35356,48 @@
       [],
       [
         {"name": "Kily González", "min": "63", "type": "G"},
-        {"name": "Mauricio Pochettino", "min": "77", "type": "G"}
+        {"name": "Mauricio Pochettino", "min": "75", "type": "G"}
       ]
     ],
+    "cards": [[], [{"name": "Diego Simeone", "min": "75", "type": "Y"}]],
     "coaches": [{"name": "José Antonio Camacho"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "José Molina"},
+        {"name": "Agustín Aranzábal"},
         {"name": "Albert Ferrer"},
-        {"name": "Agustin Aranzabal"},
-        {"name": "Paco"},
         {"name": "Nadal"},
+        {"name": "Paco Jémez"},
+        {"name": "Gaizka Mendieta", "out": "73"},
+        {"name": "Fernando Morientes", "in": "73"},
         {"name": "Pep Guardiola"},
-        {"name": "Julen Guerrero", "out": "70"},
-        {"name": "Valeron", "in": "70"},
-        {"name": "Luis Enrique"},
-        {"name": "Mendieta"},
-        {"name": "ALFONSO Perez", "out": "22"},
-        {"name": "Ismael Urzaiz", "in": "22"},
-        {"name": "Raúl"}
+        {"name": "Julen Guerrero", "out": "67"},
+        {"name": "Valerón", "in": "67"},
+        {"name": "Luis Enrique", "out": "46"},
+        {"name": "Joseba Etxeberria", "in": "46"},
+        {"name": "Alfonso Pérez", "out": "22"},
+        {"name": "Ismael Urzáiz", "in": "22"},
+        {"name": "Raúl", "out": "46"},
+        {"name": "Pedro Munitis", "in": "46"}
       ],
       [
         {"name": "German Burgos"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
         {"name": "Kily González"},
         {"name": "Diego Simeone"},
-        {"name": "Javier Zanetti"},
+        {"name": "Ariel Ortega", "out": "87"},
+        {"name": "Santiago Solari", "in": "87"},
+        {"name": "Claudio López", "out": "77"},
+        {"name": "Gustavo Adrián López", "in": "77"},
         {"name": "Hernan Crespo", "out": "90"},
-        {"name": "Eduardo Magnolo Berizzo", "in": "90"},
-        {"name": "Claudio Lopez", "out": "78"},
-        {"name": "Gustavo Lopez", "in": "78"},
-        {"name": "Ariel Ortega", "out": "80"},
-        {"name": "Santiago Solari", "in": "80"}
+        {"name": "Eduardo Berizzo", "in": "90"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2000-02-22",
