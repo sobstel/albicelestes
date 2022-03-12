@@ -32016,7 +32016,7 @@
       ],
       [
         {"name": "Carlos Bossio"},
-        {"name": "Rodolfo Arruabarena"},
+        {"name": "Rodolfo Arruabarrena"},
         {"name": "Nestor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
@@ -32045,7 +32045,7 @@
     "lineups": [
       [
         {"name": "Carlos Bossio"},
-        {"name": "Rodolfo Arruabarena"},
+        {"name": "Rodolfo Arruabarrena"},
         {"name": "Nestor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
@@ -32089,7 +32089,7 @@
     "lineups": [
       [
         {"name": "Carlos Bossio"},
-        {"name": "Rodolfo Arruabarena"},
+        {"name": "Rodolfo Arruabarrena"},
         {"name": "Nestor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
@@ -32308,7 +32308,7 @@
     "cards": [
       [
         {"name": "Ariel Ortega", "type": "Y"},
-        {"name": "Rodolfo Arruabarena", "type": "Y"}
+        {"name": "Rodolfo Arruabarrena", "type": "Y"}
       ],
       [
         {"name": "Bontcho Genchev", "type": "Y"},
@@ -32321,7 +32321,7 @@
     "lineups": [
       [
         {"name": "Carlos Bossio"},
-        {"name": "Rodolfo Arruabarena", "out": "71"},
+        {"name": "Rodolfo Arruabarrena", "out": "71"},
         {"name": "Juan Pablo Sorin", "in": "71"},
         {"name": "Pablo Rotchen"},
         {"name": "Roberto Ayala"},
@@ -33199,7 +33199,7 @@
         {"name": "Ariel Ortega", "out": "88"},
         {"name": "Claudio Lopez", "in": "88"},
         {"name": "José Fabian Albornoz"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Hugo Alberto Morales"}
       ]
     ]
@@ -33233,7 +33233,7 @@
         {"name": "Ariel Ortega"},
         {"name": "José Fabian Albornoz", "out": "36"},
         {"name": "Abel Balbo", "in": "36"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Hugo Alberto Morales", "out": "66"},
         {"name": "Patricio Alejandro Camps", "in": "66"}
       ],
@@ -33282,7 +33282,7 @@
         {"name": "Leonardo Astrada"},
         {"name": "Diego Simeone"},
         {"name": "Ariel Ortega"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Patricio Alejandro Camps", "out": "46"},
         {"name": "Hernan Crespo", "in": "46"},
         {"name": "Juan Eduardo Esnaider"},
@@ -33361,7 +33361,7 @@
     "goals": [[], [{"name": "Claudio Lopez", "min": "10", "type": "G"}]],
     "cards": [
       [],
-      [{"name": "Eduardo Magnolo Berizzo", "min": "45", "type": "R"}]
+      [{"name": "Eduardo Berizzo", "min": "45", "type": "R"}]
     ],
     "coaches": [{"name": "Hernan Dario Gomez"}, {"name": "Daniel Passarella"}],
     "lineups": [
@@ -33392,7 +33392,7 @@
         {"name": "Claudio Lopez", "out": "83"},
         {"name": "Juan Pablo Sorin", "in": "83"},
         {"name": "Ariel Ortega"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Gustavo Zapata"}
       ]
     ]
@@ -33482,7 +33482,7 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo"},
         {"name": "Claudio Lopez", "out": "76"},
-        {"name": "Eduardo Magnolo Berizzo", "in": "76"},
+        {"name": "Eduardo Berizzo", "in": "76"},
         {"name": "Ariel Ortega"}
       ],
       [
@@ -33708,7 +33708,7 @@
     "cards": [
       [],
       [
-        {"name": "Eduardo Magnolo Berizzo", "min": "68", "type": "R"},
+        {"name": "Eduardo Berizzo", "min": "68", "type": "R"},
         {"name": "Marcelo Gallardo", "min": "68", "type": "R"},
         {"name": "Gustavo Zapata", "min": "75", "type": "R"}
       ]
@@ -33742,7 +33742,7 @@
         {"name": "Marcelo Delgado"},
         {"name": "Marcelo Gallardo"},
         {"name": "Julio Cruz"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Rodolfo Esteban Cardoso", "out": "46"},
         {"name": "Sergio Berti", "in": "46"},
         {"name": "Raul Ernesto Cardozo", "out": "46"},
@@ -34067,7 +34067,7 @@
         {"name": "Hernan Crespo"},
         {"name": "Marcelo Gallardo"},
         {"name": "Ariel Ortega"},
-        {"name": "Eduardo Magnolo Berizzo"}
+        {"name": "Eduardo Berizzo"}
       ],
       [
         {"name": "Ivica Kralj"},
@@ -34810,7 +34810,7 @@
         {"name": "Juan Pablo Sorin"},
         {"name": "Marcelo Gallardo"},
         {"name": "Martin Palermo"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Guillermo Barros Schelotto", "out": "88"},
         {"name": "Juan Fernandez", "in": "88"}
       ]
@@ -34838,7 +34838,7 @@
         {"name": "Marcelo Gallardo", "out": "90"},
         {"name": "Jorge San Esteban", "in": "90"},
         {"name": "Martin Palermo"},
-        {"name": "Eduardo Magnolo Berizzo"},
+        {"name": "Eduardo Berizzo"},
         {"name": "Guillermo Barros Schelotto"}
       ],
       [
@@ -35323,7 +35323,7 @@
         {"name": "Diego Simeone", "in": "41"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "90"},
-        {"name": "Eduardo Magnolo Berizzo", "in": "90"},
+        {"name": "Eduardo Berizzo", "in": "90"},
         {"name": "Claudio Lopez", "out": "46"},
         {"name": "Kily González", "in": "46"},
         {"name": "Ariel Ortega", "out": "74"},
@@ -36067,7 +36067,7 @@
         {"name": "Pablo Aimar", "type": "Y"},
         {"name": "Matias Almeyda", "type": "Y"},
         {"name": "Roberto Ayala", "type": "Y"},
-        {"name": "Eduardo Magnolo Berizzo", "type": "Y"}
+        {"name": "Eduardo Berizzo", "type": "Y"}
       ]
     ],
     "lineups": [
@@ -36123,11 +36123,11 @@
       [
         {"name": "German Burgos"},
         {"name": "Gabriel Milito", "out": "76"},
-        {"name": "Leonardo Damien Cufre", "in": "76"},
+        {"name": "Leandro Cufré", "in": "76"},
         {"name": "Diego Placente"},
         {"name": "Nelson Vivas"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucas Martin Castroman"},
+        {"name": "Lucas Castromán"},
         {"name": "Diego Simeone"},
         {"name": "Santiago Solari"},
         {"name": "Ariel Ortega", "out": "78"},
@@ -37153,7 +37153,7 @@
         {"name": "Sebastian Saja"},
         {"name": "Nicolás Burdisso"},
         {"name": "Gonzalo Rodriguez"},
-        {"name": "Sebastian Alejandro Battaglia"},
+        {"name": "Sebastián Battaglia"},
         {"name": "Andrés D'Alessandro"},
         {"name": "Lucho González"},
         {"name": "Mariano González", "out": "86"},
@@ -37318,7 +37318,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Pablo Aimar"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucas Martin Castroman"},
+        {"name": "Lucas Castromán"},
         {"name": "Luciano Galletti"},
         {"name": "Santiago Solari", "out": "46"},
         {"name": "Marcelo Gallardo", "in": "46"},
@@ -37369,7 +37369,7 @@
         {"name": "Fabricio Coloccini"},
         {"name": "Pablo Aimar"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Lucas Martin Castroman"},
+        {"name": "Lucas Castromán"},
         {"name": "Luciano Galletti"},
         {"name": "Santiago Solari", "out": "75"},
         {"name": "Gonzalo Rodriguez", "in": "75"},
@@ -37413,7 +37413,7 @@
         {"name": "Luciano Galletti", "out": "34"},
         {"name": "Gonzalo Rodriguez", "in": "34"},
         {"name": "Santiago Solari", "out": "82"},
-        {"name": "Lucas Martin Castroman", "in": "82"},
+        {"name": "Lucas Castromán", "in": "82"},
         {"name": "Javier Zanetti"},
         {"name": "Javier Saviola", "out": "85"},
         {"name": "Bernardo Romeo", "in": "85"}
@@ -38909,7 +38909,7 @@
         {"name": "Diego Placente"},
         {"name": "Facundo Quiroga"},
         {"name": "Walter Samuel"},
-        {"name": "Lucas Ademar Bernardi"},
+        {"name": "Lucas Bernardi"},
         {"name": "Luciano Galletti", "out": "63"},
         {"name": "Ariel Ibagaza", "in": "63"},
         {"name": "Román Riquelme"},
@@ -39253,8 +39253,8 @@
       ],
       [
         {"name": "German Lux"},
-        {"name": "Eduardo Nicolas Tuzzio"},
-        {"name": "Lucas Martin Castroman"},
+        {"name": "Eduardo Tuzzio"},
+        {"name": "Lucas Castromán"},
         {"name": "Javier Mascherano"},
         {"name": "Leandro Romagnoli", "out": "61"},
         {"name": "Lisandro Lopez", "in": "61"},
@@ -39308,7 +39308,7 @@
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Nicolás Burdisso"},
-        {"name": "Leonardo Damien Cufre"},
+        {"name": "Leandro Cufré"},
         {"name": "Gabriel Milito"},
         {"name": "Clemente Rodriguez"},
         {"name": "Esteban Cambiasso"},
@@ -39853,7 +39853,7 @@
         {"name": "Leo Franco"},
         {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
-        {"name": "Lucas Ademar Bernardi"},
+        {"name": "Lucas Bernardi"},
         {"name": "Andrés D'Alessandro", "out": "90"},
         {"name": "Mario Santana", "in": "90"},
         {"name": "Lucho González", "out": "82"},
@@ -39947,7 +39947,7 @@
         {"name": "Gabriel Milito"},
         {"name": "Roberto Ayala"},
         {"name": "Fabricio Coloccini"},
-        {"name": "Sebastian Alejandro Battaglia"},
+        {"name": "Sebastián Battaglia"},
         {"name": "Kily González", "out": "58"},
         {"name": "Carlos Tevez", "in": "58"},
         {"name": "Lucho González"},
@@ -39994,7 +39994,7 @@
         {"name": "Diego Lugano", "type": "Y"}
       ],
       [
-        {"name": "Sebastian Alejandro Battaglia", "type": "Y"},
+        {"name": "Sebastián Battaglia", "type": "Y"},
         {"name": "Roberto Ayala", "type": "Y"}
       ]
     ],
@@ -40017,7 +40017,7 @@
         {"name": "Roberto Abbondanzieri"},
         {"name": "Walter Samuel"},
         {"name": "Roberto Ayala"},
-        {"name": "Sebastian Alejandro Battaglia"},
+        {"name": "Sebastián Battaglia"},
         {"name": "Kily González", "out": "65"},
         {"name": "Lionel Messi", "in": "65"},
         {"name": "Lucho González", "out": "65"},
@@ -40121,7 +40121,7 @@
         {"name": "Walter Samuel", "out": "81"},
         {"name": "Gabriel Milito", "in": "81"},
         {"name": "Roberto Ayala"},
-        {"name": "Sebastian Alejandro Battaglia"},
+        {"name": "Sebastián Battaglia"},
         {"name": "Daniel Rubén Bilos", "out": "60"},
         {"name": "Lucho González", "in": "60"},
         {"name": "Román Riquelme"},
@@ -40766,17 +40766,17 @@
         {"name": "Jonathan Bottinelli"},
         {"name": "Cata Diaz"},
         {"name": "Hugo Ibarra"},
-        {"name": "Eduardo Nicolas Tuzzio"},
+        {"name": "Eduardo Tuzzio"},
         {"name": "Fernando Belluschi", "out": "82"},
         {"name": "Leonardo Ponzio", "in": "82"},
-        {"name": "Cristian Raul Ledesma"},
+        {"name": "Cristian Ledesma"},
         {"name": "Daniel Montenegro", "out": "63"},
         {"name": "Neri Cardozo", "in": "63"},
         {"name": "José Sosa", "out": "82"},
-        {"name": "Pablo Martin Ledesma", "in": "82"},
+        {"name": "Pablo Ledesma", "in": "82"},
         {"name": "Rodrigo Palacio", "out": "63"},
         {"name": "Ezequiel Lavezzi", "in": "63"},
-        {"name": "Hugo Mariano Pavone"}
+        {"name": "Mariano Pavone"}
       ],
       [
         {"name": "Miguel Pinto"},
@@ -42029,7 +42029,7 @@
         {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
         {"name": "Lucho González"},
-        {"name": "Pablo Martin Ledesma", "out": "64"},
+        {"name": "Pablo Ledesma", "out": "64"},
         {"name": "Fernando Cavenaghi", "in": "64"},
         {"name": "Javier Zanetti"},
         {"name": "German Denis", "out": "64"},
