@@ -29150,18 +29150,19 @@
   {
     "date": "1990-06-08",
     "competition": "World Cup",
-    "venue": {"name": "Giuseppe Meazza, Milan"},
+    "round": "Group Stage",
+    "venue": {"name": "Stadio Giuseppe Meazza", "city": "Milano"},
     "teams": [{"name": "Argentina"}, {"name": "Cameroon"}],
     "score": [0, 1],
     "result": "L",
-    "goals": [[], [{"name": "Francois Omam-Biyik", "min": "66", "type": "G"}]],
+    "goals": [[], [{"name": "Francois Omam-Biyik", "min": "67", "type": "G"}]],
     "cards": [
       [{"name": "Roberto Sensini", "min": "27", "type": "Y"}],
       [
         {"name": "Benjamin Massing", "min": "10", "type": "Y"},
-        {"name": "Emile Mbouh", "min": "54", "type": "Y"},
+        {"name": "Victor N'Dip", "min": "23", "type": "Y"},
+        {"name": "Emile Mbouh", "min": "53", "type": "Y"},
         {"name": "Andre Kana-Biyik", "min": "61", "type": "R"},
-        {"name": "Benjamin Massing", "min": "89", "type": "Y"},
         {"name": "Benjamin Massing", "min": "89", "type": "R"}
       ]
     ],
@@ -29172,59 +29173,63 @@
     "lineups": [
       [
         {"name": "Nery Pumpido"},
+        {"name": "Juan Simón"},
         {"name": "Nestor Fabbri"},
         {"name": "Nestor Lorenzo"},
         {"name": "Oscar Ruggeri", "out": "46"},
         {"name": "Claudio Caniggia", "in": "46"},
-        {"name": "Juan Simon"},
         {"name": "Roberto Sensini", "out": "69"},
-        {"name": "Gabriel Calderon", "in": "69"},
-        {"name": "José Basualdo"},
-        {"name": "Sergio Batista"},
-        {"name": "Jorge Burruchaga"},
+        {"name": "Gabriel Calderón", "in": "69"},
         {"name": "Diego Maradona"},
+        {"name": "José Basualdo"},
+        {"name": "Jorge Burruchaga"},
+        {"name": "Sergio Batista"},
         {"name": "Abel Balbo"}
       ],
       [
         {"name": "Thomas N'Kono"},
-        {"name": "Bertin Andrew Ebwelle"},
         {"name": "Andre Kana-Biyik"},
+        {"name": "Bertin Ebwellé"},
         {"name": "Benjamin Massing"},
-        {"name": "Stephen Tataw"},
         {"name": "Emmanuel Kunde"},
-        {"name": "Cyrille Thewg Makanaky", "out": "82"},
-        {"name": "Roger Milla", "in": "82"},
+        {"name": "Stephen Tataw"},
+        {"name": "Victor N'Dip"},
+        {"name": "Cyrille Makanaky", "out": "81"},
+        {"name": "Roger Milla", "in": "81"},
         {"name": "Emile Mbouh"},
-        {"name": "Louis-Paul M'Fede", "out": "65"},
-        {"name": "Thomas Libih", "in": "65"},
+        {"name": "Louis-Paul M'Fédé", "out": "66"},
+        {"name": "Thomas Libiih", "in": "66"},
         {"name": "Francois Omam-Biyik"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-06-13",
     "competition": "World Cup",
-    "venue": {"name": "San Paolo, Naples"},
-    "teams": [{"name": "Argentina"}, {"name": "USSR", "slug": "russia"}],
+    "round": "Group Stage",
+    "venue": {"name": "Stadio Diego Armando Maradona", "city": "Napoli"},
+    "teams": [{"name": "Argentina"}, {"name": "USSR"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Pedro Troglio", "min": "26", "type": "G"},
+        {"name": "Pedro Troglio", "min": "27", "type": "G"},
         {"name": "Jorge Burruchaga", "min": "80", "type": "G"}
       ],
       []
     ],
     "cards": [
       [
-        {"name": "José Serrizuela", "min": "55", "type": "Y"},
-        {"name": "Claudio Caniggia", "min": "57", "type": "Y"},
-        {"name": "Diego Maradona", "min": "70", "type": "Y"},
-        {"name": "Pedro Monzon", "min": "77", "type": "Y"}
+        {"name": "José Serrizuela", "min": "56", "type": "Y"},
+        {"name": "Claudio Caniggia", "min": "59", "type": "Y"},
+        {"name": "Diego Maradona", "min": "71", "type": "Y"},
+        {"name": "Pedro Monzón", "min": "78", "type": "Y"},
+        {"name": "Jorge Burruchaga", "min": "83", "type": "Y"}
       ],
       [
-        {"name": "Vladimir Bezsonov", "min": "48", "type": "R"},
-        {"name": "Andrei Zygmantovich", "min": "51", "type": "Y"}
+        {"name": "Volodymyr Bezsonov", "min": "48", "type": "R"},
+        {"name": "Andrey Zygmantovich", "min": "52", "type": "Y"}
       ]
     ],
     "coaches": [
@@ -29235,70 +29240,72 @@
       [
         {"name": "Nery Pumpido", "out": "11"},
         {"name": "Sergio Goycochea", "in": "11"},
-        {"name": "Pedro Monzon", "out": "78"},
-        {"name": "Nestor Lorenzo", "in": "78"},
-        {"name": "Julio Olarticoechea"},
+        {"name": "Juan Simón"},
         {"name": "José Serrizuela"},
-        {"name": "Juan Simon"},
-        {"name": "José Basualdo"},
-        {"name": "Sergio Batista"},
-        {"name": "Jorge Burruchaga"},
+        {"name": "Pedro Monzón", "out": "78"},
+        {"name": "Nestor Lorenzo", "in": "78"},
         {"name": "Diego Maradona"},
+        {"name": "José Basualdo"},
+        {"name": "Jorge Burruchaga"},
+        {"name": "Julio Olarticoechea"},
         {"name": "Pedro Troglio"},
+        {"name": "Sergio Batista"},
         {"name": "Claudio Caniggia"}
       ],
       [
         {"name": "Aleksandr Uvarov"},
-        {"name": "Vladimir Bezsonov"},
-        {"name": "Sergie Gorlukovich"},
-        {"name": "Vagiz Khidiatullin"},
-        {"name": "Oleg Kuznetzov"},
-        {"name": "Andrei Zygmantovich"},
-        {"name": "Sergei Aleinikov"},
+        {"name": "Oleh Kuznetsov"},
+        {"name": "Sergey Gorlukovich"},
+        {"name": "Volodymyr Bezsonov"},
+        {"name": "Vagiz Khidiyatullin"},
+        {"name": "Olexandr Zavarov", "out": "80"},
+        {"name": "Volodymyr Lyutyi", "in": "80"},
+        {"name": "Igor Dobrovolskiy"},
+        {"name": "Sergey Aleynikov"},
         {"name": "Igor Shalimov"},
-        {"name": "Aleksandr Zavarov", "out": "80"},
-        {"name": "Vladimir Lyuti", "in": "80"},
-        {"name": "Igor Dobrovolski"},
+        {"name": "Andrey Zygmantovich"},
         {"name": "Oleg Protasov", "out": "75"},
-        {"name": "Gennadi Litovchenko", "in": "75"}
+        {"name": "Hennadii Litovchenko", "in": "75"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-06-18",
     "competition": "World Cup",
-    "venue": {"name": "San Paolo, Naples"},
+    "round": "Group Stage",
+    "venue": {"name": "Stadio Diego Armando Maradona", "city": "Napoli"},
     "teams": [{"name": "Argentina"}, {"name": "Romania"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Pedro Monzon", "min": "62", "type": "G"}],
-      [{"name": "Gavril Pele Balint", "min": "67", "type": "G"}]
+      [{"name": "Pedro Monzón", "min": "62", "type": "G"}],
+      [{"name": "Gavril Balint", "min": "68", "type": "G"}]
     ],
     "cards": [
       [
-        {"name": "José Serrizuela", "min": "72", "type": "Y"},
-        {"name": "Sergio Batista", "min": "86", "type": "Y"}
+        {"name": "José Serrizuela", "min": "73", "type": "Y"},
+        {"name": "Sergio Batista", "min": "87", "type": "Y"}
       ],
       [
         {"name": "Marius Lacatus", "min": "4", "type": "Y"},
-        {"name": "Gheorghe Hagi", "min": "8", "type": "Y"},
-        {"name": "Ioan Angelo Lupescu", "min": "32", "type": "Y"}
+        {"name": "Gheorghe Hagi", "min": "10", "type": "Y"},
+        {"name": "Ioan Lupescu", "min": "33", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Emerich Jenei"}],
     "lineups": [
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Pedro Monzon"},
-        {"name": "Julio Olarticoechea"},
+        {"name": "Juan Simón"},
+        {"name": "Pedro Monzón"},
         {"name": "José Serrizuela"},
-        {"name": "Juan Simon"},
+        {"name": "Diego Maradona"},
         {"name": "José Basualdo"},
-        {"name": "Sergio Batista"},
         {"name": "Jorge Burruchaga", "out": "60"},
         {"name": "Gustavo Dezotti", "in": "60"},
-        {"name": "Diego Maradona"},
+        {"name": "Julio Olarticoechea"},
+        {"name": "Sergio Batista"},
         {"name": "Pedro Troglio", "out": "53"},
         {"name": "Ricardo Giusti", "in": "53"},
         {"name": "Claudio Caniggia"}
@@ -29306,37 +29313,39 @@
       [
         {"name": "Silviu Lung"},
         {"name": "Ioan Andone"},
-        {"name": "Michael Klein"},
         {"name": "Mircea Rednic"},
-        {"name": "Iosif Rotariu"},
-        {"name": "Gheorghe Popescu"},
         {"name": "Gheorghe Hagi"},
-        {"name": "Ioan Angelo Lupescu"},
-        {"name": "Ioan Sabau", "out": "82"},
+        {"name": "Gheorghe Popescu"},
+        {"name": "Ioan Lupescu"},
+        {"name": "Iosif Rotariu"},
+        {"name": "Michael Klein"},
+        {"name": "Ioan Ovidiu Sabău", "out": "82"},
         {"name": "Dorin Mateut", "in": "82"},
-        {"name": "Gavril Pele Balint", "out": "72"},
-        {"name": "Danut Lapu", "in": "72"},
+        {"name": "Gavril Balint", "out": "72"},
+        {"name": "Danut Lupu", "in": "72"},
         {"name": "Marius Lacatus"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-06-24",
     "competition": "World Cup",
-    "venue": {"name": "Delle Alpi, Turin"},
+    "round": "Round of 16",
+    "venue": {"name": "Stadio delle Alpi", "city": "Torino"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Claudio Caniggia", "min": "82", "type": "G"}]],
+    "goals": [[], [{"name": "Claudio Caniggia", "min": "81", "type": "G"}]],
     "cards": [
       [
         {"name": "Ricardo Rocha", "min": "40", "type": "Y"},
-        {"name": "Mauro Galvao", "min": "50", "type": "Y"},
-        {"name": "Ricardo Gomes", "min": "85", "type": "R"}
+        {"name": "Mauro Galvao", "min": "51", "type": "Y"},
+        {"name": "Ricardo Gomes", "min": "83", "type": "R"}
       ],
       [
-        {"name": "Pedro Monzon", "min": "27", "type": "Y"},
-        {"name": "Ricardo Giusti", "min": "28", "type": "Y"},
+        {"name": "Pedro Monzón", "min": "28", "type": "Y"},
+        {"name": "Ricardo Giusti", "min": "29", "type": "Y"},
         {"name": "Sergio Goycochea", "min": "87", "type": "Y"}
       ]
     ],
@@ -29349,106 +29358,126 @@
         {"name": "Cláudio Taffarel"},
         {"name": "Branco"},
         {"name": "Jorginho"},
-        {"name": "Mauro Galvao"},
+        {"name": "Mauro Galvao", "out": "83"},
+        {"name": "Renato Gaúcho", "in": "83"},
         {"name": "Ricardo Gomes"},
         {"name": "Ricardo Rocha"},
-        {"name": "Alemao"},
+        {"name": "Alemão", "out": "83"},
+        {"name": "Silas", "in": "83"},
         {"name": "Dunga"},
         {"name": "Valdo"},
         {"name": "Careca"},
-        {"name": "Muller"}
+        {"name": "Müller"}
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Pedro Monzon"},
-        {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Juan Simon"},
+        {"name": "Pedro Monzón"},
+        {"name": "Juan Simón"},
+        {"name": "Diego Maradona"},
         {"name": "José Basualdo"},
         {"name": "Jorge Burruchaga"},
+        {"name": "Julio Olarticoechea"},
+        {"name": "Pedro Troglio", "out": "61"},
+        {"name": "Gabriel Calderón", "in": "61"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
-        {"name": "Pedro Troglio", "out": "62"},
-        {"name": "Gabriel Calderon", "in": "62"},
         {"name": "Claudio Caniggia"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Stadio Comunale, Florence"},
-    "teams": [{"name": "Argentina"}, {"name": "Yugoslavia", "slug": "serbia"}],
+    "round": "Quarter-finals",
+    "venue": {"name": "Stadio Artemio Franchi", "city": "Firenze"},
+    "teams": [{"name": "Yugoslavia"}, {"name": "Argentina"}],
     "score": [0, 0],
-    "pen": [3, 2],
-    "result": "W",
+    "pen": [2, 3],
+    "result": "D",
     "goals": [[], []],
     "cards": [
       [
-        {"name": "José Serrizuela", "min": "21", "type": "Y"},
-        {"name": "Julio Olarticoechea", "min": "41", "type": "Y"},
-        {"name": "Juan Simon", "min": "111", "type": "Y"}
+        {"name": "Refik Šabanadžović", "min": "25", "type": "Y"},
+        {"name": "Refik Šabanadžović", "min": "31", "type": "Y"},
+        {"name": "Refik Šabanadžović", "min": "31", "type": "R"}
       ],
       [
-        {"name": "Refik Sabanadzovic", "min": "24", "type": "Y"},
-        {"name": "Refik Sabanadzovic", "min": "31", "type": "Y"},
-        {"name": "Refik Sabanadzovic", "min": "31", "type": "R"}
+        {"name": "José Serrizuela", "min": "20", "type": "Y"},
+        {"name": "Julio Olarticoechea", "min": "43", "type": "Y"},
+        {"name": "Pedro Troglio", "min": "64", "type": "Y"},
+        {"name": "Juan Simón", "min": "111", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Carlos Bilardo"}, {"name": "Ivan Osim"}],
     "lineups": [
       [
-        {"name": "Sergio Goycochea"},
-        {"name": "Julio Olarticoechea", "out": "52"},
-        {"name": "Pedro Troglio", "in": "52"},
-        {"name": "Oscar Ruggeri"},
-        {"name": "José Serrizuela"},
-        {"name": "Juan Simon"},
-        {"name": "José Basualdo"},
-        {"name": "Jorge Burruchaga"},
-        {"name": "Gabriel Calderon", "out": "87"},
-        {"name": "Gustavo Dezotti", "in": "87"},
-        {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
-        {"name": "Claudio Caniggia"}
+        {"name": "Tomislav Ivković"},
+        {"name": "Faruk Hadžibegić"},
+        {"name": "Predrag Spasić"},
+        {"name": "Refik Šabanadžović"},
+        {"name": "Zoran Vulić"},
+        {"name": "Dragoljub Brnović"},
+        {"name": "Davor Jozić"},
+        {"name": "Dragan Stojković"},
+        {"name": "Robert Prosinečki"},
+        {"name": "Safet Sušić", "out": "61"},
+        {"name": "Dejan Savićević", "in": "61"},
+        {"name": "Zlatko Vujović"}
       ],
       [
-        {"name": "Tomislav Ivkovic"},
-        {"name": "Faruk Hadzibegic"},
-        {"name": "Davor Jozic"},
-        {"name": "Predrag Spasic"},
-        {"name": "Zoran Vulic"},
-        {"name": "Dragoljub Brnovic"},
-        {"name": "Robert Prosinecki"},
-        {"name": "Refik Sabanadzovic"},
-        {"name": "Dragan Stojkovic"},
-        {"name": "Safet Susic", "out": "61"},
-        {"name": "Dejan Savicevic", "in": "61"},
-        {"name": "Zlatko Vujovic"}
+        {"name": "Sergio Goycochea"},
+        {"name": "Juan Simón"},
+        {"name": "José Serrizuela"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "Diego Maradona"},
+        {"name": "Gabriel Calderón", "out": "87"},
+        {"name": "Gustavo Dezotti", "in": "87"},
+        {"name": "José Basualdo"},
+        {"name": "Jorge Burruchaga"},
+        {"name": "Julio Olarticoechea", "out": "51"},
+        {"name": "Pedro Troglio", "in": "51"},
+        {"name": "Ricardo Giusti"},
+        {"name": "Claudio Caniggia"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Serrizuela", "score": [0, 1]},
+      {"name": "Stojković", "score": "x"},
+      {"name": "Burruchaga", "score": [0, 2]},
+      {"name": "Prosinečki", "score": [1, 2]},
+      {"name": "Maradona", "score": "x"},
+      {"name": "Savićević", "score": [2, 2]},
+      {"name": "Troglio", "score": "x"},
+      {"name": "Brnović", "score": "x"},
+      {"name": "Dezotti", "score": [2, 3]},
+      {"name": "Hadžibegić", "score": "x"}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-07-03",
     "competition": "World Cup",
-    "venue": {"name": "Olimpico, Roma"},
+    "round": "Semi-finals",
+    "venue": {"name": "Stadio Diego Armando Maradona", "city": "Napoli"},
     "teams": [{"name": "Italy"}, {"name": "Argentina"}],
     "score": [1, 1],
     "pen": [3, 4],
-    "result": "W",
+    "result": "D",
     "goals": [
-      [{"name": "Salvatore Schillaci", "min": "17", "type": "G"}],
+      [{"name": "Salvatore Schillaci", "min": "18", "type": "G"}],
       [{"name": "Claudio Caniggia", "min": "68", "type": "G"}]
     ],
     "cards": [
-      [{"name": "Giuseppe Giannini", "min": "22", "type": "Y"}],
+      [{"name": "Giuseppe Giannini", "min": "23", "type": "Y"}],
       [
-        {"name": "Ricardo Giusti", "min": "30", "type": "Y"},
+        {"name": "Ricardo Giusti", "min": "31", "type": "Y"},
         {"name": "Oscar Ruggeri", "min": "71", "type": "Y"},
-        {"name": "Claudio Caniggia", "min": "82", "type": "Y"},
-        {"name": "Ricardo Giusti", "min": "103", "type": "Y"},
-        {"name": "Ricardo Giusti", "min": "103", "type": "R"},
-        {"name": "Sergio Batista", "min": "118", "type": "Y"}
+        {"name": "Julio Olarticoechea", "min": "77", "type": "Y"},
+        {"name": "Claudio Caniggia", "min": "83", "type": "Y"},
+        {"name": "Ricardo Giusti", "min": "105", "type": "Y"},
+        {"name": "Ricardo Giusti", "min": "105", "type": "R"},
+        {"name": "Sergio Batista", "min": "120", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Azeglio Vicini"}, {"name": "Carlos Bilardo"}],
@@ -29457,51 +29486,63 @@
         {"name": "Walter Zenga"},
         {"name": "Franco Baresi"},
         {"name": "Giuseppe Bergomi"},
-        {"name": "Riccardo Ferri"},
         {"name": "Paolo Maldini"},
-        {"name": "Luigi De Agostini"},
+        {"name": "Riccardo Ferri"},
         {"name": "Fernando De Napoli"},
-        {"name": "Roberto Donadoni"},
         {"name": "Giuseppe Giannini", "out": "73"},
         {"name": "Roberto Baggio", "in": "73"},
-        {"name": "Salvatore Schillaci"},
+        {"name": "Luigi De Agostini"},
+        {"name": "Roberto Donadoni"},
         {"name": "Gianluca Vialli", "out": "70"},
-        {"name": "Aldo Serena", "in": "70"}
+        {"name": "Aldo Serena", "in": "70"},
+        {"name": "Salvatore Schillaci"}
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Julio Olarticoechea"},
-        {"name": "Oscar Ruggeri"},
+        {"name": "Juan Simón"},
         {"name": "José Serrizuela"},
-        {"name": "Juan Simon"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "Diego Maradona"},
+        {"name": "Gabriel Calderón", "out": "46"},
+        {"name": "Pedro Troglio", "in": "46"},
         {"name": "José Basualdo", "out": "99"},
         {"name": "Sergio Batista", "in": "99"},
         {"name": "Jorge Burruchaga"},
-        {"name": "Gabriel Calderon", "out": "46"},
-        {"name": "Pedro Troglio", "in": "46"},
+        {"name": "Julio Olarticoechea"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
         {"name": "Claudio Caniggia"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Baresi", "score": [1, 0]},
+      {"name": "Serrizuela", "score": [1, 1]},
+      {"name": "Baggio", "score": [2, 1]},
+      {"name": "Burruchaga", "score": [2, 2]},
+      {"name": "De Agostini", "score": [3, 2]},
+      {"name": "Olarticoechea", "score": [3, 3]},
+      {"name": "Donadoni", "score": "x"},
+      {"name": "Maradona", "score": [3, 4]},
+      {"name": "Serena", "score": "x"}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1990-07-08",
     "competition": "World Cup",
-    "venue": {"name": "Olimpico, Roma"},
+    "round": "Final",
+    "venue": {"name": "Stadio Olimpico", "city": "Roma"},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
-    "goals": [[{"name": "Andreas Brehme", "min": "81", "type": "P"}], []],
+    "goals": [[{"name": "Andreas Brehme", "min": "85", "type": "P"}], []],
     "cards": [
       [{"name": "Rudi Völler", "min": "52", "type": "Y"}],
       [
-        {"name": "Gustavo Dezotti", "min": "5", "type": "Y"},
-        {"name": "Pedro Monzon", "min": "64", "type": "R"},
+        {"name": "Gustavo Dezotti", "min": "6", "type": "Y"},
+        {"name": "Pedro Monzón", "min": "65", "type": "R"},
         {"name": "Pedro Troglio", "min": "84", "type": "Y"},
-        {"name": "Gustavo Dezotti", "min": "86", "type": "Y"},
-        {"name": "Gustavo Dezotti", "min": "86", "type": "R"},
-        {"name": "Diego Maradona", "min": "87", "type": "Y"}
+        {"name": "Gustavo Dezotti", "min": "87", "type": "R"},
+        {"name": "Diego Maradona", "min": "88", "type": "Y"}
       ]
     ],
     "coaches": [
@@ -29511,34 +29552,35 @@
     "lineups": [
       [
         {"name": "Bodo Illgner"},
-        {"name": "Klaus Augenthaler"},
-        {"name": "Thomas Berthold", "out": "73"},
-        {"name": "Stefan Reuter", "in": "73"},
         {"name": "Andreas Brehme"},
         {"name": "Guido Buchwald"},
         {"name": "Jürgen Kohler"},
-        {"name": "Thomas Häßler"},
-        {"name": "Pierre Littbarski"},
+        {"name": "Klaus Augenthaler"},
+        {"name": "Thomas Berthold", "out": "73"},
+        {"name": "Stefan Reuter", "in": "73"},
         {"name": "Lothar Matthäus"},
+        {"name": "Pierre Littbarski"},
+        {"name": "Thomas Hässler"},
         {"name": "Jurgen Klinsmann"},
         {"name": "Rudi Völler"}
       ],
       [
         {"name": "Sergio Goycochea"},
+        {"name": "Juan Simón"},
+        {"name": "José Serrizuela"},
         {"name": "Nestor Lorenzo"},
         {"name": "Oscar Ruggeri", "out": "46"},
-        {"name": "Pedro Monzon", "in": "46"},
-        {"name": "José Serrizuela"},
-        {"name": "Juan Simon"},
+        {"name": "Pedro Monzón", "in": "46"},
         {"name": "Roberto Sensini"},
+        {"name": "Diego Maradona"},
         {"name": "José Basualdo"},
         {"name": "Jorge Burruchaga", "out": "53"},
-        {"name": "Gabriel Calderon", "in": "53"},
-        {"name": "Diego Maradona"},
+        {"name": "Gabriel Calderón", "in": "53"},
         {"name": "Pedro Troglio"},
         {"name": "Gustavo Dezotti"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1991-02-20",
@@ -31664,64 +31706,67 @@
   {
     "date": "1994-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Foxboro, Boston"},
+    "round": "Group Stage",
+    "venue": {"name": "Foxboro Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Greece"}],
     "score": [4, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "2", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "44", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "45", "type": "G"},
         {"name": "Diego Maradona", "min": "60", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "90", "type": "P"}
       ],
       []
     ],
     "cards": [
-      [{"name": "Fernando Caceres", "min": "40", "type": "Y"}],
+      [{"name": "Fernando Cáceres", "min": "41", "type": "Y"}],
       [
         {"name": "Panagiotis Tsalouchidis", "min": "25", "type": "Y"},
-        {"name": "Stelios Manolas", "min": "55", "type": "Y"}
+        {"name": "Stelios Manolas", "min": "56", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Alketas Panagoulias"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
         {"name": "Roberto Sensini"},
-        {"name": "Diego Maradona", "out": "84"},
-        {"name": "Ariel Ortega", "in": "84"},
-        {"name": "Fernando Redondo"},
+        {"name": "Diego Maradona", "out": "83"},
+        {"name": "Ariel Ortega", "in": "83"},
         {"name": "Diego Simeone"},
-        {"name": "Abel Balbo", "out": "81"},
-        {"name": "Alejandro Mancuso", "in": "81"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"}
+        {"name": "Fernando Redondo"},
+        {"name": "Abel Balbo", "out": "80"},
+        {"name": "Alejandro Mancuso", "in": "80"},
+        {"name": "Claudio Caniggia"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Antonis Minou"},
-        {"name": "Ioanis Kalitzakis"},
         {"name": "Thanasis Kolitsidakis"},
-        {"name": "Stelios Manolas"},
         {"name": "Efstratios Apostolakis"},
-        {"name": "Savvas Kofidis"},
+        {"name": "Ioanis Kalitzakis"},
+        {"name": "Stelios Manolas"},
         {"name": "Nikolaos Nioplias"},
-        {"name": "Panagiotis Tsalouchidis"},
         {"name": "Nikolaos Tsiantakis", "out": "46"},
         {"name": "Spiros Marangos", "in": "46"},
-        {"name": "Nikolaos Mahlas", "out": "59"},
-        {"name": "Anastassios Mitropoulos", "in": "59"},
-        {"name": "Dimitrios Savarakos"}
+        {"name": "Panagiotis Tsalouchidis"},
+        {"name": "Savvas Kofidis"},
+        {"name": "Dimitrios Saravakos"},
+        {"name": "Nikos Machlas", "out": "59"},
+        {"name": "Anastassios Mitropoulos", "in": "59"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-06-25",
     "competition": "World Cup",
-    "venue": {"name": "Foxboro, Boston"},
+    "round": "Group Stage",
+    "venue": {"name": "Foxboro Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Nigeria"}],
     "score": [2, 1],
     "result": "W",
@@ -31743,40 +31788,42 @@
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Roberto Sensini", "out": "87"},
-        {"name": "Hernan Diaz", "in": "87"},
+        {"name": "Roberto Sensini", "out": "86"},
+        {"name": "Hernán Díaz", "in": "86"},
         {"name": "Diego Maradona"},
-        {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
-        {"name": "Abel Balbo", "out": "71"},
-        {"name": "Alejandro Mancuso", "in": "71"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"}
+        {"name": "Fernando Redondo"},
+        {"name": "Abel Balbo", "out": "70"},
+        {"name": "Alejandro Mancuso", "in": "70"},
+        {"name": "Claudio Caniggia"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Peter Rufai"},
         {"name": "Augustine Eguavoen"},
-        {"name": "Michael Emenalo"},
         {"name": "Chidi N'Wanu"},
         {"name": "Uche Okechukwu"},
-        {"name": "Emmanuel Amunike"},
-        {"name": "Sunday Oliseh", "out": "87"},
-        {"name": "Jay Jay Okocha", "in": "87"},
-        {"name": "Finidi George"},
+        {"name": "Michael Emenalo"},
+        {"name": "Sunday Oliseh", "out": "86"},
+        {"name": "Jay Jay Okocha", "in": "86"},
         {"name": "Daniel Amokachi"},
+        {"name": "Emmanuel Amunike"},
         {"name": "Samson Siasia", "out": "56"},
         {"name": "Mutiu Adepoju", "in": "56"},
-        {"name": "Rachidi Yekini"}
+        {"name": "Rachidi Yekini"},
+        {"name": "Finidi George"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Cotton Bowl, Dallas"},
+    "round": "Group Stage",
+    "venue": {"name": "Cotton Bowl", "city": "Dallas, Texas"},
     "teams": [{"name": "Argentina"}, {"name": "Bulgaria"}],
     "score": [0, 2],
     "result": "L",
@@ -31789,69 +31836,71 @@
     ],
     "cards": [
       [
-        {"name": "Oscar Ruggeri", "min": "34", "type": "Y"},
-        {"name": "Leonardo Rodríguez", "min": "44", "type": "Y"},
+        {"name": "Oscar Ruggeri", "min": "33", "type": "Y"},
+        {"name": "Leonardo Rodriguez", "min": "44", "type": "Y"},
         {"name": "Gabriel Batistuta", "min": "81", "type": "Y"}
       ],
       [
         {"name": "Hristo Stoichkov", "min": "7", "type": "Y"},
-        {"name": "Zlatko Yankov", "min": "24", "type": "Y"},
+        {"name": "Zlatko Yankov", "min": "25", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "45", "type": "Y"},
-        {"name": "Trifon Ivanov", "min": "58", "type": "Y"},
+        {"name": "Trifon Ivanov", "min": "59", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "67", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "67", "type": "R"},
-        {"name": "Krasimir Balakov", "min": "74", "type": "Y"}
+        {"name": "Krasimir Balakov", "min": "75", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Alfio Basile"}, {"name": "Dimitar Denev"}],
+    "coaches": [{"name": "Alfio Basile"}, {"name": "Dimitar Penev"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
+        {"name": "Hernán Díaz"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Fernando Redondo"},
-        {"name": "Leonardo Rodríguez", "out": "67"},
-        {"name": "Ramon Medina Bello", "in": "67"},
         {"name": "Diego Simeone"},
+        {"name": "Fernando Redondo"},
+        {"name": "Leonardo Rodriguez", "out": "67"},
+        {"name": "Ramon Medina Bello", "in": "67"},
         {"name": "Abel Balbo"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia", "out": "25"},
-        {"name": "Ariel Ortega", "in": "25"}
+        {"name": "Claudio Caniggia", "out": "26"},
+        {"name": "Ariel Ortega", "in": "26"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Borislav Mihailov"},
-        {"name": "Petar Houbchev"},
-        {"name": "Trifon Ivanov"},
         {"name": "Emil Kremenliev"},
+        {"name": "Petar Hubchev"},
+        {"name": "Trifon Ivanov"},
         {"name": "Tsanko Tsvetanov"},
         {"name": "Krasimir Balakov"},
-        {"name": "Yordan Lechkov", "out": "75"},
-        {"name": "Daniel Borimirov", "in": "75"},
-        {"name": "Zlatko Yankov"},
-        {"name": "Emil Kostadinov", "out": "73"},
-        {"name": "Ilian Kiriakov", "in": "73"},
         {"name": "Nasko Sirakov"},
+        {"name": "Yordan Letchkov", "out": "77"},
+        {"name": "Daniel Borimirov", "in": "77"},
+        {"name": "Zlatko Yankov"},
+        {"name": "Emil Kostadinov", "out": "74"},
+        {"name": "Ilian Kiryakov", "in": "74"},
         {"name": "Hristo Stoichkov"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-07-03",
     "competition": "World Cup",
-    "venue": {"name": "Rose Bowl, Los Angeles"},
+    "round": "Round of 16",
+    "venue": {"name": "Rose Bowl", "city": "Pasadena, California"},
     "teams": [{"name": "Romania"}, {"name": "Argentina"}],
     "score": [3, 2],
     "result": "L",
     "goals": [
       [
-        {"name": "Ilie Dumitrescu", "min": "9", "type": "G"},
-        {"name": "Ilie Dumitrescu", "min": "17", "type": "G"},
-        {"name": "Gheorghe Hagi", "min": "57", "type": "G"}
+        {"name": "Ilie Dumitrescu", "min": "11", "type": "G"},
+        {"name": "Ilie Dumitrescu", "min": "18", "type": "G"},
+        {"name": "Gheorghe Hagi", "min": "58", "type": "G"}
       ],
       [
-        {"name": "Gabriel Batistuta", "min": "15", "type": "P"},
+        {"name": "Gabriel Batistuta", "min": "16", "type": "P"},
         {"name": "Abel Balbo", "min": "75", "type": "G"}
       ]
     ],
@@ -31865,41 +31914,42 @@
         {"name": "Oscar Ruggeri", "min": "33", "type": "Y"},
         {"name": "Fernando Redondo", "min": "55", "type": "Y"},
         {"name": "José Chamot", "min": "56", "type": "Y"},
-        {"name": "Fernando Caceres", "min": "82", "type": "Y"}
+        {"name": "Fernando Cáceres", "min": "82", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Anghel Iordanescu"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
         {"name": "Florin Prunea"},
-        {"name": "Miodrag Belodedici"},
-        {"name": "Gheorghe Mihali"},
-        {"name": "Daniel Prodan"},
-        {"name": "Gheorghe Popescu"},
         {"name": "Dan Petrescu"},
+        {"name": "Daniel Prodan"},
+        {"name": "Gheorghe Mihali"},
+        {"name": "Miodrag Belodedici"},
+        {"name": "Tibor Selymes"},
+        {"name": "Dorinel Munteanu"},
         {"name": "Gheorghe Hagi", "out": "85"},
         {"name": "Constantin Galca", "in": "85"},
-        {"name": "Ionut Lupescu"},
-        {"name": "Dorinel Munteanu"},
-        {"name": "Tibor Selymes"},
+        {"name": "Gheorghe Popescu"},
         {"name": "Ilie Dumitrescu", "out": "88"},
-        {"name": "Corneliu Papura", "in": "88"}
+        {"name": "Corneliu Papura", "in": "88"},
+        {"name": "Ioan Lupescu"}
       ],
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Roberto Sensini", "out": "60"},
-        {"name": "Ramon Medina Bello", "in": "60"},
-        {"name": "José Basualdo"},
-        {"name": "Fernando Redondo"},
+        {"name": "Roberto Sensini", "out": "62"},
+        {"name": "Ramon Medina Bello", "in": "62"},
         {"name": "Diego Simeone"},
+        {"name": "Fernando Redondo"},
+        {"name": "José Basualdo"},
         {"name": "Abel Balbo"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "slug": "chile-argentina-2",
@@ -34121,10 +34171,10 @@
     ]
   },
   {
-    "date": "1998-04-22",
+    "date": "1998-04-21",
     "competition": "Friendly",
-    "venue": {"name": "Lansdowne Road, Dublin"},
-    "teams": [{"name": "Ireland"}, {"name": "Argentina"}],
+    "venue": {"name": "", "city": ""},
+    "teams": [{"name": "Republic of Ireland"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
     "goals": [
@@ -34134,41 +34184,43 @@
         {"name": "Ariel Ortega", "min": "40", "type": "G"}
       ]
     ],
+    "cards": [[{"name": "Rory Delap", "min": "", "type": "Y"}], []],
     "coaches": [{"name": "Mick McCarthy"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
         {"name": "Shay Given", "out": "46"},
         {"name": "Alan Kelly", "in": "46"},
-        {"name": "Garry Kelly"},
+        {"name": "Gary Breen"},
+        {"name": "Gary Kelly"},
+        {"name": "Ian Harte", "out": "46"},
+        {"name": "Philip Babb", "in": "46"},
         {"name": "Jeff Kenna", "out": "76"},
         {"name": "Rory Delap", "in": "76"},
         {"name": "Steve Staunton"},
-        {"name": "Gary Breen"},
         {"name": "Kevin Kilbane", "out": "46"},
         {"name": "Denis Irwin", "in": "46"},
-        {"name": "Ian Harte", "out": "46"},
-        {"name": "Phil Babb", "in": "46"},
         {"name": "Lee Carsley"},
         {"name": "Mark Kinsella"},
-        {"name": "Robbie Keane"},
-        {"name": "Niall Quinn"}
+        {"name": "Niall Quinn"},
+        {"name": "Robbie Keane"}
       ],
       [
         {"name": "German Burgos"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
-        {"name": "Matias Almeyda"},
-        {"name": "Sergio Berti", "out": "62"},
-        {"name": "Mauricio Pineda", "in": "62"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "84"},
+        {"name": "Matias Almeyda"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Sergio Berti", "out": "63"},
+        {"name": "Mauricio Pineda", "in": "63"},
+        {"name": "Claudio López", "out": "84"},
         {"name": "Marcelo Delgado", "in": "84"},
+        {"name": "Gabriel Batistuta"},
         {"name": "Ariel Ortega"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-04-29",
@@ -34214,58 +34266,60 @@
     ]
   },
   {
-    "date": "1998-05-14",
+    "date": "1998-05-13",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Olimpico, Cordoba"},
+    "venue": {"name": "", "city": ""},
     "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "5", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "24", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "25", "type": "G"},
         {"name": "Javier Zanetti", "min": "55", "type": "G"},
         {"name": "Ariel Ortega", "min": "60", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "79", "type": "G"}
       ],
       []
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Fuad Muzurovic"}],
     "lineups": [
       [
         {"name": "Carlos Roa", "out": "46"},
         {"name": "German Burgos", "in": "46"},
+        {"name": "Javier Zanetti"},
         {"name": "Pablo Paz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
-        {"name": "Matias Almeyda", "out": "89"},
-        {"name": "Leonardo Astrada", "in": "89"},
         {"name": "Diego Simeone", "out": "63"},
         {"name": "Marcelo Gallardo", "in": "63"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega", "out": "83"},
-        {"name": "Marcelo Delgado", "in": "83"}
+        {"name": "Matias Almeyda", "out": "89"},
+        {"name": "Leonardo Astrada", "in": "89"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Ariel Ortega", "out": "82"},
+        {"name": "Marcelo Delgado", "in": "82"},
+        {"name": "Claudio López"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
-        {"name": "Jasmin Mujdza"},
-        {"name": "Edin Ramcic"},
-        {"name": "Hasan Salihamidzic"},
-        {"name": "Sergei Barbarez", "out": "85"},
-        {"name": "Sehad Brkic", "in": "85"},
-        {"name": "Sead Kapetanovic"},
-        {"name": "Elvir Bolic", "out": "76"},
-        {"name": "Almedin Hota", "in": "76"},
-        {"name": "Mirsad Dedic"},
-        {"name": "Enes Demirovic"},
-        {"name": "Mario Dodik", "out": "58"},
-        {"name": "Adnan Kevric", "in": "58"},
+        {"name": "Mirsad Dedić"},
+        {"name": "Mirza Varešanović"},
+        {"name": "Sead Kapetanović"},
         {"name": "Suad Katana"},
-        {"name": "Mirza Varesanovic"}
+        {"name": "Enes Demirović"},
+        {"name": "Edin Ramčić"},
+        {"name": "Hasan Salihamidžić"},
+        {"name": "Jasmin Mujdža"},
+        {"name": "Elvir Bolić", "out": "75"},
+        {"name": "Almedin Hota", "in": "75"},
+        {"name": "Sergei Barbarez", "out": "84"},
+        {"name": "Senad Brkić", "in": "84"},
+        {"name": "Mario Dodik", "out": "58"},
+        {"name": "Adnan Kevric", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-05-19",
@@ -34372,8 +34426,9 @@
   },
   {
     "date": "1998-06-14",
-    "competition": "World Cup Quals",
-    "venue": {"name": "Stadium Municipal, Toulouse"},
+    "competition": "World Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Stadium de Toulouse", "city": "Toulouse"},
     "teams": [{"name": "Argentina"}, {"name": "Japan"}],
     "score": [1, 0],
     "result": "W",
@@ -34381,69 +34436,71 @@
     "cards": [
       [],
       [
-        {"name": "Takashi Hirano", "type": "Y"},
-        {"name": "Masami Ihara", "type": "Y"},
-        {"name": "Eisuke Nakanishi", "type": "Y"}
+        {"name": "Masami Ihara", "min": "26", "type": "Y"},
+        {"name": "Eisuke Nakanishi", "min": "68", "type": "Y"},
+        {"name": "Takashi Hirano", "min": "90", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Takeshi Okada"}],
     "lineups": [
       [
         {"name": "Carlos Roa"},
-        {"name": "Roberto Ayala"},
-        {"name": "Nelson Vivas"},
-        {"name": "Roberto Sensini", "out": "73"},
-        {"name": "José Chamot", "in": "73"},
-        {"name": "Matias Almeyda"},
-        {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "61"},
+        {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
+        {"name": "Roberto Sensini", "out": "72"},
+        {"name": "José Chamot", "in": "72"},
+        {"name": "Diego Simeone"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "61"},
         {"name": "Abel Balbo", "in": "61"},
-        {"name": "Ariel Ortega"}
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Yoshikatsu Kawaguchi"},
-        {"name": "Yutaka Akita"},
-        {"name": "Masami Ihara"},
-        {"name": "Eisuke Nakanishi"},
         {"name": "Akira Narahashi"},
-        {"name": "Naoki Soma", "out": "85"},
-        {"name": "Takashi Hirano", "in": "85"},
+        {"name": "Eisuke Nakanishi"},
+        {"name": "Masami Ihara"},
+        {"name": "Naoki Soma", "out": "84"},
+        {"name": "Takashi Hirano", "in": "84"},
+        {"name": "Yutaka Akita"},
         {"name": "Hidetoshi Nakata"},
         {"name": "Hiroshi Nanami"},
         {"name": "Motohiro Yamaguchi"},
-        {"name": "Shoji Jo"},
-        {"name": "Mashshi Nakayama", "out": "66"},
-        {"name": "Wagner Lopes", "in": "66"}
+        {"name": "Masashi Nakayama", "out": "65"},
+        {"name": "Wagner Lopes", "in": "65"},
+        {"name": "Shoji Jo"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Parc des Princes, Paris"},
+    "round": "Group Stage",
+    "venue": {"name": "Parc des Princes", "city": "Paris"},
     "teams": [{"name": "Argentina"}, {"name": "Jamaica"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Ariel Ortega", "min": "31", "type": "G"},
+        {"name": "Ariel Ortega", "min": "32", "type": "G"},
         {"name": "Ariel Ortega", "min": "55", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "72", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "80", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "73", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "79", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "83", "type": "P"}
       ],
       []
     ],
     "cards": [
-      [{"name": "José Chamot", "type": "Y"}],
+      [{"name": "José Chamot", "min": "66", "type": "Y"}],
       [
-        {"name": "Darryl Powell", "type": "Y"},
-        {"name": "Peter Cargill", "type": "Y"},
+        {"name": "Darryl Powell", "min": "4", "type": "Y"},
         {"name": "Darryl Powell", "min": "45", "type": "Y"},
-        {"name": "Darryl Powell", "min": "45", "type": "R"}
+        {"name": "Darryl Powell", "min": "45", "type": "R"},
+        {"name": "Peter Cargill", "min": "88", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Rene Simoes"}],
@@ -34451,40 +34508,43 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Roberto Ayala"},
-        {"name": "Roberto Sensini", "out": "26"},
-        {"name": "Nelson Vivas", "in": "26"},
-        {"name": "Matias Almeyda"},
-        {"name": "Diego Simeone", "out": "79"},
-        {"name": "Mauricio Pineda", "in": "79"},
-        {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "74"},
-        {"name": "Marcelo Gallardo", "in": "74"},
-        {"name": "Ariel Ortega"}
+        {"name": "Roberto Ayala"},
+        {"name": "Roberto Sensini", "out": "25"},
+        {"name": "Nelson Vivas", "in": "25"},
+        {"name": "Diego Simeone", "out": "80"},
+        {"name": "Mauricio Pineda", "in": "80"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "75"},
+        {"name": "Marcelo Gallardo", "in": "75"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Warren Barrett"},
-        {"name": "Christopher Dawes"},
-        {"name": "Ian Goodison"},
-        {"name": "Stephen Malcolm", "out": "61"},
-        {"name": "Walter Boyd", "in": "61"},
         {"name": "Frank Sinclair"},
-        {"name": "Ricardo Gardner"},
+        {"name": "Ian Goodison"},
         {"name": "Darryl Powell"},
         {"name": "Fitzroy Simpson"},
-        {"name": "Theo Whitmore"},
-        {"name": "Paul Hall"},
+        {"name": "Ricardo Gardner"},
+        {"name": "Theo Whitmore", "out": "73"},
+        {"name": "Robbie Earle", "in": "73"},
+        {"name": "Christopher Dawes"},
+        {"name": "Stephen Malcolm", "out": "62"},
+        {"name": "Walter Boyd", "in": "62"},
         {"name": "Deon Burton", "out": "46"},
-        {"name": "Peter Cargill", "in": "46"}
+        {"name": "Peter Cargill", "in": "46"},
+        {"name": "Paul Hall"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-26",
     "competition": "World Cup",
-    "venue": {"name": "Parc De Lescure"},
+    "round": "Group Stage",
+    "venue": {"name": "Stade Jacques Chaban-Delmas", "city": "Bordeaux"},
     "teams": [{"name": "Argentina"}, {"name": "Croatia"}],
     "score": [1, 0],
     "result": "W",
@@ -34493,12 +34553,12 @@
       [
         {"name": "Ariel Ortega", "min": "23", "type": "Y"},
         {"name": "Roberto Ayala", "min": "35", "type": "Y"},
-        {"name": "Nelson Vivas", "min": "68", "type": "Y"}
+        {"name": "Nelson Vivas", "min": "69", "type": "Y"}
       ],
       [
-        {"name": "Slaven Bilic", "min": "20", "type": "Y"},
+        {"name": "Slaven Bilić", "min": "21", "type": "Y"},
         {"name": "Zvonimir Soldo", "min": "43", "type": "Y"},
-        {"name": "Zvonimir Boban", "min": "47", "type": "Y"},
+        {"name": "Zvonimir Boban", "min": "46", "type": "Y"},
         {"name": "Robert Jarni", "min": "58", "type": "Y"}
       ]
     ],
@@ -34506,45 +34566,47 @@
     "lineups": [
       [
         {"name": "Carlos Roa"},
-        {"name": "Pablo Paz"},
+        {"name": "Javier Zanetti", "out": "67"},
+        {"name": "Diego Simeone", "in": "67"},
         {"name": "Mauricio Pineda"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
+        {"name": "Pablo Paz"},
+        {"name": "Juan Sebastián Verón"},
         {"name": "Matias Almeyda"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti", "out": "68"},
-        {"name": "Diego Simeone", "in": "68"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Marcelo Gallardo", "out": "81"},
-        {"name": "Sergio Berti", "in": "81"},
-        {"name": "Ariel Ortega", "out": "53"},
-        {"name": "Claudio Lopez", "in": "53"}
+        {"name": "Marcelo Gallardo", "out": "80"},
+        {"name": "Sergio Berti", "in": "80"},
+        {"name": "Ariel Ortega", "out": "52"},
+        {"name": "Claudio López", "in": "52"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
-        {"name": "Drazen Ladic"},
-        {"name": "Slaven Bilic"},
-        {"name": "Dario Simic"},
-        {"name": "Robert Jarni"},
+        {"name": "Drazen Ladić"},
+        {"name": "Dario Šimić"},
+        {"name": "Slaven Bilić"},
         {"name": "Aljosa Asanovic"},
-        {"name": "Zvonimir Boban"},
-        {"name": "Robert Prosinecki", "out": "68"},
-        {"name": "Igor Stimac", "in": "68"},
-        {"name": "Zvonimir Soldo"},
-        {"name": "Mario Stanic"},
+        {"name": "Mario Stanić"},
+        {"name": "Robert Jarni"},
+        {"name": "Robert Prosinečki", "out": "67"},
+        {"name": "Igor Štimac", "in": "67"},
         {"name": "Silvio Maric", "out": "46"},
-        {"name": "Goran Vlaovic", "in": "46"},
-        {"name": "Davor Suker"}
+        {"name": "Goran Vlaović", "in": "46"},
+        {"name": "Zvonimir Boban"},
+        {"name": "Zvonimir Soldo"},
+        {"name": "Davor Šuker"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Stade Geoffroy-Guichard, Saint-Etienne"},
+    "round": "Round of 16",
+    "venue": {"name": "Stade Geoffroy-Guichard", "city": "Saint-Ètienne"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [2, 2],
     "pen": [4, 3],
-    "result": "W",
+    "result": "D",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "6", "type": "P"},
@@ -34557,13 +34619,12 @@
     ],
     "cards": [
       [
-        {"name": "Juan Sebastian Veron", "min": "44", "type": "Y"},
+        {"name": "Juan Sebastián Verón", "min": "44", "type": "Y"},
         {"name": "Diego Simeone", "min": "47", "type": "Y"},
-        {"name": "Matias Almeyda", "min": "73", "type": "Y"},
-        {"name": "Carlos Roa", "min": "110", "type": "Y"}
+        {"name": "Matias Almeyda", "min": "73", "type": "Y"}
       ],
       [
-        {"name": "David Seaman", "min": "6", "type": "Y"},
+        {"name": "David Seaman", "min": "5", "type": "Y"},
         {"name": "Paul Ince", "min": "10", "type": "Y"},
         {"name": "David Beckham", "min": "47", "type": "R"}
       ]
@@ -34573,41 +34634,55 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Roberto Ayala"},
+        {"name": "Javier Zanetti"},
         {"name": "Nelson Vivas"},
-        {"name": "Matias Almeyda"},
+        {"name": "Roberto Ayala"},
         {"name": "Diego Simeone", "out": "91"},
         {"name": "Sergio Berti", "in": "91"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "67"},
-        {"name": "Hernan Crespo", "in": "67"},
-        {"name": "Claudio Lopez", "out": "67"},
-        {"name": "Marcelo Gallardo", "in": "67"},
-        {"name": "Ariel Ortega"}
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "68"},
+        {"name": "Marcelo Gallardo", "in": "68"},
+        {"name": "Gabriel Batistuta", "out": "68"},
+        {"name": "Hernan Crespo", "in": "68"}
       ],
       [
         {"name": "David Seaman"},
-        {"name": "Gary Neville"},
-        {"name": "Tony Adams"},
+        {"name": "Graeme Le Saux", "out": "71"},
+        {"name": "Gareth Southgate", "in": "71"},
+        {"name": "Gary  Neville"},
         {"name": "Sol Campbell"},
-        {"name": "Graeme Le Saux", "out": "70"},
-        {"name": "Gareth Southgate", "in": "70"},
-        {"name": "Darren Anderton", "out": "96"},
-        {"name": "David Batty", "in": "96"},
+        {"name": "Tony Adams"},
+        {"name": "Darren Anderton", "out": "97"},
+        {"name": "David Batty", "in": "97"},
         {"name": "David Beckham"},
         {"name": "Paul Ince"},
         {"name": "Paul Scholes", "out": "78"},
         {"name": "Paul Merson", "in": "78"},
-        {"name": "Michael Owen"},
-        {"name": "Alan Shearer"}
+        {"name": "Alan Shearer"},
+        {"name": "Michael Owen"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Shearer", "score": [0, 1]},
+      {"name": "Crespo", "score": "x"},
+      {"name": "Ince", "score": "x"},
+      {"name": "Verón", "score": [1, 1]},
+      {"name": "Merson", "score": [1, 2]},
+      {"name": "Gallardo", "score": [2, 2]},
+      {"name": "Owen", "score": [2, 3]},
+      {"name": "Ayala", "score": [3, 3]},
+      {"name": "Batty", "score": "x"},
+      {"name": "Berti", "score": [4, 3]}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-07-04",
     "competition": "World Cup",
-    "venue": {"name": "Stade Velodrome, Marseille"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Stade Orange Vélodrome", "city": "Marseille"},
     "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -34616,7 +34691,7 @@
         {"name": "Patrick Kluivert", "min": "12", "type": "G"},
         {"name": "Dennis Bergkamp", "min": "90", "type": "G"}
       ],
-      [{"name": "Claudio Lopez", "min": "17", "type": "G"}]
+      [{"name": "Claudio López", "min": "17", "type": "G"}]
     ],
     "cards": [
       [
@@ -34636,12 +34711,12 @@
     "lineups": [
       [
         {"name": "Edwin van der Sar"},
-        {"name": "Michael Reiziger"},
-        {"name": "Frank de Boer"},
         {"name": "Arthur Numan"},
+        {"name": "Frank de Boer"},
         {"name": "Jaap Stam"},
-        {"name": "Phillip Cocu"},
+        {"name": "Michael Reiziger"},
         {"name": "Edgar Davids"},
+        {"name": "Phillip Cocu"},
         {"name": "Ronald de Boer", "out": "64"},
         {"name": "Marc Overmars", "in": "64"},
         {"name": "Wim Jonk"},
@@ -34652,18 +34727,19 @@
         {"name": "Carlos Roa"},
         {"name": "José Chamot", "out": "89"},
         {"name": "Abel Balbo", "in": "89"},
+        {"name": "Javier Zanetti"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
+        {"name": "Diego Simeone"},
+        {"name": "Juan Sebastián Verón"},
         {"name": "Matias Almeyda", "out": "68"},
         {"name": "Mauricio Pineda", "in": "68"},
-        {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López"},
+        {"name": "Gabriel Batistuta"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1999-02-04",
