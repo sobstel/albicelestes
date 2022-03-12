@@ -35395,58 +35395,63 @@
     ]
   },
   {
-    "date": "2000-02-23",
+    "date": "2000-02-22",
     "competition": "Friendly",
-    "venue": {"name": "Wembley Stadium, London"},
+    "venue": {"name": "Wembley Stadium (old)", "city": "London"},
     "teams": [{"name": "England"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
     "cards": [
       [
-        {"name": "David Beckham", "type": "Y"},
-        {"name": "Dennis Wise", "type": "Y"}
+        {"name": "David Beckham", "min": "19", "type": "Y"},
+        {"name": "Dennis Wise", "min": "46", "type": "Y"}
       ],
-      []
+      [
+        {"name": "Roberto Ayala", "min": "", "type": "Y"},
+        {"name": "José Chamot", "min": "", "type": "Y"},
+        {"name": "Rodolfo Arruabarrena", "min": "", "type": "Y"},
+        {"name": "Ariel Ortega", "min": "", "type": "Y"}
+      ]
     ],
-    "coaches": [null, {"name": "Marcelo Bielsa"}],
+    "coaches": [{"name": ""}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "David Seaman"},
-        {"name": "Sol Campbell"},
-        {"name": "Martin Keown", "out": "46"},
-        {"name": "Rio Ferdinand", "in": "46"},
         {"name": "Gareth Southgate"},
+        {"name": "Martin Keown", "out": "56"},
+        {"name": "Rio Ferdinand", "in": "56"},
+        {"name": "Sol Campbell"},
         {"name": "David Beckham", "out": "73"},
         {"name": "Ray Parlour", "in": "73"},
+        {"name": "Dennis Wise"},
         {"name": "Kieron Dyer", "out": "59"},
         {"name": "Phil Neville", "in": "59"},
         {"name": "Paul Scholes"},
         {"name": "Jason Wilcox"},
-        {"name": "Dennis Wise"},
-        {"name": "Emile Heskey", "out": "79"},
-        {"name": "Andrew Cole", "in": "79"},
         {"name": "Alan Shearer", "out": "78"},
-        {"name": "Kevin Phillips", "in": "78"}
+        {"name": "Kevin Phillips", "in": "78"},
+        {"name": "Emile Heskey", "out": "79"},
+        {"name": "Andy Cole", "in": "79"}
       ],
       [
         {"name": "Pablo Cavallero"},
-        {"name": "Rodolfo Arruabarena", "out": "67"},
-        {"name": "Nelson Vivas", "in": "67"},
-        {"name": "José Chamot"},
         {"name": "Roberto Ayala"},
-        {"name": "Roberto Sensini", "out": "40"},
-        {"name": "Mauricio Pochettino", "in": "40"},
+        {"name": "José Chamot"},
+        {"name": "Javier Zanetti"},
+        {"name": "Rodolfo Arruabarrena", "out": "68"},
+        {"name": "Nelson Vivas", "in": "68"},
+        {"name": "Roberto Sensini", "out": "35"},
+        {"name": "Mauricio Pochettino", "in": "35"},
         {"name": "Kily González"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "57"},
-        {"name": "Hernan Crespo", "in": "57"},
-        {"name": "Ariel Ortega", "out": "90"},
-        {"name": "Gustavo Lopez", "in": "90"}
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta", "out": "56"},
+        {"name": "Hernan Crespo", "in": "56"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2000-03-29",
