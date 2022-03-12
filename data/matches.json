@@ -34121,10 +34121,10 @@
     ]
   },
   {
-    "date": "1998-04-22",
+    "date": "1998-04-21",
     "competition": "Friendly",
-    "venue": {"name": "Lansdowne Road, Dublin"},
-    "teams": [{"name": "Ireland"}, {"name": "Argentina"}],
+    "venue": {"name": "", "city": ""},
+    "teams": [{"name": "Republic of Ireland"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
     "goals": [
@@ -34134,41 +34134,43 @@
         {"name": "Ariel Ortega", "min": "40", "type": "G"}
       ]
     ],
+    "cards": [[{"name": "Rory Delap", "min": "", "type": "Y"}], []],
     "coaches": [{"name": "Mick McCarthy"}, {"name": "Daniel Passarella"}],
     "lineups": [
       [
         {"name": "Shay Given", "out": "46"},
         {"name": "Alan Kelly", "in": "46"},
-        {"name": "Garry Kelly"},
+        {"name": "Gary Breen"},
+        {"name": "Gary Kelly"},
+        {"name": "Ian Harte", "out": "46"},
+        {"name": "Philip Babb", "in": "46"},
         {"name": "Jeff Kenna", "out": "76"},
         {"name": "Rory Delap", "in": "76"},
         {"name": "Steve Staunton"},
-        {"name": "Gary Breen"},
         {"name": "Kevin Kilbane", "out": "46"},
         {"name": "Denis Irwin", "in": "46"},
-        {"name": "Ian Harte", "out": "46"},
-        {"name": "Phil Babb", "in": "46"},
         {"name": "Lee Carsley"},
         {"name": "Mark Kinsella"},
-        {"name": "Robbie Keane"},
-        {"name": "Niall Quinn"}
+        {"name": "Niall Quinn"},
+        {"name": "Robbie Keane"}
       ],
       [
         {"name": "German Burgos"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
-        {"name": "Matias Almeyda"},
-        {"name": "Sergio Berti", "out": "62"},
-        {"name": "Mauricio Pineda", "in": "62"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "84"},
+        {"name": "Matias Almeyda"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Sergio Berti", "out": "63"},
+        {"name": "Mauricio Pineda", "in": "63"},
+        {"name": "Claudio López", "out": "84"},
         {"name": "Marcelo Delgado", "in": "84"},
+        {"name": "Gabriel Batistuta"},
         {"name": "Ariel Ortega"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-04-29",
@@ -34214,58 +34216,60 @@
     ]
   },
   {
-    "date": "1998-05-14",
+    "date": "1998-05-13",
     "competition": "Friendly",
-    "venue": {"name": "Estadio Olimpico, Cordoba"},
+    "venue": {"name": "", "city": ""},
     "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "5", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "24", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "25", "type": "G"},
         {"name": "Javier Zanetti", "min": "55", "type": "G"},
         {"name": "Ariel Ortega", "min": "60", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "79", "type": "G"}
       ],
       []
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Fuad Muzurovic"}],
     "lineups": [
       [
         {"name": "Carlos Roa", "out": "46"},
         {"name": "German Burgos", "in": "46"},
+        {"name": "Javier Zanetti"},
         {"name": "Pablo Paz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
-        {"name": "Matias Almeyda", "out": "89"},
-        {"name": "Leonardo Astrada", "in": "89"},
         {"name": "Diego Simeone", "out": "63"},
         {"name": "Marcelo Gallardo", "in": "63"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega", "out": "83"},
-        {"name": "Marcelo Delgado", "in": "83"}
+        {"name": "Matias Almeyda", "out": "89"},
+        {"name": "Leonardo Astrada", "in": "89"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Ariel Ortega", "out": "82"},
+        {"name": "Marcelo Delgado", "in": "82"},
+        {"name": "Claudio López"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
-        {"name": "Jasmin Mujdza"},
-        {"name": "Edin Ramcic"},
-        {"name": "Hasan Salihamidzic"},
-        {"name": "Sergei Barbarez", "out": "85"},
-        {"name": "Sehad Brkic", "in": "85"},
-        {"name": "Sead Kapetanovic"},
-        {"name": "Elvir Bolic", "out": "76"},
-        {"name": "Almedin Hota", "in": "76"},
-        {"name": "Mirsad Dedic"},
-        {"name": "Enes Demirovic"},
-        {"name": "Mario Dodik", "out": "58"},
-        {"name": "Adnan Kevric", "in": "58"},
+        {"name": "Mirsad Dedić"},
+        {"name": "Mirza Varešanović"},
+        {"name": "Sead Kapetanović"},
         {"name": "Suad Katana"},
-        {"name": "Mirza Varesanovic"}
+        {"name": "Enes Demirović"},
+        {"name": "Edin Ramčić"},
+        {"name": "Hasan Salihamidžić"},
+        {"name": "Jasmin Mujdža"},
+        {"name": "Elvir Bolić", "out": "75"},
+        {"name": "Almedin Hota", "in": "75"},
+        {"name": "Sergei Barbarez", "out": "84"},
+        {"name": "Senad Brkić", "in": "84"},
+        {"name": "Mario Dodik", "out": "58"},
+        {"name": "Adnan Kevric", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-05-19",
@@ -34372,8 +34376,9 @@
   },
   {
     "date": "1998-06-14",
-    "competition": "World Cup Quals",
-    "venue": {"name": "Stadium Municipal, Toulouse"},
+    "competition": "World Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Stadium de Toulouse", "city": "Toulouse"},
     "teams": [{"name": "Argentina"}, {"name": "Japan"}],
     "score": [1, 0],
     "result": "W",
@@ -34381,69 +34386,71 @@
     "cards": [
       [],
       [
-        {"name": "Takashi Hirano", "type": "Y"},
-        {"name": "Masami Ihara", "type": "Y"},
-        {"name": "Eisuke Nakanishi", "type": "Y"}
+        {"name": "Masami Ihara", "min": "26", "type": "Y"},
+        {"name": "Eisuke Nakanishi", "min": "68", "type": "Y"},
+        {"name": "Takashi Hirano", "min": "90", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Takeshi Okada"}],
     "lineups": [
       [
         {"name": "Carlos Roa"},
-        {"name": "Roberto Ayala"},
-        {"name": "Nelson Vivas"},
-        {"name": "Roberto Sensini", "out": "73"},
-        {"name": "José Chamot", "in": "73"},
-        {"name": "Matias Almeyda"},
-        {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "61"},
+        {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
+        {"name": "Roberto Sensini", "out": "72"},
+        {"name": "José Chamot", "in": "72"},
+        {"name": "Diego Simeone"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "61"},
         {"name": "Abel Balbo", "in": "61"},
-        {"name": "Ariel Ortega"}
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Yoshikatsu Kawaguchi"},
-        {"name": "Yutaka Akita"},
-        {"name": "Masami Ihara"},
-        {"name": "Eisuke Nakanishi"},
         {"name": "Akira Narahashi"},
-        {"name": "Naoki Soma", "out": "85"},
-        {"name": "Takashi Hirano", "in": "85"},
+        {"name": "Eisuke Nakanishi"},
+        {"name": "Masami Ihara"},
+        {"name": "Naoki Soma", "out": "84"},
+        {"name": "Takashi Hirano", "in": "84"},
+        {"name": "Yutaka Akita"},
         {"name": "Hidetoshi Nakata"},
         {"name": "Hiroshi Nanami"},
         {"name": "Motohiro Yamaguchi"},
-        {"name": "Shoji Jo"},
-        {"name": "Mashshi Nakayama", "out": "66"},
-        {"name": "Wagner Lopes", "in": "66"}
+        {"name": "Masashi Nakayama", "out": "65"},
+        {"name": "Wagner Lopes", "in": "65"},
+        {"name": "Shoji Jo"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Parc des Princes, Paris"},
+    "round": "Group Stage",
+    "venue": {"name": "Parc des Princes", "city": "Paris"},
     "teams": [{"name": "Argentina"}, {"name": "Jamaica"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Ariel Ortega", "min": "31", "type": "G"},
+        {"name": "Ariel Ortega", "min": "32", "type": "G"},
         {"name": "Ariel Ortega", "min": "55", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "72", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "80", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "73", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "79", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "83", "type": "P"}
       ],
       []
     ],
     "cards": [
-      [{"name": "José Chamot", "type": "Y"}],
+      [{"name": "José Chamot", "min": "66", "type": "Y"}],
       [
-        {"name": "Darryl Powell", "type": "Y"},
-        {"name": "Peter Cargill", "type": "Y"},
+        {"name": "Darryl Powell", "min": "4", "type": "Y"},
         {"name": "Darryl Powell", "min": "45", "type": "Y"},
-        {"name": "Darryl Powell", "min": "45", "type": "R"}
+        {"name": "Darryl Powell", "min": "45", "type": "R"},
+        {"name": "Peter Cargill", "min": "88", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Rene Simoes"}],
@@ -34451,40 +34458,43 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Roberto Ayala"},
-        {"name": "Roberto Sensini", "out": "26"},
-        {"name": "Nelson Vivas", "in": "26"},
-        {"name": "Matias Almeyda"},
-        {"name": "Diego Simeone", "out": "79"},
-        {"name": "Mauricio Pineda", "in": "79"},
-        {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "74"},
-        {"name": "Marcelo Gallardo", "in": "74"},
-        {"name": "Ariel Ortega"}
+        {"name": "Roberto Ayala"},
+        {"name": "Roberto Sensini", "out": "25"},
+        {"name": "Nelson Vivas", "in": "25"},
+        {"name": "Diego Simeone", "out": "80"},
+        {"name": "Mauricio Pineda", "in": "80"},
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "75"},
+        {"name": "Marcelo Gallardo", "in": "75"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Warren Barrett"},
-        {"name": "Christopher Dawes"},
-        {"name": "Ian Goodison"},
-        {"name": "Stephen Malcolm", "out": "61"},
-        {"name": "Walter Boyd", "in": "61"},
         {"name": "Frank Sinclair"},
-        {"name": "Ricardo Gardner"},
+        {"name": "Ian Goodison"},
         {"name": "Darryl Powell"},
         {"name": "Fitzroy Simpson"},
-        {"name": "Theo Whitmore"},
-        {"name": "Paul Hall"},
+        {"name": "Ricardo Gardner"},
+        {"name": "Theo Whitmore", "out": "73"},
+        {"name": "Robbie Earle", "in": "73"},
+        {"name": "Christopher Dawes"},
+        {"name": "Stephen Malcolm", "out": "62"},
+        {"name": "Walter Boyd", "in": "62"},
         {"name": "Deon Burton", "out": "46"},
-        {"name": "Peter Cargill", "in": "46"}
+        {"name": "Peter Cargill", "in": "46"},
+        {"name": "Paul Hall"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-26",
     "competition": "World Cup",
-    "venue": {"name": "Parc De Lescure"},
+    "round": "Group Stage",
+    "venue": {"name": "Stade Jacques Chaban-Delmas", "city": "Bordeaux"},
     "teams": [{"name": "Argentina"}, {"name": "Croatia"}],
     "score": [1, 0],
     "result": "W",
@@ -34493,12 +34503,12 @@
       [
         {"name": "Ariel Ortega", "min": "23", "type": "Y"},
         {"name": "Roberto Ayala", "min": "35", "type": "Y"},
-        {"name": "Nelson Vivas", "min": "68", "type": "Y"}
+        {"name": "Nelson Vivas", "min": "69", "type": "Y"}
       ],
       [
-        {"name": "Slaven Bilic", "min": "20", "type": "Y"},
+        {"name": "Slaven Bilić", "min": "21", "type": "Y"},
         {"name": "Zvonimir Soldo", "min": "43", "type": "Y"},
-        {"name": "Zvonimir Boban", "min": "47", "type": "Y"},
+        {"name": "Zvonimir Boban", "min": "46", "type": "Y"},
         {"name": "Robert Jarni", "min": "58", "type": "Y"}
       ]
     ],
@@ -34506,45 +34516,47 @@
     "lineups": [
       [
         {"name": "Carlos Roa"},
-        {"name": "Pablo Paz"},
+        {"name": "Javier Zanetti", "out": "67"},
+        {"name": "Diego Simeone", "in": "67"},
         {"name": "Mauricio Pineda"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
+        {"name": "Pablo Paz"},
+        {"name": "Juan Sebastián Verón"},
         {"name": "Matias Almeyda"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti", "out": "68"},
-        {"name": "Diego Simeone", "in": "68"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Marcelo Gallardo", "out": "81"},
-        {"name": "Sergio Berti", "in": "81"},
-        {"name": "Ariel Ortega", "out": "53"},
-        {"name": "Claudio Lopez", "in": "53"}
+        {"name": "Marcelo Gallardo", "out": "80"},
+        {"name": "Sergio Berti", "in": "80"},
+        {"name": "Ariel Ortega", "out": "52"},
+        {"name": "Claudio López", "in": "52"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
-        {"name": "Drazen Ladic"},
-        {"name": "Slaven Bilic"},
-        {"name": "Dario Simic"},
-        {"name": "Robert Jarni"},
+        {"name": "Drazen Ladić"},
+        {"name": "Dario Šimić"},
+        {"name": "Slaven Bilić"},
         {"name": "Aljosa Asanovic"},
-        {"name": "Zvonimir Boban"},
-        {"name": "Robert Prosinecki", "out": "68"},
-        {"name": "Igor Stimac", "in": "68"},
-        {"name": "Zvonimir Soldo"},
-        {"name": "Mario Stanic"},
+        {"name": "Mario Stanić"},
+        {"name": "Robert Jarni"},
+        {"name": "Robert Prosinečki", "out": "67"},
+        {"name": "Igor Štimac", "in": "67"},
         {"name": "Silvio Maric", "out": "46"},
-        {"name": "Goran Vlaovic", "in": "46"},
-        {"name": "Davor Suker"}
+        {"name": "Goran Vlaović", "in": "46"},
+        {"name": "Zvonimir Boban"},
+        {"name": "Zvonimir Soldo"},
+        {"name": "Davor Šuker"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Stade Geoffroy-Guichard, Saint-Etienne"},
+    "round": "Round of 16",
+    "venue": {"name": "Stade Geoffroy-Guichard", "city": "Saint-Ètienne"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [2, 2],
     "pen": [4, 3],
-    "result": "W",
+    "result": "D",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "6", "type": "P"},
@@ -34557,13 +34569,12 @@
     ],
     "cards": [
       [
-        {"name": "Juan Sebastian Veron", "min": "44", "type": "Y"},
+        {"name": "Juan Sebastián Verón", "min": "44", "type": "Y"},
         {"name": "Diego Simeone", "min": "47", "type": "Y"},
-        {"name": "Matias Almeyda", "min": "73", "type": "Y"},
-        {"name": "Carlos Roa", "min": "110", "type": "Y"}
+        {"name": "Matias Almeyda", "min": "73", "type": "Y"}
       ],
       [
-        {"name": "David Seaman", "min": "6", "type": "Y"},
+        {"name": "David Seaman", "min": "5", "type": "Y"},
         {"name": "Paul Ince", "min": "10", "type": "Y"},
         {"name": "David Beckham", "min": "47", "type": "R"}
       ]
@@ -34573,41 +34584,55 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Roberto Ayala"},
+        {"name": "Javier Zanetti"},
         {"name": "Nelson Vivas"},
-        {"name": "Matias Almeyda"},
+        {"name": "Roberto Ayala"},
         {"name": "Diego Simeone", "out": "91"},
         {"name": "Sergio Berti", "in": "91"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "67"},
-        {"name": "Hernan Crespo", "in": "67"},
-        {"name": "Claudio Lopez", "out": "67"},
-        {"name": "Marcelo Gallardo", "in": "67"},
-        {"name": "Ariel Ortega"}
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Matias Almeyda"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López", "out": "68"},
+        {"name": "Marcelo Gallardo", "in": "68"},
+        {"name": "Gabriel Batistuta", "out": "68"},
+        {"name": "Hernan Crespo", "in": "68"}
       ],
       [
         {"name": "David Seaman"},
-        {"name": "Gary Neville"},
-        {"name": "Tony Adams"},
+        {"name": "Graeme Le Saux", "out": "71"},
+        {"name": "Gareth Southgate", "in": "71"},
+        {"name": "Gary  Neville"},
         {"name": "Sol Campbell"},
-        {"name": "Graeme Le Saux", "out": "70"},
-        {"name": "Gareth Southgate", "in": "70"},
-        {"name": "Darren Anderton", "out": "96"},
-        {"name": "David Batty", "in": "96"},
+        {"name": "Tony Adams"},
+        {"name": "Darren Anderton", "out": "97"},
+        {"name": "David Batty", "in": "97"},
         {"name": "David Beckham"},
         {"name": "Paul Ince"},
         {"name": "Paul Scholes", "out": "78"},
         {"name": "Paul Merson", "in": "78"},
-        {"name": "Michael Owen"},
-        {"name": "Alan Shearer"}
+        {"name": "Alan Shearer"},
+        {"name": "Michael Owen"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Shearer", "score": [0, 1]},
+      {"name": "Crespo", "score": "x"},
+      {"name": "Ince", "score": "x"},
+      {"name": "Verón", "score": [1, 1]},
+      {"name": "Merson", "score": [1, 2]},
+      {"name": "Gallardo", "score": [2, 2]},
+      {"name": "Owen", "score": [2, 3]},
+      {"name": "Ayala", "score": [3, 3]},
+      {"name": "Batty", "score": "x"},
+      {"name": "Berti", "score": [4, 3]}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1998-07-04",
     "competition": "World Cup",
-    "venue": {"name": "Stade Velodrome, Marseille"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Stade Orange Vélodrome", "city": "Marseille"},
     "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
@@ -34616,7 +34641,7 @@
         {"name": "Patrick Kluivert", "min": "12", "type": "G"},
         {"name": "Dennis Bergkamp", "min": "90", "type": "G"}
       ],
-      [{"name": "Claudio Lopez", "min": "17", "type": "G"}]
+      [{"name": "Claudio López", "min": "17", "type": "G"}]
     ],
     "cards": [
       [
@@ -34636,12 +34661,12 @@
     "lineups": [
       [
         {"name": "Edwin van der Sar"},
-        {"name": "Michael Reiziger"},
-        {"name": "Frank de Boer"},
         {"name": "Arthur Numan"},
+        {"name": "Frank de Boer"},
         {"name": "Jaap Stam"},
-        {"name": "Phillip Cocu"},
+        {"name": "Michael Reiziger"},
         {"name": "Edgar Davids"},
+        {"name": "Phillip Cocu"},
         {"name": "Ronald de Boer", "out": "64"},
         {"name": "Marc Overmars", "in": "64"},
         {"name": "Wim Jonk"},
@@ -34652,18 +34677,19 @@
         {"name": "Carlos Roa"},
         {"name": "José Chamot", "out": "89"},
         {"name": "Abel Balbo", "in": "89"},
+        {"name": "Javier Zanetti"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
+        {"name": "Diego Simeone"},
+        {"name": "Juan Sebastián Verón"},
         {"name": "Matias Almeyda", "out": "68"},
         {"name": "Mauricio Pineda", "in": "68"},
-        {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López"},
+        {"name": "Gabriel Batistuta"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1999-02-04",
