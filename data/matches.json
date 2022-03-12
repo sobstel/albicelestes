@@ -31664,64 +31664,67 @@
   {
     "date": "1994-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Foxboro, Boston"},
+    "round": "Group Stage",
+    "venue": {"name": "Foxboro Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Greece"}],
     "score": [4, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "2", "type": "G"},
-        {"name": "Gabriel Batistuta", "min": "44", "type": "G"},
+        {"name": "Gabriel Batistuta", "min": "45", "type": "G"},
         {"name": "Diego Maradona", "min": "60", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "90", "type": "P"}
       ],
       []
     ],
     "cards": [
-      [{"name": "Fernando Caceres", "min": "40", "type": "Y"}],
+      [{"name": "Fernando Cáceres", "min": "41", "type": "Y"}],
       [
         {"name": "Panagiotis Tsalouchidis", "min": "25", "type": "Y"},
-        {"name": "Stelios Manolas", "min": "55", "type": "Y"}
+        {"name": "Stelios Manolas", "min": "56", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Alfio Basile"}, {"name": "Alketas Panagoulias"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
         {"name": "Roberto Sensini"},
-        {"name": "Diego Maradona", "out": "84"},
-        {"name": "Ariel Ortega", "in": "84"},
-        {"name": "Fernando Redondo"},
+        {"name": "Diego Maradona", "out": "83"},
+        {"name": "Ariel Ortega", "in": "83"},
         {"name": "Diego Simeone"},
-        {"name": "Abel Balbo", "out": "81"},
-        {"name": "Alejandro Mancuso", "in": "81"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"}
+        {"name": "Fernando Redondo"},
+        {"name": "Abel Balbo", "out": "80"},
+        {"name": "Alejandro Mancuso", "in": "80"},
+        {"name": "Claudio Caniggia"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Antonis Minou"},
-        {"name": "Ioanis Kalitzakis"},
         {"name": "Thanasis Kolitsidakis"},
-        {"name": "Stelios Manolas"},
         {"name": "Efstratios Apostolakis"},
-        {"name": "Savvas Kofidis"},
+        {"name": "Ioanis Kalitzakis"},
+        {"name": "Stelios Manolas"},
         {"name": "Nikolaos Nioplias"},
-        {"name": "Panagiotis Tsalouchidis"},
         {"name": "Nikolaos Tsiantakis", "out": "46"},
         {"name": "Spiros Marangos", "in": "46"},
-        {"name": "Nikolaos Mahlas", "out": "59"},
-        {"name": "Anastassios Mitropoulos", "in": "59"},
-        {"name": "Dimitrios Savarakos"}
+        {"name": "Panagiotis Tsalouchidis"},
+        {"name": "Savvas Kofidis"},
+        {"name": "Dimitrios Saravakos"},
+        {"name": "Nikos Machlas", "out": "59"},
+        {"name": "Anastassios Mitropoulos", "in": "59"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-06-25",
     "competition": "World Cup",
-    "venue": {"name": "Foxboro, Boston"},
+    "round": "Group Stage",
+    "venue": {"name": "Foxboro Stadium", "city": "Foxborough, Massachusetts"},
     "teams": [{"name": "Argentina"}, {"name": "Nigeria"}],
     "score": [2, 1],
     "result": "W",
@@ -31743,40 +31746,42 @@
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Roberto Sensini", "out": "87"},
-        {"name": "Hernan Diaz", "in": "87"},
+        {"name": "Roberto Sensini", "out": "86"},
+        {"name": "Hernán Díaz", "in": "86"},
         {"name": "Diego Maradona"},
-        {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
-        {"name": "Abel Balbo", "out": "71"},
-        {"name": "Alejandro Mancuso", "in": "71"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia"}
+        {"name": "Fernando Redondo"},
+        {"name": "Abel Balbo", "out": "70"},
+        {"name": "Alejandro Mancuso", "in": "70"},
+        {"name": "Claudio Caniggia"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Peter Rufai"},
         {"name": "Augustine Eguavoen"},
-        {"name": "Michael Emenalo"},
         {"name": "Chidi N'Wanu"},
         {"name": "Uche Okechukwu"},
-        {"name": "Emmanuel Amunike"},
-        {"name": "Sunday Oliseh", "out": "87"},
-        {"name": "Jay Jay Okocha", "in": "87"},
-        {"name": "Finidi George"},
+        {"name": "Michael Emenalo"},
+        {"name": "Sunday Oliseh", "out": "86"},
+        {"name": "Jay Jay Okocha", "in": "86"},
         {"name": "Daniel Amokachi"},
+        {"name": "Emmanuel Amunike"},
         {"name": "Samson Siasia", "out": "56"},
         {"name": "Mutiu Adepoju", "in": "56"},
-        {"name": "Rachidi Yekini"}
+        {"name": "Rachidi Yekini"},
+        {"name": "Finidi George"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Cotton Bowl, Dallas"},
+    "round": "Group Stage",
+    "venue": {"name": "Cotton Bowl", "city": "Dallas, Texas"},
     "teams": [{"name": "Argentina"}, {"name": "Bulgaria"}],
     "score": [0, 2],
     "result": "L",
@@ -31789,69 +31794,71 @@
     ],
     "cards": [
       [
-        {"name": "Oscar Ruggeri", "min": "34", "type": "Y"},
-        {"name": "Leonardo Rodríguez", "min": "44", "type": "Y"},
+        {"name": "Oscar Ruggeri", "min": "33", "type": "Y"},
+        {"name": "Leonardo Rodriguez", "min": "44", "type": "Y"},
         {"name": "Gabriel Batistuta", "min": "81", "type": "Y"}
       ],
       [
         {"name": "Hristo Stoichkov", "min": "7", "type": "Y"},
-        {"name": "Zlatko Yankov", "min": "24", "type": "Y"},
+        {"name": "Zlatko Yankov", "min": "25", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "45", "type": "Y"},
-        {"name": "Trifon Ivanov", "min": "58", "type": "Y"},
+        {"name": "Trifon Ivanov", "min": "59", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "67", "type": "Y"},
         {"name": "Tsanko Tsvetanov", "min": "67", "type": "R"},
-        {"name": "Krasimir Balakov", "min": "74", "type": "Y"}
+        {"name": "Krasimir Balakov", "min": "75", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Alfio Basile"}, {"name": "Dimitar Denev"}],
+    "coaches": [{"name": "Alfio Basile"}, {"name": "Dimitar Penev"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
+        {"name": "Hernán Díaz"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Fernando Redondo"},
-        {"name": "Leonardo Rodríguez", "out": "67"},
-        {"name": "Ramon Medina Bello", "in": "67"},
         {"name": "Diego Simeone"},
+        {"name": "Fernando Redondo"},
+        {"name": "Leonardo Rodriguez", "out": "67"},
+        {"name": "Ramon Medina Bello", "in": "67"},
         {"name": "Abel Balbo"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Caniggia", "out": "25"},
-        {"name": "Ariel Ortega", "in": "25"}
+        {"name": "Claudio Caniggia", "out": "26"},
+        {"name": "Ariel Ortega", "in": "26"},
+        {"name": "Gabriel Batistuta"}
       ],
       [
         {"name": "Borislav Mihailov"},
-        {"name": "Petar Houbchev"},
-        {"name": "Trifon Ivanov"},
         {"name": "Emil Kremenliev"},
+        {"name": "Petar Hubchev"},
+        {"name": "Trifon Ivanov"},
         {"name": "Tsanko Tsvetanov"},
         {"name": "Krasimir Balakov"},
-        {"name": "Yordan Lechkov", "out": "75"},
-        {"name": "Daniel Borimirov", "in": "75"},
-        {"name": "Zlatko Yankov"},
-        {"name": "Emil Kostadinov", "out": "73"},
-        {"name": "Ilian Kiriakov", "in": "73"},
         {"name": "Nasko Sirakov"},
+        {"name": "Yordan Letchkov", "out": "77"},
+        {"name": "Daniel Borimirov", "in": "77"},
+        {"name": "Zlatko Yankov"},
+        {"name": "Emil Kostadinov", "out": "74"},
+        {"name": "Ilian Kiryakov", "in": "74"},
         {"name": "Hristo Stoichkov"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1994-07-03",
     "competition": "World Cup",
-    "venue": {"name": "Rose Bowl, Los Angeles"},
+    "round": "Round of 16",
+    "venue": {"name": "Rose Bowl", "city": "Pasadena, California"},
     "teams": [{"name": "Romania"}, {"name": "Argentina"}],
     "score": [3, 2],
     "result": "L",
     "goals": [
       [
-        {"name": "Ilie Dumitrescu", "min": "9", "type": "G"},
-        {"name": "Ilie Dumitrescu", "min": "17", "type": "G"},
-        {"name": "Gheorghe Hagi", "min": "57", "type": "G"}
+        {"name": "Ilie Dumitrescu", "min": "11", "type": "G"},
+        {"name": "Ilie Dumitrescu", "min": "18", "type": "G"},
+        {"name": "Gheorghe Hagi", "min": "58", "type": "G"}
       ],
       [
-        {"name": "Gabriel Batistuta", "min": "15", "type": "P"},
+        {"name": "Gabriel Batistuta", "min": "16", "type": "P"},
         {"name": "Abel Balbo", "min": "75", "type": "G"}
       ]
     ],
@@ -31865,41 +31872,42 @@
         {"name": "Oscar Ruggeri", "min": "33", "type": "Y"},
         {"name": "Fernando Redondo", "min": "55", "type": "Y"},
         {"name": "José Chamot", "min": "56", "type": "Y"},
-        {"name": "Fernando Caceres", "min": "82", "type": "Y"}
+        {"name": "Fernando Cáceres", "min": "82", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Anghel Iordanescu"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
         {"name": "Florin Prunea"},
-        {"name": "Miodrag Belodedici"},
-        {"name": "Gheorghe Mihali"},
-        {"name": "Daniel Prodan"},
-        {"name": "Gheorghe Popescu"},
         {"name": "Dan Petrescu"},
+        {"name": "Daniel Prodan"},
+        {"name": "Gheorghe Mihali"},
+        {"name": "Miodrag Belodedici"},
+        {"name": "Tibor Selymes"},
+        {"name": "Dorinel Munteanu"},
         {"name": "Gheorghe Hagi", "out": "85"},
         {"name": "Constantin Galca", "in": "85"},
-        {"name": "Ionut Lupescu"},
-        {"name": "Dorinel Munteanu"},
-        {"name": "Tibor Selymes"},
+        {"name": "Gheorghe Popescu"},
         {"name": "Ilie Dumitrescu", "out": "88"},
-        {"name": "Corneliu Papura", "in": "88"}
+        {"name": "Corneliu Papura", "in": "88"},
+        {"name": "Ioan Lupescu"}
       ],
       [
         {"name": "Luis Islas"},
-        {"name": "Fernando Caceres"},
+        {"name": "Fernando Cáceres"},
         {"name": "José Chamot"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Roberto Sensini", "out": "60"},
-        {"name": "Ramon Medina Bello", "in": "60"},
-        {"name": "José Basualdo"},
-        {"name": "Fernando Redondo"},
+        {"name": "Roberto Sensini", "out": "62"},
+        {"name": "Ramon Medina Bello", "in": "62"},
         {"name": "Diego Simeone"},
+        {"name": "Fernando Redondo"},
+        {"name": "José Basualdo"},
         {"name": "Abel Balbo"},
-        {"name": "Gabriel Batistuta"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "slug": "chile-argentina-2",
