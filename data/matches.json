@@ -35346,9 +35346,9 @@
     ]
   },
   {
-    "date": "1999-11-17",
+    "date": "1999-11-16",
     "competition": "Friendly",
-    "venue": {"name": "Estadio de La Cartuja, Seville"},
+    "venue": {"name": "Estadio Olímpico de Sevilla", "city": "Sevilla"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [0, 2],
     "result": "W",
@@ -35356,97 +35356,107 @@
       [],
       [
         {"name": "Kily González", "min": "63", "type": "G"},
-        {"name": "Mauricio Pochettino", "min": "77", "type": "G"}
+        {"name": "Mauricio Pochettino", "min": "75", "type": "G"}
       ]
     ],
+    "cards": [[], [{"name": "Diego Simeone", "min": "75", "type": "Y"}]],
     "coaches": [{"name": "José Antonio Camacho"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "José Molina"},
+        {"name": "Agustín Aranzábal"},
         {"name": "Albert Ferrer"},
-        {"name": "Agustin Aranzabal"},
-        {"name": "Paco"},
         {"name": "Nadal"},
+        {"name": "Paco Jémez"},
+        {"name": "Gaizka Mendieta", "out": "73"},
+        {"name": "Fernando Morientes", "in": "73"},
         {"name": "Pep Guardiola"},
-        {"name": "Julen Guerrero", "out": "70"},
-        {"name": "Valeron", "in": "70"},
-        {"name": "Luis Enrique"},
-        {"name": "Mendieta"},
-        {"name": "ALFONSO Perez", "out": "22"},
-        {"name": "Ismael Urzaiz", "in": "22"},
-        {"name": "Raúl"}
+        {"name": "Julen Guerrero", "out": "67"},
+        {"name": "Valerón", "in": "67"},
+        {"name": "Luis Enrique", "out": "46"},
+        {"name": "Joseba Etxeberria", "in": "46"},
+        {"name": "Alfonso Pérez", "out": "22"},
+        {"name": "Ismael Urzáiz", "in": "22"},
+        {"name": "Raúl", "out": "46"},
+        {"name": "Pedro Munitis", "in": "46"}
       ],
       [
         {"name": "German Burgos"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
+        {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
         {"name": "Kily González"},
         {"name": "Diego Simeone"},
-        {"name": "Javier Zanetti"},
+        {"name": "Ariel Ortega", "out": "87"},
+        {"name": "Santiago Solari", "in": "87"},
+        {"name": "Claudio López", "out": "77"},
+        {"name": "Gustavo Adrián López", "in": "77"},
         {"name": "Hernan Crespo", "out": "90"},
-        {"name": "Eduardo Magnolo Berizzo", "in": "90"},
-        {"name": "Claudio Lopez", "out": "78"},
-        {"name": "Gustavo Lopez", "in": "78"},
-        {"name": "Ariel Ortega", "out": "80"},
-        {"name": "Santiago Solari", "in": "80"}
+        {"name": "Eduardo Berizzo", "in": "90"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2000-02-23",
+    "date": "2000-02-22",
     "competition": "Friendly",
-    "venue": {"name": "Wembley Stadium, London"},
+    "venue": {"name": "Wembley Stadium (old)", "city": "London"},
     "teams": [{"name": "England"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
     "cards": [
       [
-        {"name": "David Beckham", "type": "Y"},
-        {"name": "Dennis Wise", "type": "Y"}
+        {"name": "David Beckham", "min": "19", "type": "Y"},
+        {"name": "Dennis Wise", "min": "46", "type": "Y"}
       ],
-      []
+      [
+        {"name": "Roberto Ayala", "min": "", "type": "Y"},
+        {"name": "José Chamot", "min": "", "type": "Y"},
+        {"name": "Rodolfo Arruabarrena", "min": "", "type": "Y"},
+        {"name": "Ariel Ortega", "min": "", "type": "Y"}
+      ]
     ],
-    "coaches": [null, {"name": "Marcelo Bielsa"}],
+    "coaches": [{"name": ""}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "David Seaman"},
-        {"name": "Sol Campbell"},
-        {"name": "Martin Keown", "out": "46"},
-        {"name": "Rio Ferdinand", "in": "46"},
         {"name": "Gareth Southgate"},
+        {"name": "Martin Keown", "out": "56"},
+        {"name": "Rio Ferdinand", "in": "56"},
+        {"name": "Sol Campbell"},
         {"name": "David Beckham", "out": "73"},
         {"name": "Ray Parlour", "in": "73"},
+        {"name": "Dennis Wise"},
         {"name": "Kieron Dyer", "out": "59"},
         {"name": "Phil Neville", "in": "59"},
         {"name": "Paul Scholes"},
         {"name": "Jason Wilcox"},
-        {"name": "Dennis Wise"},
-        {"name": "Emile Heskey", "out": "79"},
-        {"name": "Andrew Cole", "in": "79"},
         {"name": "Alan Shearer", "out": "78"},
-        {"name": "Kevin Phillips", "in": "78"}
+        {"name": "Kevin Phillips", "in": "78"},
+        {"name": "Emile Heskey", "out": "79"},
+        {"name": "Andy Cole", "in": "79"}
       ],
       [
         {"name": "Pablo Cavallero"},
-        {"name": "Rodolfo Arruabarena", "out": "67"},
-        {"name": "Nelson Vivas", "in": "67"},
-        {"name": "José Chamot"},
         {"name": "Roberto Ayala"},
-        {"name": "Roberto Sensini", "out": "40"},
-        {"name": "Mauricio Pochettino", "in": "40"},
+        {"name": "José Chamot"},
+        {"name": "Javier Zanetti"},
+        {"name": "Rodolfo Arruabarrena", "out": "68"},
+        {"name": "Nelson Vivas", "in": "68"},
+        {"name": "Roberto Sensini", "out": "35"},
+        {"name": "Mauricio Pochettino", "in": "35"},
         {"name": "Kily González"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Sebastian Veron"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "57"},
-        {"name": "Hernan Crespo", "in": "57"},
-        {"name": "Ariel Ortega", "out": "90"},
-        {"name": "Gustavo Lopez", "in": "90"}
+        {"name": "Juan Sebastián Verón"},
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta", "out": "56"},
+        {"name": "Hernan Crespo", "in": "56"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2000-03-29",
@@ -36044,61 +36054,64 @@
   {
     "date": "2001-02-28",
     "competition": "Friendly",
-    "venue": {"name": "Olimpico, Roma"},
+    "venue": {"name": "Stadio Olimpico", "city": "Roma"},
     "teams": [{"name": "Italy"}, {"name": "Argentina"}],
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [{"name": "Stefano Fiore", "min": "25", "type": "G"}],
+      [{"name": "Stefano Fiore", "min": "21", "type": "G"}],
       [
-        {"name": "Kily González", "min": "35", "type": "G"},
-        {"name": "Hernan Crespo", "min": "48", "type": "G"}
+        {"name": "Kily González", "min": "36", "type": "G"},
+        {"name": "Hernan Crespo", "min": "38", "type": "G"}
       ]
     ],
     "cards": [
-      [{"name": "Paolo Maldini", "type": "Y"}],
+      [{"name": "Paolo Maldini", "min": "17", "type": "Y"}],
       [
-        {"name": "Claudio Husain", "type": "Y"},
-        {"name": "Diego Simeone", "type": "Y"}
+        {"name": "Diego Simeone", "min": "82", "type": "Y"},
+        {"name": "Claudio Husaín", "min": "90", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Dino Zoff"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "Gianluigi Buffon"},
-        {"name": "Paolo Maldini", "out": "51"},
-        {"name": "Francesco Totti", "in": "51"},
         {"name": "Alessandro Pierini"},
-        {"name": "Cristian Zenoni"},
         {"name": "Fabio Cannavaro"},
-        {"name": "Stefano Fiore", "out": "51"},
-        {"name": "Valerio Bertotto", "in": "51"},
+        {"name": "Cristian Zenoni"},
         {"name": "Gianluca Pessotto", "out": "69"},
-        {"name": "Marco Delvecchio", "in": "69"},
+        {"name": "Francesco Coco", "in": "69"},
+        {"name": "Paolo Maldini", "out": "53"},
+        {"name": "Valerio Bertotto", "in": "53"},
         {"name": "Alessio Tacchinardi"},
         {"name": "Damiano Tommasi", "out": "76"},
         {"name": "Luigi Di Biagio", "in": "76"},
-        {"name": "Filippo Inzaghi"},
-        {"name": "Christian Vieri", "out": "69"},
-        {"name": "Francesco Coco", "in": "69"}
+        {"name": "Stefano Fiore", "out": "52"},
+        {"name": "Francesco Totti", "in": "52"},
+        {"name": "Christian Vieri", "out": "70"},
+        {"name": "Marco Delvecchio", "in": "70"},
+        {"name": "Filippo Inzaghi"}
       ],
       [
         {"name": "German Burgos"},
-        {"name": "Walter Samuel"},
-        {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
-        {"name": "Pablo Aimar"},
-        {"name": "Kily González", "out": "85"},
-        {"name": "Gustavo Lopez", "in": "85"},
-        {"name": "Diego Simeone"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "73"},
-        {"name": "Claudio Husain", "in": "73"},
+        {"name": "Roberto Ayala", "out": "81"},
+        {"name": "Mauricio Pochettino", "in": "81"},
+        {"name": "Walter Samuel"},
         {"name": "Javier Zanetti"},
-        {"name": "Hernan Crespo", "out": "93"},
-        {"name": "Julio Cruz", "in": "93"}
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Juan Sebastián Verón", "out": "73"},
+        {"name": "Claudio Husaín", "in": "73"},
+        {"name": "Diego Simeone"},
+        {"name": "Pablo Aimar", "out": "81"},
+        {"name": "Marcelo Gallardo", "in": "81"},
+        {"name": "Kily González", "out": "85"},
+        {"name": "Gustavo Adrián López", "in": "85"},
+        {"name": "Hernan Crespo", "out": "90"},
+        {"name": "Julio Cruz", "in": "90"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2001-03-28",
@@ -36669,22 +36682,22 @@
     ]
   },
   {
-    "date": "2002-04-17",
+    "date": "2002-04-16",
     "competition": "Friendly",
-    "venue": {"name": "Gottlieb Daimler, Stuttgart"},
+    "venue": {"name": "", "city": ""},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Juan Pablo Sorin", "min": "47", "type": "G"}]],
+    "goals": [[], [{"name": "Juan Pablo Sorín", "min": "48", "type": "G"}]],
     "cards": [
       [
-        {"name": "Jens Jeremies", "type": "Y"},
-        {"name": "Michael Ballack", "type": "Y"}
+        {"name": "Jens Jeremies", "min": "", "type": "Y"},
+        {"name": "Michael Ballack", "min": "", "type": "Y"}
       ],
       [
-        {"name": "Walter Samuel", "type": "Y"},
-        {"name": "Pablo Aimar", "type": "Y"},
-        {"name": "Facundo Quiroga", "type": "Y"}
+        {"name": "Walter Samuel", "min": "", "type": "Y"},
+        {"name": "Facundo Quiroga", "min": "", "type": "Y"},
+        {"name": "Pablo Aimar", "min": "", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Rudi Voller"}, {"name": "Marcelo Bielsa"}],
@@ -36692,43 +36705,46 @@
       [
         {"name": "Jens Lehmann"},
         {"name": "Christoph Metzelder"},
+        {"name": "Jens Nowotny"},
         {"name": "Thomas Linke", "out": "46"},
         {"name": "Frank Baumann", "in": "46"},
-        {"name": "Jens Nowotny"},
-        {"name": "Michael Ballack"},
-        {"name": "Jorg Bohme", "out": "46"},
+        {"name": "Carsten Ramelow"},
+        {"name": "Jörg Böhme", "out": "46"},
         {"name": "Lars Ricken", "in": "46"},
-        {"name": "Torsten Frings", "out": "83"},
-        {"name": "Martin Max", "in": "83"},
         {"name": "Jens Jeremies", "out": "77"},
         {"name": "Sebastian Kehl", "in": "77"},
-        {"name": "Carsten Ramelow"},
+        {"name": "Michael Ballack"},
+        {"name": "Torsten Frings", "out": "83"},
+        {"name": "Martin Max", "in": "83"},
+        {"name": "Miroslav Klose"},
         {"name": "Oliver Bierhoff", "out": "70"},
-        {"name": "Carsten Jancker", "in": "70"},
-        {"name": "Miroslav Klose"}
+        {"name": "Carsten Jancker", "in": "70"}
       ],
       [
         {"name": "Pablo Cavallero"},
-        {"name": "Mauricio Pochettino"},
         {"name": "Facundo Quiroga"},
+        {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
-        {"name": "Pablo Aimar", "out": "31"},
-        {"name": "Marcelo Gallardo", "in": "31"},
+        {"name": "Javier Zanetti"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Matias Almeyda"},
+        {"name": "Pablo Aimar", "out": "31"},
+        {"name": "Marcelo Gallardo", "in": "31", "out": "62"},
+        {"name": "Santiago Solari", "in": "62"},
         {"name": "Kily González", "out": "89"},
         {"name": "Diego Placente", "in": "89"},
-        {"name": "Gustavo Lopez", "out": "77"},
+        {"name": "Gustavo Adrián López", "out": "77"},
         {"name": "Javier Saviola", "in": "77"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Claudio Lopez"}
+        {"name": "Claudio López"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2002-06-02",
+    "date": "2002-06-01",
     "competition": "World Cup",
-    "venue": {"name": "Kashima Soccer Stadium, Ibaraki"},
+    "round": "Group Stage",
+    "venue": {"name": "Kashima Soccer Stadium", "city": "Kashima"},
     "teams": [{"name": "Argentina"}, {"name": "Nigeria"}],
     "score": [1, 0],
     "result": "W",
@@ -36745,40 +36761,42 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Diego Placente"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "78"},
+        {"name": "Juan Sebastián Verón", "out": "78"},
         {"name": "Pablo Aimar", "in": "78"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "61"},
-        {"name": "Hernan Crespo", "in": "61"},
-        {"name": "Claudio Lopez", "out": "46"},
-        {"name": "Kily González", "in": "46"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta", "out": "81"},
+        {"name": "Hernan Crespo", "in": "81"},
+        {"name": "Claudio López", "out": "46"},
+        {"name": "Kily González", "in": "46"}
       ],
       [
         {"name": "Ike Shorunmu"},
-        {"name": "Isaac Okoronkwo"},
+        {"name": "Celestine Babayaro"},
         {"name": "Efe Sodje", "out": "73"},
         {"name": "Justice Christopher", "in": "73"},
-        {"name": "Taribo West"},
+        {"name": "Isaac Okoronkwo"},
         {"name": "Joséph Yobo"},
-        {"name": "Celestine Babayaro"},
+        {"name": "Taribo West"},
         {"name": "Garba Lawal"},
         {"name": "Jay Jay Okocha"},
+        {"name": "Bart Ogbeche"},
         {"name": "Julius Aghahowa"},
         {"name": "Nwankwo Kanu", "out": "48"},
-        {"name": "Pius Ikedia", "in": "48"},
-        {"name": "Bart Ogbeche"}
+        {"name": "Pius Ikedia", "in": "48"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2002-06-07",
     "competition": "World Cup",
-    "venue": {"name": "Dome, Sapporo"},
+    "round": "Group Stage",
+    "venue": {"name": "Sapporo Dome", "city": "Sapporo"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [0, 1],
     "result": "L",
@@ -36795,41 +36813,43 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Diego Placente"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
         {"name": "Kily González", "out": "64"},
-        {"name": "Claudio Lopez", "in": "64"},
+        {"name": "Claudio López", "in": "64"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "46"},
+        {"name": "Juan Sebastián Verón", "out": "46"},
         {"name": "Pablo Aimar", "in": "46"},
-        {"name": "Javier Zanetti"},
+        {"name": "Ariel Ortega"},
         {"name": "Gabriel Batistuta", "out": "60"},
-        {"name": "Hernan Crespo", "in": "60"},
-        {"name": "Ariel Ortega"}
+        {"name": "Hernan Crespo", "in": "60"}
       ],
       [
         {"name": "David Seaman"},
-        {"name": "Danny Mills"},
-        {"name": "Sol Campbell"},
-        {"name": "Rio Ferdinand"},
-        {"name": "Owen Hargreaves", "out": "10"},
-        {"name": "Trevor Sinclair", "in": "10"},
         {"name": "Ashley Cole"},
+        {"name": "Danny Mills"},
+        {"name": "Rio Ferdinand"},
+        {"name": "Sol Campbell"},
         {"name": "David Beckham"},
-        {"name": "Nicky Butt"},
+        {"name": "Owen Hargreaves", "out": "19"},
+        {"name": "Trevor Sinclair", "in": "19"},
         {"name": "Paul Scholes"},
+        {"name": "Nicky Butt"},
         {"name": "Emile Heskey", "out": "54"},
         {"name": "Teddy Sheringham", "in": "54"},
         {"name": "Michael Owen", "out": "80"},
         {"name": "Wayne Bridge", "in": "80"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2002-06-12",
+    "date": "2002-06-11",
     "competition": "World Cup",
-    "venue": {"name": "Miyagi Stadium"},
+    "round": "Group Stage",
+    "venue": {"name": "Miyagi Stadium", "city": "Rifu"},
     "teams": [{"name": "Sweden"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -36839,7 +36859,7 @@
     ],
     "cards": [
       [
-        {"name": "Magnus Svensson", "min": "68", "type": "Y"},
+        {"name": "Magnus Svensson", "min": "65", "type": "Y"},
         {"name": "Henrik Larsson", "min": "78", "type": "Y"}
       ],
       [
@@ -36853,36 +36873,37 @@
       [
         {"name": "Magnus Hedman"},
         {"name": "Andreas Jakobsson"},
-        {"name": "Teddy Lucic"},
+        {"name": "Johan Mjällby"},
         {"name": "Olof Mellberg"},
-        {"name": "Johan Mjallby"},
-        {"name": "Niclas Alexandersson"},
-        {"name": "Tobias Linderoth"},
+        {"name": "Teddy Lučić"},
         {"name": "Anders Svensson", "out": "68"},
         {"name": "Mattias Jonson", "in": "68"},
         {"name": "Magnus Svensson"},
-        {"name": "Marcus Allback", "out": "46"},
-        {"name": "Andreas Andersson", "in": "46"},
+        {"name": "Niclas Alexandersson"},
+        {"name": "Tobias Linderoth"},
         {"name": "Henrik Larsson", "out": "88"},
-        {"name": "Zlatan Ibrahimović", "in": "88"}
+        {"name": "Zlatan Ibrahimović", "in": "88"},
+        {"name": "Marcus Allbäck", "out": "46"},
+        {"name": "Andreas Andersson", "in": "46"}
       ],
       [
         {"name": "Pablo Cavallero"},
         {"name": "José Chamot"},
+        {"name": "Juan Pablo Sorín", "out": "63"},
+        {"name": "Kily González", "in": "63"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
-        {"name": "Pablo Aimar"},
         {"name": "Matias Almeyda", "out": "63"},
-        {"name": "Kily González", "in": "63"},
-        {"name": "Juan Pablo Sorin", "out": "63"},
-        {"name": "Juan Sebastian Veron", "in": "63"},
-        {"name": "Javier Zanetti"},
+        {"name": "Juan Sebastián Verón", "in": "63"},
+        {"name": "Pablo Aimar"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López"},
         {"name": "Gabriel Batistuta", "out": "58"},
-        {"name": "Hernan Crespo", "in": "58"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega"}
+        {"name": "Hernan Crespo", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2002-11-20",
@@ -37045,65 +37066,68 @@
   {
     "date": "2003-02-08",
     "competition": "Friendly",
-    "venue": {"name": "Orange Bowl, Miami"},
-    "teams": [{"name": "USA"}, {"name": "Argentina"}],
+    "venue": {"name": "Miami Orange Bowl", "city": "Miami, Florida"},
+    "teams": [{"name": "United States"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Lucho González", "min": "9", "type": "G"}]],
     "cards": [
       [
-        {"name": "Carlos Bocanegra", "type": "Y"},
-        {"name": "Bobby Convey", "type": "Y"},
-        {"name": "Ben Olsen", "type": "Y"}
+        {"name": "Ben Olsen", "min": "20", "type": "Y"},
+        {"name": "Bobby Convey", "min": "45", "type": "Y"},
+        {"name": "Carlos Bocanegra", "min": "71", "type": "Y"}
       ],
       [
-        {"name": "Andrés D'Alessandro", "type": "Y"},
-        {"name": "Pablo Guinazu", "type": "Y"},
-        {"name": "Diego Milito", "type": "Y"},
-        {"name": "Federico Insua", "type": "Y"},
-        {"name": "Andrés D'Alessandro", "min": "91", "type": "Y"},
-        {"name": "Andrés D'Alessandro", "min": "91", "type": "R"}
+        {"name": "Andrés D'Alessandro", "min": "13", "type": "Y"},
+        {"name": "Diego Milito", "min": "42", "type": "Y"},
+        {"name": "Federico Insúa", "min": "54", "type": "Y"},
+        {"name": "Pablo Guinazu", "min": "74", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "90+1", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "90+1", "type": "R"}
       ]
     ],
+    "coaches": [{"name": "Bruce Arena"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "Tim Howard"},
-        {"name": "Danny Califf"},
         {"name": "Carlos Bocanegra", "out": "90"},
         {"name": "Steve Ralston", "in": "90"},
         {"name": "DaMarcus Beasley"},
+        {"name": "Danny Califf"},
         {"name": "Bobby Convey"},
-        {"name": "Landon Donovan"},
+        {"name": "Ben Olsen", "out": "46"},
+        {"name": "Taylor Twellman", "in": "46"},
         {"name": "Chris Klein", "out": "79"},
         {"name": "Jeff Cunningham", "in": "79"},
-        {"name": "Pablo Mastroeni"},
-        {"name": "Ben Olsen"},
         {"name": "Clint Mathis"},
+        {"name": "Pablo Mastroeni"},
         {"name": "Sasha Victorine", "out": "56"},
-        {"name": "Nick Garcia", "in": "56"}
+        {"name": "Nick Garcia", "in": "56"},
+        {"name": "Landon Donovan"}
       ],
       [
         {"name": "Sebastian Saja"},
-        {"name": "Nicolás Burdisso"},
-        {"name": "Ariel Garce"},
         {"name": "Gabriel Milito"},
-        {"name": "Sebastian Alejandro Battaglia"},
-        {"name": "Andrés D'Alessandro"},
+        {"name": "Nicolás Burdisso"},
+        {"name": "Ariel Garcé"},
+        {"name": "Sebastián Battaglia"},
+        {"name": "Pablo Guinazu"},
+        {"name": "Federico Insúa", "out": "77"},
+        {"name": "Leandro Romagnoli", "in": "77"},
         {"name": "Lucho González"},
+        {"name": "Andrés D'Alessandro"},
         {"name": "Mariano González", "out": "46"},
         {"name": "Cesar Carignano", "in": "46"},
-        {"name": "Pablo Guinazu"},
-        {"name": "Federico Insua", "out": "77"},
-        {"name": "Leandro Romagnoli", "in": "77"},
         {"name": "Diego Milito", "out": "85"},
         {"name": "Clemente Rodriguez", "in": "85"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2003-02-12",
+    "date": "2003-02-11",
     "competition": "Friendly",
-    "venue": {"name": "ArenA Amsterdam, Amsterdam"},
+    "venue": {"name": "Johan Cruijff Arena", "city": "Amsterdam"},
     "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
@@ -37111,25 +37135,22 @@
       [{"name": "Giovanni van Bronckhorst", "min": "87", "type": "G"}],
       []
     ],
-    "cards": [
-      [],
-      [
-        {"name": "Claudio Lopez", "type": "Y"},
-        {"name": "Walter Samuel", "type": "Y"}
-      ]
-    ],
+    "cards": [[], []],
+    "coaches": [{"name": ""}, {"name": ""}],
     "lineups": [
       [
         {"name": "Ronald Waterreus"},
         {"name": "Frank de Boer"},
+        {"name": "Fernando Ricksen"},
         {"name": "Jaap Stam", "out": "46"},
         {"name": "Michael Reiziger", "in": "46"},
-        {"name": "Fernando Ricksen"},
-        {"name": "Phillip Cocu"},
-        {"name": "Edgar Davids"},
-        {"name": "Clarence Seedorf"},
-        {"name": "Mark van Bommel"},
         {"name": "Bolo Zenden"},
+        {"name": "Clarence Seedorf"},
+        {"name": "Edgar Davids"},
+        {"name": "Mark van Bommel", "out": "71"},
+        {"name": "Giovanni van Bronckhorst", "in": "71"},
+        {"name": "Phillip Cocu", "out": "81"},
+        {"name": "Paul Bosvelt", "in": "81"},
         {"name": "Patrick Kluivert"},
         {"name": "Ruud Van Nistelrooy", "out": "46"},
         {"name": "Roy Makaay", "in": "46"}
@@ -37137,22 +37158,22 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Facundo Quiroga"},
-        {"name": "Walter Samuel"},
-        {"name": "Roberto Ayala"},
-        {"name": "Pablo Aimar"},
-        {"name": "Gustavo Lopez", "out": "58"},
-        {"name": "Javier Saviola", "in": "58"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "74"},
-        {"name": "Esteban Cambiasso", "in": "74"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Javier Zanetti"},
-        {"name": "Claudio Lopez", "out": "81"},
+        {"name": "Roberto Ayala"},
+        {"name": "Walter Samuel"},
+        {"name": "Gustavo Adrián López", "out": "59"},
+        {"name": "Javier Saviola", "in": "59"},
+        {"name": "Juan Sebastián Verón", "out": "72"},
+        {"name": "Esteban Cambiasso", "in": "72"},
+        {"name": "Pablo Aimar"},
+        {"name": "Claudio López", "out": "81"},
         {"name": "Santiago Solari", "in": "81"},
-        {"name": "Ariel Ortega", "out": "62"},
-        {"name": "Marcelo Gallardo", "in": "62"}
+        {"name": "Ariel Ortega", "out": "63"},
+        {"name": "Marcelo Gallardo", "in": "63"}
       ]
     ],
-    "info": {"youtube": [{"id": "Ud4A9Xe9cLU"}]}
+    "sources": ["Golazon"]
   },
   {
     "date": "2003-04-30",
@@ -37904,7 +37925,8 @@
     "slug": "argentina-ecuador-2",
     "date": "2004-07-07",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Elias Aguirre"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
     "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
     "score": [6, 1],
     "result": "W",
@@ -37917,101 +37939,112 @@
         {"name": "Andrés D'Alessandro", "min": "84", "type": "G"},
         {"name": "Lucho González", "min": "90", "type": "G"}
       ],
-      [{"name": "Agustin Delgado", "min": "62", "type": "G"}]
+      [{"name": "Agustín Delgado", "min": "62", "type": "G"}]
     ],
-    "cards": [[], [{"name": "Edison Mendez", "type": "Y"}]],
+    "cards": [[], [{"name": "Edison Mendez", "min": "78", "type": "Y"}]],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Hernán Darío Gómez"}],
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Roberto Ayala"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
         {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
         {"name": "Andrés D'Alessandro"},
+        {"name": "Lucho González"},
         {"name": "Kily González", "out": "87"},
         {"name": "Clemente Rodriguez", "in": "87"},
-        {"name": "Lucho González"},
-        {"name": "Javier Mascherano"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado"},
         {"name": "Javier Saviola", "out": "83"},
-        {"name": "Carlos Tevez", "in": "83"}
+        {"name": "Carlos Tevez", "in": "83"},
+        {"name": "César Delgado", "out": "70"},
+        {"name": "Mauro Rosales", "in": "70"}
       ],
       [
-        {"name": "Oswaldo Johvani Ibarra"},
-        {"name": "Paul Ambrosi"},
-        {"name": "Marlon Ayovi"},
+        {"name": "Oswaldo Ibarra"},
         {"name": "Ivan Hurtado"},
-        {"name": "Neicer Reasco"},
+        {"name": "Ulises de la Cruz", "out": "54"},
+        {"name": "Edison Mendez", "in": "54"},
+        {"name": "Paul Ambrosi"},
         {"name": "Giovanny Espinoza"},
-        {"name": "Ulises de la Cruz"},
+        {"name": "Neicer Reasco"},
+        {"name": "Alfonso Obregón"},
+        {"name": "Marlon Ayoví"},
         {"name": "Cleber Chala"},
-        {"name": "Alfonso Obregon"},
-        {"name": "Edwin Tenorio"},
-        {"name": "Ebelio Agustin Ordonez", "out": "46"},
-        {"name": "Agustin Delgado", "in": "46"}
+        {"name": "Edwin Tenorio", "out": "30"},
+        {"name": "Franklin Agustin Salas", "in": "30"},
+        {"name": "Ebelio Ordóñez", "out": "46"},
+        {"name": "Agustín Delgado", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-07-10",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Elias Aguirre"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [0, 1],
     "result": "L",
-    "goals": [[], [{"name": "Ramon Morales", "min": "9", "type": "G"}]],
+    "goals": [[], [{"name": "Ramón Morales", "min": "9", "type": "G"}]],
     "cards": [
       [
-        {"name": "Javier Zanetti", "type": "Y"},
-        {"name": "Andrés D'Alessandro", "type": "Y"},
-        {"name": "Javier Mascherano", "type": "Y"},
-        {"name": "Gabriel Heinze", "type": "Y"}
+        {"name": "Gabriel Heinze", "min": "32", "type": "Y"},
+        {"name": "Javier Zanetti", "min": "45", "type": "Y"},
+        {"name": "Javier Mascherano", "min": "68", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "78", "type": "Y"}
       ],
       [
-        {"name": "Salvador Carmona", "type": "Y"},
-        {"name": "Jared Borguetti", "type": "Y"},
-        {"name": "Gerardo Torrado", "type": "Y"},
-        {"name": "Pavel Pardo", "type": "Y"},
-        {"name": "Hector Altamirano", "type": "Y"}
+        {"name": "Jared Borgetti", "min": "22", "type": "Y"},
+        {"name": "Gerardo Torrado", "min": "65", "type": "Y"},
+        {"name": "Héctor Altamirano", "min": "68", "type": "Y"},
+        {"name": "Salvador Carmona", "min": "78", "type": "Y"},
+        {"name": "Pavel Pardo", "min": "88", "type": "Y"}
       ]
     ],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Ricardo La Volpe"}],
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Roberto Ayala"},
-        {"name": "Gabriel Heinze"},
-        {"name": "Andrés D'Alessandro"},
-        {"name": "Kily González"},
-        {"name": "Lucho González", "out": "66"},
-        {"name": "Carlos Tevez", "in": "66"},
-        {"name": "Javier Mascherano"},
-        {"name": "Juan Pablo Sorin", "out": "76"},
+        {"name": "Juan Pablo Sorín", "out": "76"},
         {"name": "Luciano Figueroa", "in": "76"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
         {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado"},
-        {"name": "Javier Saviola"}
+        {"name": "Andrés D'Alessandro"},
+        {"name": "Lucho González", "out": "66"},
+        {"name": "Mauro Rosales", "in": "66"},
+        {"name": "Kily González"},
+        {"name": "Javier Saviola"},
+        {"name": "César Delgado", "out": "66"},
+        {"name": "Carlos Tevez", "in": "66"}
       ],
       [
         {"name": "Oswaldo Sanchez"},
         {"name": "Omar Briceño", "out": "75"},
         {"name": "Octavio Valdez", "in": "75"},
-        {"name": "Duilio Cesar Davino"},
-        {"name": "Ricardo Osorio"},
         {"name": "Rafael Márquez"},
-        {"name": "Ramon Morales"},
-        {"name": "Pavel Pardo"},
+        {"name": "Duilio Davino"},
+        {"name": "Salvador Carmona"},
+        {"name": "Ricardo Osorio"},
         {"name": "Gerardo Torrado"},
-        {"name": "Jesus Arellano"},
-        {"name": "Jared Borguetti", "out": "64"},
-        {"name": "Hector Altamirano", "in": "64"},
-        {"name": "Salvador Carmona"}
+        {"name": "Pavel Pardo"},
+        {"name": "Jared Borgetti", "out": "64"},
+        {"name": "Héctor Altamirano", "in": "64"},
+        {"name": "Ramón Morales", "out": "64"},
+        {"name": "Daniel Osorno", "in": "64"},
+        {"name": "Jesus Arellano"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-07-13",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Miguel Grau, Piura"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Miguel Grau de Piura", "city": "Piura"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [4, 2],
     "result": "W",
@@ -38023,107 +38056,124 @@
         {"name": "Luciano Figueroa", "min": "89", "type": "G"}
       ],
       [
-        {"name": "Dario Rodriguez", "min": "7", "type": "G"},
-        {"name": "Vicente Sanchez", "min": "39", "type": "G"}
+        {"name": "Fabian Estoyanoff", "min": "7", "type": "G"},
+        {"name": "Vicente Sánchez", "min": "39", "type": "G"}
       ]
     ],
     "cards": [
       [
-        {"name": "Roberto Ayala", "type": "Y"},
-        {"name": "Javier Mascherano", "type": "Y"}
+        {"name": "Javier Mascherano", "min": "64", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "73", "type": "Y"}
       ],
       [
-        {"name": "Marcelo Sosa", "type": "Y"},
-        {"name": "Carlos Diogo", "type": "Y"},
-        {"name": "Joe Bizera", "min": "83", "type": "R"}
+        {"name": "Joe Bizera", "min": "5", "type": "Y"},
+        {"name": "Marcelo Sosa", "min": "19", "type": "Y"},
+        {"name": "Carlos Diogo", "min": "28", "type": "Y"},
+        {"name": "Joe Bizera", "min": "35", "type": "Y"},
+        {"name": "Joe Bizera", "min": "35", "type": "R"}
       ]
     ],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Jorge Fossati"}],
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
         {"name": "Clemente Rodriguez", "out": "46"},
         {"name": "Mariano González", "in": "46"},
-        {"name": "Roberto Ayala"},
-        {"name": "Gabriel Heinze"},
         {"name": "Andrés D'Alessandro"},
-        {"name": "Kily González"},
         {"name": "Lucho González", "out": "79"},
         {"name": "Javier Saviola", "in": "79"},
-        {"name": "Javier Mascherano"},
-        {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado"},
-        {"name": "Luciano Figueroa"}
+        {"name": "Kily González"},
+        {"name": "Luciano Figueroa"},
+        {"name": "César Delgado", "out": "76"},
+        {"name": "Carlos Tevez", "in": "76"}
       ],
       [
         {"name": "Luis Barbat"},
         {"name": "Joe Bizera"},
-        {"name": "Carlos Diogo"},
+        {"name": "Darío Rodríguez"},
         {"name": "Alejandro Lago"},
-        {"name": "Dario Rodriguez"},
-        {"name": "Javier Delgado"},
-        {"name": "Diego Perez"},
+        {"name": "Carlos Diogo"},
         {"name": "Marcelo Sosa", "out": "86"},
         {"name": "Carlos Bueno", "in": "86"},
-        {"name": "Fabian Estoyanoff"},
-        {"name": "Diego Forlan"},
-        {"name": "Vicente Sanchez", "out": "71"},
+        {"name": "Diego Perez"},
+        {"name": "Xavier Delgado"},
+        {"name": "Fabian Estoyanoff", "out": "43"},
+        {"name": "Guillermo Rodríguez", "in": "43"},
+        {"name": "Diego Forlán"},
+        {"name": "Vicente Sánchez", "out": "71"},
         {"name": "Cristian Rodriguez", "in": "71"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-07-17",
     "competition": "Copa América",
-    "venue": {"name": "Estadio Elias Aguirre"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
     "teams": [{"name": "Peru"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
     "goals": [[], [{"name": "Carlos Tevez", "min": "60", "type": "G"}]],
     "cards": [
       [
-        {"name": "Juan José Jayo", "type": "Y"},
-        {"name": "Carlos Alberto Zegarra", "type": "Y"}
+        {"name": "Carlos Zegarra", "min": "25", "type": "Y"},
+        {"name": "Juan José Jayo", "min": "28", "type": "Y"},
+        {"name": "Nolberto Solano", "min": "89", "type": "Y"}
       ],
-      [{"name": "Roberto Ayala", "min": "81", "type": "R"}]
+      [
+        {"name": "Roberto Ayala", "min": "26", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "81", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "81", "type": "R"}
+      ]
     ],
+    "coaches": [{"name": "Paulo Autuori"}, {"name": "Marcelo Bielsa"}],
     "lineups": [
       [
         {"name": "Oscar Ibanez"},
         {"name": "Santiago Acasiete"},
         {"name": "Miguel Rebosio"},
-        {"name": "Guillermo Salas"},
         {"name": "Walter Vilchez", "out": "86"},
         {"name": "Juan Carlos La Rosa", "in": "86"},
-        {"name": "Nolberto Solano"},
-        {"name": "Juan José Jayo"},
+        {"name": "Guillermo Salas"},
         {"name": "Jorge Soto"},
-        {"name": "Andrés Mendoza"},
+        {"name": "Nolberto Solano"},
+        {"name": "Juan José Jayo", "out": "85"},
+        {"name": "Aldo Olcese", "in": "85"},
         {"name": "Roberto Palacios"},
-        {"name": "Carlos Alberto Zegarra", "out": "66"},
-        {"name": "Pedro Garcia", "in": "66"}
+        {"name": "Carlos Zegarra", "out": "66"},
+        {"name": "Pedro García", "in": "66"},
+        {"name": "Andrés Mendoza"}
       ],
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Roberto Ayala"},
-        {"name": "Fabricio Coloccini"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
         {"name": "Andrés D'Alessandro", "out": "57"},
         {"name": "Carlos Tevez", "in": "57"},
-        {"name": "Kily González"},
         {"name": "Lucho González"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado"},
+        {"name": "Kily González"},
         {"name": "Luciano Figueroa", "out": "83"},
-        {"name": "Facundo Quiroga", "in": "83"}
+        {"name": "Facundo Quiroga", "in": "83"},
+        {"name": "César Delgado", "out": "72"},
+        {"name": "Mauro Rosales", "in": "72"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "slug": "argentina-colombia-2",
     "date": "2004-07-20",
     "competition": "Copa América",
-    "venue": {"name": "Nacional, Lima"},
+    "round": "Semi-finals",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
     "score": [3, 0],
     "result": "W",
@@ -38131,7 +38181,7 @@
       [
         {"name": "Carlos Tevez", "min": "32", "type": "G"},
         {"name": "Lucho González", "min": "51", "type": "G"},
-        {"name": "Juan Pablo Sorin", "min": "80", "type": "G"}
+        {"name": "Juan Pablo Sorín", "min": "80", "type": "G"}
       ],
       []
     ],
@@ -38151,66 +38201,68 @@
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
-        {"name": "Fabricio Coloccini"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
         {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Lucho González"},
         {"name": "Kily González", "out": "85"},
         {"name": "Diego Placente", "in": "85"},
-        {"name": "Lucho González"},
-        {"name": "Javier Mascherano"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado", "out": "61"},
-        {"name": "Mauro Rosales", "in": "61"},
         {"name": "Luciano Figueroa", "out": "64"},
         {"name": "Facundo Quiroga", "in": "64"},
-        {"name": "Carlos Tevez"}
+        {"name": "Carlos Tevez"},
+        {"name": "César Delgado", "out": "61"},
+        {"name": "Mauro Rosales", "in": "61"}
       ],
       [
         {"name": "Juan Carlos Henao"},
         {"name": "Andrés González"},
-        {"name": "Gonzalo Martinez"},
         {"name": "Andrés Orozco"},
-        {"name": "Gustavo Victoria"},
+        {"name": "Gonzalo Martínez"},
+        {"name": "Óscar Díaz"},
+        {"name": "Tressor Moreno", "out": "73"},
+        {"name": "David Ferreira", "in": "73"},
+        {"name": "Elkin Murillo", "out": "61"},
+        {"name": "Edixon Perea", "in": "61"},
+        {"name": "Jairo Patiño"},
         {"name": "Abel Aguilar", "out": "57"},
         {"name": "Jhon Viafara", "in": "57"},
-        {"name": "Oscar Diaz"},
-        {"name": "Malher Moreno", "out": "73"},
-        {"name": "David Ferreira", "in": "73"},
-        {"name": "Jairo Patino"},
-        {"name": "Edwin Congo"},
-        {"name": "Elkin Murillo", "out": "61"},
-        {"name": "Edixon Perea", "in": "61"}
+        {"name": "Gustavo Victoria"},
+        {"name": "Edwin Congo"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-07-25",
     "competition": "Copa América",
-    "venue": {"name": "Nacional, Lima"},
+    "round": "Final",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [2, 2],
     "pen": [2, 4],
-    "result": "L",
+    "result": "D",
     "goals": [
       [
         {"name": "Kily González", "min": "21", "type": "P"},
-        {"name": "Cesar Delgado", "min": "87", "type": "G"}
+        {"name": "César Delgado", "min": "87", "type": "G"}
       ],
       [
-        {"name": "Luisão", "min": "45", "type": "G"},
-        {"name": "Adriano", "min": "90", "type": "G"}
+        {"name": "Luisão", "min": "45+1", "type": "G"},
+        {"name": "Adriano", "min": "90+3", "type": "G"}
       ]
     ],
     "cards": [
       [
-        {"name": "Juan Pablo Sorin", "min": "25", "type": "Y"},
+        {"name": "Juan Pablo Sorín", "min": "25", "type": "Y"},
         {"name": "Javier Mascherano", "min": "72", "type": "Y"},
-        {"name": "Cesar Delgado", "min": "87", "type": "Y"}
+        {"name": "César Delgado", "min": "87", "type": "Y"}
       ],
       [
-        {"name": "Edu", "min": "37", "type": "Y"},
+        {"name": "Edu Gaspar", "min": "37", "type": "Y"},
         {"name": "Luisão", "min": "58", "type": "Y"},
-        {"name": "Adriano", "min": "90", "type": "Y"}
+        {"name": "Adriano", "min": "90+3", "type": "Y"}
       ]
     ],
     "coaches": [
@@ -38221,33 +38273,47 @@
       [
         {"name": "Roberto Abbondanzieri"},
         {"name": "Roberto Ayala"},
-        {"name": "Fabricio Coloccini"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
         {"name": "Gabriel Heinze"},
-        {"name": "Kily González"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
         {"name": "Lucho González", "out": "75"},
         {"name": "Andrés D'Alessandro", "in": "75"},
-        {"name": "Javier Mascherano"},
+        {"name": "Kily González"},
         {"name": "Mauro Rosales", "out": "64"},
-        {"name": "Cesar Delgado", "in": "64"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Carlos Tevez", "out": "92"},
-        {"name": "Facundo Quiroga", "in": "92"}
+        {"name": "César Delgado", "in": "64"},
+        {"name": "Carlos Tevez", "out": "90+2"},
+        {"name": "Facundo Quiroga", "in": "90+2"}
       ],
       [
         {"name": "Júlio César"},
-        {"name": "Alex"},
-        {"name": "Gustavo Nery"},
+        {"name": "Luisão", "out": "81"},
+        {"name": "Cris", "in": "81"},
         {"name": "Juan"},
+        {"name": "Gustavo Nery"},
         {"name": "Maicon"},
-        {"name": "Luisão"},
-        {"name": "Edu"},
-        {"name": "Kleberson"},
         {"name": "Renato"},
+        {"name": "Kléberson", "out": "54"},
+        {"name": "Diego", "in": "54"},
+        {"name": "Alex", "out": "63"},
+        {"name": "Felipe Melo", "in": "63"},
+        {"name": "Edu Gaspar"},
         {"name": "Adriano"},
         {"name": "Luis Fabiano"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "D'Alessandro", "score": "x"},
+      {"name": "Adriano", "score": [0, 1]},
+      {"name": "Heinze", "score": "x"},
+      {"name": "Edu Gaspar", "score": [0, 2]},
+      {"name": "C. González", "score": [1, 2]},
+      {"name": "Diego", "score": [1, 3]},
+      {"name": "Sorín", "score": [2, 3]},
+      {"name": "Juan", "score": [2, 4]}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-06-30",
@@ -38306,6 +38372,400 @@
         {"name": "John Christian Galliquio", "in": "62"}
       ]
     ]
+  },
+  {
+    "slug": "argentina-ecuador-2",
+    "date": "2004-07-07",
+    "competition": "Copa América",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
+    "teams": [{"name": "Argentina"}, {"name": "Ecuador"}],
+    "score": [6, 1],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Kily González", "min": "5", "type": "P"},
+        {"name": "Javier Saviola", "min": "64", "type": "G"},
+        {"name": "Javier Saviola", "min": "74", "type": "G"},
+        {"name": "Javier Saviola", "min": "79", "type": "G"},
+        {"name": "Andrés D'Alessandro", "min": "84", "type": "G"},
+        {"name": "Lucho González", "min": "90", "type": "G"}
+      ],
+      [{"name": "Agustín Delgado", "min": "62", "type": "G"}]
+    ],
+    "cards": [[], [{"name": "Edison Mendez", "min": "78", "type": "Y"}]],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Hernán Darío Gómez"}],
+    "lineups": [
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Andrés D'Alessandro"},
+        {"name": "Lucho González"},
+        {"name": "Kily González", "out": "87"},
+        {"name": "Clemente Rodriguez", "in": "87"},
+        {"name": "Javier Saviola", "out": "83"},
+        {"name": "Carlos Tevez", "in": "83"},
+        {"name": "César Delgado", "out": "70"},
+        {"name": "Mauro Rosales", "in": "70"}
+      ],
+      [
+        {"name": "Oswaldo Ibarra"},
+        {"name": "Ivan Hurtado"},
+        {"name": "Ulises de la Cruz", "out": "54"},
+        {"name": "Edison Mendez", "in": "54"},
+        {"name": "Paul Ambrosi"},
+        {"name": "Giovanny Espinoza"},
+        {"name": "Neicer Reasco"},
+        {"name": "Alfonso Obregón"},
+        {"name": "Marlon Ayoví"},
+        {"name": "Cleber Chala"},
+        {"name": "Edwin Tenorio", "out": "30"},
+        {"name": "Franklin Agustin Salas", "in": "30"},
+        {"name": "Ebelio Ordóñez", "out": "46"},
+        {"name": "Agustín Delgado", "in": "46"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2004-07-10",
+    "competition": "Copa América",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
+    "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
+    "score": [0, 1],
+    "result": "L",
+    "goals": [[], [{"name": "Ramón Morales", "min": "9", "type": "G"}]],
+    "cards": [
+      [
+        {"name": "Gabriel Heinze", "min": "32", "type": "Y"},
+        {"name": "Javier Zanetti", "min": "45", "type": "Y"},
+        {"name": "Javier Mascherano", "min": "68", "type": "Y"},
+        {"name": "Andrés D'Alessandro", "min": "78", "type": "Y"}
+      ],
+      [
+        {"name": "Jared Borgetti", "min": "22", "type": "Y"},
+        {"name": "Gerardo Torrado", "min": "65", "type": "Y"},
+        {"name": "Héctor Altamirano", "min": "68", "type": "Y"},
+        {"name": "Salvador Carmona", "min": "78", "type": "Y"},
+        {"name": "Pavel Pardo", "min": "88", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Ricardo La Volpe"}],
+    "lineups": [
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Juan Pablo Sorín", "out": "76"},
+        {"name": "Luciano Figueroa", "in": "76"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Andrés D'Alessandro"},
+        {"name": "Lucho González", "out": "66"},
+        {"name": "Mauro Rosales", "in": "66"},
+        {"name": "Kily González"},
+        {"name": "Javier Saviola"},
+        {"name": "César Delgado", "out": "66"},
+        {"name": "Carlos Tevez", "in": "66"}
+      ],
+      [
+        {"name": "Oswaldo Sanchez"},
+        {"name": "Omar Briceño", "out": "75"},
+        {"name": "Octavio Valdez", "in": "75"},
+        {"name": "Rafael Márquez"},
+        {"name": "Duilio Davino"},
+        {"name": "Salvador Carmona"},
+        {"name": "Ricardo Osorio"},
+        {"name": "Gerardo Torrado"},
+        {"name": "Pavel Pardo"},
+        {"name": "Jared Borgetti", "out": "64"},
+        {"name": "Héctor Altamirano", "in": "64"},
+        {"name": "Ramón Morales", "out": "64"},
+        {"name": "Daniel Osorno", "in": "64"},
+        {"name": "Jesus Arellano"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2004-07-13",
+    "competition": "Copa América",
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Miguel Grau de Piura", "city": "Piura"},
+    "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
+    "score": [4, 2],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Kily González", "min": "19", "type": "P"},
+        {"name": "Luciano Figueroa", "min": "20", "type": "G"},
+        {"name": "Roberto Ayala", "min": "80", "type": "G"},
+        {"name": "Luciano Figueroa", "min": "89", "type": "G"}
+      ],
+      [
+        {"name": "Fabian Estoyanoff", "min": "7", "type": "G"},
+        {"name": "Vicente Sánchez", "min": "39", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Javier Mascherano", "min": "64", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "73", "type": "Y"}
+      ],
+      [
+        {"name": "Joe Bizera", "min": "5", "type": "Y"},
+        {"name": "Marcelo Sosa", "min": "19", "type": "Y"},
+        {"name": "Carlos Diogo", "min": "28", "type": "Y"},
+        {"name": "Joe Bizera", "min": "35", "type": "Y"},
+        {"name": "Joe Bizera", "min": "35", "type": "R"}
+      ]
+    ],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Jorge Fossati"}],
+    "lineups": [
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Clemente Rodriguez", "out": "46"},
+        {"name": "Mariano González", "in": "46"},
+        {"name": "Andrés D'Alessandro"},
+        {"name": "Lucho González", "out": "79"},
+        {"name": "Javier Saviola", "in": "79"},
+        {"name": "Kily González"},
+        {"name": "Luciano Figueroa"},
+        {"name": "César Delgado", "out": "76"},
+        {"name": "Carlos Tevez", "in": "76"}
+      ],
+      [
+        {"name": "Luis Barbat"},
+        {"name": "Joe Bizera"},
+        {"name": "Darío Rodríguez"},
+        {"name": "Alejandro Lago"},
+        {"name": "Carlos Diogo"},
+        {"name": "Marcelo Sosa", "out": "86"},
+        {"name": "Carlos Bueno", "in": "86"},
+        {"name": "Diego Perez"},
+        {"name": "Xavier Delgado"},
+        {"name": "Fabian Estoyanoff", "out": "43"},
+        {"name": "Guillermo Rodríguez", "in": "43"},
+        {"name": "Diego Forlán"},
+        {"name": "Vicente Sánchez", "out": "71"},
+        {"name": "Cristian Rodriguez", "in": "71"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2004-07-17",
+    "competition": "Copa América",
+    "round": "Quarter-finals",
+    "venue": {"name": "Estadio Elías Aguirre", "city": "Chiclayo"},
+    "teams": [{"name": "Peru"}, {"name": "Argentina"}],
+    "score": [0, 1],
+    "result": "W",
+    "goals": [[], [{"name": "Carlos Tevez", "min": "60", "type": "G"}]],
+    "cards": [
+      [
+        {"name": "Carlos Zegarra", "min": "25", "type": "Y"},
+        {"name": "Juan José Jayo", "min": "28", "type": "Y"},
+        {"name": "Nolberto Solano", "min": "89", "type": "Y"}
+      ],
+      [
+        {"name": "Roberto Ayala", "min": "26", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "81", "type": "Y"},
+        {"name": "Roberto Ayala", "min": "81", "type": "R"}
+      ]
+    ],
+    "coaches": [{"name": "Paulo Autuori"}, {"name": "Marcelo Bielsa"}],
+    "lineups": [
+      [
+        {"name": "Oscar Ibanez"},
+        {"name": "Santiago Acasiete"},
+        {"name": "Miguel Rebosio"},
+        {"name": "Walter Vilchez", "out": "86"},
+        {"name": "Juan Carlos La Rosa", "in": "86"},
+        {"name": "Guillermo Salas"},
+        {"name": "Jorge Soto"},
+        {"name": "Nolberto Solano"},
+        {"name": "Juan José Jayo", "out": "85"},
+        {"name": "Aldo Olcese", "in": "85"},
+        {"name": "Roberto Palacios"},
+        {"name": "Carlos Zegarra", "out": "66"},
+        {"name": "Pedro García", "in": "66"},
+        {"name": "Andrés Mendoza"}
+      ],
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Andrés D'Alessandro", "out": "57"},
+        {"name": "Carlos Tevez", "in": "57"},
+        {"name": "Lucho González"},
+        {"name": "Kily González"},
+        {"name": "Luciano Figueroa", "out": "83"},
+        {"name": "Facundo Quiroga", "in": "83"},
+        {"name": "César Delgado", "out": "72"},
+        {"name": "Mauro Rosales", "in": "72"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "slug": "argentina-colombia-2",
+    "date": "2004-07-20",
+    "competition": "Copa América",
+    "round": "Semi-finals",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
+    "teams": [{"name": "Argentina"}, {"name": "Colombia"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Carlos Tevez", "min": "32", "type": "G"},
+        {"name": "Lucho González", "min": "51", "type": "G"},
+        {"name": "Juan Pablo Sorín", "min": "80", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [
+        {"name": "Fabricio Coloccini", "min": "55", "type": "Y"},
+        {"name": "Luciano Figueroa", "min": "60", "type": "Y"},
+        {"name": "Kily González", "min": "70", "type": "Y"}
+      ],
+      [
+        {"name": "Abel Aguilar", "min": "33", "type": "Y"},
+        {"name": "Andrés Orozco", "min": "57", "type": "Y"},
+        {"name": "Edixon Perea", "min": "87", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Marcelo Bielsa"}, {"name": "Reinaldo Rueda"}],
+    "lineups": [
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Lucho González"},
+        {"name": "Kily González", "out": "85"},
+        {"name": "Diego Placente", "in": "85"},
+        {"name": "Luciano Figueroa", "out": "64"},
+        {"name": "Facundo Quiroga", "in": "64"},
+        {"name": "Carlos Tevez"},
+        {"name": "César Delgado", "out": "61"},
+        {"name": "Mauro Rosales", "in": "61"}
+      ],
+      [
+        {"name": "Juan Carlos Henao"},
+        {"name": "Andrés González"},
+        {"name": "Andrés Orozco"},
+        {"name": "Gonzalo Martínez"},
+        {"name": "Óscar Díaz"},
+        {"name": "Tressor Moreno", "out": "73"},
+        {"name": "David Ferreira", "in": "73"},
+        {"name": "Elkin Murillo", "out": "61"},
+        {"name": "Edixon Perea", "in": "61"},
+        {"name": "Jairo Patiño"},
+        {"name": "Abel Aguilar", "out": "57"},
+        {"name": "Jhon Viafara", "in": "57"},
+        {"name": "Gustavo Victoria"},
+        {"name": "Edwin Congo"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2004-07-25",
+    "competition": "Copa América",
+    "round": "Final",
+    "venue": {"name": "Estadio Nacional de Lima", "city": "Lima"},
+    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
+    "score": [2, 2],
+    "pen": [2, 4],
+    "result": "D",
+    "goals": [
+      [
+        {"name": "Kily González", "min": "21", "type": "P"},
+        {"name": "César Delgado", "min": "87", "type": "G"}
+      ],
+      [
+        {"name": "Luisão", "min": "45+1", "type": "G"},
+        {"name": "Adriano", "min": "90+3", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Juan Pablo Sorín", "min": "25", "type": "Y"},
+        {"name": "Javier Mascherano", "min": "72", "type": "Y"},
+        {"name": "César Delgado", "min": "87", "type": "Y"}
+      ],
+      [
+        {"name": "Edu Gaspar", "min": "37", "type": "Y"},
+        {"name": "Luisão", "min": "58", "type": "Y"},
+        {"name": "Adriano", "min": "90+3", "type": "Y"}
+      ]
+    ],
+    "coaches": [
+      {"name": "Marcelo Bielsa"},
+      {"name": "Carlos Alberto Parreira"}
+    ],
+    "lineups": [
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Roberto Ayala"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Mascherano"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Lucho González", "out": "75"},
+        {"name": "Andrés D'Alessandro", "in": "75"},
+        {"name": "Kily González"},
+        {"name": "Mauro Rosales", "out": "64"},
+        {"name": "César Delgado", "in": "64"},
+        {"name": "Carlos Tevez", "out": "90+2"},
+        {"name": "Facundo Quiroga", "in": "90+2"}
+      ],
+      [
+        {"name": "Júlio César"},
+        {"name": "Luisão", "out": "81"},
+        {"name": "Cris", "in": "81"},
+        {"name": "Juan"},
+        {"name": "Gustavo Nery"},
+        {"name": "Maicon"},
+        {"name": "Renato"},
+        {"name": "Kléberson", "out": "54"},
+        {"name": "Diego", "in": "54"},
+        {"name": "Alex", "out": "63"},
+        {"name": "Felipe Melo", "in": "63"},
+        {"name": "Edu Gaspar"},
+        {"name": "Adriano"},
+        {"name": "Luis Fabiano"}
+      ]
+    ],
+    "penaltyShootout": [
+      {"name": "D'Alessandro", "score": "x"},
+      {"name": "Adriano", "score": [0, 1]},
+      {"name": "Heinze", "score": "x"},
+      {"name": "Edu Gaspar", "score": [0, 2]},
+      {"name": "C. González", "score": [1, 2]},
+      {"name": "Diego", "score": [1, 3]},
+      {"name": "Sorín", "score": [2, 3]},
+      {"name": "Juan", "score": [2, 4]}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2004-08-18",
@@ -38600,56 +39060,64 @@
     ]
   },
   {
-    "date": "2005-02-09",
+    "date": "2005-02-08",
     "competition": "Friendly",
-    "venue": {"name": "LTU Arena"},
+    "venue": {"name": "Merkur Spiel-Arena", "city": "Düsseldorf"},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [2, 2],
     "result": "D",
     "goals": [
       [
         {"name": "Torsten Frings", "min": "28", "type": "P"},
-        {"name": "Kevin Kurányi", "min": "45", "type": "G"}
+        {"name": "Kevin Kuranyi", "min": "45", "type": "G"}
       ],
       [
         {"name": "Hernan Crespo", "min": "40", "type": "P"},
         {"name": "Hernan Crespo", "min": "81", "type": "G"}
       ]
     ],
+    "cards": [
+      [{"name": "Torsten Frings", "min": "", "type": "Y"}],
+      [
+        {"name": "Gabriel Heinze", "min": "", "type": "Y"},
+        {"name": "Luciano Galletti", "min": "", "type": "Y"}
+      ]
+    ],
     "coaches": [{"name": "Jurgen Klinsmann"}, {"name": "José Pekerman"}],
     "lineups": [
       [
         {"name": "Jens Lehmann"},
+        {"name": "Christian Wörns"},
         {"name": "Per Mertesacker"},
-        {"name": "Christian Worns"},
-        {"name": "Fabian Ernst"},
-        {"name": "Torsten Frings"},
-        {"name": "Thomas Hitzlsperger"},
         {"name": "Patrick Owomoyela"},
         {"name": "Bernd Schneider"},
         {"name": "Bastian Schweinsteiger", "out": "75"},
         {"name": "Christian Schulz", "in": "75"},
+        {"name": "Fabian Ernst"},
+        {"name": "Torsten Frings"},
+        {"name": "Thomas Hitzlsperger"},
         {"name": "Gerald Asamoah", "out": "29"},
         {"name": "Paul Freier", "in": "29"},
-        {"name": "Kevin Kurányi"}
+        {"name": "Kevin Kuranyi"}
       ],
       [
         {"name": "Roberto Abbondanzieri"},
-        {"name": "Nicolás Burdisso"},
+        {"name": "Gabriel Heinze"},
         {"name": "Gabriel Milito", "out": "46"},
         {"name": "Esteban Cambiasso", "in": "46"},
-        {"name": "Gabriel Heinze"},
-        {"name": "Aldo Duscher", "out": "71"},
-        {"name": "Luciano Galletti", "in": "71"},
-        {"name": "Román Riquelme"},
-        {"name": "Lionel Scaloni", "out": "46"},
-        {"name": "Maxi Rodríguez", "in": "46"},
-        {"name": "Juan Pablo Sorin"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Javier Zanetti"},
+        {"name": "Lionel Scaloni", "out": "46"},
+        {"name": "Maxi Rodriguez", "in": "46"},
+        {"name": "Nicolás Burdisso"},
+        {"name": "Aldo Duscher", "out": "78"},
+        {"name": "Luciano Galletti", "in": "78"},
+        {"name": "Román Riquelme"},
         {"name": "Hernan Crespo"},
         {"name": "Javier Saviola"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2005-03-09",
@@ -38924,8 +39392,9 @@
   },
   {
     "date": "2005-06-15",
-    "competition": "FIFA Confederations Cup",
-    "venue": {"name": "Stadium KOLN"},
+    "competition": "Confederations Cup",
+    "round": "Group Stage",
+    "venue": {"name": "RheinEnergieStadion", "city": "Köln"},
     "teams": [{"name": "Argentina"}, {"name": "Tunisia"}],
     "score": [2, 1],
     "result": "W",
@@ -38938,52 +39407,55 @@
     ],
     "cards": [
       [
-        {"name": "Gonzalo Rodriguez", "type": "Y"},
-        {"name": "German Lux", "type": "Y"}
+        {"name": "Gonzalo Rodriguez", "min": "17", "type": "Y"},
+        {"name": "German Lux", "min": "71", "type": "Y"}
       ],
       [
-        {"name": "Radhi Jaidi", "type": "Y"},
-        {"name": "Hatem Trabelsi", "type": "Y"}
+        {"name": "Hatem Trabelsi", "min": "32", "type": "Y"},
+        {"name": "Radhi Jaidi", "min": "80", "type": "Y"}
       ]
     ],
+    "coaches": [{"name": "José Pékerman"}, {"name": "Roger Lemerre"}],
     "lineups": [
       [
         {"name": "German Lux"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Juan Pablo Sorín", "out": "79"},
+        {"name": "Javier Zanetti", "in": "79"},
         {"name": "Gonzalo Rodriguez"},
         {"name": "Fabricio Coloccini"},
-        {"name": "Gabriel Heinze"},
-        {"name": "Lucas Ademar Bernardi"},
-        {"name": "Luciano Galletti"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodríguez"},
+        {"name": "Lucas Bernardi"},
+        {"name": "Luciano Galletti"},
         {"name": "Mario Santana"},
-        {"name": "Juan Pablo Sorin", "out": "79"},
-        {"name": "Javier Zanetti", "in": "79"},
         {"name": "Javier Saviola", "out": "66"},
-        {"name": "Carlos Tevez", "in": "66"}
+        {"name": "Carlos Tevez", "in": "66"},
+        {"name": "Maxi Rodriguez"}
       ],
       [
         {"name": "Khaled Fadhel"},
         {"name": "Hatem Trabelsi", "out": "46"},
-        {"name": "Amir Haj Massaoud", "in": "46"},
-        {"name": "Anis Ayari"},
-        {"name": "Karim Saidi"},
-        {"name": "Radhi Jaidi"},
-        {"name": "Selim Ben Achour"},
-        {"name": "Adel Chedly"},
+        {"name": "Hadj Massoud", "in": "46"},
+        {"name": "Karim Saïdi"},
         {"name": "Karim Essediri"},
+        {"name": "Radhi Jaidi"},
+        {"name": "Anis Ayari"},
+        {"name": "Adel Chedli"},
         {"name": "Jawhar Mnari"},
-        {"name": "Imed Mhedhebi", "out": "46"},
-        {"name": "Francileudo dos Santos", "in": "46"},
+        {"name": "Selim Benachour"},
         {"name": "Haykel Guemamdia", "out": "78"},
-        {"name": "Zied Jaziri", "in": "78"}
+        {"name": "Zied Jaziri", "in": "78"},
+        {"name": "Imed M'hadhbi", "out": "46"},
+        {"name": "Francileudo dos Santos", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2005-06-18",
-    "competition": "FIFA Confederations Cup",
-    "venue": {"name": "Frankenstadion, Nurnberg"},
+    "competition": "Confederations Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Max-Morlock-Stadion", "city": "Nürnberg"},
     "teams": [{"name": "Australia"}, {"name": "Argentina"}],
     "score": [2, 4],
     "result": "W",
@@ -39001,121 +39473,127 @@
     ],
     "cards": [
       [
-        {"name": "Craig Moore", "type": "Y"},
-        {"name": "Brett Emerton", "type": "Y"},
-        {"name": "Lucas Neill", "type": "Y"}
+        {"name": "Lucas Neill", "min": "30", "type": "Y"},
+        {"name": "Brett Emerton", "min": "43", "type": "Y"},
+        {"name": "Tim Cahill", "min": "49", "type": "Y"},
+        {"name": "Craig Moore", "min": "90+1", "type": "Y"}
       ],
-      [{"name": "Walter Samuel", "type": "Y"}]
+      [{"name": "Walter Samuel", "min": "10", "type": "Y"}]
     ],
+    "coaches": [{"name": "Frank Farina"}, {"name": "José Pékerman"}],
     "lineups": [
       [
         {"name": "Mark Schwarzer"},
         {"name": "Kevin Muscat", "out": "46"},
         {"name": "Mark Viduka", "in": "46"},
-        {"name": "Brett Emerton"},
-        {"name": "Ljubo Milicevic", "out": "56"},
-        {"name": "Jon McKain", "in": "56"},
         {"name": "Craig Moore"},
-        {"name": "Tony Vidmar"},
-        {"name": "Scott Chipperfield"},
         {"name": "Lucas Neill"},
+        {"name": "Tony Vidmar"},
+        {"name": "Ljubo Miličević", "out": "56"},
+        {"name": "Jon McKain", "in": "56"},
+        {"name": "Brett Emerton"},
         {"name": "Josip Skoko", "out": "74"},
-        {"name": "Jason Culina", "in": "74"},
+        {"name": "Jason Čulina", "in": "74"},
+        {"name": "Scott Chipperfield"},
         {"name": "Tim Cahill"},
         {"name": "John Aloisi"}
       ],
       [
         {"name": "German Lux"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Walter Samuel"},
         {"name": "Fabricio Coloccini", "out": "86"},
         {"name": "Gonzalo Rodriguez", "in": "86"},
         {"name": "Gabriel Heinze"},
-        {"name": "Lucas Ademar Bernardi"},
+        {"name": "Javier Zanetti"},
         {"name": "Román Riquelme"},
+        {"name": "Lucas Bernardi"},
         {"name": "Mario Santana", "out": "66"},
         {"name": "Esteban Cambiasso", "in": "66"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Luciano Figueroa"},
         {"name": "Javier Saviola", "out": "73"},
-        {"name": "Pablo Aimar", "in": "73"}
+        {"name": "Pablo Aimar", "in": "73"},
+        {"name": "Luciano Figueroa"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "slug": "germany-argentina-2",
     "date": "2005-06-21",
-    "competition": "FIFA Confederations Cup",
-    "venue": {"name": "Frankenstadion, Nurnberg"},
-    "teams": [{"name": "Germany"}, {"name": "Argentina"}],
+    "competition": "Confederations Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Max-Morlock-Stadion", "city": "Nürnberg"},
+    "teams": [{"name": "Argentina"}, {"name": "Germany"}],
     "score": [2, 2],
     "result": "D",
     "goals": [
       [
-        {"name": "Kevin Kurányi", "min": "29", "type": "G"},
-        {"name": "Gerald Asamoah", "min": "51", "type": "G"}
-      ],
-      [
         {"name": "Román Riquelme", "min": "33", "type": "G"},
         {"name": "Esteban Cambiasso", "min": "74", "type": "G"}
+      ],
+      [
+        {"name": "Kevin Kuranyi", "min": "29", "type": "G"},
+        {"name": "Gerald Asamoah", "min": "51", "type": "G"}
       ]
     ],
     "cards": [
       [
-        {"name": "Marco Engelhardt", "type": "Y"},
-        {"name": "Sebastian Deisler", "type": "Y"},
-        {"name": "Kevin Kurányi", "type": "Y"},
-        {"name": "Bastian Schweinsteiger", "type": "Y"}
+        {"name": "Walter Samuel", "min": "28", "type": "Y"},
+        {"name": "Lucas Bernardi", "min": "41", "type": "Y"}
       ],
       [
-        {"name": "Lucas Ademar Bernardi", "type": "Y"},
-        {"name": "Walter Samuel", "type": "Y"}
+        {"name": "Kevin Kuranyi", "min": "7", "type": "Y"},
+        {"name": "Sebastian Deisler", "min": "40", "type": "Y"},
+        {"name": "Bastian Schweinsteiger", "min": "48", "type": "Y"},
+        {"name": "Marco Engelhardt", "min": "83", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Jurgen Klinsmann"}, {"name": "José Pekerman"}],
     "lineups": [
       [
+        {"name": "German Lux"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
+        {"name": "Walter Samuel", "out": "62"},
+        {"name": "Mario Santana", "in": "62"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Esteban Cambiasso"},
+        {"name": "Román Riquelme"},
+        {"name": "Lucas Bernardi", "out": "53"},
+        {"name": "Pablo Aimar", "in": "53"},
+        {"name": "Carlos Tevez", "out": "80"},
+        {"name": "César Delgado", "in": "80"},
+        {"name": "Luciano Figueroa"}
+      ],
+      [
         {"name": "Timo Hildebrand"},
         {"name": "Andreas Hinkel"},
         {"name": "Robert Huth"},
         {"name": "Per Mertesacker"},
-        {"name": "Sebastian Deisler"},
+        {"name": "Bastian Schweinsteiger", "out": "70"},
+        {"name": "Marco Engelhardt", "in": "70"},
         {"name": "Fabian Ernst"},
+        {"name": "Sebastian Deisler"},
         {"name": "Thomas Hitzlsperger"},
         {"name": "Bernd Schneider", "out": "46"},
         {"name": "Torsten Frings", "in": "46"},
-        {"name": "Bastian Schweinsteiger", "out": "70"},
-        {"name": "Marco Engelhardt", "in": "70"},
+        {"name": "Kevin Kuranyi"},
         {"name": "Gerald Asamoah", "out": "58"},
-        {"name": "Mike Hanke", "in": "58"},
-        {"name": "Kevin Kurányi"}
-      ],
-      [
-        {"name": "German Lux"},
-        {"name": "Walter Samuel"},
-        {"name": "Fabricio Coloccini"},
-        {"name": "Gabriel Heinze"},
-        {"name": "Lucas Ademar Bernardi", "out": "53"},
-        {"name": "Pablo Aimar", "in": "53"},
-        {"name": "Esteban Cambiasso"},
-        {"name": "Román Riquelme"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Luciano Figueroa"},
-        {"name": "Carlos Tevez", "out": "80"},
-        {"name": "Cesar Delgado", "in": "80"}
+        {"name": "Mike Hanke", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "slug": "mexico-argentina-2",
     "date": "2005-06-26",
-    "competition": "FIFA Confederations Cup",
-    "venue": {"name": "Hannover Stadion"},
+    "competition": "Confederations Cup",
+    "round": "Semi-finals",
+    "venue": {"name": "HDI-Arena", "city": "Hannover"},
     "teams": [{"name": "Mexico"}, {"name": "Argentina"}],
-    "score": [1, 1],
+    "score": [0, 0],
     "pen": [5, 6],
-    "result": "W",
+    "result": "D",
     "goals": [
       [{"name": "Carlos Salcido", "min": "104", "type": "G"}],
       [{"name": "Luciano Figueroa", "min": "110", "type": "G"}]
@@ -39124,8 +39602,8 @@
       [
         {"name": "Rafael Márquez", "min": "21", "type": "Y"},
         {"name": "Gonzalo Pineda", "min": "49", "type": "Y"},
-        {"name": "Rafael Márquez", "min": "93", "type": "Y"},
-        {"name": "Rafael Márquez", "min": "93", "type": "R"},
+        {"name": "Rafael Márquez", "min": "90+3", "type": "Y"},
+        {"name": "Rafael Márquez", "min": "90+3", "type": "R"},
         {"name": "Alberto Medina", "min": "102", "type": "Y"},
         {"name": "Carlos Salcido", "min": "105", "type": "Y"}
       ],
@@ -39139,42 +39617,44 @@
     "lineups": [
       [
         {"name": "Oswaldo Sanchez"},
-        {"name": "Mario Mendez"},
-        {"name": "Ricardo Osorio"},
         {"name": "Carlos Salcido"},
         {"name": "Rafael Márquez"},
-        {"name": "Jaime Lozano", "out": "56"},
-        {"name": "Luis Pérez", "in": "56"},
-        {"name": "Ramon Morales", "out": "72"},
-        {"name": "Alberto Medina", "in": "72"},
-        {"name": "Antonio Naelson", "out": "94"},
-        {"name": "Gerardo Torrado", "in": "94"},
+        {"name": "Ricardo Osorio"},
         {"name": "Pavel Pardo"},
+        {"name": "Sinha", "out": "94"},
+        {"name": "Gerardo Torrado", "in": "94"},
         {"name": "Gonzalo Pineda"},
-        {"name": "Jared Borguetti"}
+        {"name": "Jaime Lozano", "out": "56"},
+        {"name": "Luis Ernesto Pérez", "in": "56"},
+        {"name": "Mario Méndez"},
+        {"name": "Jared Borgetti"},
+        {"name": "Ramón Morales", "out": "72"},
+        {"name": "Alberto Medina", "in": "72"}
       ],
       [
         {"name": "German Lux"},
-        {"name": "Gabriel Milito", "out": "66"},
-        {"name": "Maxi Rodríguez", "in": "66"},
-        {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
+        {"name": "Fabricio Coloccini"},
+        {"name": "Gabriel Milito", "out": "66"},
+        {"name": "Maxi Rodriguez", "in": "66"},
         {"name": "Esteban Cambiasso"},
         {"name": "Román Riquelme"},
         {"name": "Mario Santana", "out": "76"},
         {"name": "Pablo Aimar", "in": "76"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
+        {"name": "Javier Saviola"},
         {"name": "Luciano Figueroa", "out": "116"},
-        {"name": "Luciano Galletti", "in": "116"},
-        {"name": "Javier Saviola"}
+        {"name": "Luciano Galletti", "in": "116"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2005-06-29",
-    "competition": "FIFA Confederations Cup",
-    "venue": {"name": "Waldstadion, Frankfurt"},
+    "competition": "Confederations Cup",
+    "round": "Final",
+    "venue": {"name": "Deutsche Bank Park", "city": "Frankfurt am Main"},
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [4, 1],
     "result": "L",
@@ -39182,52 +39662,56 @@
       [
         {"name": "Adriano", "min": "11", "type": "G"},
         {"name": "Kaka", "min": "16", "type": "G"},
-        {"name": "Ronaldinho", "min": "47", "type": "G"},
+        {"name": "Ronaldinho Gaúcho", "min": "47", "type": "G"},
         {"name": "Adriano", "min": "63", "type": "G"}
       ],
       [{"name": "Pablo Aimar", "min": "65", "type": "G"}]
     ],
     "cards": [
-      [{"name": "Ronaldinho", "type": "Y"}],
+      [{"name": "Ronaldinho Gaúcho", "min": "28", "type": "Y"}],
       [
-        {"name": "Esteban Cambiasso", "type": "Y"},
-        {"name": "Pablo Aimar", "type": "Y"},
-        {"name": "Fabricio Coloccini", "type": "Y"},
-        {"name": "Juan Pablo Sorin", "type": "Y"}
+        {"name": "Fabricio Coloccini", "min": "28", "type": "Y"},
+        {"name": "Juan Pablo Sorín", "min": "35", "type": "Y"},
+        {"name": "Esteban Cambiasso", "min": "42", "type": "Y"},
+        {"name": "Pablo Aimar", "min": "73", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Carlos Alberto Parreira"}, null],
+    "coaches": [{"name": "Carlos Alberto Parreira"}, {"name": "José Pékerman"}],
     "lineups": [
       [
         {"name": "Dida"},
-        {"name": "Cicinho"},
-        {"name": "Lucio"},
-        {"name": "Roque Junior"},
-        {"name": "Emerson"},
-        {"name": "Gilberto Silva"},
-        {"name": "Kaka"},
-        {"name": "Ronaldinho"},
-        {"name": "Ze Roberto"},
+        {"name": "Lúcio"},
+        {"name": "Roque Júnior"},
+        {"name": "Cicinho", "out": "86"},
+        {"name": "Renato", "in": "86"},
+        {"name": "Émerson"},
+        {"name": "Gilberto"},
+        {"name": "Kaka", "out": "86"},
+        {"name": "Maicon", "in": "86"},
+        {"name": "Ronaldinho Gaúcho"},
+        {"name": "Zé Roberto"},
         {"name": "Adriano"},
-        {"name": "Robinho"}
+        {"name": "Robinho", "out": "90"},
+        {"name": "Juninho Pernambucano", "in": "90"}
       ],
       [
         {"name": "German Lux"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
         {"name": "Diego Placente"},
         {"name": "Fabricio Coloccini"},
-        {"name": "Gabriel Heinze"},
-        {"name": "Lucas Ademar Bernardi"},
         {"name": "Esteban Cambiasso", "out": "56"},
         {"name": "Pablo Aimar", "in": "56"},
         {"name": "Román Riquelme"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Cesar Delgado", "out": "81"},
+        {"name": "Lucas Bernardi"},
+        {"name": "César Delgado", "out": "81"},
         {"name": "Luciano Galletti", "in": "81"},
         {"name": "Luciano Figueroa", "out": "72"},
         {"name": "Carlos Tevez", "in": "72"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2005-08-17",
@@ -39445,71 +39929,71 @@
     ]
   },
   {
-    "date": "2005-11-12",
+    "date": "2005-11-11",
     "competition": "Friendly",
-    "venue": {"name": "Stade de Genève, Geneva"},
-    "teams": [{"name": "Argentina"}, {"name": "England"}],
-    "score": [2, 3],
+    "venue": {"name": "Stade de Genève", "city": "Lancy"},
+    "teams": [{"name": "England"}, {"name": "Argentina"}],
+    "score": [3, 2],
     "result": "L",
     "goals": [
       [
-        {"name": "Hernan Crespo", "min": "35", "type": "G"},
-        {"name": "Walter Samuel", "min": "54", "type": "G"}
+        {"name": "Wayne Rooney", "min": "39", "type": "G"},
+        {"name": "Michael Owen", "min": "86", "type": "G"},
+        {"name": "Michael Owen", "min": "90+1", "type": "G"}
       ],
       [
-        {"name": "Wayne Rooney", "min": "38", "type": "G"},
-        {"name": "Michael Owen", "min": "87", "type": "G"},
-        {"name": "Michael Owen", "min": "90", "type": "G"}
+        {"name": "Hernan Crespo", "min": "35", "type": "G"},
+        {"name": "Walter Samuel", "min": "54", "type": "G"}
       ]
     ],
     "cards": [
       [
-        {"name": "Walter Samuel", "min": "32", "type": "Y"},
-        {"name": "Maxi Rodríguez", "min": "79", "type": "Y"}
+        {"name": "Luke Young", "min": "27", "type": "Y"},
+        {"name": "Frank Lampard", "min": "48", "type": "Y"},
+        {"name": "Joe Cole", "min": "67", "type": "Y"}
       ],
       [
-        {"name": "Luke Young", "min": "26", "type": "Y"},
-        {"name": "Frank Lampard", "min": "48", "type": "Y"},
-        {"name": "Joe Cole", "min": "68", "type": "Y"}
+        {"name": "Walter Samuel", "min": "", "type": "Y"},
+        {"name": "Maxi Rodriguez", "min": "", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "José Pekerman"}, {"name": "Sven-Goran Eriksson"}],
     "lineups": [
       [
-        {"name": "Roberto Abbondanzieri"},
-        {"name": "Martin Demichelis"},
-        {"name": "Walter Samuel"},
-        {"name": "Roberto Ayala", "out": "74"},
-        {"name": "Fabricio Coloccini", "in": "74"},
-        {"name": "Esteban Cambiasso"},
-        {"name": "Román Riquelme", "out": "84"},
-        {"name": "Lucho González", "in": "84"},
-        {"name": "Maxi Rodríguez"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Hernan Crespo", "out": "70"},
-        {"name": "Javier Saviola", "in": "70"},
-        {"name": "Carlos Tevez", "out": "80"},
-        {"name": "Julio Cruz", "in": "80"}
-      ],
-      [
         {"name": "Paul Robinson"},
-        {"name": "Luke Young", "out": "81"},
-        {"name": "Peter Crouch", "in": "81"},
-        {"name": "Rio Ferdinand"},
         {"name": "John Terry"},
-        {"name": "Ledley King", "out": "57"},
-        {"name": "Joe Cole", "in": "57"},
+        {"name": "Ledley King", "out": "58"},
+        {"name": "Joe Cole", "in": "58"},
+        {"name": "Luke Young", "out": "80"},
+        {"name": "Peter Crouch", "in": "80"},
+        {"name": "Rio Ferdinand"},
         {"name": "Wayne Bridge", "out": "46"},
         {"name": "Paul Konchesky", "in": "46"},
         {"name": "David Beckham"},
-        {"name": "Steven Gerrard"},
         {"name": "Frank Lampard"},
+        {"name": "Steven Gerrard"},
         {"name": "Michael Owen"},
         {"name": "Wayne Rooney"}
+      ],
+      [
+        {"name": "Roberto Abbondanzieri"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
+        {"name": "Martin Demichelis"},
+        {"name": "Roberto Ayala", "out": "75"},
+        {"name": "Fabricio Coloccini", "in": "75"},
+        {"name": "Walter Samuel"},
+        {"name": "Esteban Cambiasso"},
+        {"name": "Román Riquelme", "out": "85"},
+        {"name": "Lucho González", "in": "85"},
+        {"name": "Carlos Tevez", "out": "81"},
+        {"name": "Julio Cruz", "in": "81"},
+        {"name": "Hernan Crespo", "out": "70"},
+        {"name": "Javier Saviola", "in": "70"},
+        {"name": "Maxi Rodriguez"}
       ]
     ],
-    "info": {"youtube": [{"id": "MebobuHlKW0"}, {"id": "whk47OzZwoU"}]}
+    "sources": ["Golazon"]
   },
   {
     "date": "2005-11-16",
@@ -39550,15 +40034,15 @@
   {
     "date": "2006-03-01",
     "competition": "Friendly",
-    "venue": {"name": "St Jakob Park, Basel"},
+    "venue": {"name": "St. Jakob-Park", "city": "Basel"},
     "teams": [{"name": "Croatia"}, {"name": "Argentina"}],
     "score": [3, 2],
     "result": "L",
     "goals": [
       [
-        {"name": "Ivan Klasnic", "min": "3", "type": "G"},
+        {"name": "Ivan Klasnić", "min": "3", "type": "G"},
         {"name": "Darijo Srna", "min": "52", "type": "G"},
-        {"name": "Dario Simic", "min": "90", "type": "G"}
+        {"name": "Dario Šimić", "min": "90+2", "type": "G"}
       ],
       [
         {"name": "Carlos Tevez", "min": "4", "type": "G"},
@@ -39570,46 +40054,47 @@
         {"name": "Darijo Srna", "min": "50", "type": "Y"},
         {"name": "Igor Tudor", "min": "87", "type": "Y"}
       ],
-      [{"name": "Nicolás Burdisso", "min": "84", "type": "Y"}]
+      [{"name": "Nicolás Burdisso", "min": "", "type": "Y"}]
     ],
     "coaches": [{"name": "Zlatko Kranjčar"}, {"name": "José Pekerman"}],
     "lineups": [
       [
         {"name": "Stipe Pletikosa"},
-        {"name": "Dario Simic"},
+        {"name": "Dario Šimić"},
         {"name": "Igor Tudor"},
-        {"name": "Darijo Srna"},
         {"name": "Stjepan Tomas", "out": "46"},
         {"name": "Mario Tokic", "in": "46"},
-        {"name": "Marko Babic"},
-        {"name": "Niko Kovac", "out": "83"},
-        {"name": "Jerko Leko", "in": "83"},
-        {"name": "Niko Kranjcar", "out": "90"},
+        {"name": "Darijo Srna"},
+        {"name": "Marko Babić"},
+        {"name": "Niko Kranjčar", "out": "90"},
         {"name": "Marijan Buljat", "in": "90"},
         {"name": "Luka Modrić", "out": "84"},
         {"name": "Ivan Leko", "in": "84"},
-        {"name": "Ivan Klasnic", "out": "75"},
-        {"name": "Ivica Olic", "in": "75"},
+        {"name": "Niko Kovač", "out": "82"},
+        {"name": "Jerko Leko", "in": "82"},
         {"name": "Dado Prso", "out": "90"},
-        {"name": "Mladen Petric", "in": "90"}
+        {"name": "Mladen Petrić", "in": "90"},
+        {"name": "Ivan Klasnić", "out": "75"},
+        {"name": "Ivica Olić", "in": "75"}
       ],
       [
         {"name": "Roberto Abbondanzieri"},
-        {"name": "Nicolás Burdisso"},
-        {"name": "Martin Demichelis"},
-        {"name": "Walter Samuel"},
         {"name": "Fabricio Coloccini", "out": "60"},
         {"name": "Lucho González", "in": "60"},
-        {"name": "Esteban Cambiasso"},
+        {"name": "Martin Demichelis"},
+        {"name": "Nicolás Burdisso"},
+        {"name": "Walter Samuel"},
         {"name": "Leonardo Ponzio"},
         {"name": "Román Riquelme"},
+        {"name": "Esteban Cambiasso"},
+        {"name": "Carlos Tevez", "out": "68"},
+        {"name": "Pablo Aimar", "in": "68"},
         {"name": "Lionel Messi"},
         {"name": "Hernan Crespo", "out": "75"},
-        {"name": "Diego Milito", "in": "75"},
-        {"name": "Carlos Tevez", "out": "68"},
-        {"name": "Pablo Aimar", "in": "68"}
+        {"name": "Diego Milito", "in": "75"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-05-30",
@@ -39666,8 +40151,9 @@
   {
     "date": "2006-06-10",
     "competition": "World Cup",
-    "venue": {"name": "AOL Arena, Hamburg"},
-    "teams": [{"name": "Argentina"}, {"name": "Ivory Coast"}],
+    "round": "Group Stage",
+    "venue": {"name": "Volksparkstadion", "city": "Hamburg"},
+    "teams": [{"name": "Argentina"}, {"name": "Côte d'Ivoire"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
@@ -39692,53 +40178,52 @@
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Mascherano"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Nicolás Burdisso"},
         {"name": "Roberto Ayala"},
-        {"name": "Gabriel Heinze"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Javier Mascherano"},
-        {"name": "Román Riquelme", "out": "90"},
-        {"name": "Pablo Aimar", "in": "90"},
-        {"name": "Maxi Rodríguez"},
-        {"name": "Juan Pablo Sorin"},
+        {"name": "Román Riquelme", "out": "90+3"},
+        {"name": "Pablo Aimar", "in": "90+3"},
         {"name": "Hernan Crespo", "out": "64"},
         {"name": "Rodrigo Palacio", "in": "64"},
-        {"name": "Javier Saviola", "out": "76"},
-        {"name": "Lucho González", "in": "76"}
+        {"name": "Javier Saviola", "out": "75"},
+        {"name": "Lucho González", "in": "75"},
+        {"name": "Maxi Rodriguez"}
       ],
       [
         {"name": "Jean-Jacques Tizié"},
         {"name": "Arthur Boka"},
-        {"name": "Abdoulaye Méité"},
-        {"name": "Didier Zokora"},
+        {"name": "Abdoulaye Méïté"},
         {"name": "Emmanuel Eboué"},
         {"name": "Kolo Touré"},
+        {"name": "Abdul Kader Keïta", "out": "77"},
+        {"name": "Arouna Koné", "in": "77"},
+        {"name": "Didier Zokora"},
         {"name": "Kanga Akalé", "out": "62"},
         {"name": "Bakari Koné", "in": "62"},
         {"name": "Yaya Touré"},
-        {"name": "Didier Drogba"},
-        {"name": "Bonaventure Kalou", "out": "56"},
-        {"name": "Aruna Dindane", "in": "56"},
-        {"name": "Abdulkader Keïta", "out": "77"},
-        {"name": "Arouna Koné", "in": "77"}
+        {"name": "Bonaventure Kalou", "out": "55"},
+        {"name": "Aruna Dindane", "in": "55"},
+        {"name": "Didier Drogba"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-06-16",
     "competition": "World Cup",
-    "venue": {"name": "Veltins-Arena, Gelsenkirchen"},
-    "teams": [
-      {"name": "Argentina"},
-      {"name": "Serbia and Montenegro", "slug": "serbia"}
-    ],
+    "round": "Group Stage",
+    "venue": {"name": "VELTINS-Arena", "city": "Gelsenkirchen"},
+    "teams": [{"name": "Argentina"}, {"name": "Serbia"}],
     "score": [6, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Maxi Rodríguez", "min": "6", "type": "G"},
+        {"name": "Maxi Rodriguez", "min": "6", "type": "G"},
         {"name": "Esteban Cambiasso", "min": "31", "type": "G"},
-        {"name": "Maxi Rodríguez", "min": "41", "type": "G"},
+        {"name": "Maxi Rodriguez", "min": "41", "type": "G"},
         {"name": "Hernan Crespo", "min": "78", "type": "G"},
         {"name": "Carlos Tevez", "min": "84", "type": "G"},
         {"name": "Lionel Messi", "min": "88", "type": "G"}
@@ -39746,61 +40231,63 @@
       []
     ],
     "cards": [
-      [{"name": "Hernan Crespo", "min": "36", "type": "Y"}],
+      [{"name": "Hernan Crespo", "min": "37", "type": "Y"}],
       [
         {"name": "Ognjen Koroman", "min": "7", "type": "Y"},
         {"name": "Albert Nadj", "min": "27", "type": "Y"},
-        {"name": "Mladen Krstajic", "min": "42", "type": "Y"},
-        {"name": "Mateja Kezman", "min": "65", "type": "R"}
+        {"name": "Mladen Krstajić", "min": "42", "type": "Y"},
+        {"name": "Mateja Kežman", "min": "65", "type": "R"}
       ]
     ],
     "coaches": [{"name": "José Pekerman"}, {"name": "Ilija Petkovic"}],
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
+        {"name": "Gabriel Heinze"},
+        {"name": "Javier Mascherano"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Nicolás Burdisso"},
         {"name": "Roberto Ayala"},
-        {"name": "Gabriel Heinze"},
+        {"name": "Román Riquelme"},
         {"name": "Lucho González", "out": "17"},
         {"name": "Esteban Cambiasso", "in": "17"},
-        {"name": "Javier Mascherano"},
-        {"name": "Román Riquelme"},
-        {"name": "Maxi Rodríguez", "out": "75"},
-        {"name": "Lionel Messi", "in": "75"},
-        {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo"},
-        {"name": "Javier Saviola", "out": "58"},
-        {"name": "Carlos Tevez", "in": "58"}
+        {"name": "Javier Saviola", "out": "59"},
+        {"name": "Carlos Tevez", "in": "59"},
+        {"name": "Maxi Rodriguez", "out": "75"},
+        {"name": "Lionel Messi", "in": "75"}
       ],
       [
-        {"name": "Dragoslav Jevric"},
-        {"name": "Milan Dudic"},
-        {"name": "Goran Gavrancic"},
-        {"name": "Mladen Krstajic"},
-        {"name": "Predrag Djordjevic"},
-        {"name": "Igor Duljaj"},
-        {"name": "Ognjen Koroman", "out": "49"},
-        {"name": "Danijel Ljuboja", "in": "49"},
+        {"name": "Dragoslav Jevrić"},
+        {"name": "Goran Gavrančić"},
+        {"name": "Milan Dudić"},
+        {"name": "Mladen Krstajić"},
         {"name": "Albert Nadj", "out": "46"},
         {"name": "Ivan Ergic", "in": "46"},
-        {"name": "Dejan Stankovic"},
-        {"name": "Mateja Kezman"},
-        {"name": "Savo Milosevic", "out": "70"},
-        {"name": "Zvonimir Vukic", "in": "70"}
+        {"name": "Dejan Stanković"},
+        {"name": "Igor Duljaj"},
+        {"name": "Ognjen Koroman", "out": "50"},
+        {"name": "Danijel Ljuboja", "in": "50"},
+        {"name": "Predrag Djordjevic"},
+        {"name": "Mateja Kežman"},
+        {"name": "Savo Milošević", "out": "70"},
+        {"name": "Zvonimir Vukić", "in": "70"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-06-21",
     "competition": "World Cup",
-    "venue": {"name": "Commerzbank Arena, Frankfurt"},
+    "round": "Group Stage",
+    "venue": {"name": "Deutsche Bank Park", "city": "Frankfurt am Main"},
     "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
     "cards": [
       [
-        {"name": "Dirk Kuyt", "min": "28", "type": "Y"},
+        {"name": "Dirk Kuijt", "min": "28", "type": "Y"},
         {"name": "Andre Ooijer", "min": "42", "type": "Y"},
         {"name": "Tim De Cler", "min": "48", "type": "Y"}
       ],
@@ -39813,15 +40300,15 @@
     "lineups": [
       [
         {"name": "Edwin van der Sar"},
-        {"name": "Kew Jaliens"},
+        {"name": "Andre Ooijer"},
         {"name": "Khalid Boulahrouz"},
         {"name": "Tim De Cler"},
-        {"name": "Andre Ooijer"},
+        {"name": "Kew Jaliens"},
         {"name": "Phillip Cocu"},
+        {"name": "Rafael van der Vaart"},
         {"name": "Wesley Sneijder", "out": "86"},
         {"name": "Hedwiges Maduro", "in": "86"},
-        {"name": "Rafael van der Vaart"},
-        {"name": "Dirk Kuyt"},
+        {"name": "Dirk Kuijt"},
         {"name": "Ruud Van Nistelrooy", "out": "56"},
         {"name": "Ryan Babel", "in": "56"},
         {"name": "Robin van Persie", "out": "67"},
@@ -39829,39 +40316,42 @@
       ],
       [
         {"name": "Roberto Abbondanzieri"},
+        {"name": "Gabriel Milito"},
+        {"name": "Javier Mascherano"},
+        {"name": "Leandro Cufré"},
         {"name": "Nicolás Burdisso", "out": "24"},
         {"name": "Fabricio Coloccini", "in": "24"},
-        {"name": "Leonardo Damien Cufre"},
-        {"name": "Gabriel Milito"},
         {"name": "Roberto Ayala"},
         {"name": "Esteban Cambiasso"},
-        {"name": "Javier Mascherano"},
         {"name": "Román Riquelme", "out": "80"},
         {"name": "Pablo Aimar", "in": "80"},
-        {"name": "Maxi Rodríguez"},
-        {"name": "Lionel Messi"},
-        {"name": "Carlos Tevez"}
+        {"name": "Carlos Tevez"},
+        {"name": "Lionel Messi", "out": "70"},
+        {"name": "Julio Cruz", "in": "70"},
+        {"name": "Maxi Rodriguez"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-06-24",
     "competition": "World Cup",
-    "venue": {"name": "Zentralstadion, Leipzig"},
+    "round": "Round of 16",
+    "venue": {"name": "Red Bull Arena", "city": "Leipzig"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
-    "score": [2, 1],
-    "result": "W",
+    "score": [1, 1],
+    "result": "D",
     "goals": [
       [
-        {"name": "Hernan Crespo", "min": "10", "type": "G"},
-        {"name": "Maxi Rodríguez", "min": "98", "type": "G"}
+        {"name": "Hernan Crespo", "min": "9", "type": "G"},
+        {"name": "Maxi Rodriguez", "min": "98", "type": "G"}
       ],
       [{"name": "Rafael Márquez", "min": "6", "type": "G"}]
     ],
     "cards": [
       [
         {"name": "Gabriel Heinze", "min": "45", "type": "Y"},
-        {"name": "Juan Pablo Sorin", "min": "112", "type": "Y"}
+        {"name": "Juan Pablo Sorín", "min": "112", "type": "Y"}
       ],
       [
         {"name": "Rafael Márquez", "min": "70", "type": "Y"},
@@ -39874,46 +40364,48 @@
     "lineups": [
       [
         {"name": "Roberto Abbondanzieri"},
-        {"name": "Roberto Ayala"},
         {"name": "Gabriel Heinze"},
+        {"name": "Javier Mascherano"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Lionel Scaloni"},
+        {"name": "Roberto Ayala"},
         {"name": "Esteban Cambiasso", "out": "76"},
         {"name": "Pablo Aimar", "in": "76"},
-        {"name": "Javier Mascherano"},
         {"name": "Román Riquelme"},
-        {"name": "Maxi Rodríguez"},
-        {"name": "Lionel Scaloni"},
-        {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo", "out": "75"},
         {"name": "Carlos Tevez", "in": "75"},
         {"name": "Javier Saviola", "out": "84"},
-        {"name": "Lionel Messi", "in": "84"}
+        {"name": "Lionel Messi", "in": "84"},
+        {"name": "Maxi Rodriguez"}
       ],
       [
         {"name": "Oswaldo Sanchez"},
-        {"name": "José Castro"},
-        {"name": "Mario Mendez"},
-        {"name": "Ricardo Osorio"},
         {"name": "Carlos Salcido"},
+        {"name": "José Castro"},
         {"name": "Rafael Márquez"},
-        {"name": "Andrés Guardado", "out": "67"},
-        {"name": "Gonzalo Pineda", "in": "67"},
-        {"name": "Ramon Morales", "out": "74"},
-        {"name": "Antonio Naelson", "in": "74"},
+        {"name": "Ricardo Osorio"},
+        {"name": "Andrés Guardado", "out": "66"},
+        {"name": "Gonzalo Pineda", "in": "66"},
+        {"name": "Mario Méndez"},
         {"name": "Pavel Pardo", "out": "38"},
         {"name": "Gerardo Torrado", "in": "38"},
-        {"name": "Jared Borguetti"},
-        {"name": "Francisco Fonseca"}
+        {"name": "Francisco Fonseca"},
+        {"name": "Jared Borgetti"},
+        {"name": "Ramón Morales", "out": "74"},
+        {"name": "Sinha", "in": "74"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Berliner Olympiastadion, Berlin"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Olympiastadion Berlin", "city": "Berlin"},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [1, 1],
     "pen": [4, 2],
-    "result": "L",
+    "result": "D",
     "goals": [
       [{"name": "Miroslav Klose", "min": "80", "type": "G"}],
       [{"name": "Roberto Ayala", "min": "49", "type": "G"}]
@@ -39922,13 +40414,13 @@
       [
         {"name": "Lukas Podolski", "min": "3", "type": "Y"},
         {"name": "David Odonkor", "min": "90", "type": "Y"},
-        {"name": "Arne Friedrich", "min": "104", "type": "Y"}
+        {"name": "Arne Friedrich", "min": "114", "type": "Y"}
       ],
       [
-        {"name": "Juan Pablo Sorin", "min": "46", "type": "Y"},
+        {"name": "Juan Pablo Sorín", "min": "46", "type": "Y"},
         {"name": "Javier Mascherano", "min": "60", "type": "Y"},
-        {"name": "Maxi Rodríguez", "min": "88", "type": "Y"},
-        {"name": "Julio Cruz", "min": "96", "type": "Y"}
+        {"name": "Maxi Rodriguez", "min": "88", "type": "Y"},
+        {"name": "Julio Cruz", "min": "95", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Jurgen Klinsmann"}, {"name": "José Pekerman"}],
@@ -39936,36 +40428,47 @@
       [
         {"name": "Jens Lehmann"},
         {"name": "Arne Friedrich"},
-        {"name": "Philipp Lahm"},
         {"name": "Christoph Metzelder"},
+        {"name": "Philipp Lahm"},
         {"name": "Per Mertesacker"},
-        {"name": "Michael Ballack"},
-        {"name": "Torsten Frings"},
         {"name": "Bernd Schneider", "out": "62"},
         {"name": "David Odonkor", "in": "62"},
         {"name": "Bastian Schweinsteiger", "out": "74"},
         {"name": "Tim Borowski", "in": "74"},
-        {"name": "Miroslav Klose", "out": "85"},
-        {"name": "Oliver Neuville", "in": "85"},
-        {"name": "Lukas Podolski"}
+        {"name": "Michael Ballack"},
+        {"name": "Torsten Frings"},
+        {"name": "Lukas Podolski"},
+        {"name": "Miroslav Klose", "out": "86"},
+        {"name": "Oliver Neuville", "in": "86"}
       ],
       [
         {"name": "Roberto Abbondanzieri", "out": "71"},
         {"name": "Leo Franco", "in": "71"},
-        {"name": "Roberto Ayala"},
         {"name": "Fabricio Coloccini"},
         {"name": "Gabriel Heinze"},
-        {"name": "Lucho González"},
         {"name": "Javier Mascherano"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Roberto Ayala"},
         {"name": "Román Riquelme", "out": "72"},
         {"name": "Esteban Cambiasso", "in": "72"},
-        {"name": "Maxi Rodríguez"},
-        {"name": "Juan Pablo Sorin"},
+        {"name": "Lucho González"},
+        {"name": "Carlos Tevez"},
         {"name": "Hernan Crespo", "out": "79"},
         {"name": "Julio Cruz", "in": "79"},
-        {"name": "Carlos Tevez"}
+        {"name": "Maxi Rodriguez"}
       ]
-    ]
+    ],
+    "penaltyShootout": [
+      {"name": "Neuville", "score": [1, 0]},
+      {"name": "Cruz", "score": [1, 1]},
+      {"name": "Ballack", "score": [2, 1]},
+      {"name": "Ayala", "score": "x"},
+      {"name": "Podolski", "score": [3, 1]},
+      {"name": "Rodríguez", "score": [3, 2]},
+      {"name": "Borowski", "score": [4, 2]},
+      {"name": "Cambiasso", "score": "x"}
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2006-09-03",
@@ -40030,61 +40533,64 @@
   {
     "date": "2006-10-11",
     "competition": "Friendly",
-    "venue": {"name": "Estadio La Condomina, Murcia"},
+    "venue": {"name": "Estadio Enrique Roca de Murcia", "city": "Murcia"},
     "teams": [{"name": "Spain"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
     "goals": [
       [
         {"name": "Xavi", "min": "33", "type": "G"},
-        {"name": "David Villa", "min": "64", "type": "G"}
+        {"name": "David Villa", "min": "63", "type": "G"}
       ],
-      [{"name": "Daniel Rubén Bilos", "min": "35", "type": "G"}]
+      [{"name": "Daniel Rubén Bilos", "min": "34", "type": "G"}]
     ],
     "cards": [
       [
+        {"name": "Sergio Ramos", "min": "", "type": "Y"},
         {"name": "Xabi Alonso", "min": "67", "type": "Y"},
-        {"name": "Sergio Ramos", "min": "75", "type": "Y"},
         {"name": "David Villa", "min": "90", "type": "Y"}
       ],
-      [{"name": "Gabriel Milito", "min": "54", "type": "Y"}]
+      [{"name": "Gabriel Milito", "min": "5", "type": "Y"}]
     ],
+    "coaches": [{"name": ""}, {"name": ""}],
     "lineups": [
       [
         {"name": "Pepe Reina"},
         {"name": "Joan Capdevila", "out": "46"},
-        {"name": "Antonio Lopez", "in": "46"},
+        {"name": "Antonio López", "in": "46"},
         {"name": "Juanito"},
-        {"name": "Pablo Ibanez"},
+        {"name": "Pablo Ibáñez"},
         {"name": "Sergio Ramos"},
-        {"name": "Albelda"},
+        {"name": "Albelda", "out": "46"},
+        {"name": "Xabi Alonso", "in": "46"},
         {"name": "Andrés Iniesta"},
         {"name": "Xavi"},
-        {"name": "Miguel Angel Angulo", "out": "76"},
-        {"name": "Cesc Fàbregas", "in": "76"},
-        {"name": "Fernando Torres", "out": "57"},
-        {"name": "Luis Garcia", "in": "57"},
-        {"name": "David Villa"}
+        {"name": "David Villa"},
+        {"name": "Fernando Torres", "out": "56"},
+        {"name": "Luis García", "in": "56"},
+        {"name": "Miguel Angulo", "out": "76"},
+        {"name": "Cesc Fàbregas", "in": "76"}
       ],
       [
         {"name": "Roberto Abbondanzieri"},
-        {"name": "Rodolfo Arruabarena"},
         {"name": "Gabriel Milito"},
-        {"name": "Pablo Zabaleta"},
         {"name": "Roberto Ayala"},
+        {"name": "Rodolfo Arruabarrena"},
+        {"name": "Javier Mascherano"},
+        {"name": "Pablo Zabaleta"},
+        {"name": "Federico Insúa", "out": "56"},
+        {"name": "Pablo Aimar", "in": "56"},
         {"name": "Lucho González", "out": "46"},
         {"name": "Leandro Somoza", "in": "46"},
-        {"name": "Federico Insua", "out": "56"},
-        {"name": "Pablo Aimar", "in": "56"},
-        {"name": "Javier Mascherano"},
-        {"name": "Maxi Rodríguez", "out": "17"},
-        {"name": "Daniel Rubén Bilos", "in": "17"},
-        {"name": "Lionel Messi", "out": "62"},
-        {"name": "Javier Saviola", "in": "62"},
-        {"name": "Carlos Tevez", "out": "72"},
-        {"name": "Sergio Agüero", "in": "72"}
+        {"name": "Carlos Tevez", "out": "71"},
+        {"name": "Sergio Agüero", "in": "71"},
+        {"name": "Lionel Messi", "out": "61"},
+        {"name": "Javier Saviola", "in": "61"},
+        {"name": "Maxi Rodriguez", "out": "16"},
+        {"name": "Daniel Rubén Bilos", "in": "16"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2007-02-07",
