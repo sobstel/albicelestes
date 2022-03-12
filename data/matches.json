@@ -18154,7 +18154,7 @@
         {"name": "Mario Pardo", "in": ""},
         {"name": "Carlos Alberto Buttice", "out": ""},
         {"name": "Ruben Omar Sanchez", "in": ""},
-        {"name": "Victorio Nicolas Cocco"},
+        {"name": "Victorio Cocco"},
         {"name": "Luis Gregorio Gallo"},
         {"name": "Antonio Rosl"},
         {"name": "José Demetrio Solorzano", "out": ""},
@@ -18225,7 +18225,7 @@
       [
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht", "out": ""},
-        {"name": "Alfio Ruben Basile", "in": ""},
+        {"name": "Alfio Basile", "in": ""},
         {"name": "Alberto Rendo"},
         {"name": "Roque Avallay"},
         {"name": "Rodolfo Fischer"},
@@ -18233,7 +18233,7 @@
         {"name": "Mario Pardo", "in": ""},
         {"name": "Carlos Alberto Buttice"},
         {"name": "Antonio Roberto Cabrera"},
-        {"name": "Victorio Nicolas Cocco", "out": ""},
+        {"name": "Victorio Cocco", "out": ""},
         {"name": "Raul Armando Savoy", "in": ""},
         {"name": "Luis Gregorio Gallo", "out": ""},
         {"name": "R Oatua", "in": ""},
@@ -18254,7 +18254,7 @@
         {"name": "Valtencir", "type": "G"},
         {"name": "Jairzinho", "type": "G"}
       ],
-      [{"name": "Alfio Ruben Basile", "type": "G"}]
+      [{"name": "Alfio Basile", "type": "G"}]
     ],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
@@ -18278,7 +18278,7 @@
         {"name": "Oscar Mas"},
         {"name": "Hector Yazalde"},
         {"name": "Roberto Rodolfo Aguirre"},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Oscar Miguel Malbernat"},
         {"name": "Hector Alberto Ostua"},
         {"name": "Ruben Omar Sanchez"},
@@ -18328,7 +18328,7 @@
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Cesar Luis Menotti", "in": ""},
         {"name": "Hector Yazalde"},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Oscar Miguel Malbernat"},
         {"name": "Hector Alberto Ostua"},
         {"name": "Ruben Omar Sanchez"},
@@ -18379,7 +18379,7 @@
         {"name": "Hector Yazalde", "out": ""},
         {"name": "Angel Manuel Silva", "in": ""},
         {"name": "Edgardo Norberto Andrada"},
-        {"name": "Alfio Ruben Basile", "out": ""},
+        {"name": "Alfio Basile", "out": ""},
         {"name": "Roberto Rodolfo Aguirre", "in": ""},
         {"name": "Lopez"},
         {"name": "Hector Salvador Minitti"},
@@ -18458,7 +18458,7 @@
         {"name": "Rodolfo Fischer"},
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Edgardo Norberto Andrada"},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Luis Gregorio Gallo"},
         {"name": "Raul Horacio Madero", "out": ""},
         {"name": "Cesar Luis Menotti", "in": ""},
@@ -18551,7 +18551,7 @@
         {"name": "Oscar Miguel Malbernat"},
         {"name": "Hector Salvador Minitti"},
         {"name": "Armando Oscar Ovide"},
-        {"name": "Aurelio José Pascuttini"},
+        {"name": "Aurelio Pascuttini"},
         {"name": "Roberto Domingo Rogel"},
         {"name": "Raul Armando Savoy", "out": "75"},
         {"name": "Jorge Hector Olmedo", "in": "75"},
@@ -18596,7 +18596,7 @@
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Oscar Miguel Malbernat"},
-        {"name": "Aurelio José Pascuttini"},
+        {"name": "Aurelio Pascuttini"},
         {"name": "Roberto Domingo Rogel"},
         {"name": "Angel Manuel Silva"},
         {"name": "Alberto Pompeo Tardivo"},
@@ -18626,7 +18626,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Victorio Nicolas Cocco", "type": "G"}],
+      [{"name": "Victorio Cocco", "type": "G"}],
       [{"name": "Severiano Irala", "type": "G"}]
     ],
     "lineups": [
@@ -18636,7 +18636,7 @@
         {"name": "Hector Yazalde"},
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Edgardo Norberto Andrada"},
-        {"name": "Victorio Nicolas Cocco"},
+        {"name": "Victorio Cocco"},
         {"name": "Lopez"},
         {"name": "Raul Horacio Madero"},
         {"name": "Oscar Miguel Malbernat"},
@@ -18693,9 +18693,9 @@
         {"name": "Juan Ramon Veron"},
         {"name": "Pedro González"},
         {"name": "Edgardo Norberto Andrada"},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Antonio Roberto Cabrera"},
-        {"name": "Victorio Nicolas Cocco"},
+        {"name": "Victorio Cocco"},
         {"name": "Luis Gregorio Gallo"},
         {"name": "Raul Horacio Madero"},
         {"name": "Oscar Miguel Malbernat"},
@@ -18740,7 +18740,7 @@
         {"name": "Rubén Suñé"},
         {"name": "Hector Yazalde", "out": ""},
         {"name": "Carlos José Veglio", "in": ""},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Antonio Roberto Cabrera"},
         {"name": "Jorge Recio"},
         {"name": "Roberto Marcelo Salomone"},
@@ -18758,7 +18758,7 @@
     "goals": [
       [
         {"name": "Rodolfo Fischer", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "type": "G"}
+        {"name": "Miguel Ángel Brindisi", "type": "G"}
       ],
       [{"name": "Adolfo Olivares", "type": "G"}]
     ],
@@ -18769,12 +18769,12 @@
         {"name": "C Rossa", "in": ""},
         {"name": "Rubén Suñé"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Alfio Ruben Basile"},
-        {"name": "Victorio Nicolas Cocco", "out": ""},
-        {"name": "Miguel Angel Brindisi", "in": ""},
+        {"name": "Alfio Basile"},
+        {"name": "Victorio Cocco", "out": ""},
+        {"name": "Miguel Ángel Brindisi", "in": ""},
         {"name": "A Cojas"},
-        {"name": "Osvaldo José Lamelza"},
-        {"name": "Aurelio José Pascuttini"},
+        {"name": "Osvaldo Lamelza"},
+        {"name": "Aurelio Pascuttini"},
         {"name": "Juan Carlos Rulli"},
         {"name": "Omar Wehbe"}
       ],
@@ -18816,7 +18816,7 @@
         {"name": "Carlos Oscar Pachame", "type": "Y"},
         {"name": "Antonio Rattin", "type": "Y"},
         {"name": "Agustin Mario Cejas", "type": "Y"},
-        {"name": "Victorio Nicolas Cocco", "type": "Y"}
+        {"name": "Victorio Cocco", "type": "Y"}
       ]
     ],
     "coaches": [null, {"name": "Padernera"}],
@@ -18840,12 +18840,12 @@
         {"name": "Antonio Rattin", "out": ""},
         {"name": "Carlos Oscar Pachame", "in": ""},
         {"name": "Rafael Albrecht"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Rubén Suñé"},
         {"name": "Ángel Marcos"},
         {"name": "Daniel Onega"},
         {"name": "Agustin Mario Cejas"},
-        {"name": "Victorio Nicolas Cocco"},
+        {"name": "Victorio Cocco"},
         {"name": "Anibal Roberto Tarabini"}
       ]
     ]
@@ -18858,7 +18858,7 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Pedro Pablo Leon", "min": "52", "type": "G"}], []],
-    "cards": [[], [{"name": "Alfio Ruben Basile", "min": "63", "type": "R"}]],
+    "cards": [[], [{"name": "Alfio Basile", "min": "63", "type": "R"}]],
     "lineups": [
       [
         {"name": "Luis Rubinos"},
@@ -18876,10 +18876,10 @@
       [
         {"name": "Silvio Marzolini"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Hector Yazalde", "out": ""},
         {"name": "Daniel Onega", "in": ""},
-        {"name": "Alfio Ruben Basile"},
+        {"name": "Alfio Basile"},
         {"name": "Raul Emilio Bernao"},
         {"name": "Agustin Mario Cejas", "out": ""},
         {"name": "Miguel Santoro", "in": ""},
@@ -18960,7 +18960,7 @@
         {"name": "Silvio Marzolini"},
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Ángel Marcos"},
         {"name": "Hector Yazalde"},
         {"name": "Agustin Mario Cejas"},
@@ -19017,7 +19017,7 @@
       [
         {"name": "Ruben Diaz"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer"},
@@ -19039,7 +19039,7 @@
     "result": "L",
     "goals": [
       [{"name": "Jairzinho", "type": "G"}, {"name": "Pelé", "type": "G"}],
-      [{"name": "Miguel Angel Brindisi", "type": "G"}]
+      [{"name": "Miguel Ángel Brindisi", "type": "G"}]
     ],
     "lineups": [
       [
@@ -19058,7 +19058,7 @@
       [
         {"name": "Ruben Diaz"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer", "out": ""},
@@ -19090,7 +19090,7 @@
       [
         {"name": "Ruben Diaz"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "Miguel Angel Raimondo"},
         {"name": "Rodolfo Fischer"},
@@ -19148,7 +19148,7 @@
       [
         {"name": "Ruben Diaz"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga", "out": ""},
         {"name": "José Omar Pastoriza", "in": ""},
         {"name": "Miguel Angel Raimondo", "out": ""},
@@ -19171,7 +19171,7 @@
     "result": "D",
     "goals": [
       [{"name": "Severiano Irala", "type": "G"}],
-      [{"name": "Miguel Angel Brindisi", "type": "G"}]
+      [{"name": "Miguel Ángel Brindisi", "type": "G"}]
     ],
     "lineups": [
       [
@@ -19194,7 +19194,7 @@
         {"name": "Miguel Santoro"},
         {"name": "César Laraignée"},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Miguel Angel Raimondo"},
         {"name": "Juan Ramon Veron"},
         {"name": "Daniel Willington", "out": ""},
@@ -19216,7 +19216,7 @@
     "result": "L",
     "goals": [
       [
-        {"name": "Miguel Angel Brindisi", "min": "55", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "min": "55", "type": "G"},
         {"name": "Miguel Nicolau", "min": "73", "type": "G"},
         {"name": "César Laraignée", "min": "90", "type": "P"}
       ],
@@ -19241,7 +19241,7 @@
         {"name": "Norberto Madurga"},
         {"name": "Rubén Suñé"},
         {"name": "Miguel Tojo", "out": "46"},
-        {"name": "Miguel Angel Brindisi", "in": "46"},
+        {"name": "Miguel Ángel Brindisi", "in": "46"},
         {"name": "Juan Ramon Veron"},
         {"name": "Alfredo Obberti", "out": "66"},
         {"name": "Carlos Bianchi", "in": "66"}
@@ -19287,7 +19287,7 @@
         {"name": "Miguel Nicolau"},
         {"name": "Roberto Perfumo", "out": ""},
         {"name": "Miguel Tojo", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "Rubén Suñé"},
         {"name": "Juan Ramon Veron"},
@@ -19408,7 +19408,7 @@
         {"name": "Jorge Carrascosa", "out": ""},
         {"name": "Jorge Eduardo Dominichi", "in": ""},
         {"name": "Roberto Perfumo"},
-        {"name": "Miguel Angel Brindisi", "out": ""},
+        {"name": "Miguel Ángel Brindisi", "out": ""},
         {"name": "José Omar Pastoriza", "in": ""},
         {"name": "Norberto Madurga"},
         {"name": "Rubén Suñé"},
@@ -19505,7 +19505,7 @@
       [
         {"name": "Ramon Heredia"},
         {"name": "César Laraignée"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
         {"name": "Ruben Ayala", "out": ""},
         {"name": "Pedro Andrés Verde", "in": ""},
@@ -19556,7 +19556,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ramon Heredia"},
         {"name": "César Laraignée"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Ruben Ayala"},
@@ -19585,7 +19585,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ramon Heredia"},
         {"name": "César Laraignée"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Ruben Ayala"},
@@ -19634,7 +19634,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ramon Heredia"},
         {"name": "César Laraignée"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga", "out": ""},
         {"name": "Angel Antonio Landucci", "in": ""},
         {"name": "José Omar Pastoriza"},
@@ -19673,7 +19673,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ramon Heredia"},
         {"name": "César Laraignée"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Carlos Bianchi"},
@@ -19726,7 +19726,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Rodolfo Fischer"},
         {"name": "Oscar Mas"},
         {"name": "Daniel Onega", "out": ""},
@@ -19782,7 +19782,7 @@
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza", "out": ""},
         {"name": "Ramon Heredia", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Miguel Angel Raimondo"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
@@ -19812,7 +19812,7 @@
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
         {"name": "Oscar Mas", "out": "72"},
-        {"name": "Miguel Angel Brindisi", "in": "72"},
+        {"name": "Miguel Ángel Brindisi", "in": "72"},
         {"name": "Ernesto Mastrangelo"},
         {"name": "Jorge Eduardo Dominichi", "out": "46"},
         {"name": "Enrique Wolff", "in": "46"}
@@ -19863,7 +19863,7 @@
         {"name": "Enrique Wolff"},
         {"name": "José Omar Pastoriza"},
         {"name": "Miguel Angel Raimondo", "out": "63"},
-        {"name": "Miguel Angel Brindisi", "in": "63"},
+        {"name": "Miguel Ángel Brindisi", "in": "63"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
         {"name": "Oscar Mas"},
@@ -19908,7 +19908,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Osvaldo Piazza"},
         {"name": "Enrique Wolff"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Carlos Bianchi"},
@@ -19988,7 +19988,7 @@
         {"name": "Eusebio", "min": "45", "type": "G"},
         {"name": "Joaquim Dinis", "min": "47", "type": "G"}
       ],
-      [{"name": "Miguel Angel Brindisi", "min": "29", "type": "G"}]
+      [{"name": "Miguel Ángel Brindisi", "min": "29", "type": "G"}]
     ],
     "coaches": [{"name": "José Augusto"}, null],
     "lineups": [
@@ -20010,7 +20010,7 @@
         {"name": "Angel Hugo Bargas"},
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Carlos Bianchi"},
@@ -20039,7 +20039,7 @@
         {"name": "Jorge Eduardo Dominichi", "in": ""},
         {"name": "José Omar Pastoriza"},
         {"name": "Miguel Angel Raimondo", "out": ""},
-        {"name": "Miguel Angel Brindisi", "in": ""},
+        {"name": "Miguel Ángel Brindisi", "in": ""},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
         {"name": "Oscar Mas"},
@@ -20117,8 +20117,8 @@
         {"name": "Dragan Dzajic", "type": "G"}
       ],
       [
-        {"name": "Miguel Angel Brindisi", "min": "58", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "min": "90", "type": "P"}
+        {"name": "Miguel Ángel Brindisi", "min": "58", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "min": "90", "type": "P"}
       ]
     ],
     "coaches": [{"name": "Vujadin Mitic"}, null],
@@ -20146,7 +20146,7 @@
         {"name": "Osvaldo Piazza"},
         {"name": "José Omar Pastoriza"},
         {"name": "Miguel Angel Raimondo", "out": ""},
-        {"name": "Miguel Angel Brindisi", "in": ""},
+        {"name": "Miguel Ángel Brindisi", "in": ""},
         {"name": "Alejandro Semenewicz"},
         {"name": "Roque Avallay"},
         {"name": "Oscar Mas"},
@@ -20164,7 +20164,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Miguel Angel Brindisi", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "type": "G"},
         {"name": "Ruben Ayala", "type": "G"}
       ],
       []
@@ -20176,7 +20176,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch", "out": ""},
         {"name": "Reinaldo Carlos Merlo", "in": ""},
         {"name": "Ruben Ayala"},
@@ -20231,7 +20231,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roque Avallay", "out": "70"},
         {"name": "Ramon Cesar Boveda", "in": "70"},
         {"name": "Ruben Ayala"},
@@ -20278,7 +20278,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Ruben Ayala"},
         {"name": "Mario Ruben Mendoza", "out": ""},
         {"name": "José-Luis Ghisso", "in": ""},
@@ -20316,7 +20316,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roque Avallay"},
         {"name": "Ruben Ayala"},
         {"name": "Juan José Lopez", "out": ""},
@@ -20373,7 +20373,7 @@
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
         {"name": "José-Luis Ghisso", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta", "out": ""},
         {"name": "Carlos Babington", "in": ""},
         {"name": "Roberto Telch"},
@@ -20402,7 +20402,7 @@
         {"name": "Jupp Heynckes", "type": "G"}
       ],
       [
-        {"name": "Miguel Angel Brindisi", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "type": "G"},
         {"name": "Norberto Alonso", "type": "G"},
         {"name": "José-Luis Ghisso", "type": "G"}
       ]
@@ -20430,7 +20430,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta"},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay"},
@@ -20470,7 +20470,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta"},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay"},
@@ -20488,7 +20488,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Miguel Angel Brindisi", "type": "G"}],
+      [{"name": "Miguel Ángel Brindisi", "type": "G"}],
       [{"name": "Fernando Morena", "type": "G"}]
     ],
     "lineups": [
@@ -20497,7 +20497,7 @@
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington", "out": ""},
         {"name": "Norberto Alonso", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala", "out": ""},
         {"name": "Roque Avallay", "in": ""},
@@ -20553,7 +20553,7 @@
         {"name": "Daniel Carnevale"},
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay"},
         {"name": "Ruben Ayala"},
@@ -20574,8 +20574,8 @@
     "goals": [
       [
         {"name": "Carlos Alfredo Guerini", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "type": "G"},
         {"name": "Ruben Ayala", "type": "G"},
         {"name": "Ruben Ayala", "type": "G"}
       ],
@@ -20594,7 +20594,7 @@
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
         {"name": "Enrique Chazaretta", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Carlos Alfredo Guerini"},
@@ -20632,7 +20632,7 @@
         {"name": "Carlos Caszely", "type": "G"},
         {"name": "Julio Crisosto", "type": "G"}
       ],
-      [{"name": "Miguel Angel Brindisi", "type": "P"}]
+      [{"name": "Miguel Ángel Brindisi", "type": "P"}]
     ],
     "coaches": [{"name": "Luis Alamos"}, null],
     "lineups": [
@@ -20658,7 +20658,7 @@
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
         {"name": "Carlos Alfredo Guerini", "in": ""},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
@@ -20679,7 +20679,7 @@
       [
         {"name": "Carlos Alfredo Guerini", "min": "38", "type": "G"},
         {"name": "Carlos Alfredo Guerini", "min": "55", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "min": "60", "type": "P"}
+        {"name": "Miguel Ángel Brindisi", "min": "60", "type": "P"}
       ],
       [{"name": "Hector Bailetti", "min": "42", "type": "G"}]
     ],
@@ -20690,7 +20690,7 @@
         {"name": "Ramon Heredia", "out": ""},
         {"name": "Jorge Troncoso", "in": ""},
         {"name": "Enrique Wolff"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
@@ -20726,8 +20726,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Miguel Angel Brindisi", "min": "31", "type": "G"},
-        {"name": "Miguel Angel Brindisi", "min": "43", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "min": "31", "type": "G"},
+        {"name": "Miguel Ángel Brindisi", "min": "43", "type": "G"},
         {"name": "Ruben Ayala", "min": "65", "type": "G"},
         {"name": "Ruben Ayala", "min": "76", "type": "G"}
       ],
@@ -20745,7 +20745,7 @@
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Agustin Balbuena"},
@@ -20807,7 +20807,7 @@
         {"name": "Heriberto Correa"},
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
-        {"name": "Miguel Angel Brindisi", "out": "87"},
+        {"name": "Miguel Ángel Brindisi", "out": "87"},
         {"name": "Carlos Babington", "in": "87"},
         {"name": "Enrique Chazaretta"},
         {"name": "Roberto Telch"},
@@ -20900,7 +20900,7 @@
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington", "out": "465"},
         {"name": "Agustin Balbuena", "in": "465"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta", "out": "53"},
         {"name": "Carlos Alfredo Guerini", "in": "53"},
         {"name": "Roberto Telch"},
@@ -20943,7 +20943,7 @@
         {"name": "Ruben Glaria"},
         {"name": "Francisco Sa"},
         {"name": "Alberto Tarantini"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Enrique Chazaretta", "out": "46"},
         {"name": "Rene Houseman", "in": "46"},
         {"name": "Carlos Squeo"},
@@ -21001,7 +21001,7 @@
         {"name": "Enrique Wolff", "in": "46"},
         {"name": "Roberto Perfumo"},
         {"name": "Francisco Sa"},
-        {"name": "Miguel Angel Brindisi", "out": "75"},
+        {"name": "Miguel Ángel Brindisi", "out": "75"},
         {"name": "Enrique Chazaretta", "in": "75"},
         {"name": "Carlos Squeo"},
         {"name": "Roberto Telch"},
@@ -21051,7 +21051,7 @@
         {"name": "Enrique Wolff", "in": ""},
         {"name": "Roberto Perfumo"},
         {"name": "Francisco Sa"},
-        {"name": "Miguel Angel Brindisi", "out": ""},
+        {"name": "Miguel Ángel Brindisi", "out": ""},
         {"name": "Rene Houseman", "in": ""},
         {"name": "Carlos Squeo"},
         {"name": "Roberto Telch"},
@@ -21148,7 +21148,7 @@
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington"},
-        {"name": "Miguel Angel Brindisi", "out": "46"},
+        {"name": "Miguel Ángel Brindisi", "out": "46"},
         {"name": "Rene Houseman", "in": "46"},
         {"name": "Ruben Ayala"},
         {"name": "Agustin Balbuena"},
@@ -21263,7 +21263,7 @@
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Rene Houseman", "out": "59"},
-        {"name": "Miguel Angel Brindisi", "in": "59"},
+        {"name": "Miguel Ángel Brindisi", "in": "59"},
         {"name": "Mario Kempes", "out": "57"},
         {"name": "Agustin Balbuena", "in": "57"},
         {"name": "Hector Yazalde"}
@@ -21349,7 +21349,7 @@
     "score": [1, 2],
     "result": "L",
     "goals": [
-      [{"name": "Miguel Angel Brindisi", "min": "35", "type": "G"}],
+      [{"name": "Miguel Ángel Brindisi", "min": "35", "type": "G"}],
       [
         {"name": "Rivellino", "min": "31", "type": "G"},
         {"name": "Jairzinho", "min": "49", "type": "G"}
@@ -21369,7 +21369,7 @@
         {"name": "Francisco Sa", "out": "46"},
         {"name": "Rene Houseman", "in": "46"},
         {"name": "Carlos Babington"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Carlos Squeo"},
         {"name": "Ruben Ayala"},
         {"name": "Agustin Balbuena"},
@@ -21415,7 +21415,7 @@
         {"name": "Ramon Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington"},
-        {"name": "Miguel Angel Brindisi"},
+        {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Rene Houseman"},
@@ -21455,7 +21455,7 @@
         {"name": "Jorge Carrascosa"},
         {"name": "Carlos Babington", "out": "68"},
         {"name": "Osvaldo Ruben Potente", "in": "68"},
-        {"name": "Miguel Angel Brindisi", "out": "68"},
+        {"name": "Miguel Ángel Brindisi", "out": "68"},
         {"name": "Marcelo Trobbiani", "in": "68"},
         {"name": "Rene Houseman"},
         {"name": "Edgardo Roberto Di Meola"},
@@ -27605,7 +27605,7 @@
       [
         {"name": "Sergio Goycochea"},
         {"name": "Jorge Theiler"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Fabián Basualdo"},
         {"name": "Domenech"},
         {"name": "José Carlos Fantaguzzi"},
@@ -30326,7 +30326,7 @@
         {"name": "Leonardo Rodríguez", "out": "82"},
         {"name": "Leonardo Astrada", "in": "82"},
         {"name": "Gabriel Batistuta", "out": "89"},
-        {"name": "Alberto Federico Acosta", "in": "89"},
+        {"name": "Alberto Acosta", "in": "89"},
         {"name": "Claudio Caniggia"},
         {"name": "Fabián Basualdo"},
         {"name": "Néstor Craviotto"},
@@ -30351,7 +30351,7 @@
         {"name": "Sergio Vázquez"},
         {"name": "Diego Cagna"},
         {"name": "Leonardo Rodríguez", "out": "55"},
-        {"name": "Alberto Federico Acosta", "in": "55"},
+        {"name": "Alberto Acosta", "in": "55"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
         {"name": "Ricardo Altamirano"},
@@ -30463,7 +30463,7 @@
         {"name": "Diego Cagna", "out": ""},
         {"name": "Alejandro Mancuso", "in": ""},
         {"name": "Ramon Medina Bello"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
         {"name": "Alberto José Marcico"},
@@ -30484,7 +30484,7 @@
         {"name": "Gabriel Batistuta", "min": "3", "type": "G"},
         {"name": "Gabriel Batistuta", "min": "11", "type": "G"},
         {"name": "Ricardo Altamirano", "min": "69", "type": "G"},
-        {"name": "Alberto Federico Acosta", "min": "83", "type": "G"}
+        {"name": "Alberto Acosta", "min": "83", "type": "G"}
       ],
       []
     ],
@@ -30497,7 +30497,7 @@
         {"name": "Sergio Vázquez"},
         {"name": "Fernando Redondo"},
         {"name": "Leonardo Rodríguez", "out": "67"},
-        {"name": "Alberto Federico Acosta", "in": "67"},
+        {"name": "Alberto Acosta", "in": "67"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
@@ -30560,7 +30560,7 @@
         {"name": "Sergio Vázquez"},
         {"name": "Fernando Redondo"},
         {"name": "Leonardo Rodríguez", "out": "73"},
-        {"name": "Alberto Federico Acosta", "in": "73"},
+        {"name": "Alberto Acosta", "in": "73"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
@@ -30604,7 +30604,7 @@
         {"name": "Diego Simeone"},
         {"name": "Ramon Medina Bello", "out": "84"},
         {"name": "Julio Alberto Zamora", "in": "84"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto"},
         {"name": "José Luis Villarreal", "out": "75"},
@@ -30650,7 +30650,7 @@
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia", "out": "80"},
-        {"name": "Alberto Federico Acosta", "in": "80"},
+        {"name": "Alberto Acosta", "in": "80"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Dario Franco", "out": "80"},
@@ -30738,7 +30738,7 @@
         {"name": "Leonardo Rodríguez", "out": "63"},
         {"name": "Nestor Raul Gorosito", "in": "63"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Ricardo Altamirano"},
         {"name": "Néstor Craviotto"},
         {"name": "Dario Franco", "out": "32"},
@@ -30831,7 +30831,7 @@
         {"name": "Nestor Raul Gorosito", "in": "68"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta", "out": "78"},
-        {"name": "Alberto Federico Acosta", "in": "78"},
+        {"name": "Alberto Acosta", "in": "78"},
         {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
@@ -30889,7 +30889,7 @@
         {"name": "Leonardo Rodríguez", "in": "54"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta", "out": "62"},
-        {"name": "Alberto Federico Acosta", "in": "62"},
+        {"name": "Alberto Acosta", "in": "62"},
         {"name": "Ramon Medina Bello"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
@@ -30919,7 +30919,7 @@
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
         {"name": "Nestor Raul Gorosito"},
@@ -31031,7 +31031,7 @@
         {"name": "José Basualdo", "in": "68"},
         {"name": "Diego Simeone"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Alberto Federico Acosta", "out": "79"},
+        {"name": "Alberto Acosta", "out": "79"},
         {"name": "Claudio García", "in": "79"},
         {"name": "Ricardo Altamirano"},
         {"name": "Fabián Basualdo"},
@@ -31138,7 +31138,7 @@
         {"name": "Fernando Redondo"},
         {"name": "Diego Simeone"},
         {"name": "Ramon Medina Bello"},
-        {"name": "Alberto Federico Acosta", "out": "81"},
+        {"name": "Alberto Acosta", "out": "81"},
         {"name": "Leonardo Rodríguez", "in": "81"},
         {"name": "Ricardo Altamirano"},
         {"name": "Gustavo Zapata"}
@@ -31260,7 +31260,7 @@
         {"name": "Jorge Borelli"},
         {"name": "Oscar Ruggeri"},
         {"name": "Fernando Redondo", "out": "71"},
-        {"name": "Alberto Federico Acosta", "in": "71"},
+        {"name": "Alberto Acosta", "in": "71"},
         {"name": "Leonardo Rodríguez", "out": "54"},
         {"name": "Claudio García", "in": "54"},
         {"name": "Diego Simeone"},
@@ -32405,7 +32405,7 @@
         {"name": "Marcelo Gallardo"},
         {"name": "Ariel Ortega"},
         {"name": "Omar Andrés Asad", "out": "88"},
-        {"name": "Gabriel Francisco Schurrer", "in": "88"},
+        {"name": "Gabriel Schürrer", "in": "88"},
         {"name": "Carlos Gustavo Bassio"}
       ]
     ]
@@ -32434,7 +32434,7 @@
         {"name": "Marcelo Gallardo"},
         {"name": "Ariel Ortega"},
         {"name": "Omar Andrés Asad"},
-        {"name": "Gabriel Francisco Schurrer"}
+        {"name": "Gabriel Schürrer"}
       ],
       [
         {"name": "Nolberto Solano"},
@@ -32463,7 +32463,7 @@
     "goals": [
       [
         {"name": "Sergio Berti", "min": "29", "type": "G"},
-        {"name": "Alberto Federico Acosta", "min": "75", "type": "G"}
+        {"name": "Alberto Acosta", "min": "75", "type": "G"}
       ],
       [{"name": "Richart Baez", "min": "24", "type": "G"}]
     ],
@@ -32479,11 +32479,11 @@
         {"name": "Javier Zanetti"},
         {"name": "Abel Balbo"},
         {"name": "Marcelo Gallardo"},
-        {"name": "Alberto Federico Acosta"},
+        {"name": "Alberto Acosta"},
         {"name": "Ricardo Altamirano"},
         {"name": "Marcelo Adrian Gomez", "out": "62"},
         {"name": "Leonardo Astrada", "in": "62"},
-        {"name": "Gabriel Francisco Schurrer"}
+        {"name": "Gabriel Schürrer"}
       ],
       [
         {"name": "Celso Ayala"},
@@ -32526,12 +32526,12 @@
         {"name": "Leonardo Astrada", "in": "46"},
         {"name": "Javier Zanetti"},
         {"name": "Abel Balbo", "out": "80"},
-        {"name": "Alberto Federico Acosta", "in": "80"},
+        {"name": "Alberto Acosta", "in": "80"},
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo", "out": "46"},
         {"name": "Ariel Ortega", "in": "46"},
         {"name": "Juan José Borrelli"},
-        {"name": "Rolando Hernan Cristante"}
+        {"name": "Hernán Cristante"}
       ],
       [
         {"name": "Carlos Trucco"},
@@ -32579,7 +32579,7 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Ariel Ortega"},
         {"name": "Juan José Borrelli"},
-        {"name": "Rolando Hernan Cristante"}
+        {"name": "Hernán Cristante"}
       ],
       [
         {"name": "Marcelo Ramirez"},
@@ -32626,10 +32626,10 @@
         {"name": "Hugo Perez"},
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo"},
-        {"name": "Alberto Federico Acosta", "out": "65"},
+        {"name": "Alberto Acosta", "out": "65"},
         {"name": "Abel Balbo", "in": "65"},
         {"name": "Ricardo Altamirano"},
-        {"name": "Gabriel Francisco Schurrer"}
+        {"name": "Gabriel Schürrer"}
       ],
       [
         {"name": "Kasey Keller"},
@@ -32695,13 +32695,13 @@
         {"name": "Diego Simeone"},
         {"name": "Javier Zanetti"},
         {"name": "Abel Balbo", "out": "75"},
-        {"name": "Alberto Federico Acosta", "in": "75"},
+        {"name": "Alberto Acosta", "in": "75"},
         {"name": "Gabriel Batistuta", "out": "63"},
         {"name": "Roberto Ayala", "in": "63"},
         {"name": "Ariel Ortega", "out": "46"},
         {"name": "Hugo Perez", "in": "46"},
         {"name": "Juan José Borrelli"},
-        {"name": "Rolando Hernan Cristante"}
+        {"name": "Hernán Cristante"}
       ]
     ]
   },
@@ -32743,7 +32743,7 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo", "out": "77"},
         {"name": "Ariel Ortega", "in": "77"},
-        {"name": "Rolando Hernan Cristante"}
+        {"name": "Hernán Cristante"}
       ],
       [
         {"name": "Zeljko Kalac"},
@@ -32883,7 +32883,7 @@
         {"name": "Marcelo Gallardo", "out": "46"},
         {"name": "Ariel Ortega", "in": "46"},
         {"name": "Ricardo Altamirano"},
-        {"name": "Rolando Hernan Cristante"},
+        {"name": "Hernán Cristante"},
         {"name": "Roberto Luis Trotta"}
       ],
       [
