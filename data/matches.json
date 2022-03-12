@@ -27121,17 +27121,28 @@
   {
     "date": "1986-06-02",
     "competition": "World Cup",
-    "venue": {"name": "Olimpico, Mexico City"},
-    "teams": [{"name": "Argentina"}, {"name": "South Korea"}],
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Olímpico de Universitario",
+      "city": "Ciudad de México (D.F.)"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Korea Republic"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Jorge Valdano", "min": "5", "type": "G"},
-        {"name": "Oscar Ruggeri", "min": "17", "type": "G"},
+        {"name": "Jorge Valdano", "min": "6", "type": "G"},
+        {"name": "Oscar Ruggeri", "min": "18", "type": "G"},
         {"name": "Jorge Valdano", "min": "46", "type": "G"}
       ],
-      [{"name": "PARK Chang-Sun", "min": "73", "type": "G"}]
+      [{"name": "Chang-Sun Park", "min": "73", "type": "G"}]
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Jung-Moo Huh", "min": "44", "type": "Y"},
+        {"name": "Chang-Sun Park", "min": "50", "type": "Y"}
+      ]
     ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "KIM Jung Nam"}],
     "lineups": [
@@ -27141,91 +27152,106 @@
         {"name": "Nestor Clausen"},
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista", "out": "74"},
-        {"name": "Julio Olarticoechea", "in": "74"},
+        {"name": "Diego Maradona"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli", "out": "72"},
-        {"name": "Carlos Daniel Tapia", "in": "72"},
-        {"name": "Jorge Valdano"}
+        {"name": "Sergio Batista", "out": "75"},
+        {"name": "Julio Olarticoechea", "in": "75"},
+        {"name": "Jorge Valdano"},
+        {"name": "Pedro Pasculli", "out": "74"},
+        {"name": "Carlos Tapia", "in": "74"}
       ],
       [
-        {"name": "OH Yun-Kyo"},
-        {"name": "PARK Kyung-Hoon"},
-        {"name": "CHO Min-Kook"},
-        {"name": "KIM Pyung-Seok", "out": "23"},
-        {"name": "CHO Kwang-Rae", "in": "23"},
-        {"name": "CHO Young-Jeung"},
-        {"name": "PARK Chang-Sun"},
-        {"name": "KIM Joo-Sung"},
-        {"name": "HUH Jung-Moo"},
-        {"name": "CHOI Soon-Ho"},
-        {"name": "CHA Bum-Kun"},
-        {"name": "KIM Yong-Sae", "out": "46"},
-        {"name": "BYUN Byung-Joo", "in": "46"}
+        {"name": "Yun-Kyo Ho"},
+        {"name": "Kyung-Hoon Park"},
+        {"name": "Pyung-Seok Kim", "out": "23"},
+        {"name": "Kwang-Rae Cho", "in": "23"},
+        {"name": "Yong-Hwan Jung"},
+        {"name": "Jung-Moo Huh"},
+        {"name": "Min-Kook Cho"},
+        {"name": "Bum-Kun Cha"},
+        {"name": "Chang-Sun Park"},
+        {"name": "Joo-Sung Kim"},
+        {"name": "Soon-Ho Choi"},
+        {"name": "Young-Sae Kim", "out": "46"},
+        {"name": "Byung-Joo Byun", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-05",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Cuauhtémoc, Puebla"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Cuauhtémoc", "city": "Puebla"},
     "teams": [{"name": "Italy"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Alessandro Altobelli", "min": "6", "type": "P"}],
+      [{"name": "Alessandro Altobelli", "min": "7", "type": "P"}],
       [{"name": "Diego Maradona", "min": "34", "type": "G"}]
+    ],
+    "cards": [
+      [{"name": "Giuseppe Bergomi", "min": "55", "type": "Y"}],
+      [
+        {"name": "Ricardo Giusti", "min": "59", "type": "Y"},
+        {"name": "Oscar Garré", "min": "66", "type": "Y"}
+      ]
     ],
     "coaches": [{"name": "Enzo Bearzot"}, {"name": "Carlos Salvador Bilardo"}],
     "lineups": [
       [
         {"name": "Giovanni Galli"},
-        {"name": "Giuseppe Bergomi"},
         {"name": "Antonio Cabrini"},
+        {"name": "Giuseppe Bergomi"},
         {"name": "Gaetano Scirea"},
         {"name": "Pietro Vierchowod"},
-        {"name": "Salvatore Bagni"},
+        {"name": "Antonio Di Gennaro"},
+        {"name": "Bruno Conti", "out": "65"},
+        {"name": "Gianluca Vialli", "in": "65"},
         {"name": "Fernando De Napoli", "out": "87"},
         {"name": "Giuseppe Baresi", "in": "87"},
-        {"name": "Antonio Di Gennaro"},
+        {"name": "Salvatore Bagni"},
         {"name": "Alessandro Altobelli"},
-        {"name": "Bruno Conti", "out": "64"},
-        {"name": "Gianluca Vialli", "in": "64"},
         {"name": "Giuseppe Galderisi"}
       ],
       [
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
-        {"name": "José Luis Cuciuffo"},
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista", "out": "59"},
-        {"name": "Julio Olarticoechea", "in": "59"},
-        {"name": "Claudio Borghi", "out": "76"},
-        {"name": "Hector Aldolfo Enrique", "in": "76"},
+        {"name": "José Luis Cuciuffo"},
+        {"name": "Diego Maradona"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
-        {"name": "Jorge Valdano"}
+        {"name": "Sergio Batista", "out": "59"},
+        {"name": "Julio Olarticoechea", "in": "59"},
+        {"name": "Jorge Valdano"},
+        {"name": "Claudio Borghi", "out": "74"},
+        {"name": "Héctor Enrique", "in": "74"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-10",
     "competition": "World Cup",
-    "venue": {"name": "Olimpico, Mexico City"},
+    "round": "Group Stage",
+    "venue": {
+      "name": "Estadio Olímpico de Universitario",
+      "city": "Ciudad de México (D.F.)"
+    },
     "teams": [{"name": "Argentina"}, {"name": "Bulgaria"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Jorge Valdano", "min": "3", "type": "G"},
-        {"name": "Jorge Burruchaga", "min": "74", "type": "G"}
+        {"name": "Jorge Valdano", "min": "4", "type": "G"},
+        {"name": "Jorge Burruchaga", "min": "77", "type": "G"}
       ],
       []
     ],
+    "cards": [[{"name": "José Luis Cuciuffo", "min": "26", "type": "Y"}], []],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Ivan Vutzov"}],
     "lineups": [
       [
@@ -27234,39 +27260,55 @@
         {"name": "José Luis Cuciuffo"},
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista", "out": "46"},
-        {"name": "Hector Aldolfo Enrique", "in": "46"},
-        {"name": "Claudio Borghi", "out": "46"},
-        {"name": "Julio Olarticoechea", "in": "46"},
+        {"name": "Diego Maradona"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
+        {"name": "Sergio Batista", "out": "46"},
+        {"name": "Héctor Enrique", "in": "46"},
+        {"name": "Claudio Borghi", "out": "46"},
+        {"name": "Julio Olarticoechea", "in": "46"},
         {"name": "Jorge Valdano"}
       ],
       [
         {"name": "Borislav Mihailov"},
-        {"name": "Georgi Dimitrov"},
         {"name": "Aleksandar Markov"},
+        {"name": "Georgi Dimitrov"},
         {"name": "Petar Petrov"},
+        {"name": "Andrei Jeliazkov"},
         {"name": "Ayan Sadakov"},
-        {"name": "Georgi Yordanov"},
-        {"name": "Andrei Zhelyazkov"},
+        {"name": "Nasko Sirakov", "out": "71"},
+        {"name": "Radoslav Zdravkov", "in": "71"},
         {"name": "Plamen Getov"},
-        {"name": "Plamen Markov"},
-        {"name": "Stoicho Mladenov"},
-        {"name": "Nasko Sirakov", "out": "69"},
-        {"name": "Radoslav Zdravkov", "in": "69"}
+        {"name": "Georgi Iordanov"},
+        {"name": "Stoicho Mladenov", "out": "52"},
+        {"name": "Boycho Velitchkov", "in": "52"},
+        {"name": "Plamen Markov"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-16",
     "competition": "World Cup",
-    "venue": {"name": "Estadio Cuauhtémoc, Puebla"},
+    "round": "Round of 16",
+    "venue": {"name": "Estadio Cuauhtémoc", "city": "Puebla"},
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Pedro Pablo Pasculli", "min": "41", "type": "G"}], []],
+    "goals": [[{"name": "Pedro Pasculli", "min": "42", "type": "G"}], []],
+    "cards": [
+      [
+        {"name": "Oscar Garré", "min": "31", "type": "Y"},
+        {"name": "José Luis Brown", "min": "50", "type": "Y"},
+        {"name": "Nery Pumpido", "min": "84", "type": "Y"}
+      ],
+      [
+        {"name": "Enzo Francescoli", "min": "36", "type": "Y"},
+        {"name": "Eduardo Acevedo", "min": "59", "type": "Y"},
+        {"name": "Sergio Santín", "min": "69", "type": "Y"},
+        {"name": "Jorge da Silva", "min": "86", "type": "Y"}
+      ]
+    ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Omar Borras"}],
     "lineups": [
       [
@@ -27275,45 +27317,50 @@
         {"name": "José Luis Cuciuffo"},
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista", "out": "85"},
-        {"name": "Julio Olarticoechea", "in": "85"},
+        {"name": "Diego Maradona"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli"},
-        {"name": "Jorge Valdano"}
+        {"name": "Sergio Batista", "out": "85"},
+        {"name": "Julio Olarticoechea", "in": "85"},
+        {"name": "Jorge Valdano"},
+        {"name": "Pedro Pasculli"}
       ],
       [
-        {"name": "Fernando Alvez"},
-        {"name": "Wilmer Cabrera", "out": "46"},
-        {"name": "Jorge Da Silva", "in": "46"},
-        {"name": "Nelson Gutierrez"},
+        {"name": "Fernando Álvez"},
+        {"name": "Darío Pereyra"},
+        {"name": "Eduardo Acevedo", "out": "61"},
+        {"name": "Rubén Paz", "in": "61"},
+        {"name": "Nelson Gutiérrez"},
+        {"name": "Eliseo Rivero"},
         {"name": "Jorge Barrios"},
         {"name": "Miguel Bossio"},
+        {"name": "Sergio Santín"},
         {"name": "Enzo Francescoli"},
         {"name": "Venancio Ramos"},
-        {"name": "Sergio Santín"},
-        {"name": "Eduardo Mario Acevedo", "out": "60"},
-        {"name": "Ruben Paz", "in": "60"},
-        {"name": "Dario Pereira"},
-        {"name": "Eliseo Rivero"}
+        {"name": "Wilmar Cabrera", "out": "46"},
+        {"name": "Jorge da Silva", "in": "46"}
       ]
     ],
-    "info": {"youtube": [{"id": "4pmKxGnGWSI"}]}
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-22",
     "competition": "World Cup",
-    "venue": {"name": "Azteca Stadium, Mexico City"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Estadio Azteca", "city": "Ciudad de México (D.F.)"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Diego Maradona", "min": "50", "type": "G"},
-        {"name": "Diego Maradona", "min": "54", "type": "G"}
+        {"name": "Diego Maradona", "min": "51", "type": "G"},
+        {"name": "Diego Maradona", "min": "55", "type": "G"}
       ],
-      [{"name": "Gary Lineker", "min": "80", "type": "G"}]
+      [{"name": "Gary Lineker", "min": "81", "type": "G"}]
+    ],
+    "cards": [
+      [{"name": "Sergio Batista", "min": "60", "type": "Y"}],
+      [{"name": "Terry Fenwick", "min": "9", "type": "Y"}]
     ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Bobby Robson"}],
     "lineups": [
@@ -27321,59 +27368,52 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista"},
-        {"name": "Jorge Burruchaga", "out": "75"},
-        {"name": "Carlos Daniel Tapia", "in": "75"},
-        {"name": "Hector Aldolfo Enrique"},
-        {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
+        {"name": "Héctor Enrique"},
+        {"name": "Jorge Burruchaga", "out": "75"},
+        {"name": "Carlos Tapia", "in": "75"},
+        {"name": "Julio Olarticoechea"},
+        {"name": "Ricardo Giusti"},
+        {"name": "Sergio Batista"},
         {"name": "Jorge Valdano"}
       ],
       [
         {"name": "Peter Shilton"},
+        {"name": "Gary Stevens"},
+        {"name": "Kenny Sansom"},
         {"name": "Terry Butcher"},
         {"name": "Terry Fenwick"},
-        {"name": "Kenny Sansom"},
-        {"name": "Gary Stevens"},
         {"name": "Glenn Hoddle"},
+        {"name": "Peter Reid", "out": "69"},
+        {"name": "Chris Waddle", "in": "69"},
         {"name": "Steve Hodge"},
-        {"name": "Peter Reid", "out": "63"},
-        {"name": "Chris Waddle", "in": "63"},
         {"name": "Trevor Steven", "out": "74"},
         {"name": "John Barnes", "in": "74"},
-        {"name": "Peter Beardsley"},
-        {"name": "Gary Lineker"}
+        {"name": "Gary Lineker"},
+        {"name": "Peter Beardsley"}
       ]
     ],
-    "info": {
-      "youtube": [{"id": "1wVho3I0NtU"}],
-      "images": [
-        {"url": "/m/1986/Maradona_gol_a_inglaterra_buynwy.jpg"},
-        {"url": "/m/1986//Maradona_vs_england_sjuc9w.jpg"}
-      ],
-      "links": [
-        {
-          "text": "Wikipedia: Argentina v England (1986 FIFA World Cup)",
-          "url": "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)"
-        }
-      ]
-    }
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-25",
     "competition": "World Cup",
-    "venue": {"name": "Azteca Stadium, Mexico City"},
+    "round": "Semi-finals",
+    "venue": {"name": "Estadio Azteca", "city": "Ciudad de México (D.F.)"},
     "teams": [{"name": "Argentina"}, {"name": "Belgium"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Diego Maradona", "min": "51", "type": "G"},
+        {"name": "Diego Maradona", "min": "52", "type": "G"},
         {"name": "Diego Maradona", "min": "63", "type": "G"}
       ],
       []
+    ],
+    "cards": [
+      [{"name": "Jorge Valdano", "min": "33", "type": "Y"}],
+      [{"name": "Danny Veyt", "min": "28", "type": "Y"}]
     ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, {"name": "Guy Thijs"}],
     "lineups": [
@@ -27381,51 +27421,62 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista"},
-        {"name": "Jorge Burruchaga", "out": "84"},
-        {"name": "Ricardo Bochini", "in": "84"},
-        {"name": "Hector Aldolfo Enrique"},
-        {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
+        {"name": "Héctor Enrique"},
+        {"name": "Jorge Burruchaga", "out": "85"},
+        {"name": "Ricardo Bochini", "in": "85"},
+        {"name": "Julio Olarticoechea"},
+        {"name": "Ricardo Giusti"},
+        {"name": "Sergio Batista"},
         {"name": "Jorge Valdano"}
       ],
       [
         {"name": "Jean-Marie Pfaff"},
-        {"name": "Stefan Demol"},
         {"name": "Eric Gerets"},
-        {"name": "Georges Grun"},
-        {"name": "Michel Renquin", "out": "66"},
-        {"name": "Philippe Desmet", "in": "66"},
-        {"name": "Nico Claesen"},
+        {"name": "Georges Grün"},
+        {"name": "Michel Renquin", "out": "54"},
+        {"name": "Philippe Desmet", "in": "54"},
         {"name": "Enzo Scifo"},
         {"name": "Frankie Vercauteren"},
         {"name": "Patrick Vervoort"},
+        {"name": "Stefan Demol"},
+        {"name": "Danny Veyt"},
         {"name": "Jan Ceulemans"},
-        {"name": "Danny Veyt"}
+        {"name": "Nico Claesen"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-06-29",
     "competition": "World Cup",
-    "venue": {"name": "Azteca Stadium, Mexico City"},
-    "teams": [
-      {"name": "Argentina"},
-      {"slug": "germany", "name": "West Germany"}
-    ],
+    "round": "Final",
+    "venue": {"name": "Estadio Azteca", "city": "Ciudad de México (D.F.)"},
+    "teams": [{"name": "Argentina"}, {"name": "Germany"}],
     "score": [3, 2],
     "result": "W",
     "goals": [
       [
         {"name": "José Luis Brown", "min": "22", "type": "G"},
-        {"name": "Jorge Valdano", "min": "55", "type": "G"},
-        {"name": "Jorge Burruchaga", "min": "83", "type": "G"}
+        {"name": "Jorge Valdano", "min": "56", "type": "G"},
+        {"name": "Jorge Burruchaga", "min": "85", "type": "G"}
       ],
       [
-        {"name": "Karl-Heinz Rummenigge", "min": "73", "type": "G"},
-        {"name": "Rudi Völler", "min": "81", "type": "G"}
+        {"name": "Karl-Heinz Rummenigge", "min": "74", "type": "G"},
+        {"name": "Rudi Völler", "min": "82", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Diego Maradona", "min": "18", "type": "Y"},
+        {"name": "Julio Olarticoechea", "min": "78", "type": "Y"},
+        {"name": "Héctor Enrique", "min": "82", "type": "Y"},
+        {"name": "Nery Pumpido", "min": "86", "type": "Y"}
+      ],
+      [
+        {"name": "Lothar Matthäus", "min": "22", "type": "Y"},
+        {"name": "Hans Peter Briegel", "min": "63", "type": "Y"}
       ]
     ],
     "coaches": [
@@ -27437,57 +27488,33 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
-        {"name": "Sergio Batista"},
-        {"name": "Jorge Burruchaga", "out": "90"},
-        {"name": "Marcelo Antonio Trobbiani", "in": "90"},
-        {"name": "Hector Aldolfo Enrique"},
-        {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
+        {"name": "Héctor Enrique"},
+        {"name": "Jorge Burruchaga", "out": "90"},
+        {"name": "Marcelo Trobbiani", "in": "90"},
+        {"name": "Julio Olarticoechea"},
+        {"name": "Ricardo Giusti"},
+        {"name": "Sergio Batista"},
         {"name": "Jorge Valdano"}
       ],
       [
         {"name": "Harald Schumacher"},
-        {"name": "Thomas Berthold"},
         {"name": "Andreas Brehme"},
-        {"name": "Hans Peter Briegel"},
-        {"name": "Norbert Eder"},
-        {"name": "Karlheinz Förster"},
         {"name": "Dietmar Jakobs"},
-        {"name": "Felix Magath", "out": "61"},
-        {"name": "Dieter Hoeness", "in": "61"},
+        {"name": "Hans Peter Briegel"},
+        {"name": "Karl-Heinz Förster"},
+        {"name": "Norbert Eder"},
+        {"name": "Thomas Berthold"},
+        {"name": "Felix Magath", "out": "62"},
+        {"name": "Dieter Hoeness", "in": "62"},
         {"name": "Lothar Matthäus"},
-        {"name": "Klaus Allofs", "out": "57"},
-        {"name": "Rudi Völler", "in": "57"},
+        {"name": "Klaus Allofs", "out": "46"},
+        {"name": "Rudi Völler", "in": "46"},
         {"name": "Karl-Heinz Rummenigge"}
       ]
     ],
-    "info": {
-      "youtube": [{"id": "f2_VbbIq6Hw"}],
-      "images": [
-        {
-          "url": "/m/1986/13528311_647442118755532_5074507052155761854_o_bwqusz.jpg",
-          "source": {
-            "name": "Sobredosis De Futbol",
-            "url": "https://www.facebook.com/SobredosisDeFutbol/"
-          }
-        },
-        {
-          "url": "/m/1986/13575953_647442258755518_1170025018331836654_o_r7kz6h.jpg",
-          "source": {
-            "name": "Sobredosis De Futbol",
-            "url": "https://www.facebook.com/SobredosisDeFutbol/"
-          }
-        }
-      ],
-      "links": [
-        {
-          "text": "Wikipedia: 1986 FIFA World Cup Final",
-          "url": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_Final"
-        }
-      ]
-    }
+    "sources": ["Golazon"]
   },
   {
     "date": "1986-11-24",
