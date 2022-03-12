@@ -20855,7 +20855,7 @@
         {"name": "Ruben Glaria"},
         {"name": "Ruben Galvan"},
         {"name": "Roberto Telch", "out": "76"},
-        {"name": "Marcelo Antonio Trobbiani", "in": "76"},
+        {"name": "Marcelo Trobbiani", "in": "76"},
         {"name": "Ruben Ayala"},
         {"name": "Mario Kempes", "out": "64"},
         {"name": "Ricardo Bochini", "in": "64"},
@@ -21456,7 +21456,7 @@
         {"name": "Carlos Babington", "out": "68"},
         {"name": "Osvaldo Ruben Potente", "in": "68"},
         {"name": "Miguel Angel Brindisi", "out": "68"},
-        {"name": "Marcelo Antonio Trobbiani", "in": "68"},
+        {"name": "Marcelo Trobbiani", "in": "68"},
         {"name": "Rene Houseman"},
         {"name": "Edgardo Roberto Di Meola"},
         {"name": "Enzo Ferrero"},
@@ -21516,7 +21516,7 @@
         {"name": "Jorge Carrascosa"},
         {"name": "Daniel Bertoni"},
         {"name": "Ricardo Bochini"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Jorge Alberto Buzzo", "out": ""},
         {"name": "Juan José Lopez", "in": ""},
         {"name": "L Cordero", "out": ""},
@@ -21545,7 +21545,7 @@
       [
         {"name": "Jorge Carrascosa"},
         {"name": "Ricardo Bochini"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Ricardo José Ferrero"},
         {"name": "C Galleti", "out": ""},
         {"name": "Roberto Mouzo", "in": ""},
@@ -22015,7 +22015,7 @@
         {"name": "Ricardo Bochini"},
         {"name": "Americo Gallego"},
         {"name": "Oscar Ortiz"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Julio Daniel Asad", "in": ""},
         {"name": "Mario Kempes"},
         {"name": "C Cardenas"},
@@ -22045,7 +22045,7 @@
         {"name": "Ricardo Bochini"},
         {"name": "Americo Gallego"},
         {"name": "Oscar Ortiz"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Mario Kempes"},
         {"name": "Julio Daniel Asad"},
         {"name": "C Cardenas"},
@@ -22102,7 +22102,7 @@
         {"name": "Ricardo Bochini", "out": ""},
         {"name": "Daniel Passarella", "in": ""},
         {"name": "Americo Gallego"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Mario Kempes", "out": ""},
         {"name": "Rene Houseman", "in": ""},
         {"name": "Leopoldo Luque"},
@@ -22149,7 +22149,7 @@
         {"name": "Alberto Tarantini"},
         {"name": "Ricardo Bochini"},
         {"name": "Americo Gallego"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Mario Kempes"},
         {"name": "Leopoldo Luque"},
         {"name": "Hugo Orlando Gatti"},
@@ -22198,7 +22198,7 @@
         {"name": "Americo Gallego"},
         {"name": "Mario Kempes"},
         {"name": "Leopoldo Luque", "out": ""},
-        {"name": "Marcelo Antonio Trobbiani", "in": ""},
+        {"name": "Marcelo Trobbiani", "in": ""},
         {"name": "Hugo Orlando Gatti"},
         {"name": "Hector Horacio Scotta", "out": ""},
         {"name": "Rene Houseman", "in": ""}
@@ -22338,7 +22338,7 @@
         {"name": "Ricardo Bochini", "out": ""},
         {"name": "Norberto Alonso", "in": ""},
         {"name": "Americo Gallego"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Rene Houseman"},
         {"name": "Mario Kempes"},
         {"name": "Leopoldo Luque", "out": ""},
@@ -25655,7 +25655,7 @@
         {"name": "Ricardo Gareca"},
         {"name": "Claudio Oscar Marangoni"},
         {"name": "Juan José Urruti", "out": ""},
-        {"name": "Marcelo Antonio Trobbiani", "in": ""}
+        {"name": "Marcelo Trobbiani", "in": ""}
       ]
     ]
   },
@@ -26038,7 +26038,7 @@
         {"name": "Oscar Garré"},
         {"name": "Enzo Trossero"},
         {"name": "Jorge Burruchaga"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Oscar Ruggeri", "in": ""},
         {"name": "Ricardo Gareca"},
         {"name": "Claudio Oscar Marangoni", "out": ""},
@@ -26082,7 +26082,7 @@
         {"name": "Ricardo Giusti", "in": ""},
         {"name": "Claudio Oscar Marangoni"},
         {"name": "Alberto José Marcico", "out": ""},
-        {"name": "Marcelo Antonio Trobbiani", "in": ""},
+        {"name": "Marcelo Trobbiani", "in": ""},
         {"name": "Jorge Roberto Rinaldi", "out": ""},
         {"name": "Gerardo Manuel González", "in": ""},
         {"name": "Alejandro Sabella"}
@@ -26222,7 +26222,7 @@
         {"name": "Ricardo Bochini", "out": "89"},
         {"name": "Jorge Roberto Rinaldi", "in": "89"},
         {"name": "Jorge Burruchaga"},
-        {"name": "Marcelo Antonio Trobbiani", "out": "66"},
+        {"name": "Marcelo Trobbiani", "out": "66"},
         {"name": "Alberto José Marcico", "in": "66"},
         {"name": "Julian José Camino"},
         {"name": "Oscar Alberto Dertycia", "out": "77"},
@@ -26242,7 +26242,7 @@
     "goals": [
       [],
       [
-        {"name": "Marcelo Antonio Trobbiani", "min": "10", "type": "G"},
+        {"name": "Marcelo Trobbiani", "min": "10", "type": "G"},
         {"name": "Oscar Ruggeri", "min": "37", "type": "G"}
       ]
     ],
@@ -26271,7 +26271,7 @@
         {"name": "Enzo Trossero"},
         {"name": "Ricardo Bochini"},
         {"name": "Jorge Burruchaga"},
-        {"name": "Marcelo Antonio Trobbiani"},
+        {"name": "Marcelo Trobbiani"},
         {"name": "Julian José Camino"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce", "out": "52"},
@@ -26324,7 +26324,7 @@
         {"name": "Ricardo Bochini"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Marcelo Antonio Trobbiani", "out": "77"},
+        {"name": "Marcelo Trobbiani", "out": "77"},
         {"name": "Jorge Roberto Rinaldi", "in": "77"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce"},
@@ -26371,7 +26371,7 @@
         {"name": "Jorge Burruchaga", "out": "86"},
         {"name": "Jorge Roberto Rinaldi", "in": "86"},
         {"name": "Ricardo Giusti"},
-        {"name": "Marcelo Antonio Trobbiani", "out": "58"},
+        {"name": "Marcelo Trobbiani", "out": "58"},
         {"name": "Oscar Alberto Dertycia", "in": "58"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce"},
@@ -26399,7 +26399,7 @@
         {"name": "Ricardo Bochini", "out": ""},
         {"name": "Alberto José Marcico", "in": ""},
         {"name": "Jorge Burruchaga"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
         {"name": "Julian José Camino"},
         {"name": "Ricardo Gareca", "out": ""},
@@ -26458,9 +26458,9 @@
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
         {"name": "Juan Barbas"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Ricardo Giusti", "in": ""},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Ricardo Gareca"},
         {"name": "Alberto José Marcico", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
@@ -26505,9 +26505,9 @@
         {"name": "Oscar Ruggeri"},
         {"name": "Juan Barbas"},
         {"name": "Jorge Burruchaga"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Oscar Victor Trossero", "in": ""},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Ricardo Gareca", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
         {"name": "José Daniel Ponce", "out": ""},
@@ -26540,7 +26540,7 @@
         {"name": "Oscar Alberto Dertycia"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce", "out": ""},
-        {"name": "Marcelo Antonio Trobbiani", "in": ""}
+        {"name": "Marcelo Trobbiani", "in": ""}
       ],
       [
         {"name": "Rogelio Delgado"},
@@ -26581,7 +26581,7 @@
         {"name": "Oscar Ruggeri"},
         {"name": "Jorge Burruchaga"},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce", "out": ""},
         {"name": "Ricardo Giusti", "in": ""},
@@ -26645,7 +26645,7 @@
         {"name": "Enzo Trossero"},
         {"name": "Jorge Burruchaga"},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli", "out": ""},
+        {"name": "Pedro Pasculli", "out": ""},
         {"name": "Jorge Valdano", "in": ""},
         {"name": "Ricardo Gareca", "out": ""},
         {"name": "Alberto José Marcico", "in": ""},
@@ -26664,8 +26664,8 @@
     "goals": [
       [{"name": "Miguel Prince", "min": "60", "type": "G"}],
       [
-        {"name": "Pedro Pablo Pasculli", "min": "43", "type": "G"},
-        {"name": "Pedro Pablo Pasculli", "min": "67", "type": "G"},
+        {"name": "Pedro Pasculli", "min": "43", "type": "G"},
+        {"name": "Pedro Pasculli", "min": "67", "type": "G"},
         {"name": "Jorge Burruchaga", "min": "86", "type": "G"}
       ]
     ],
@@ -26694,9 +26694,9 @@
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Marcelo Antonio Trobbiani", "out": ""},
+        {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Juan Barbas", "in": ""},
-        {"name": "Pedro Pablo Pasculli", "out": ""},
+        {"name": "Pedro Pasculli", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
         {"name": "M Busso"}
       ]
@@ -26727,7 +26727,7 @@
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Jorge Valdano"},
         {"name": "Miguel Angel Russo"}
       ],
@@ -26765,7 +26765,7 @@
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Jorge Valdano"},
         {"name": "Miguel Angel Russo", "out": ""},
         {"name": "Juan Barbas", "in": ""}
@@ -26824,7 +26824,7 @@
         {"name": "Diego Maradona"},
         {"name": "Jorge Valdano"},
         {"name": "Miguel Angel Russo", "out": ""},
-        {"name": "Pedro Pablo Pasculli", "in": ""}
+        {"name": "Pedro Pasculli", "in": ""}
       ]
     ]
   },
@@ -26837,7 +26837,7 @@
     "result": "D",
     "goals": [
       [
-        {"name": "Pedro Pablo Pasculli", "min": "10", "type": "G"},
+        {"name": "Pedro Pasculli", "min": "10", "type": "G"},
         {"name": "Ricardo Gareca", "min": "80", "type": "G"}
       ],
       [
@@ -26852,11 +26852,11 @@
         {"name": "Daniel Passarella"},
         {"name": "Enzo Trossero"},
         {"name": "Juan Barbas", "out": ""},
-        {"name": "Marcelo Antonio Trobbiani", "in": ""},
+        {"name": "Marcelo Trobbiani", "in": ""},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli"},
+        {"name": "Pedro Pasculli"},
         {"name": "Jorge Valdano"},
         {"name": "Julian José Camino", "out": ""},
         {"name": "Ricardo Gareca", "in": ""}
@@ -26901,7 +26901,7 @@
         {"name": "Claudio Borghi", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
         {"name": "Diego Maradona"},
-        {"name": "Pedro Pablo Pasculli", "out": ""},
+        {"name": "Pedro Pasculli", "out": ""},
         {"name": "Jorge Alberto Comas", "in": ""},
         {"name": "Miguel Angel Russo"}
       ],
@@ -26962,10 +26962,10 @@
         {"name": "Ricardo Bochini", "out": ""},
         {"name": "José Daniel Ponce", "in": ""},
         {"name": "Claudio Borghi", "out": ""},
-        {"name": "Pedro Pablo Pasculli", "in": ""},
+        {"name": "Pedro Pasculli", "in": ""},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Sergio Omar Almiron", "out": ""},
+        {"name": "Sergio Omar Almirón", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""}
       ]
     ]
@@ -27050,13 +27050,13 @@
         {"name": "Oscar Garré"},
         {"name": "Daniel Passarella"},
         {"name": "Sergio Batista", "out": "83"},
-        {"name": "Hector Aldolfo Enrique", "in": "83"},
+        {"name": "Héctor Enrique", "in": "83"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
-        {"name": "Marcelo Antonio Trobbiani", "out": "46"},
-        {"name": "Pedro Pablo Pasculli", "in": "46"},
-        {"name": "Sergio Omar Almiron"}
+        {"name": "Marcelo Trobbiani", "out": "46"},
+        {"name": "Pedro Pasculli", "in": "46"},
+        {"name": "Sergio Omar Almirón"}
       ]
     ]
   },
@@ -27073,11 +27073,11 @@
         {"name": "Uri Malmilian", "min": "49", "type": "G"}
       ],
       [
-        {"name": "Sergio Omar Almiron", "min": "5", "type": "G"},
+        {"name": "Sergio Omar Almirón", "min": "5", "type": "G"},
         {"name": "Diego Maradona", "min": "21", "type": "G"},
-        {"name": "Sergio Omar Almiron", "min": "57", "type": "G"},
+        {"name": "Sergio Omar Almirón", "min": "57", "type": "G"},
         {"name": "Claudio Borghi", "min": "58", "type": "G"},
-        {"name": "Sergio Omar Almiron", "min": "62", "type": "G"},
+        {"name": "Sergio Omar Almirón", "min": "62", "type": "G"},
         {"name": "Diego Maradona", "min": "69", "type": "G"},
         {"name": "Carlos Daniel Tapia", "min": "89", "type": "G"}
       ]
@@ -27108,13 +27108,13 @@
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista"},
         {"name": "Claudio Borghi", "out": "72"},
-        {"name": "Pedro Pablo Pasculli", "in": "72"},
+        {"name": "Pedro Pasculli", "in": "72"},
         {"name": "Jorge Burruchaga", "out": "65"},
-        {"name": "Hector Aldolfo Enrique", "in": "65"},
+        {"name": "Héctor Enrique", "in": "65"},
         {"name": "Ricardo Giusti", "out": "58"},
         {"name": "Carlos Daniel Tapia", "in": "58"},
         {"name": "Diego Maradona"},
-        {"name": "Sergio Omar Almiron"}
+        {"name": "Sergio Omar Almirón"}
       ]
     ]
   },
@@ -27684,7 +27684,7 @@
         {"name": "Roque Raul Alfaro", "out": "73"},
         {"name": "Oscar Alberto Dertycia", "in": "73"},
         {"name": "Juan Gilberto Funes", "out": "59"},
-        {"name": "Pedro Pablo Pasculli", "in": "59"},
+        {"name": "Pedro Pasculli", "in": "59"},
         {"name": "Dario Andrés Siviski", "out": "85"},
         {"name": "Claudio Caniggia", "in": "85"}
       ]
@@ -28652,7 +28652,7 @@
         {"name": "Pedro Monzon"},
         {"name": "Roberto Sensini", "out": "64"},
         {"name": "Fabián Basualdo", "in": "64"},
-        {"name": "Hector Aldolfo Enrique"},
+        {"name": "Héctor Enrique"},
         {"name": "Diego Maradona"},
         {"name": "Claudio Caniggia", "out": "54"},
         {"name": "Pedro Troglio", "in": "54"},
