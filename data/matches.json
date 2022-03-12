@@ -36669,22 +36669,22 @@
     ]
   },
   {
-    "date": "2002-04-17",
+    "date": "2002-04-16",
     "competition": "Friendly",
-    "venue": {"name": "Gottlieb Daimler, Stuttgart"},
+    "venue": {"name": "", "city": ""},
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Juan Pablo Sorin", "min": "47", "type": "G"}]],
+    "goals": [[], [{"name": "Juan Pablo Sorín", "min": "48", "type": "G"}]],
     "cards": [
       [
-        {"name": "Jens Jeremies", "type": "Y"},
-        {"name": "Michael Ballack", "type": "Y"}
+        {"name": "Jens Jeremies", "min": "", "type": "Y"},
+        {"name": "Michael Ballack", "min": "", "type": "Y"}
       ],
       [
-        {"name": "Walter Samuel", "type": "Y"},
-        {"name": "Pablo Aimar", "type": "Y"},
-        {"name": "Facundo Quiroga", "type": "Y"}
+        {"name": "Walter Samuel", "min": "", "type": "Y"},
+        {"name": "Facundo Quiroga", "min": "", "type": "Y"},
+        {"name": "Pablo Aimar", "min": "", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Rudi Voller"}, {"name": "Marcelo Bielsa"}],
@@ -36692,43 +36692,46 @@
       [
         {"name": "Jens Lehmann"},
         {"name": "Christoph Metzelder"},
+        {"name": "Jens Nowotny"},
         {"name": "Thomas Linke", "out": "46"},
         {"name": "Frank Baumann", "in": "46"},
-        {"name": "Jens Nowotny"},
-        {"name": "Michael Ballack"},
-        {"name": "Jorg Bohme", "out": "46"},
+        {"name": "Carsten Ramelow"},
+        {"name": "Jörg Böhme", "out": "46"},
         {"name": "Lars Ricken", "in": "46"},
-        {"name": "Torsten Frings", "out": "83"},
-        {"name": "Martin Max", "in": "83"},
         {"name": "Jens Jeremies", "out": "77"},
         {"name": "Sebastian Kehl", "in": "77"},
-        {"name": "Carsten Ramelow"},
+        {"name": "Michael Ballack"},
+        {"name": "Torsten Frings", "out": "83"},
+        {"name": "Martin Max", "in": "83"},
+        {"name": "Miroslav Klose"},
         {"name": "Oliver Bierhoff", "out": "70"},
-        {"name": "Carsten Jancker", "in": "70"},
-        {"name": "Miroslav Klose"}
+        {"name": "Carsten Jancker", "in": "70"}
       ],
       [
         {"name": "Pablo Cavallero"},
-        {"name": "Mauricio Pochettino"},
         {"name": "Facundo Quiroga"},
+        {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
-        {"name": "Pablo Aimar", "out": "31"},
-        {"name": "Marcelo Gallardo", "in": "31"},
+        {"name": "Javier Zanetti"},
+        {"name": "Juan Pablo Sorín"},
         {"name": "Matias Almeyda"},
+        {"name": "Pablo Aimar", "out": "31"},
+        {"name": "Marcelo Gallardo", "in": "31", "out": "62"},
+        {"name": "Santiago Solari", "in": "62"},
         {"name": "Kily González", "out": "89"},
         {"name": "Diego Placente", "in": "89"},
-        {"name": "Gustavo Lopez", "out": "77"},
+        {"name": "Gustavo Adrián López", "out": "77"},
         {"name": "Javier Saviola", "in": "77"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Javier Zanetti"},
-        {"name": "Claudio Lopez"}
+        {"name": "Claudio López"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2002-06-02",
+    "date": "2002-06-01",
     "competition": "World Cup",
-    "venue": {"name": "Kashima Soccer Stadium, Ibaraki"},
+    "round": "Group Stage",
+    "venue": {"name": "Kashima Soccer Stadium", "city": "Kashima"},
     "teams": [{"name": "Argentina"}, {"name": "Nigeria"}],
     "score": [1, 0],
     "result": "W",
@@ -36745,40 +36748,42 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Diego Placente"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "78"},
+        {"name": "Juan Sebastián Verón", "out": "78"},
         {"name": "Pablo Aimar", "in": "78"},
-        {"name": "Javier Zanetti"},
-        {"name": "Gabriel Batistuta", "out": "61"},
-        {"name": "Hernan Crespo", "in": "61"},
-        {"name": "Claudio Lopez", "out": "46"},
-        {"name": "Kily González", "in": "46"},
-        {"name": "Ariel Ortega"}
+        {"name": "Ariel Ortega"},
+        {"name": "Gabriel Batistuta", "out": "81"},
+        {"name": "Hernan Crespo", "in": "81"},
+        {"name": "Claudio López", "out": "46"},
+        {"name": "Kily González", "in": "46"}
       ],
       [
         {"name": "Ike Shorunmu"},
-        {"name": "Isaac Okoronkwo"},
+        {"name": "Celestine Babayaro"},
         {"name": "Efe Sodje", "out": "73"},
         {"name": "Justice Christopher", "in": "73"},
-        {"name": "Taribo West"},
+        {"name": "Isaac Okoronkwo"},
         {"name": "Joséph Yobo"},
-        {"name": "Celestine Babayaro"},
+        {"name": "Taribo West"},
         {"name": "Garba Lawal"},
         {"name": "Jay Jay Okocha"},
+        {"name": "Bart Ogbeche"},
         {"name": "Julius Aghahowa"},
         {"name": "Nwankwo Kanu", "out": "48"},
-        {"name": "Pius Ikedia", "in": "48"},
-        {"name": "Bart Ogbeche"}
+        {"name": "Pius Ikedia", "in": "48"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2002-06-07",
     "competition": "World Cup",
-    "venue": {"name": "Dome, Sapporo"},
+    "round": "Group Stage",
+    "venue": {"name": "Sapporo Dome", "city": "Sapporo"},
     "teams": [{"name": "Argentina"}, {"name": "England"}],
     "score": [0, 1],
     "result": "L",
@@ -36795,41 +36800,43 @@
       [
         {"name": "Pablo Cavallero"},
         {"name": "Diego Placente"},
+        {"name": "Juan Pablo Sorín"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
         {"name": "Kily González", "out": "64"},
-        {"name": "Claudio Lopez", "in": "64"},
+        {"name": "Claudio López", "in": "64"},
         {"name": "Diego Simeone"},
-        {"name": "Juan Pablo Sorin"},
-        {"name": "Juan Sebastian Veron", "out": "46"},
+        {"name": "Juan Sebastián Verón", "out": "46"},
         {"name": "Pablo Aimar", "in": "46"},
-        {"name": "Javier Zanetti"},
+        {"name": "Ariel Ortega"},
         {"name": "Gabriel Batistuta", "out": "60"},
-        {"name": "Hernan Crespo", "in": "60"},
-        {"name": "Ariel Ortega"}
+        {"name": "Hernan Crespo", "in": "60"}
       ],
       [
         {"name": "David Seaman"},
-        {"name": "Danny Mills"},
-        {"name": "Sol Campbell"},
-        {"name": "Rio Ferdinand"},
-        {"name": "Owen Hargreaves", "out": "10"},
-        {"name": "Trevor Sinclair", "in": "10"},
         {"name": "Ashley Cole"},
+        {"name": "Danny Mills"},
+        {"name": "Rio Ferdinand"},
+        {"name": "Sol Campbell"},
         {"name": "David Beckham"},
-        {"name": "Nicky Butt"},
+        {"name": "Owen Hargreaves", "out": "19"},
+        {"name": "Trevor Sinclair", "in": "19"},
         {"name": "Paul Scholes"},
+        {"name": "Nicky Butt"},
         {"name": "Emile Heskey", "out": "54"},
         {"name": "Teddy Sheringham", "in": "54"},
         {"name": "Michael Owen", "out": "80"},
         {"name": "Wayne Bridge", "in": "80"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
-    "date": "2002-06-12",
+    "date": "2002-06-11",
     "competition": "World Cup",
-    "venue": {"name": "Miyagi Stadium"},
+    "round": "Group Stage",
+    "venue": {"name": "Miyagi Stadium", "city": "Rifu"},
     "teams": [{"name": "Sweden"}, {"name": "Argentina"}],
     "score": [1, 1],
     "result": "D",
@@ -36839,7 +36846,7 @@
     ],
     "cards": [
       [
-        {"name": "Magnus Svensson", "min": "68", "type": "Y"},
+        {"name": "Magnus Svensson", "min": "65", "type": "Y"},
         {"name": "Henrik Larsson", "min": "78", "type": "Y"}
       ],
       [
@@ -36853,36 +36860,37 @@
       [
         {"name": "Magnus Hedman"},
         {"name": "Andreas Jakobsson"},
-        {"name": "Teddy Lucic"},
+        {"name": "Johan Mjällby"},
         {"name": "Olof Mellberg"},
-        {"name": "Johan Mjallby"},
-        {"name": "Niclas Alexandersson"},
-        {"name": "Tobias Linderoth"},
+        {"name": "Teddy Lučić"},
         {"name": "Anders Svensson", "out": "68"},
         {"name": "Mattias Jonson", "in": "68"},
         {"name": "Magnus Svensson"},
-        {"name": "Marcus Allback", "out": "46"},
-        {"name": "Andreas Andersson", "in": "46"},
+        {"name": "Niclas Alexandersson"},
+        {"name": "Tobias Linderoth"},
         {"name": "Henrik Larsson", "out": "88"},
-        {"name": "Zlatan Ibrahimović", "in": "88"}
+        {"name": "Zlatan Ibrahimović", "in": "88"},
+        {"name": "Marcus Allbäck", "out": "46"},
+        {"name": "Andreas Andersson", "in": "46"}
       ],
       [
         {"name": "Pablo Cavallero"},
         {"name": "José Chamot"},
+        {"name": "Juan Pablo Sorín", "out": "63"},
+        {"name": "Kily González", "in": "63"},
+        {"name": "Javier Zanetti"},
         {"name": "Mauricio Pochettino"},
         {"name": "Walter Samuel"},
-        {"name": "Pablo Aimar"},
         {"name": "Matias Almeyda", "out": "63"},
-        {"name": "Kily González", "in": "63"},
-        {"name": "Juan Pablo Sorin", "out": "63"},
-        {"name": "Juan Sebastian Veron", "in": "63"},
-        {"name": "Javier Zanetti"},
+        {"name": "Juan Sebastián Verón", "in": "63"},
+        {"name": "Pablo Aimar"},
+        {"name": "Ariel Ortega"},
+        {"name": "Claudio López"},
         {"name": "Gabriel Batistuta", "out": "58"},
-        {"name": "Hernan Crespo", "in": "58"},
-        {"name": "Claudio Lopez"},
-        {"name": "Ariel Ortega"}
+        {"name": "Hernan Crespo", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "2002-11-20",
