@@ -7124,9 +7124,9 @@
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Arcadio Julio Lopez"},
+        {"name": "Arcadio López"},
         {"name": "Luis Monti"},
-        {"name": "Alfredo Ciriaco de Vicenzi"},
+        {"name": "Alfredo Devincenzi"},
         {"name": "Attilio Demaría"},
         {"name": "Carlos Spadaro"},
         {"name": "Alfredo D Caricaberry"},
@@ -7169,9 +7169,9 @@
     "lineups": [
       [
         {"name": "Humberto Recanatini"},
-        {"name": "Arcadio Julio Lopez"},
+        {"name": "Arcadio López"},
         {"name": "Attilio Demaría"},
-        {"name": "Alfredo Ciriaco de Vicenzi"},
+        {"name": "Alfredo Devincenzi"},
         {"name": "Alfredo D Caricaberry"},
         {"name": "Emilio Castro"},
         {"name": "Rodolfo De Jonge"},
@@ -7507,7 +7507,8 @@
   {
     "date": "1934-05-27",
     "competition": "World Cup",
-    "venue": {"name": "Littoriale, Bologna"},
+    "round": "Round of 16",
+    "venue": {"name": "Stadio Renato Dall'Ara", "city": "Bologna"},
     "teams": [{"name": "Sweden"}, {"name": "Argentina"}],
     "score": [3, 2],
     "result": "L",
@@ -7515,42 +7516,44 @@
       [
         {"name": "Sven Jonasson", "min": "9", "type": "G"},
         {"name": "Sven Jonasson", "min": "67", "type": "G"},
-        {"name": "Knut Kroon", "min": "80", "type": "G"}
+        {"name": "Knut Kroon", "min": "79", "type": "G"}
       ],
       [
-        {"name": "Ernesto Antonio Bellis", "min": "4", "type": "G"},
-        {"name": "Alberto Galateo", "min": "49", "type": "G"}
+        {"name": "Ernesto Belis", "min": "4", "type": "G"},
+        {"name": "Alberto Galateo", "min": "48", "type": "G"}
       ]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Jozsef Nagy"}, {"name": "Felipe Pascucci"}],
     "lineups": [
       [
         {"name": "Anders Rydberg"},
-        {"name": "Sven Andersson"},
         {"name": "Nils Axelsson"},
+        {"name": "Sven Andersson"},
         {"name": "Ernst Andersson"},
+        {"name": "Nils Rosén"},
         {"name": "Rune Carlsson"},
-        {"name": "Nils Rosen"},
         {"name": "Gosta Dunker"},
+        {"name": "Knut Kroon"},
         {"name": "Ragnar Gustavsson"},
         {"name": "Sven Jonasson"},
-        {"name": "Tore Keller"},
-        {"name": "Knut Kroon"}
+        {"name": "Tore Keller"}
       ],
       [
-        {"name": "Hector Freschi"},
-        {"name": "Ernesto Antonio Bellis"},
-        {"name": "Juan Carlos Pedevilla"},
-        {"name": "Arcadio Julio Lopez"},
-        {"name": "José Nehin"},
+        {"name": "Héctor Freschi"},
+        {"name": "Ernesto Belis"},
+        {"name": "Juan Pedevilla"},
+        {"name": "Arcadio López"},
         {"name": "Constantino Urbieta Sosa"},
-        {"name": "Alfredo Ciriaco de Vicenzi"},
+        {"name": "José Nehin"},
+        {"name": "Alfredo Devincenzi"},
         {"name": "Alberto Galateo"},
-        {"name": "Roberto Luis Irañeta"},
         {"name": "Francisco Rúa"},
-        {"name": "Federico Wilde"}
+        {"name": "Federico Wilde"},
+        {"name": "Roberto Irañeta"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1934-07-18",
@@ -7892,7 +7895,7 @@
     "goals": [[{"name": "Alberto Zozaya", "min": "71", "type": "G"}], []],
     "lineups": [
       [
-        {"name": "Arcadio Julio Lopez"},
+        {"name": "Arcadio López"},
         {"name": "Antonio Sastre"},
         {"name": "Sabino Coletta"},
         {"name": "Juan Alberto Estrada"},
@@ -8453,7 +8456,7 @@
       ],
       [
         {"name": "Sebastian Inocencio Gualco"},
-        {"name": "Arcadio Julio Lopez"},
+        {"name": "Arcadio López"},
         {"name": "Antonio Sastre"},
         {"name": "Herminio Masantonio"},
         {"name": "Carlos Peucelle"},
@@ -8501,7 +8504,7 @@
       ],
       [
         {"name": "Sebastian Inocencio Gualco"},
-        {"name": "Arcadio Julio Lopez"},
+        {"name": "Arcadio López"},
         {"name": "Antonio Sastre"},
         {"name": "Herminio Masantonio"},
         {"name": "Carlos Peucelle"},
