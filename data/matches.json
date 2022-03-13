@@ -17101,7 +17101,7 @@
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
         {"name": "Ermindo Onega"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Angel Rojas"},
         {"name": "Raul Emilio Bernao"},
         {"name": "B Vicente De La Mata"},
@@ -17134,7 +17134,7 @@
     "result": "D",
     "goals": [
       [{"name": "Leonel Sanchez", "type": "G"}],
-      [{"name": "Oscar Mas", "type": "G"}]
+      [{"name": "Oscar Más", "type": "G"}]
     ],
     "lineups": [
       [
@@ -17163,7 +17163,7 @@
         {"name": "Alberto Rendo", "out": ""},
         {"name": "B Vicente De La Mata", "in": ""},
         {"name": "Luis Artime"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Raul Emilio Bernao"},
         {"name": "José Bernabe Leonardi"},
         {"name": "José Agustin Messiano"}
@@ -17194,7 +17194,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Ermindo Onega"},
         {"name": "Luis Artime"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Raul Emilio Bernao"},
         {"name": "B Vicente De La Mata"},
         {"name": "José Bernabe Leonardi"}
@@ -17245,7 +17245,7 @@
         {"name": "Ermindo Onega"},
         {"name": "José Varacka"},
         {"name": "Luis Artime"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "B Vicente De La Mata"},
         {"name": "José Bernabe Leonardi"}
       ]
@@ -17275,7 +17275,7 @@
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
         {"name": "Ermindo Onega"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Angel Rojas"},
         {"name": "Raul Emilio Bernao"},
         {"name": "Hector Rodolfo Veira"},
@@ -17334,7 +17334,7 @@
         {"name": "Ermindo Onega"},
         {"name": "José Varacka"},
         {"name": "Luis Artime"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "José Bernabe Leonardi"}
       ]
     ]
@@ -17361,7 +17361,7 @@
         {"name": "Oscar Antonio Pianetti", "in": ""},
         {"name": "Ermindo Onega"},
         {"name": "Alberto González"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Juan Carlos Lallana"},
         {"name": "Oscar Miguel Malbernat"}
       ],
@@ -17390,7 +17390,7 @@
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Oscar Mas", "min": "10", "type": "G"}],
+      [{"name": "Oscar Más", "min": "10", "type": "G"}],
       [{"name": "Jan Liberda", "min": "49", "type": "G"}]
     ],
     "coaches": [
@@ -17406,7 +17406,7 @@
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
         {"name": "Ermindo Onega"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Daniel Onega", "out": "60"},
         {"name": "Anibal Roberto Tarabini", "in": "60"},
         {"name": "Angel Rojas"},
@@ -17480,8 +17480,8 @@
         {"name": "Silvio Marzolini"},
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
-        {"name": "Jorge Raul Solari"},
-        {"name": "Oscar Mas"},
+        {"name": "Jorge Solari"},
+        {"name": "Oscar Más"},
         {"name": "Daniel Onega", "out": "49"},
         {"name": "Angel Rojas", "in": "49"},
         {"name": "Mario Roberto Chaldu"},
@@ -17505,172 +17505,194 @@
   {
     "date": "1966-07-13",
     "competition": "World Cup",
-    "venue": {"name": "Villa Park"},
+    "round": "Group Stage",
+    "venue": {"name": "Villa Park", "city": "Birmingham"},
     "teams": [{"name": "Argentina"}, {"name": "Spain"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Luis Artime", "min": "65", "type": "G"},
+        {"name": "Luis Artime", "min": "66", "type": "G"},
         {"name": "Luis Artime", "min": "79", "type": "G"}
       ],
-      [{"name": "Pirri", "min": "67", "type": "G"}]
+      [{"name": "Pirri", "min": "72", "type": "G"}]
+    ],
+    "cards": [
+      [{"name": "Jorge Solari", "min": "68", "type": "Y"}],
+      [{"name": "Luis Suarez", "min": "26", "type": "Y"}]
     ],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "José Villalonga"}],
     "lineups": [
       [
         {"name": "Antonio Roma"},
+        {"name": "Roberto Perfumo"},
         {"name": "Roberto Ferreiro"},
         {"name": "Silvio Marzolini"},
-        {"name": "Roberto Perfumo"},
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
+        {"name": "Alberto Mario González"},
         {"name": "Ermindo Onega"},
-        {"name": "Jorge Raul Solari"},
+        {"name": "Jorge Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto González"},
-        {"name": "Oscar Mas"}
+        {"name": "Oscar Más"}
       ],
       [
         {"name": "Iribar"},
-        {"name": "Gallego"},
-        {"name": "Sanchis"},
         {"name": "Eladio Silvestre"},
-        {"name": "Luis Del Sol"},
+        {"name": "Sanchis"},
+        {"name": "Gallego"},
         {"name": "Francisco Gento"},
-        {"name": "Pirri"},
-        {"name": "José Ufarte"},
-        {"name": "Zoco"},
+        {"name": "Luis Del Sol"},
         {"name": "Luis Suarez"},
+        {"name": "Pirri"},
+        {"name": "Zoco"},
+        {"name": "José Ufarte"},
         {"name": "Joaquin Peiro"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1966-07-16",
     "competition": "World Cup",
-    "venue": {"name": "Villa Park"},
-    "teams": [{"name": "Argentina"}, {"name": "Germany"}],
+    "round": "Group Stage",
+    "venue": {"name": "Villa Park", "city": "Birmingham"},
+    "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
     "cards": [
-      [{"name": "Rafael Albrecht", "min": "65", "type": "R"}],
-      [{"name": "Franz Beckenbauer", "min": "1", "type": "Y"}]
+      [{"name": "Franz Beckenbauer", "min": "48", "type": "Y"}],
+      [{"name": "Rafael Albrecht", "min": "66", "type": "R"}]
     ],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Helmut Schon"}],
     "lineups": [
-      [
-        {"name": "Antonio Roma"},
-        {"name": "Roberto Ferreiro"},
-        {"name": "Silvio Marzolini"},
-        {"name": "Roberto Perfumo"},
-        {"name": "Antonio Rattin"},
-        {"name": "Rafael Albrecht"},
-        {"name": "Ermindo Onega"},
-        {"name": "Jorge Raul Solari"},
-        {"name": "Luis Artime"},
-        {"name": "Alberto González"},
-        {"name": "Oscar Mas"}
-      ],
       [
         {"name": "Hans Tilkowski"},
         {"name": "Franz Beckenbauer"},
         {"name": "Horst-Dieter Hottges"},
         {"name": "Karl Heinz Schnellinger"},
-        {"name": "Wolfgang Weber"},
         {"name": "Willi Schulz"},
+        {"name": "Wolfgang Weber"},
         {"name": "Albert Brulls"},
-        {"name": "Wolfgang Overath"},
         {"name": "Helmut Haller"},
+        {"name": "Wolfgang Overath"},
         {"name": "Sigi Held"},
         {"name": "Uwe Seeler"}
+      ],
+      [
+        {"name": "Antonio Roma"},
+        {"name": "Roberto Perfumo"},
+        {"name": "Roberto Ferreiro"},
+        {"name": "Silvio Marzolini"},
+        {"name": "Antonio Rattin"},
+        {"name": "Rafael Albrecht"},
+        {"name": "Alberto Mario González"},
+        {"name": "Ermindo Onega"},
+        {"name": "Jorge Solari"},
+        {"name": "Luis Artime"},
+        {"name": "Oscar Más"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1966-07-19",
     "competition": "World Cup",
-    "venue": {"name": "Hillsborough"},
+    "round": "Group Stage",
+    "venue": {"name": "Hillsborough", "city": "Sheffield"},
     "teams": [{"name": "Argentina"}, {"name": "Switzerland"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Luis Artime", "min": "52", "type": "G"},
-        {"name": "Ermindo Onega", "min": "81", "type": "G"}
+        {"name": "Ermindo Onega", "min": "80", "type": "G"}
       ],
       []
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Dr Alfredo Foni"}],
     "lineups": [
       [
         {"name": "Antonio Roma"},
+        {"name": "Oscar Calics"},
+        {"name": "Roberto Perfumo"},
         {"name": "Roberto Ferreiro"},
         {"name": "Silvio Marzolini"},
-        {"name": "Roberto Perfumo"},
         {"name": "Antonio Rattin"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Alberto Mario González"},
         {"name": "Ermindo Onega"},
-        {"name": "Jorge Raul Solari"},
+        {"name": "Jorge Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto González"},
-        {"name": "Oscar Mas"}
+        {"name": "Oscar Más"}
       ],
       [
         {"name": "Leo Eichmann"},
+        {"name": "Hansruedi Fuhrer"},
         {"name": "Kurt Armbruster"},
         {"name": "Rene Brodmann"},
-        {"name": "Heinz Bani"},
-        {"name": "Hansruedi Fuhrer"},
-        {"name": "Vittore Gottardi"},
         {"name": "Xavier Stierli"},
-        {"name": "Robert Hosp"},
+        {"name": "Heinz Bani"},
         {"name": "Kobi Kuhn"},
         {"name": "Fritz Kunzli"},
-        {"name": "Rene-Pierre Quentin"}
+        {"name": "Robert Hosp"},
+        {"name": "Rene-Pierre Quentin"},
+        {"name": "Vittore Gottardi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1966-07-23",
     "competition": "World Cup",
-    "venue": {"name": "Wembley Stadium, London"},
+    "round": "Quarter-finals",
+    "venue": {"name": "Wembley Stadium (old)", "city": "London"},
     "teams": [{"name": "England"}, {"name": "Argentina"}],
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Geoff Hurst", "min": "77", "type": "G"}], []],
-    "cards": [[], [{"name": "Antonio Rattin", "min": "36", "type": "R"}]],
+    "cards": [
+      [],
+      [
+        {"name": "Jorge Solari", "min": "24", "type": "Y"},
+        {"name": "Antonio Rattin", "min": "36", "type": "Y"},
+        {"name": "Antonio Rattin", "min": "36", "type": "Y"},
+        {"name": "Antonio Rattin", "min": "36", "type": "R"},
+        {"name": "Luis Artime", "min": "45", "type": "Y"},
+        {"name": "Oscar Más", "min": "89", "type": "Y"}
+      ]
+    ],
     "coaches": [{"name": "Alfred Ramsey"}, {"name": "Juan Carlos Lorenzo"}],
     "lineups": [
       [
         {"name": "Gordon Banks"},
-        {"name": "Jack Charlton"},
-        {"name": "George Cohen"},
         {"name": "Bobby Moore"},
+        {"name": "George Cohen"},
+        {"name": "Jack Charlton"},
         {"name": "Ray Wilson"},
         {"name": "Alan Ball"},
         {"name": "Martin Peters"},
         {"name": "Nobby Stiles"},
         {"name": "Bobby Charlton"},
-        {"name": "Roger Hunt"},
-        {"name": "Geoff Hurst"}
+        {"name": "Geoff Hurst"},
+        {"name": "Roger Hunt"}
       ],
       [
         {"name": "Antonio Roma"},
+        {"name": "Roberto Perfumo"},
         {"name": "Roberto Ferreiro"},
         {"name": "Silvio Marzolini"},
-        {"name": "Roberto Perfumo"},
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
+        {"name": "Alberto Mario González"},
         {"name": "Ermindo Onega"},
-        {"name": "Jorge Raul Solari"},
+        {"name": "Jorge Solari"},
         {"name": "Luis Artime"},
-        {"name": "Alberto González"},
-        {"name": "Oscar Mas"}
+        {"name": "Oscar Más"}
       ]
     ],
-    "info": {"youtube": [{"id": "FbCuTGF29Qw"}]}
+    "sources": ["Golazon"]
   },
   {
     "date": "1967-01-18",
@@ -17681,7 +17703,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oscar Mas", "type": "G"},
+        {"name": "Oscar Más", "type": "G"},
         {"name": "Rafael Albrecht", "type": "P"},
         {"name": "Luis Artime", "type": "G"},
         {"name": "Raul Emilio Bernao", "type": "G"}
@@ -17693,9 +17715,9 @@
         {"name": "Antonio Roma"},
         {"name": "Silvio Marzolini"},
         {"name": "Rafael Albrecht"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Oscar Calics"},
         {"name": "Luis Artime"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Norberto Raffo"},
         {"name": "Angel Rojas"},
         {"name": "David Acevedo"},
@@ -17733,10 +17755,10 @@
         {"name": "Antonio Roma"},
         {"name": "Silvio Marzolini"},
         {"name": "Rafael Albrecht"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Oscar Calics"},
         {"name": "Luis Artime"},
         {"name": "Alberto González"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Angel Rojas", "out": ""},
         {"name": "Hector Rodolfo Veira", "in": ""},
         {"name": "David Acevedo"},
@@ -17778,7 +17800,7 @@
         {"name": "Antonio Roma"},
         {"name": "Silvio Marzolini"},
         {"name": "Rafael Albrecht"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Oscar Calics"},
         {"name": "Luis Artime"},
         {"name": "Alberto González"},
         {"name": "David Acevedo", "out": ""},
@@ -17826,10 +17848,10 @@
         {"name": "Antonio Roma"},
         {"name": "Silvio Marzolini"},
         {"name": "Rafael Albrecht"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Oscar Calics"},
         {"name": "Luis Artime"},
         {"name": "Alberto González"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "David Acevedo"},
         {"name": "Raul Emilio Bernao"},
         {"name": "Iselin Santos Ovejero", "out": ""},
@@ -17882,10 +17904,10 @@
         {"name": "Silvio Marzolini"},
         {"name": "Antonio Rattin"},
         {"name": "Rafael Albrecht"},
-        {"name": "Oscar Osvaldo Calics"},
+        {"name": "Oscar Calics"},
         {"name": "Luis Artime"},
         {"name": "Alberto González"},
-        {"name": "Oscar Mas", "out": ""},
+        {"name": "Oscar Más", "out": ""},
         {"name": "Juan Carlos Carone", "in": ""},
         {"name": "David Acevedo"},
         {"name": "Raul Emilio Bernao", "out": ""},
@@ -18015,7 +18037,7 @@
         {"name": "Rafael Albrecht"},
         {"name": "Ermindo Onega", "out": ""},
         {"name": "Juan Miguel Etchecopar", "in": ""},
-        {"name": "Jorge Raul Solari", "out": ""},
+        {"name": "Jorge Solari", "out": ""},
         {"name": "Carlos Oscar Pachame", "in": ""},
         {"name": "Rodolfo Fischer"},
         {"name": "Hugo Orlando Gatti"},
@@ -18116,7 +18138,7 @@
         {"name": "Alberto Rendo"},
         {"name": "Daniel Willington"},
         {"name": "Roque Avallay", "out": ""},
-        {"name": "Oscar Mas", "in": ""},
+        {"name": "Oscar Más", "in": ""},
         {"name": "Rodolfo Fischer"},
         {"name": "Carlos Alberto Buttice"},
         {"name": "Luis Gregorio Gallo"},
@@ -18273,9 +18295,9 @@
       [
         {"name": "Roberto Perfumo"},
         {"name": "Alberto Rendo"},
-        {"name": "Jorge Raul Solari", "out": ""},
+        {"name": "Jorge Solari", "out": ""},
         {"name": "Raul Armando Savoy", "in": ""},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Hector Yazalde"},
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Alfio Basile"},
@@ -18324,7 +18346,7 @@
       [
         {"name": "Roberto Perfumo"},
         {"name": "Alberto Rendo"},
-        {"name": "Jorge Raul Solari"},
+        {"name": "Jorge Solari"},
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Cesar Luis Menotti", "in": ""},
         {"name": "Hector Yazalde"},
@@ -18384,7 +18406,7 @@
         {"name": "Lopez"},
         {"name": "Hector Salvador Minitti"},
         {"name": "Hector Alberto Ostua", "out": ""},
-        {"name": "Jorge Raul Solari", "in": ""},
+        {"name": "Jorge Solari", "in": ""},
         {"name": "Raul Armando Savoy"}
       ]
     ]
@@ -18422,7 +18444,7 @@
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
         {"name": "Alberto Rendo", "out": ""},
-        {"name": "Jorge Raul Solari", "in": ""},
+        {"name": "Jorge Solari", "in": ""},
         {"name": "Rodolfo Fischer"},
         {"name": "Hector Yazalde", "out": ""},
         {"name": "Angel Manuel Silva", "in": ""},
@@ -18432,7 +18454,7 @@
         {"name": "Hector Salvador Minitti"},
         {"name": "Raul Armando Savoy"},
         {"name": "Carlos José Veglio", "out": ""},
-        {"name": "Oscar Mas", "in": ""}
+        {"name": "Oscar Más", "in": ""}
       ]
     ]
   },
@@ -18590,7 +18612,7 @@
       [
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Roberto Marcelo Salomone", "in": ""},
-        {"name": "Oscar Mas", "out": ""},
+        {"name": "Oscar Más", "out": ""},
         {"name": "Carlos José Veglio", "in": ""},
         {"name": "Hector Yazalde"},
         {"name": "Roberto Rodolfo Aguirre"},
@@ -18914,7 +18936,7 @@
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
         {"name": "Rubén Suñé"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Daniel Onega"},
         {"name": "Hector Yazalde"},
         {"name": "Raul Emilio Bernao"},
@@ -18997,7 +19019,7 @@
       [],
       [
         {"name": "Marcos Norberto Conigliaro", "type": "P"},
-        {"name": "Oscar Mas", "type": "G"}
+        {"name": "Oscar Más", "type": "G"}
       ]
     ],
     "lineups": [
@@ -19021,7 +19043,7 @@
         {"name": "Norberto Madurga"},
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Agustin Mario Cejas"},
         {"name": "Marcos Norberto Conigliaro"},
         {"name": "Oscar Miguel Malbernat"},
@@ -19063,7 +19085,7 @@
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Daniel Onega", "in": ""},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Agustin Mario Cejas", "out": ""},
         {"name": "Miguel Santoro", "in": ""},
         {"name": "Marcos Norberto Conigliaro"},
@@ -19082,7 +19104,7 @@
     "goals": [
       [
         {"name": "Marcos Norberto Conigliaro", "type": "G"},
-        {"name": "Oscar Mas", "type": "G"}
+        {"name": "Oscar Más", "type": "G"}
       ],
       [{"name": "Oscar Zubia", "type": "G"}]
     ],
@@ -19094,7 +19116,7 @@
         {"name": "Norberto Madurga"},
         {"name": "Miguel Angel Raimondo"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Agustin Mario Cejas"},
         {"name": "Marcos Norberto Conigliaro"},
         {"name": "Oscar Miguel Malbernat"},
@@ -19127,7 +19149,7 @@
         {"name": "Luis Alberto Cubilla", "type": "G"},
         {"name": "Pedro Virgilio Rocha", "type": "G"}
       ],
-      [{"name": "Oscar Mas", "type": "G"}]
+      [{"name": "Oscar Más", "type": "G"}]
     ],
     "lineups": [
       [
@@ -19154,7 +19176,7 @@
         {"name": "Miguel Angel Raimondo", "out": ""},
         {"name": "Ángel Marcos", "in": ""},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Agustin Mario Cejas"},
         {"name": "Marcos Norberto Conigliaro"},
         {"name": "Oscar Miguel Malbernat"},
@@ -19345,7 +19367,7 @@
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer"},
         {"name": "Ángel Marcos"},
-        {"name": "Oscar Mas", "out": ""},
+        {"name": "Oscar Más", "out": ""},
         {"name": "Carlos Bianchi", "in": ""},
         {"name": "Daniel Onega"},
         {"name": "Jorge Eduardo Dominichi"},
@@ -19371,7 +19393,7 @@
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Carlos Bianchi", "in": ""},
         {"name": "Ángel Marcos"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Daniel Onega", "out": ""},
         {"name": "Norberto Madurga", "in": ""},
         {"name": "Angel Antonio Landucci"},
@@ -19453,7 +19475,7 @@
         {"name": "Ruben Ayala"},
         {"name": "Carlos Bianchi", "out": ""},
         {"name": "Rodolfo Fischer", "in": ""},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Jorge Eduardo Dominichi"},
         {"name": "Angel Antonio Landucci"},
         {"name": "Ricardo Nestor Rezza"},
@@ -19728,7 +19750,7 @@
         {"name": "Osvaldo Piazza"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Daniel Onega", "out": ""},
         {"name": "Carlos Alberto Colman", "in": ""},
         {"name": "Ramon Cesar Boveda", "out": ""},
@@ -19753,8 +19775,8 @@
         {"name": "Francisco Valdes", "type": "G"}
       ],
       [
-        {"name": "Oscar Mas", "type": "G"},
-        {"name": "Oscar Mas", "type": "G"},
+        {"name": "Oscar Más", "type": "G"},
+        {"name": "Oscar Más", "type": "G"},
         {"name": "Miguel Angel Raimondo", "type": "G"},
         {"name": "Ernesto Mastrangelo", "type": "G"}
       ]
@@ -19786,7 +19808,7 @@
         {"name": "Miguel Angel Raimondo"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Ernesto Mastrangelo"},
         {"name": "Jorge Eduardo Dominichi"}
       ]
@@ -19811,7 +19833,7 @@
         {"name": "Miguel Angel Raimondo"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas", "out": "72"},
+        {"name": "Oscar Más", "out": "72"},
         {"name": "Miguel Ángel Brindisi", "in": "72"},
         {"name": "Ernesto Mastrangelo"},
         {"name": "Jorge Eduardo Dominichi", "out": "46"},
@@ -19841,9 +19863,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oscar Mas", "min": "12", "type": "G"},
+        {"name": "Oscar Más", "min": "12", "type": "G"},
         {"name": "Rodolfo Fischer", "min": "26", "type": "G"},
-        {"name": "Oscar Mas", "min": "65", "type": "G"},
+        {"name": "Oscar Más", "min": "65", "type": "G"},
         {"name": "Rodolfo Fischer", "min": "68", "type": "G"},
         {"name": "Carlos Bianchi", "min": "70", "type": "G"},
         {"name": "Rodolfo Fischer", "min": "81", "type": "G"},
@@ -19866,7 +19888,7 @@
         {"name": "Miguel Ángel Brindisi", "in": "63"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Ernesto Mastrangelo", "out": "46"},
         {"name": "Carlos Bianchi", "in": "46"},
         {"name": "Osvaldo Pazza"}
@@ -19914,7 +19936,7 @@
         {"name": "Carlos Bianchi"},
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Ernesto Mastrangelo", "in": ""},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Angel Hugo Vargas"}
       ],
       [
@@ -19956,7 +19978,7 @@
         {"name": "Carlos Bianchi", "out": ""},
         {"name": "Ernesto Mastrangelo", "in": ""},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"}
+        {"name": "Oscar Más"}
       ],
       [
         {"name": "Georges Carnus"},
@@ -20015,7 +20037,7 @@
         {"name": "Alejandro Semenewicz"},
         {"name": "Carlos Bianchi"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas", "out": ""},
+        {"name": "Oscar Más", "out": ""},
         {"name": "Ernesto Mastrangelo", "in": ""},
         {"name": "V Lopez"}
       ]
@@ -20042,7 +20064,7 @@
         {"name": "Miguel Ángel Brindisi", "in": ""},
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Ernesto Mastrangelo"}
       ],
       [
@@ -20069,7 +20091,7 @@
     "teams": [{"name": "Argentina"}, {"name": "Uruguay"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Oscar Mas", "type": "G"}], []],
+    "goals": [[{"name": "Oscar Más", "type": "G"}], []],
     "lineups": [
       [
         {"name": "Miguel Santoro"},
@@ -20083,7 +20105,7 @@
         {"name": "Alejandro Semenewicz"},
         {"name": "Rodolfo Fischer", "out": ""},
         {"name": "Roque Avallay", "in": ""},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Ernesto Mastrangelo"}
       ],
       [
@@ -20149,7 +20171,7 @@
         {"name": "Miguel Ángel Brindisi", "in": ""},
         {"name": "Alejandro Semenewicz"},
         {"name": "Roque Avallay"},
-        {"name": "Oscar Mas"},
+        {"name": "Oscar Más"},
         {"name": "Ernesto Mastrangelo"},
         {"name": "Jorge Eduardo Dominichi"}
       ]
