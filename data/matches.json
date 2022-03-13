@@ -19340,7 +19340,7 @@
       ],
       [
         {"name": "José Miguel Marin"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer"},
@@ -19365,7 +19365,7 @@
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "José Omar Pastoriza"},
         {"name": "Rodolfo Fischer", "out": ""},
@@ -19503,7 +19503,7 @@
         {"name": "Walter Pisano"}
       ],
       [
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
@@ -19553,8 +19553,8 @@
         {"name": "Gustavo Viveros"}
       ],
       [
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
@@ -19582,8 +19582,8 @@
     "coaches": [null, {"name": "Mario Jorge Lobo Zagallo"}],
     "lineups": [
       [
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
@@ -19631,8 +19631,8 @@
     "coaches": [null, {"name": "Mario Jorge Lobo Zagallo"}],
     "lineups": [
       [
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga", "out": ""},
@@ -19670,8 +19670,8 @@
     "goals": [[{"name": "Rodolfo Fischer", "type": "G"}], []],
     "lineups": [
       [
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "César Laraignée"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Norberto Madurga"},
@@ -19723,7 +19723,7 @@
         {"name": "Evelio Villalba"}
       ],
       [
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza"},
         {"name": "Miguel Ángel Brindisi"},
@@ -19778,10 +19778,10 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza", "out": ""},
-        {"name": "Ramon Heredia", "in": ""},
+        {"name": "Ramón Heredia", "in": ""},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Miguel Angel Raimondo"},
         {"name": "Alejandro Semenewicz"},
@@ -19804,7 +19804,7 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza"},
         {"name": "José Omar Pastoriza"},
@@ -19858,7 +19858,7 @@
     "lineups": [
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Enrique Wolff"},
         {"name": "José Omar Pastoriza"},
@@ -19905,7 +19905,7 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "Osvaldo Piazza"},
         {"name": "Enrique Wolff"},
         {"name": "Miguel Ángel Brindisi"},
@@ -19946,7 +19946,7 @@
     "lineups": [
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
         {"name": "Osvaldo Piazza"},
         {"name": "Enrique Wolff"},
@@ -20007,8 +20007,8 @@
       ],
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
@@ -20032,8 +20032,8 @@
     "lineups": [
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Osvaldo Piazza"},
         {"name": "Enrique Wolff", "out": ""},
         {"name": "Jorge Eduardo Dominichi", "in": ""},
@@ -20073,8 +20073,8 @@
     "lineups": [
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Osvaldo Piazza"},
         {"name": "Enrique Wolff", "out": ""},
         {"name": "Jorge Eduardo Dominichi", "in": ""},
@@ -20140,8 +20140,8 @@
       ],
       [
         {"name": "Miguel Santoro"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia", "out": ""},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia", "out": ""},
         {"name": "Ruben Diaz", "in": ""},
         {"name": "Osvaldo Piazza"},
         {"name": "José Omar Pastoriza"},
@@ -20172,8 +20172,8 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
@@ -20227,8 +20227,8 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
@@ -20264,7 +20264,7 @@
         {"name": "Ramon Mifflin", "out": ""},
         {"name": "Alfredo Quesada", "in": ""},
         {"name": "Teófilo Cubillas"},
-        {"name": "Juan José Munante"},
+        {"name": "Juan José Muñante"},
         {"name": "Hugo Sotil"},
         {"name": "Carlos Burela"},
         {"name": "Julio Luna"},
@@ -20274,8 +20274,8 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
@@ -20311,9 +20311,9 @@
       [
         {"name": "Daniel Carnevale", "out": ""},
         {"name": "Miguel Santoro", "in": ""},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Diaz"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
@@ -20369,12 +20369,12 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
         {"name": "José-Luis Ghisso", "in": ""},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta", "out": ""},
+        {"name": "Enrique Chazarreta", "out": ""},
         {"name": "Carlos Babington", "in": ""},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay", "out": ""},
@@ -20426,12 +20426,12 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta"},
+        {"name": "Enrique Chazarreta"},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay"},
         {"name": "José-Luis Ghisso"},
@@ -20448,7 +20448,7 @@
     "result": "D",
     "goals": [
       [{"name": "Itzhak Shum", "min": "31", "type": "G"}],
-      [{"name": "Ramon Heredia", "min": "36", "type": "G"}]
+      [{"name": "Ramón Heredia", "min": "36", "type": "G"}]
     ],
     "lineups": [
       [
@@ -20467,11 +20467,11 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta"},
+        {"name": "Enrique Chazarreta"},
         {"name": "Roberto Telch"},
         {"name": "Roque Avallay"},
         {"name": "Jorge Busso"},
@@ -20589,11 +20589,11 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
-        {"name": "Enrique Chazaretta", "in": ""},
+        {"name": "Enrique Chazarreta", "in": ""},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
@@ -20653,13 +20653,13 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
         {"name": "Norberto Alonso", "out": ""},
         {"name": "Carlos Alfredo Guerini", "in": ""},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta"},
+        {"name": "Enrique Chazarreta"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Rene Houseman", "out": ""},
@@ -20686,12 +20686,12 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia", "out": ""},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia", "out": ""},
         {"name": "Jorge Troncoso", "in": ""},
         {"name": "Enrique Wolff"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta"},
+        {"name": "Enrique Chazarreta"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Rene Houseman", "out": ""},
@@ -20706,7 +20706,7 @@
         {"name": "Eleazar Soria", "in": ""},
         {"name": "Roberto Challe"},
         {"name": "Ramon Mifflin"},
-        {"name": "Juan José Munante", "out": ""},
+        {"name": "Juan José Muñante", "out": ""},
         {"name": "Juan Rivero", "in": ""},
         {"name": "Oswaldo Ramirez", "out": ""},
         {"name": "Manuel Mayorga", "in": ""},
@@ -20734,13 +20734,13 @@
       []
     ],
     "cards": [
-      [{"name": "Angel Hugo Bargas", "type": "Y"}],
+      [{"name": "Ángel Bargas", "type": "Y"}],
       [{"name": "Limbert Cabrera II Rivero", "type": "Y"}]
     ],
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Heriberto Correa"},
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
@@ -20803,13 +20803,13 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Heriberto Correa"},
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
         {"name": "Miguel Ángel Brindisi", "out": "87"},
         {"name": "Carlos Babington", "in": "87"},
-        {"name": "Enrique Chazaretta"},
+        {"name": "Enrique Chazarreta"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
         {"name": "Agustin Balbuena"},
@@ -20851,7 +20851,7 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Glaria"},
         {"name": "Ruben Galvan"},
         {"name": "Roberto Telch", "out": "76"},
@@ -20894,14 +20894,14 @@
     "lineups": [
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Heriberto Correa"},
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
         {"name": "Carlos Babington", "out": "465"},
         {"name": "Agustin Balbuena", "in": "465"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta", "out": "53"},
+        {"name": "Enrique Chazarreta", "out": "53"},
         {"name": "Carlos Alfredo Guerini", "in": "53"},
         {"name": "Roberto Telch"},
         {"name": "Ruben Ayala"},
@@ -20944,7 +20944,7 @@
         {"name": "Francisco Sa"},
         {"name": "Alberto Tarantini"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Enrique Chazaretta", "out": "46"},
+        {"name": "Enrique Chazarreta", "out": "46"},
         {"name": "Rene Houseman", "in": "46"},
         {"name": "Carlos Squeo"},
         {"name": "Roberto Telch"},
@@ -20996,13 +20996,13 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Glaria", "out": "46"},
         {"name": "Enrique Wolff", "in": "46"},
         {"name": "Roberto Perfumo"},
         {"name": "Francisco Sa"},
         {"name": "Miguel Ángel Brindisi", "out": "75"},
-        {"name": "Enrique Chazaretta", "in": "75"},
+        {"name": "Enrique Chazarreta", "in": "75"},
         {"name": "Carlos Squeo"},
         {"name": "Roberto Telch"},
         {"name": "Agustin Balbuena"},
@@ -21046,7 +21046,7 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
+        {"name": "Ángel Bargas"},
         {"name": "Ruben Glaria", "out": ""},
         {"name": "Enrique Wolff", "in": ""},
         {"name": "Roberto Perfumo"},
@@ -21096,8 +21096,8 @@
       ],
       [
         {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
+        {"name": "Ramón Heredia"},
         {"name": "Roberto Perfumo"},
         {"name": "Francisco Sa"},
         {"name": "Enrique Wolff"},
@@ -21108,130 +21108,127 @@
         {"name": "Mario Kempes", "out": ""},
         {"name": "Rene Houseman", "in": ""},
         {"name": "Hector Yazalde", "out": ""},
-        {"name": "Enrique Chazaretta", "in": ""}
+        {"name": "Enrique Chazarreta", "in": ""}
       ]
     ]
   },
   {
     "date": "1974-06-15",
     "competition": "World Cup",
-    "venue": {"name": "Neckarstadion, Stuttgart"},
-    "teams": [{"name": "Argentina"}, {"name": "Poland"}],
-    "score": [2, 3],
+    "round": "1st Group Stage",
+    "venue": {"name": "Mercedes-Benz-Arena", "city": "Stuttgart"},
+    "teams": [{"name": "Poland"}, {"name": "Argentina"}],
+    "score": [3, 2],
     "result": "L",
     "goals": [
       [
-        {"name": "Ramon Heredia", "min": "61", "type": "G"},
-        {"name": "Carlos Babington", "min": "67", "type": "G"}
+        {"name": "Grzegorz Lato", "min": "6", "type": "G"},
+        {"name": "Andrzej Szarmach", "min": "9", "type": "G"},
+        {"name": "Grzegorz Lato", "min": "62", "type": "G"}
       ],
       [
-        {"name": "Grzegorz Lato", "min": "7", "type": "G"},
-        {"name": "Andrzej Szarmach", "min": "9", "type": "G"},
-        {"name": "Grzegorz Lato", "min": "63", "type": "G"}
+        {"name": "Ramón Heredia", "min": "60", "type": "G"},
+        {"name": "Carlos Babington", "min": "66", "type": "G"}
       ]
     ],
     "cards": [
+      [],
       [
-        {"name": "Roberto Perfumo", "type": "Y"},
-        {"name": "Carlos Babington", "type": "Y"}
-      ],
-      []
+        {"name": "Roberto Perfumo", "min": "21", "type": "Y"},
+        {"name": "Carlos Babington", "min": "47", "type": "Y"}
+      ]
     ],
     "coaches": [{"name": "Vladislao Cap"}, {"name": "Kazimierz Gorski"}],
     "lineups": [
       [
-        {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas", "out": "69"},
-        {"name": "Roberto Telch", "in": "69"},
-        {"name": "Ramon Heredia"},
-        {"name": "Roberto Perfumo"},
-        {"name": "Francisco Sa"},
-        {"name": "Enrique Wolff"},
-        {"name": "Carlos Babington"},
-        {"name": "Miguel Ángel Brindisi", "out": "46"},
-        {"name": "Rene Houseman", "in": "46"},
-        {"name": "Ruben Ayala"},
-        {"name": "Agustin Balbuena"},
-        {"name": "Mario Kempes"}
+        {"name": "Jan Tomaszewski"},
+        {"name": "Adam Musiał"},
+        {"name": "Antoni Szymanowski"},
+        {"name": "Jerzy Gorgoń"},
+        {"name": "Władysław Żmuda"},
+        {"name": "Grzegorz Lato"},
+        {"name": "Henryk Kasperczak"},
+        {"name": "Kazimierz Deyna"},
+        {"name": "Zygmunt Maszczyk"},
+        {"name": "Andrzej Szarmach", "out": "70"},
+        {"name": "Jan Domarski", "in": "70"},
+        {"name": "Robert Gadocha", "out": "85"},
+        {"name": "Lesław Ćmikiewicz", "in": "85"}
       ],
       [
-        {"name": "Jan Tomaszewski"},
-        {"name": "Jerzy Gorgon"},
-        {"name": "Adam Musial"},
-        {"name": "Antoni Szymanowski"},
-        {"name": "Władysław Żmuda"},
-        {"name": "Henryk Kasperczak"},
-        {"name": "Zygmunt Maszczyk"},
-        {"name": "Kazimierz Deyna"},
-        {"name": "Robert Gadocha", "out": "84"},
-        {"name": "Leslaw Cmikiewicz", "in": "84"},
-        {"name": "Grzegorz Lato"},
-        {"name": "Andrzej Szarmach", "out": "72"},
-        {"name": "Jan Domarski", "in": "72"}
+        {"name": "Daniel Carnevali"},
+        {"name": "Ángel Bargas", "out": "67"},
+        {"name": "Roberto Telch", "in": "67"},
+        {"name": "Enrique Wolff"},
+        {"name": "Francisco Sá"},
+        {"name": "Roberto Perfumo"},
+        {"name": "Carlos Babington"},
+        {"name": "Ramón Heredia"},
+        {"name": "Miguel Ángel Brindisi", "out": "45"},
+        {"name": "Rene Houseman", "in": "45"},
+        {"name": "Agustin Balbuena"},
+        {"name": "Mario Kempes"},
+        {"name": "Rubén Ayala"}
       ]
     ],
-    "info": {
-      "images": [
-        {"url": "/m/1974/polska-argentyna-1974-postcard-1_jeg8py.jpg"},
-        {"url": "/m/1974/polska-argentyna-1974-postcard-2_mzrtaw.jpg"},
-        {"url": "/m/1974/polska-argentyna-1974-postcard-3_rjh7bx.jpg"},
-        {"url": "/m/1974/polska-argentyna-1974-postcard-4_usdm6t.jpg"}
-      ]
-    }
+    "sources": ["Golazon"]
   },
   {
     "date": "1974-06-19",
     "competition": "World Cup",
-    "venue": {"name": "Neckarstadion, Stuttgart"},
+    "round": "1st Group Stage",
+    "venue": {"name": "Mercedes-Benz-Arena", "city": "Stuttgart"},
     "teams": [{"name": "Argentina"}, {"name": "Italy"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Rene Houseman", "min": "20", "type": "G"}],
+      [{"name": "Rene Houseman", "min": "19", "type": "G"}],
       [{"name": "Roberto Perfumo", "min": "35", "type": "OG"}]
     ],
     "cards": [
-      [{"name": "Carlos Babington", "type": "Y"}],
-      [{"name": "Romeo Benetti", "type": "Y"}]
+      [{"name": "Carlos Babington", "min": "55", "type": "Y"}],
+      [{"name": "Romeo Benetti", "min": "48", "type": "Y"}]
     ],
     "coaches": [{"name": "Vladislao Cap"}, {"name": "Ferruccio Valcareggi"}],
     "lineups": [
       [
-        {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
-        {"name": "Roberto Perfumo"},
-        {"name": "Francisco Sa"},
+        {"name": "Daniel Carnevali"},
         {"name": "Enrique Wolff", "out": "60"},
-        {"name": "Ruben Glaria", "in": "60"},
+        {"name": "Rubén Glariá", "in": "60"},
+        {"name": "Francisco Sá"},
+        {"name": "Roberto Perfumo"},
         {"name": "Carlos Babington"},
         {"name": "Roberto Telch"},
-        {"name": "Ruben Ayala"},
-        {"name": "Rene Houseman"},
+        {"name": "Ramón Heredia"},
         {"name": "Mario Kempes"},
+        {"name": "Rubén Ayala"},
+        {"name": "Rene Houseman"},
         {"name": "Hector Yazalde", "out": "78"},
-        {"name": "Enrique Chazaretta", "in": "78"}
+        {"name": "Enrique Chazarreta", "in": "78"}
       ],
       [
         {"name": "Dino Zoff"},
-        {"name": "Tarcisio Burgnich"},
-        {"name": "Giacinto Facchetti"},
         {"name": "Francesco Morini", "out": "66"},
         {"name": "Giuseppe Wilson", "in": "66"},
+        {"name": "Giacinto Facchetti"},
         {"name": "Luciano Spinosi"},
-        {"name": "Romeo Benetti"},
+        {"name": "Tarcisio Burgnich"},
         {"name": "Fabio Capello"},
         {"name": "Gianni Rivera", "out": "66"},
         {"name": "Franco Causio", "in": "66"},
-        {"name": "Pietro Anastasi"},
+        {"name": "Romeo Benetti"},
         {"name": "Sandro Mazzola"},
-        {"name": "Luigi Riva"}
+        {"name": "Luigi Riva"},
+        {"name": "Pietro Anastasi"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1974-06-23",
     "competition": "World Cup",
-    "venue": {"name": "Olympiastadion, Munchen"},
+    "round": "1st Group Stage",
+    "venue": {"name": "Olympiastadion München", "city": "München"},
     "teams": [{"name": "Argentina"}, {"name": "Haiti"}],
     "score": [4, 1],
     "result": "W",
@@ -21239,204 +21236,212 @@
       [
         {"name": "Hector Yazalde", "min": "15", "type": "G"},
         {"name": "Rene Houseman", "min": "18", "type": "G"},
-        {"name": "Ruben Ayala", "min": "55", "type": "G"},
-        {"name": "Hector Yazalde", "min": "67", "type": "G"}
+        {"name": "Rubén Ayala", "min": "56", "type": "G"},
+        {"name": "Hector Yazalde", "min": "68", "type": "G"}
       ],
-      [{"name": "Emmanuel Sanon", "min": "63", "type": "G"}]
+      [{"name": "Emmanuel Sanon", "min": "64", "type": "G"}]
     ],
     "cards": [
       [
         {"name": "Carlos Babington", "min": "26", "type": "Y"},
-        {"name": "Ramon Heredia", "min": "60", "type": "Y"}
+        {"name": "Ramón Heredia", "min": "61", "type": "Y"}
       ],
-      [{"name": "Fritz Leandre", "min": "60", "type": "Y"}]
+      [{"name": "Fritz Léandre", "min": "86", "type": "Y"}]
     ],
     "coaches": [{"name": "Vladislao Cap"}, {"name": "Antoine Tassy"}],
     "lineups": [
       [
-        {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
-        {"name": "Roberto Perfumo"},
-        {"name": "Francisco Sa"},
+        {"name": "Daniel Carnevali"},
         {"name": "Enrique Wolff"},
+        {"name": "Francisco Sá"},
+        {"name": "Roberto Perfumo"},
         {"name": "Carlos Babington"},
         {"name": "Roberto Telch"},
-        {"name": "Ruben Ayala"},
-        {"name": "Rene Houseman", "out": "59"},
-        {"name": "Miguel Ángel Brindisi", "in": "59"},
-        {"name": "Mario Kempes", "out": "57"},
-        {"name": "Agustin Balbuena", "in": "57"},
-        {"name": "Hector Yazalde"}
+        {"name": "Ramón Heredia"},
+        {"name": "Hector Yazalde"},
+        {"name": "Mario Kempes", "out": "52"},
+        {"name": "Agustin Balbuena", "in": "52"},
+        {"name": "Rubén Ayala"},
+        {"name": "Rene Houseman", "out": "57"},
+        {"name": "Miguel Ángel Brindisi", "in": "57"}
       ],
       [
+        {"name": "Emmanuel Sanon"},
         {"name": "Henri Francillon"},
         {"name": "Pierre Bayonne"},
+        {"name": "Wilner Nazaire", "out": "25"},
+        {"name": "Joseph-Marion Léandre", "in": "25"},
         {"name": "Serge Ducoste"},
         {"name": "Wilfried Louis"},
-        {"name": "Wilner Nazaire", "out": "26"},
-        {"name": "Joséph-Marion Leandre", "in": "26"},
-        {"name": "Serge Racine"},
         {"name": "Eddy Antoine"},
-        {"name": "Jean-Claude Desir"},
+        {"name": "Jean-Claude Désir"},
         {"name": "Philippe Vorbe"},
-        {"name": "Guy Saint-Vil", "out": "54"},
-        {"name": "Fritz Leandre", "in": "54"},
-        {"name": "Emmanuel Sanon"}
-      ]
-    ]
-  },
-  {
-    "date": "1974-06-26",
-    "competition": "World Cup",
-    "venue": {"name": "Park Gelsenkirchen"},
-    "teams": [{"name": "Argentina"}, {"name": "Netherlands"}],
-    "score": [0, 4],
-    "result": "L",
-    "goals": [
-      [],
-      [
-        {"name": "Johan Cruyff", "min": "12", "type": "G"},
-        {"name": "Ruud Krol", "min": "25", "type": "G"},
-        {"name": "Johnny Rep", "min": "73", "type": "G"},
-        {"name": "Johan Cruyff", "min": "88", "type": "G"}
+        {"name": "Serge Racine"},
+        {"name": "Guy Saint-Vil", "out": "52"},
+        {"name": "Fritz Léandre", "in": "52"}
       ]
     ],
+    "sources": ["Golazon"]
+  },
+  {
+    "slug": "netherlands-argentina-2",
+    "date": "1974-06-26",
+    "competition": "World Cup",
+    "round": "2nd Group Stage",
+    "venue": {"name": "Parkstadion (old)", "city": "Gelsenkirchen"},
+    "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
+    "score": [4, 0],
+    "result": "L",
+    "goals": [
+      [
+        {"name": "Johan Cruijff", "min": "11", "type": "G"},
+        {"name": "Ruud Krol", "min": "25", "type": "G"},
+        {"name": "Johnny Rep", "min": "72", "type": "G"},
+        {"name": "Johan Cruijff", "min": "90", "type": "G"}
+      ],
+      []
+    ],
     "cards": [
-      [{"name": "Roberto Perfumo", "min": "35", "type": "Y"}],
       [
         {"name": "Johan Neeskens", "min": "22", "type": "Y"},
-        {"name": "Wim Suurbier", "min": "58", "type": "Y"}
-      ]
+        {"name": "Wim Suurbier", "min": "57", "type": "Y"}
+      ],
+      [{"name": "Roberto Perfumo", "min": "37", "type": "Y"}]
     ],
     "coaches": [{"name": "Vladislao Cap"}, {"name": "Rinus Michels"}],
     "lineups": [
       [
-        {"name": "Daniel Carnevale"},
-        {"name": "Ramon Heredia"},
-        {"name": "Roberto Perfumo"},
-        {"name": "Francisco Sa"},
-        {"name": "Enrique Wolff", "out": "46"},
-        {"name": "Ruben Glaria", "in": "46"},
-        {"name": "Carlos Squeo"},
-        {"name": "Roberto Telch"},
-        {"name": "Ruben Ayala"},
-        {"name": "Agustin Balbuena"},
-        {"name": "Rene Houseman", "out": "65"},
-        {"name": "Mario Kempes", "in": "65"},
-        {"name": "Hector Yazalde"}
-      ],
-      [
         {"name": "Jan Jongbloed"},
         {"name": "Ruud Krol"},
         {"name": "Wim Rijsbergen"},
-        {"name": "Wim Suurbier", "out": "85"},
-        {"name": "Rinus Israel", "in": "85"},
-        {"name": "Johan Cruyff"},
+        {"name": "Wim Suurbier", "out": "84"},
+        {"name": "Rinus Israel", "in": "84"},
         {"name": "Arie Haan"},
-        {"name": "Wim Jansen"},
         {"name": "Johan Neeskens"},
+        {"name": "Johan Cruijff"},
+        {"name": "Wim Jansen"},
         {"name": "Wim Van Hanegem"},
-        {"name": "Rob Rensenbrink"},
-        {"name": "Johnny Rep"}
+        {"name": "Johnny Rep"},
+        {"name": "Rob Rensenbrink"}
+      ],
+      [
+        {"name": "Daniel Carnevali"},
+        {"name": "Enrique Wolff", "out": "46"},
+        {"name": "Rubén Glariá", "in": "46"},
+        {"name": "Francisco Sá"},
+        {"name": "Roberto Perfumo"},
+        {"name": "Carlos Squeo"},
+        {"name": "Roberto Telch"},
+        {"name": "Ramón Heredia"},
+        {"name": "Agustin Balbuena"},
+        {"name": "Hector Yazalde"},
+        {"name": "Rubén Ayala"},
+        {"name": "Rene Houseman", "out": "46"},
+        {"name": "Mario Kempes", "in": "46"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1974-06-30",
     "competition": "World Cup",
-    "venue": {"name": "Niedersachsenstadion, Hannover"},
+    "round": "2nd Group Stage",
+    "venue": {"name": "HDI-Arena", "city": "Hannover"},
     "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
     "score": [1, 2],
     "result": "L",
     "goals": [
       [{"name": "Miguel Ángel Brindisi", "min": "35", "type": "G"}],
       [
-        {"name": "Rivellino", "min": "31", "type": "G"},
+        {"name": "Roberto Rivelino", "min": "32", "type": "G"},
         {"name": "Jairzinho", "min": "49", "type": "G"}
       ]
     ],
-    "cards": [[{"name": "Rene Houseman", "type": "Y"}], []],
+    "cards": [[{"name": "Rene Houseman", "min": "71", "type": "Y"}], []],
     "coaches": [
       {"name": "Vladislao Cap"},
       {"name": "Mario Jorge Lobo Zagallo"}
     ],
     "lineups": [
       [
-        {"name": "Daniel Carnevale"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Ruben Glaria"},
-        {"name": "Ramon Heredia"},
-        {"name": "Francisco Sa", "out": "46"},
+        {"name": "Daniel Carnevali"},
+        {"name": "Ángel Bargas"},
+        {"name": "Carlos Squeo"},
+        {"name": "Francisco Sá", "out": "46"},
         {"name": "Rene Houseman", "in": "46"},
+        {"name": "Rubén Glariá"},
         {"name": "Carlos Babington"},
         {"name": "Miguel Ángel Brindisi"},
-        {"name": "Carlos Squeo"},
-        {"name": "Ruben Ayala"},
+        {"name": "Ramón Heredia"},
         {"name": "Agustin Balbuena"},
         {"name": "Mario Kempes", "out": "46"},
-        {"name": "Jorge Carrascosa", "in": "46"}
+        {"name": "Jorge Carrascosa", "in": "46"},
+        {"name": "Rubén Ayala"}
       ],
       [
-        {"name": "Emerson Leao"},
-        {"name": "Luis Pereira"},
+        {"name": "Émerson Leão"},
+        {"name": "Luís Pereira"},
         {"name": "Marinho Chagas"},
         {"name": "Marinho Peres"},
-        {"name": "Carpegiani"},
+        {"name": "Zé Maria"},
         {"name": "Dirceu"},
-        {"name": "Paulo Cezar Caju"},
-        {"name": "Rivellino"},
-        {"name": "Ze Maria"},
+        {"name": "Carpegiani"},
+        {"name": "Roberto Rivelino"},
         {"name": "Jairzinho"},
+        {"name": "Paulo Cezar Caju"},
         {"name": "Valdomiro"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1974-07-03",
     "competition": "World Cup",
-    "venue": {"name": "Park Gelsenkirchen"},
-    "teams": [{"name": "Argentina"}, {"name": "East Germany"}],
+    "round": "2nd Group Stage",
+    "venue": {"name": "Parkstadion (old)", "city": "Gelsenkirchen"},
+    "teams": [{"name": "Argentina"}, {"name": "German DR"}],
     "score": [1, 1],
     "result": "D",
     "goals": [
-      [{"name": "Rene Houseman", "min": "22", "type": "G"}],
-      [{"name": "Joachim Streich", "min": "14", "type": "G"}]
+      [{"name": "Rene Houseman", "min": "23", "type": "G"}],
+      [{"name": "Joachim Streich", "min": "15", "type": "G"}]
     ],
     "cards": [
-      [{"name": "Angel Hugo Bargas", "type": "Y"}],
-      [{"name": "Jurgen Sparwasser", "type": "Y"}]
+      [{"name": "Ángel Bargas", "min": "70", "type": "Y"}],
+      [{"name": "Jürgen Sparwasser", "min": "24", "type": "Y"}]
     ],
     "coaches": [{"name": "Vladislao Cap"}, {"name": "Georg Buschner"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Angel Hugo Bargas"},
-        {"name": "Jorge Carrascosa"},
-        {"name": "Ramon Heredia"},
+        {"name": "Ángel Bargas"},
         {"name": "Enrique Wolff"},
+        {"name": "Jorge Carrascosa"},
         {"name": "Carlos Babington"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "Roberto Telch"},
-        {"name": "Ruben Ayala"},
-        {"name": "Rene Houseman"},
-        {"name": "Mario Kempes"}
+        {"name": "Ramón Heredia"},
+        {"name": "Mario Kempes"},
+        {"name": "Rubén Ayala"},
+        {"name": "Rene Houseman"}
       ],
       [
-        {"name": "Jurgen Croy"},
+        {"name": "Jürgen Croy"},
         {"name": "Bernd Bransch"},
         {"name": "Gerd Kische"},
-        {"name": "Lothar Kurbjuweit"},
         {"name": "Konrad Weise"},
-        {"name": "Jurgen Pommerenke"},
-        {"name": "Rudiger Schnuphase"},
+        {"name": "Lothar Kurbjuweit"},
         {"name": "Martin Hoffmann"},
-        {"name": "Wolfram Lowe", "out": "67"},
-        {"name": "Eberhard Vogel", "in": "67"},
-        {"name": "Jurgen Sparwasser"},
-        {"name": "Joachim Streich", "out": "81"},
-        {"name": "Peter Ducke", "in": "81"}
+        {"name": "Rüdiger Schnuphase"},
+        {"name": "Jürgen Pommerenke"},
+        {"name": "Jürgen Sparwasser"},
+        {"name": "Joachim Streich", "out": "80"},
+        {"name": "Peter Ducke", "in": "80"},
+        {"name": "Wolfram Löwe", "out": "65"},
+        {"name": "Eberhard Vogel", "in": "65"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1974-10-12",
