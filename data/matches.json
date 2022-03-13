@@ -11977,7 +11977,7 @@
         {"name": "Artur Vaz"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo", "out": ""},
+        {"name": "Amadeo Carrizo", "out": ""},
         {"name": "Roque Saverio Marrapodi", "in": ""},
         {"name": "Francisco Lombardo"},
         {"name": "Pedro Dellacha"},
@@ -12023,7 +12023,7 @@
         {"name": "Luigi Moltrasio"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo", "out": "46"},
+        {"name": "Amadeo Carrizo", "out": "46"},
         {"name": "Roque Saverio Marrapodi", "in": "46"},
         {"name": "Francisco Lombardo"},
         {"name": "Pedro Dellacha"},
@@ -12521,7 +12521,7 @@
       [
         {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "R Cejas"},
         {"name": "N Daponte"},
         {"name": "Juan Filgueiras"},
@@ -12617,7 +12617,7 @@
         {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Eliseo Mouriño"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Nestor Lucas Cardoso", "out": ""},
         {"name": "Federico A Pizarro", "in": ""},
@@ -12686,7 +12686,7 @@
         {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Eliseo Mouriño"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Juan Filgueiras", "in": ""},
         {"name": "Enrique Omar Sivori"},
         {"name": "Nestor Lucas Cardoso"},
@@ -13009,7 +13009,7 @@
         {"name": "Antonio Roma"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "A Carabal"},
         {"name": "Norberto Conde"},
         {"name": "Hector De Bourgoing"},
@@ -13044,7 +13044,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Adolfo Jorge Benegas", "out": ""},
         {"name": "Alfredo Di Stefano", "in": ""},
         {"name": "A Carabal"},
@@ -13131,7 +13131,7 @@
         {"name": "Humberto Dionisio Maschio", "min": "16", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "min": "23", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "min": "53", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "min": "59", "type": "G"},
+        {"name": "Oreste Corbatta", "min": "59", "type": "G"},
         {"name": "Antonio Valentin Angelillo", "min": "73", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "min": "85", "type": "G"}
       ],
@@ -13147,7 +13147,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "José Sanfilippo"},
         {"name": "Juan Carlos Gimenez"},
@@ -13200,7 +13200,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Juan Carlos Gimenez"},
@@ -13248,7 +13248,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori", "out": ""},
         {"name": "José Sanfilippo", "in": ""},
@@ -13283,7 +13283,7 @@
     "goals": [
       [
         {"name": "Enrique Omar Sivori", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "type": "G"},
+        {"name": "Oreste Corbatta", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "type": "G"},
         {"name": "Antonio Valentin Angelillo", "type": "G"},
@@ -13301,7 +13301,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Juan Carlos Gimenez"},
@@ -13347,7 +13347,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Juan Carlos Gimenez"},
@@ -13406,7 +13406,7 @@
         {"name": "Néstor Rossi"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Hector De Bourgoing", "in": ""},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori"},
@@ -13456,7 +13456,7 @@
         {"name": "Antonio Roma"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "J Broockers"},
         {"name": "Hector De Bourgoing"},
         {"name": "Juan Hector Guidi"},
@@ -13499,7 +13499,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna", "out": ""},
         {"name": "Roma Antonio", "in": ""},
         {"name": "José Sanfilippo"},
@@ -13528,7 +13528,7 @@
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Angel Labruna", "out": ""},
         {"name": "Roma Antonio", "in": ""},
@@ -13584,10 +13584,10 @@
         {"name": "Tite"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna"},
         {"name": "Fernando Gianserra"},
         {"name": "A Herrera", "out": ""},
@@ -13628,12 +13628,12 @@
         {"name": "Luiz Trujilo 'Luizinho'"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo", "out": ""},
+        {"name": "Amadeo Carrizo", "out": ""},
         {"name": "Julio Mussimesi", "in": ""},
         {"name": "Néstor Rossi", "out": ""},
         {"name": "Juan Hector Guidi", "in": ""},
         {"name": "Federico Vairo"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna"},
         {"name": "J Biagioli"},
         {"name": "Fernando Gianserra"},
@@ -13675,10 +13675,10 @@
         {"name": "Ramon Guillermo Santos"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Norberto Menéndez"},
         {"name": "José Sanfilippo"},
         {"name": "Norberto Conde"},
@@ -13719,12 +13719,12 @@
         {"name": "Luis Vera"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna"},
         {"name": "Norberto Menéndez"},
         {"name": "Norberto Conde"},
@@ -13743,21 +13743,21 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oreste Omar Corbatta", "min": "1", "type": "G"},
+        {"name": "Oreste Corbatta", "min": "1", "type": "G"},
         {"name": "Norberto Menéndez", "min": "13", "type": "G"},
         {"name": "Roberto Hector Zarate", "min": "15", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "min": "41", "type": "G"}
+        {"name": "Oreste Corbatta", "min": "41", "type": "G"}
       ],
       []
     ],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna"},
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado"},
@@ -13789,7 +13789,7 @@
     "goals": [
       [
         {"name": "Roberto Hector Zarate", "min": "8", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "min": "62", "type": "G"},
+        {"name": "Oreste Corbatta", "min": "62", "type": "G"},
         {"name": "Eliseo Prado", "min": "64", "type": "G"},
         {"name": "Norberto Menéndez", "min": "65", "type": "G"}
       ],
@@ -13797,12 +13797,12 @@
     ],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Alfredo Perez"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Angel Labruna"},
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado"},
@@ -13852,7 +13852,7 @@
         {"name": "Climaco Rodriguez"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Alfredo Perez"},
         {"name": "Federico Vairo"},
@@ -13860,7 +13860,7 @@
         {"name": "Arnaldo Balay", "in": ""},
         {"name": "Norberto Constante Boggio", "out": ""},
         {"name": "Norberto Conde", "in": ""},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Norberto Menéndez"},
         {"name": "R Garcia", "out": ""},
         {"name": "José Varacka", "in": ""},
@@ -13896,19 +13896,19 @@
         {"name": "Dario Segovia"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka", "out": ""},
         {"name": "José Ramos Delgado", "in": ""},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado", "out": ""},
         {"name": "Oscar Rossi", "in": ""},
         {"name": "José Sanfilippo", "out": ""},
-        {"name": "Alfredo Hugo Rojas", "in": ""},
+        {"name": "Alfredo Rojas", "in": ""},
         {"name": "Roberto Hector Zarate"}
       ]
     ]
@@ -13922,20 +13922,20 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oreste Omar Corbatta", "type": "G"},
+        {"name": "Oreste Corbatta", "type": "G"},
         {"name": "Eliseo Prado", "type": "G"}
       ],
       []
     ],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado", "out": ""},
@@ -13975,21 +13975,21 @@
     ],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha", "out": ""},
         {"name": "Alfredo Perez", "in": ""},
         {"name": "José Varacka"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Norberto Constante Boggio", "in": ""},
         {"name": "Osvaldo Cruz"},
         {"name": "Norberto Menéndez", "out": ""},
         {"name": "Miguel Antonio Juarez", "in": ""},
         {"name": "Eliseo Prado"},
         {"name": "José Sanfilippo", "out": ""},
-        {"name": "Alfredo Hugo Rojas", "in": ""}
+        {"name": "Alfredo Rojas", "in": ""}
       ],
       [
         {"name": "Walter Taibo"},
@@ -14014,146 +14014,152 @@
   {
     "date": "1958-06-08",
     "competition": "World Cup",
-    "venue": {"name": "Stadion Malmö, Malmö"},
-    "teams": [
-      {"slug": "germany", "name": "West Germany"},
-      {"name": "Argentina"}
-    ],
-    "score": [3, 1],
+    "round": "Group Stage",
+    "venue": {"name": "Malmö Stadion", "city": "Malmö"},
+    "teams": [{"name": "Argentina"}, {"name": "Germany"}],
+    "score": [1, 3],
     "result": "L",
     "goals": [
+      [{"name": "Oreste Corbatta", "min": "2", "type": "G"}],
       [
-        {"name": "Helmut Rahn", "min": "33", "type": "G"},
-        {"name": "Uwe Seeler", "min": "42", "type": "G"},
+        {"name": "Helmut Rahn", "min": "32", "type": "G"},
+        {"name": "Uwe Seeler", "min": "40", "type": "G"},
         {"name": "Helmut Rahn", "min": "79", "type": "G"}
-      ],
-      [{"name": "Oreste Omar Corbatta", "min": "3", "type": "G"}]
+      ]
     ],
+    "cards": [[], []],
     "coaches": [
       {"name": "Joséf 'Sepp' Herberger"},
       {"name": "Guillermo Stábile"}
     ],
     "lineups": [
       [
-        {"name": "Fritz Herkenrath"},
-        {"name": "Horst Eckel"},
-        {"name": "Herbert Erhardt"},
-        {"name": "Erich Juskowiak"},
-        {"name": "Horst Szymaniak"},
-        {"name": "Hans Schafer"},
-        {"name": "Alfred Schmidt"},
-        {"name": "Georg Stollenwerk"},
-        {"name": "Fritz Walter"},
-        {"name": "Helmut Rahn"},
-        {"name": "Uwe Seeler"}
+        {"name": "Amadeo Carrizo"},
+        {"name": "Federico Vairo"},
+        {"name": "Francisco Lombardo"},
+        {"name": "José Varacka"},
+        {"name": "Néstor Rossi"},
+        {"name": "Pedro Dellacha"},
+        {"name": "Alfredo Rojas"},
+        {"name": "Eliseo Prado"},
+        {"name": "Norberto Menéndez"},
+        {"name": "Oreste Corbatta"},
+        {"name": "Osvaldo Héctor Cruz"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
-        {"name": "Francisco Lombardo"},
-        {"name": "Néstor Rossi"},
-        {"name": "Federico Vairo"},
-        {"name": "Pedro Dellacha"},
-        {"name": "José Varacka"},
-        {"name": "Oreste Omar Corbatta"},
-        {"name": "Osvaldo Cruz"},
-        {"name": "Norberto Menéndez"},
-        {"name": "Eliseo Prado"},
-        {"name": "Alfredo Hugo Rojas"}
+        {"name": "Fritz Herkenrath"},
+        {"name": "Erich Juskowiak"},
+        {"name": "Georg Stollenwerk"},
+        {"name": "Herbert Erhardt"},
+        {"name": "Alfred Schmidt"},
+        {"name": "Fritz Walter"},
+        {"name": "Horst Eckel"},
+        {"name": "Horst Szymaniak"},
+        {"name": "Helmut Rahn"},
+        {"name": "Hans Schäfer"},
+        {"name": "Uwe Seeler"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1958-06-11",
     "competition": "World Cup",
-    "venue": {"name": "Orjans Vall, Halmstad"},
+    "round": "Group Stage",
+    "venue": {"name": "Örjans Vall", "city": "Halmstad"},
     "teams": [{"name": "Argentina"}, {"name": "Northern Ireland"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
       [
-        {"name": "Oreste Omar Corbatta", "min": "38", "type": "P"},
+        {"name": "Oreste Corbatta", "min": "38", "type": "P"},
         {"name": "Norberto Menéndez", "min": "55", "type": "G"},
-        {"name": "Ludovico Avio", "min": "60", "type": "G"}
+        {"name": "Ludovico Avio", "min": "59", "type": "G"}
       ],
-      [{"name": "Peter McParland", "min": "4", "type": "G"}]
+      [{"name": "Peter McParland", "min": "3", "type": "G"}]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Peter Doherty"}],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
-        {"name": "Francisco Lombardo"},
-        {"name": "Néstor Rossi"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Federico Vairo"},
-        {"name": "Pedro Dellacha"},
-        {"name": "José Varacka"},
-        {"name": "Ludovico Avio"},
-        {"name": "Norberto Constante Boggio"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Francisco Lombardo"},
         {"name": "Angel Labruna"},
-        {"name": "Norberto Menéndez"}
+        {"name": "José Varacka"},
+        {"name": "Néstor Rossi"},
+        {"name": "Pedro Dellacha"},
+        {"name": "Ludovico Avio"},
+        {"name": "Norberto Boggio"},
+        {"name": "Norberto Menéndez"},
+        {"name": "Oreste Corbatta"}
       ],
       [
         {"name": "Harry Gregg"},
-        {"name": "Willie Cunningham"},
-        {"name": "Richard Keith"},
         {"name": "Alf McMichael"},
+        {"name": "Richard Keith"},
+        {"name": "Willie Cunningham"},
+        {"name": "Jimmy McIlroy"},
         {"name": "Danny Blanchflower"},
         {"name": "Bertie Peacock"},
         {"name": "Billy Bingham"},
         {"name": "Fay Coyle"},
-        {"name": "Wilbur Cush"},
-        {"name": "Jimmy McIlroy"},
-        {"name": "Peter McParland"}
+        {"name": "Peter McParland"},
+        {"name": "Wilbur Cush"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1958-06-15",
     "competition": "World Cup",
-    "venue": {"name": "Olympia Stadion, Helsingborg"},
+    "round": "Group Stage",
+    "venue": {"name": "Olympia", "city": "Helsingborg"},
     "teams": [{"name": "Czechoslovakia"}, {"name": "Argentina"}],
     "score": [6, 1],
     "result": "L",
     "goals": [
       [
-        {"name": "Milan Dvorak", "min": "7", "type": "G"},
-        {"name": "Jiri Feureisl", "min": "10", "type": "G"},
+        {"name": "Milan Dvorak", "min": "8", "type": "G"},
         {"name": "Zdanek Zikan", "min": "17", "type": "G"},
-        {"name": "Zdanek Zikan", "min": "39", "type": "G"},
+        {"name": "Zdanek Zikan", "min": "40", "type": "G"},
+        {"name": "Jiri Feureisl", "min": "69", "type": "G"},
         {"name": "Vaclav Hovorka", "min": "82", "type": "G"},
         {"name": "Vaclav Hovorka", "min": "89", "type": "G"}
       ],
-      [{"name": "Oreste Omar Corbatta", "min": "65", "type": "P"}]
+      [{"name": "Oreste Corbatta", "min": "65", "type": "P"}]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Kolsky"}, {"name": "Guillermo Stábile"}],
     "lineups": [
       [
         {"name": "Bretislav Dolejsi"},
         {"name": "Gustav Mraz"},
-        {"name": "Ladislav Novak"},
         {"name": "Jan Popluhar"},
+        {"name": "Ladislav Novak"},
         {"name": "Joséf Masopust"},
         {"name": "Jaroslav Borovicka"},
-        {"name": "Milan Dvorak"},
         {"name": "Jiri Feureisl"},
-        {"name": "Vaclav Hovorka"},
+        {"name": "Milan Dvorak"},
         {"name": "Pavol Molnar"},
+        {"name": "Vaclav Hovorka"},
         {"name": "Zdanek Zikan"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
-        {"name": "Francisco Lombardo"},
-        {"name": "Néstor Rossi"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Federico Vairo"},
-        {"name": "Pedro Dellacha"},
-        {"name": "José Varacka"},
-        {"name": "Ludovico Avio"},
-        {"name": "Oreste Omar Corbatta"},
-        {"name": "Osvaldo Cruz"},
+        {"name": "Francisco Lombardo"},
         {"name": "Angel Labruna"},
-        {"name": "Norberto Menéndez"}
+        {"name": "José Varacka"},
+        {"name": "Néstor Rossi"},
+        {"name": "Pedro Dellacha"},
+        {"name": "Ludovico Avio"},
+        {"name": "Norberto Menéndez"},
+        {"name": "Oreste Corbatta"},
+        {"name": "Osvaldo Héctor Cruz"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1959-03-07",
@@ -14178,7 +14184,7 @@
         {"name": "Vladislao Cap"},
         {"name": "José Varacka"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Pedro Eugenio Calla", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
         {"name": "Nestor Lucas Cardoso"},
@@ -14215,7 +14221,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oreste Omar Corbatta", "type": "G"},
+        {"name": "Oreste Corbatta", "type": "G"},
         {"name": "Pedro Eugenio Calla", "type": "G"}
       ],
       []
@@ -14225,7 +14231,7 @@
         {"name": "Vladislao Cap"},
         {"name": "José Varacka"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Pedro Eugenio Calla"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Pedro Waldemar Manfredini"},
@@ -14264,7 +14270,7 @@
     "goals": [
       [
         {"name": "V Benetiz", "min": "33", "type": "OG"},
-        {"name": "Oreste Omar Corbatta", "min": "51", "type": "P"},
+        {"name": "Oreste Corbatta", "min": "51", "type": "P"},
         {"name": "Pedro Eugenio Calla", "min": "78", "type": "G"}
       ],
       [{"name": "Alberto Terry", "min": "38", "type": "G"}]
@@ -14276,7 +14282,7 @@
         {"name": "Eliseo Mouriño"},
         {"name": "Raúl Belén", "out": ""},
         {"name": "Roberto L Brookes", "in": ""},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
         {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla"},
@@ -14313,7 +14319,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Oreste Omar Corbatta", "type": "G"},
+        {"name": "Oreste Corbatta", "type": "G"},
         {"name": "Rubén Héctor Sosa", "type": "G"},
         {"name": "Vladislao Cap", "type": "G"}
       ],
@@ -14326,7 +14332,7 @@
         {"name": "Eliseo Mouriño"},
         {"name": "Raúl Belén", "out": ""},
         {"name": "Roberto L Brookes", "in": ""},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
         {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla", "out": ""},
@@ -14376,7 +14382,7 @@
         {"name": "Francisco Lombardo"},
         {"name": "Eliseo Mouriño"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
         {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla", "out": ""},
@@ -15254,7 +15260,7 @@
         {"name": "Rubén Marino Navarro"},
         {"name": "Oscar Rossi"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "A Broockers", "in": ""},
         {"name": "José Sanfilippo"},
         {"name": "Walter Jimenez"},
@@ -15294,10 +15300,10 @@
         {"name": "Carlos Alberto Raffo", "min": "85", "type": "G"}
       ],
       [
-        {"name": "Oreste Omar Corbatta", "min": "5", "type": "P"},
+        {"name": "Oreste Corbatta", "min": "5", "type": "P"},
         {"name": "Martín Pando", "min": "12", "type": "G"},
         {"name": "Rubén Héctor Sosa", "min": "14", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "min": "40", "type": "G"},
+        {"name": "Oreste Corbatta", "min": "40", "type": "G"},
         {"name": "José Sanfilippo", "min": "47", "type": "G"},
         {"name": "José Maria Ramacciotti", "min": "75", "type": "G"}
       ]
@@ -15321,7 +15327,7 @@
         {"name": "Rubén Marino Navarro"},
         {"name": "Federico Sacchi"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Martín Pando"},
         {"name": "José Sanfilippo"},
         {"name": "Rubén Héctor Sosa"},
@@ -15342,7 +15348,7 @@
       [
         {"name": "Romulo Gomez", "min": "6", "type": "OG"},
         {"name": "José Sanfilippo", "min": "53", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "min": "55", "type": "P"},
+        {"name": "Oreste Corbatta", "min": "55", "type": "P"},
         {"name": "Rubén Héctor Sosa", "min": "75", "type": "G"},
         {"name": "Martín Pando", "min": "90", "type": "G"}
       ],
@@ -15355,7 +15361,7 @@
         {"name": "Rubén Marino Navarro"},
         {"name": "Federico Sacchi"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Martín Pando"},
         {"name": "José Sanfilippo"},
         {"name": "Rubén Héctor Sosa"},
@@ -15460,7 +15466,7 @@
         {"name": "Oscar Rossi", "out": ""},
         {"name": "Martín Pando", "in": ""},
         {"name": "Federico Sacchi"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Alberto González"},
         {"name": "José Sanfilippo"},
         {"name": "Rubén Héctor Sosa"},
@@ -15505,7 +15511,7 @@
         {"name": "José Ramos Delgado"},
         {"name": "Federico Sacchi", "out": "54"},
         {"name": "Rafael Albrecht", "in": "54"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Alberto González"},
         {"name": "Martín Pando"},
         {"name": "José Sanfilippo"},
@@ -15609,7 +15615,7 @@
         {"name": "Federico Sacchi", "out": "84"},
         {"name": "Alejo", "in": "84"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "Oreste Omar Corbatta", "out": "63"},
+        {"name": "Oreste Corbatta", "out": "63"},
         {"name": "Carlos Timoteo Griguol", "in": "63"},
         {"name": "Martín Pando"},
         {"name": "José Sanfilippo"},
@@ -15655,7 +15661,7 @@
         {"name": "Rubén Héctor Sosa", "out": ""},
         {"name": "Oscar Rossi", "in": ""},
         {"name": "Carlos Timoteo Griguol", "out": ""},
-        {"name": "Oreste Omar Corbatta", "in": ""},
+        {"name": "Oreste Corbatta", "in": ""},
         {"name": "Juan Hector Guidi", "out": ""},
         {"name": "José Maria Ramacciotti", "in": ""},
         {"name": "Carmelo Simeone"},
@@ -15675,8 +15681,8 @@
         {"name": "Marcelo Pagani", "type": "G"},
         {"name": "José Sanfilippo", "type": "G"},
         {"name": "Luis Artime", "type": "G"},
-        {"name": "Oreste Omar Corbatta", "type": "P"},
-        {"name": "Oreste Omar Corbatta", "type": "G"}
+        {"name": "Oreste Corbatta", "type": "P"},
+        {"name": "Oreste Corbatta", "type": "G"}
       ],
       [{"name": "Juan Graciano González", "type": "G"}]
     ],
@@ -15691,7 +15697,7 @@
         {"name": "Luis Artime", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "José Sanfilippo", "out": ""},
         {"name": "Alberto González", "in": ""},
         {"name": "F Cielinsky"},
@@ -15742,7 +15748,7 @@
         {"name": "Luis Artime", "out": ""},
         {"name": "Martín Pando", "in": ""},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
         {"name": "José Sanfilippo"},
         {"name": "Carlos Timoteo Griguol", "out": ""},
@@ -15826,7 +15832,7 @@
         {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin"},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta"},
+        {"name": "Oreste Corbatta"},
         {"name": "Rubén Héctor Sosa"},
         {"name": "J Abeledo"},
         {"name": "Carmelo Simeone"},
@@ -15856,7 +15862,7 @@
         {"name": "Luis Artime", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
         {"name": "Raúl Belén"},
-        {"name": "Oreste Omar Corbatta", "out": ""},
+        {"name": "Oreste Corbatta", "out": ""},
         {"name": "Héctor Facundo", "in": ""},
         {"name": "José Sanfilippo"},
         {"name": "J Abeledo"},
@@ -16576,7 +16582,7 @@
         {"name": "Pablo 'Pablito' Rojas"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "Roberto Ferreiro"},
         {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin"},
@@ -16614,7 +16620,7 @@
     ],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo", "out": ""},
+        {"name": "Amadeo Carrizo", "out": ""},
         {"name": "Edgardo Norberto Andrada", "in": ""},
         {"name": "Roberto Ferreiro"},
         {"name": "Rubén Marino Navarro"},
@@ -16665,7 +16671,7 @@
     "coaches": [null, {"name": "Dr José Maria Antunes"}],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "José Ramos Delgado"},
         {"name": "Antonio Rattin"},
         {"name": "Ermindo Onega"},
@@ -16723,7 +16729,7 @@
         {"name": "Vava"}
       ],
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "José Ramos Delgado"},
         {"name": "Antonio Rattin"},
         {"name": "Ermindo Onega"},
@@ -16749,7 +16755,7 @@
     "coaches": [null, {"name": "Alfred Ramsey"}],
     "lineups": [
       [
-        {"name": "Amadeo Raul Carrizo"},
+        {"name": "Amadeo Carrizo"},
         {"name": "José Ramos Delgado"},
         {"name": "Antonio Rattin"},
         {"name": "Ermindo Onega"},
