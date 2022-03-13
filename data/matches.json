@@ -6802,41 +6802,43 @@
   {
     "date": "1930-07-15",
     "competition": "World Cup",
-    "venue": {"name": "Parque Central", "city": "Montevideo"},
-    "teams": [{"name": "France"}, {"name": "Argentina"}],
-    "score": [0, 1],
+    "round": "Group Stage",
+    "venue": {"name": "Estadio Gran Parque Central", "city": "Montevideo"},
+    "teams": [{"name": "Argentina"}, {"name": "France"}],
+    "score": [1, 0],
     "result": "W",
-    "goals": [[], [{"name": "Luis Monti", "min": "81", "type": "G"}]],
+    "goals": [[{"name": "Luis Monti", "min": "81", "type": "G"}], []],
+    "cards": [[], []],
     "coaches": [{"name": "Raoul Caudron"}, {"name": "Francisco Olazar"}],
     "lineups": [
+      [
+        {"name": "Ángel Bossio"},
+        {"name": "Juan Evaristo"},
+        {"name": "José Della Torre"},
+        {"name": "Natalio Perinetti"},
+        {"name": "Ramón Muttis"},
+        {"name": "Arico Suárez"},
+        {"name": "Luis Monti"},
+        {"name": "Francisco Varallo"},
+        {"name": "Marino Evaristo"},
+        {"name": "Manuel Ferreira"},
+        {"name": "Roberto Cherro"}
+      ],
       [
         {"name": "Alexis Thépot"},
         {"name": "Étienne Mattler"},
         {"name": "Marcel Capelle"},
-        {"name": "Alex Villaplane"},
-        {"name": "Marcel Pinel"},
         {"name": "Augustin Chantrel"},
-        {"name": "Ernest Liberati"},
+        {"name": "Alex Villaplane"},
         {"name": "Edmond Delfour"},
+        {"name": "Marcel Pinel"},
         {"name": "André Maschinot"},
+        {"name": "Ernest Libérati"},
         {"name": "Lucien Laurent"},
         {"name": "Marcel Langiller"}
-      ],
-      [
-        {"name": "Ángel Bossio"},
-        {"name": "José Della Torre"},
-        {"name": "Ramón Muttis"},
-        {"name": "Arico Suárez"},
-        {"name": "Luis Monti"},
-        {"name": "Juan Evaristo"},
-        {"name": "Natalio Perinetti"},
-        {"name": "Francisco Varallo"},
-        {"name": "Manuel Ferreira"},
-        {"name": "Roberto Cherro"},
-        {"name": "Mario Evaristo"}
       ]
     ],
-    "source": ["Archivo sin Final", "El Gráfico"]
+    "sources": ["Golazon"]
   },
   {
     "date": "1930-07-19",
