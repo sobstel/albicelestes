@@ -11237,7 +11237,7 @@
     "lineups": [
       [
         {"name": "Angel Perucca", "out": ""},
-        {"name": "Nestor Raul Rossi", "in": ""},
+        {"name": "Néstor Rossi", "in": ""},
         {"name": "Norberto Méndez"},
         {"name": "Mario Boyé"},
         {"name": "Juan Colman"},
@@ -11332,7 +11332,7 @@
     "lineups": [
       [
         {"name": "Angel Perucca", "out": ""},
-        {"name": "Nestor Raul Rossi", "in": ""},
+        {"name": "Néstor Rossi", "in": ""},
         {"name": "Alfredo Di Stefano"},
         {"name": "Norberto Méndez"},
         {"name": "Mario Boyé"},
@@ -11384,7 +11384,7 @@
     ],
     "lineups": [
       [
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Alfredo Di Stefano"},
         {"name": "Norberto Méndez"},
         {"name": "Mario Boyé"},
@@ -11444,7 +11444,7 @@
       ],
       [
         {"name": "Angel Perucca", "out": ""},
-        {"name": "Nestor Raul Rossi", "in": ""},
+        {"name": "Néstor Rossi", "in": ""},
         {"name": "Alfredo Di Stefano", "out": ""},
         {"name": "Rene Alejandro Pontoni", "in": ""},
         {"name": "Norberto Méndez"},
@@ -11476,7 +11476,7 @@
     ],
     "lineups": [
       [
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Norberto Méndez", "out": ""},
         {"name": "Mario Fernandez", "in": ""},
         {"name": "Mario Boyé"},
@@ -12519,7 +12519,7 @@
         {"name": "Victor Salas"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "R Cejas"},
@@ -12563,7 +12563,7 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Norberto Méndez", "out": ""},
         {"name": "Francisco Ramon Lojacono", "in": ""},
@@ -12614,7 +12614,7 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Eliseo Mouriño"},
         {"name": "Oreste Omar Corbatta"},
@@ -12683,7 +12683,7 @@
         {"name": "Jaime Salazar Gutierrez"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Eliseo Mouriño"},
         {"name": "Oreste Omar Corbatta", "out": ""},
@@ -12733,7 +12733,7 @@
         {"name": "De Faria Larry"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "R Cejas"},
@@ -12772,7 +12772,7 @@
     "goals": [[{"name": "Norberto Conde", "min": "65", "type": "G"}], []],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "Angel Labruna", "out": "28"},
@@ -12834,11 +12834,11 @@
         {"name": "Hector Ramos"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "Adolfo Jorge Benegas", "out": ""},
-        {"name": "Nestor Raul Rossi", "in": ""},
+        {"name": "Néstor Rossi", "in": ""},
         {"name": "Norberto Conde"},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Ernesto Grillo"},
@@ -12860,7 +12860,7 @@
     "goals": [[], []],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
@@ -12869,7 +12869,7 @@
         {"name": "Juan Carlos Gimenez"},
         {"name": "Ernesto Grillo"},
         {"name": "Juan Hector Guidi", "out": ""},
-        {"name": "Nestor Raul Rossi", "in": ""},
+        {"name": "Néstor Rossi", "in": ""},
         {"name": "E Sansone", "out": ""},
         {"name": "Rodolfo Micheli", "in": ""},
         {"name": "N Sivo"}
@@ -12917,7 +12917,7 @@
         {"name": "Alfredo Vega"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Francisco Lombardo"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
@@ -12946,7 +12946,7 @@
     "coaches": [null, {"name": "Rygr"}],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Francisco Lombardo"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
@@ -12957,7 +12957,7 @@
         {"name": "Enrique Omar Sivori", "in": "46"},
         {"name": "Ernesto Grillo"},
         {"name": "Juan Hector Guidi", "out": "46"},
-        {"name": "Nestor Raul Rossi", "in": "46"},
+        {"name": "Néstor Rossi", "in": "46"},
         {"name": "Rodolfo Micheli", "out": "46"},
         {"name": "Ernesto Bernardo Cucchiaroni", "in": "46"}
       ],
@@ -13039,7 +13039,7 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Francisco Lombardo"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
@@ -13081,7 +13081,7 @@
     "goals": [
       [{"name": "Indio", "type": "G"}],
       [
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Garabal", "type": "G"}
       ]
     ],
@@ -13102,14 +13102,14 @@
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Enrique Omar Sivori"},
         {"name": "Adolfo Jorge Benegas", "out": ""},
         {"name": "Angel Osvaldo Schaidlan", "in": ""},
         {"name": "Garabal"},
         {"name": "Ricardo Raymondo Infante", "out": ""},
-        {"name": "José Francisco Sanfilippo", "in": ""},
+        {"name": "José Sanfilippo", "in": ""},
         {"name": "Hernan Oscar Mantegari"},
         {"name": "Federico A Pizarro"},
         {"name": "E Sansone", "out": ""},
@@ -13142,14 +13142,14 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Rogelio Domínguez"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Osvaldo Cruz"},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Humberto Dionisio Maschio"},
         {"name": "Angel Osvaldo Schaidlan", "out": ""},
@@ -13195,8 +13195,8 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Rogelio Domínguez"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
@@ -13235,15 +13235,15 @@
       [
         {"name": "Humberto Dionisio Maschio", "type": "G"},
         {"name": "Humberto Dionisio Maschio", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Antonio Valentin Angelillo", "type": "G"}
       ],
       []
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Nestor Raul Rossi", "out": ""},
+        {"name": "Rogelio Domínguez"},
+        {"name": "Néstor Rossi", "out": ""},
         {"name": "Juan Hector Guidi", "in": ""},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
@@ -13251,7 +13251,7 @@
         {"name": "Oreste Omar Corbatta"},
         {"name": "Osvaldo Cruz"},
         {"name": "Enrique Omar Sivori", "out": ""},
-        {"name": "José Francisco Sanfilippo", "in": ""},
+        {"name": "José Sanfilippo", "in": ""},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Humberto Dionisio Maschio"},
         {"name": "Angel Osvaldo Schaidlan"}
@@ -13296,8 +13296,8 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Rogelio Domínguez"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
@@ -13306,7 +13306,7 @@
         {"name": "Enrique Omar Sivori"},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Humberto Dionisio Maschio", "out": ""},
-        {"name": "José Francisco Sanfilippo", "in": ""},
+        {"name": "José Sanfilippo", "in": ""},
         {"name": "Angel Osvaldo Schaidlan"}
       ],
       [
@@ -13342,8 +13342,8 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Rogelio Domínguez"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
@@ -13401,9 +13401,9 @@
         {"name": "Alberto Terry"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez", "out": ""},
+        {"name": "Rogelio Domínguez", "out": ""},
         {"name": "Antonio Roma", "in": ""},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta", "out": ""},
@@ -13495,14 +13495,14 @@
         {"name": "Walter J Roque"}
       ],
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Angel Labruna", "out": ""},
         {"name": "Roma Antonio", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Hector De Bourgoing"},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Juan Hector Guidi"},
@@ -13524,7 +13524,7 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Federico Vairo"},
         {"name": "Antonio Valentin Angelillo"},
         {"name": "Pedro Dellacha"},
@@ -13532,7 +13532,7 @@
         {"name": "Osvaldo Cruz"},
         {"name": "Angel Labruna", "out": ""},
         {"name": "Roma Antonio", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Juan Carlos Gimenez"},
         {"name": "Juan Hector Guidi"},
         {"name": "Angel Osvaldo Schaidlan"}
@@ -13585,7 +13585,7 @@
       ],
       [
         {"name": "Amadeo Raul Carrizo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Angel Labruna"},
@@ -13630,7 +13630,7 @@
       [
         {"name": "Amadeo Raul Carrizo", "out": ""},
         {"name": "Julio Mussimesi", "in": ""},
-        {"name": "Nestor Raul Rossi", "out": ""},
+        {"name": "Néstor Rossi", "out": ""},
         {"name": "Juan Hector Guidi", "in": ""},
         {"name": "Federico Vairo"},
         {"name": "Oreste Omar Corbatta"},
@@ -13680,7 +13680,7 @@
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Norberto Menéndez"},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Norberto Conde"},
         {"name": "Fernando Gianserra"},
         {"name": "Juan Hector Guidi"},
@@ -13721,7 +13721,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta"},
@@ -13754,7 +13754,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "Oreste Omar Corbatta"},
@@ -13800,7 +13800,7 @@
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
         {"name": "Alfredo Perez"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Angel Labruna"},
@@ -13898,7 +13898,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka", "out": ""},
@@ -13906,8 +13906,8 @@
         {"name": "Oreste Omar Corbatta"},
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
-        {"name": "José Francisco Sanfilippo", "out": ""},
+        {"name": "Oscar Rossi", "in": ""},
+        {"name": "José Sanfilippo", "out": ""},
         {"name": "Alfredo Hugo Rojas", "in": ""},
         {"name": "Roberto Hector Zarate"}
       ]
@@ -13931,7 +13931,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka"},
@@ -13940,7 +13940,7 @@
         {"name": "Norberto Menéndez"},
         {"name": "Eliseo Prado", "out": ""},
         {"name": "Norberto Conde", "in": ""},
-        {"name": "José Francisco Sanfilippo"}
+        {"name": "José Sanfilippo"}
       ],
       [
         {"name": "Ramon Mayeregger"},
@@ -13969,7 +13969,7 @@
     "goals": [
       [
         {"name": "Norberto Menéndez", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"}
+        {"name": "José Sanfilippo", "type": "G"}
       ],
       []
     ],
@@ -13977,7 +13977,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha", "out": ""},
         {"name": "Alfredo Perez", "in": ""},
@@ -13988,7 +13988,7 @@
         {"name": "Norberto Menéndez", "out": ""},
         {"name": "Miguel Antonio Juarez", "in": ""},
         {"name": "Eliseo Prado"},
-        {"name": "José Francisco Sanfilippo", "out": ""},
+        {"name": "José Sanfilippo", "out": ""},
         {"name": "Alfredo Hugo Rojas", "in": ""}
       ],
       [
@@ -14050,7 +14050,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka"},
@@ -14082,7 +14082,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka"},
@@ -14143,7 +14143,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Francisco Lombardo"},
-        {"name": "Nestor Raul Rossi"},
+        {"name": "Néstor Rossi"},
         {"name": "Federico Vairo"},
         {"name": "Pedro Dellacha"},
         {"name": "José Varacka"},
@@ -14169,15 +14169,15 @@
         {"name": "Juan José Pizzuti", "type": "G"},
         {"name": "Juan José Pizzuti", "type": "G"},
         {"name": "Pedro Eugenio Calla", "type": "G"},
-        {"name": "Raul Oscar Belen", "type": "G"}
+        {"name": "Raúl Belén", "type": "G"}
       ],
       [{"name": "Manuel Alvarez", "type": "G"}]
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Pedro Eugenio Calla", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
@@ -14222,9 +14222,9 @@
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Pedro Eugenio Calla"},
         {"name": "Nestor Lucas Cardoso"},
@@ -14271,14 +14271,14 @@
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "Francisco Lombardo"},
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen", "out": ""},
+        {"name": "Raúl Belén", "out": ""},
         {"name": "Roberto L Brookes", "in": ""},
         {"name": "Oreste Omar Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla"},
         {"name": "Jorge Bernardo Griffa"},
         {"name": "Juan Carlos Murua"},
@@ -14314,21 +14314,21 @@
     "goals": [
       [
         {"name": "Oreste Omar Corbatta", "type": "G"},
-        {"name": "Ruben Hector Sosa", "type": "G"},
-        {"name": "Vladislao Wenceslao Cap", "type": "G"}
+        {"name": "Rubén Héctor Sosa", "type": "G"},
+        {"name": "Vladislao Cap", "type": "G"}
       ],
       [{"name": "Ildefonso Sanabria", "type": "G"}]
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "Francisco Lombardo"},
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen", "out": ""},
+        {"name": "Raúl Belén", "out": ""},
         {"name": "Roberto L Brookes", "in": ""},
         {"name": "Oreste Omar Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
         {"name": "Jorge Bernardo Griffa"},
@@ -14363,22 +14363,22 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Ruben Hector Sosa", "type": "G"},
-        {"name": "Ruben Hector Sosa", "type": "G"},
-        {"name": "Raul Oscar Belen", "type": "G"},
-        {"name": "Raul Oscar Belen", "type": "G"}
+        {"name": "Rubén Héctor Sosa", "type": "G"},
+        {"name": "Rubén Héctor Sosa", "type": "G"},
+        {"name": "Raúl Belén", "type": "G"},
+        {"name": "Raúl Belén", "type": "G"}
       ],
       [{"name": "Hector Demarco", "type": "G"}]
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "Francisco Lombardo"},
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta", "out": ""},
         {"name": "Angel Osvaldo Nardiello", "in": ""},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
         {"name": "Jorge Bernardo Griffa"},
@@ -14415,12 +14415,12 @@
     ],
     "lineups": [
       [
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "Francisco Lombardo", "out": ""},
         {"name": "Carmelo Simeone", "in": ""},
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Raúl Belén"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Pedro Eugenio Calla", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
         {"name": "Nestor Lucas Cardoso"},
@@ -14460,7 +14460,7 @@
         {"name": "José B Rios", "type": "G"}
       ],
       [
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Miguel Angel Ruiz", "type": "G"}
       ]
     ],
@@ -14485,12 +14485,12 @@
       [
         {"name": "Francisco Lombardo"},
         {"name": "Antonio Rattin", "out": ""},
-        {"name": "Vladislao Wenceslao Cap", "in": ""},
+        {"name": "Vladislao Cap", "in": ""},
         {"name": "José Varacka"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "Hector Osvaldo Facundo", "out": ""},
-        {"name": "Raul Oscar Belen", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "Héctor Facundo", "out": ""},
+        {"name": "Raúl Belén", "in": ""},
+        {"name": "José Sanfilippo"},
         {"name": "Norberto Anido"},
         {"name": "Omar Higinio Garcia", "out": ""},
         {"name": "Norberto Menéndez", "in": ""},
@@ -14512,10 +14512,10 @@
     "result": "W",
     "goals": [
       [
-        {"name": "José Francisco Sanfilippo", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Juan José Pizzuti", "type": "G"},
-        {"name": "Ruben Hector Sosa", "type": "G"}
+        {"name": "Rubén Héctor Sosa", "type": "G"}
       ],
       [
         {"name": "Pedro Cabral", "type": "G"},
@@ -14529,12 +14529,12 @@
         {"name": "Juan Hector Guidi", "in": ""},
         {"name": "Eliseo Mouriño"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Norberto Anido"},
         {"name": "Nestor Martin Errea"},
         {"name": "O Focundo"},
         {"name": "Omar Higinio Garcia", "out": ""},
-        {"name": "Ruben Hector Sosa", "in": ""},
+        {"name": "Rubén Héctor Sosa", "in": ""},
         {"name": "Juan Carlos Murua"},
         {"name": "Miguel Angel Ruiz", "out": ""},
         {"name": "Juan José Pizzuti", "in": ""}
@@ -14566,7 +14566,7 @@
     "result": "D",
     "goals": [
       [{"name": "Carlos Alberto Raffo", "type": "G"}],
-      [{"name": "Ruben Hector Sosa", "type": "G"}]
+      [{"name": "Rubén Héctor Sosa", "type": "G"}]
     ],
     "coaches": [null, {"name": "Guillermo Stábile"}],
     "lineups": [
@@ -14588,12 +14588,12 @@
       ],
       [
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Hector Osvaldo Facundo", "out": ""},
+        {"name": "Raúl Belén"},
+        {"name": "Héctor Facundo", "out": ""},
         {"name": "Norberto Constante Boggio", "in": ""},
-        {"name": "José Francisco Sanfilippo", "out": ""},
+        {"name": "José Sanfilippo", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Carlos Arredondo"},
         {"name": "Carlos Timoteo Griguol"},
         {"name": "Juan Hector Guidi"},
@@ -14638,11 +14638,11 @@
         {"name": "Alcides Silveira"}
       ],
       [
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "José Francisco Sanfilippo", "out": ""},
+        {"name": "José Sanfilippo", "out": ""},
         {"name": "Juan José Rodriguez", "in": ""},
-        {"name": "Ruben Hector Sosa", "out": ""},
+        {"name": "Rubén Héctor Sosa", "out": ""},
         {"name": "Miguel Angel Ruiz", "in": ""},
         {"name": "Carlos Arredondo"},
         {"name": "Rodolfo Carlos Betinotti", "out": ""},
@@ -14666,19 +14666,19 @@
     "goals": [
       [
         {"name": "Omar Higinio Garcia", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"}
+        {"name": "José Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"}
       ],
       [{"name": "José da Silva Geraldo II", "type": "G"}]
     ],
     "lineups": [
       [
         {"name": "Eliseo Mouriño"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Hector Osvaldo Facundo", "out": ""},
+        {"name": "Raúl Belén"},
+        {"name": "Héctor Facundo", "out": ""},
         {"name": "José Angel Carbone", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Norberto Anido"},
         {"name": "Carlos Arredondo"},
         {"name": "Omar Higinio Garcia"},
@@ -14714,9 +14714,9 @@
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Eduardo Toba Muino"}],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen", "out": ""},
+        {"name": "Raúl Belén", "out": ""},
         {"name": "A Broockers", "in": ""},
         {"name": "J Abeledo", "out": ""},
         {"name": "Ermindo Onega", "in": ""},
@@ -14753,9 +14753,9 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Raul Oscar Belen", "min": "10", "type": "G"},
+        {"name": "Raúl Belén", "min": "10", "type": "G"},
         {"name": "Angel Osvaldo Nardiello", "min": "11", "type": "G"},
-        {"name": "Raul Oscar Belen", "min": "78", "type": "G"}
+        {"name": "Raúl Belén", "min": "78", "type": "G"}
       ],
       [
         {"name": "Hector Hernandez Garcia", "min": "34", "type": "G"},
@@ -14768,9 +14768,9 @@
     ],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "J Abeledo"},
         {"name": "C Alvarez"},
         {"name": "C Ayala"},
@@ -14811,17 +14811,17 @@
     "goals": [
       [
         {"name": "Angel Osvaldo Nardiello", "type": "G"},
-        {"name": "Raul Oscar Belen", "type": "G"}
+        {"name": "Raúl Belén", "type": "G"}
       ],
       [{"name": "Juarez", "type": "G"}]
     ],
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Aymore Moreira"}],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "José Varacka", "out": ""},
         {"name": "Juan J Bosich", "in": ""},
-        {"name": "Raul Oscar Belen", "out": ""},
+        {"name": "Raúl Belén", "out": ""},
         {"name": "A Broockers", "in": ""},
         {"name": "J Abeledo"},
         {"name": "C Alvarez"},
@@ -14866,10 +14866,10 @@
     "coaches": [{"name": "Guillermo Stábile"}, {"name": "Eduardo Toba Muino"}],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Ermindo Onega"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "C Alvarez"},
         {"name": "C Ayala"},
         {"name": "Pedro Eugenio Calla", "out": ""},
@@ -14916,10 +14916,10 @@
     "lineups": [
       [
         {"name": "Silvio Marzolini"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "José Varacka", "out": ""},
         {"name": "Juan J Bosich", "in": ""},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "J Abeledo", "out": "71"},
         {"name": "Ermindo Onega", "in": "71"},
         {"name": "C Alvarez"},
@@ -14973,9 +14973,9 @@
       ],
       [
         {"name": "Silvio Marzolini"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "J Abeledo", "out": ""},
         {"name": "Ermindo Onega", "in": ""},
         {"name": "C Alvarez"},
@@ -15002,7 +15002,7 @@
         {"name": "Alfredo D'Ascenso", "type": "G"},
         {"name": "Angel Osvaldo Nardiello", "type": "G"},
         {"name": "Angel Osvaldo Nardiello", "type": "G"},
-        {"name": "Raul Oscar Belen", "type": "G"}
+        {"name": "Raúl Belén", "type": "G"}
       ],
       [{"name": "Djalma Santos", "type": "P"}, {"name": "Delem", "type": "G"}]
     ],
@@ -15010,9 +15010,9 @@
     "lineups": [
       [
         {"name": "Osvaldo Ayala"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Martin Esteban Pando", "out": ""},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Raúl Belén"},
+        {"name": "Martín Pando", "out": ""},
         {"name": "Ramon Beron", "in": ""},
         {"name": "Miguel Alvarez"},
         {"name": "Vicente Carceo"},
@@ -15048,7 +15048,7 @@
     "score": [1, 4],
     "result": "L",
     "goals": [
-      [{"name": "Ruben Hector Sosa", "min": "91", "type": "G"}],
+      [{"name": "Rubén Héctor Sosa", "min": "91", "type": "G"}],
       [
         {"name": "Servilio II", "type": "G"},
         {"name": "Delem", "type": "G"},
@@ -15060,15 +15060,15 @@
     "lineups": [
       [
         {"name": "Osvaldo Ayala"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Martin Esteban Pando", "out": ""},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Raúl Belén"},
+        {"name": "Martín Pando", "out": ""},
         {"name": "Ramon Beron", "in": ""},
         {"name": "Miguel Alvarez"},
         {"name": "Vicente Carceo", "out": ""},
         {"name": "Walter Jimenez", "in": ""},
         {"name": "Alfredo D'Ascenso", "out": ""},
-        {"name": "Ruben Hector Sosa", "in": ""},
+        {"name": "Rubén Héctor Sosa", "in": ""},
         {"name": "Juan Hector Guidi"},
         {"name": "Juan Carlos Murua"},
         {"name": "Angel Osvaldo Nardiello"},
@@ -15096,19 +15096,19 @@
     "teams": [{"name": "Argentina"}, {"name": "Paraguay"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Ruben Hector Sosa", "type": "G"}], []],
+    "goals": [[{"name": "Rubén Héctor Sosa", "type": "G"}], []],
     "coaches": [{"name": "Guillermo Stábile"}, null],
     "lineups": [
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Federico Sacchi", "out": ""},
         {"name": "José Varacka", "in": ""},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Norberto Menéndez", "out": ""},
         {"name": "H Carceo", "in": ""},
-        {"name": "Martin Esteban Pando"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Martín Pando"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Angel Osvaldo Nardiello"},
         {"name": "J Reynoso", "out": ""},
         {"name": "Juan Hector Guidi", "in": ""},
@@ -15149,7 +15149,7 @@
         {"name": "Chinezinho", "type": "G"},
         {"name": "Macia José Pepe", "type": "G"}
       ],
-      [{"name": "Ruben Hector Sosa", "type": "G"}]
+      [{"name": "Rubén Héctor Sosa", "type": "G"}]
     ],
     "coaches": [{"name": "Aymore Moreira"}, null],
     "lineups": [
@@ -15168,15 +15168,15 @@
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi"},
         {"name": "José Varacka"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Norberto Constante Boggio", "out": ""},
         {"name": "H González", "in": ""},
         {"name": "Norberto Menéndez", "out": ""},
         {"name": "Federico Sacchi", "in": ""},
-        {"name": "Ruben Hector Sosa", "out": ""},
+        {"name": "Rubén Héctor Sosa", "out": ""},
         {"name": "H Carceo", "in": ""},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Juan Hector Guidi"},
@@ -15193,8 +15193,8 @@
     "result": "W",
     "goals": [
       [
-        {"name": "José Francisco Sanfilippo", "min": "30", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "min": "37", "type": "G"}
+        {"name": "José Sanfilippo", "min": "30", "type": "G"},
+        {"name": "José Sanfilippo", "min": "37", "type": "G"}
       ],
       []
     ],
@@ -15202,14 +15202,14 @@
     "lineups": [
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi"},
         {"name": "Federico Sacchi"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Norberto Constante Boggio"},
         {"name": "Norberto Menéndez", "out": "75"},
         {"name": "Walter Jimenez", "in": "75"},
-        {"name": "José Francisco Sanfilippo", "out": "72"},
+        {"name": "José Sanfilippo", "out": "72"},
         {"name": "Ernesto Grillo", "in": "72"},
         {"name": "Juan Hector Guidi"},
         {"name": "Carmelo Simeone"},
@@ -15240,10 +15240,10 @@
     "result": "W",
     "goals": [
       [
-        {"name": "José Francisco Sanfilippo", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Walter Jimenez", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"}
+        {"name": "José Sanfilippo", "type": "G"}
       ],
       []
     ],
@@ -15251,12 +15251,12 @@
     "lineups": [
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi"},
         {"name": "Norberto Constante Boggio"},
         {"name": "Oreste Omar Corbatta", "out": ""},
         {"name": "A Broockers", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Walter Jimenez"},
         {"name": "José Maria Ramacciotti"},
         {"name": "J Schneider", "out": ""},
@@ -15295,10 +15295,10 @@
       ],
       [
         {"name": "Oreste Omar Corbatta", "min": "5", "type": "P"},
-        {"name": "Martin Esteban Pando", "min": "12", "type": "G"},
-        {"name": "Ruben Hector Sosa", "min": "14", "type": "G"},
+        {"name": "Martín Pando", "min": "12", "type": "G"},
+        {"name": "Rubén Héctor Sosa", "min": "14", "type": "G"},
         {"name": "Oreste Omar Corbatta", "min": "40", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "min": "47", "type": "G"},
+        {"name": "José Sanfilippo", "min": "47", "type": "G"},
         {"name": "José Maria Ramacciotti", "min": "75", "type": "G"}
       ]
     ],
@@ -15318,13 +15318,13 @@
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Federico Sacchi"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "Martin Esteban Pando"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Martín Pando"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "José Maria Ramacciotti"},
         {"name": "Carmelo Simeone"},
         {"name": "Miguel Angel Vidal"}
@@ -15341,10 +15341,10 @@
     "goals": [
       [
         {"name": "Romulo Gomez", "min": "6", "type": "OG"},
-        {"name": "José Francisco Sanfilippo", "min": "53", "type": "G"},
+        {"name": "José Sanfilippo", "min": "53", "type": "G"},
         {"name": "Oreste Omar Corbatta", "min": "55", "type": "P"},
-        {"name": "Ruben Hector Sosa", "min": "75", "type": "G"},
-        {"name": "Martin Esteban Pando", "min": "90", "type": "G"}
+        {"name": "Rubén Héctor Sosa", "min": "75", "type": "G"},
+        {"name": "Martín Pando", "min": "90", "type": "G"}
       ],
       []
     ],
@@ -15352,13 +15352,13 @@
     "lineups": [
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Federico Sacchi"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "Martin Esteban Pando"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Martín Pando"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "José Maria Ramacciotti"},
         {"name": "Carmelo Simeone"},
         {"name": "Miguel Angel Vidal"}
@@ -15406,15 +15406,15 @@
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Rafael Albrecht", "out": ""},
         {"name": "Silvio Marzolini", "in": ""},
         {"name": "Ermindo Onega", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Luis Artime"},
-        {"name": "Raul Oscar Belen", "out": ""},
+        {"name": "Raúl Belén", "out": ""},
         {"name": "M Blanco", "in": ""},
-        {"name": "Martin Esteban Pando"},
+        {"name": "Martín Pando"},
         {"name": "H Carceo", "out": ""},
         {"name": "Alberto González", "in": ""},
         {"name": "José Maria Ramacciotti", "out": ""},
@@ -15434,8 +15434,8 @@
     "goals": [
       [],
       [
-        {"name": "José Francisco Sanfilippo", "type": "G"},
-        {"name": "Martin Esteban Pando", "type": "G"}
+        {"name": "José Sanfilippo", "type": "G"},
+        {"name": "Martín Pando", "type": "G"}
       ]
     ],
     "coaches": [{"name": "Armando Ferreira"}, null],
@@ -15457,13 +15457,13 @@
       [
         {"name": "Antonio Roma"},
         {"name": "José Ramos Delgado"},
-        {"name": "Oscar Raul Rossi", "out": ""},
-        {"name": "Martin Esteban Pando", "in": ""},
+        {"name": "Oscar Rossi", "out": ""},
+        {"name": "Martín Pando", "in": ""},
         {"name": "Federico Sacchi"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Alberto González"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Juan Hector Guidi"},
         {"name": "Carmelo Simeone"},
         {"name": "Miguel Angel Vidal"}
@@ -15507,9 +15507,9 @@
         {"name": "Rafael Albrecht", "in": "54"},
         {"name": "Oreste Omar Corbatta"},
         {"name": "Alberto González"},
-        {"name": "Martin Esteban Pando"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Martín Pando"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Juan Hector Guidi"},
         {"name": "Carmelo Simeone"},
         {"name": "Miguel Angel Vidal", "out": "46"},
@@ -15552,13 +15552,13 @@
       ],
       [
         {"name": "Silvio Marzolini"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Ermindo Onega"},
-        {"name": "Oscar Raul Rossi", "out": "46"},
-        {"name": "Martin Esteban Pando", "in": "46"},
+        {"name": "Oscar Rossi", "out": "46"},
+        {"name": "Martín Pando", "in": "46"},
         {"name": "Federico Sacchi"},
         {"name": "Alberto González"},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Nestor Martin Errea", "out": ""},
         {"name": "Antonio Roma", "in": ""},
         {"name": "Carlos Timoteo Griguol"},
@@ -15582,8 +15582,8 @@
         {"name": "Joséf Kadraba", "min": "55", "type": "G"}
       ],
       [
-        {"name": "José Francisco Sanfilippo", "min": "5", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "min": "37", "type": "G"},
+        {"name": "José Sanfilippo", "min": "5", "type": "G"},
+        {"name": "José Sanfilippo", "min": "37", "type": "G"},
         {"name": "Luis Artime", "min": "57", "type": "G"}
       ]
     ],
@@ -15611,9 +15611,9 @@
         {"name": "Norberto Constante Boggio"},
         {"name": "Oreste Omar Corbatta", "out": "63"},
         {"name": "Carlos Timoteo Griguol", "in": "63"},
-        {"name": "Martin Esteban Pando"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Martín Pando"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "Juan Hector Guidi"},
         {"name": "Carmelo Simeone"},
         {"name": "Miguel Angel Vidal"}
@@ -15650,10 +15650,10 @@
         {"name": "José Ramos Delgado"},
         {"name": "Rafael Albrecht"},
         {"name": "Norberto Constante Boggio"},
-        {"name": "Martin Esteban Pando"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Martín Pando"},
+        {"name": "José Sanfilippo"},
+        {"name": "Rubén Héctor Sosa", "out": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Carlos Timoteo Griguol", "out": ""},
         {"name": "Oreste Omar Corbatta", "in": ""},
         {"name": "Juan Hector Guidi", "out": ""},
@@ -15673,7 +15673,7 @@
     "goals": [
       [
         {"name": "Marcelo Pagani", "type": "G"},
-        {"name": "José Francisco Sanfilippo", "type": "G"},
+        {"name": "José Sanfilippo", "type": "G"},
         {"name": "Luis Artime", "type": "G"},
         {"name": "Oreste Omar Corbatta", "type": "P"},
         {"name": "Oreste Omar Corbatta", "type": "G"}
@@ -15687,16 +15687,16 @@
         {"name": "Edgardo Norberto Andrada", "in": ""},
         {"name": "José Ramos Delgado"},
         {"name": "Antonio Rattin"},
-        {"name": "Carlos Alberto Sainz"},
+        {"name": "Alberto Sainz"},
         {"name": "Luis Artime", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "José Francisco Sanfilippo", "out": ""},
+        {"name": "José Sanfilippo", "out": ""},
         {"name": "Alberto González", "in": ""},
         {"name": "F Cielinsky"},
         {"name": "Juan José Pizzuti", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Miguel Angel Vidal"}
       ],
       [
@@ -15727,7 +15727,7 @@
     "score": [1, 2],
     "result": "L",
     "goals": [
-      [{"name": "Raul Oscar Belen", "type": "G"}],
+      [{"name": "Raúl Belén", "type": "G"}],
       [
         {"name": "Viktor Ponedielnik", "min": "24", "type": "G"},
         {"name": "Viktor Ponedielnik", "min": "25", "type": "G"}
@@ -15740,11 +15740,11 @@
         {"name": "José Ramos Delgado"},
         {"name": "Federico Sacchi"},
         {"name": "Luis Artime", "out": ""},
-        {"name": "Martin Esteban Pando", "in": ""},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Martín Pando", "in": ""},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "José Sanfilippo"},
         {"name": "Carlos Timoteo Griguol", "out": ""},
         {"name": "Antonio Rattin", "in": ""},
         {"name": "Juan José Pizzuti"},
@@ -15802,7 +15802,7 @@
     "result": "D",
     "goals": [
       [{"name": "Emilio Alvarez", "type": "G"}],
-      [{"name": "Ruben Hector Sosa", "type": "G"}]
+      [{"name": "Rubén Héctor Sosa", "type": "G"}]
     ],
     "lineups": [
       [
@@ -15821,13 +15821,13 @@
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Vladislao Cap"},
         {"name": "Alberto Jorge Mariotti"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta"},
-        {"name": "Ruben Hector Sosa"},
+        {"name": "Rubén Héctor Sosa"},
         {"name": "J Abeledo"},
         {"name": "Carmelo Simeone"},
         {"name": "R Suarez"}
@@ -15849,16 +15849,16 @@
     "lineups": [
       [
         {"name": "Antonio Roma"},
-        {"name": "Vladislao Wenceslao Cap"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Vladislao Cap"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin"},
-        {"name": "Carlos Alberto Sainz"},
+        {"name": "Alberto Sainz"},
         {"name": "Luis Artime", "out": ""},
         {"name": "Marcelo Pagani", "in": ""},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "Oreste Omar Corbatta", "out": ""},
-        {"name": "Hector Osvaldo Facundo", "in": ""},
-        {"name": "José Francisco Sanfilippo"},
+        {"name": "Héctor Facundo", "in": ""},
+        {"name": "José Sanfilippo"},
         {"name": "J Abeledo"},
         {"name": "Miguel Angel Vidal"}
       ],
@@ -15882,14 +15882,13 @@
   {
     "date": "1962-05-30",
     "competition": "World Cup",
-    "venue": {"name": "Braden, Rancagua"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio El Teniente", "city": "Rancagua"},
     "teams": [{"name": "Argentina"}, {"name": "Bulgaria"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [
-      [{"name": "Hector Osvaldo Facundo", "min": "4", "type": "G"}],
-      []
-    ],
+    "goals": [[{"name": "Héctor Facundo", "min": "4", "type": "G"}], []],
+    "cards": [[{"name": "Rubén Marino Navarro", "min": "1", "type": "R"}], []],
     "coaches": [
       {"name": "Juan Carlos Lorenzo"},
       {"name": "Georgi Pantchedjiev"}
@@ -15897,114 +15896,121 @@
     "lineups": [
       [
         {"name": "Antonio Roma"},
+        {"name": "Alberto Sainz"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Raúl Páez"},
         {"name": "Silvio Marzolini"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Raul Paez"},
-        {"name": "Carlos Alberto Sainz"},
-        {"name": "Oscar Raul Rossi"},
         {"name": "Federico Sacchi"},
-        {"name": "Raul Oscar Belen"},
-        {"name": "Hector Osvaldo Facundo"},
+        {"name": "Héctor Facundo"},
+        {"name": "Oscar Rossi"},
         {"name": "Marcelo Pagani"},
-        {"name": "José Francisco Sanfilippo"}
+        {"name": "Raúl Belén"},
+        {"name": "José Sanfilippo"}
       ],
       [
         {"name": "Georgi Naydenov"},
         {"name": "Ivan Dimitrov"},
-        {"name": "Dimitar Kostov"},
         {"name": "Kiril Rakarov"},
-        {"name": "Todor Diev"},
-        {"name": "Stoyan Kitov"},
+        {"name": "Dimitar Kostov"},
+        {"name": "Dimitar Yakimov"},
         {"name": "Nikola Kovachev"},
+        {"name": "Stoyan Kitov"},
+        {"name": "Todor Diev"},
         {"name": "Hristo Iliev"},
         {"name": "Ivan Kolev"},
-        {"name": "Petar Velichkov"},
-        {"name": "Dimitar Yakimov"}
+        {"name": "Petar Velichkov"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1962-06-02",
     "competition": "World Cup",
-    "venue": {"name": "Braden, Rancagua"},
+    "round": "Group Stage",
+    "venue": {"name": "Estadio El Teniente", "city": "Rancagua"},
     "teams": [{"name": "England"}, {"name": "Argentina"}],
     "score": [3, 1],
     "result": "L",
     "goals": [
       [
-        {"name": "Ron Flowers", "min": "18", "type": "P"},
+        {"name": "Ron Flowers", "min": "17", "type": "P"},
         {"name": "Bobby Charlton", "min": "42", "type": "G"},
         {"name": "Jimmy Greaves", "min": "67", "type": "G"}
       ],
-      [{"name": "José Francisco Sanfilippo", "min": "81", "type": "G"}]
+      [{"name": "José Sanfilippo", "min": "81", "type": "G"}]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Alfred Ramsey"}, {"name": "Juan Carlos Lorenzo"}],
     "lineups": [
       [
         {"name": "Ron Springett"},
         {"name": "Jimmy Armfield"},
-        {"name": "Bobby Moore"},
         {"name": "Maurice Norman"},
+        {"name": "Bobby Moore"},
         {"name": "Ray Wilson"},
         {"name": "Ron Flowers"},
-        {"name": "Bobby Charlton"},
+        {"name": "Alan Peacock"},
         {"name": "Bryan Douglas"},
         {"name": "Jimmy Greaves"},
         {"name": "Johnny Haynes"},
-        {"name": "Alan Peacock"}
+        {"name": "Bobby Charlton"}
       ],
       [
         {"name": "Antonio Roma"},
-        {"name": "Vladislao Wenceslao Cap"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Raúl Páez"},
         {"name": "Silvio Marzolini"},
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Raul Paez"},
+        {"name": "Vladislao Cap"},
         {"name": "Antonio Rattin"},
         {"name": "Federico Sacchi"},
-        {"name": "Raul Oscar Belen"},
         {"name": "Juan Carlos Oleniak"},
-        {"name": "José Francisco Sanfilippo"},
-        {"name": "Ruben Hector Sosa"}
+        {"name": "Raúl Belén"},
+        {"name": "Rubén Héctor Sosa"},
+        {"name": "José Sanfilippo"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1962-06-06",
     "competition": "World Cup",
-    "venue": {"name": "Braden, Rancagua"},
-    "teams": [{"name": "Argentina"}, {"name": "Hungary"}],
+    "round": "Group Stage",
+    "venue": {"name": "Estadio El Teniente", "city": "Rancagua"},
+    "teams": [{"name": "Hungary"}, {"name": "Argentina"}],
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
+    "cards": [[], []],
     "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Lajos Baroti"}],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
-        {"name": "Vladislao Wenceslao Cap"},
-        {"name": "Silvio Marzolini"},
-        {"name": "Raul Paez"},
-        {"name": "José Ramos Delgado"},
-        {"name": "Federico Sacchi"},
-        {"name": "Hector Osvaldo Facundo"},
-        {"name": "Alberto González"},
-        {"name": "Juan Carlos Oleniak"},
-        {"name": "Marcelo Pagani"},
-        {"name": "Martin Esteban Pando"}
+        {"name": "Gyula Grosics"},
+        {"name": "Kálmán Mészöly"},
+        {"name": "Laszlo Sarosi"},
+        {"name": "Sándor Mátrai"},
+        {"name": "Erno Solymosi"},
+        {"name": "Ferenc Sipos"},
+        {"name": "János Göröcs"},
+        {"name": "Bela Kuharszki"},
+        {"name": "Gyula Rakosi"},
+        {"name": "Lajos Tichy"},
+        {"name": "Tivadar Monostori"}
       ],
       [
-        {"name": "Gyula Grosics"},
-        {"name": "Sandor Matrai"},
-        {"name": "Kalman Meszoly"},
-        {"name": "Laszlo Sarosi"},
-        {"name": "Gyula Rakosi"},
-        {"name": "Ferenc Sipos"},
-        {"name": "Erno Solymosi"},
-        {"name": "Janos Gorocs"},
-        {"name": "Bela Kuharszki"},
-        {"name": "Tivadar Monostori"},
-        {"name": "Lajos Tichy"}
+        {"name": "Rogelio Domínguez"},
+        {"name": "Alberto Sainz"},
+        {"name": "Silvio Marzolini"},
+        {"name": "Vladislao Cap"},
+        {"name": "Federico Sacchi"},
+        {"name": "Héctor Facundo"},
+        {"name": "José Ramos Delgado"},
+        {"name": "Alberto Mario González"},
+        {"name": "Juan Carlos Oleniak"},
+        {"name": "Marcelo Pagani"},
+        {"name": "Martín Pando"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1962-08-15",
@@ -16023,18 +16029,18 @@
     ],
     "lineups": [
       [
-        {"name": "Rogelio Antonio Dominguez"},
+        {"name": "Rogelio Domínguez"},
         {"name": "Silvio Marzolini"},
         {"name": "José Ramos Delgado"},
         {"name": "Antonio Rattin"},
-        {"name": "Carlos Alberto Sainz"},
+        {"name": "Alberto Sainz"},
         {"name": "José Varacka"},
         {"name": "Alberto González"},
         {"name": "Marcelo Pagani", "out": ""},
         {"name": "Daniel Willington", "in": ""},
         {"name": "Ernesto Grillo"},
-        {"name": "Ernesto Humberto Juarez"},
-        {"name": "Cesar Luis Menotti"}
+        {"name": "Ernesto Juárez"},
+        {"name": "César Luis Menotti"}
       ],
       [
         {"name": "José Sosa"},
@@ -16082,16 +16088,16 @@
         {"name": "G Ramirez"}
       ],
       [
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi"},
         {"name": "Luis Artime"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "A Broockers"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Carlos Timoteo Griguol"},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Rafael Maldonado"},
-        {"name": "Cesar Luis Menotti"},
+        {"name": "César Luis Menotti"},
         {"name": "Carmelo Simeone"}
       ]
     ]
@@ -16106,8 +16112,8 @@
     "goals": [[{"name": "Luis Artime", "type": "G"}], []],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi"},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi"},
         {"name": "Luis Artime"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "A Broockers", "out": ""},
@@ -16115,9 +16121,9 @@
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Carlos Timoteo Griguol", "out": ""},
         {"name": "Rafael Albrecht", "in": ""},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Rafael Maldonado"},
-        {"name": "Cesar Luis Menotti", "out": ""},
+        {"name": "César Luis Menotti", "out": ""},
         {"name": "Mario Rodriguez", "in": ""},
         {"name": "Carmelo Simeone"}
       ],
@@ -16160,16 +16166,16 @@
     ],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Rafael Albrecht", "out": ""},
         {"name": "Carlos Timoteo Griguol", "in": ""},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Enrique S Fernandez", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Oscar Rossi", "in": ""},
+        {"name": "Ernesto Juárez"},
         {"name": "Oscar Raimundo Martin"},
-        {"name": "Cesar Luis Menotti", "out": ""},
+        {"name": "César Luis Menotti", "out": ""},
         {"name": "Mario Rodriguez", "in": ""},
         {"name": "Raul Armando Savoy"},
         {"name": "José Ricardo Vazquez"},
@@ -16206,16 +16212,16 @@
     ],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
-        {"name": "Oscar Raul Rossi", "out": ""},
+        {"name": "Rubén Marino Navarro"},
+        {"name": "Oscar Rossi", "out": ""},
         {"name": "Mario Rodriguez", "in": ""},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Raul Emilio Bernao", "out": ""},
-        {"name": "Ernesto Humberto Juarez", "in": ""},
+        {"name": "Ernesto Juárez", "in": ""},
         {"name": "Mario Roque Ditro"},
         {"name": "Carlos Timoteo Griguol"},
         {"name": "Oscar Raimundo Martin"},
-        {"name": "Cesar Luis Menotti"},
+        {"name": "César Luis Menotti"},
         {"name": "Raul Armando Savoy"},
         {"name": "José Ricardo Vazquez"},
         {"name": "Roberto Hector Zarate", "out": ""},
@@ -16259,14 +16265,14 @@
     ],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Mario Roque Ditro", "out": ""},
         {"name": "Roberto Ferreiro", "in": ""},
         {"name": "Mario Fernandez", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Carlos Timoteo Griguol"},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Oscar Raimundo Martin"},
         {"name": "Mario Rodriguez"},
         {"name": "Raul Armando Savoy"},
@@ -16299,7 +16305,7 @@
     "goals": [
       [
         {"name": "Raul Armando Savoy", "type": "G"},
-        {"name": "Ernesto Humberto Juarez", "type": "G"},
+        {"name": "Ernesto Juárez", "type": "G"},
         {"name": "Mario Rodriguez", "type": "G"}
       ],
       []
@@ -16307,14 +16313,14 @@
     "coaches": [null, {"name": "Aymore Moreira"}],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro", "out": ""},
+        {"name": "Rubén Marino Navarro", "out": ""},
         {"name": "Norberto J Bautista", "in": ""},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Mario Roque Ditro", "out": ""},
         {"name": "Nestor Lucas Cardoso", "in": ""},
         {"name": "Mario Fernandez"},
         {"name": "Carlos Timoteo Griguol"},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Oscar Raimundo Martin"},
         {"name": "Mario Rodriguez"},
         {"name": "Raul Armando Savoy"},
@@ -16370,13 +16376,13 @@
         {"name": "Eulogio Vargas"}
       ],
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Enrique S Fernandez", "out": ""},
         {"name": "Jorge Hugo Fernandez", "in": ""},
         {"name": "Carlos Timoteo Griguol"},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Oscar Raimundo Martin", "out": ""},
         {"name": "Roberto Ferreiro", "in": ""},
         {"name": "Mario Rodriguez"},
@@ -16399,15 +16405,15 @@
     ],
     "lineups": [
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Norberto J Bautista"},
         {"name": "Nestor Lucas Cardoso"},
         {"name": "Enrique S Fernandez", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Jorge Hugo Fernandez"},
         {"name": "Carlos Timoteo Griguol"},
-        {"name": "Ernesto Humberto Juarez", "out": ""},
+        {"name": "Ernesto Juárez", "out": ""},
         {"name": "Juan Carlos Lallana", "in": ""},
         {"name": "Oscar Raimundo Martin"},
         {"name": "Raul Armando Savoy"},
@@ -16443,7 +16449,7 @@
         {"name": "Macia José Pepe", "type": "G"}
       ],
       [
-        {"name": "Ernesto Humberto Juarez", "type": "G"},
+        {"name": "Ernesto Juárez", "type": "G"},
         {"name": "Juan Carlos Lallana", "type": "G"},
         {"name": "Juan Carlos Lallana", "type": "G"}
       ]
@@ -16464,13 +16470,13 @@
         {"name": "José Zequinha"}
       ],
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "L Cielinsky", "out": ""},
         {"name": "José Agustin Messiano", "in": ""},
         {"name": "Enrique S Fernandez"},
         {"name": "David Carmelo Inigo"},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Juan Carlos Lallana"},
         {"name": "Claudio Javier Lorenzo", "out": ""},
         {"name": "Mario Rodriguez", "in": ""},
@@ -16519,17 +16525,17 @@
         {"name": "Mauro Ramos de Oliveira"}
       ],
       [
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "L Cielinsky"},
         {"name": "Enrique S Fernandez"},
         {"name": "David Carmelo Inigo", "out": ""},
         {"name": "M Decaria", "in": ""},
-        {"name": "Ernesto Humberto Juarez"},
+        {"name": "Ernesto Juárez"},
         {"name": "Juan Carlos Lallana", "out": ""},
         {"name": "Mario Rodriguez", "in": ""},
         {"name": "Claudio Javier Lorenzo", "out": ""},
-        {"name": "Cesar Luis Menotti", "in": ""},
+        {"name": "César Luis Menotti", "in": ""},
         {"name": "Oscar Raimundo Martin"},
         {"name": "Raul Armando Savoy"},
         {"name": "José Ricardo Vazquez"}
@@ -16572,7 +16578,7 @@
       [
         {"name": "Amadeo Raul Carrizo"},
         {"name": "Roberto Ferreiro"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin"},
         {"name": "Ermindo Onega", "out": ""},
         {"name": "Daniel Willington", "in": ""},
@@ -16581,7 +16587,7 @@
         {"name": "Luis Artime"},
         {"name": "R Bonsuck"},
         {"name": "Enrique S Fernandez", "out": ""},
-        {"name": "Oscar Raul Rossi", "in": ""},
+        {"name": "Oscar Rossi", "in": ""},
         {"name": "Raul Armando Savoy"},
         {"name": "M Suarez"}
       ]
@@ -16597,7 +16603,7 @@
     "result": "L",
     "goals": [
       [
-        {"name": "Cesar Luis Menotti", "type": "G"},
+        {"name": "César Luis Menotti", "type": "G"},
         {"name": "Luis Artime", "type": "G"}
       ],
       [
@@ -16611,16 +16617,16 @@
         {"name": "Amadeo Raul Carrizo", "out": ""},
         {"name": "Edgardo Norberto Andrada", "in": ""},
         {"name": "Roberto Ferreiro"},
-        {"name": "Ruben Marino Navarro"},
+        {"name": "Rubén Marino Navarro"},
         {"name": "Antonio Rattin", "out": ""},
         {"name": "Federico Sacchi", "in": ""},
         {"name": "Ermindo Onega"},
         {"name": "José Varacka"},
         {"name": "Luis Artime"},
-        {"name": "Raul Oscar Belen"},
+        {"name": "Raúl Belén"},
         {"name": "R Bonsuck"},
         {"name": "Enrique S Fernandez"},
-        {"name": "Cesar Luis Menotti", "out": ""},
+        {"name": "César Luis Menotti", "out": ""},
         {"name": "Daniel Willington", "in": ""}
       ],
       [
@@ -17304,7 +17310,7 @@
     "score": [1, 2],
     "result": "W",
     "goals": [
-      [{"name": "José Manuel Ramos Delgado", "min": "35", "type": "OG"}],
+      [{"name": "José Ramos Delgado", "min": "35", "type": "OG"}],
       [
         {"name": "Luis Artime", "min": "31", "type": "G"},
         {"name": "Luis Artime", "min": "39", "type": "G"}
@@ -17476,7 +17482,7 @@
       [
         {"name": "Antonio Roma"},
         {"name": "Roberto Ferreiro", "out": "49"},
-        {"name": "Carlos Alberto Sainz", "in": "49"},
+        {"name": "Alberto Sainz", "in": "49"},
         {"name": "Silvio Marzolini"},
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
@@ -18144,7 +18150,7 @@
         {"name": "Luis Gregorio Gallo"},
         {"name": "J Lopez", "out": ""},
         {"name": "L Sinatra", "in": ""},
-        {"name": "Cesar Luis Menotti"},
+        {"name": "César Luis Menotti"},
         {"name": "Juan Carlos Rulli"}
       ]
     ]
@@ -18305,7 +18311,7 @@
         {"name": "Hector Alberto Ostua"},
         {"name": "Rubén Omar Sánchez"},
         {"name": "Carlos José Veglio", "out": ""},
-        {"name": "Cesar Luis Menotti", "in": ""}
+        {"name": "César Luis Menotti", "in": ""}
       ]
     ]
   },
@@ -18348,7 +18354,7 @@
         {"name": "Alberto Rendo"},
         {"name": "Jorge Solari"},
         {"name": "Rodolfo Fischer", "out": ""},
-        {"name": "Cesar Luis Menotti", "in": ""},
+        {"name": "César Luis Menotti", "in": ""},
         {"name": "Hector Yazalde"},
         {"name": "Alfio Basile"},
         {"name": "Oscar Miguel Malbernat"},
@@ -18469,7 +18475,7 @@
       [
         {"name": "Rodolfo Fischer", "type": "G"},
         {"name": "Rodolfo Fischer", "type": "G"},
-        {"name": "Cesar Luis Menotti", "type": "G"},
+        {"name": "César Luis Menotti", "type": "G"},
         {"name": "Carlos José Veglio", "type": "G"}
       ],
       []
@@ -18483,7 +18489,7 @@
         {"name": "Alfio Basile"},
         {"name": "Luis Gregorio Gallo"},
         {"name": "Raul Horacio Madero", "out": ""},
-        {"name": "Cesar Luis Menotti", "in": ""},
+        {"name": "César Luis Menotti", "in": ""},
         {"name": "Oscar Miguel Malbernat"},
         {"name": "Juan Carlos Rulli"},
         {"name": "Roberto Marcelo Salomone", "out": ""},
@@ -21476,7 +21482,7 @@
       [{"name": "Roberto Domingo Rogel", "min": "83", "type": "G"}],
       [{"name": "Pirri", "min": "82", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ladislao Kubala/28"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Ladislao Kubala/28"}],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -21567,7 +21573,7 @@
       [{"name": "C Galleti", "type": "P"}],
       [{"name": "Javier Mendez", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -21649,7 +21655,7 @@
       ],
       [{"name": "Ovidio Mezza", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [{"name": "Rene Alberto Alderete"}, {"name": "C Asteciano"}],
       [
@@ -21835,7 +21841,7 @@
       ],
       [{"name": "Leopoldo Luque", "type": "OG"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Daniel Killer"},
@@ -21876,7 +21882,7 @@
     "score": [0, 1],
     "result": "L",
     "goals": [[], [{"name": "Danival", "type": "G"}]],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Daniel Killer"},
@@ -21924,7 +21930,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ricardo La Volpe"},
@@ -22063,7 +22069,7 @@
       [{"name": "Mario Kempes", "type": "P"}],
       [{"name": "Zico", "type": "G"}, {"name": "Lula", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ricardo La Volpe"},
@@ -22151,7 +22157,7 @@
         {"name": "Rene Houseman", "min": "69", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Kazimierz Gorski"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Kazimierz Gorski"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Jerzy Gorgon"},
@@ -22199,7 +22205,7 @@
       ],
       []
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Sandor Gujdar"},
@@ -22248,7 +22254,7 @@
       ],
       [{"name": "Dario Pereyra", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22297,7 +22303,7 @@
         {"name": "Francisco Riveros", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ricardo La Volpe"},
@@ -22341,7 +22347,7 @@
       [{"name": "Lula", "type": "G"}, {"name": "Neca", "type": "G"}],
       []
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Waldir Peres"},
@@ -22388,7 +22394,7 @@
         {"name": "Rene Houseman", "type": "G"}
       ]
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Rodolfo Rodriguez"},
@@ -22435,7 +22441,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22484,7 +22490,7 @@
         {"name": "Alfredo Quesada", "min": "90", "type": "OG"}
       ]
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Ruben Toribio Diaz"},
@@ -22525,7 +22531,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Daniel Passarella", "min": "62", "type": "G"}], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -22566,7 +22572,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22608,7 +22614,7 @@
     "score": [2, 0],
     "result": "L",
     "goals": [[], []],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [[], []]
   },
   {
@@ -22628,7 +22634,7 @@
       ],
       [{"name": "Sandor Zombori", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Lajos Baroti"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Lajos Baroti"}],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22673,7 +22679,7 @@
     "pen": [4, 1],
     "result": "W",
     "goals": [[{"name": "Daniel Bertoni", "type": "P"}], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Hesmat Mohajerani"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Hesmat Mohajerani"}],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22712,7 +22718,7 @@
       [{"name": "Daniel Killer", "type": "Y"}],
       [{"name": "Wojciech Rudy", "type": "Y"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Jacek Gmoch"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Jacek Gmoch"}],
     "lineups": [
       [
         {"name": "Jorge Carrascosa"},
@@ -22765,7 +22771,7 @@
         {"name": "Klaus Fischer", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Helmut Schon"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Helmut Schon"}],
     "lineups": [
       [
         {"name": "Jorge Carrascosa", "out": "46"},
@@ -22814,7 +22820,7 @@
       [{"name": "Daniel Bertoni", "min": "74", "type": "R"}],
       [{"name": "Trevor Cherry", "min": "74", "type": "R"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Don Revie"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Don Revie"}],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -22858,7 +22864,7 @@
       [{"name": "Daniel Passarella", "type": "P"}],
       [{"name": "Don Masson", "type": "P"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ally MacLeod"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Ally MacLeod"}],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -22898,7 +22904,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Michel Hidalgo"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Michel Hidalgo"}],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -22943,7 +22949,7 @@
     "result": "W",
     "goals": [[{"name": "Daniel Passarella", "min": "32", "type": "P"}], []],
     "coaches": [
-      {"name": "Cesar Luis Menotti"},
+      {"name": "César Luis Menotti"},
       {"name": "Stevan Vilotic / Gojko Zec"}
     ],
     "lineups": [
@@ -22994,7 +23000,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -23042,7 +23048,7 @@
       ],
       [{"name": "Adalberto Escobar", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -23084,7 +23090,7 @@
     "pen": [3, 1],
     "result": "L",
     "goals": [[{"name": "Alberto Tarantini", "type": "OG"}], []],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Secundino Aifuch"},
@@ -23133,7 +23139,7 @@
       ],
       [{"name": "Percy Rojas", "min": "89", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23186,7 +23192,7 @@
     ],
     "coaches": [
       {"name": "Marcos Calderon Medrano"},
-      {"name": "Cesar Luis Menotti"}
+      {"name": "César Luis Menotti"}
     ],
     "lineups": [
       [
@@ -23238,7 +23244,7 @@
       ],
       [{"name": "Nikolai Grincharov", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23285,7 +23291,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Stefan Kovacs"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Stefan Kovacs"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23338,7 +23344,7 @@
       ],
       [{"name": "Synan Braddish", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23387,7 +23393,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Raul Bentancor"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Raul Bentancor"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Rodolfo Rodriguez"},
@@ -23435,7 +23441,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23495,7 +23501,7 @@
         {"name": "Tibor Nyilasi", "min": "90", "type": "R"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Lajos Baroti"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Lajos Baroti"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23548,7 +23554,7 @@
       [{"name": "Michel Platini", "min": "61", "type": "G"}]
     ],
     "cards": [[], [{"name": "Didier Six", "min": "53", "type": "Y"}]],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Michel Hidalgo"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Michel Hidalgo"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23595,7 +23601,7 @@
     "result": "L",
     "goals": [[{"name": "Roberto Bettega", "min": "68", "type": "G"}], []],
     "cards": [[{"name": "Romeo Benetti", "min": "61", "type": "Y"}], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Enzo Bearzot"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Enzo Bearzot"}],
     "lineups": [
       [
         {"name": "Dino Zoff"},
@@ -23651,7 +23657,7 @@
       [{"name": "Americo Gallego", "min": "44", "type": "Y"}],
       [{"name": "Henryk Maculewicz", "min": "43", "type": "Y"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Jacek Gmoch"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Jacek Gmoch"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23705,7 +23711,7 @@
         {"name": "Zico", "min": "74", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Claudio Coutinho"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Claudio Coutinho"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23771,7 +23777,7 @@
       ]
     ],
     "coaches": [
-      {"name": "Cesar Luis Menotti"},
+      {"name": "César Luis Menotti"},
       {"name": "Marcos Calderon Medrano"}
     ],
     "lineups": [
@@ -23837,7 +23843,7 @@
         {"name": "Jan Poortvliet", "min": "97", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ernst Happel"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Ernst Happel"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23886,7 +23892,7 @@
       ],
       [{"name": "Hristo Bonev", "min": "10", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23930,7 +23936,7 @@
     "pen": [8, 7],
     "result": "W",
     "goals": [[], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ernst Happel"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Ernst Happel"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -23983,7 +23989,7 @@
         {"name": "Daniel Passarella", "min": "56", "type": "P"}
       ]
     ],
-    "coaches": [{"name": "Enzo Bearzot"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Enzo Bearzot"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Dino Zoff"},
@@ -24022,7 +24028,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [{"name": "Johnny Giles"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Johnny Giles"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Gerry Peyton"},
@@ -24071,7 +24077,7 @@
         {"name": "Diego Maradona", "min": "70", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Jock Stein"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Jock Stein"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Alan Rough", "out": "46"},
@@ -24117,7 +24123,7 @@
       [{"name": "Zico", "min": "68", "type": "G"}]
     ],
     "coaches": [
-      {"name": "Cesar Luis Menotti"},
+      {"name": "César Luis Menotti"},
       {"name": "Vincenzo Bearzot (Italy)"}
     ],
     "lineups": [
@@ -24167,7 +24173,7 @@
       ],
       [{"name": "Carlos Angel Lopez", "type": "G"}]
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Carlos Borja"},
@@ -24211,7 +24217,7 @@
       [{"name": "Tita", "type": "G"}, {"name": "Zico", "type": "G"}],
       [{"name": "Hugo Oscar Coscia", "type": "G"}]
     ],
-    "coaches": [null, {"name": "Cesar Luis Menotti"}],
+    "coaches": [null, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Emerson Leao"},
@@ -24354,7 +24360,7 @@
       ],
       [{"name": "José Antonio Castro", "min": "84", "type": "G"}]
     ],
-    "coaches": [{"name": "Jupp Derwall"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Jupp Derwall"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Dieter Burdenski"},
@@ -24406,7 +24412,7 @@
         {"name": "Roberto Osvaldo Diaz", "min": "90", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Miljan Miljanic"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Miljan Miljanic"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Milos Hrstic", "out": "46"},
@@ -24504,7 +24510,7 @@
       ],
       [{"name": "Daniel Passarella", "min": "53", "type": "P"}]
     ],
-    "coaches": [{"name": "Ron Greenwood"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Ron Greenwood"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Ray Clemence"},
@@ -24551,7 +24557,7 @@
       [{"name": "Dave Langan", "type": "Y"}],
       [{"name": "Americo Gallego", "type": "Y"}]
     ],
-    "coaches": [{"name": "Eoin Hand"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Eoin Hand"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Gerry Peyton"},
@@ -24601,7 +24607,7 @@
         {"name": "Diego Maradona", "min": "89", "type": "G"}
       ]
     ],
-    "coaches": [{"name": "Karl Stotz"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Karl Stotz"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Friedl Koncilia"},
@@ -24745,7 +24751,7 @@
       ],
       [{"name": "Włodzimierz Ciołek", "min": "51", "type": "P"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Ryszard Kulesza"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Ryszard Kulesza"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25021,7 +25027,7 @@
       ]
     ],
     "cards": [[{"name": "Daniel Passarella", "type": "Y"}], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Antoni Piechniczek"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Antoni Piechniczek"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25064,7 +25070,7 @@
       [{"name": "Americo Gallego", "min": "71", "type": "G"}],
       [{"name": "Zdenek Valek", "min": "14", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25105,7 +25111,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Dr Jozef Venglos"}],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -25152,7 +25158,7 @@
       [{"name": "Gabriel Calderon", "min": "67", "type": "G"}],
       [{"name": "Wolfgang Dremmler", "min": "33", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Jupp Derwall"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Jupp Derwall"}],
     "lineups": [
       [
         {"name": "Hector Baley"},
@@ -25197,7 +25203,7 @@
       [{"name": "Roberto Osvaldo Diaz", "min": "42", "type": "G"}],
       [{"name": "Khoren Oganesian", "min": "68", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25244,7 +25250,7 @@
       ],
       [{"name": "Stoicho Mladenov", "min": "2", "type": "G"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25287,7 +25293,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Roberto Osvaldo Diaz", "min": "56", "type": "G"}], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Mircea Lucescu"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Mircea Lucescu"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25334,7 +25340,7 @@
       [{"name": "Daniel Bertoni", "min": "56", "type": "Y"}],
       [{"name": "Luc Millecamps", "min": "51", "type": "Y"}]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Guy Thijs"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Guy Thijs"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25384,7 +25390,7 @@
       [{"name": "Gabor Pölöskei", "min": "76", "type": "G"}]
     ],
     "cards": [[], []],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Kalman Meszoly"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Kalman Meszoly"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25445,7 +25451,7 @@
         {"name": "Carlos Recinos", "min": "45", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Maurico Rodriguez"}],
+    "coaches": [{"name": "César Luis Menotti"}, {"name": "Maurico Rodriguez"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
@@ -25507,7 +25513,7 @@
         {"name": "Americo Gallego", "min": "84", "type": "R"}
       ]
     ],
-    "coaches": [{"name": "Enzo Bearzot"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Enzo Bearzot"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Dino Zoff"},
@@ -25568,7 +25574,7 @@
         {"name": "Falcão", "min": "87", "type": "Y"}
       ]
     ],
-    "coaches": [{"name": "Tele Santana Silva"}, {"name": "Cesar Luis Menotti"}],
+    "coaches": [{"name": "Tele Santana Silva"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
