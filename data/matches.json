@@ -21592,11 +21592,11 @@
     "lineups": [
       [],
       [
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Ossie Ardiles"},
         {"name": "Miguel Oviedo", "out": ""},
         {"name": "C Gierdano", "in": ""},
-        {"name": "José Valencia", "out": ""},
+        {"name": "José Daniel Valencia", "out": ""},
         {"name": "J Rafael", "in": ""},
         {"name": "Rene Alberto Alderete", "out": ""},
         {"name": "V Ludana", "in": ""},
@@ -21727,7 +21727,7 @@
         {"name": "Daniel Killer"},
         {"name": "Americo Gallego"},
         {"name": "Mario Kempes", "out": ""},
-        {"name": "José Valencia", "in": ""},
+        {"name": "José Daniel Valencia", "in": ""},
         {"name": "Leopoldo Luque"},
         {"name": "Julio Daniel Asad"},
         {"name": "Ramon Cesar Boveda"},
@@ -21822,7 +21822,7 @@
         {"name": "José Luis Pavoni"},
         {"name": "Andrés Orlando Rebottaro"},
         {"name": "Mario Nicasio Zanabria", "out": ""},
-        {"name": "José Valencia", "in": ""}
+        {"name": "José Daniel Valencia", "in": ""}
       ],
       [
         {"name": "Andrés Arizaleta"},
@@ -21890,7 +21890,7 @@
       [
         {"name": "Hugo Oscar Coscia", "type": "G"},
         {"name": "Hugo Oscar Coscia", "type": "G"},
-        {"name": "José Valencia", "type": "G"},
+        {"name": "José Daniel Valencia", "type": "G"},
         {"name": "Ossie Ardiles", "type": "G"},
         {"name": "Ossie Ardiles", "type": "G"},
         {"name": "C Cardenas", "type": "G"}
@@ -21903,7 +21903,7 @@
         {"name": "Ricardo La Volpe"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "C Asteciano"},
         {"name": "C Cardenas"},
         {"name": "Hugo Oscar Coscia"},
@@ -21960,7 +21960,7 @@
         {"name": "Ricardo La Volpe"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": "86"},
+        {"name": "José Daniel Valencia", "out": "86"},
         {"name": "Boccarelli", "in": "86"},
         {"name": "C Asteciano"},
         {"name": "C Cardenas"},
@@ -22342,7 +22342,7 @@
         {"name": "Rene Houseman"},
         {"name": "Mario Kempes"},
         {"name": "Leopoldo Luque", "out": ""},
-        {"name": "José Valencia", "in": ""}
+        {"name": "José Daniel Valencia", "in": ""}
       ]
     ]
   },
@@ -22418,7 +22418,7 @@
         {"name": "Ossie Ardiles"},
         {"name": "Daniel Bertoni"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman", "out": ""},
         {"name": "Ricky Villa", "in": ""},
         {"name": "Hugo Orlando Gatti"},
@@ -22482,7 +22482,7 @@
         {"name": "Ossie Ardiles"},
         {"name": "Daniel Bertoni"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman"},
         {"name": "Hugo Orlando Gatti"},
         {"name": "José Luis Saldano", "out": ""},
@@ -22507,7 +22507,7 @@
         {"name": "Alberto Tarantini"},
         {"name": "Daniel Bertoni"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Ricky Villa", "out": ""},
         {"name": "Ossie Ardiles", "in": ""},
         {"name": "Rene Houseman"},
@@ -22549,7 +22549,7 @@
         {"name": "Ossie Ardiles"},
         {"name": "Daniel Bertoni"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": ""},
+        {"name": "José Daniel Valencia", "out": ""},
         {"name": "Ricardo Bochini", "in": ""},
         {"name": "Rene Houseman"},
         {"name": "Hugo Orlando Gatti"},
@@ -22658,7 +22658,7 @@
         {"name": "Ricardo Bochini", "in": ""},
         {"name": "Americo Gallego"},
         {"name": "Ricky Villa", "out": ""},
-        {"name": "José Valencia", "in": ""},
+        {"name": "José Daniel Valencia", "in": ""},
         {"name": "Rene Houseman"},
         {"name": "Leopoldo Luque"},
         {"name": "Hugo Orlando Gatti"}
@@ -22972,7 +22972,7 @@
       [
         {"name": "Hector Baley"},
         {"name": "Jorge Carrascosa"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23020,7 +23020,7 @@
       [
         {"name": "Hector Baley"},
         {"name": "Jorge Carrascosa"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23110,14 +23110,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Ruben Pagnanini"},
         {"name": "Daniel Passarella"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego", "out": ""},
         {"name": "Miguel Oviedo", "in": ""},
         {"name": "Oscar Ortiz"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman"},
         {"name": "Leopoldo Luque", "out": ""},
         {"name": "Humberto Rafael Bravo", "in": ""},
@@ -23181,13 +23181,13 @@
       ],
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Ruben Pagnanini"},
         {"name": "Daniel Passarella"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
         {"name": "Oscar Ortiz"},
-        {"name": "José Valencia", "out": ""},
+        {"name": "José Daniel Valencia", "out": ""},
         {"name": "Omar Larrosa", "in": ""},
         {"name": "Rene Houseman", "out": ""},
         {"name": "Humberto Rafael Bravo", "in": ""},
@@ -23215,14 +23215,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Ruben Pagnanini"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
         {"name": "Oscar Ortiz"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman", "out": ""},
         {"name": "Daniel Bertoni", "in": ""},
         {"name": "Leopoldo Luque"}
@@ -23262,7 +23262,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23270,7 +23270,7 @@
         {"name": "Daniel Bertoni", "out": ""},
         {"name": "Humberto Rafael Bravo", "in": ""},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": ""},
+        {"name": "José Daniel Valencia", "out": ""},
         {"name": "Ricky Villa", "in": ""},
         {"name": "Rene Houseman"},
         {"name": "Leopoldo Luque"}
@@ -23315,7 +23315,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23378,14 +23378,14 @@
       ],
       [
         {"name": "Hector Baley"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Daniel Killer"},
         {"name": "Ruben Pagnanini"},
         {"name": "Daniel Bertoni"},
         {"name": "Ruben Galvan", "out": ""},
         {"name": "Miguel Oviedo", "in": ""},
         {"name": "Omar Larrosa", "out": ""},
-        {"name": "José Valencia", "in": ""},
+        {"name": "José Daniel Valencia", "in": ""},
         {"name": "Ricky Villa"},
         {"name": "Rene Houseman"},
         {"name": "Victor Bottaniz"},
@@ -23412,7 +23412,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23468,13 +23468,13 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": "75"},
+        {"name": "José Daniel Valencia", "out": "75"},
         {"name": "Norberto Alonso", "in": "75"},
         {"name": "Rene Houseman", "out": "67"},
         {"name": "Daniel Bertoni", "in": "67"},
@@ -23516,13 +23516,13 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": "64"},
+        {"name": "José Daniel Valencia", "out": "64"},
         {"name": "Norberto Alonso", "in": "64"},
         {"name": "Rene Houseman"},
         {"name": "Mario Kempes"},
@@ -23557,7 +23557,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23566,7 +23566,7 @@
         {"name": "Americo Gallego"},
         {"name": "Oscar Ortiz", "out": "72"},
         {"name": "Rene Houseman", "in": "72"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Mario Kempes"}
       ],
       [
@@ -23608,14 +23608,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Ossie Ardiles"},
         {"name": "Daniel Bertoni"},
         {"name": "Americo Gallego"},
-        {"name": "José Valencia", "out": "46"},
+        {"name": "José Daniel Valencia", "out": "46"},
         {"name": "Ricky Villa", "in": "46"},
         {"name": "Rene Houseman", "out": "83"},
         {"name": "Oscar Ortiz", "in": "83"},
@@ -23657,7 +23657,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23720,7 +23720,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23779,7 +23779,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -23916,7 +23916,7 @@
         {"name": "Paolo Rossi", "min": "55", "type": "G"}
       ],
       [
-        {"name": "José Valencia", "min": "7", "type": "G"},
+        {"name": "José Daniel Valencia", "min": "7", "type": "G"},
         {"name": "Daniel Passarella", "min": "56", "type": "P"}
       ]
     ],
@@ -23944,7 +23944,7 @@
         {"name": "Miguel Oviedo", "in": "68"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman"},
         {"name": "Leopoldo Luque"},
         {"name": "Hugo Villaverde"}
@@ -23983,7 +23983,7 @@
         {"name": "Enzo Trossero"},
         {"name": "Juan Barbas"},
         {"name": "Miguel Oviedo"},
-        {"name": "José Valencia", "out": "46"},
+        {"name": "José Daniel Valencia", "out": "46"},
         {"name": "Diego Maradona", "in": "46"},
         {"name": "Rene Houseman"},
         {"name": "Norberto Outes"},
@@ -24033,7 +24033,7 @@
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman", "out": "56"},
         {"name": "Norberto Outes", "in": "56"},
         {"name": "Leopoldo Luque"},
@@ -24060,14 +24060,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Ossie Ardiles"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Rene Houseman"},
         {"name": "Leopoldo Luque", "out": ""},
         {"name": "Norberto Outes", "in": ""}
@@ -24250,7 +24250,7 @@
         {"name": "Americo Gallego"},
         {"name": "Miguel Angel Bordon"},
         {"name": "Hugo Oscar Coscia", "out": ""},
-        {"name": "José Valencia", "in": ""},
+        {"name": "José Daniel Valencia", "in": ""},
         {"name": "Roberto Osvaldo Diaz"},
         {"name": "Sergio Elio Angel Fortunato", "out": ""},
         {"name": "José Antonio Castro", "in": ""},
@@ -24263,7 +24263,7 @@
         {"name": "Emerson Leao"},
         {"name": "Amaral"},
         {"name": "Edinho"},
-        {"name": "Junior"},
+        {"name": "Léo Júnior"},
         {"name": "Toninho"},
         {"name": "Batista"},
         {"name": "Carpegiani"},
@@ -24401,7 +24401,7 @@
         {"name": "Santiago Santamaria", "in": ""},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Roberto Osvaldo Diaz"},
         {"name": "Victorino Orlando Ocano"},
         {"name": "José Daniel Van Tuyne"},
@@ -24468,7 +24468,7 @@
         {"name": "Carlos Luis Ischia", "in": "53"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Leopoldo Luque"},
         {"name": "Santiago Santamaria", "out": "61"},
         {"name": "Roberto Osvaldo Diaz", "in": "61"},
@@ -24483,7 +24483,7 @@
     "teams": [{"name": "Ireland"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "José Valencia", "min": "28", "type": "G"}]],
+    "goals": [[], [{"name": "José Daniel Valencia", "min": "28", "type": "G"}]],
     "cards": [
       [{"name": "Dave Langan", "type": "Y"}],
       [{"name": "Americo Gallego", "type": "Y"}]
@@ -24514,7 +24514,7 @@
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Ramon Diaz", "out": "73"},
         {"name": "Gabriel Calderon", "in": "73"},
         {"name": "Santiago Santamaria"}
@@ -24564,7 +24564,7 @@
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia", "out": "46"},
+        {"name": "José Daniel Valencia", "out": "46"},
         {"name": "Carlos Luis Ischia", "in": "46"},
         {"name": "Leopoldo Luque"},
         {"name": "Santiago Santamaria", "out": "70"},
@@ -24583,7 +24583,7 @@
     "goals": [
       [
         {"name": "Roberto Osvaldo Diaz", "type": "G"},
-        {"name": "José Valencia", "type": "G"}
+        {"name": "José Daniel Valencia", "type": "G"}
       ],
       [
         {"name": "Sandrino Castec", "type": "G"},
@@ -24593,13 +24593,13 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Leopoldo Luque", "out": ""},
         {"name": "J Tapia", "in": ""},
         {"name": "Santiago Santamaria"},
@@ -24638,14 +24638,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Santiago Santamaria"},
         {"name": "Roberto Osvaldo Diaz"}
       ],
@@ -24686,14 +24686,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia", "out": "66"},
+        {"name": "José Daniel Valencia", "out": "66"},
         {"name": "Patricio José Hernandez", "in": "66"},
         {"name": "Santiago Santamaria", "out": "74"},
         {"name": "Leopoldo Luque", "in": "74"},
@@ -24729,7 +24729,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -24772,14 +24772,14 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
         {"name": "Juan Barbas"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Jorge Carlos Cecchi", "out": "73"},
         {"name": "Carlos Guillermo Fren", "in": "73"},
         {"name": "Roberto Osvaldo Diaz"}
@@ -24813,7 +24813,7 @@
       [
         {"name": "Roberto Osvaldo Diaz", "min": "5", "type": "G"},
         {"name": "Leopoldo Luque", "min": "9", "type": "G"},
-        {"name": "José Valencia", "min": "43", "type": "G"},
+        {"name": "José Daniel Valencia", "min": "43", "type": "G"},
         {"name": "Diego Maradona", "min": "45", "type": "G"},
         {"name": "Daniel Passarella", "min": "67", "type": "P"}
       ],
@@ -24822,7 +24822,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -24830,7 +24830,7 @@
         {"name": "Americo Gallego", "out": "67"},
         {"name": "José Daniel Van Tuyne", "in": "67"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia"},
+        {"name": "José Daniel Valencia"},
         {"name": "Leopoldo Luque", "out": "61"},
         {"name": "Jorge Carlos Cecchi", "in": "61"},
         {"name": "Roberto Osvaldo Diaz"}
@@ -24874,7 +24874,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -24884,7 +24884,7 @@
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
         {"name": "Mario Kempes", "out": "42"},
-        {"name": "José Valencia", "in": "42"},
+        {"name": "José Daniel Valencia", "in": "42"},
         {"name": "Roberto Osvaldo Diaz"}
       ],
       [
@@ -24916,7 +24916,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -24924,7 +24924,7 @@
         {"name": "Juan Barbas", "out": "85"},
         {"name": "Leopoldo Luque", "in": "85"},
         {"name": "Daniel Bertoni", "out": "46"},
-        {"name": "José Valencia", "in": "46"},
+        {"name": "José Daniel Valencia", "in": "46"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
         {"name": "Roberto Osvaldo Diaz"}
@@ -24932,7 +24932,7 @@
       [
         {"name": "Carlos"},
         {"name": "Edevaldo"},
-        {"name": "Junior"},
+        {"name": "Léo Júnior"},
         {"name": "Luizinho"},
         {"name": "Batista"},
         {"name": "Socrates"},
@@ -24972,7 +24972,7 @@
         {"name": "Mario Kempes"},
         {"name": "Luis Antonio Amuchastegui"},
         {"name": "Ricardo Gareca", "out": "60"},
-        {"name": "José Valencia", "in": "60"}
+        {"name": "José Daniel Valencia", "in": "60"}
       ],
       [
         {"name": "Jozef Mlynarczyk"},
@@ -25005,7 +25005,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -25052,7 +25052,7 @@
         {"name": "Juan Barbas"},
         {"name": "Gabriel Calderon"},
         {"name": "Diego Maradona"},
-        {"name": "José Valencia", "out": "66"},
+        {"name": "José Daniel Valencia", "out": "66"},
         {"name": "Raul de la Cruz Chaparro", "in": "66"},
         {"name": "Enzo Daniel Bulleri"},
         {"name": "Patricio José Hernandez"},
@@ -25093,7 +25093,7 @@
     "lineups": [
       [
         {"name": "Hector Baley"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -25138,7 +25138,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -25185,7 +25185,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -25197,7 +25197,7 @@
         {"name": "Jorge Valdano", "out": "80"},
         {"name": "Patricio José Hernandez", "in": "80"},
         {"name": "Roberto Osvaldo Diaz", "out": "72"},
-        {"name": "José Valencia", "in": "72"}
+        {"name": "José Daniel Valencia", "in": "72"}
       ],
       [
         {"name": "Plamen Nikolov"},
@@ -25228,7 +25228,7 @@
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
+        {"name": "Luis Galván"},
         {"name": "Jorge Olguin"},
         {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
@@ -25261,173 +25261,181 @@
   {
     "date": "1982-06-13",
     "competition": "World Cup",
-    "venue": {"name": "Nou Camp, Barcelona"},
+    "round": "1st Group Stage",
+    "venue": {"name": "Camp Nou", "city": "Barcelona"},
     "teams": [{"name": "Argentina"}, {"name": "Belgium"}],
     "score": [0, 1],
     "result": "L",
-    "goals": [[], [{"name": "Erwin Vandenbergh", "min": "82", "type": "G"}]],
+    "goals": [[], [{"name": "Erwin Vandenbergh", "min": "63", "type": "G"}]],
     "cards": [
-      [{"name": "Daniel Bertoni", "min": "55", "type": "Y"}],
-      [{"name": "Luc Millecamps", "min": "50", "type": "Y"}]
+      [{"name": "Daniel Bertoni", "min": "56", "type": "Y"}],
+      [{"name": "Luc Millecamps", "min": "51", "type": "Y"}]
     ],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Guy Thijs"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
-        {"name": "Jorge Olguin"},
-        {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
-        {"name": "Ossie Ardiles"},
-        {"name": "Daniel Bertoni"},
+        {"name": "Daniel Passarella"},
+        {"name": "Jorge Olguin"},
+        {"name": "Luis Galván"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "Ramon Diaz", "out": "63"},
-        {"name": "Jorge Valdano", "in": "63"},
-        {"name": "Mario Kempes"}
+        {"name": "Ossie Ardiles"},
+        {"name": "Daniel Bertoni"},
+        {"name": "Mario Kempes"},
+        {"name": "Ramón Díaz", "out": "63"},
+        {"name": "Jorge Valdano", "in": "63"}
       ],
       [
         {"name": "Jean-Marie Pfaff"},
-        {"name": "Marc Baecke"},
-        {"name": "Maurits de Schrijver"},
         {"name": "Eric Gerets"},
         {"name": "Luc Millecamps"},
-        {"name": "Ludovic Coeck"},
-        {"name": "Guy Vandersmissen"},
+        {"name": "Marc Baecke"},
+        {"name": "Maurits de Schrijver"},
         {"name": "Frankie Vercauteren"},
-        {"name": "Jan Ceulemans"},
+        {"name": "Ludovic Coeck"},
         {"name": "Alexandre Czerniatynski"},
-        {"name": "Erwin Vandenbergh"}
+        {"name": "Erwin Vandenbergh"},
+        {"name": "Guy Vandersmissen"},
+        {"name": "Jan Ceulemans"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1982-06-18",
     "competition": "World Cup",
-    "venue": {"name": "Estadio José Rico Pérez, Alicante"},
+    "round": "1st Group Stage",
+    "venue": {"name": "Estadio José Rico Pérez", "city": "Alicante"},
     "teams": [{"name": "Argentina"}, {"name": "Hungary"}],
     "score": [4, 1],
     "result": "W",
     "goals": [
       [
         {"name": "Daniel Bertoni", "min": "27", "type": "G"},
-        {"name": "Diego Maradona", "min": "28", "type": "G"},
+        {"name": "Diego Maradona", "min": "29", "type": "G"},
         {"name": "Diego Maradona", "min": "57", "type": "G"},
         {"name": "Ossie Ardiles", "min": "61", "type": "G"}
       ],
-      [{"name": "Gabor Poloskei", "min": "76", "type": "G"}]
+      [{"name": "Gabor Pölöskei", "min": "76", "type": "G"}]
     ],
+    "cards": [[], []],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Kalman Meszoly"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
-        {"name": "Jorge Olguin"},
-        {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini", "out": "51"},
         {"name": "Juan Barbas", "in": "51"},
-        {"name": "Ossie Ardiles"},
-        {"name": "Daniel Bertoni"},
+        {"name": "Daniel Passarella"},
+        {"name": "Jorge Olguin"},
+        {"name": "Luis Galván"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "Mario Kempes"},
-        {"name": "Jorge Valdano", "out": "25"},
-        {"name": "Gabriel Calderon", "in": "25"}
+        {"name": "Ossie Ardiles"},
+        {"name": "Daniel Bertoni"},
+        {"name": "Jorge Valdano", "out": "24"},
+        {"name": "Gabriel Calderón", "in": "24"},
+        {"name": "Mario Kempes"}
       ],
       [
         {"name": "Ferenc Meszaros"},
-        {"name": "Laszlo Balint"},
-        {"name": "Imre Garaba"},
         {"name": "Gyozo Martos", "out": "46"},
         {"name": "Laszlo Fazekas", "in": "46"},
-        {"name": "Tibor Rab"},
+        {"name": "Jozsef Tóth"},
+        {"name": "László Bálint"},
         {"name": "Sandor Sallai"},
         {"name": "Jozsef Varga"},
+        {"name": "Tibor Rab"},
+        {"name": "Imre Garaba"},
         {"name": "Tibor Nyilasi"},
-        {"name": "Jozsef Toth"},
-        {"name": "Laszlo Kiss", "out": "62"},
-        {"name": "Lazar Szentes", "in": "62"},
-        {"name": "Gabor Poloskei"}
+        {"name": "Gabor Pölöskei"},
+        {"name": "Laszlo Kiss", "out": "61"},
+        {"name": "Lazar Szentes", "in": "61"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1982-06-23",
     "competition": "World Cup",
-    "venue": {"name": "Estadio José Rico Pérez, Alicante"},
+    "round": "1st Group Stage",
+    "venue": {"name": "Estadio José Rico Pérez", "city": "Alicante"},
     "teams": [{"name": "Argentina"}, {"name": "El Salvador"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
-        {"name": "Daniel Passarella", "min": "22", "type": "P"},
-        {"name": "Daniel Bertoni", "min": "52", "type": "G"}
+        {"name": "Daniel Passarella", "min": "23", "type": "P"},
+        {"name": "Daniel Bertoni", "min": "53", "type": "G"}
       ],
       []
     ],
     "cards": [
       [
-        {"name": "Jorge Olguin", "min": "31", "type": "Y"},
+        {"name": "Jorge Olguin", "min": "32", "type": "Y"},
         {"name": "Americo Gallego", "min": "44", "type": "Y"}
       ],
       [
-        {"name": "Francisco Osorto", "min": "20", "type": "Y"},
-        {"name": "Luis Ramirez", "min": "26", "type": "Y"},
-        {"name": "Carlos Humberto Recinos", "min": "45", "type": "Y"}
+        {"name": "Francisco Osorto", "min": "22", "type": "Y"},
+        {"name": "Luis Ramírez", "min": "26", "type": "Y"},
+        {"name": "Carlos Recinos", "min": "45", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Cesar Luis Menotti"}, {"name": "Maurico Rodriguez"}],
     "lineups": [
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
-        {"name": "Jorge Olguin"},
-        {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
-        {"name": "Ossie Ardiles"},
-        {"name": "Daniel Bertoni", "out": "78"},
-        {"name": "Santiago Santamaria", "in": "78"},
-        {"name": "Gabriel Calderon", "out": "66"},
-        {"name": "Ramon Diaz", "in": "66"},
+        {"name": "Daniel Passarella"},
+        {"name": "Jorge Olguin"},
+        {"name": "Luis Galván"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
+        {"name": "Gabriel Calderón", "out": "78"},
+        {"name": "Santiago Santamaria", "in": "78"},
+        {"name": "Ossie Ardiles"},
+        {"name": "Daniel Bertoni", "out": "66"},
+        {"name": "Ramón Díaz", "in": "66"},
         {"name": "Mario Kempes"}
       ],
       [
         {"name": "Luis Guevara Mora"},
-        {"name": "Ramon Fagoaga"},
-        {"name": "José Francisco Jovel"},
-        {"name": "Francisco Osorto", "out": "34"},
-        {"name": "Miguel Angel Diaz", "in": "34"},
-        {"name": "Carlos Humberto Recinos"},
+        {"name": "Carlos Recinos"},
+        {"name": "Francisco Jovel"},
+        {"name": "Francisco Osorto", "out": "33"},
+        {"name": "Miguel Díaz Arvélado", "in": "33"},
         {"name": "Jaime Rodriguez"},
+        {"name": "Joaquin Ventura", "out": "78"},
+        {"name": "Mauricio Alfaro", "in": "78"},
         {"name": "Norberto Huezo"},
-        {"name": "Joaquin Ventura", "out": "79"},
-        {"name": "Mauricio Alfaro", "in": "79"},
-        {"name": "Jorge González"},
-        {"name": "Luis Ramirez"},
-        {"name": "José Rivas"}
+        {"name": "José Rivas"},
+        {"name": "José Luis Rugamas"},
+        {"name": "Luis Ramírez"},
+        {"name": "Jorge González"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1982-06-29",
     "competition": "World Cup",
-    "venue": {"name": "Sarria BARCELONA"},
+    "round": "2nd Group Stage",
+    "venue": {"name": "Estadio de Sarriá", "city": "Barcelona"},
     "teams": [{"name": "Italy"}, {"name": "Argentina"}],
     "score": [2, 1],
     "result": "L",
     "goals": [
       [
         {"name": "Marco Tardelli", "min": "56", "type": "G"},
-        {"name": "Antonio Cabrini", "min": "67", "type": "G"}
+        {"name": "Antonio Cabrini", "min": "68", "type": "G"}
       ],
       [{"name": "Daniel Passarella", "min": "83", "type": "G"}]
     ],
     "cards": [
       [
-        {"name": "Claudio Gentile", "min": "1", "type": "Y"},
-        {"name": "Paolo Rossi", "min": "15", "type": "Y"}
+        {"name": "Paolo Rossi", "min": "15", "type": "Y"},
+        {"name": "Claudio Gentile", "min": "42", "type": "Y"}
       ],
       [
         {"name": "Mario Kempes", "min": "32", "type": "Y"},
@@ -25441,91 +25449,96 @@
       [
         {"name": "Dino Zoff"},
         {"name": "Antonio Cabrini"},
-        {"name": "Fulvio Collovati"},
         {"name": "Claudio Gentile"},
+        {"name": "Fulvio Collovati"},
         {"name": "Gaetano Scirea"},
+        {"name": "Bruno Conti"},
         {"name": "Giancarlo Antognoni"},
         {"name": "Gabriele Oriali", "out": "75"},
         {"name": "Giampiero Marini", "in": "75"},
         {"name": "Marco Tardelli"},
-        {"name": "Bruno Conti"},
         {"name": "Francesco Graziani"},
         {"name": "Paolo Rossi", "out": "80"},
         {"name": "Alessandro Altobelli", "in": "80"}
       ],
       [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
-        {"name": "Jorge Olguin"},
-        {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
-        {"name": "Ossie Ardiles"},
-        {"name": "Daniel Bertoni"},
+        {"name": "Daniel Passarella"},
+        {"name": "Jorge Olguin"},
+        {"name": "Luis Galván"},
         {"name": "Americo Gallego"},
         {"name": "Diego Maradona"},
-        {"name": "Ramon Diaz", "out": "58"},
-        {"name": "Gabriel Calderon", "in": "58"},
+        {"name": "Ossie Ardiles"},
+        {"name": "Daniel Bertoni"},
         {"name": "Mario Kempes", "out": "58"},
-        {"name": "José Valencia", "in": "58"}
+        {"name": "José Daniel Valencia", "in": "58"},
+        {"name": "Ramón Díaz", "out": "58"},
+        {"name": "Gabriel Calderón", "in": "58"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1982-07-02",
     "competition": "World Cup",
-    "venue": {"name": "Sarria BARCELONA"},
-    "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
-    "score": [3, 1],
+    "round": "2nd Group Stage",
+    "venue": {"name": "Estadio de Sarriá", "city": "Barcelona"},
+    "teams": [{"name": "Argentina"}, {"name": "Brazil"}],
+    "score": [1, 3],
     "result": "L",
     "goals": [
+      [{"name": "Ramón Díaz", "min": "89", "type": "G"}],
       [
         {"name": "Zico", "min": "11", "type": "G"},
-        {"name": "Serginho", "min": "67", "type": "G"},
-        {"name": "Junior", "min": "74", "type": "G"}
-      ],
-      [{"name": "Ramon Diaz", "min": "89", "type": "G"}]
+        {"name": "Serginho Chulapa", "min": "67", "type": "G"},
+        {"name": "Léo Júnior", "min": "74", "type": "G"}
+      ]
     ],
     "cards": [
       [
-        {"name": "Waldir Peres", "min": "77", "type": "Y"},
-        {"name": "Falcao", "min": "85", "type": "Y"}
-      ],
-      [
         {"name": "Daniel Passarella", "min": "33", "type": "Y"},
         {"name": "Diego Maradona", "min": "86", "type": "R"}
+      ],
+      [
+        {"name": "Waldir Peres", "min": "78", "type": "Y"},
+        {"name": "Falcão", "min": "87", "type": "Y"}
       ]
     ],
     "coaches": [{"name": "Tele Santana Silva"}, {"name": "Cesar Luis Menotti"}],
     "lineups": [
       [
-        {"name": "Waldir Peres"},
-        {"name": "Junior"},
-        {"name": "Leandro"},
-        {"name": "Luizinho"},
-        {"name": "Oscar"},
-        {"name": "Falcao"},
-        {"name": "Socrates"},
-        {"name": "Toninho Cerezo"},
-        {"name": "Zico"},
-        {"name": "Eder"},
-        {"name": "Serginho"}
-      ],
-      [
         {"name": "Ubaldo Fillol"},
-        {"name": "Luis Galvan"},
-        {"name": "Jorge Olguin"},
-        {"name": "Daniel Passarella"},
         {"name": "Alberto Tarantini"},
-        {"name": "Ossie Ardiles"},
+        {"name": "Daniel Passarella"},
+        {"name": "Jorge Olguin"},
+        {"name": "Luis Galván"},
+        {"name": "Diego Maradona"},
+        {"name": "Gabriel Calderón"},
         {"name": "Juan Barbas"},
+        {"name": "Ossie Ardiles"},
         {"name": "Daniel Bertoni", "out": "65"},
         {"name": "Santiago Santamaria", "in": "65"},
-        {"name": "Gabriel Calderon"},
-        {"name": "Diego Maradona"},
         {"name": "Mario Kempes", "out": "46"},
-        {"name": "Ramon Diaz", "in": "46"}
+        {"name": "Ramón Díaz", "in": "46"}
+      ],
+      [
+        {"name": "Waldir Peres"},
+        {"name": "Leandro", "out": "82"},
+        {"name": "Edevaldo", "in": "82"},
+        {"name": "Luizinho"},
+        {"name": "Oscar"},
+        {"name": "Falcão"},
+        {"name": "Léo Júnior"},
+        {"name": "Sócrates"},
+        {"name": "Toninho Cerezo"},
+        {"name": "Zico", "out": "83"},
+        {"name": "Batista", "in": "83"},
+        {"name": "Éder Aleixo"},
+        {"name": "Serginho Chulapa"}
       ]
-    ]
+    ],
+    "sources": ["Golazon"]
   },
   {
     "date": "1983-05-12",
@@ -25779,7 +25792,7 @@
       [
         {"name": "Emerson Leao"},
         {"name": "Jorginho"},
-        {"name": "Junior"},
+        {"name": "Léo Júnior"},
         {"name": "Mozer"},
         {"name": "Careca"},
         {"name": "Roberto Dinamite"},
@@ -25851,11 +25864,11 @@
       [
         {"name": "Emerson Leao"},
         {"name": "Jorginho"},
-        {"name": "Junior"},
+        {"name": "Léo Júnior"},
         {"name": "Leandro"},
         {"name": "Mozer"},
         {"name": "Socrates"},
-        {"name": "Eder"},
+        {"name": "Éder Aleixo"},
         {"name": "Renato Gaucho"},
         {"name": "Roberto Dinamite"},
         {"name": "Silva Jorge Luis Andrade"},
@@ -26480,7 +26493,7 @@
       [{"name": "Jorge Burruchaga", "type": "G"}]
     ],
     "cards": [
-      [{"name": "Eder", "type": "R"}, {"name": "Alemao", "type": "R"}],
+      [{"name": "Éder Aleixo", "type": "R"}, {"name": "Alemao", "type": "R"}],
       []
     ],
     "lineups": [
@@ -26492,7 +26505,7 @@
         {"name": "Bebeto"},
         {"name": "Careca"},
         {"name": "Valter Casagrande"},
-        {"name": "Eder"},
+        {"name": "Éder Aleixo"},
         {"name": "Dema"},
         {"name": "Paulo Vitor"}
       ],
