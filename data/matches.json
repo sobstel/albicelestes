@@ -1704,7 +1704,7 @@
       [
         {"name": "Ricardo Vallarino", "min": "29", "type": "G"},
         {"name": "Pablo Dacal", "min": "49", "type": "G"},
-        {"name": "Alfredo Bruno", "min": "53", "type": "OG"}
+        {"name": "Antonio Bruno", "min": "53", "type": "OG"}
       ],
       [
         {"name": "Pedro Calomino", "min": "12", "type": "G"},
@@ -1714,31 +1714,32 @@
     "lineups": [
       [
         {"name": "Miguel Ángel Cavallotti"},
-        {"name": "Alfredo Foglino"},
-        {"name": "José Piendibene"},
-        {"name": "Carlos Bastos"},
         {"name": "José Benincasa"},
-        {"name": "Fausto Broncini"},
-        {"name": "Pablo Dacal"},
         {"name": "Alfredo Granja"},
+        {"name": "Fausto Broncini"},
         {"name": "John Harley"},
-        {"name": "Martín Lázaro"},
-        {"name": "Ricardo Vallarino"}
+        {"name": "Alfredo Foglino"},
+        {"name": "Carlos Bastos"},
+        {"name": "Pablo Dacal"},
+        {"name": "José Piendibene"},
+        {"name": "Ricardo Vallarino"},
+        {"name": "Martín Lázaro"}
       ],
       [
-        {"name": "Gerónimo Badaracco"},
-        {"name": "Alfredo Bruno"},
-        {"name": "Juan Cabano"},
-        {"name": "Guillermo Dannaher"},
-        {"name": "Pedro Calomino"},
-        {"name": "Pedro Gallardo"},
-        {"name": "Rodolfo Martinez"},
-        {"name": "Pascual Polimeni"},
         {"name": "Juan José Rithner"},
+        {"name": "Antonio Bruno"},
+        {"name": "Rodolfo Martínez"},
+        {"name": "Santiago Sayanes"},
         {"name": "Ernesto Sande"},
-        {"name": "Santiago Sayanes"}
+        {"name": "Gerónimo Badaracco"},
+        {"name": "Pedro Calomino"},
+        {"name": "Juan Cabano"},
+        {"name": "Pedro Gallardo"},
+        {"name": "Guillermo Dannaher"},
+        {"name": "Pascual Polimeni"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1914-09-13",
@@ -1750,38 +1751,39 @@
     "goals": [
       [
         {"name": "Pedro Gallardo", "min": "40", "type": "G"},
-        {"name": "Delfin Lezcano", "min": "71", "type": "G"}
+        {"name": "Delfin Lazcano", "min": "72", "type": "G"}
       ],
       [{"name": "Ricardo Vallarino", "min": "51", "type": "G"}]
     ],
     "lineups": [
       [
-        {"name": "Diomedes Bernasconi"},
-        {"name": "Francisco Crespo"},
+        {"name": "Juan José Rithner"},
+        {"name": "Diómedes Bernasconi"},
+        {"name": "Carlos Galup Lanús"},
+        {"name": "Ricardo Naón"},
+        {"name": "Pedro Rithner"},
+        {"name": "Santiago Sayanes"},
+        {"name": "Juan Lamas"},
+        {"name": "Delfin Lazcano"},
         {"name": "Pedro Gallardo"},
         {"name": "Carlos Izaguirre"},
-        {"name": "Juan Lamas"},
-        {"name": "Carlos Galup Lanus"},
-        {"name": "Delfin Lezcano"},
-        {"name": "Ricardo Naon"},
-        {"name": "Juan José Rithner"},
-        {"name": "Pedro Rithner"},
-        {"name": "Santiago Sayanes"}
+        {"name": "Francisco Crespo"}
       ],
       [
         {"name": "Cayetano Saporiti"},
+        {"name": "José Benincasa"},
+        {"name": "Alfredo Granja"},
+        {"name": "Fausto Broncini"},
+        {"name": "John Harley"},
         {"name": "Alfredo Foglino"},
         {"name": "José Pérez"},
-        {"name": "José Piendibene"},
-        {"name": "José Benincasa"},
-        {"name": "Fausto Broncini"},
         {"name": "Pablo Dacal"},
-        {"name": "Antonio Farinasso"},
-        {"name": "Alfredo Granja"},
-        {"name": "John Harley"},
-        {"name": "Ricardo Vallarino"}
+        {"name": "José Piendibene"},
+        {"name": "Ricardo Vallarino"},
+        {"name": "Antonio Farinasso"}
       ]
-    ]
+    ],
+    "sources": ["El Gráfico", "AUF"]
   },
   {
     "date": "1914-09-20",
@@ -1838,13 +1840,13 @@
     "goals": [[], [{"name": "Rubens Salles", "type": "G"}]],
     "lineups": [
       [
-        {"name": "Diomedes Bernasconi"},
+        {"name": "Diómedes Bernasconi"},
         {"name": "Francisco Crespo"},
         {"name": "Carlos Izaguirre"},
         {"name": "Juan Lamas"},
-        {"name": "Carlos Galup Lanus"},
+        {"name": "Carlos Galup Lanús"},
         {"name": "Roberto Leonardi"},
-        {"name": "Ricardo Naon"},
+        {"name": "Ricardo Naón"},
         {"name": "Antonio Piaggio"},
         {"name": "Juan José Rithner"},
         {"name": "Ernesto Sande"},
@@ -4439,7 +4441,7 @@
       [
         {"name": "Atilio Badalini", "min": "6", "type": "G"},
         {"name": "Atilio Badalini", "min": "18", "type": "G"},
-        {"name": "Julio Libonetti", "type": "G"},
+        {"name": "Julio Libonatti", "type": "G"},
         {"name": "Juan Francia", "type": "G"}
       ],
       [
@@ -4455,7 +4457,7 @@
         {"name": "Victorio Faggiani"},
         {"name": "Pedro Calomino"},
         {"name": "Juan Francia"},
-        {"name": "Julio Libonetti"},
+        {"name": "Julio Libonatti"},
         {"name": "Secundo Medici"},
         {"name": "Emilio Solari"},
         {"name": "Gabino Sosa"},
