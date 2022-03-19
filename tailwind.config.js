@@ -1,5 +1,7 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -18,5 +20,5 @@ module.exports = {
       padding: ["first", "last"],
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
-};
+  plugins: []
+}

@@ -1,4 +1,4 @@
-import { getMatchDate } from "helpers";
+import { getMatchDate } from "~/helpers";
 
 describe("getMatchDate", () => {
   it("returns match date (day/month)", () => {

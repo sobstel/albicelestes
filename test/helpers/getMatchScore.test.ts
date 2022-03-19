@@ -1,5 +1,5 @@
-import { getMatchScore } from "helpers";
-import { Result } from "types";
+import { getMatchScore } from "~/helpers";
+import { Result } from "~/types";
 
 describe("getMatchScore", () => {
   it("returns team names with score", () => {

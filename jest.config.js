@@ -6,6 +6,9 @@ module.exports = {
     },
   },
   moduleFileExtensions: ["js", "ts", "tsx"],
+  moduleNameMapper: {
+    "^~/(.*)$": "<rootDir>/app/$1",
+  },
   modulePaths: ["<rootDir>"],
   preset: "ts-jest",
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],

@@ -1,5 +1,5 @@
-import { collectPlayerStat } from "helpers";
-import { Result } from "types";
+import { collectPlayerStat } from "~/helpers";
+import { Result } from "~/types";
 
 describe("collectPlayerStat", () => {
   const matches: Parameters<typeof collectPlayerStat>[0] = [

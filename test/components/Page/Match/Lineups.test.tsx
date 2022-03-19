@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Lineups from "components/Match/Lineups";
+import { BrowserRouter } from "react-router-dom";
+import Lineups from "~/components/Match/Lineups";
 
 type Props = Parameters<typeof Lineups>[0];
 
@@ -28,7 +29,11 @@ describe(Lineups, () => {
       ],
     };
 
-    const { container } = render(<Lineups match={match} />);
+    const { container } = render(
+      <BrowserRouter>
+        <Lineups match={match} />
+      </BrowserRouter>
+    );
 
     test("renders team headers", () => {
       const headers = container.querySelectorAll("h2");

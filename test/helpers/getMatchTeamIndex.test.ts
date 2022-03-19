@@ -1,4 +1,4 @@
-import { getMatchTeamIndex } from "helpers";
+import { getMatchTeamIndex } from "~/helpers";
 
 describe("getMatchTeamIndex", () => {
   it("determines team index using default slug", () => {

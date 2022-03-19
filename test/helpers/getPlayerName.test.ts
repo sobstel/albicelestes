@@ -1,4 +1,4 @@
-import { getPlayerName } from "helpers";
+import { getPlayerName } from "~/helpers";
 
 describe("getPlayerName", () => {
   it("handles a regular name", () => {

@@ -3,15 +3,15 @@
 <!-- TOC -->
 
 - [Data](#data)
-  - [General rules](#general-rules)
-  - [Specific rules](#specific-rules)
+    - [General rules](#general-rules)
+    - [Specific rules](#specific-rules)
 - [Tech](#tech)
-  - [Development](#development)
-  - [Directory structure](#directory-structure)
-    - [Testing](#testing)
-    - [CLI](#cli)
-      - [Console](#console)
-  - [Deployment](#deployment)
+    - [Development](#development)
+    - [Directory structure](#directory-structure)
+        - [Testing](#testing)
+        - [CLI](#cli)
+            - [Console](#console)
+    - [Deployment](#deployment)
 
 <!-- /TOC -->
 
@@ -40,7 +40,7 @@ Built with: Next, Typescript, Tailwind
 
 ### Development
 
-- `yarn vercel dev --listen 1986`
+- `yarn dev`
 
 ### Directory structure
 
@@ -48,12 +48,12 @@ Built with: Next, Typescript, Tailwind
 - pages
 - data
 - helpers
-  - collectXXX - reduce-like
-  - findXXX
-  - getXXX
-  - produceXXX - map-like
-  - filter (rejectXXX/selectXXX)
-  - sortByXXX
+    - collectXXX - reduce-like
+    - findXXX
+    - getXXX
+    - produceXXX - map-like
+    - filter (rejectXXX/selectXXX)
+    - sortByXXX
 
 #### Testing
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import PenaltyShootout from "components/Match/PenaltyShootout";
+import PenaltyShootout from "~/components/Match/PenaltyShootout";
 
 type Props = Parameters<typeof PenaltyShootout>[0];
 
