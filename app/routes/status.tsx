@@ -1,9 +1,10 @@
 import React from "react";
 import * as R from "remeda";
-import { json, useLoaderData } from "remix";
+import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Block, Header, Page } from "~/components/layout";
 import { fetchMatches } from "~/data";
+import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -47,12 +48,18 @@ export const loader = async () => {
   return json<LoaderData>(await getLoaderData());
 };
 
+export const meta: MetaFunction = () => {
+  return {
+    title: seoTitle(["Status"]),
+  };
+};
+
 export default function StatusPage() {
   const { matchesTotal, matchesVerified, verifiedRatio, competitionStats } =
     useLoaderData<LoaderData>();
 
   return (
-    <Page title={["Status"]}>
+    <Page>
       <Header top text="Data verification status" />
       <Block>
         <table>

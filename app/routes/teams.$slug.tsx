@@ -1,14 +1,20 @@
 import pluralize from "pluralize";
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 
 import { Header, Page } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import { fetchMatches } from "~/data";
-import { collectTeamStat, findTeamName } from "~/helpers";
-import { getMatchItem, getTeamSlug } from "~/helpers";
+import {
+  collectTeamStat,
+  findTeamName,
+  getMatchDate,
+  getMatchTeams,
+} from "~/helpers";
+import { getMatchItem, getMatchScore, getTeamSlug } from "~/helpers";
 import { TeamStat } from "~/types";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -42,35 +48,33 @@ function statPhrase(stat: TeamStat) {
   }L), goals: ${stat.gf}-${stat.ga}`;
 }
 
-// function generateDescription({
-//   name,
-//   stat,
-//   matches,
-// }: Pick<Props, "name" | "stat" | "matches">) {
-//   const lastMatch = R.last(matches);
-//   return R.compact([
-//     `Argentina football national team ${pluralize(
-//       "match",
-//       stat.mp
-//     )} against ${name}`,
-//     statPhrase(stat),
-//     lastMatch &&
-//       [
-//         getMatchDate(lastMatch, { withYear: true }),
-//         ": ",
-//         getMatchTeams(lastMatch),
-//         " ",
-//         getMatchScore(lastMatch),
-//         ` (${lastMatch.competition})...`,
-//       ].join(""),
-//   ]).join(". ");
-// }
+export const meta: MetaFunction = ({
+  data: { name, matches, stat },
+}: {
+  data: LoaderData;
+}) => {
+  const lastMatch = R.last(matches);
+
+  return {
+    title: seoTitle([`Argentina v ${name}`, "Head-to-Head"]),
+    description: seoDescription([
+      statPhrase(stat),
+      lastMatch
+        ? [
+            `Last match: ${getMatchDate(lastMatch, { withYear: true })}`,
+            lastMatch.competition,
+            getMatchTeams(lastMatch),
+          ].join(", ")
+        : undefined,
+    ]),
+  };
+};
 
 export default function TeamPage() {
   const { name, matches, stat } = useLoaderData<LoaderData>();
   const title = `Argentina v ${name}`;
   return (
-    <Page title={[title, "Head-to-Head"]}>
+    <Page>
       <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
       <MatchList matches={matches} />

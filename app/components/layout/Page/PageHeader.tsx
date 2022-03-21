@@ -1,16 +1,10 @@
 import React, { ReactNode } from "react";
-// import { useRouter } from "next/router";
+
 import { Block, LinkAnchor } from "~/components/layout";
 
 function NavLink({ href, children }: { href: string; children: ReactNode }) {
-  // const router = useRouter();
-  const disabled = false;
-    // href === "/"
-    //   ? Boolean(router?.pathname.match(/^\/(\[year\])?$/))
-    //   : router?.pathname.startsWith(href);
-
   return (
-    <LinkAnchor href={href} disabled={disabled} important>
+    <LinkAnchor href={href} important>
       {children}
     </LinkAnchor>
   );

@@ -1,15 +1,18 @@
 import pluralize from "pluralize";
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import type { LoaderFunction, MetaFunction } from "remix";
+import { json, useLoaderData } from "remix";
 
 import { Page } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import YearHeader from "~/components/YearHeader";
 import YearNav from "~/components/YearNav";
+import { MAX_YEAR, MIN_YEAR } from "~/config";
 import { fetchMatches } from "~/data";
 import { collectTeamStat, getMatchItem, getMatchYear } from "~/helpers";
 import { TeamStat } from "~/types";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -30,7 +33,7 @@ export async function getLoaderData({
     )
   );
 
-  const stat = matches.length && collectTeamStat(matches);
+  const stat = matches.length > 0 && collectTeamStat(matches);
 
   return {
     year: yearFrom,
@@ -40,7 +43,31 @@ export async function getLoaderData({
 }
 
 export const loader: LoaderFunction = async (args) => {
+  const {
+    params: { year },
+  } = args;
+  if (!year || year < "1900" || year > String(MAX_YEAR)) {
+    // TODO
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
+
   return json<LoaderData>(await getLoaderData(args));
+};
+
+export const meta: MetaFunction = ({
+  data: { year, stat },
+}: {
+  data: LoaderData;
+}) => {
+  return {
+    title: seoTitle(["Matches", `${year}s`]),
+    description: seoDescription([
+      `Argentina matches in ${year}s`,
+      stat ? statPhrase(stat) : undefined,
+    ]),
+  };
 };
 
 // SMELL: copied from Pages/Team
@@ -53,7 +80,7 @@ function statPhrase(stat: TeamStat) {
 export default function YearIndexPage() {
   const { year, matches, stat } = useLoaderData<LoaderData>();
   return (
-    <Page title={["Matches", year]}>
+    <Page>
       <YearNav activeYear={parseInt(year, 10)} />
       <YearHeader year={year} />
       {stat ? <p className="mb-4">{statPhrase(stat)}</p> : null}

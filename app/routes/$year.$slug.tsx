@@ -1,6 +1,6 @@
 import React from "react";
-import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import type { LoaderFunction, MetaFunction } from "remix";
+import { json, useLoaderData } from "remix";
 
 import { Header, Page } from "~/components/layout";
 import Cards from "~/components/Match/Cards";
@@ -11,6 +11,7 @@ import PenaltyShootout from "~/components/Match/PenaltyShootout";
 import SeeAlso from "~/components/Match/SeeAlso";
 import Venue from "~/components/Match/Venue";
 import VerifiedNote from "~/components/Match/VerifiedNote";
+import { MAX_YEAR, TEAM_NAME } from "~/config";
 import { fetchMatches } from "~/data";
 import {
   getMatchDate,
@@ -20,7 +21,8 @@ import {
   getMatchTeams,
   getMatchYear,
 } from "~/helpers";
-import { Match } from "~/types";
+import { getMatchTeamIndex } from "~/helpers";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -40,46 +42,45 @@ export async function getLoaderData({
 }
 
 export const loader: LoaderFunction = async (args) => {
+  const {
+    params: { year },
+  } = args;
+  if (!year || year < "1900" || year > String(MAX_YEAR)) {
+    // TODO
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
+
   return json<LoaderData>(await getLoaderData(args));
 };
 
-const title = (
-  match: Pick<Match, "date" | "teams" | "score" | "competition">
-) => {
-  const [homeTeam, awayTeam] = match.teams;
-  return [
-    `${homeTeam.name} v ${awayTeam.name} ${match.score.join("-")}`,
-    getMatchDate(match, { withYear: true, uppercase: false }),
-    match.competition,
-  ];
+export const meta: MetaFunction = ({
+  data: { match },
+}: {
+  data: LoaderData;
+}) => {
+  const myTeamLineupString = match.lineups[getMatchTeamIndex(match)]
+    ?.map((app) => app.name)
+    .join(", ");
+  return {
+    title: seoTitle([
+      `${getMatchTeams(match)} ${match.score.join(":")}`,
+      getMatchDate(match, { withYear: true, uppercase: false }),
+      match.competition,
+    ]),
+    description: seoDescription([
+      `${match.competition} ${getMatchYear(match)}`,
+      myTeamLineupString && `${TEAM_NAME}: ${myTeamLineupString}`,
+    ]),
+  };
 };
-
-// function generateDescription(match: Match) {
-//   const myTeamIndex = getMatchTeamIndex(match);
-//
-//   let lineupDescription = "";
-//   if (match.lineups[myTeamIndex]) {
-//     lineupDescription = match.lineups[myTeamIndex]
-//       .map((app) => app.name)
-//       .join(", ")
-//       .concat(".");
-//   }
-//
-//   const description = `Details about ${getMatchTeams(match)} ${getMatchScore(
-//     match
-//   )} football game played on ${getMatchDate(match, {
-//     withYear: true,
-//     uppercase: false,
-//   })} (${match.competition}). ${lineupDescription}`.trim();
-//
-//   return description;
-// }
 
 export default function MatchPage() {
   const { match, prevMatch, nextMatch } = useLoaderData<LoaderData>();
 
   return (
-    <Page title={title(match)}>
+    <Page>
       <Header text={`${getMatchTeams(match)} ${getMatchScore(match)}`} top />
       <p>
         {getMatchDate(match, { withYear: true })}, {match.competition}

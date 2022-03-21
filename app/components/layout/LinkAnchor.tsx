@@ -29,13 +29,6 @@ export default function LinkAnchor(props: Props) {
     );
   }
 
-  // const handleClick = (event: MouseEvent) => {
-  //   if (props.onClick) {
-  //     event.preventDefault();
-  //     props.onClick();
-  //   }
-  // };
-
   if (!props.href) {
     return (
       <a

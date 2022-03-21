@@ -1,7 +1,8 @@
 import pluralize from "pluralize";
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import type { LoaderFunction, MetaFunction } from "remix";
+import { json, useLoaderData } from "remix";
 import stringSimilarity from "string-similarity";
 
 import InfoLinks from "~/components/InfoLinks";
@@ -9,7 +10,13 @@ import { Block, Header, Page } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import PlayerList from "~/components/PlayerList";
 import { fetchMatches, fetchPlayerInfo } from "~/data";
-import { getMatchItem, getMatchTeamIndex, getPlayerSlug } from "~/helpers";
+import {
+  getMatchDate,
+  getMatchItem,
+  getMatchTeamIndex,
+  getMatchTeams,
+  getPlayerSlug,
+} from "~/helpers";
 import {
   collectPlayers,
   collectPlayerStat,
@@ -17,6 +24,7 @@ import {
   findPlayerName,
 } from "~/helpers";
 import { PlayerStat } from "~/types";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -81,26 +89,31 @@ function statPhrase({ mp, si, so, g, yc, rc }: PlayerStat) {
   ]).join(" ");
 }
 
-// function generateDescription({
-//   name,
-//   stat,
-//   matches,
-// }: Pick<Props, "name" | "stat" | "matches">) {
-//   const lastMatch = R.last(matches);
-//   return [
-//     `${name} matches played for Argentina football national team`,
-//     statPhrase(stat),
-//     lastMatch &&
-//       [
-//         getMatchDate(lastMatch, { withYear: true }),
-//         ": ",
-//         getMatchTeams(lastMatch),
-//         " ",
-//         getMatchScore(lastMatch),
-//         ` (${lastMatch.competition})...`,
-//       ].join(""),
-//   ].join(". ");
-// }
+export const meta: MetaFunction = ({
+  data: { name, matches, stat, errorCode },
+}: {
+  data: LoaderData;
+}) => {
+  const lastMatch = matches?.length ? R.last(matches) : undefined;
+
+  if (errorCode) {
+    return { title: seoTitle(["Player not found"]), description: "" };
+  }
+
+  return {
+    title: seoTitle([name]),
+    description: seoDescription([
+      stat ? `Argentina: ${statPhrase(stat)}` : undefined,
+      lastMatch
+        ? [
+            `Last match: ${getMatchDate(lastMatch, { withYear: true })}`,
+            lastMatch.competition,
+            getMatchTeams(lastMatch),
+          ].join(", ")
+        : undefined,
+    ]),
+  };
+};
 
 export default function PlayerPage() {
   const { errorCode, players, name, stat, matches, info } =
@@ -108,8 +121,8 @@ export default function PlayerPage() {
 
   if (errorCode) {
     return (
-      <Page title="Player not found">
-        <Header text="Suggested players" />
+      <Page>
+        <Header text="Player not found. Suggested other players." />
         <PlayerList players={players} />
       </Page>
     );
@@ -117,8 +130,7 @@ export default function PlayerPage() {
 
   return (
     <Page
-      title={String(name)}
-      // description={generateDescription({ name, stat, matches })}
+    // description={generateDescription({ name, stat, matches })}
     >
       <Header text={String(name)} top />
       {stat && <p className="mb-4">{statPhrase(stat)}</p>}

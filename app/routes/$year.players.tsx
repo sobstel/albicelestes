@@ -1,14 +1,16 @@
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import type { LoaderFunction } from "remix";
+import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Block, Page } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import YearHeader from "~/components/YearHeader";
 import YearNav from "~/components/YearNav";
-import { MAX_YEAR } from "~/config";
+import { MAX_YEAR, TEAM_NAME } from "~/config";
 import { fetchMatches } from "~/data";
 import { collectPlayers, getMatchYear } from "~/helpers";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -40,13 +42,40 @@ export async function getLoaderData({ params }: Parameters<LoaderFunction>[0]) {
 }
 
 export const loader: LoaderFunction = async (args) => {
+  const {
+    params: { year },
+  } = args;
+  if (!year || year < "1900" || year > String(MAX_YEAR)) {
+    // TODO
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
+
   return json<LoaderData>(await getLoaderData(args));
+};
+
+export const meta: MetaFunction = ({
+  data: { year, players },
+}: {
+  data: LoaderData;
+}) => {
+  return {
+    title: seoTitle(["Player appearances", `${year}s`]),
+    description: seoDescription([
+      R.pipe(
+        players,
+        R.take(10),
+        R.map((player) => `${player.name} (${player.mp})`)
+      ).join(", "),
+    ]),
+  };
 };
 
 export default function YearPlayersPage() {
   const { players, year } = useLoaderData<LoaderData>();
   return (
-    <Page title={["Players"]}>
+    <Page>
       <YearNav activeYear={parseInt(year, 10)} />
       <YearHeader year={year} />
 

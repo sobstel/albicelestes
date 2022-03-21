@@ -1,10 +1,17 @@
+import pluralize from "pluralize";
 import React from "react";
 import * as R from "remeda";
-import { json, useLoaderData } from "remix";
+import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Block, LinkAnchor, Page } from "~/components/layout";
 import { fetchMatches } from "~/data";
-import { collectTeams, rejectSuspendedMatches } from "~/helpers";
+import {
+  collectTeams,
+  getMatchDate,
+  getMatchTeams,
+  rejectSuspendedMatches,
+} from "~/helpers";
+import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -23,10 +30,28 @@ export const loader = async () => {
   return json<LoaderData>(await getLoaderData());
 };
 
+export const meta: MetaFunction = ({
+  data: { teams },
+}: {
+  data: LoaderData;
+}) => {
+  return {
+    title: seoTitle(["Argentina football rivalry", "Head-to-Head"]),
+    description: seoDescription([
+      R.pipe(
+        teams,
+        R.sortBy((team) => -team.mp),
+        R.take(20),
+        R.map((team) => `${team.name} (${team.mp})`)
+      ).join(", "),
+    ]),
+  };
+};
+
 export default function TeamsPage() {
   const { teams } = useLoaderData<LoaderData>();
   return (
-    <Page title={["Argentina football rivalry", "Head-to-Head"]}>
+    <Page>
       <Block>
         {teams.map(({ name, slug, mp }) => (
           <p key={slug}>

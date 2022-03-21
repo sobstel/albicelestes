@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Links,
   LiveReload,
@@ -5,17 +6,34 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useCatch,
 } from "remix";
-import type { MetaFunction } from "remix";
-import styles from "./styles/app.css"
+
+import { Header, Page } from "~/components/layout";
+
+import styles from "./styles/app.css";
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }]
+  return [{ rel: "stylesheet", href: styles }];
 }
 
-export const meta: MetaFunction = () => {
-  return { title: "Albicelestes" };
-};
+export function CatchBoundary() {
+  const { status, statusText } = useCatch();
+  return (
+    <html>
+      <head>
+        <title>Error</title>
+        <Links />
+      </head>
+      <body>
+        <Page>
+          <Header top text={`ERROR #${status}: ${statusText} `} />
+        </Page>
+        <Scripts />
+      </body>
+    </html>
+  );
+}
 
 export default function App() {
   return (

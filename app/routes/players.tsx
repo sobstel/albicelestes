@@ -1,12 +1,13 @@
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 
 import { Page } from "~/components/layout";
 import PlayerCatalogNav from "~/components/PlayerCatalogNav";
 import PlayerList from "~/components/PlayerList";
 import { fetchMatches } from "~/data";
 import { collectPlayers, sortByMatchesPlayed } from "~/helpers";
+import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -25,10 +26,14 @@ export const loader: LoaderFunction = async () => {
   return json<LoaderData>(await getLoaderData());
 };
 
+export const meta: MetaFunction = () => {
+  return { title: seoTitle(["Players"]) };
+};
+
 export default function PlayerIndexPage() {
   const { players } = useLoaderData<LoaderData>();
   return (
-    <Page title={["Players"]}>
+    <Page>
       <PlayerCatalogNav />
       <PlayerList players={players} />
     </Page>

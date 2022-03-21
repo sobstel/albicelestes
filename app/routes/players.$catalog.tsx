@@ -1,12 +1,19 @@
 import React from "react";
 import * as R from "remeda";
-import { json, LoaderFunction, useLoaderData } from "remix";
+import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 import slugify from "slugify";
 
 import PlayerCatalogNav from "~/components/PlayerCatalogNav";
 import PlayerList from "~/components/PlayerList";
 import { fetchMatches } from "~/data";
-import { collectPlayers, getPlayerCatalog, getPlayerName } from "~/helpers";
+import {
+  collectPlayers,
+  getMatchDate,
+  getMatchTeams,
+  getPlayerCatalog,
+  getPlayerName,
+} from "~/helpers";
+import { seoDescription, seoTitle } from "~/utility";
 
 import { Page } from "../components/layout";
 
@@ -42,14 +49,21 @@ export const loader: LoaderFunction = async (args) => {
   return json<LoaderData>(await getLoaderData(args));
 };
 
+export const meta: MetaFunction = ({
+  data: { catalog },
+}: {
+  data: LoaderData;
+}) => {
+  const titleParts = ["Players", catalog ? catalog.toUpperCase() : undefined];
+
+  return { title: seoTitle(titleParts) };
+};
+
 export default function PlayerCatalogPage() {
   const { players, catalog } = useLoaderData<LoaderData>();
-  const titleParts = ["Players"];
-  if (catalog) {
-    titleParts.push(catalog.toUpperCase());
-  }
+
   return (
-    <Page title={titleParts}>
+    <Page>
       <PlayerCatalogNav catalog={catalog} />
       <PlayerList players={players} />
     </Page>

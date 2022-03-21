@@ -1,9 +1,10 @@
 import React from "react";
-import { json, useLoaderData } from "remix";
+import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Block, Header, LinkAnchor, Page } from "~/components/layout";
 import { fetchBibliography, fetchMatches } from "~/data";
-import { collectPlayers, collectTeams, getMatchItem } from "~/helpers";
+import { collectPlayers, collectTeams } from "~/helpers";
+import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
@@ -28,11 +29,17 @@ export const loader = async () => {
   return json<LoaderData>(await getLoaderData());
 };
 
+export const meta: MetaFunction = () => {
+  return {
+    title: seoTitle(["About"]),
+  };
+};
+
 export default function AboutPage() {
   const { stat, bibliography } = useLoaderData<LoaderData>();
 
   return (
-    <Page title={["About"]}>
+    <Page>
       <Header top text="About" />
       <p>Argentina Football National Team Archive</p>
 
