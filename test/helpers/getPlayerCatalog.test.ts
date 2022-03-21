@@ -1,4 +1,4 @@
-import { getPlayerCatalog } from "helpers";
+import { getPlayerCatalog } from "~/helpers";
 
 describe("getPlayerCatalog", () => {
   it("gets first letter of the last name", () => {

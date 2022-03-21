@@ -1,43 +1,19 @@
 {
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
   "compilerOptions": {
-    "allowJs": false,
-    "baseUrl": "./",
-    "esModuleInterop": true,
-    "experimentalDecorators": false,
-    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,
-    "jsx": "preserve",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "module": "esnext",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
     "moduleResolution": "node",
-    "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "paths": {
-      "*": [
-        "./*"
-      ]
-    },
-    "removeComments": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
+    "target": "ES2019",
     "strict": true,
-    "target": "es6",
-    "incremental": true
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "tailwind.config.js"
-  ]
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"],
+    },
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  }
 }

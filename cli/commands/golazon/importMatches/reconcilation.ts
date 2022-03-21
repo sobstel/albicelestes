@@ -5,9 +5,9 @@ import {
   getMatchTeamIndex,
   getPlayerSlug,
   getTeamSlug,
-} from "helpers";
-import { Match, MatchItem } from "types";
-import { loadData, saveData } from "cli/utlity";
+} from "~/helpers";
+import { Match, MatchItem } from "~/types";
+import { loadData, saveData } from "../../../utlity";
 import * as Golazon from "./golazon";
 
 const matches = loadData("matches") as Array<Match>;

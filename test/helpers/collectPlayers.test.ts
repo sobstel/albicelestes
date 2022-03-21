@@ -1,5 +1,5 @@
-import { collectPlayers } from "helpers";
-import { Match } from "types";
+import { collectPlayers } from "~/helpers";
+import { Match } from "~/types";
 
 describe("collectPlayers", () => {
   const matches: Pick<Match, "teams" | "lineups" | "goals">[] = [

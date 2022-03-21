@@ -1,4 +1,4 @@
-import { sortByMatchesPlayed } from "helpers";
+import { sortByMatchesPlayed } from "~/helpers";
 
 describe("sortByMatchesPlayed", () => {
   const items = [

@@ -1,10 +1,10 @@
 import { program } from "commander";
 import repl from "repl";
 import * as R from "remeda";
-import * as data from "data";
-import * as F from "helpers";
-import * as H from "helpers";
-import * as U from "utility";
+import * as data from "~/data";
+import * as F from "~/helpers";
+import * as H from "~/helpers";
+import * as U from "~/utility";
 
 program.command("console").description("Interactive console").action(action);
 

@@ -1,5 +1,7 @@
 import { program } from "commander";
-import { spinner, message } from "cli/utlity";
+import { spinner, message } from "./utlity";
+
+import "./commands";
 
 process.on("uncaughtException", (error) => {
   message.error(error.message);
@@ -14,7 +16,5 @@ process.on("unhandledRejection", (reason) => {
     message.error((reason as Error)?.toString() ?? "");
   }
 });
-
-import "./commands";
 
 program.parse(process.argv);

@@ -1,5 +1,5 @@
-import { getMatchItem } from "helpers";
-import { Match, MatchItem, Result } from "types";
+import { getMatchItem } from "~/helpers";
+import { Match, MatchItem, Result } from "~/types";
 
 describe("getMatchItem", () => {
   const match: Match = {

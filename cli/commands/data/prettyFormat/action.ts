@@ -1,4 +1,4 @@
-import { loadData, saveData, spinner } from "cli/utlity";
+import { loadData, saveData, spinner } from "../../../utlity";
 
 export default async (): Promise<void> => {
   spinner.next("Format matches.json");

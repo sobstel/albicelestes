@@ -1,4 +1,4 @@
-import { getMatchYear } from "helpers";
+import { getMatchYear } from "~/helpers";
 
 describe("getMatchYear", () => {
   it("returns match year", () => {

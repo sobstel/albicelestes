@@ -1,7 +1,7 @@
 import * as R from "remeda";
 import dayjs from "dayjs";
-import { getMatchSlug, getMatchYear, getTeamSlug } from "helpers";
-import { Match, Result, Team } from "types";
+import { getMatchSlug, getMatchYear, getTeamSlug } from "~/helpers";
+import { Match, Result, Team } from "~/types";
 import * as Golazon from "./golazon";
 import { reconcilePlayer, reconcileCoach } from "./reconcilation";
 

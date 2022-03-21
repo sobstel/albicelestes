@@ -1,7 +1,7 @@
 import fs from "fs";
-import jsonStringify from "utility/jsonStringify";
+import jsonStringify from "~/utility/jsonStringify";
 
-const DATA_PATH = `${__dirname}/../../data`;
+const DATA_PATH = `${__dirname}/../../app/data`;
 const resolvePath = (resource: string) => `${DATA_PATH}/${resource}.json`;
 
 const TEMP_CACHE: Record<string, unknown> = {};

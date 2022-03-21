@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Goals from "components/Match/Goals";
+import { BrowserRouter } from "react-router-dom";
+import Goals from "~/components/Match/Goals";
 
 type Props = Parameters<typeof Goals>[0];
 
@@ -27,7 +28,11 @@ describe(Goals, () => {
       ],
     };
 
-    const { container } = render(<Goals match={match} />);
+    const { container } = render(
+      <BrowserRouter>
+        <Goals match={match} />
+      </BrowserRouter>
+    );
     const ps = container.querySelectorAll("p");
 
     test("renders correctly", () => {

@@ -1,25 +1,16 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
-    "plugin:react/recommended",
+    "@remix-run/eslint-config",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
+  plugins: ["simple-import-sort"],
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-namespace": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
   },
 };

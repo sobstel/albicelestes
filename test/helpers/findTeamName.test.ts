@@ -1,5 +1,5 @@
-import { findTeamName } from "helpers";
-import { Match } from "types";
+import { findTeamName } from "~/helpers";
+import { Match } from "~/types";
 
 describe("findTeamName", () => {
   const matches: Pick<Match, "teams">[] = [

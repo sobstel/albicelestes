@@ -1,12 +1,7 @@
-/* eslint-disable */
 module.exports = {
-  plugins: [
-    "tailwindcss",
-    ...(process.env.NODE_ENV === `production`
-      ? [
-          "autoprefixer",
-          "cssnano"
-        ]
-      : []),
-  ],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    cssnano: { preset: "default" },
+  },
 };

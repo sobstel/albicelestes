@@ -1,4 +1,4 @@
-import { getTeamSlug } from "helpers";
+import { getTeamSlug } from "~/helpers";
 
 describe("getTeamSlug", () => {
   it("converts name to slug", () => {

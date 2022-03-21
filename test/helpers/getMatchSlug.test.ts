@@ -1,4 +1,4 @@
-import { getMatchSlug } from "helpers";
+import { getMatchSlug } from "~/helpers";
 
 describe("getMatchSlug", () => {
   it("returns match slug", () => {
