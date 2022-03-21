@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import { Match, TeamItem } from "~/types";
+
 import { getMatchOtherTeam, getTeamSlug } from "~/helpers";
+import { Match, TeamItem } from "~/types";
 
 export default function collectTeams(
   matches: Pick<Match, "teams">[]

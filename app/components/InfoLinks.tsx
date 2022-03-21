@@ -1,6 +1,7 @@
 import React from "react";
-import { InfoLink } from "~/types";
+
 import { Block, Header, LinkAnchor } from "~/components/layout";
+import { InfoLink } from "~/types";
 
 type Props = { links?: Array<InfoLink> };
 

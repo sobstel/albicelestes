@@ -1,9 +1,11 @@
-import * as R from "remeda";
 import dayjs from "dayjs";
+import * as R from "remeda";
+
 import { getMatchSlug, getMatchYear, getTeamSlug } from "~/helpers";
 import { Match, Result, Team } from "~/types";
+
 import * as Golazon from "./golazon";
-import { reconcilePlayer, reconcileCoach } from "./reconcilation";
+import { reconcileCoach, reconcilePlayer } from "./reconcilation";
 
 const toDate = (match: Golazon.Match) => {
   // if time is early, then it most likely means that local date was a day before

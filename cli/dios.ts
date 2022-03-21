@@ -1,7 +1,8 @@
-import { program } from "commander";
-import { spinner, message } from "./utlity";
-
 import "./commands";
+
+import { program } from "commander";
+
+import { message, spinner } from "./utlity";
 
 process.on("uncaughtException", (error) => {
   message.error(error.message);

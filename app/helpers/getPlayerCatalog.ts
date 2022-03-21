@@ -1,4 +1,5 @@
 import slugify from "slugify";
+
 import getPlayerName from "./getPlayerName";
 
 export default function getPlayerCatalog(name: string) {

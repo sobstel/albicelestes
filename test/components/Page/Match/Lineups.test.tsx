@@ -1,6 +1,7 @@
-import React from "react";
 import { render } from "@testing-library/react";
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
+
 import Lineups from "~/components/Match/Lineups";
 
 type Props = Parameters<typeof Lineups>[0];

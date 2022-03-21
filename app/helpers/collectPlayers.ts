@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import { Appearance, Goal, Match, PlayerItem } from "~/types";
+
 import { getMatchTeamIndex, getPlayerSlug } from "~/helpers";
+import { Appearance, Goal, Match, PlayerItem } from "~/types";
 
 type ReduceAcc = { [key: string]: PlayerItem };
 

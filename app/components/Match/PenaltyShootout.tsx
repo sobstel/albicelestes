@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Block, Header } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import { Match, PenScore } from "~/types";

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+
 import { Block, Header } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import { getMatchTeamIndex } from "~/helpers";

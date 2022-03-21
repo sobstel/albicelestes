@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Block, LinkAnchor } from "~/components/layout";
 
 export default function PageFooter() {

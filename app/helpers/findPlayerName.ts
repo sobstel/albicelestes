@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import { Match } from "~/types";
+
 import { getMatchTeamIndex, getPlayerSlug } from "~/helpers";
+import { Match } from "~/types";
 
 export default function findPlayerName(
   matches: Pick<Match, "teams" | "lineups">[],

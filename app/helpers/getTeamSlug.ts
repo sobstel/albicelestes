@@ -1,4 +1,5 @@
 import slugify from "slugify";
+
 import { Team } from "~/types";
 
 export default function getTeamSlug(team: Team): string {

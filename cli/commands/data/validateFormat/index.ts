@@ -1,4 +1,5 @@
 import { program } from "commander";
+
 import action from "./action";
 
 program

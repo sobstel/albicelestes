@@ -1,5 +1,6 @@
-import * as R from "remeda";
 import memoize from "lodash.memoize";
+import * as R from "remeda";
+
 import { PlayerName } from "~/types";
 
 export const getPlayerName = memoize((name: string): PlayerName => {

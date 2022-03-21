@@ -1,5 +1,6 @@
-import * as R from "remeda";
 import React, { Fragment } from "react";
+import * as R from "remeda";
+
 import { Block, LinkAnchor } from "~/components/layout";
 
 export default function YearNav({ activeYear }: { activeYear?: number }) {

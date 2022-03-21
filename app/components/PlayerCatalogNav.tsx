@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
-import { Block, LinkAnchor } from "~/components/layout";
 import * as R from "remeda";
+
+import { Block, LinkAnchor } from "~/components/layout";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 

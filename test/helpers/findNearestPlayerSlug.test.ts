@@ -1,5 +1,5 @@
-import { Match } from "~/types";
 import { findNearestPlayerSlug } from "~/helpers";
+import { Match } from "~/types";
 
 describe("findNearestPlayerSlug", () => {
   it("finds player by slug (exact match)", () => {

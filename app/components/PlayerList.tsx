@@ -1,7 +1,8 @@
 import React from "react";
-import { PlayerItem } from "~/types";
-import { getPlayerName, getPlayerCatalog, getPlayerSlug } from "~/helpers";
+
 import { Block, LinkAnchor } from "~/components/layout";
+import { getPlayerCatalog, getPlayerName, getPlayerSlug } from "~/helpers";
+import { PlayerItem } from "~/types";
 
 export type Props = {
   players?: Array<PlayerItem>;

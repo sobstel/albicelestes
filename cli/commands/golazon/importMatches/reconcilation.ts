@@ -1,5 +1,6 @@
-import * as R from "remeda";
 import inquirer from "inquirer";
+import * as R from "remeda";
+
 import {
   getMatchItem,
   getMatchTeamIndex,
@@ -7,6 +8,7 @@ import {
   getTeamSlug,
 } from "~/helpers";
 import { Match, MatchItem } from "~/types";
+
 import { loadData, saveData } from "../../../utlity";
 import * as Golazon from "./golazon";
 

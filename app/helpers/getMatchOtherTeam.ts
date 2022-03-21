@@ -1,5 +1,5 @@
-import { Match } from "~/types";
 import { getMatchTeamIndex } from "~/helpers";
+import { Match } from "~/types";
 
 export default function getMatchOtherTeam(match: Pick<Match, "teams">) {
   const myTeamIndex = getMatchTeamIndex(match);

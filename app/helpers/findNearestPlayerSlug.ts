@@ -1,6 +1,7 @@
 import * as R from "remeda";
-import { Appearance, Match } from "~/types";
+
 import { getMatchTeamIndex, getPlayerSlug } from "~/helpers";
+import { Appearance, Match } from "~/types";
 
 export default function findNearestPlayerSlug(
   matches: Pick<Match, "teams" | "lineups">[],

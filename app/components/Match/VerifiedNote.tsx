@@ -1,6 +1,7 @@
 import React from "react";
-import { Match } from "~/types";
+
 import { Block, Header } from "~/components/layout";
+import { Match } from "~/types";
 
 type Props = { match: Pick<Match, "sources"> };
 

@@ -1,6 +1,6 @@
-import { Match } from "~/types";
 import { TEAM_SLUG } from "~/config";
 import { getTeamSlug } from "~/helpers";
+import { Match } from "~/types";
 
 export default function getMatchTeamIndex(
   match: Pick<Match, "teams">,

@@ -1,7 +1,8 @@
 import * as R from "remeda";
-import { Match, PlayerStat } from "~/types";
+
 import { rejectSuspendedMatches } from "~/helpers";
 import { getMatchTeamIndex, getPlayerSlug } from "~/helpers";
+import { Match, PlayerStat } from "~/types";
 
 export default function collectPlayerStat(
   matches: Pick<Match, "teams" | "goals" | "cards" | "lineups" | "result">[],

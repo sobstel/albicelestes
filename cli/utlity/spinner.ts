@@ -1,4 +1,5 @@
 import ora from "ora";
+
 import message from "./message";
 
 export const spinner = (function () {

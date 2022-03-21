@@ -1,5 +1,6 @@
-import { loadData, spinner } from "../../../utlity";
 import { rtMatch } from "~/types";
+
+import { loadData, spinner } from "../../../utlity";
 
 export default async (): Promise<void> => {
   spinner.next("Validate matches.json");

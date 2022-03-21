@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 // import Router from "next/router";
 
 export default function Spinner() {

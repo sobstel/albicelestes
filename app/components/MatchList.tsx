@@ -1,15 +1,17 @@
 import React from "react";
 import * as R from "remeda";
+
+import { fetchCompetitionInflections, fetchTeamInflections } from "~/data";
 import {
   getMatchDate,
-  getMatchYear,
   getMatchScore,
   getMatchSlug,
+  getMatchYear,
 } from "~/helpers";
-import { MatchItem } from "~/types";
-import { fetchTeamInflections, fetchCompetitionInflections } from "~/data";
-import { Block, LinkAnchor } from "./layout";
 import getMatchTeamIndex from "~/helpers/getMatchTeamIndex";
+import { MatchItem } from "~/types";
+
+import { Block, LinkAnchor } from "./layout";
 
 const competitionInflections = fetchCompetitionInflections();
 const teamInflections = fetchTeamInflections();

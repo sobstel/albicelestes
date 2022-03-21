@@ -1,4 +1,5 @@
 import fs from "fs";
+
 import jsonStringify from "~/utility/jsonStringify";
 
 const DATA_PATH = `${__dirname}/../../app/data`;

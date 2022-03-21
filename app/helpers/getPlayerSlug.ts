@@ -1,5 +1,6 @@
 import * as R from "remeda";
 import slugify from "slugify";
+
 import getPlayerName from "./getPlayerName";
 
 export default function getPlayerSlug(name: string): string {

@@ -1,6 +1,7 @@
-import React from "react";
 import { render } from "@testing-library/react";
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
+
 import Goals from "~/components/Match/Goals";
 
 type Props = Parameters<typeof Goals>[0];

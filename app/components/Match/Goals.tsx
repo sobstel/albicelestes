@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
 import * as R from "remeda";
+
+import { Block, Header } from "~/components/layout";
+import PlayerName from "~/components/PlayerName";
 import { produceIndexedEvents } from "~/helpers";
 import { getMatchTeamIndex, sortByMinute } from "~/helpers";
 import { Match } from "~/types";
 import { xor } from "~/utility";
-import { Block, Header } from "~/components/layout";
-import PlayerName from "~/components/PlayerName";
 
 type Props = { match: Pick<Match, "goals" | "lineups" | "teams"> };
 
