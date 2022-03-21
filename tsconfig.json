@@ -1,5 +1,6 @@
 {
   "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules/*", "app/data/*"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,
@@ -11,9 +12,11 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"],
+      "~/*": ["./app/*"]
     },
+    "skipLibCheck": true,
+    "allowJs": false,
     // Remix takes care of building everything in `remix build`.
     "noEmit": true
-  }
+  },
 }
