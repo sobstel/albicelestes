@@ -1,4 +1,6 @@
-import React from "react";
+import NProgress from "nprogress";
+import nProgressStyles from "nprogress/nprogress.css";
+import React, { useEffect } from "react";
 import {
   Links,
   LiveReload,
@@ -7,6 +9,7 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
+  useTransition,
 } from "remix";
 
 import { Header, Page } from "~/components/layout";
@@ -14,7 +17,10 @@ import { Header, Page } from "~/components/layout";
 import styles from "./styles/app.css";
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }];
+  return [
+    { rel: "stylesheet", href: styles },
+    { rel: "stylesheet", href: nProgressStyles },
+  ];
 }
 
 export function CatchBoundary() {
@@ -36,6 +42,15 @@ export function CatchBoundary() {
 }
 
 export default function App() {
+  const transition = useTransition();
+  useEffect(() => {
+    if (transition.state === "idle") {
+      NProgress.done();
+    } else {
+      NProgress.start();
+    }
+  }, [transition.state]);
+
   return (
     <html lang="en">
       <head>
