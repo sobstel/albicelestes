@@ -58,11 +58,10 @@ export const meta: MetaFunction = ({
 };
 
 export default function PlayerCatalogPage() {
-  const { players, catalog } = useLoaderData<LoaderData>();
+  const { players } = useLoaderData<LoaderData>();
 
   return (
     <>
-      <PlayerCatalogNav catalog={catalog} />
       <PlayerList players={players} />
     </>
   );

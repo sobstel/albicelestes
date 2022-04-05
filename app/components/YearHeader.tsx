@@ -7,9 +7,9 @@ type Props = { year: string };
 export default function YearHeader({ year }: Props) {
   const nav = [
     { text: "Matches", href: `/${year}` },
-    { text: "Players", href: `/${year}/players` },
+    { text: "Appearances", href: `/${year}/players` },
     // { text: "Stats", href: `/${year}/stats` },
   ];
 
-  return <Header text={year} top nav={nav} />;
+  return <Header text={`${year}+`} top nav={nav} />;
 }

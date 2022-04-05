@@ -20,10 +20,10 @@ export default function YearNav({ activeYear }: { activeYear?: number }) {
           <Fragment key={id}>
             <LinkAnchor
               href={href}
-              disabled={id === String(activeYear)}
-              className="mr-1"
+              active={id === String(activeYear)}
+              className=""
             >
-              {text}
+              {text}+
             </LinkAnchor>{" "}
           </Fragment>
         ))}

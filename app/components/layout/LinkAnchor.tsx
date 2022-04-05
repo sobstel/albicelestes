@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import React, { MouseEvent, ReactNode } from "react";
-import { Link as RemixLink } from "remix";
+import React, { ReactNode } from "react";
+import { NavLink } from "remix";
 
 type Props = {
   href?: string;
@@ -8,35 +8,21 @@ type Props = {
   important?: boolean;
   title?: string;
   rel?: string;
-  disabled?: boolean;
   onClick?: () => void;
   className?: string;
+  active?: boolean;
+  end?: boolean;
 };
 
 export default function LinkAnchor(props: Props) {
-  const anchorClass = classNames("select-none select-none-x", {
-    "text-black": props.disabled,
-    "text-link hover:text-link-hover cursor-pointer": !props.disabled,
+  const anchorClass = classNames("select-none select-none-x cursor-pointer", {
     "font-semibold": props.important,
     ...(props.className && { [props.className]: true }),
   });
 
-  if (props.disabled) {
-    return (
-      <span className={anchorClass} title={props.title}>
-        {props.children}
-      </span>
-    );
-  }
-
   if (!props.href) {
     return (
-      <a
-        className={anchorClass}
-        title={props.title}
-        rel={props.rel}
-        // onClick={handleClick}
-      >
+      <a className={anchorClass} title={props.title} rel={props.rel}>
         {props.children}
       </a>
     );
@@ -57,13 +43,20 @@ export default function LinkAnchor(props: Props) {
   }
 
   return (
-    <RemixLink
+    <NavLink
       to={props.href}
       title={props.title}
       rel={props.rel}
-      className={anchorClass}
+      className={({ isActive }) =>
+        `${anchorClass} ${
+          isActive || props.active
+            ? "text-black"
+            : "text-link hover:text-link-hover"
+        }`
+      }
+      end={props.end}
     >
       {props.children}
-    </RemixLink>
+    </NavLink>
   );
 }
