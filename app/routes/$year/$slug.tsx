@@ -2,7 +2,7 @@ import React from "react";
 import type { LoaderFunction, MetaFunction } from "remix";
 import { json, useLoaderData } from "remix";
 
-import { Header, Page } from "~/components/layout";
+import { Header } from "~/components/layout";
 import Cards from "~/components/Match/Cards";
 import Goals from "~/components/Match/Goals";
 import Info from "~/components/Match/Info";
@@ -80,7 +80,7 @@ export default function MatchPage() {
   const { match, prevMatch, nextMatch } = useLoaderData<LoaderData>();
 
   return (
-    <Page>
+    <>
       <Header text={`${getMatchTeams(match)} ${getMatchScore(match)}`} top />
       <p>
         {getMatchDate(match, { withYear: true })}, {match.competition}
@@ -97,6 +97,6 @@ export default function MatchPage() {
         nextMatch={nextMatch || undefined}
       />
       <VerifiedNote match={match} />
-    </Page>
+    </>
   );
 }

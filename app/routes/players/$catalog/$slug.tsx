@@ -6,7 +6,7 @@ import { json, useLoaderData } from "remix";
 import stringSimilarity from "string-similarity";
 
 import InfoLinks from "~/components/InfoLinks";
-import { Block, Header, Page } from "~/components/layout";
+import { Block, Header } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import PlayerList from "~/components/PlayerList";
 import { fetchMatches, fetchPlayerInfo } from "~/data";
@@ -121,16 +121,16 @@ export default function PlayerPage() {
 
   if (errorCode) {
     return (
-      <Page>
+      <>
         <Header text="Player not found. Suggested other players." />
         <PlayerList players={players} />
-      </Page>
+      </>
     );
   }
 
   return (
-    <Page
-    // description={generateDescription({ name, stat, matches })}
+    <
+      // description={generateDescription({ name, stat, matches })}
     >
       <Header text={String(name)} top />
       {stat && <p className="mb-4">{statPhrase(stat)}</p>}
@@ -142,6 +142,6 @@ export default function PlayerPage() {
         </Block>
       )}
       {info && <InfoLinks links={info.links} />}
-    </Page>
+    </>
   );
 }

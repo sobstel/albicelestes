@@ -1,14 +1,16 @@
 import React, { ReactNode } from "react";
+import { useLocation } from "react-router-dom";
 
 import { Block, LinkAnchor } from "~/components/layout";
 
-function NavLink({ href, children }: { href: string; children: ReactNode }) {
+const HomeLink = () => {
+  const location = useLocation();
   return (
-    <LinkAnchor href={href} important>
-      {children}
+    <LinkAnchor href="/" active={/\/\d{4}/.test(location.pathname)} important>
+      Matches
     </LinkAnchor>
   );
-}
+};
 
 export default function PageHeader() {
   return (
@@ -16,13 +18,17 @@ export default function PageHeader() {
       <Block isNav hasBottomSeparator className="flex">
         <ul className="inline-flex items-center uppercase font-sans text-sm md:text-base">
           <li className="mr-4">
-            <NavLink href="/">Matches</NavLink>
+            <HomeLink />
           </li>
           <li className="mr-4">
-            <NavLink href="/players">Players</NavLink>
+            <LinkAnchor href="/players" important>
+              Players
+            </LinkAnchor>
           </li>
           <li>
-            <NavLink href="/teams">Teams</NavLink>
+            <LinkAnchor href="/teams" important>
+              Teams
+            </LinkAnchor>
           </li>
         </ul>
       </Block>

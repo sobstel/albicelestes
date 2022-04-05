@@ -17,7 +17,7 @@ export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
       <div className="font-semibold uppercase">
         {R.map(items, ({ id, href, text }) => (
           <Fragment key={id}>
-            <LinkAnchor href={href} disabled={id === catalog} className="mr-2">
+            <LinkAnchor href={href} className="mr-2">
               {text}
             </LinkAnchor>{" "}
           </Fragment>

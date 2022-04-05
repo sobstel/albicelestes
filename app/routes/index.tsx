@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Header, Page } from "~/components/layout";
+import { Header } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import YearNav from "~/components/YearNav";
 import { fetchMatches } from "~/data";
@@ -34,10 +34,10 @@ export const meta: MetaFunction = () => {
 export default function IndexPage() {
   const recentMatches = useLoaderData<LoaderData>();
   return (
-    <Page>
+    <>
       <YearNav />
       <Header top text="Recent matches" />
       <MatchList matches={recentMatches} />
-    </Page>
+    </>
   );
 }

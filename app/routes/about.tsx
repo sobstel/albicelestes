@@ -1,7 +1,7 @@
 import React from "react";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Block, Header, LinkAnchor, Page } from "~/components/layout";
+import { Block, Header, LinkAnchor } from "~/components/layout";
 import { fetchBibliography, fetchMatches } from "~/data";
 import { collectPlayers, collectTeams } from "~/helpers";
 import { seoTitle } from "~/utility";
@@ -39,7 +39,7 @@ export default function AboutPage() {
   const { stat, bibliography } = useLoaderData<LoaderData>();
 
   return (
-    <Page>
+    <>
       <Header top text="About" />
       <p>Argentina Football National Team Archive</p>
 
@@ -106,6 +106,6 @@ export default function AboutPage() {
           <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
         </p>
       </Block>
-    </Page>
+    </>
   );
 }

@@ -3,7 +3,7 @@ import * as R from "remeda";
 import type { LoaderFunction } from "remix";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Block, Page } from "~/components/layout";
+import { Block } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import YearHeader from "~/components/YearHeader";
 import YearNav from "~/components/YearNav";
@@ -75,8 +75,7 @@ export const meta: MetaFunction = ({
 export default function YearPlayersPage() {
   const { players, year } = useLoaderData<LoaderData>();
   return (
-    <Page>
-      <YearNav activeYear={parseInt(year, 10)} />
+    <>
       <YearHeader year={year} />
 
       <Block>
@@ -113,6 +112,6 @@ export default function YearPlayersPage() {
           </tbody>
         </table>
       </Block>
-    </Page>
+    </>
   );
 }

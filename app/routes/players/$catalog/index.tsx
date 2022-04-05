@@ -15,8 +15,6 @@ import {
 } from "~/helpers";
 import { seoDescription, seoTitle } from "~/utility";
 
-import { Page } from "../components/layout";
-
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
 export async function getLoaderData({
@@ -60,12 +58,11 @@ export const meta: MetaFunction = ({
 };
 
 export default function PlayerCatalogPage() {
-  const { players, catalog } = useLoaderData<LoaderData>();
+  const { players } = useLoaderData<LoaderData>();
 
   return (
-    <Page>
-      <PlayerCatalogNav catalog={catalog} />
+    <>
       <PlayerList players={players} />
-    </Page>
+    </>
   );
 }
