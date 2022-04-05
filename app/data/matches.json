@@ -53168,5 +53168,143 @@
     ],
     "info": {"youtube": [{"id": "EtkJRySAMC8"}]},
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-03-25",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio Alberto José Armando",
+      "city": "Ciudad de Buenos Aires"
+    },
+    "teams": [{"name": "Argentina"}, {"name": "Venezuela"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Nicolás González", "min": "35", "type": "G"},
+        {"name": "Angel Di Maria", "min": "79", "type": "G"},
+        {"name": "Lionel Messi", "min": "82", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Miguel Navarro", "min": "12", "type": "Y"},
+        {"name": "Jhon Chancellor", "min": "67", "type": "Y"},
+        {"name": "Yangel Herrera", "min": "69", "type": "Y"},
+        {"name": "Roberto Rosales", "min": "71", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "José Pékerman"}],
+    "lineups": [
+      [
+        {"name": "Franco Armani"},
+        {"name": "Germán Pezzella"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Nahuel Molina"},
+        {"name": "Alexis Mac Allister", "out": "70"},
+        {"name": "Angel Di Maria", "in": "70"},
+        {"name": "Leandro Paredes", "out": "88"},
+        {"name": "Guido Rodríguez", "in": "88"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Joaquín Correa", "out": "64"},
+        {"name": "Ángel Correa", "in": "64"},
+        {"name": "Nicolás González", "out": "87"},
+        {"name": "Lucas Boyé", "in": "87"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Wuilker Faríñez"},
+        {"name": "Nahuel Ferraresi"},
+        {"name": "Roberto Rosales"},
+        {"name": "Jhon Chancellor"},
+        {"name": "Christian Makoun"},
+        {"name": "Miguel Navarro", "out": "46"},
+        {"name": "Jhon Murillo", "in": "46"},
+        {"name": "Cristian Cásseres Jr", "out": "62"},
+        {"name": "Luis González", "in": "62"},
+        {"name": "José Martínez"},
+        {"name": "Yangel Herrera", "out": "77"},
+        {"name": "Darwin Machís", "in": "77"},
+        {"name": "Salomón Rondón", "out": "83"},
+        {"name": "Jefferson Savarino", "in": "83"},
+        {"name": "Joséf Martínez", "out": "62"},
+        {"name": "Fernando Aristeguieta", "in": "62"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-03-29",
+    "competition": "World Cup Quals",
+    "round": "Regular Season",
+    "venue": {
+      "name": "Estadio Monumental Banco Pichincha",
+      "city": "Guayaquil"
+    },
+    "teams": [{"name": "Ecuador"}, {"name": "Argentina"}],
+    "score": [1, 1],
+    "result": "D",
+    "goals": [
+      [{"name": "Enner Valencia", "min": "90+3", "type": "G"}],
+      [{"name": "Julián Álvarez", "min": "24", "type": "G"}]
+    ],
+    "cards": [
+      [
+        {"name": "Byron Castillo", "min": "37", "type": "Y"},
+        {"name": "Felipe Caicedo", "min": "49", "type": "Y"},
+        {"name": "Alan Franco", "min": "56", "type": "Y"},
+        {"name": "Michael Estrada", "min": "68", "type": "Y"},
+        {"name": "Piero Hincapié", "min": "80", "type": "Y"}
+      ],
+      [
+        {"name": "Alexis Mac Allister", "min": "18", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "68", "type": "Y"},
+        {"name": "Nicolás Tagliafico", "min": "90+1", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Gustavo Alfaro"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Hernán Galíndez"},
+        {"name": "Piero Hincapié"},
+        {"name": "Robert Arboleda"},
+        {"name": "Byron Castillo", "out": "82"},
+        {"name": "Angelo Preciado", "in": "82"},
+        {"name": "Pervis Estupiñán"},
+        {"name": "Carlos Gruezo", "out": "73"},
+        {"name": "Jeremy Sarmiento", "in": "73"},
+        {"name": "Gonzalo Plata"},
+        {"name": "Felipe Caicedo"},
+        {"name": "Alan Franco", "out": "59"},
+        {"name": "Enner Valencia", "in": "59"},
+        {"name": "Michael Estrada", "out": "82"},
+        {"name": "Jordy Caicedo", "in": "82"},
+        {"name": "Romario Ibarra", "out": "60"},
+        {"name": "Ángel Mena", "in": "60"}
+      ],
+      [
+        {"name": "Gerónimo Rulli"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Lucas Martínez Quarta"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Gonzalo Montiel", "out": "78"},
+        {"name": "Juan Foyth", "in": "78"},
+        {"name": "Leandro Paredes", "out": "78"},
+        {"name": "Guido Rodríguez", "in": "78"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Alexis Mac Allister", "out": "59"},
+        {"name": "Exequiel Palacios", "in": "59"},
+        {"name": "Nicolás González", "out": "78"},
+        {"name": "Lucas Ocampos", "in": "78"},
+        {"name": "Julián Álvarez", "out": "72"},
+        {"name": "Ángel Correa", "in": "72"},
+        {"name": "Lionel Messi"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
