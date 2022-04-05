@@ -3,7 +3,7 @@ import React from "react";
 import * as R from "remeda";
 import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 
-import { Header, Page } from "~/components/layout";
+import { Header } from "~/components/layout";
 import MatchList from "~/components/MatchList";
 import { fetchMatches } from "~/data";
 import {
@@ -74,10 +74,10 @@ export default function TeamPage() {
   const { name, matches, stat } = useLoaderData<LoaderData>();
   const title = `Argentina v ${name}`;
   return (
-    <Page>
+    <>
       <Header text={title} top />
       <p className="mb-4">{statPhrase(stat)}</p>
       <MatchList matches={matches} />
-    </Page>
+    </>
   );
 }

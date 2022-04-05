@@ -2,7 +2,6 @@ import React from "react";
 import * as R from "remeda";
 import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 
-import { Page } from "~/components/layout";
 import PlayerCatalogNav from "~/components/PlayerCatalogNav";
 import PlayerList from "~/components/PlayerList";
 import { fetchMatches } from "~/data";
@@ -33,9 +32,9 @@ export const meta: MetaFunction = () => {
 export default function PlayerIndexPage() {
   const { players } = useLoaderData<LoaderData>();
   return (
-    <Page>
+    <>
       <PlayerCatalogNav />
       <PlayerList players={players} />
-    </Page>
+    </>
   );
 }

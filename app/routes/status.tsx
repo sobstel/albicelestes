@@ -2,7 +2,7 @@ import React from "react";
 import * as R from "remeda";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Block, Header, Page } from "~/components/layout";
+import { Block, Header } from "~/components/layout";
 import { fetchMatches } from "~/data";
 import { seoTitle } from "~/utility";
 
@@ -59,7 +59,7 @@ export default function StatusPage() {
     useLoaderData<LoaderData>();
 
   return (
-    <Page>
+    <>
       <Header top text="Data verification status" />
       <Block>
         <table>
@@ -79,6 +79,6 @@ export default function StatusPage() {
           ))}
         </table>
       </Block>
-    </Page>
+    </>
   );
 }

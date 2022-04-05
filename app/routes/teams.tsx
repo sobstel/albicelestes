@@ -3,7 +3,7 @@ import React from "react";
 import * as R from "remeda";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Block, LinkAnchor, Page } from "~/components/layout";
+import { Block, LinkAnchor } from "~/components/layout";
 import { fetchMatches } from "~/data";
 import {
   collectTeams,
@@ -51,7 +51,7 @@ export const meta: MetaFunction = ({
 export default function TeamsPage() {
   const { teams } = useLoaderData<LoaderData>();
   return (
-    <Page>
+    <>
       <Block>
         {teams.map(({ name, slug, mp }) => (
           <p key={slug}>
@@ -62,6 +62,6 @@ export default function TeamsPage() {
           </p>
         ))}
       </Block>
-    </Page>
+    </>
   );
 }
