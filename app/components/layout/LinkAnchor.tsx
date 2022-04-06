@@ -8,7 +8,6 @@ type Props = {
   important?: boolean;
   title?: string;
   rel?: string;
-  onClick?: () => void;
   className?: string;
   active?: boolean;
   end?: boolean;
@@ -33,7 +32,7 @@ export default function LinkAnchor(props: Props) {
     return (
       <a
         href={props.href}
-        className={anchorClass}
+        className={`text-link hover:text-link-hover ${anchorClass}`}
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
