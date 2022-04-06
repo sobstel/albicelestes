@@ -6,27 +6,25 @@ import { json, MetaFunction, useLoaderData } from "remix";
 import { Block } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import YearHeader from "~/components/YearHeader";
-import YearNav from "~/components/YearNav";
-import { MAX_YEAR, TEAM_NAME } from "~/config";
+import { MAX_YEAR, MIN_YEAR } from "~/config";
 import { fetchMatches } from "~/data";
 import { collectPlayers, getMatchYear } from "~/helpers";
 import { seoDescription, seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
-export async function getLoaderData({ params }: Parameters<LoaderFunction>[0]) {
-  const year = params?.year || MAX_YEAR.toString();
-
-  const yearBase = parseInt(String(parseInt(year) / 10), 10);
-  const yearFrom = `${yearBase}0`;
-  const yearTo = `${yearBase}9`;
+export async function getLoaderData({
+  params: { year, slug },
+}: Parameters<LoaderFunction>[0]) {
+  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter(
-      (match) =>
-        getMatchYear(match) >= yearFrom && getMatchYear(match) <= yearTo
-    )
+    R.filter((match) => getMatchYear(match) === year)
   );
 
   const players = R.pipe(
@@ -36,22 +34,12 @@ export async function getLoaderData({ params }: Parameters<LoaderFunction>[0]) {
   );
 
   return {
-    year: yearFrom,
+    year,
     players,
   };
 }
 
 export const loader: LoaderFunction = async (args) => {
-  const {
-    params: { year },
-  } = args;
-  if (!year || year < "1900" || year > String(MAX_YEAR)) {
-    // TODO
-    throw new Response("Not Found", {
-      status: 404,
-    });
-  }
-
   return json<LoaderData>(await getLoaderData(args));
 };
 
@@ -72,7 +60,7 @@ export const meta: MetaFunction = ({
   };
 };
 
-export default function YearPlayersPage() {
+export default function YearAppsPage() {
   const { players, year } = useLoaderData<LoaderData>();
   return (
     <>

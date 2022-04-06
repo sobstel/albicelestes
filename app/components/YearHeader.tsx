@@ -1,15 +1,15 @@
 import React from "react";
 
-import { Header } from "~/components/layout";
+import { Nav } from "~/components/layout";
 
 type Props = { year: string };
 
 export default function YearHeader({ year }: Props) {
-  const nav = [
+  const items = [
     { text: "Matches", href: `/${year}` },
-    { text: "Appearances", href: `/${year}/players` },
+    { text: "Appearances", href: `/${year}/apps` },
     // { text: "Stats", href: `/${year}/stats` },
   ];
 
-  return <Header text={`${year}+`} top nav={nav} />;
+  return <Nav items={items} />;
 }

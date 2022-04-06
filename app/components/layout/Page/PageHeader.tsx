@@ -7,7 +7,7 @@ const HomeLink = () => {
   const location = useLocation();
   return (
     <LinkAnchor href="/" active={/\/\d{4}/.test(location.pathname)} important>
-      Matches
+      Argentina
     </LinkAnchor>
   );
 };

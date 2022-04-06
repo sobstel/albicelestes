@@ -6,5 +6,8 @@
   },
   "github": {
     "enabled": false
-  }
+  },
+  "redirects": [
+    { "source": "/:year/players", "destination": "/:year/apps", "permanent": true }
+  ]
 }

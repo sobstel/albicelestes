@@ -2,7 +2,7 @@ import React from "react";
 import type { LoaderFunction, MetaFunction } from "remix";
 import { json, useLoaderData } from "remix";
 
-import { Header } from "~/components/layout";
+import { Header, LinkAnchor } from "~/components/layout";
 import Cards from "~/components/Match/Cards";
 import Goals from "~/components/Match/Goals";
 import Info from "~/components/Match/Info";
@@ -11,7 +11,7 @@ import PenaltyShootout from "~/components/Match/PenaltyShootout";
 import SeeAlso from "~/components/Match/SeeAlso";
 import Venue from "~/components/Match/Venue";
 import VerifiedNote from "~/components/Match/VerifiedNote";
-import { MAX_YEAR, TEAM_NAME } from "~/config";
+import { MAX_YEAR, MIN_YEAR, TEAM_NAME } from "~/config";
 import { fetchMatches } from "~/data";
 import {
   getMatchDate,
@@ -29,6 +29,12 @@ type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 export async function getLoaderData({
   params: { year, slug },
 }: Parameters<LoaderFunction>[0]) {
+  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
+
   const matches = fetchMatches();
   const idx = matches.findIndex(
     (match) => getMatchYear(match) === year && getMatchSlug(match) === slug
@@ -42,16 +48,6 @@ export async function getLoaderData({
 }
 
 export const loader: LoaderFunction = async (args) => {
-  const {
-    params: { year },
-  } = args;
-  if (!year || year < "1900" || year > String(MAX_YEAR)) {
-    // TODO
-    throw new Response("Not Found", {
-      status: 404,
-    });
-  }
-
   return json<LoaderData>(await getLoaderData(args));
 };
 
@@ -79,11 +75,18 @@ export const meta: MetaFunction = ({
 export default function MatchPage() {
   const { match, prevMatch, nextMatch } = useLoaderData<LoaderData>();
 
+  const matchYear = getMatchYear(match);
+
+  // TODO: linkify opponent and year
   return (
     <>
       <Header text={`${getMatchTeams(match)} ${getMatchScore(match)}`} top />
       <p>
-        {getMatchDate(match, { withYear: true })}, {match.competition}
+        {getMatchDate(match)}{" "}
+        <LinkAnchor href={`/${matchYear}`} active={false}>
+          {matchYear}
+        </LinkAnchor>
+        , {match.competition}
       </p>
       <Goals match={match} />
       <PenaltyShootout match={match} />

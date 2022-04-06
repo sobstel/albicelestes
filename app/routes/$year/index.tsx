@@ -18,40 +18,27 @@ type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 export async function getLoaderData({
   params: { year },
 }: Parameters<LoaderFunction>[0]) {
-  // TODO: validate year and show 404 on invalid
-
-  const yearBase = parseInt(String(parseInt(String(year)) / 10), 10);
-  const yearFrom = `${yearBase}0`;
-  const yearTo = `${yearBase}9`;
+  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
+    throw new Response("Not Found", {
+      status: 404,
+    });
+  }
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter(
-      (match) =>
-        getMatchYear(match) >= yearFrom && getMatchYear(match) <= yearTo
-    )
+    R.filter((match) => getMatchYear(match) === year)
   );
 
   const stat = matches.length > 0 && collectTeamStat(matches);
 
   return {
-    year: yearFrom,
+    year,
     matches: R.map(matches, getMatchItem),
     stat,
   };
 }
 
 export const loader: LoaderFunction = async (args) => {
-  const {
-    params: { year },
-  } = args;
-  if (!year || year < "1900" || year > String(MAX_YEAR)) {
-    // TODO
-    throw new Response("Not Found", {
-      status: 404,
-    });
-  }
-
   return json<LoaderData>(await getLoaderData(args));
 };
 

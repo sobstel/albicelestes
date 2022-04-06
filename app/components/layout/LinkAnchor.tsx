@@ -14,16 +14,16 @@ type Props = {
 };
 
 export default function LinkAnchor(props: Props) {
-  const anchorClass = classNames("select-none select-none-x cursor-pointer", {
+  // TODO: select-none select-none-x needed?
+  const anchorClass = classNames("", {
+    "cursor-pointer": props.href,
     "font-semibold": props.important,
     ...(props.className && { [props.className]: true }),
   });
 
   if (!props.href) {
     return (
-      <a className={anchorClass} title={props.title} rel={props.rel}>
-        {props.children}
-      </a>
+      <span className={`${anchorClass} text-gray-600`}>{props.children}</span>
     );
   }
 
@@ -41,6 +41,8 @@ export default function LinkAnchor(props: Props) {
     );
   }
 
+  const forceActive = props.active !== undefined;
+
   return (
     <NavLink
       to={props.href}
@@ -48,7 +50,7 @@ export default function LinkAnchor(props: Props) {
       rel={props.rel}
       className={({ isActive }) =>
         `${anchorClass} ${
-          isActive || props.active
+          (forceActive && props.active) || (!forceActive && isActive)
             ? "text-black"
             : "text-link hover:text-link-hover"
         }`
