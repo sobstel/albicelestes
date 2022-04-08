@@ -23,7 +23,11 @@ export default function LinkAnchor(props: Props) {
 
   if (!props.href) {
     return (
-      <span className={`${anchorClass} text-gray-600`}>{props.children}</span>
+      <span
+        className={`${anchorClass} text-gray-400 select-none x-select-none`}
+      >
+        {props.children}
+      </span>
     );
   }
 
