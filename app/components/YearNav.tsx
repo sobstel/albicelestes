@@ -33,10 +33,10 @@ const calculateYearRange = (
 
   if (lowerLimit < MIN_YEAR) {
     lowerLimit = MIN_YEAR;
-    upperLimit = MIN_YEAR + itemsCount - 2; // minus PREV & NEXT
+    upperLimit = MIN_YEAR + itemsCount - 3; // minus PREV & CURYEAR & NEXT
   }
   if (upperLimit > MAX_YEAR) {
-    lowerLimit = MAX_YEAR - itemsCount + 2; // minus PREV & NEXT
+    lowerLimit = MAX_YEAR - itemsCount + 3; // minus PREV & CURYEAR & NEXT
     upperLimit = MAX_YEAR;
   }
 
