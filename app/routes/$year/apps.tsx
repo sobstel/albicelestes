@@ -49,7 +49,7 @@ export const meta: MetaFunction = ({
   data: LoaderData;
 }) => {
   return {
-    title: seoTitle(["Player appearances", `${year}s`]),
+    title: seoTitle(["Player appearances", year]),
     description: seoDescription([
       R.pipe(
         players,

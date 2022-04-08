@@ -48,9 +48,9 @@ export const meta: MetaFunction = ({
   data: LoaderData;
 }) => {
   return {
-    title: seoTitle(["Matches", `${year}s`]),
+    title: seoTitle(["Matches", year]),
     description: seoDescription([
-      `Argentina matches in ${year}s`,
+      `Argentina matches in ${year}`,
       stat ? statPhrase(stat) : undefined,
     ]),
   };
