@@ -70,7 +70,13 @@ type Props = {
 };
 
 export default function MatchList({ matches }: Props) {
-  if (matches.length === 0) return null;
+  if (matches.length === 0) {
+    return (
+      <Block>
+        <p>No matches found</p>
+      </Block>
+    );
+  }
 
   const hasUnverifiedMatches = R.find(matches, (match) => !match.sources);
 

@@ -2,7 +2,7 @@ import React from "react";
 import type { LoaderFunction } from "remix";
 import { json, Outlet, useLoaderData } from "remix";
 
-import YearNav from "~/components/YearNav";
+import YearlyNav from "~/components/YearlyNav";
 import { MAX_YEAR, MIN_YEAR } from "~/config";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
@@ -27,7 +27,7 @@ export default function YearRootPage() {
   const { year } = useLoaderData<LoaderData>();
   return (
     <>
-      <YearNav activeYear={year} />
+      <YearlyNav activeYear={year} />
       <Outlet />
     </>
   );

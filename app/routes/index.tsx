@@ -4,7 +4,7 @@ import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Header } from "~/components/layout";
 import MatchList from "~/components/MatchList";
-import YearNav from "~/components/YearNav";
+import YearlyNav from "~/components/YearlyNav";
 import { fetchMatches } from "~/data";
 import { getMatchItem } from "~/helpers";
 import { seoTitle } from "~/utility";
@@ -35,7 +35,7 @@ export default function IndexPage() {
   const recentMatches = useLoaderData<LoaderData>();
   return (
     <>
-      <YearNav />
+      <YearlyNav />
       <Header top text="Recent matches" />
       <MatchList matches={recentMatches} />
     </>

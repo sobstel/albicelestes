@@ -16,15 +16,20 @@ type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 export async function getLoaderData({
   params: { year, slug },
 }: Parameters<LoaderFunction>[0]) {
-  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
-    throw new Response("Not Found", {
-      status: 404,
-    });
+  // TODO: de-duplicate
+  if (!year || !/^\d{4}(\-\d{4})?$/.test(year)) {
+    throw new Response("Not Found", { status: 404 });
   }
+
+  // TODO: de-duplicate
+  const yearParts = R.compact(year?.split("-", 2));
+  const lowerYear = yearParts?.[0] ?? String(MIN_YEAR);
+  const upperYear = yearParts?.[1] ?? lowerYear;
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
+    R.filter((match) => getMatchYear(match) >= lowerYear),
+    R.filter((match) => getMatchYear(match) <= upperYear)
   );
 
   const players = R.pipe(

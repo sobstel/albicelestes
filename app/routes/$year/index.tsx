@@ -6,7 +6,6 @@ import { json, useLoaderData } from "remix";
 
 import MatchList from "~/components/MatchList";
 import YearHeader from "~/components/YearHeader";
-import YearNav from "~/components/YearNav";
 import { MAX_YEAR, MIN_YEAR } from "~/config";
 import { fetchMatches } from "~/data";
 import { collectTeamStat, getMatchItem, getMatchYear } from "~/helpers";
@@ -18,15 +17,20 @@ type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 export async function getLoaderData({
   params: { year },
 }: Parameters<LoaderFunction>[0]) {
-  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
-    throw new Response("Not Found", {
-      status: 404,
-    });
+  // TODO: de-duplicate
+  if (!year || !/^\d{4}(\-\d{4})?$/.test(year)) {
+    throw new Response("Not Found", { status: 404 });
   }
+
+  // TODO: de-duplicate
+  const yearParts = R.compact(year?.split("-", 2));
+  const lowerYear = yearParts?.[0] ?? String(MIN_YEAR);
+  const upperYear = yearParts?.[1] ?? lowerYear;
 
   const matches = R.pipe(
     fetchMatches(),
-    R.filter((match) => getMatchYear(match) === year)
+    R.filter((match) => getMatchYear(match) >= lowerYear),
+    R.filter((match) => getMatchYear(match) <= upperYear)
   );
 
   const stat = matches.length > 0 && collectTeamStat(matches);
