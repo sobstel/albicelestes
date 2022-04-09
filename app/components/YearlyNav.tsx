@@ -36,7 +36,6 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
 
   useIsomorphicLayoutEffect(() => {
     const handleChange = () => {
-      console.log({ containerRef, itemRef });
       if (containerRef?.current && itemRef?.current) {
         const containerWidth = Math.floor(
           containerRef.current.getBoundingClientRect().width
@@ -60,7 +59,6 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
           upperLimit = MAX_YEAR;
         }
         setYearRange([String(lowerLimit), String(upperLimit)]);
-        console.log(handleChange, { currentYear });
       }
     };
     const handleResize = debounce(handleChange, 100);
