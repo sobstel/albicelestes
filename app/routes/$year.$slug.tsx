@@ -11,7 +11,7 @@ import PenaltyShootout from "~/components/Match/PenaltyShootout";
 import SeeAlso from "~/components/Match/SeeAlso";
 import Venue from "~/components/Match/Venue";
 import VerifiedNote from "~/components/Match/VerifiedNote";
-import { MAX_YEAR, MIN_YEAR, TEAM_NAME } from "~/config";
+import { TEAM_NAME } from "~/config";
 import { fetchMatches } from "~/data";
 import {
   getMatchDate,
@@ -29,16 +29,13 @@ type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 export async function getLoaderData({
   params: { year, slug },
 }: Parameters<LoaderFunction>[0]) {
-  if (!year || year < String(MIN_YEAR) || year > String(MAX_YEAR)) {
-    throw new Response("Not Found", {
-      status: 404,
-    });
-  }
-
   const matches = fetchMatches();
   const idx = matches.findIndex(
     (match) => getMatchYear(match) === year && getMatchSlug(match) === slug
   );
+  if (idx === -1) {
+    throw new Response("Not Found", { status: 404 });
+  }
 
   const match = matches[idx];
   const prevMatch = matches[idx - 1] ? getMatchItem(matches[idx - 1]) : null;
