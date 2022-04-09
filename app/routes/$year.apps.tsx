@@ -6,7 +6,8 @@ import { json, MetaFunction, useLoaderData } from "remix";
 import { Block } from "~/components/layout";
 import PlayerName from "~/components/PlayerName";
 import YearHeader from "~/components/YearHeader";
-import { MAX_YEAR, MIN_YEAR } from "~/config";
+import YearlyNav from "~/components/YearlyNav";
+import { MIN_YEAR } from "~/config";
 import { fetchMatches } from "~/data";
 import { collectPlayers, getMatchYear } from "~/helpers";
 import { seoDescription, seoTitle } from "~/utility";
@@ -69,6 +70,7 @@ export default function YearAppsPage() {
   const { players, year } = useLoaderData<LoaderData>();
   return (
     <>
+      <YearlyNav activeYear={year} />
       <YearHeader year={year} />
 
       <Block>

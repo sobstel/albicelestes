@@ -18,19 +18,25 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
     currentYear,
     currentYear,
   ]);
+  const currentYearInt = parseInt(currentYear, 10);
 
   const prevNextShift =
     parseInt(yearRange[1], 10) - parseInt(yearRange[0], 10) + 1;
-  const prevStart = parseInt(currentYear, 10) - prevNextShift;
-  const nextStart = parseInt(currentYear, 10) + prevNextShift;
 
-  const prevYear = anyYearActive && prevStart > MIN_YEAR && prevStart;
-  const nextYear = anyYearActive && nextStart < MAX_YEAR && nextStart;
+  const prevYear =
+    anyYearActive &&
+    currentYearInt > MIN_YEAR &&
+    Math.max(currentYearInt - prevNextShift, MIN_YEAR);
+  const nextYear =
+    anyYearActive &&
+    currentYearInt < MAX_YEAR &&
+    Math.min(currentYearInt + prevNextShift, MAX_YEAR);
   const containerRef = useRef<HTMLElement>(null);
   const itemRef = useRef<HTMLElement>(null);
 
   useIsomorphicLayoutEffect(() => {
     const handleChange = () => {
+      console.log({ containerRef, itemRef });
       if (containerRef?.current && itemRef?.current) {
         const containerWidth = Math.floor(
           containerRef.current.getBoundingClientRect().width
@@ -54,6 +60,7 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
           upperLimit = MAX_YEAR;
         }
         setYearRange([String(lowerLimit), String(upperLimit)]);
+        console.log(handleChange, { currentYear });
       }
     };
     const handleResize = debounce(handleChange, 100);
@@ -70,25 +77,26 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
 
   return (
     <nav className="grow overflow-hidden" ref={containerRef}>
-      <LinkAnchor
-        href={prevYear ? `/${prevYear}` : undefined}
-        className="inline mx-1"
-        important
-        active={false}
-      >
-        prev
-      </LinkAnchor>
+      <span ref={itemRef}>
+        <LinkAnchor
+          href={prevYear ? `/${prevYear}` : undefined}
+          className="inline mx-1"
+          important
+          active={false}
+        >
+          prev
+        </LinkAnchor>
+      </span>
       {R.map(years, (year) => (
-        <span key={year} ref={year === currentYear ? itemRef : undefined}>
-          <LinkAnchor
-            href={`/${year}`}
-            active={year === activeYear}
-            className="mx-1"
-            important
-          >
-            {year}
-          </LinkAnchor>
-        </span>
+        <LinkAnchor
+          key={year}
+          href={`/${year}`}
+          active={year === activeYear}
+          className="mx-1"
+          important
+        >
+          {year}
+        </LinkAnchor>
       ))}
       <LinkAnchor
         href={nextYear ? `/${nextYear}` : undefined}
@@ -148,13 +156,14 @@ export default function YearlyNav({ activeYear }: { activeYear?: string }) {
   const isDefaultNav = !activeYear || activeYear.indexOf("-") === -1;
   const isRangeNav = !isDefaultNav;
   const lowerYear = activeYear?.split("-")[0];
+  const currentYear = activeYear ?? String(MAX_YEAR);
 
   return (
     <Block isNav hasBottomSeparator>
       <div className="flex max-w-full uppercase">
         <div className="mr-1">
           {isDefaultNav && (
-            <LinkAnchor href={`/${activeYear}-${activeYear}`} important>
+            <LinkAnchor href={`/${currentYear}-${currentYear}`} important>
               Range
             </LinkAnchor>
           )}

@@ -5,8 +5,11 @@ import { Block, LinkAnchor } from "~/components/layout";
 
 const HomeLink = () => {
   const location = useLocation();
+  const isRootRoute = location.pathname === "/";
+  const isYearRoute = /^\/\d{4}(\-\d{4})?$/.test(location.pathname);
+
   return (
-    <LinkAnchor href="/" active={/\/\d{4}/.test(location.pathname)} important>
+    <LinkAnchor href="/" active={isRootRoute || isYearRoute} important>
       Argentina
     </LinkAnchor>
   );
