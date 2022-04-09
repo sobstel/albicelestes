@@ -23,7 +23,7 @@ export const loader: LoaderFunction = async (args) => {
   return json<LoaderData>(await getLoaderData(args));
 };
 
-export default function YearIndexPage() {
+export default function YearRootPage() {
   const { year } = useLoaderData<LoaderData>();
   return (
     <>

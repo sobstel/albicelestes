@@ -41,7 +41,7 @@ export function CatchBoundary() {
   );
 }
 
-export default function App() {
+export default function AppRoot() {
   const transition = useTransition();
   useEffect(() => {
     if (transition.state === "idle") {

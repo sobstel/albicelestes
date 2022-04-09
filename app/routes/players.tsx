@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "remix";
 
-export default function PlayerIndexPage() {
+export default function PlayerRootPage() {
   return <Outlet />;
 }

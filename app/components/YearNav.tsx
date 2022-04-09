@@ -1,4 +1,5 @@
 import { up } from "inquirer/lib/utils/readline";
+import debounce from "lodash.debounce";
 import React, {
   useCallback,
   useEffect,
@@ -17,13 +18,9 @@ const useIsomorphicLayoutEffect = isBrowser ? useLayoutEffect : useEffect;
 
 const calculateYearRange = (
   currentYear: string,
-  containerEl: HTMLElement | null,
-  itemEl: HTMLElement | null
-): [string, string] | undefined => {
-  if (!containerEl || !itemEl) {
-    return;
-  }
-
+  containerEl: HTMLElement,
+  itemEl: HTMLElement
+): [string, string] => {
   const containerWidth = Math.floor(containerEl.getBoundingClientRect().width);
   const itemWidth = Math.ceil(itemEl.getBoundingClientRect().width);
   const itemsCount = Math.floor(containerWidth / itemWidth);
@@ -45,14 +42,15 @@ const calculateYearRange = (
 
 export default function YearNav({ activeYear }: { activeYear?: string }) {
   const currentYear = activeYear ?? String(MAX_YEAR);
+  const anyYearActive = Boolean(activeYear);
 
-  // TODO generate year list to exlucde empty years
+  // TODO generate year list to exclude empty years
   const prevYear =
-    activeYear &&
+    anyYearActive &&
     currentYear > String(MIN_YEAR) &&
     `${parseInt(currentYear, 10) - 1}`;
   const nextYear =
-    activeYear &&
+    anyYearActive &&
     currentYear < String(MAX_YEAR) &&
     `${parseInt(currentYear, 10) + 1}`;
 
@@ -64,35 +62,24 @@ export default function YearNav({ activeYear }: { activeYear?: string }) {
   const containerRef = useRef<HTMLElement>(null);
   const itemRef = useRef<HTMLElement>(null);
 
-  function handleYearRangeChange(
-    currentYear: string,
-    containerEl: HTMLElement | null,
-    itemEl: HTMLElement | null
-  ) {
-    const calculatedYearRange = calculateYearRange(
-      currentYear,
-      containerEl,
-      itemEl
-    );
-    if (calculatedYearRange) {
-      setYearRange(calculatedYearRange);
-    }
-  }
-
   useIsomorphicLayoutEffect(() => {
-    function handleResize() {
-      handleYearRangeChange(
-        currentYear,
-        containerRef?.current,
-        itemRef?.current
-      );
-    }
+    const handleChange = () => {
+      console.log("handleChange");
+      if (containerRef?.current && itemRef?.current) {
+        const calculatedYearRange = calculateYearRange(
+          currentYear,
+          containerRef.current,
+          itemRef.current
+        );
+        setYearRange(calculatedYearRange);
+      }
+    };
+    const handleResize = debounce(handleChange, 100);
+
+    console.log({ currentYear, yearRange });
     window.addEventListener("resize", handleResize);
+    handleChange();
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  useIsomorphicLayoutEffect(() => {
-    handleYearRangeChange(currentYear, containerRef?.current, itemRef?.current);
   }, [currentYear, containerRef, itemRef]);
 
   const years = R.pipe(
