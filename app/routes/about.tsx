@@ -3,26 +3,13 @@ import { json, MetaFunction, useLoaderData } from "remix";
 
 import { Block, Header, LinkAnchor } from "~/components/layout";
 import { fetchBibliography, fetchMatches } from "~/data";
-import { collectPlayers, collectTeams } from "~/helpers";
 import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
 async function getLoaderData() {
-  const matches = fetchMatches();
   const bibliography = fetchBibliography();
-
-  const playersTotal = collectPlayers(matches).length;
-  const teamsTotal = collectTeams(matches).length;
-
-  return {
-    stat: {
-      matchesTotal: matches.length,
-      playersTotal,
-      teamsTotal,
-    },
-    bibliography,
-  };
+  return { bibliography };
 }
 
 export const loader = async () => {
@@ -36,22 +23,12 @@ export const meta: MetaFunction = () => {
 };
 
 export default function AboutPage() {
-  const { stat, bibliography } = useLoaderData<LoaderData>();
+  const { bibliography } = useLoaderData<LoaderData>();
 
   return (
     <>
       <Header top text="About" />
       <p>Argentina Football National Team Archive</p>
-
-      <Block>
-        <Header text="Status" />
-        <p>
-          Matches (inc. suspended): {stat.matchesTotal} (
-          <LinkAnchor href="/status">verification status</LinkAnchor>)
-        </p>
-        <p>Argentina players: {stat.playersTotal}</p>
-        <p>Rival teams: {stat.teamsTotal}</p>
-      </Block>
 
       <Block>
         <Header text="Links" />

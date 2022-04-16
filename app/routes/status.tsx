@@ -2,8 +2,9 @@ import React from "react";
 import * as R from "remeda";
 import { json, MetaFunction, useLoaderData } from "remix";
 
-import { Block, Header } from "~/components/layout";
+import { Block, Header, LinkAnchor } from "~/components/layout";
 import { fetchMatches } from "~/data";
+import { collectPlayers, collectTeams } from "~/helpers";
 import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
@@ -36,11 +37,16 @@ async function getLoaderData() {
     R.sortBy((stat) => -stat.total)
   );
 
+  const playersTotal = collectPlayers(matches).length;
+  const teamsTotal = collectTeams(matches).length;
+
   return {
     matchesTotal,
     matchesVerified,
     verifiedRatio,
     competitionStats,
+    playersTotal,
+    teamsTotal,
   };
 }
 
@@ -55,13 +61,26 @@ export const meta: MetaFunction = () => {
 };
 
 export default function StatusPage() {
-  const { matchesTotal, matchesVerified, verifiedRatio, competitionStats } =
-    useLoaderData<LoaderData>();
+  const {
+    matchesTotal,
+    matchesVerified,
+    verifiedRatio,
+    competitionStats,
+    playersTotal,
+    teamsTotal,
+  } = useLoaderData<LoaderData>();
 
   return (
     <>
-      <Header top text="Data verification status" />
       <Block>
+        <Header text="Summary" />
+        <p>Matches (inc. suspended): {matchesTotal}</p>
+        <p>Argentina players: {playersTotal}</p>
+        <p>Rival teams: {teamsTotal}</p>
+      </Block>
+
+      <Block>
+        <Header text="Matches verification status by competition" />
         <table>
           <tr key="all">
             <th className="text-left">TOTAL</th>
