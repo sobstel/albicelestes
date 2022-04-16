@@ -9936,12 +9936,12 @@
     ],
     "lineups": [
       [
+        {"name": "Isaac Roberto López", "out": ""},
         {"name": "José Salomon"},
         {"name": "Rinaldo Fioramonti Martino"},
         {"name": "Jorge Alberti"},
         {"name": "Enrique Garcia"},
         {"name": "H Leguizamon"},
-        {"name": "I Lopez", "out": ""},
         {"name": "Fernando Bello", "in": ""},
         {"name": "Juan Carlos Munoz"},
         {"name": "Negri"},
@@ -17966,7 +17966,7 @@
         {"name": "Andrés Arturo Bertolotti"},
         {"name": "Juan Carlos Carone"},
         {"name": "Narciso Horacio Doval"},
-        {"name": "Lopez"},
+        {"name": "Nelson López"},
         {"name": "Eduardo Lujan Manera"},
         {"name": "Carlos Oscar Pachame"},
         {"name": "Mario Pardo"},
@@ -18014,7 +18014,7 @@
         {"name": "Daniel Onega", "in": "61"},
         {"name": "Juan Carlos Carone", "out": "46"},
         {"name": "Enzo Enrique Gennoni", "in": "46"},
-        {"name": "Lopez"},
+        {"name": "Nelson López"},
         {"name": "Eduardo Lujan Manera"},
         {"name": "Carlos Oscar Pachame", "out": "68"},
         {"name": "Jorge Carlos Masalis", "in": "68"},
@@ -18060,8 +18060,8 @@
         {"name": "Carlos Oscar Pachame", "in": ""},
         {"name": "Rodolfo Fischer"},
         {"name": "Hugo Orlando Gatti"},
-        {"name": "Lopez"},
-        {"name": "M Lopez"},
+        {"name": "Nelson López"},
+        {"name": "Miguel Ángel López"},
         {"name": "Eduardo Lujan Manera"},
         {"name": "Mario Pardo"},
         {"name": "Oscar Antonio Pianetti", "out": ""},
@@ -18152,6 +18152,7 @@
         {"name": "Artemio Villanueva"}
       ],
       [
+        {"name": "Carlos Alberto Buttice"},
         {"name": "Roberto Perfumo"},
         {"name": "Rafael Albrecht"},
         {"name": "Alberto Rendo"},
@@ -18159,10 +18160,9 @@
         {"name": "Roque Avallay", "out": ""},
         {"name": "Oscar Más", "in": ""},
         {"name": "Rodolfo Fischer"},
-        {"name": "Carlos Alberto Buttice"},
         {"name": "Luis Gregorio Gallo"},
-        {"name": "J Lopez", "out": ""},
-        {"name": "L Sinatra", "in": ""},
+        {"name": "Nelson López", "out": ""},
+        {"name": "Néstor Aníbal Sinatra", "in": ""},
         {"name": "César Luis Menotti"},
         {"name": "Juan Carlos Rulli"}
       ]
@@ -18422,7 +18422,7 @@
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Alfio Basile", "out": ""},
         {"name": "Roberto Rodolfo Aguirre", "in": ""},
-        {"name": "Lopez"},
+        {"name": "Nelson López"},
         {"name": "Hector Salvador Minitti"},
         {"name": "Hector Alberto Ostua", "out": ""},
         {"name": "Jorge Solari", "in": ""},
@@ -18469,7 +18469,7 @@
         {"name": "Angel Manuel Silva", "in": ""},
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Edgardo Norberto Andrada"},
-        {"name": "Lopez"},
+        {"name": "Nelson López"},
         {"name": "Hector Salvador Minitti"},
         {"name": "Raul Armando Savoy"},
         {"name": "Carlos José Veglio", "out": ""},
@@ -18678,7 +18678,7 @@
         {"name": "Roberto Rodolfo Aguirre"},
         {"name": "Edgardo Norberto Andrada"},
         {"name": "Victorio Cocco"},
-        {"name": "Lopez"},
+        {"name": "Nelson López"},
         {"name": "Raul Horacio Madero"},
         {"name": "Oscar Miguel Malbernat"},
         {"name": "Hector Salvador Minitti", "out": ""},
@@ -20051,16 +20051,17 @@
         {"name": "Ángel Bargas"},
         {"name": "Ramón Heredia"},
         {"name": "Enrique Wolff"},
+        {"name": "Miguel Ángel López"},
         {"name": "Miguel Ángel Brindisi"},
         {"name": "José Omar Pastoriza"},
         {"name": "Alejandro Semenewicz"},
         {"name": "Carlos Bianchi"},
         {"name": "Rodolfo Fischer"},
         {"name": "Oscar Más", "out": ""},
-        {"name": "Ernesto Mastrangelo", "in": ""},
-        {"name": "V Lopez"}
+        {"name": "Ernesto Mastrangelo", "in": ""}
       ]
-    ]
+    ],
+    "info": {"youtube": [{"id":  "goVaCbI9bN4"}]}
   },
   {
     "date": "1972-07-02",
@@ -32148,7 +32149,7 @@
         {"name": "Marcelo Escudero", "out": ""},
         {"name": "José Oscar Flores", "in": ""},
         {"name": "Fabian Espina", "out": ""},
-        {"name": "Gustavo Lopez", "in": ""},
+        {"name": "Gustavo Adrián López", "in": ""},
         {"name": "Hugo Perez"},
         {"name": "Javier Zanetti"},
         {"name": "Ariel Ortega", "out": ""},
@@ -32191,7 +32192,7 @@
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero"},
         {"name": "Fabian Espina", "out": "68"},
-        {"name": "Gustavo Lopez", "in": "68"},
+        {"name": "Gustavo Adrián López", "in": "68"},
         {"name": "Hugo Perez"},
         {"name": "Javier Zanetti"},
         {"name": "Ariel Ortega"},
@@ -32248,7 +32249,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero", "out": "56"},
-        {"name": "Gustavo Lopez", "in": "56"},
+        {"name": "Gustavo Adrián López", "in": "56"},
         {"name": "Hugo Perez"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
@@ -32366,7 +32367,7 @@
         {"name": "Sebastián Rambert", "out": "76"},
         {"name": "Fabian Espina", "in": "76"},
         {"name": "Ruben Jimenez", "out": "66"},
-        {"name": "Gustavo Lopez", "in": "66"}
+        {"name": "Gustavo Adrián López", "in": "66"}
       ],
       [
         {"name": "Mogens Krogh"},
@@ -32496,7 +32497,7 @@
         {"name": "Leonardo Astrada"},
         {"name": "Sergio Berti"},
         {"name": "Juan Pablo Sorin", "out": "72"},
-        {"name": "Gustavo Lopez", "in": "72"},
+        {"name": "Gustavo Adrián López", "in": "72"},
         {"name": "Javier Zanetti"},
         {"name": "Marcelo Gallardo"},
         {"name": "Ariel Ortega"},
@@ -32525,7 +32526,7 @@
         {"name": "Christian Bassedas", "out": "69"},
         {"name": "Marcelo Escudero", "in": "69"},
         {"name": "Sergio Berti"},
-        {"name": "Gustavo Lopez"},
+        {"name": "Gustavo Adrián López"},
         {"name": "Javier Zanetti"},
         {"name": "Marcelo Gallardo"},
         {"name": "Ariel Ortega"},
@@ -32970,7 +32971,7 @@
         {"name": "Fernando Caceres"},
         {"name": "Leonardo Astrada"},
         {"name": "Sergio Berti", "out": "46"},
-        {"name": "Gustavo Lopez", "in": "46"},
+        {"name": "Gustavo Adrián López", "in": "46"},
         {"name": "Diego Simeone", "out": "83"},
         {"name": "Kily González", "in": "83"},
         {"name": "Javier Zanetti"},
@@ -33008,11 +33009,11 @@
     "goals": [
       [
         {"name": "Juan Eduardo Esnaider", "min": "2", "type": "G"},
-        {"name": "Gustavo Lopez", "min": "18", "type": "P"},
+        {"name": "Gustavo Adrián López", "min": "18", "type": "P"},
         {"name": "Rodolfo Esteban Cardoso", "min": "24", "type": "G"},
         {"name": "Juan Eduardo Esnaider", "min": "32", "type": "G"},
         {"name": "Carlos Javier Netto", "min": "82", "type": "G"},
-        {"name": "Gustavo Lopez", "type": "G"}
+        {"name": "Gustavo Adrián López", "type": "G"}
       ],
       []
     ],
@@ -33022,7 +33023,7 @@
         {"name": "Hernan Diaz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
-        {"name": "Gustavo Lopez"},
+        {"name": "Gustavo Adrián López"},
         {"name": "Claudio Dario Biaggo", "out": "77"},
         {"name": "Marcelo Delgado", "in": "77"},
         {"name": "Rodolfo Esteban Cardoso"},
@@ -33075,7 +33076,7 @@
         {"name": "Diego Simeone"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta", "out": "87"},
-        {"name": "Claudio Lopez", "in": "87"},
+        {"name": "Claudio López", "in": "87"},
         {"name": "Claudio Caniggia", "out": "72"},
         {"name": "Abel Balbo", "in": "72"},
         {"name": "Ariel Ortega"},
@@ -33144,7 +33145,7 @@
         {"name": "Ariel Ortega", "out": "71"},
         {"name": "Rodolfo Esteban Cardoso", "in": "71"},
         {"name": "Hugo Alberto Morales", "out": "76"},
-        {"name": "Claudio Lopez", "in": "76"}
+        {"name": "Claudio López", "in": "76"}
       ]
     ]
   },
@@ -33189,7 +33190,7 @@
         {"name": "Claudio Caniggia", "out": "72"},
         {"name": "Pablo Paz", "in": "72"},
         {"name": "Ariel Ortega", "out": "89"},
-        {"name": "Gustavo Lopez", "in": "89"},
+        {"name": "Gustavo Adrián López", "in": "89"},
         {"name": "Hugo Alberto Morales", "out": "46"},
         {"name": "Christian Bassedas", "in": "46"}
       ]
@@ -33225,7 +33226,7 @@
         {"name": "Ariel Ortega"},
         {"name": "Hugo Alberto Morales"},
         {"name": "Guillermo Barros Schelotto", "out": "53"},
-        {"name": "Claudio Lopez", "in": "53"}
+        {"name": "Claudio López", "in": "53"}
       ],
       [
         {"name": "José Luis Chilavert"},
@@ -33293,7 +33294,7 @@
         {"name": "Juan Pablo Sorin"},
         {"name": "Gabriel Batistuta"},
         {"name": "Ariel Ortega", "out": "88"},
-        {"name": "Claudio Lopez", "in": "88"},
+        {"name": "Claudio López", "in": "88"},
         {"name": "José Fabian Albornoz"},
         {"name": "Eduardo Berizzo"},
         {"name": "Hugo Alberto Morales"}
@@ -33321,7 +33322,7 @@
         {"name": "Pablo Cavallero"},
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas", "out": "46"},
-        {"name": "Gustavo Lopez", "in": "46"},
+        {"name": "Gustavo Adrián López", "in": "46"},
         {"name": "Matias Almeyda"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Javier Zanetti"},
@@ -33454,7 +33455,7 @@
     "teams": [{"name": "Colombia"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Claudio Lopez", "min": "10", "type": "G"}]],
+    "goals": [[], [{"name": "Claudio López", "min": "10", "type": "G"}]],
     "cards": [[], [{"name": "Eduardo Berizzo", "min": "45", "type": "R"}]],
     "coaches": [{"name": "Hernan Dario Gomez"}, {"name": "Daniel Passarella"}],
     "lineups": [
@@ -33482,7 +33483,7 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo", "out": "46"},
         {"name": "Nelson Vivas", "in": "46"},
-        {"name": "Claudio Lopez", "out": "83"},
+        {"name": "Claudio López", "out": "83"},
         {"name": "Juan Pablo Sorin", "in": "83"},
         {"name": "Ariel Ortega"},
         {"name": "Eduardo Berizzo"},
@@ -33574,7 +33575,7 @@
         {"name": "Diego Simeone"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo"},
-        {"name": "Claudio Lopez", "out": "76"},
+        {"name": "Claudio López", "out": "76"},
         {"name": "Eduardo Berizzo", "in": "76"},
         {"name": "Ariel Ortega"}
       ],
@@ -33626,7 +33627,7 @@
         {"name": "Diego Simeone"},
         {"name": "Hernan Crespo", "out": "87"},
         {"name": "José Luis Calderon", "in": "87"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega", "out": "55"},
         {"name": "Christian Bassedas", "in": "55"}
       ],
@@ -33678,7 +33679,7 @@
         {"name": "Pablo Rotchen"},
         {"name": "Mauricio Pellegrino"},
         {"name": "Claudio Husain"},
-        {"name": "Gustavo Lopez", "out": "46"},
+        {"name": "Gustavo Adrián López", "out": "46"},
         {"name": "Marcelo Gallardo", "in": "46"},
         {"name": "Marcelo Delgado"},
         {"name": "Julio Cruz"},
@@ -33893,7 +33894,7 @@
         {"name": "Hernan Crespo", "out": "77"},
         {"name": "Sergio Berti", "in": "77"},
         {"name": "Marcelo Gallardo"},
-        {"name": "Claudio Lopez"}
+        {"name": "Claudio López"}
       ]
     ]
   },
@@ -33925,7 +33926,7 @@
         {"name": "Hernan Crespo"},
         {"name": "Marcelo Gallardo", "out": "57"},
         {"name": "Ariel Ortega", "in": "57"},
-        {"name": "Claudio Lopez", "out": "75"},
+        {"name": "Claudio López", "out": "75"},
         {"name": "Sergio Berti", "in": "75"}
       ],
       [
@@ -33956,7 +33957,7 @@
       [{"name": "Marcelo Salas", "min": "34", "type": "G"}],
       [
         {"name": "Marcelo Gallardo", "min": "25", "type": "G"},
-        {"name": "Claudio Lopez", "min": "85", "type": "G"}
+        {"name": "Claudio López", "min": "85", "type": "G"}
       ]
     ],
     "coaches": [{"name": "Nelson Acosta"}, {"name": "Daniel Passarella"}],
@@ -33987,7 +33988,7 @@
         {"name": "Sergio Berti", "in": "72"},
         {"name": "Marcelo Gallardo", "out": "86"},
         {"name": "Javier Zanetti", "in": "86"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega"}
       ]
     ]
@@ -34015,7 +34016,7 @@
         {"name": "Sergio Berti", "in": "65"},
         {"name": "Hernan Crespo", "out": "70"},
         {"name": "Juan Eduardo Esnaider", "in": "70"},
-        {"name": "Claudio Lopez", "out": "74"},
+        {"name": "Claudio López", "out": "74"},
         {"name": "Martin Posse", "in": "74"},
         {"name": "Ariel Ortega"}
       ],
@@ -34061,7 +34062,7 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo", "out": "81"},
         {"name": "Román Riquelme", "in": "81"},
-        {"name": "Claudio Lopez", "out": "55"},
+        {"name": "Claudio López", "out": "55"},
         {"name": "Hernan Crespo", "in": "55"},
         {"name": "Ariel Ortega"}
       ],
@@ -34191,7 +34192,7 @@
     "goals": [
       [
         {"name": "Gabriel Batistuta", "min": "35", "type": "G"},
-        {"name": "Claudio Lopez", "min": "86", "type": "G"}
+        {"name": "Claudio López", "min": "86", "type": "G"}
       ],
       []
     ],
@@ -34217,7 +34218,7 @@
         {"name": "Marcelo Delgado", "in": "63"},
         {"name": "Marcelo Gallardo", "out": "46"},
         {"name": "Sergio Berti", "in": "46"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Rodolfo Esteban Cardoso"},
         {"name": "Gustavo Adrian Lombardi"},
         {"name": "Gustavo Zapata"}
@@ -34282,7 +34283,7 @@
         {"name": "Diego Cagna"},
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Rodolfo Esteban Cardoso", "out": "46"},
         {"name": "Ariel Ortega", "in": "46"},
         {"name": "Gustavo Adrian Lombardi", "out": "69"},
@@ -34349,7 +34350,7 @@
     "teams": [{"name": "Brazil"}, {"name": "Argentina"}],
     "score": [0, 1],
     "result": "W",
-    "goals": [[], [{"name": "Claudio Lopez", "min": "84", "type": "G"}]],
+    "goals": [[], [{"name": "Claudio López", "min": "84", "type": "G"}]],
     "coaches": [
       {"name": "Mario Jorge Lobo Zagallo"},
       {"name": "Daniel Passarella"}
@@ -34378,7 +34379,7 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "88"},
+        {"name": "Claudio López", "out": "88"},
         {"name": "Mauricio Pineda", "in": "88"},
         {"name": "Ariel Ortega", "out": "75"},
         {"name": "Marcelo Delgado", "in": "75"}
@@ -34462,7 +34463,7 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "74"},
+        {"name": "Claudio López", "out": "74"},
         {"name": "Marcelo Delgado", "in": "74"},
         {"name": "Ariel Ortega", "out": "80"},
         {"name": "Mauricio Pineda", "in": "80"}
@@ -34502,7 +34503,7 @@
     "cards": [
       [
         {"name": "Juan Sebastian Veron", "type": "Y"},
-        {"name": "Claudio Lopez", "type": "Y"}
+        {"name": "Claudio López", "type": "Y"}
       ],
       [
         {"name": "David Nyathi", "type": "Y"},
@@ -34524,7 +34525,7 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega"}
       ],
       [
@@ -34988,12 +34989,12 @@
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
         {"name": "Roberto Sensini", "out": "78"},
-        {"name": "Gustavo Lopez", "in": "78"},
+        {"name": "Gustavo Adrián López", "in": "78"},
         {"name": "Fernando Redondo"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega", "out": "46"},
         {"name": "Anders Guglielminpietro", "in": "46"}
       ]
@@ -35013,7 +35014,7 @@
       ],
       [
         {"name": "Julio Cruz", "min": "18", "type": "G"},
-        {"name": "Gustavo Lopez", "min": "51", "type": "G"}
+        {"name": "Gustavo Adrián López", "min": "51", "type": "G"}
       ]
     ],
     "cards": [
@@ -35054,7 +35055,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Kily González", "out": "65"},
         {"name": "Claudio Husain", "in": "65"},
-        {"name": "Gustavo Lopez", "out": "83"},
+        {"name": "Gustavo Adrián López", "out": "83"},
         {"name": "Pablo Aimar", "in": "83"},
         {"name": "Diego Simeone"},
         {"name": "Juan Pablo Sorin"},
@@ -35098,7 +35099,7 @@
         {"name": "Roberto Ayala"},
         {"name": "Pablo Aimar"},
         {"name": "Claudio Husain"},
-        {"name": "Gustavo Lopez"},
+        {"name": "Gustavo Adrián López"},
         {"name": "Diego Simeone"},
         {"name": "Javier Zanetti"},
         {"name": "Julio Cruz"},
@@ -35121,7 +35122,7 @@
         {"name": "Hugo Ibarra"},
         {"name": "Walter Samuel"},
         {"name": "Roberto Ayala"},
-        {"name": "Gustavo Lopez", "out": "59"},
+        {"name": "Gustavo Adrián López", "out": "59"},
         {"name": "Kily González", "in": "59"},
         {"name": "Román Riquelme"},
         {"name": "Diego Simeone"},
@@ -35177,7 +35178,7 @@
         {"name": "Hugo Ibarra"},
         {"name": "Walter Samuel"},
         {"name": "Roberto Ayala"},
-        {"name": "Gustavo Lopez", "out": "67"},
+        {"name": "Gustavo Adrián López", "out": "67"},
         {"name": "Anders Guglielminpietro", "in": "67"},
         {"name": "Román Riquelme", "out": "90"},
         {"name": "Diego Cagna", "in": "90"},
@@ -35307,7 +35308,7 @@
         {"name": "Guillermo Barros Schelotto", "out": "76"},
         {"name": "Mauricio Pochettino", "in": "76"},
         {"name": "Martin Palermo", "out": "78"},
-        {"name": "Gustavo Lopez", "in": "78"}
+        {"name": "Gustavo Adrián López", "in": "78"}
       ],
       [
         {"name": "Fabian Carini"},
@@ -35378,7 +35379,7 @@
         {"name": "Kily González"},
         {"name": "Román Riquelme"},
         {"name": "Diego Simeone", "out": "69"},
-        {"name": "Gustavo Lopez", "in": "69"},
+        {"name": "Gustavo Adrián López", "in": "69"},
         {"name": "Juan Pablo Sorin", "out": "69"},
         {"name": "Diego Cagna", "in": "69"},
         {"name": "Javier Zanetti"},
@@ -35417,7 +35418,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "90"},
         {"name": "Eduardo Berizzo", "in": "90"},
-        {"name": "Claudio Lopez", "out": "46"},
+        {"name": "Claudio López", "out": "46"},
         {"name": "Kily González", "in": "46"},
         {"name": "Ariel Ortega", "out": "74"},
         {"name": "Marcelo Gallardo", "in": "74"}
@@ -35487,7 +35488,7 @@
         {"name": "Guillermo Barros Schelotto", "in": "56"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "79"},
-        {"name": "Claudio Lopez", "in": "79"},
+        {"name": "Claudio López", "in": "79"},
         {"name": "Ariel Ortega"}
       ]
     ]
@@ -35666,7 +35667,7 @@
         {"name": "Gabriel Batistuta", "min": "9", "type": "G"},
         {"name": "Juan Sebastian Veron", "min": "33", "type": "G"},
         {"name": "Juan Sebastian Veron", "min": "71", "type": "P"},
-        {"name": "Claudio Lopez", "min": "88", "type": "G"}
+        {"name": "Claudio López", "min": "88", "type": "G"}
       ],
       [{"name": "Rodrigo Tello", "min": "29", "type": "G"}]
     ],
@@ -35690,8 +35691,8 @@
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta", "out": "89"},
         {"name": "Hernan Crespo", "in": "89"},
-        {"name": "Claudio Lopez", "out": "89"},
-        {"name": "Gustavo Lopez", "in": "89"},
+        {"name": "Claudio López", "out": "89"},
+        {"name": "Gustavo Adrián López", "in": "89"},
         {"name": "Ariel Ortega", "out": "85"},
         {"name": "Roberto Sensini", "in": "85"}
       ],
@@ -35755,8 +35756,8 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo"},
-        {"name": "Claudio Lopez", "out": "68"},
-        {"name": "Gustavo Lopez", "in": "68"},
+        {"name": "Claudio López", "out": "68"},
+        {"name": "Gustavo Adrián López", "in": "68"},
         {"name": "Ariel Ortega", "out": "78"},
         {"name": "Marcelo Gallardo", "in": "78"}
       ]
@@ -35769,7 +35770,7 @@
     "teams": [{"name": "Argentina"}, {"name": "Bolivia"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Gustavo Lopez", "min": "83", "type": "G"}], []],
+    "goals": [[{"name": "Gustavo Adrián López", "min": "83", "type": "G"}], []],
     "cards": [
       [{"name": "Roberto Bonano", "type": "Y"}],
       [
@@ -35788,9 +35789,9 @@
         {"name": "Diego Simeone"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti", "out": "71"},
-        {"name": "Gustavo Lopez", "in": "71"},
+        {"name": "Gustavo Adrián López", "in": "71"},
         {"name": "Gabriel Batistuta"},
-        {"name": "Claudio Lopez", "out": "83"},
+        {"name": "Claudio López", "out": "83"},
         {"name": "Matias Almeyda", "in": "83"},
         {"name": "Ariel Ortega", "out": "83"},
         {"name": "Pablo Aimar", "in": "83"}
@@ -35852,11 +35853,11 @@
         {"name": "Kily González"},
         {"name": "Diego Simeone"},
         {"name": "Juan Sebastian Veron", "out": "70"},
-        {"name": "Gustavo Lopez", "in": "70"},
+        {"name": "Gustavo Adrián López", "in": "70"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta", "out": "70"},
         {"name": "Hernan Crespo", "in": "70"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega", "out": "86"},
         {"name": "Juan Pablo Sorin", "in": "86"}
       ]
@@ -35872,7 +35873,7 @@
     "goals": [
       [
         {"name": "Hernan Crespo", "min": "23", "type": "G"},
-        {"name": "Claudio Lopez", "min": "52", "type": "G"}
+        {"name": "Claudio López", "min": "52", "type": "G"}
       ],
       []
     ],
@@ -35890,7 +35891,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "78"},
         {"name": "Pablo Aimar", "in": "78"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega"}
       ],
       [
@@ -35928,7 +35929,7 @@
       [
         {"name": "Juan Pablo Sorin", "type": "Y"},
         {"name": "Matias Almeyda", "type": "Y"},
-        {"name": "Claudio Lopez", "type": "Y"}
+        {"name": "Claudio López", "type": "Y"}
       ]
     ],
     "lineups": [
@@ -35957,9 +35958,9 @@
         {"name": "Javier Zanetti", "out": "39"},
         {"name": "Matias Almeyda", "in": "39"},
         {"name": "Hernan Crespo"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega", "out": "73"},
-        {"name": "Gustavo Lopez", "in": "73"}
+        {"name": "Gustavo Adrián López", "in": "73"}
       ]
     ]
   },
@@ -35990,7 +35991,7 @@
         {"name": "Pablo Aimar"},
         {"name": "Kily González", "out": "46"},
         {"name": "Juan Pablo Sorin", "in": "46"},
-        {"name": "Gustavo Lopez", "out": "77"},
+        {"name": "Gustavo Adrián López", "out": "77"},
         {"name": "Javier Saviola", "in": "77"},
         {"name": "Diego Simeone", "out": "73"},
         {"name": "Nelson Vivas", "in": "73"},
@@ -36069,8 +36070,8 @@
         {"name": "Juan Pablo Sorin"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo"},
-        {"name": "Claudio Lopez", "out": "85"},
-        {"name": "Gustavo Lopez", "in": "85"},
+        {"name": "Claudio López", "out": "85"},
+        {"name": "Gustavo Adrián López", "in": "85"},
         {"name": "Ariel Ortega", "out": "74"},
         {"name": "Claudio Husain", "in": "74"}
       ]
@@ -36116,8 +36117,8 @@
         {"name": "Gabriel Batistuta"},
         {"name": "Marcelo Gallardo", "out": "79"},
         {"name": "Marcelo Delgado", "in": "79"},
-        {"name": "Claudio Lopez", "out": "73"},
-        {"name": "Gustavo Lopez", "in": "73"}
+        {"name": "Claudio López", "out": "73"},
+        {"name": "Gustavo Adrián López", "in": "73"}
       ],
       [
         {"name": "Fabian Carini"},
@@ -36344,9 +36345,9 @@
         {"name": "Juan Sebastian Veron"},
         {"name": "Hernan Crespo"},
         {"name": "Marcelo Gallardo", "out": "76"},
-        {"name": "Claudio Lopez", "in": "76"},
+        {"name": "Claudio López", "in": "76"},
         {"name": "Ariel Ortega", "out": "69"},
-        {"name": "Gustavo Lopez", "in": "69"}
+        {"name": "Gustavo Adrián López", "in": "69"}
       ],
       [
         {"name": "Rafael Dudamel"},
@@ -36411,8 +36412,8 @@
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
         {"name": "Pablo Aimar"},
-        {"name": "Gustavo Lopez", "out": "46"},
-        {"name": "Claudio Lopez", "in": "46"},
+        {"name": "Gustavo Adrián López", "out": "46"},
+        {"name": "Claudio López", "in": "46"},
         {"name": "Diego Simeone"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Juan Sebastian Veron"},
@@ -36432,7 +36433,7 @@
     "goals": [
       [
         {"name": "Kily González", "min": "22", "type": "G"},
-        {"name": "Claudio Lopez", "min": "35", "type": "G"},
+        {"name": "Claudio López", "min": "35", "type": "G"},
         {"name": "Hernan Crespo", "min": "38", "type": "G"}
       ],
       []
@@ -36440,7 +36441,7 @@
     "cards": [
       [
         {"name": "Mauricio Pochettino", "type": "Y"},
-        {"name": "Claudio Lopez", "type": "Y"}
+        {"name": "Claudio López", "type": "Y"}
       ],
       [
         {"name": "Mauricio Serna", "type": "Y"},
@@ -36462,7 +36463,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "65"},
         {"name": "Marcelo Delgado", "in": "65"},
-        {"name": "Claudio Lopez", "out": "79"},
+        {"name": "Claudio López", "out": "79"},
         {"name": "Pablo Aimar", "in": "79"}
       ],
       [
@@ -36532,7 +36533,7 @@
         {"name": "Nelson Vivas"},
         {"name": "Pablo Aimar"},
         {"name": "Kily González", "out": "84"},
-        {"name": "Claudio Lopez", "in": "84"},
+        {"name": "Claudio López", "in": "84"},
         {"name": "Diego Simeone", "out": "67"},
         {"name": "Matias Almeyda", "in": "67"},
         {"name": "Juan Pablo Sorin"},
@@ -36581,7 +36582,7 @@
         {"name": "Diego Simeone"},
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo"},
-        {"name": "Claudio Lopez", "out": "87"},
+        {"name": "Claudio López", "out": "87"},
         {"name": "Matias Almeyda", "in": "87"}
       ],
       [
@@ -36654,7 +36655,7 @@
         {"name": "Matias Almeyda"},
         {"name": "Kily González"},
         {"name": "Juan Pablo Sorin", "out": "63"},
-        {"name": "Claudio Lopez", "in": "63"},
+        {"name": "Claudio López", "in": "63"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
         {"name": "Gabriel Batistuta"},
@@ -36673,7 +36674,7 @@
     "goals": [
       [
         {"name": "Walter Samuel", "min": "46", "type": "G"},
-        {"name": "Claudio Lopez", "min": "84", "type": "G"}
+        {"name": "Claudio López", "min": "84", "type": "G"}
       ],
       []
     ],
@@ -36728,7 +36729,7 @@
     "result": "D",
     "goals": [
       [{"name": "Dario Silva", "min": "18", "type": "G"}],
-      [{"name": "Claudio Lopez", "min": "44", "type": "G"}]
+      [{"name": "Claudio López", "min": "44", "type": "G"}]
     ],
     "cards": [
       [],
@@ -36764,7 +36765,7 @@
         {"name": "Juan Pablo Sorin"},
         {"name": "Juan Sebastian Veron"},
         {"name": "Javier Zanetti"},
-        {"name": "Claudio Lopez"},
+        {"name": "Claudio López"},
         {"name": "Ariel Ortega", "out": "46"},
         {"name": "Julio Cruz", "in": "46"}
       ]
@@ -36873,7 +36874,7 @@
         {"name": "Matias Almeyda", "in": "46"},
         {"name": "Claudio Caniggia", "out": "89"},
         {"name": "Santiago Solari", "in": "89"},
-        {"name": "Claudio Lopez"}
+        {"name": "Claudio López"}
       ]
     ]
   },
@@ -37151,7 +37152,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "82"},
         {"name": "Santiago Solari", "in": "82"},
-        {"name": "Claudio Lopez", "out": "65"},
+        {"name": "Claudio López", "out": "65"},
         {"name": "Kily González", "in": "65"},
         {"name": "Ariel Ortega", "out": "73"},
         {"name": "Javier Saviola", "in": "73"}
@@ -37614,7 +37615,7 @@
         {"name": "Javier Zanetti"},
         {"name": "Hernan Crespo", "out": "83"},
         {"name": "Lucho González", "in": "83"},
-        {"name": "Claudio Lopez", "out": "64"},
+        {"name": "Claudio López", "out": "64"},
         {"name": "Javier Saviola", "in": "64"},
         {"name": "Diego Milito", "out": "46"},
         {"name": "Kily González", "in": "46"}
@@ -38956,7 +38957,7 @@
         {"name": "Lucas Castromán"},
         {"name": "Javier Mascherano"},
         {"name": "Leandro Romagnoli", "out": "61"},
-        {"name": "Lisandro Lopez", "in": "61"},
+        {"name": "Lisandro López", "in": "61"},
         {"name": "Rodrigo Palacio", "out": "86"},
         {"name": "Sosa", "in": "86"},
         {"name": "Fabricio Fuentes"},
@@ -39561,7 +39562,7 @@
         {"name": "Lionel Scaloni"},
         {"name": "Juan Pablo Sorin"},
         {"name": "Hernan Crespo"},
-        {"name": "Lisandro Lopez", "out": "64"},
+        {"name": "Lisandro López", "out": "64"},
         {"name": "Lionel Messi", "in": "64"}
       ]
     ]
@@ -41430,7 +41431,7 @@
         {"name": "Pablo Zabaleta", "in": "90"},
         {"name": "Javier Zanetti"},
         {"name": "Sergio Agüero", "out": "85"},
-        {"name": "Lisandro Lopez", "in": "85"},
+        {"name": "Lisandro López", "in": "85"},
         {"name": "Julio Cruz"}
       ]
     ]
@@ -41497,8 +41498,8 @@
         {"name": "Éver Banega", "in": "78"},
         {"name": "Julio Cruz", "out": "60"},
         {"name": "Fernando Cavenaghi", "in": "60"},
-        {"name": "Lionel Messi", "out": "84"},
-        {"name": "López", "in": "84"},
+        {"name": "Lionel Messi", "out": "85"},
+        {"name": "Lisandro López", "in": "85"},
         {"name": "Maxi Rodriguez", "out": "73"},
         {"name": "Jonás Gutiérrez", "in": "73"},
         {"name": "Sergio Agüero", "out": "84"},
@@ -41525,7 +41526,7 @@
       [
         {"name": "Nicolás Burdisso", "min": "18", "type": "Y"},
         {"name": "Gabriel Heinze", "min": "84", "type": "Y"},
-        {"name": "López", "min": "84", "type": "Y"},
+        {"name": "Lisandro López", "min": "84", "type": "Y"},
         {"name": "Javier Mascherano", "min": "86", "type": "Y"},
         {"name": "Javier Mascherano", "min": "86", "type": "Y"},
         {"name": "Javier Mascherano", "min": "86", "type": "R"}
@@ -41563,7 +41564,7 @@
         {"name": "Javier Zanetti", "in": "77"},
         {"name": "Fernando Gago"},
         {"name": "Julio Cruz", "out": "64"},
-        {"name": "López", "in": "64"},
+        {"name": "Lisandro López", "in": "64"},
         {"name": "Lionel Messi", "out": "46"},
         {"name": "José Sosa", "in": "46"},
         {"name": "Maxi Rodriguez", "out": "74"},
@@ -41734,7 +41735,7 @@
         {"name": "German Denis", "out": "64"},
         {"name": "Mariano González", "in": "64"},
         {"name": "Carlos Tevez", "out": "79"},
-        {"name": "Lisandro Lopez", "in": "79"}
+        {"name": "Lisandro López", "in": "79"}
       ]
     ]
   },
@@ -42439,7 +42440,7 @@
       ],
       [
         {"name": "Sergio Agüero", "min": "45", "type": "G"},
-        {"name": "López", "min": "46", "type": "G"},
+        {"name": "Lisandro López", "min": "46", "type": "G"},
         {"name": "Jesus Dátolo", "min": "59", "type": "G"}
       ]
     ],
@@ -42478,7 +42479,7 @@
         {"name": "Maxi Rodriguez", "out": "58"},
         {"name": "Jesus Dátolo", "in": "58"},
         {"name": "Diego Milito", "out": "46"},
-        {"name": "López", "in": "46"},
+        {"name": "Lisandro López", "in": "46"},
         {"name": "Sergio Agüero", "out": "63"},
         {"name": "Ezequiel Lavezzi", "in": "63"}
       ]
