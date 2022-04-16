@@ -20,17 +20,20 @@ const Select = ({
   values,
   selectedValue,
   handleChange,
+  unselectedOptionText,
 }: {
   values: Array<string>;
   selectedValue?: string;
   handleChange: React.ChangeEventHandler<HTMLSelectElement>;
+  unselectedOptionText?: string;
 }) => {
   return (
     <select
       onChange={handleChange}
-      className="mx-1 outline-none"
+      className="mx-1 outline-none disabled:text-slate-400"
       disabled={values.length === 0}
     >
+      {unselectedOptionText && <option>{unselectedOptionText}</option>}
       {values.map((value) => (
         <option key={value} selected={value === selectedValue}>
           {value}
@@ -81,22 +84,12 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
 
         if (lowerLimit < MIN_YEAR) {
           lowerLimit = MIN_YEAR;
-          upperLimit = MIN_YEAR + itemsCount - 1; // - CURYEAR
+          upperLimit = MIN_YEAR + itemsCount;
         }
         if (upperLimit > MAX_YEAR) {
-          lowerLimit = MAX_YEAR - itemsCount + 1; // + CURYEAR
+          lowerLimit = MAX_YEAR - itemsCount;
           upperLimit = MAX_YEAR;
         }
-
-        console.log({
-          containerWidth,
-          itemWidth,
-          selectsWidth,
-          itemsCount,
-          lowerLimit,
-          upperLimit,
-        });
-
         setYearRange([String(lowerLimit), String(upperLimit)]);
       }
     };
@@ -122,8 +115,8 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
             R.map(String),
             R.reverse()
           )}
-          selectedValue={String(parseInt(yearRange[0]) - 1)}
           handleChange={handleYearChange}
+          unselectedOptionText="PREV"
         />
       </span>
       {R.pipe(
@@ -159,8 +152,8 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
             R.range(parseInt(yearRange[1]) + 1, MAX_YEAR + 1),
             R.map(String)
           )}
-          selectedValue={String(parseInt(yearRange[1]) + 1)}
           handleChange={handleYearChange}
+          unselectedOptionText="NEXT"
         />
       </span>
     </nav>
@@ -171,17 +164,13 @@ function RangeNav({ activeYear }: { activeYear: string }) {
   const navigate = useNavigate();
   const [lowerYear, upperYear] = R.compact(activeYear.split("-", 2));
 
-  const handleLowerYearChange = ({
+  const handleLowerYearChange: ChangeEventHandler<HTMLSelectElement> = ({
     target: { value },
-  }: {
-    target: HTMLSelectElement;
   }) => {
     navigate(`/${value}-${upperYear < value ? value : upperYear}`);
   };
-  const handleUpperYearChange = ({
+  const handleUpperYearChange: ChangeEventHandler<HTMLSelectElement> = ({
     target: { value },
-  }: {
-    target: HTMLSelectElement;
   }) => {
     navigate(`/${lowerYear > value ? value : lowerYear}-${value}`);
   };
