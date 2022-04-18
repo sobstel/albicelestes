@@ -20061,7 +20061,7 @@
         {"name": "Ernesto Mastrangelo", "in": ""}
       ]
     ],
-    "info": {"youtube": [{"id":  "goVaCbI9bN4"}]}
+    "info": {"youtube": [{"id": "goVaCbI9bN4"}]}
   },
   {
     "date": "1972-07-02",
@@ -26207,7 +26207,7 @@
         {"name": "Alberto José Marcico"},
         {"name": "José Daniel Ponce"},
         {"name": "Eduardo Omar Saporiti", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""}
+        {"name": "Oscar Dertycia", "in": ""}
       ],
       [
         {"name": "Nelson Gutierrez"},
@@ -26260,7 +26260,7 @@
         {"name": "Ricardo Bochini"},
         {"name": "Jorge Burruchaga"},
         {"name": "Ricardo Giusti"},
-        {"name": "Oscar Alberto Dertycia", "out": ""},
+        {"name": "Oscar Dertycia", "out": ""},
         {"name": "Jorge Roberto Rinaldi", "in": ""},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce", "out": ""},
@@ -26291,7 +26291,7 @@
       [],
       [
         {"name": "José Daniel Ponce", "min": "6", "type": "G"},
-        {"name": "Oscar Alberto Dertycia", "min": "33", "type": "G"}
+        {"name": "Oscar Dertycia", "min": "33", "type": "G"}
       ]
     ],
     "coaches": [{"name": "Paul Wolfisberg"}, null],
@@ -26321,7 +26321,7 @@
         {"name": "Marcelo Trobbiani", "out": "66"},
         {"name": "Alberto José Marcico", "in": "66"},
         {"name": "Julian José Camino"},
-        {"name": "Oscar Alberto Dertycia", "out": "77"},
+        {"name": "Oscar Dertycia", "out": "77"},
         {"name": "Gerardo Manuel González", "in": "77"},
         {"name": "José Daniel Ponce"},
         {"name": "Miguel Angel Russo"}
@@ -26468,7 +26468,7 @@
         {"name": "Jorge Roberto Rinaldi", "in": "86"},
         {"name": "Ricardo Giusti"},
         {"name": "Marcelo Trobbiani", "out": "58"},
-        {"name": "Oscar Alberto Dertycia", "in": "58"},
+        {"name": "Oscar Dertycia", "in": "58"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce"},
         {"name": "Miguel Angel Russo"}
@@ -26496,7 +26496,7 @@
         {"name": "Alberto José Marcico", "in": ""},
         {"name": "Jorge Burruchaga"},
         {"name": "Marcelo Trobbiani", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "Julian José Camino"},
         {"name": "Ricardo Gareca", "out": ""},
         {"name": "Jorge Roberto Rinaldi", "in": ""},
@@ -26559,7 +26559,7 @@
         {"name": "Pedro Pasculli"},
         {"name": "Ricardo Gareca"},
         {"name": "Alberto José Marcico", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "José Daniel Ponce"}
       ]
     ]
@@ -26605,7 +26605,7 @@
         {"name": "Oscar Victor Trossero", "in": ""},
         {"name": "Pedro Pasculli"},
         {"name": "Ricardo Gareca", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "José Daniel Ponce", "out": ""},
         {"name": "Mario Alberto Vanemerak", "in": ""}
       ]
@@ -26633,7 +26633,7 @@
         {"name": "Jorge Roberto Rinaldi", "in": ""},
         {"name": "Jorge Burruchaga"},
         {"name": "Diego Maradona"},
-        {"name": "Oscar Alberto Dertycia"},
+        {"name": "Oscar Dertycia"},
         {"name": "Ricardo Gareca"},
         {"name": "José Daniel Ponce", "out": ""},
         {"name": "Marcelo Trobbiani", "in": ""}
@@ -26793,7 +26793,7 @@
         {"name": "Marcelo Trobbiani", "out": ""},
         {"name": "Juan Barbas", "in": ""},
         {"name": "Pedro Pasculli", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "M Busso"}
       ]
     ]
@@ -26995,7 +26995,7 @@
         {"name": "Sergio Batista"},
         {"name": "Ricardo Bochini"},
         {"name": "Claudio Borghi", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "Diego Maradona"},
         {"name": "Pedro Pasculli", "out": ""},
         {"name": "Jorge Alberto Comas", "in": ""},
@@ -27062,7 +27062,7 @@
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
         {"name": "Sergio Omar Almirón", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""}
+        {"name": "Oscar Dertycia", "in": ""}
       ]
     ]
   },
@@ -27778,7 +27778,7 @@
         {"name": "Sergio Batista"},
         {"name": "Diego Maradona"},
         {"name": "Roque Raul Alfaro", "out": "73"},
-        {"name": "Oscar Alberto Dertycia", "in": "73"},
+        {"name": "Oscar Dertycia", "in": "73"},
         {"name": "Juan Gilberto Funes", "out": "59"},
         {"name": "Pedro Pasculli", "in": "59"},
         {"name": "Darío Siviski", "out": "85"},
@@ -27808,7 +27808,7 @@
         {"name": "Carlos Daniel Tapia"},
         {"name": "Juan Gilberto Funes"},
         {"name": "José Alberto Percudani", "out": ""},
-        {"name": "Oscar Alberto Dertycia", "in": ""},
+        {"name": "Oscar Dertycia", "in": ""},
         {"name": "Darío Siviski", "out": ""},
         {"name": "Claudio Caniggia", "in": ""}
       ],
@@ -28035,13 +28035,10 @@
     "result": "D",
     "goals": [
       [{"name": "Benjamin Galindo", "type": "G"}],
-      [{"name": "Oscar Alberto Dertycia", "type": "G"}]
+      [{"name": "Oscar Dertycia", "type": "G"}]
     ],
     "coaches": [{"name": "Mario Velarde"}, {"name": "Carlos Salvador Bilardo"}],
-    "lineups": [
-      [{"name": "Benjamin Galindo"}],
-      [{"name": "Oscar Alberto Dertycia"}]
-    ]
+    "lineups": [[{"name": "Benjamin Galindo"}], [{"name": "Oscar Dertycia"}]]
   },
   {
     "slug": "mexico-argentina-2",
@@ -28083,7 +28080,7 @@
         {"name": "Darío Siviski", "in": "75"},
         {"name": "Diego Maradona"},
         {"name": "Jorge Valdano", "out": "88"},
-        {"name": "Oscar Alberto Dertycia", "in": "88"},
+        {"name": "Oscar Dertycia", "in": "88"},
         {"name": "José Luis Rodríguez", "out": "65"},
         {"name": "Pedro Troglio", "in": "65"}
       ],
@@ -28239,7 +28236,7 @@
         {"name": "Fernando Lanzidei"},
         {"name": "Ricardo Giusti"},
         {"name": "Martín Cabrera"},
-        {"name": "Oscar Alberto Dertycia", "out": "58"},
+        {"name": "Oscar Dertycia", "out": "58"},
         {"name": "Daniel Aquino", "in": "58"},
         {"name": "José Luis Rodríguez"}
       ],
@@ -28259,7 +28256,7 @@
         {"name": "Abdullah Zaki"}
       ]
     ],
-    "info": {"youtube": [{"id":"kQ3g8GcnXMM"}]},
+    "info": {"youtube": [{"id": "kQ3g8GcnXMM"}]},
     "sources": ["Mantz1"]
   },
   {
@@ -28281,7 +28278,7 @@
         {"name": "Sergio Batista"},
         {"name": "Ricardo Giusti"},
         {"name": "Martín Cabrera", "out": "81"},
-        {"name": "Oscar Alberto Dertycia", "in": "81"},
+        {"name": "Oscar Dertycia", "in": "81"},
         {"name": "Mario BrunoLucca"},
         {"name": "José Luis Rodríguez"},
         {"name": "Darío Siviski", "out": "52"},
@@ -28344,7 +28341,7 @@
         {"name": "Diego Simeone"},
         {"name": "Daniel Aquino"},
         {"name": "Martín Cabrera", "out": "62"},
-        {"name": "Oscar Alberto Dertycia", "in": "62"},
+        {"name": "Oscar Dertycia", "in": "62"},
         {"name": "Mario Lucca"},
         {"name": "José Luis Rodríguez"}
       ]
@@ -28361,7 +28358,7 @@
     "goals": [
       [
         {"name": "Diego Simeone", "min": "4", "type": "G"},
-        {"name": "Oscar Alberto Dertycia", "min": "30", "type": "G"}
+        {"name": "Oscar Dertycia", "min": "30", "type": "G"}
       ],
       []
     ],
@@ -28381,7 +28378,7 @@
         {"name": "Martín Cabrera"},
         {"name": "Darío Siviski", "out": "61"},
         {"name": "Fernando Lanzidei", "in": "61"},
-        {"name": "Oscar Alberto Dertycia"}
+        {"name": "Oscar Dertycia"}
       ],
       [
         {"name": "Fahad Al Mosaibeih", "out": "34"},
