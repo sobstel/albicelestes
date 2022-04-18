@@ -160,9 +160,11 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
   );
 }
 
-function RangeNav({ activeYear }: { activeYear: string }) {
+function RangeNav({ activeYear }: { activeYear?: string }) {
   const navigate = useNavigate();
-  const [lowerYear, upperYear] = R.compact(activeYear.split("-", 2));
+  const activeYearParts = activeYear?.split("-", 2);
+  const lowerYear = activeYearParts?.[0] ?? String(MAX_YEAR);
+  const upperYear = activeYearParts?.[1] ?? String(MAX_YEAR);
 
   const handleLowerYearChange: ChangeEventHandler<HTMLSelectElement> = ({
     target: { value },
@@ -178,8 +180,7 @@ function RangeNav({ activeYear }: { activeYear: string }) {
   const values = R.range(MIN_YEAR, MAX_YEAR + 1).map(String);
 
   return (
-    <div>
-      (
+    <div className="flex">
       <Select
         values={values}
         selectedValue={lowerYear}
@@ -191,34 +192,27 @@ function RangeNav({ activeYear }: { activeYear: string }) {
         selectedValue={upperYear}
         handleChange={handleUpperYearChange}
       />
-      )
     </div>
   );
 }
 
 export default function YearlyNav({ activeYear }: { activeYear?: string }) {
-  const isDefaultNav = !activeYear || activeYear.indexOf("-") === -1;
-  const isRangeNav = !isDefaultNav;
-  const lowerYear = activeYear?.split("-")[0];
-  const currentYear = activeYear ?? String(MAX_YEAR);
+  const isDefaultNavActive = activeYear?.indexOf("-") === -1;
+  const isRangeNavActive = activeYear && activeYear?.indexOf("-") >= 0;
 
   return (
     <Block isNav hasBottomSeparator>
       <div className="flex max-w-full uppercase">
-        <div className="mr-1">
-          {isDefaultNav && (
-            <LinkAnchor href={`/${currentYear}-${currentYear}`} important>
-              Range
-            </LinkAnchor>
-          )}
-          {isRangeNav && (
-            <LinkAnchor href={`/${lowerYear}`} important>
-              List
-            </LinkAnchor>
-          )}
-        </div>
-        {isDefaultNav && <DefaultNav activeYear={activeYear} />}
-        {isRangeNav && <RangeNav activeYear={activeYear} />}
+        <RangeNav
+          activeYear={
+            isRangeNavActive
+              ? activeYear
+              : isDefaultNavActive
+              ? `${activeYear}-${activeYear}`
+              : `${MAX_YEAR}-${MAX_YEAR}`
+          }
+        />
+        <DefaultNav activeYear={isDefaultNavActive ? activeYear : undefined} />
       </div>
     </Block>
   );

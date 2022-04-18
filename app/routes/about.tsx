@@ -76,13 +76,6 @@ export default function AboutPage() {
           )
         </p>
       </Block>
-
-      <Block>
-        <Header text="Created and maintained by" />
-        <p>
-          <LinkAnchor href="https://www.sobstel.org">Sopel</LinkAnchor>
-        </p>
-      </Block>
     </>
   );
 }
