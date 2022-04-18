@@ -42,6 +42,7 @@ export default function Goals({ match }: Props) {
             {match.goals[teamIndex].map((goal, index) => (
               <Fragment key={`${teamIndex}-${index}`}>
                 <PlayerName key={index} name={goal.name} linkify={false} />
+                {goal.min && ` ${goal.min}'`}
                 {index < match.goals[teamIndex].length - 1 && ", "}
               </Fragment>
             ))}

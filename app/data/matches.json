@@ -10749,7 +10749,7 @@
         {"name": "Adolfo Alfredo Pedernera", "in": ""},
         {"name": "Gabriel Mario Ogando"},
         {"name": "José Ramos"},
-        {"name": "JL Rodriguez", "out": ""},
+        {"name": "José Luis Rodríguez", "out": ""},
         {"name": "Jorge Alberti", "in": ""},
         {"name": "Juan Carlos Salvini"},
         {"name": "Leon Strembel"}
@@ -27692,7 +27692,7 @@
     "goals": [
       [
         {"name": "V Marchesini", "min": "54", "type": "G"},
-        {"name": "JL Rodriguez", "min": "86", "type": "G"}
+        {"name": "José Luis Rodríguez", "min": "86", "type": "G"}
       ],
       []
     ],
@@ -27711,7 +27711,7 @@
         {"name": "V Marchesini"},
         {"name": "Walter Osvaldo Perazzo", "out": ""},
         {"name": "Graciani", "in": ""},
-        {"name": "JL Rodriguez"}
+        {"name": "José Luis Rodríguez"}
       ],
       [
         {"name": "Roselver Bernal", "out": ""},
@@ -27773,7 +27773,7 @@
         {"name": "José Luis Cuciuffo"},
         {"name": "Oscar Garré"},
         {"name": "Julio Olarticoechea", "out": "46"},
-        {"name": "Hernan Diaz", "in": "46"},
+        {"name": "Hernán Díaz", "in": "46"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista"},
         {"name": "Diego Maradona"},
@@ -27781,7 +27781,7 @@
         {"name": "Oscar Alberto Dertycia", "in": "73"},
         {"name": "Juan Gilberto Funes", "out": "59"},
         {"name": "Pedro Pasculli", "in": "59"},
-        {"name": "Dario Andrés Siviski", "out": "85"},
+        {"name": "Darío Siviski", "out": "85"},
         {"name": "Claudio Caniggia", "in": "85"}
       ]
     ]
@@ -27800,7 +27800,7 @@
         {"name": "Luis Islas"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo", "out": ""},
-        {"name": "Hernan Diaz", "in": ""},
+        {"name": "Hernán Díaz", "in": ""},
         {"name": "Oscar Garré"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista"},
@@ -27809,7 +27809,7 @@
         {"name": "Juan Gilberto Funes"},
         {"name": "José Alberto Percudani", "out": ""},
         {"name": "Oscar Alberto Dertycia", "in": ""},
-        {"name": "Dario Andrés Siviski", "out": ""},
+        {"name": "Darío Siviski", "out": ""},
         {"name": "Claudio Caniggia", "in": ""}
       ],
       [
@@ -27861,7 +27861,7 @@
         {"name": "Carlos Daniel Tapia", "out": "64"},
         {"name": "Claudio Caniggia", "in": "64"},
         {"name": "Roque Raul Alfaro", "out": "79"},
-        {"name": "Hernan Diaz", "in": "79"},
+        {"name": "Hernán Díaz", "in": "79"},
         {"name": "José Alberto Percudani"}
       ],
       [
@@ -27902,8 +27902,8 @@
         {"name": "Luis Islas"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Hernan Diaz", "out": "80"},
-        {"name": "Dario Andrés Siviski", "in": "80"},
+        {"name": "Hernán Díaz", "out": "80"},
+        {"name": "Darío Siviski", "in": "80"},
         {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
         {"name": "Ricardo Giusti"},
@@ -28075,16 +28075,16 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Oscar Ruggeri"},
         {"name": "Roberto Sensini"},
         {"name": "Sergio Batista"},
         {"name": "Jorge Burruchaga", "out": "75"},
-        {"name": "Dario Andrés Siviski", "in": "75"},
+        {"name": "Darío Siviski", "in": "75"},
         {"name": "Diego Maradona"},
         {"name": "Jorge Valdano", "out": "88"},
         {"name": "Oscar Alberto Dertycia", "in": "88"},
-        {"name": "JL Rodriguez", "out": "65"},
+        {"name": "José Luis Rodríguez", "out": "65"},
         {"name": "Pedro Troglio", "in": "65"}
       ],
       [
@@ -28133,7 +28133,7 @@
         {"name": "José Luis Brown", "out": "55"},
         {"name": "Oscar Garré", "in": "55"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Julio Olarticoechea", "out": "46"},
         {"name": "Nestor Clausen", "in": "46"},
         {"name": "Oscar Ruggeri"},
@@ -28196,11 +28196,11 @@
       [
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
-        {"name": "Hernan Diaz"},
-        {"name": "Pedro Monzon"},
+        {"name": "Hernán Díaz"},
+        {"name": "Pedro Monzón"},
         {"name": "Oscar Ruggeri"},
         {"name": "Roberto Sensini", "out": "73"},
-        {"name": "JL Rodriguez", "in": "73"},
+        {"name": "José Luis Rodríguez", "in": "73"},
         {"name": "Sergio Batista"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Maradona"},
@@ -28212,36 +28212,36 @@
   {
     "date": "1988-07-06",
     "competition": "Bicentennial Gold Cup",
-    "venue": {"name": "Adelaide"},
+    "venue": {"name": "Football Park", "city": "Adelaide"},
     "teams": [{"name": "Argentina"}, {"name": "Saudi Arabia"}],
     "score": [2, 2],
     "result": "D",
     "goals": [
       [
-        {"name": "Hernan Diaz", "min": "27", "type": "G"},
-        {"name": "Hernan Diaz", "min": "50", "type": "P"}
+        {"name": "Hernán Díaz", "min": "27", "type": "G"},
+        {"name": "Hernán Díaz", "min": "49", "type": "P"}
       ],
       [
         {"name": "Majed Abdullah", "type": "G"},
-        {"name": "Hernan Edgardo Diaz", "type": "OG"}
+        {"name": "Hernán Díaz", "type": "OG"}
       ]
     ],
     "coaches": [{"name": "Carlos Salvador Bilardo"}, null],
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
-        {"name": "Nestor Fabbri", "out": ""},
-        {"name": "José Luis Cuciuffo", "in": ""},
         {"name": "Nestor Lorenzo"},
+        {"name": "Mario BrunoLucca"},
         {"name": "Oscar Ruggeri"},
+        {"name": "Néstor Fabbri", "out": "80"},
+        {"name": "José Luis Cuciuffo", "in": "80"},
+        {"name": "Hernán Díaz"},
+        {"name": "Fernando Lanzidei"},
         {"name": "Ricardo Giusti"},
-        {"name": "Claudio Martin Cabrera"},
-        {"name": "Oscar Alberto Dertycia", "out": ""},
-        {"name": "Daniel Toribio Aquino", "in": ""},
-        {"name": "Fernando Fabian Lanzidei"},
-        {"name": "Mario Bruno Lucca"},
-        {"name": "JL Rodriguez"}
+        {"name": "Martín Cabrera"},
+        {"name": "Oscar Alberto Dertycia", "out": "58"},
+        {"name": "Daniel Aquino", "in": "58"},
+        {"name": "José Luis Rodríguez"}
       ],
       [
         {"name": "Fahad Al Mosaibeih"},
@@ -28258,7 +28258,9 @@
         {"name": "Youseuf Aljazee", "in": ""},
         {"name": "Abdullah Zaki"}
       ]
-    ]
+    ],
+    "info": {"youtube": [{"id":"kQ3g8GcnXMM"}]},
+    "sources": ["Mantz1"]
   },
   {
     "date": "1988-07-10",
@@ -28272,18 +28274,18 @@
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Oscar Garré"},
         {"name": "Nestor Lorenzo"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista"},
         {"name": "Ricardo Giusti"},
-        {"name": "Claudio Martin Cabrera", "out": "81"},
+        {"name": "Martín Cabrera", "out": "81"},
         {"name": "Oscar Alberto Dertycia", "in": "81"},
-        {"name": "Mario Bruno Lucca"},
-        {"name": "JL Rodriguez"},
-        {"name": "Dario Andrés Siviski", "out": "52"},
-        {"name": "Fernando Fabian Lanzidei", "in": "52"}
+        {"name": "Mario BrunoLucca"},
+        {"name": "José Luis Rodríguez"},
+        {"name": "Darío Siviski", "out": "52"},
+        {"name": "Fernando Lanzidei", "in": "52"}
       ],
       [
         {"name": "Cláudio Taffarel"},
@@ -28333,18 +28335,18 @@
       ],
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Oscar Garré"},
         {"name": "Nestor Lorenzo"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista", "out": "86"},
-        {"name": "Pedro Monzon", "in": "86"},
+        {"name": "Pedro Monzón", "in": "86"},
         {"name": "Diego Simeone"},
-        {"name": "Daniel Toribio Aquino"},
-        {"name": "Claudio Martin Cabrera", "out": "62"},
+        {"name": "Daniel Aquino"},
+        {"name": "Martín Cabrera", "out": "62"},
         {"name": "Oscar Alberto Dertycia", "in": "62"},
-        {"name": "Mario Bruno Lucca"},
-        {"name": "JL Rodriguez"}
+        {"name": "Mario Lucca"},
+        {"name": "José Luis Rodríguez"}
       ]
     ]
   },
@@ -28352,14 +28354,14 @@
     "slug": "argentina-saudi-arabia-2",
     "date": "1988-07-16",
     "competition": "Bicentennial Gold Cup",
-    "venue": {"name": "Canberra"},
+    "venue": {"name": "Bruce Stadium", "city": "Canberra"},
     "teams": [{"name": "Argentina"}, {"name": "Saudi Arabia"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
       [
         {"name": "Diego Simeone", "min": "4", "type": "G"},
-        {"name": "Oscar Alberto Dertycia", "min": "29", "type": "G"}
+        {"name": "Oscar Alberto Dertycia", "min": "30", "type": "G"}
       ],
       []
     ],
@@ -28368,18 +28370,18 @@
     "lineups": [
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
-        {"name": "Nestor Lorenzo"},
-        {"name": "Pedro Monzon"},
+        {"name": "Néstor Lorenzo"},
+        {"name": "Mario BrunoLucca"},
         {"name": "Oscar Ruggeri"},
+        {"name": "Pedro Monzón", "out": "82"},
+        {"name": "José Luis Rodríguez", "in": "82"},
+        {"name": "Hernán Díaz"},
         {"name": "Ricardo Giusti"},
         {"name": "Diego Simeone"},
-        {"name": "Claudio Martin Cabrera", "out": "64"},
-        {"name": "Fernando Fabian Lanzidei", "in": "64"},
-        {"name": "Oscar Alberto Dertycia"},
-        {"name": "Mario Bruno Lucca"},
-        {"name": "Dario Andrés Siviski", "out": "82"},
-        {"name": "JL Rodriguez", "in": "82"}
+        {"name": "Martín Cabrera"},
+        {"name": "Darío Siviski", "out": "61"},
+        {"name": "Fernando Lanzidei", "in": "61"},
+        {"name": "Oscar Alberto Dertycia"}
       ],
       [
         {"name": "Fahad Al Mosaibeih", "out": "34"},
@@ -28395,7 +28397,8 @@
         {"name": "Omar"},
         {"name": "Abdullah Zaki"}
       ]
-    ]
+    ],
+    "sources": ["Mantz1"]
   },
   {
     "date": "1988-10-12",
@@ -28429,7 +28432,7 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Nestor Fabbri", "out": "56"},
+        {"name": "Néstor Fabbri", "out": "56"},
         {"name": "Julio Olarticoechea", "in": "56"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Batista"},
@@ -28471,9 +28474,9 @@
         {"name": "Antony de Avila", "in": "77"}
       ],
       [
-        {"name": "Hernan Diaz"},
-        {"name": "Nestor Fabbri"},
-        {"name": "Pedro Monzon"},
+        {"name": "Hernán Díaz"},
+        {"name": "Néstor Fabbri"},
+        {"name": "Pedro Monzón"},
         {"name": "Diego Simeone"},
         {"name": "Abel Balbo"},
         {"name": "H Adolfo"},
@@ -28481,7 +28484,7 @@
         {"name": "Carlos Alejandro Alfaro Moreno", "in": "64"},
         {"name": "Fabián Basualdo"},
         {"name": "Ernesto Enrique Corti", "out": "75"},
-        {"name": "Claudio Martin Cabrera", "in": "75"},
+        {"name": "Martín Cabrera", "in": "75"},
         {"name": "Néstor Craviotto"},
         {"name": "Carlos Enrique"},
         {"name": "Julio Cesar Falcioni"}
@@ -28525,9 +28528,9 @@
       ],
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Nestor Lorenzo"},
-        {"name": "Pedro Monzon"},
+        {"name": "Pedro Monzón"},
         {"name": "Roberto Sensini"},
         {"name": "Sergio Batista"},
         {"name": "Abel Balbo"},
@@ -28573,9 +28576,9 @@
       ],
       [
         {"name": "Luis Islas"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Nestor Lorenzo"},
-        {"name": "Pedro Monzon"},
+        {"name": "Pedro Monzón"},
         {"name": "Roberto Sensini"},
         {"name": "Sergio Batista"},
         {"name": "Abel Balbo"},
@@ -28744,8 +28747,8 @@
         {"name": "Nery Pumpido"},
         {"name": "José Luis Brown"},
         {"name": "José Luis Cuciuffo"},
-        {"name": "Hernan Diaz"},
-        {"name": "Pedro Monzon"},
+        {"name": "Hernán Díaz"},
+        {"name": "Pedro Monzón"},
         {"name": "Roberto Sensini", "out": "64"},
         {"name": "Fabián Basualdo", "in": "64"},
         {"name": "Héctor Enrique"},
@@ -28888,8 +28891,8 @@
         {"name": "Nery Pumpido"},
         {"name": "Nestor Clausen", "out": "64"},
         {"name": "Nestor Raul Gorosito", "in": "64"},
-        {"name": "Hernan Diaz"},
-        {"name": "Pedro Monzon"},
+        {"name": "Hernán Díaz"},
+        {"name": "Pedro Monzón"},
         {"name": "Roberto Sensini"},
         {"name": "Jorge Burruchaga"},
         {"name": "Gabriel Calderon", "out": "46"},
@@ -28948,7 +28951,7 @@
       ],
       [
         {"name": "Nery Pumpido"},
-        {"name": "Pedro Monzon"},
+        {"name": "Pedro Monzón"},
         {"name": "Julio Olarticoechea"},
         {"name": "Oscar Ruggeri"},
         {"name": "Juan Simon"},
@@ -28988,8 +28991,8 @@
         {"name": "Vargas"}
       ],
       [
-        {"name": "Nestor Fabbri"},
-        {"name": "Pedro Monzon"},
+        {"name": "Néstor Fabbri"},
+        {"name": "Pedro Monzón"},
         {"name": "Julio Olarticoechea"},
         {"name": "Juan Simon"},
         {"name": "Sergio Batista"},
@@ -29041,8 +29044,8 @@
       [
         {"name": "Sergio Goycochea"},
         {"name": "Edgardo Bauza"},
-        {"name": "Nestor Fabbri"},
-        {"name": "Pedro Monzon", "out": "81"},
+        {"name": "Néstor Fabbri"},
+        {"name": "Pedro Monzón", "out": "81"},
         {"name": "Diego Simeone", "in": "81"},
         {"name": "Julio Olarticoechea"},
         {"name": "Sergio Batista"},
@@ -29103,9 +29106,9 @@
       [
         {"name": "Nery Pumpido"},
         {"name": "Edgardo Bauza"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Oscar Ruggeri", "out": "64"},
-        {"name": "Pedro Monzon", "in": "64"},
+        {"name": "Pedro Monzón", "in": "64"},
         {"name": "Roberto Sensini"},
         {"name": "Sergio Batista"},
         {"name": "Jorge Burruchaga", "out": "49"},
@@ -29255,7 +29258,7 @@
         {"name": "Nery Pumpido"},
         {"name": "Oscar Ruggeri"},
         {"name": "José Serrizuela", "out": "80"},
-        {"name": "Nestor Fabbri", "in": "80"},
+        {"name": "Néstor Fabbri", "in": "80"},
         {"name": "Juan Simon"},
         {"name": "Roberto Sensini", "out": "88"},
         {"name": "Nestor Lorenzo", "in": "88"},
@@ -29297,7 +29300,7 @@
       [
         {"name": "Nery Pumpido"},
         {"name": "Juan Simón"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Nestor Lorenzo"},
         {"name": "Oscar Ruggeri", "out": "46"},
         {"name": "Claudio Caniggia", "in": "46"},
@@ -30623,50 +30626,52 @@
   {
     "date": "1992-10-20",
     "competition": "FIFA Confederations Cup",
-    "venue": {"name": "King Fahd International Stadium, Riyadh"},
+    "venue": {"name": "King Fahd International Stadium", "city": "Riyadh"},
     "teams": [{"name": "Saudi Arabia"}, {"name": "Argentina"}],
     "score": [1, 3],
     "result": "W",
     "goals": [
-      [{"name": "Saeed Al-Owairan", "min": "64", "type": "G"}],
+      [{"name": "Saeed Al-Owairan", "min": "65", "type": "G"}],
       [
-        {"name": "Leonardo Rodríguez", "min": "20", "type": "G"},
-        {"name": "Claudio Caniggia", "min": "25", "type": "G"},
-        {"name": "Diego Simeone", "min": "63", "type": "G"}
+        {"name": "Leonardo Rodríguez", "min": "18", "type": "G"},
+        {"name": "Claudio Caniggia", "min": "24", "type": "G"},
+        {"name": "Diego Simeone", "min": "64", "type": "G"}
       ]
     ],
-    "coaches": [null, {"name": "Alfio Basile"}],
+    "coaches": [{"name": "Nelsinho Rosa"}, {"name": "Alfio Basile"}],
     "lineups": [
       [
-        {"name": "Saud Al Othaibi"},
-        {"name": "Salem Al Alawi"},
-        {"name": "Abdulla Al Dosari"},
+        {"name": "Saud Al-Otaibi"},
+        {"name": "Abdullah Al-Dosari"},
+        {"name": "Salem Al-Alawi"},
+        {"name": "Abdul Rahman Al-Roomi"},
+        {"name": "Fuad Anwar Amin"},
         {"name": "Mohammed Al-Khilaiwi"},
-        {"name": "Fahad Al Bishi", "out": "67"},
-        {"name": "Abdulaziz Al Razqan", "in": "67"},
-        {"name": "Khaled Al Muwallid"},
-        {"name": "Faud Anwar"},
-        {"name": "Sami Al-Jaber", "out": "46"},
-        {"name": "Fahad Al-Mehallel", "in": "46"},
+        {"name": "Fahad Al-Bishi", "out": "67"},
+        {"name": "Abdul Aziz Al-Razqan", "in": "67"},
+        {"name": "Khaled Al-Muwallid"},
+        {"name": "Khaled Al-Hazaa"},
         {"name": "Saeed Al-Owairan"},
-        {"name": "Abdulrahme Al Roumi"}
+        {"name": "Sami Al-Jaber", "out": "46"},
+        {"name": "Fahad Al-Mehallel", "in": "46"}
       ],
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez"},
+        {"name": "Fabián Basualdo"},
+        {"name": "Ricardo Altamirano"},
+        {"name": "Oscar Ruggeri"},
+        {"name": "José Luis Villarreal", "out": "81"},
+        {"name": "Diego Cagna", "in": "81"},
         {"name": "Fernando Redondo"},
+        {"name": "Diego Simeone"},
         {"name": "Leonardo Rodríguez", "out": "73"},
         {"name": "Alberto Acosta", "in": "73"},
-        {"name": "Diego Simeone"},
-        {"name": "Gabriel Batistuta"},
         {"name": "Claudio Caniggia"},
-        {"name": "Ricardo Altamirano"},
-        {"name": "Fabián Basualdo"},
-        {"name": "José Luis Villarreal", "out": "81"},
-        {"name": "Diego Cagna", "in": "81"}
+        {"name": "Gabriel Batistuta"}
       ]
-    ]
+    ],
+    "sources": ["Mantz1", "Wikipedia"]
   },
   {
     "date": "1992-11-26",
@@ -31494,7 +31499,7 @@
     "result": "W",
     "goals": [
       [
-        {"name": "Hernan Diaz", "min": "4", "type": "G"},
+        {"name": "Hernán Díaz", "min": "4", "type": "G"},
         {"name": "Abel Balbo", "min": "64", "type": "G"}
       ],
       [{"name": "Andreas Möller", "min": "8", "type": "G"}]
@@ -31503,7 +31508,7 @@
     "lineups": [
       [
         {"name": "Sergio Goycochea"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Carlos Javier MacAllister"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez", "out": "87"},
@@ -31567,7 +31572,7 @@
         {"name": "Sergio Goycochea"},
         {"name": "Fernando Caceres"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Sergio Vázquez"},
         {"name": "Diego Cagna", "out": "61"},
         {"name": "Roberto Carlos Monserrat", "in": "61"},
@@ -31600,7 +31605,7 @@
       [
         {"name": "Luis Islas"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Oscar Ruggeri"},
         {"name": "Sergio Vázquez", "out": "30"},
         {"name": "Jorge Borelli", "in": "30"},
@@ -32114,7 +32119,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "Rodolfo Arruabarrena"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero", "out": "81"},
@@ -32143,7 +32148,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "Rodolfo Arruabarrena"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero", "out": ""},
@@ -32187,7 +32192,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "Rodolfo Arruabarrena"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero"},
@@ -32245,7 +32250,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "José Chamot"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero", "out": "56"},
@@ -32312,7 +32317,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "José Chamot"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero"},
@@ -32341,7 +32346,7 @@
     "cards": [
       [
         {"name": "Javier Zanetti", "type": "Y"},
-        {"name": "Nestor Fabbri", "type": "Y"},
+        {"name": "Néstor Fabbri", "type": "Y"},
         {"name": "José Chamot", "min": "89", "type": "R"}
       ],
       [
@@ -32357,7 +32362,7 @@
       [
         {"name": "Carlos Bossio"},
         {"name": "José Chamot"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Christian Bassedas"},
         {"name": "Marcelo Escudero"},
@@ -32490,7 +32495,7 @@
         {"name": "Neil Robert Tovey"}
       ],
       [
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas", "out": "46"},
         {"name": "Christian Bassedas", "in": "46"},
@@ -32514,13 +32519,13 @@
     "teams": [{"name": "Argentina"}, {"name": "Peru"}],
     "score": [1, 0],
     "result": "W",
-    "goals": [[{"name": "Nestor Fabbri", "min": "23", "type": "G"}], []],
+    "goals": [[{"name": "Néstor Fabbri", "min": "23", "type": "G"}], []],
     "cards": [[], [{"name": "Alfonso Dulanto", "min": "43", "type": "R"}]],
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Miguel Company"}],
     "lineups": [
       [
         {"name": "German Burgos"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Leonardo Astrada"},
         {"name": "Christian Bassedas", "out": "69"},
@@ -32568,7 +32573,7 @@
     "lineups": [
       [
         {"name": "German Burgos"},
-        {"name": "Nestor Fabbri", "out": "35"},
+        {"name": "Néstor Fabbri", "out": "35"},
         {"name": "Fernando Caceres", "in": "35"},
         {"name": "Sergio Berti"},
         {"name": "Marcelo Escudero", "out": "78"},
@@ -32714,7 +32719,7 @@
     "lineups": [
       [
         {"name": "Carlos Bossio"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Roberto Ayala"},
         {"name": "Marcelo Escudero", "out": "46"},
         {"name": "Ariel Ortega", "in": "46"},
@@ -32787,7 +32792,7 @@
       [
         {"name": "Fernando Caceres"},
         {"name": "José Chamot"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Leonardo Astrada"},
         {"name": "Diego Simeone"},
         {"name": "Javier Zanetti"},
@@ -32919,7 +32924,7 @@
       [
         {"name": "German Burgos"},
         {"name": "José Chamot"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Leonardo Astrada"},
         {"name": "José Basualdo"},
         {"name": "Javier Zanetti"},
@@ -33020,7 +33025,7 @@
     "coaches": [{"name": "Daniel Passarella"}, {"name": "Rafael Santana"}],
     "lineups": [
       [
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
         {"name": "Gustavo Adrián López"},
@@ -33286,7 +33291,7 @@
       ],
       [
         {"name": "Pablo Cavallero"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Roberto Ayala"},
         {"name": "Matias Almeyda"},
         {"name": "Diego Simeone", "out": "88"},
@@ -33374,7 +33379,7 @@
     "lineups": [
       [
         {"name": "Roberto Bonano"},
-        {"name": "Nestor Fabbri"},
+        {"name": "Néstor Fabbri"},
         {"name": "Nelson Vivas"},
         {"name": "Leonardo Astrada"},
         {"name": "Diego Simeone"},
@@ -33476,7 +33481,7 @@
       ],
       [
         {"name": "Ignacio González"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Pablo Paz"},
         {"name": "Roberto Sensini"},
         {"name": "Diego Simeone"},
@@ -33532,7 +33537,7 @@
       ],
       [
         {"name": "Ignacio González"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Pablo Paz"},
         {"name": "Nelson Vivas"},
         {"name": "Roberto Sensini"},
@@ -33618,7 +33623,7 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
         {"name": "Matias Almeyda"},
@@ -33859,7 +33864,7 @@
         {"name": "Juan Sebastian Veron", "min": "40", "type": "G"}
       ]
     ],
-    "cards": [[], [{"name": "Hernan Diaz", "min": "85", "type": "R"}]],
+    "cards": [[], [{"name": "Hernán Díaz", "min": "85", "type": "R"}]],
     "coaches": [
       {"name": "Paulo Cesar Carpeggiani"},
       {"name": "Daniel Passarella"}
@@ -33883,7 +33888,7 @@
       [
         {"name": "Carlos Roa"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Pablo Paz"},
         {"name": "Roberto Ayala"},
         {"name": "Roberto Sensini"},
@@ -34102,7 +34107,7 @@
       [
         {"name": "German Burgos"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Roberto Ayala"},
         {"name": "Nelson Vivas"},
         {"name": "Leonardo Astrada", "out": "74"},
@@ -34153,7 +34158,7 @@
       [
         {"name": "German Burgos"},
         {"name": "José Chamot"},
-        {"name": "Hernan Diaz"},
+        {"name": "Hernán Díaz"},
         {"name": "Roberto Ayala"},
         {"name": "Leonardo Astrada"},
         {"name": "Diego Simeone"},

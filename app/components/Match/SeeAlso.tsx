@@ -21,7 +21,11 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
       <Block>
         <Header text="See also" />
         <p>
-          <LinkAnchor href={`/${year}`} title={`Argentina matches in ${year}`}>
+          <LinkAnchor
+            href={`/${year}`}
+            title={`Argentina matches in ${year}`}
+            active={false}
+          >
             All matches in {parseInt(String(parseInt(year) / 10))}0s
           </LinkAnchor>
         </p>
