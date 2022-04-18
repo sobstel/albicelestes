@@ -1,6 +1,6 @@
 import React from "react";
 
-import { getPlayerCatalog, getPlayerSlug } from "~/helpers";
+import { getPlayerInitial, getPlayerSlug } from "~/helpers";
 
 import { LinkAnchor } from "./layout";
 
@@ -16,7 +16,7 @@ export default function PlayerName({
   }
 
   const slug = getPlayerSlug(name);
-  const catalog = getPlayerCatalog(name);
+  const initial = getPlayerInitial(name);
 
-  return <LinkAnchor href={`/players/${catalog}/${slug}`}>{name}</LinkAnchor>;
+  return <LinkAnchor href={`/players/${initial}/${slug}`}>{name}</LinkAnchor>;
 }

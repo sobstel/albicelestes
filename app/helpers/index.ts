@@ -13,7 +13,7 @@ export { default as getMatchSlug } from "./getMatchSlug";
 export { default as getMatchTeamIndex } from "./getMatchTeamIndex";
 export { default as getMatchTeams } from "./getMatchTeams";
 export { default as getMatchYear } from "./getMatchYear";
-export { default as getPlayerCatalog } from "./getPlayerCatalog";
+export { default as getPlayerInitial } from "./getPlayerInitial";
 export { default as getPlayerName } from "./getPlayerName";
 export { default as getPlayerSlug } from "./getPlayerSlug";
 export { default as getTeamSlug } from "./getTeamSlug";

@@ -48,7 +48,7 @@ export const meta: MetaFunction = ({
   };
 };
 
-export default function RivalRootPage() {
+export default function RivalIndexPage() {
   const { teams } = useLoaderData<LoaderData>();
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Block, LinkAnchor } from "~/components/layout";
-import { getPlayerCatalog, getPlayerName, getPlayerSlug } from "~/helpers";
+import { getPlayerInitial, getPlayerName, getPlayerSlug } from "~/helpers";
 import { PlayerItem } from "~/types";
 
 export type Props = {
@@ -16,12 +16,12 @@ export default function PlayerList({ players }: Props) {
       {players.map(({ name, mp }) => {
         const _playerName = getPlayerName(name);
         const slug = getPlayerSlug(name);
-        const catalog = getPlayerCatalog(name);
+        const initial = getPlayerInitial(name);
 
         return (
           <p key={slug}>
             <LinkAnchor
-              href={`/players/${catalog}/${slug}`}
+              href={`/players/${initial}/${slug}`}
               title={name}
               important={!!mp && mp >= 20}
             >

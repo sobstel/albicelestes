@@ -3,27 +3,21 @@ import * as R from "remeda";
 import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 import slugify from "slugify";
 
-import PlayerCatalogNav from "~/components/PlayerCatalogNav";
 import PlayerList from "~/components/PlayerList";
+import PlayerNav from "~/components/PlayerNav";
 import { fetchMatches } from "~/data";
-import {
-  collectPlayers,
-  getMatchDate,
-  getMatchTeams,
-  getPlayerCatalog,
-  getPlayerName,
-} from "~/helpers";
-import { seoDescription, seoTitle } from "~/utility";
+import { collectPlayers, getPlayerInitial, getPlayerName } from "~/helpers";
+import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
 export async function getLoaderData({
-  params: { catalog },
+  params: { initial },
 }: Parameters<LoaderFunction>[0]) {
   const players = R.pipe(
     fetchMatches(),
     collectPlayers,
-    R.filter((player) => getPlayerCatalog(player.name) === catalog),
+    R.filter((player) => getPlayerInitial(player.name) === initial),
     R.sortBy((player) => {
       const playerName = getPlayerName(player.name);
       return slugify(
@@ -38,7 +32,7 @@ export async function getLoaderData({
   );
 
   return {
-    catalog,
+    initial,
     players,
   };
 }
@@ -48,16 +42,16 @@ export const loader: LoaderFunction = async (args) => {
 };
 
 export const meta: MetaFunction = ({
-  data: { catalog },
+  data: { initial },
 }: {
   data: LoaderData;
 }) => {
-  const titleParts = ["Players", catalog ? catalog.toUpperCase() : undefined];
+  const titleParts = ["Players", initial ? initial.toUpperCase() : undefined];
 
   return { title: seoTitle(titleParts) };
 };
 
-export default function PlayerCatalogPage() {
+export default function PlayerInitialPage() {
   const { players } = useLoaderData<LoaderData>();
 
   return (

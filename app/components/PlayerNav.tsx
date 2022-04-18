@@ -5,11 +5,11 @@ import { Block, LinkAnchor } from "~/components/layout";
 
 export const ALPHABET = "abcdefghijklmnopqrstuvwyz".split("");
 
-export default function PlayerCatalogNav({ catalog }: { catalog?: string }) {
-  const items = ALPHABET.map((_catalog) => ({
-    id: _catalog,
-    href: `/players/${_catalog}`,
-    text: _catalog,
+export default function PlayerNav({ initial }: { initial?: string }) {
+  const items = ALPHABET.map((_initial) => ({
+    id: _initial,
+    href: `/players/${_initial}`,
+    text: _initial,
   }));
 
   return (
