@@ -175,7 +175,7 @@ function RangeNav({ activeYear }: { activeYear: string }) {
     navigate(`/${lowerYear > value ? value : lowerYear}-${value}`);
   };
 
-  const values = R.range(MIN_YEAR, MAX_YEAR).map(String);
+  const values = R.range(MIN_YEAR, MAX_YEAR + 1).map(String);
 
   return (
     <div>
