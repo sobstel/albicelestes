@@ -30,7 +30,7 @@ const Select = ({
   return (
     <select
       onChange={handleChange}
-      className="mx-1 outline-none disabled:text-slate-400"
+      className="mx-1 outline-none disabled:text-slate-400 border border-slate-500 rounded disabled:border-slate-400 bg-transparent"
       disabled={values.length === 0}
     >
       {unselectedOptionText && <option>{unselectedOptionText}</option>}
