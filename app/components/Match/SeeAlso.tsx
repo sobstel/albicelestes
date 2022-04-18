@@ -27,7 +27,7 @@ export default function SeeAlso({ match, prevMatch, nextMatch }: Props) {
         </p>
         <p>
           <LinkAnchor
-            href={`/teams/${getTeamSlug(otherTeam)}`}
+            href={`/rivals/${getTeamSlug(otherTeam)}`}
             title={`Argentina v ${otherTeam.name}`}
           >
             All matches against {otherTeam.name}

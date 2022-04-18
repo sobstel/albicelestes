@@ -8,6 +8,8 @@
     "enabled": false
   },
   "redirects": [
-    { "source": "/:year/players", "destination": "/:year/apps", "permanent": true }
+    { "source": "/:year/players", "destination": "/:year/apps", "permanent": true },
+    { "source": "/teams", "destination": "/rivals", "permanent": true },
+    { "source": "/teams/:slug", "destination": "/rivals/:slug", "permanent": true}
   ]
 }

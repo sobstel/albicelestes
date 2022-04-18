@@ -29,8 +29,8 @@ export default function PageHeader() {
             </LinkAnchor>
           </li>
           <li>
-            <LinkAnchor href="/teams" important>
-              Teams
+            <LinkAnchor href="/rivals" important>
+              Rivals
             </LinkAnchor>
           </li>
         </ul>

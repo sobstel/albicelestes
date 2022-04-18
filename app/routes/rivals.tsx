@@ -48,14 +48,14 @@ export const meta: MetaFunction = ({
   };
 };
 
-export default function TeamsPage() {
+export default function RivalRootPage() {
   const { teams } = useLoaderData<LoaderData>();
   return (
     <>
       <Block>
         {teams.map(({ name, slug, mp }) => (
           <p key={slug}>
-            <LinkAnchor href={`/teams/${slug}`} important={!!mp && mp >= 10}>
+            <LinkAnchor href={`/rivals/${slug}`} important={!!mp && mp >= 10}>
               {name}
             </LinkAnchor>{" "}
             ({mp})

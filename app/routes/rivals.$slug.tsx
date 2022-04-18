@@ -70,7 +70,7 @@ export const meta: MetaFunction = ({
   };
 };
 
-export default function TeamPage() {
+export default function RivalPage() {
   const { name, matches, stat } = useLoaderData<LoaderData>();
   const title = `Argentina v ${name}`;
   return (
