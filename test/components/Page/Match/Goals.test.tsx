@@ -81,7 +81,9 @@ describe(Goals, () => {
     const ps = container.querySelectorAll("p");
 
     test("renders correctly", () => {
-      expect(ps[0].textContent).toEqual("ARG: Roberto Ayala, Javier Zanetti");
+      expect(ps[0].textContent).toEqual(
+        "ARG: Roberto Ayala 45', Javier Zanetti"
+      );
       expect(ps[1].textContent).toEqual("URU: Diego Godín");
     });
   });
