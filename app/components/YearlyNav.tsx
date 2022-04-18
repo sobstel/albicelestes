@@ -43,15 +43,20 @@ const Select = ({
   );
 };
 
-function DefaultNav({ activeYear }: { activeYear?: string }) {
+function DefaultNav({
+  activeYear,
+  markActiveYear,
+}: {
+  activeYear: string;
+  markActiveYear?: boolean;
+}) {
   const navigate = useNavigate();
-  const currentYear = activeYear ?? String(MAX_YEAR);
 
   const [yearRange, setYearRange] = useState<[string, string]>([
-    currentYear,
-    currentYear,
+    activeYear,
+    activeYear,
   ]);
-  const currentYearInt = parseInt(currentYear, 10);
+  const activeYearInt = parseInt(activeYear, 10);
 
   const containerRef = useRef<HTMLElement>(null);
   const itemRef = useRef<HTMLElement>(null);
@@ -79,8 +84,8 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
           (containerWidth - selectsWidth) / itemWidth
         );
 
-        let lowerLimit = parseInt(currentYear, 10) - Math.ceil(itemsCount) / 2;
-        let upperLimit = parseInt(currentYear, 10) + Math.floor(itemsCount) / 2;
+        let lowerLimit = activeYearInt - Math.ceil(itemsCount) / 2;
+        let upperLimit = activeYearInt + Math.floor(itemsCount) / 2;
 
         if (lowerLimit < MIN_YEAR) {
           lowerLimit = MIN_YEAR;
@@ -98,7 +103,7 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
     window.addEventListener("resize", handleResize);
     handleChange();
     return () => window.removeEventListener("resize", handleResize);
-  }, [currentYear, containerRef, itemRef, lowerSelectRef, upperSelectRef]);
+  }, [activeYearInt, containerRef, itemRef, lowerSelectRef, upperSelectRef]);
 
   const handleYearChange: ChangeEventHandler<HTMLSelectElement> = ({
     target: { value },
@@ -120,7 +125,7 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
         />
       </span>
       {R.pipe(
-        R.range(parseInt(yearRange[0], 10), currentYearInt),
+        R.range(parseInt(yearRange[0], 10), activeYearInt),
         R.map((year) => (
           <LinkAnchor key={year} href={`/${year}`} className="mx-1" important>
             {year}
@@ -129,17 +134,17 @@ function DefaultNav({ activeYear }: { activeYear?: string }) {
       )}
       <span ref={itemRef}>
         <LinkAnchor
-          key={currentYearInt}
-          href={`/${currentYear}`}
+          key={activeYearInt}
+          href={`/${activeYear}`}
           className="mx-1"
-          active={Boolean(activeYear)}
+          active={markActiveYear}
           important
         >
-          {currentYear}
+          {activeYear}
         </LinkAnchor>
       </span>
       {R.pipe(
-        R.range(currentYearInt + 1, parseInt(yearRange[1], 10) + 1),
+        R.range(activeYearInt + 1, parseInt(yearRange[1], 10) + 1),
         R.map((year) => (
           <LinkAnchor key={year} href={`/${year}`} className="mx-1" important>
             {year}
@@ -212,7 +217,16 @@ export default function YearlyNav({ activeYear }: { activeYear?: string }) {
               : `${MAX_YEAR}-${MAX_YEAR}`
           }
         />
-        <DefaultNav activeYear={isDefaultNavActive ? activeYear : undefined} />
+        <DefaultNav
+          activeYear={
+            isDefaultNavActive
+              ? activeYear
+              : isRangeNavActive
+              ? activeYear.split("-")[1]
+              : String(MAX_YEAR)
+          }
+          markActiveYear={isDefaultNavActive}
+        />
       </div>
     </Block>
   );
