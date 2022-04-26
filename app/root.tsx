@@ -3,6 +3,7 @@ import nProgressStyles from "nprogress/nprogress.css";
 import React, { useEffect } from "react";
 import {
   Links,
+  LinksFunction,
   LiveReload,
   Meta,
   Outlet,
@@ -16,12 +17,13 @@ import { Header, Page } from "~/components/layout";
 
 import styles from "./styles/app.css";
 
-export function links() {
+export const links: LinksFunction = () => {
   return [
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: nProgressStyles },
+    { rel: "icon", href: "/favicon.png", type: "image/png" },
   ];
-}
+};
 
 export function CatchBoundary() {
   const { status, statusText } = useCatch();
