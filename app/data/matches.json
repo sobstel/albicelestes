@@ -53309,5 +53309,70 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-06-01",
+    "competition": "CONMEBOL/UEFA Finalissima",
+    "round": "Final",
+    "venue": {"name": "Wembley Stadium", "city": "London"},
+    "teams": [{"name": "Italy"}, {"name": "Argentina"}],
+    "score": [0, 3],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Lautaro Martínez", "min": "28", "type": "G"},
+        {"name": "Angel Di Maria", "min": "45+1", "type": "G"},
+        {"name": "Paulo Dybala", "min": "90+4", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Leonardo Bonucci", "min": "39", "type": "Y"},
+        {"name": "Giovanni Di Lorenzo", "min": "72", "type": "Y"},
+        {"name": "Nicolò Barella", "min": "77", "type": "Y"}
+      ],
+      [{"name": "Nicolás Otamendi", "min": "22", "type": "Y"}]
+    ],
+    "coaches": [{"name": "Roberto Mancini"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Gianluigi Donnarumma"},
+        {"name": "Giorgio Chiellini", "out": "46"},
+        {"name": "Manuel Lazzari", "in": "46"},
+        {"name": "Giovanni Di Lorenzo"},
+        {"name": "Leonardo Bonucci"},
+        {"name": "Emerson", "out": "77"},
+        {"name": "Alessandro Bastoni", "in": "77"},
+        {"name": "Jorginho"},
+        {"name": "Nicolò Barella"},
+        {"name": "Matteo Pessina", "out": "62"},
+        {"name": "Leonardo Spinazzola", "in": "62"},
+        {"name": "Federico Bernardeschi", "out": "46"},
+        {"name": "Manuel Locatelli", "in": "46"},
+        {"name": "Andrea Belotti", "out": "46"},
+        {"name": "Gianluca Scamacca", "in": "46"},
+        {"name": "Giacomo Raspadori"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Cristian Romero", "out": "85"},
+        {"name": "Germán Pezzella", "in": "85"},
+        {"name": "Nahuel Molina"},
+        {"name": "Rodrigo De Paul", "out": "76"},
+        {"name": "Exequiel Palacios", "in": "76"},
+        {"name": "Angel Di Maria", "out": "90+1"},
+        {"name": "Nicolás González", "in": "90+1"},
+        {"name": "Guido Rodríguez"},
+        {"name": "Giovani Lo Celso", "out": "90+1"},
+        {"name": "Paulo Dybala", "in": "90+1"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "85"},
+        {"name": "Julián Álvarez", "in": "85"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
