@@ -53312,7 +53312,7 @@
   },
   {
     "date": "2022-06-01",
-    "competition": "CONMEBOL/UEFA Finalissima",
+    "competition": "Finalissima",
     "round": "Final",
     "venue": {"name": "Wembley Stadium", "city": "London"},
     "teams": [{"name": "Italy"}, {"name": "Argentina"}],
