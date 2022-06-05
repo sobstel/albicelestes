@@ -53374,5 +53374,66 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-06-05",
+    "competition": "Friendly",
+    "venue": {"name": "Estadio El Sadar", "city": "Pamplona (Iruñea)"},
+    "teams": [{"name": "Argentina"}, {"name": "Estonia"}],
+    "score": [5, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "8", "type": "P"},
+        {"name": "Lionel Messi", "min": "45", "type": "G"},
+        {"name": "Lionel Messi", "min": "47", "type": "G"},
+        {"name": "Lionel Messi", "min": "71", "type": "G"},
+        {"name": "Lionel Messi", "min": "76", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [[], []],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Thomas Häberli"}],
+    "lineups": [
+      [
+        {"name": "Franco Armani"},
+        {"name": "Germán Pezzella"},
+        {"name": "Lisandro Martínez", "out": "62"},
+        {"name": "Marcos Senesi", "in": "62"},
+        {"name": "Marcos Acuña", "out": "73"},
+        {"name": "Nicolás González", "in": "73"},
+        {"name": "Nahuel Molina", "out": "74"},
+        {"name": "Gonzalo Montiel", "in": "74"},
+        {"name": "Alexis Mac Allister", "out": "66"},
+        {"name": "Juan Foyth", "in": "66"},
+        {"name": "Rodrigo De Paul", "out": "62"},
+        {"name": "Exequiel Palacios", "in": "62"},
+        {"name": "Alejandro Gómez"},
+        {"name": "Joaquín Correa", "out": "62"},
+        {"name": "Paulo Dybala", "in": "62"},
+        {"name": "Julián Álvarez"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Matvei Igonen"},
+        {"name": "Karol Mets"},
+        {"name": "Maksim Paskotši"},
+        {"name": "Artur Pikk", "out": "69"},
+        {"name": "Ken Kallaste", "in": "69"},
+        {"name": "Henrik Pürg", "out": "63"},
+        {"name": "Märten Kuusk", "in": "63"},
+        {"name": "Taijo Teniste"},
+        {"name": "Markus Soomets"},
+        {"name": "Mattias Käit", "out": "63"},
+        {"name": "Vlasiy Sinyavskiy", "in": "63"},
+        {"name": "Martin Miller", "out": "63"},
+        {"name": "Konstantin Vassiljev", "in": "63"},
+        {"name": "Sergei Zenjov", "out": "46"},
+        {"name": "Henri Anier", "in": "46"},
+        {"name": "Erik Sorga", "out": "83"},
+        {"name": "Robert Kirss", "in": "83"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]

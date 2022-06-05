@@ -41,9 +41,6 @@ export default function AboutPage() {
           </LinkAnchor>
         </p>
         <p>
-          <LinkAnchor href="https://twitter.com/albisopel">twitter</LinkAnchor>
-        </p>
-        <p>
           <LinkAnchor href="https://www.youtube.com/channel/UCtBjQEaQFBAwJjkZxvciCUw">
             youtube
           </LinkAnchor>
