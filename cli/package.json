@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^8.2.0",
+    "commander": "^9.3.0",
     "dayjs": "^1.10.7",
     "got": "^11.8.0",
     "inquirer": "^8.2.0",
