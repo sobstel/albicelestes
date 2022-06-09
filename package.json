@@ -33,7 +33,7 @@
     "@remix-run/dev": "^1.2.3",
     "@remix-run/eslint-config": "^1.2.3",
     "@remix-run/serve": "^1.2.3",
-    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@types/jest": "^27.4.1",
     "@types/lodash.debounce": "^4.0.6",
