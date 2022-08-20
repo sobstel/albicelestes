@@ -6,11 +6,6 @@ export default function PageFooter() {
   return (
     <footer>
       <Block hasTopSeparator className="text-xs uppercase">
-        Created by
-        <LinkAnchor href="https://sobstel.dev/" className="mx-1">
-          sobstel
-        </LinkAnchor>
-        ·
         <LinkAnchor href="/about" rel="nofollow" className="mx-1">
           About
         </LinkAnchor>

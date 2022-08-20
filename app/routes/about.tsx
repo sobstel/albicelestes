@@ -28,7 +28,19 @@ export default function AboutPage() {
   return (
     <>
       <Header top text="About" />
-      <p>Argentina Football National Team Archive</p>
+
+      <Block>
+        <p>Argentina Football National Team Archive.</p>
+      </Block>
+
+      <Block>
+        <p>
+          Created by
+          <LinkAnchor href="https://sobstel.dev/" className="mx-1">
+            sobstel
+          </LinkAnchor>
+        </p>
+      </Block>
 
       <Block>
         <Header text="Links" />
