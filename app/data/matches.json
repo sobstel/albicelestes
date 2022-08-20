@@ -23836,8 +23836,9 @@
       "city": "Capital Federal, Ciudad de Buenos Aires"
     },
     "teams": [{"name": "Argentina"}, {"name": "Netherlands"}],
-    "score": [1, 1],
-    "result": "D",
+    "score": [3, 1],
+    "aet": true,
+    "result": "W",
     "goals": [
       [
         {"name": "Mario Kempes", "min": "38", "type": "G"},
@@ -31044,6 +31045,7 @@
     "slug": "argentina-mexico-2",
     "date": "1993-07-04",
     "competition": "Copa América",
+    "round": "Final",
     "venue": {"name": "Monumental"},
     "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
     "score": [2, 1],
@@ -46994,7 +46996,7 @@
     },
     "teams": [{"name": "Germany"}, {"name": "Argentina"}],
     "score": [1, 0],
-    "result": "W",
+    "result": "L",
     "goals": [[{"name": "Mario Götze", "min": "113", "type": "G"}], []],
     "cards": [
       [

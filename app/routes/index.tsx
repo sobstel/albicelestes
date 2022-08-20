@@ -11,14 +11,26 @@ import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
+const LAST_MATCHES_COUNT = 5;
+const LAST_FINALS_COUNT = 5;
+
 async function getLoaderData() {
-  return R.pipe(
+  const recentMatches = R.pipe(
     fetchMatches(),
     R.reverse(),
-    R.take(10),
-    R.reverse(),
+    R.take(LAST_MATCHES_COUNT),
     R.map(getMatchItem)
   );
+
+  const finalMatches = R.pipe(
+    fetchMatches(),
+    R.reverse(),
+    R.filter((match) => match["round"] === "Final" && match["result"] === "W"),
+    R.take(LAST_FINALS_COUNT),
+    R.map(getMatchItem)
+  );
+
+  return { recentMatches, finalMatches };
 }
 
 export const loader = async () => {
@@ -32,12 +44,14 @@ export const meta: MetaFunction = () => {
 };
 
 export default function IndexPage() {
-  const recentMatches = useLoaderData<LoaderData>();
+  const { recentMatches, finalMatches } = useLoaderData<LoaderData>();
   return (
     <>
       <YearlyNav />
-      <Header top text="Recent matches" />
+      <Header top text={`Recent matches`} />
       <MatchList matches={recentMatches} />
+      <Header top text={`Recent finals won`} />
+      <MatchList matches={finalMatches} />
     </>
   );
 }
