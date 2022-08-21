@@ -10,7 +10,7 @@ export default function VerifiedNote({ match: { sources } }: Props) {
     return (
       <p className="text-xs italic">
         Data might not be fully accurate for this game yet. It needs to be
-        verified with reliable sources. Want to help? Contace me at
+        verified with reliable sources. Want to help? Contact me at
         przemek&#64;sobstel&#46;org.
       </p>
     );
