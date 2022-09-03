@@ -27550,7 +27550,7 @@
     "competition": "World Cup",
     "round": "Final",
     "venue": {"name": "Estadio Azteca", "city": "Ciudad de México (D.F.)"},
-    "teams": [{"name": "Argentina"}, {"name": "Germany"}],
+    "teams": [{"name": "Argentina"}, {"name": "West Germany"}],
     "score": [3, 2],
     "result": "W",
     "goals": [
