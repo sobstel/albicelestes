@@ -53437,5 +53437,70 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-09-23",
+    "competition": "Friendly",
+    "venue": {"name": "Hard Rock Stadium", "city": "Miami Gardens, Florida"},
+    "teams": [{"name": "Argentina"}, {"name": "Honduras"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lautaro Martínez", "min": "16", "type": "G"},
+        {"name": "Lionel Messi", "min": "45+2", "type": "P"},
+        {"name": "Lionel Messi", "min": "69", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Deiby Flores", "min": "40", "type": "Y"},
+        {"name": "Santos", "min": "43", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Vásquez"}],
+    "lineups": [
+      [
+        {"name": "Gerónimo Rulli"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Germán Pezzella", "out": "65"},
+        {"name": "Nehuén Pérez", "in": "65"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Giovani Lo Celso", "out": "72"},
+        {"name": "Ángel Correa", "in": "72"},
+        {"name": "Leandro Paredes", "out": "64"},
+        {"name": "Enzo Fernández", "in": "64"},
+        {"name": "Rodrigo De Paul", "out": "72"},
+        {"name": "Alexis Mac Allister", "in": "72"},
+        {"name": "Alejandro Gómez", "out": "54"},
+        {"name": "Thiago Almada", "in": "54"},
+        {"name": "Lautaro Martínez", "out": "46"},
+        {"name": "Julián Álvarez", "in": "46"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Luis López"},
+        {"name": "Denil Maldonado"},
+        {"name": "Carlos Meléndez"},
+        {"name": "Andy Najar", "out": "62"},
+        {"name": "Edwin Solano", "in": "62"},
+        {"name": "Santos"},
+        {"name": "Omar Elvir", "out": "82"},
+        {"name": "Franklin Flores", "in": "82"},
+        {"name": "Héctor Castellanos ", "out": "76"},
+        {"name": "Joseph Rosales", "in": "76"},
+        {"name": "Kevin Arriaga", "out": "76"},
+        {"name": "Germán Mejía", "in": "76"},
+        {"name": "Deiby Flores"},
+        {"name": "Rigoberto Rivas", "out": "46"},
+        {"name": "Luis Palma", "in": "46"},
+        {"name": "Romell Quioto", "out": "82"},
+        {"name": "Bryan Róchez", "in": "82"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
