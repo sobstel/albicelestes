@@ -53502,5 +53502,61 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-09-27",
+    "competition": "Friendly",
+    "venue": {"name": "Red Bull Arena", "city": "Harrison, New Jersey"},
+    "teams": [{"name": "Argentina"}, {"name": "Jamaica"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Julián Álvarez", "min": "13", "type": "G"},
+        {"name": "Lionel Messi", "min": "86", "type": "G"},
+        {"name": "Lionel Messi", "min": "89", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [[], [{"name": "", "min": "10", "type": "Y"}]],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Hallgrímsson"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Cristian Romero"},
+        {"name": "Gonzalo Montiel", "out": "79"},
+        {"name": "Nahuel Molina", "in": "79"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Alexis Mac Allister", "out": "71"},
+        {"name": "Rodrigo De Paul", "in": "71"},
+        {"name": "Giovani Lo Celso"},
+        {"name": "Guido Rodríguez", "out": "55"},
+        {"name": "Enzo Fernández", "in": "55"},
+        {"name": "Angel Di Maria", "out": "78"},
+        {"name": "Lisandro Martínez", "in": "78"},
+        {"name": "Julián Álvarez", "out": "78"},
+        {"name": "Joaquín Correa", "in": "78"},
+        {"name": "Lautaro Martínez", "out": "56"},
+        {"name": "Lionel Messi", "in": "56"}
+      ],
+      [
+        {"name": ""},
+        {"name": "Deshorn Brown", "out": "79"},
+        {"name": "", "in": "79"},
+        {"name": "Adrian Mariappa"},
+        {"name": ""},
+        {"name": ""},
+        {"name": ""},
+        {"name": ""},
+        {"name": ""},
+        {"name": ""},
+        {"name": "", "out": "87"},
+        {"name": "", "in": "87"},
+        {"name": "", "out": "70"},
+        {"name": "", "in": "70"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
