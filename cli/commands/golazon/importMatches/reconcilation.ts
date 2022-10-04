@@ -59,13 +59,9 @@ async function getNameFromProprietaryReconciler(
   if (!playerId) {
     return;
   }
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const proprietaryReconciler = require("./proprietaryReconciler").default;
-    return await proprietaryReconciler(playerId);
-  } catch (e) {
-    return;
-  }
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const proprietaryReconciler = require("./proprietaryReconciler").default;
+  return await proprietaryReconciler(playerId);
 }
 
 export async function reconcilePlayer(
