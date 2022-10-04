@@ -20968,7 +20968,7 @@
   {
     "date": "1974-04-22",
     "competition": "Friendly",
-    "venue": {"name": "Velez Sarsfield, BUENOS AIRES"},
+    "venue": {"name": "Velez Sarsfield, Buenos Aires"},
     "teams": [{"name": "Argentina"}, {"name": "Romania"}],
     "score": [2, 1],
     "result": "W",
@@ -21213,6 +21213,13 @@
         {"name": "Rubén Ayala"}
       ]
     ],
+    "info": {
+      "images": [
+        {
+          "url": "/m/1953/goal_grillo_england_1953_square_poaple.jpg"
+        }
+      ]
+    },
     "sources": ["Golazon"]
   },
   {
