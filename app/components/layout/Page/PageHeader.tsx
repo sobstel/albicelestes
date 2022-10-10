@@ -28,6 +28,11 @@ export default function PageHeader() {
               Players
             </LinkAnchor>
           </li>
+          <li className="mr-4">
+            <LinkAnchor href="/coaches" important>
+              Coaches
+            </LinkAnchor>
+          </li>
           <li>
             <LinkAnchor href="/rivals" important>
               Rivals

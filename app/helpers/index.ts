@@ -1,3 +1,4 @@
+export { default as collectCoaches } from "./collectCoaches";
 export { default as collectPlayers } from "./collectPlayers";
 export { default as collectPlayerStat } from "./collectPlayerStat";
 export { default as collectTeams } from "./collectTeams";
