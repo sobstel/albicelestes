@@ -162,4 +162,7 @@ const rtTeamStat = Record({
 
 const rtCoachItem = Record({
   name: String,
+  yearFrom: String,
+  yearTo: String,
+  mp: Number,
 });

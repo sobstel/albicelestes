@@ -12,8 +12,14 @@ export default function CoachesList({ coaches }: Props) {
 
   return (
     <Block>
-      {coaches.map(({ name }) => {
-        return <p key={name}>{name}</p>;
+      {coaches.map(({ name, yearFrom, yearTo, mp }) => {
+        return (
+          <p key={name}>
+            {name}
+            {/*({yearFrom}-{yearTo})*/}
+            {/*[{mp}]*/}
+          </p>
+        );
       })}
     </Block>
   );

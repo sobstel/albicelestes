@@ -6811,7 +6811,7 @@
     "result": "W",
     "goals": [[{"name": "Luis Monti", "min": "81", "type": "G"}], []],
     "cards": [[], []],
-    "coaches": [{"name": "Raoul Caudron"}, {"name": "Francisco Olazar"}],
+    "coaches": [{"name": "Francisco Olazar"}, {"name": "Raoul Caudron"}],
     "lineups": [
       [
         {"name": "Ángel Bossio"},
@@ -15994,7 +15994,7 @@
     "result": "D",
     "goals": [[], []],
     "cards": [[], []],
-    "coaches": [{"name": "Juan Carlos Lorenzo"}, {"name": "Lajos Baroti"}],
+    "coaches": [{"name": "Lajos Baroti"}, {"name": "Juan Carlos Lorenzo"}],
     "lineups": [
       [
         {"name": "Gyula Grosics"},
@@ -18582,7 +18582,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Raul Armando Savoy", "min": "36", "type": "P"}], []],
-    "coaches": [{"name": "Valentin Suarez"}, {"name": "Ryszard Koncewicz"}],
+    "coaches": [null, {"name": "Ryszard Koncewicz"}],
     "lineups": [
       [
         {"name": "Roque Avallay", "out": "46"},
@@ -21358,7 +21358,7 @@
       ],
       [{"name": "Roberto Perfumo", "min": "37", "type": "Y"}]
     ],
-    "coaches": [{"name": "Vladislao Cap"}, {"name": "Rinus Michels"}],
+    "coaches": [{"name": "Rinus Michels"}, {"name": "Vladislao Cap"}],
     "lineups": [
       [
         {"name": "Jan Jongbloed"},
@@ -23623,7 +23623,7 @@
     "result": "L",
     "goals": [[{"name": "Roberto Bettega", "min": "68", "type": "G"}], []],
     "cards": [[{"name": "Romeo Benetti", "min": "61", "type": "Y"}], []],
-    "coaches": [{"name": "César Luis Menotti"}, {"name": "Enzo Bearzot"}],
+    "coaches": [{"name": "Enzo Bearzot"}, {"name": "César Luis Menotti"}],
     "lineups": [
       [
         {"name": "Dino Zoff"},
@@ -24287,7 +24287,7 @@
       ],
       []
     ],
-    "coaches": [{"name": "Federico Sacchi"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Daniel Passarella"},
@@ -24334,7 +24334,7 @@
       [{"name": "Socrates", "type": "G"}, {"name": "Socrates", "type": "G"}]
     ],
     "cards": [[], [{"name": "Zico", "type": "R"}]],
-    "coaches": [{"name": "Federico Sacchi"}, null],
+    "coaches": [{"name": "César Luis Menotti"}, null],
     "lineups": [
       [
         {"name": "Daniel Passarella"},
