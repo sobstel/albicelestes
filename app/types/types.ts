@@ -16,12 +16,13 @@ import {
 export type Appearance = Static<typeof rtAppearance>;
 export type Bibliography = Static<typeof rtBibliography>;
 export type Card = Static<typeof rtCard>;
+export type CoachItem = Static<typeof rtCoachItem>;
 export type Goal = Static<typeof rtGoal>;
 export type InfoLink = Static<typeof rtInfoLink>;
 export type Match = Static<typeof rtMatch>;
 export type MatchCoach = Static<typeof rtMatchCoach>;
 export type MatchItem = Static<typeof rtMatchItem>;
-export type MatchTeam = Static<typeof rtMatchTeam>;
+// export type MatchTeam = Static<typeof rtMatchTeam>;
 export type PenScore = Static<typeof rtPenScore>;
 export type PlayerInfo = Static<typeof rtPlayerInfo>;
 export type PlayerItem = Static<typeof rtPlayerItem>;
@@ -157,4 +158,11 @@ const rtTeamStat = Record({
   ml: Number,
   gf: Number,
   ga: Number,
+});
+
+const rtCoachItem = Record({
+  name: String,
+  yearFrom: String,
+  yearTo: String,
+  mp: Number,
 });
