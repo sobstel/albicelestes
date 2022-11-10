@@ -56,15 +56,18 @@ export default function Goals({ match }: Props) {
     <Block>
       <Header text="Goals" />
       {goals.map((goal, index) => (
-        <p key={index}>
-          {goal.min && `${goal.score.join(":")} `}
-          <PlayerName
-            name={goal.name}
-            linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
-          />
-          {goal.min && ` ${goal.min}'`}
-          {goal.type !== "G" && ` [${goal.type}]`}
-        </p>
+        <Fragment key={index}>
+          <span className="whitespace-nowrap">
+            {goal.min && `${goal.score.join(":")} `}
+            <PlayerName
+              name={goal.name}
+              linkify={xor(goal.teamIndex === myTeamIndex, goal.type === "OG")}
+            />
+            {goal.min && ` ${goal.min}'`}
+            {goal.type !== "G" && ` [${goal.type}]`}
+          </span>
+          {index < goals.length - 1 && ", "}
+        </Fragment>
       ))}
     </Block>
   );

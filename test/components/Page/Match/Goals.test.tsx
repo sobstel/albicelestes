@@ -34,7 +34,7 @@ describe(Goals, () => {
         <Goals match={match} />
       </BrowserRouter>
     );
-    const ps = container.querySelectorAll("p");
+    const ps = container.querySelectorAll("span");
 
     test("renders correctly", () => {
       expect(ps[0].textContent).toEqual("1:0 Roberto Ayala 5'");
