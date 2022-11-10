@@ -186,6 +186,7 @@ function RangeNav({ activeYear }: { activeYear?: string }) {
 
   return (
     <div className="flex">
+      [
       <Select
         values={values}
         selectedValue={lowerYear}
@@ -197,6 +198,7 @@ function RangeNav({ activeYear }: { activeYear?: string }) {
         selectedValue={upperYear}
         handleChange={handleUpperYearChange}
       />
+      ]
     </div>
   );
 }
@@ -208,15 +210,6 @@ export default function YearlyNav({ activeYear }: { activeYear?: string }) {
   return (
     <Block isNav hasBottomSeparator>
       <div className="flex max-w-full uppercase">
-        <RangeNav
-          activeYear={
-            isRangeNavActive
-              ? activeYear
-              : isDefaultNavActive
-              ? `${activeYear}-${activeYear}`
-              : `${MAX_YEAR}-${MAX_YEAR}`
-          }
-        />
         <DefaultNav
           activeYear={
             isDefaultNavActive
@@ -226,6 +219,15 @@ export default function YearlyNav({ activeYear }: { activeYear?: string }) {
               : String(MAX_YEAR)
           }
           markActiveYear={isDefaultNavActive}
+        />
+        <RangeNav
+          activeYear={
+            isRangeNavActive
+              ? activeYear
+              : isDefaultNavActive
+              ? `${activeYear}-${activeYear}`
+              : `${MAX_YEAR}-${MAX_YEAR}`
+          }
         />
       </div>
     </Block>
