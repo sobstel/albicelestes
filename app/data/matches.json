@@ -27584,10 +27584,7 @@
         {"name": "Hans Peter Briegel", "min": "63", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Franz Beckenbauer"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Franz Beckenbauer"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -27754,10 +27751,7 @@
       ],
       [{"name": "Diego Maradona", "min": "62", "type": "G"}]
     ],
-    "coaches": [
-      {"name": "Azeglio Vicini"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Azeglio Vicini"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Walter Zenga", "out": "46"},
@@ -27853,10 +27847,7 @@
       [{"name": "Sergio Batista", "min": "67", "type": "R"}],
       [{"name": "Julio Cesar Uribe", "min": "67", "type": "R"}]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Fernando Cuellar"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Fernando Cuellar"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
@@ -27947,10 +27938,7 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Antonio Alzamendi", "min": "44", "type": "G"}], []],
-    "coaches": [
-      {"name": "Roberto Freitas"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Roberto Freitas"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Alfonso Dominguez"},
@@ -27998,10 +27986,7 @@
         {"name": "Juan Jairo Galeano", "min": "27", "type": "G"}
       ]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Francisco Maturana"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Francisco Maturana"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
@@ -28072,10 +28057,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Jorge Burruchaga", "min": "55", "type": "G"}], []],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Franz Beckenbauer"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Franz Beckenbauer"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -28129,10 +28111,7 @@
         {"name": "Oleg Protasov", "min": "80", "type": "P"}
       ]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Valeri Lobanovski"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Valeri Lobanovski"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -28178,10 +28157,7 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Lothar Matthäus", "min": "30", "type": "G"}], []],
-    "coaches": [
-      {"name": "Franz Beckenbauer"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Franz Beckenbauer"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Eike Immel"},
@@ -28460,10 +28436,7 @@
     "score": [1, 0],
     "result": "L",
     "goals": [[{"name": "Arnoldo Iguaran", "min": "15", "type": "G"}], []],
-    "coaches": [
-      {"name": "Francisco Maturana"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Francisco Maturana"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Rene Higuita"},
@@ -28561,10 +28534,7 @@
       [{"name": "Rubén Espinoza", "min": "69", "type": "P"}],
       [{"name": "Mauro Gabriel Airez", "min": "17", "type": "G"}]
     ],
-    "coaches": [
-      {"name": "Orlando Aravena"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Orlando Aravena"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Juan Carlos Letelier"},
@@ -28605,10 +28575,7 @@
     "score": [1, 0],
     "result": "W",
     "goals": [[{"name": "Claudio Caniggia", "min": "67", "type": "G"}], []],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Orlando Aravena"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Orlando Aravena"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
@@ -28654,10 +28621,7 @@
       [{"name": "Carlos Alejandro Alfaro Moreno", "type": "R"}],
       [{"name": "Luis Enrique Capurro", "type": "R"}]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Dusan Draskovic"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Dusan Draskovic"}],
     "lineups": [
       [
         {"name": "Luis Islas"},
@@ -28744,10 +28708,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Jorge Habegger"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Jorge Habegger"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -28793,10 +28754,7 @@
       ],
       []
     ],
-    "coaches": [
-      {"name": "Sebastian Lazaroni"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Sebastian Lazaroni"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Cláudio Taffarel"},
@@ -28888,10 +28846,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Eduardo Lujan Manera"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Eduardo Lujan Manera"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -28933,10 +28888,7 @@
     "score": [0, 0],
     "result": "D",
     "goals": [[], []],
-    "coaches": [
-      {"name": "Azeglio Vicini"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Azeglio Vicini"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Walter Zenga", "out": "46"},
@@ -29026,10 +28978,7 @@
       ],
       []
     ],
-    "coaches": [
-      {"name": "Manuel Lapuente"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Manuel Lapuente"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Pablo Larios"},
@@ -29078,10 +29027,7 @@
       ],
       []
     ],
-    "coaches": [
-      {"name": "Manuel Lapuente"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Manuel Lapuente"}, {"name": "Carlos Bilardo"}],
     "lineups": [[{"name": "Carlos Munoz"}, {"name": "Luis Roberto Alves"}], []]
   },
   {
@@ -29138,10 +29084,7 @@
       [{"name": "Manfred Zsak", "min": "3", "type": "G"}],
       [{"name": "Jorge Burruchaga", "min": "31", "type": "G"}]
     ],
-    "coaches": [
-      {"name": "Joséf Hickersberger"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Joséf Hickersberger"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Klaus Lindenberger", "out": "46"},
@@ -29239,10 +29182,7 @@
         {"name": "Claudio Caniggia", "min": "68", "type": "G"}
       ]
     ],
-    "coaches": [
-      {"name": "Ehneour and Gruundma"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Ehneour and Gruundma"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Tal Banin"},
@@ -29298,10 +29238,7 @@
         {"name": "Benjamin Massing", "min": "89", "type": "R"}
       ]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Valeri Nepomniachi"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Valeri Nepomniachi"}],
     "lineups": [
       [
         {"name": "Nery Pumpido"},
@@ -29364,10 +29301,7 @@
         {"name": "Andrey Zygmantovich", "min": "52", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Carlos Bilardo"},
-      {"name": "Valeri Lobanovski"}
-    ],
+    "coaches": [{"name": "Carlos Bilardo"}, {"name": "Valeri Lobanovski"}],
     "lineups": [
       [
         {"name": "Nery Pumpido", "out": "11"},
@@ -29481,10 +29415,7 @@
         {"name": "Sergio Goycochea", "min": "87", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Sebastian Lazaroni"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Sebastian Lazaroni"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Cláudio Taffarel"},
@@ -29678,10 +29609,7 @@
         {"name": "Diego Maradona", "min": "88", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Franz Beckenbauer"},
-      {"name": "Carlos Bilardo"}
-    ],
+    "coaches": [{"name": "Franz Beckenbauer"}, {"name": "Carlos Bilardo"}],
     "lineups": [
       [
         {"name": "Bodo Illgner"},
@@ -43632,10 +43560,7 @@
         {"name": "Martin Demichelis", "min": "80", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Alberto Zaccheroni"},
-      {"name": "Sergio Batista"}
-    ],
+    "coaches": [{"name": "Alberto Zaccheroni"}, {"name": "Sergio Batista"}],
     "lineups": [
       [
         {"name": "Eiji Kawashima", "out": "85"},
@@ -44069,10 +43994,7 @@
         {"name": "Osmar Molinas", "min": "77", "type": "Y"}
       ]
     ],
-    "coaches": [
-      {"name": "Sergio Batista"},
-      {"name": "Gerardo Daniel Martino"}
-    ],
+    "coaches": [{"name": "Sergio Batista"}, {"name": "Gerardo Daniel Martino"}],
     "lineups": [
       [
         {"name": "Juan Pablo Carrizo"},
@@ -53563,6 +53485,73 @@
         {"name": "Jamal Lowe", "in": "87"},
         {"name": "Shamar Nicholson", "out": "70"},
         {"name": "Andre Gray", "in": "70"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-11-16",
+    "competition": "Friendly",
+    "venue": {
+      "name": "Mohammed Bin Zayed Stadium",
+      "city": "Abū ẓabī (Abu Dhabi)"
+    },
+    "teams": [{"name": "UAE"}, {"name": "Argentina"}],
+    "score": [0, 5],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Julián Álvarez", "min": "17", "type": "G"},
+        {"name": "Angel Di Maria", "min": "25", "type": "G"},
+        {"name": "Angel Di Maria", "min": "36", "type": "G"},
+        {"name": "Lionel Messi", "min": "44", "type": "G"},
+        {"name": "Joaquín Correa", "min": "60", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [{"name": "Majed Hassan", "min": "77", "type": "Y"}],
+      [{"name": "Lisandro Martínez", "min": "57", "type": "Y"}]
+    ],
+    "coaches": [{"name": "Rodolfo Arruabarrena"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Khalid Eisa"},
+        {"name": "Khalifa Al Hammadi"},
+        {"name": "Al Hassan Sale", "out": "65"},
+        {"name": "Ahmed Jamil", "in": "65"},
+        {"name": "Shaheen Abdulrahman"},
+        {"name": "Khaled Ebraheim", "out": "77"},
+        {"name": "Abdulaziz Hussain", "in": "77"},
+        {"name": "Ali Salmin", "out": "46"},
+        {"name": "Majid Rashid", "in": "46"},
+        {"name": "Abdulla Hamad", "out": "65"},
+        {"name": "Majed Hassan", "in": "65"},
+        {"name": "Harib Abdalla Suhail", "out": "77"},
+        {"name": "Ali Saleh", "in": "77"},
+        {"name": "Abdalla Ramadan"},
+        {"name": "Ali Mabkhout", "out": "46"},
+        {"name": "Fábio Lima", "in": "46"},
+        {"name": "Caio Canedo"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Juan Foyth"},
+        {"name": "Nicolás Otamendi", "out": "46"},
+        {"name": "Germán Pezzella", "in": "46"},
+        {"name": "Marcos Acuña", "out": "46"},
+        {"name": "Joaquín Correa", "in": "46"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Alexis Mac Allister", "out": "46"},
+        {"name": "Gonzalo Montiel", "in": "46"},
+        {"name": "Leandro Paredes", "out": "75"},
+        {"name": "Guido Rodríguez", "in": "75"},
+        {"name": "Angel Di Maria", "out": "46"},
+        {"name": "Nahuel Molina", "in": "46"},
+        {"name": "Julián Álvarez", "out": "51"},
+        {"name": "Enzo Fernández", "in": "51"},
+        {"name": "Lionel Messi"}
       ]
     ],
     "sources": ["Golazon"]
