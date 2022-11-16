@@ -1,6 +1,8 @@
 import React from "react";
+import slugify from "slugify";
 
 import { Block } from "~/components/layout";
+import { LinkAnchor } from "~/components/layout";
 import { CoachItem } from "~/types";
 
 export type Props = {
@@ -13,11 +15,11 @@ export default function CoachesList({ coaches }: Props) {
   return (
     <Block>
       {coaches.map(({ name, yearFrom, yearTo, mp }) => {
+        const slug = slugify(name, { lower: true });
         return (
           <p key={name}>
-            {name}
-            {/*({yearFrom}-{yearTo})*/}
-            {/*[{mp}]*/}
+            <LinkAnchor href={`/coaches/${slug}`}>{name}</LinkAnchor> {yearFrom}
+            -{yearTo} ({mp})
           </p>
         );
       })}

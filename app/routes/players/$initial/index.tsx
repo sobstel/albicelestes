@@ -4,7 +4,6 @@ import { json, LoaderFunction, MetaFunction, useLoaderData } from "remix";
 import slugify from "slugify";
 
 import PlayerList from "~/components/PlayerList";
-import PlayerNav from "~/components/PlayerNav";
 import { fetchMatches } from "~/data";
 import { collectPlayers, getPlayerInitial, getPlayerName } from "~/helpers";
 import { seoTitle } from "~/utility";
