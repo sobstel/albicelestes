@@ -53555,5 +53555,135 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-11-22",
+    "competition": "World Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Lusail Iconic Stadium", "city": "Lusail"},
+    "teams": [{"name": "Argentina"}, {"name": "Saudi Arabia"}],
+    "score": [1, 2],
+    "result": "L",
+    "goals": [
+      [{"name": "Lionel Messi", "min": "10", "type": "P"}],
+      [
+        {"name": "Saleh Al Shehri", "min": "48", "type": "G"},
+        {"name": "Salem Al Dawsari", "min": "53", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Abdulelah Al Malki]", "min": "67", "type": "Y"},
+        {"name": "Ali Al Bulayhi", "min": "75", "type": "Y"},
+        {"name": "Salem Al Dawsari", "min": "79", "type": "Y"},
+        {"name": "Saud Abdulhamid", "min": "82", "type": "Y"},
+        {"name": "Nawaf Al Abid", "min": "88", "type": "Y"},
+        {"name": "Mohammed Al Owais", "min": "90+2", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Hervé Renard"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Cristian Romero", "out": "59"},
+        {"name": "Lisandro Martínez", "in": "59"},
+        {"name": "Nahuel Molina"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nicolás Tagliafico", "out": "71"},
+        {"name": "Marcos Acuña", "in": "71"},
+        {"name": "Alejandro Gómez", "out": "59"},
+        {"name": "Julián Álvarez", "in": "59"},
+        {"name": "Angel Di Maria"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Leandro Paredes", "out": "59"},
+        {"name": "Enzo Fernández", "in": "59"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez"}
+      ],
+      [
+        {"name": "Mohammed Al Owais"},
+        {"name": "Saud Abdulhamid"},
+        {"name": "Yasir Al Shahrani", "out": "90+9"},
+        {"name": "Mohammed Al Burayk", "in": "90+9"},
+        {"name": "Hassan Tambakti"},
+        {"name": "Ali Al Bulayhi"},
+        {"name": "Salem Al Dawsari"},
+        {"name": "Abdulelah Al Malki]"},
+        {"name": "Salman Al Faraj", "out": "45+4"},
+        {"name": "Nawaf Al Abid", "in": "45+4", "out": "88"},
+        {"name": "Abdulelah Al Amri", "in": "88"},
+        {"name": "Mohammed Kanno"},
+        {"name": "Feras Al Brikan", "out": "89"},
+        {"name": "Haitham Asiri", "in": "89"},
+        {"name": "Saleh Al Shehri", "out": "78"},
+        {"name": "Sultan Al Ghannam", "in": "78"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-11-26",
+    "competition": "World Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Lusail Iconic Stadium", "city": "Lusail"},
+    "teams": [{"name": "Argentina"}, {"name": "Mexico"}],
+    "score": [2, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "64", "type": "G"},
+        {"name": "Enzo Fernández", "min": "87", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [{"name": "Gonzalo Montiel", "min": "43", "type": "Y"}],
+      [
+        {"name": "Néstor Araújo", "min": "22", "type": "Y"},
+        {"name": "Erick Gutiérrez", "min": "50", "type": "Y"},
+        {"name": "Héctor Herrera", "min": "66", "type": "Y"},
+        {"name": "Roberto Alvarado", "min": "89", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Gerardo Martino"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Marcos Acuña"},
+        {"name": "Gonzalo Montiel", "out": "63"},
+        {"name": "Nahuel Molina", "in": "63"},
+        {"name": "Lisandro Martínez"},
+        {"name": "Angel Di Maria", "out": "69"},
+        {"name": "Cristian Romero", "in": "69"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Alexis Mac Allister", "out": "69"},
+        {"name": "Exequiel Palacios", "in": "69"},
+        {"name": "Guido Rodríguez", "out": "57"},
+        {"name": "Enzo Fernández", "in": "57"},
+        {"name": "Lionel Messi"},
+        {"name": "Lautaro Martínez", "out": "63"},
+        {"name": "Julián Álvarez", "in": "63"}
+      ],
+      [
+        {"name": "Guillermo Ochoa"},
+        {"name": "Héctor Moreno"},
+        {"name": "Montes"},
+        {"name": "Néstor Araújo"},
+        {"name": "Kevin Álvarez", "out": "66"},
+        {"name": "Raúl Jiménez", "in": "66"},
+        {"name": "Luis Chávez"},
+        {"name": "Jesús Gallardo"},
+        {"name": "Andrés Guardado", "out": "42"},
+        {"name": "Erick Gutiérrez", "in": "42"},
+        {"name": "Héctor Herrera"},
+        {"name": "Vega", "out": "66"},
+        {"name": "Antuna", "in": "66"},
+        {"name": "Hirving Lozano", "out": "73"},
+        {"name": "Roberto Alvarado", "in": "73"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
