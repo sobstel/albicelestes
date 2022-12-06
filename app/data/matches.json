@@ -53685,5 +53685,128 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-11-30",
+    "competition": "World Cup",
+    "round": "Group Stage",
+    "venue": {"name": "Stadium 974", "city": "ad-Dōha (Doha)"},
+    "teams": [{"name": "Poland"}, {"name": "Argentina"}],
+    "score": [0, 2],
+    "result": "W",
+    "goals": [
+      [],
+      [
+        {"name": "Alexis Mac Allister", "min": "46", "type": "G"},
+        {"name": "Julián Álvarez", "min": "67", "type": "G"}
+      ]
+    ],
+    "cards": [
+      [{"name": "Grzegorz Krychowiak", "min": "78", "type": "Y"}],
+      [{"name": "Marcos Acuña", "min": "49", "type": "Y"}]
+    ],
+    "coaches": [{"name": "Czesław Michniewicz"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Wojciech Szczęsny"},
+        {"name": "Jakub Kiwior"},
+        {"name": "Kamil Glik"},
+        {"name": "Bartosz Bereszyński", "out": "72"},
+        {"name": "Artur Jędrzejczyk", "in": "72"},
+        {"name": "Matty Cash"},
+        {"name": "Krystian Bielik", "out": "62"},
+        {"name": "Damian Szymański", "in": "62"},
+        {"name": "Piotr Zieliński"},
+        {"name": "Przemysław Frankowski", "out": "46"},
+        {"name": "Jakub Kamiński", "in": "46"},
+        {"name": "Grzegorz Krychowiak", "out": "83"},
+        {"name": "Krzysztof Piątek", "in": "83"},
+        {"name": "Robert Lewandowski"},
+        {"name": "Karol Świderski", "out": "46"},
+        {"name": "Michał Skóraś", "in": "46"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Cristian Romero"},
+        {"name": "Nahuel Molina"},
+        {"name": "Marcos Acuña", "out": "59"},
+        {"name": "Nicolás Tagliafico", "in": "59"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Angel Di Maria", "out": "59"},
+        {"name": "Leandro Paredes", "in": "59"},
+        {"name": "Alexis Mac Allister", "out": "84"},
+        {"name": "Thiago Almada", "in": "84"},
+        {"name": "Enzo Fernández", "out": "79"},
+        {"name": "Germán Pezzella", "in": "79"},
+        {"name": "Lionel Messi"},
+        {"name": "Julián Álvarez", "out": "79"},
+        {"name": "Lautaro Martínez", "in": "79"}
+      ]
+    ],
+    "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-12-03",
+    "competition": "World Cup",
+    "round": "Round of 16",
+    "venue": {"name": "Ahmad bin Ali Stadium", "city": "Al Rayyan (Al-Rayyan)"},
+    "teams": [{"name": "Argentina"}, {"name": "Australia"}],
+    "score": [2, 1],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "35", "type": "G"},
+        {"name": "Julián Álvarez", "min": "57", "type": "G"}
+      ],
+      [{"name": "Enzo Fernández", "min": "77", "type": "OG"}]
+    ],
+    "cards": [
+      [],
+      [
+        {"name": "Jackson Irvine", "min": "15", "type": "Y"},
+        {"name": "Miloš Degenek", "min": "38", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Graham Arnold"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina", "out": "80"},
+        {"name": "Exequiel Palacios", "in": "80"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Cristian Romero"},
+        {"name": "Marcos Acuña", "out": "72"},
+        {"name": "Nicolás Tagliafico", "in": "72"},
+        {"name": "Alexis Mac Allister", "out": "80"},
+        {"name": "Gonzalo Montiel", "in": "80"},
+        {"name": "Enzo Fernández"},
+        {"name": "Rodrigo De Paul"},
+        {"name": "Alejandro Gómez", "out": "50"},
+        {"name": "Lisandro Martínez", "in": "50"},
+        {"name": "Lionel Messi"},
+        {"name": "Julián Álvarez", "out": "71"},
+        {"name": "Lautaro Martínez", "in": "71"}
+      ],
+      [
+        {"name": "Mathew Ryan"},
+        {"name": "Miloš Degenek", "out": "72"},
+        {"name": "Fran Karačić", "in": "72"},
+        {"name": "Harry Souttar"},
+        {"name": "Aziz Behich"},
+        {"name": "Kye Rowles"},
+        {"name": "Jackson Irvine"},
+        {"name": "Aaron Mooy"},
+        {"name": "Keanu Baccus", "out": "58"},
+        {"name": "Ajdin Hrustić", "in": "58"},
+        {"name": "Riley McGree", "out": "58"},
+        {"name": "Craig Goodwin", "in": "58"},
+        {"name": "Mathew Leckie", "out": "72"},
+        {"name": "Garang Kuol", "in": "72"},
+        {"name": "Mitchell Duke", "out": "72"},
+        {"name": "Jamie Maclaren", "in": "72"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
