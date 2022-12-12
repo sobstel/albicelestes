@@ -53808,5 +53808,101 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-12-09",
+    "competition": "World Cup",
+    "round": "Quarter-finals",
+    "venue": {"name": "Lusail Iconic Stadium", "city": "Lusail"},
+    "teams": [{"name": "Netherlands"}, {"name": "Argentina"}],
+    "score": [2, 2],
+    "pen": [3, 4],
+    "result": "D",
+    "goals": [
+      [
+        {"name": "Wout Weghorst", "min": "83", "type": "G"},
+        {"name": "Wout Weghorst", "min": "90+11", "type": "G"}
+      ],
+      [
+        {"name": "Nahuel Molina", "min": "35", "type": "G"},
+        {"name": "Lionel Messi", "min": "73", "type": "P"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Jurrien Timber", "min": "43", "type": "Y"},
+        {"name": "Wout Weghorst", "min": "45+2", "type": "Y"},
+        {"name": "Memphis Depay", "min": "76", "type": "Y"},
+        {"name": "Steven Berghuis", "min": "88", "type": "Y"},
+        {"name": "Steven Bergwijn", "min": "90+14", "type": "Y"},
+        {"name": "Denzel Dumfries", "min": "120+8", "type": "Y"},
+        {"name": "Denzel Dumfries", "min": "120+8", "type": "Y"},
+        {"name": "Denzel Dumfries", "min": "120+8", "type": "R"},
+        {"name": "Noa Lang", "min": "120+8", "type": "Y"}
+      ],
+      [
+        {"name": "Marcos Acuña", "min": "43", "type": "Y"},
+        {"name": "Cristian Romero", "min": "45", "type": "Y"},
+        {"name": "Lisandro Martínez", "min": "76", "type": "Y"},
+        {"name": "Leandro Paredes", "min": "89", "type": "Y"},
+        {"name": "Lionel Messi", "min": "90+10", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "90+11", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "109", "type": "Y"},
+        {"name": "Germán Pezzella", "min": "112", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Louis Van Gaal"}, {"name": "Lionel Scaloni"}],
+    "lineups": [
+      [
+        {"name": "Andries Noppert"},
+        {"name": "Jurrien Timber"},
+        {"name": "Nathan Aké"},
+        {"name": "Virgil van Dijk"},
+        {"name": "Denzel Dumfries"},
+        {"name": "Daley Blind", "out": "64"},
+        {"name": "Luuk de Jong", "in": "64"},
+        {"name": "Marten de Roon", "out": "46"},
+        {"name": "Teun Koopmeiners", "in": "46"},
+        {"name": "Frenkie de Jong"},
+        {"name": "Memphis Depay", "out": "78"},
+        {"name": "Wout Weghorst", "in": "78"},
+        {"name": "Cody Gakpo", "out": "113"},
+        {"name": "Noa Lang", "in": "113"},
+        {"name": "Steven Bergwijn", "out": "46"},
+        {"name": "Steven Berghuis", "in": "46"}
+      ],
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Cristian Romero", "out": "78"},
+        {"name": "Germán Pezzella", "in": "78"},
+        {"name": "Marcos Acuña", "out": "78"},
+        {"name": "Nicolás Tagliafico", "in": "78"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nahuel Molina", "out": "105"},
+        {"name": "Gonzalo Montiel", "in": "105"},
+        {"name": "Lisandro Martínez", "out": "112"},
+        {"name": "Angel Di Maria", "in": "112"},
+        {"name": "Rodrigo De Paul", "out": "66"},
+        {"name": "Leandro Paredes", "in": "66"},
+        {"name": "Alexis Mac Allister"},
+        {"name": "Enzo Fernández"},
+        {"name": "Lionel Messi"},
+        {"name": "Julián Álvarez", "out": "82"},
+        {"name": "Lautaro Martínez", "in": "82"}
+      ]
+    ],
+    "penaltyShootout": [
+      {"name": "van Dijk", "score": "x"},
+      {"name": "Messi", "score": [0, 1]},
+      {"name": "Berghuis", "score": "x"},
+      {"name": "Paredes", "score": [0, 2]},
+      {"name": "Koopmeiners", "score": [1, 2]},
+      {"name": "Montiel", "score": [1, 3]},
+      {"name": "Weghorst", "score": [2, 3]},
+      {"name": "Fernández", "score": "x"},
+      {"name": "L. de Jong", "score": [3, 3]},
+      {"name": "Lautaro Martínez", "score": [3, 4]}
+    ],
+    "sources": ["Golazon"]
   }
 ]
