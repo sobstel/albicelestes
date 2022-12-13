@@ -53904,5 +53904,72 @@
       {"name": "Lautaro Martínez", "score": [3, 4]}
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-12-13",
+    "competition": "World Cup",
+    "round": "Semi-finals",
+    "venue": {"name": "Lusail Iconic Stadium", "city": "Lusail"},
+    "teams": [{"name": "Argentina"}, {"name": "Croatia"}],
+    "score": [3, 0],
+    "result": "W",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "34", "type": "P"},
+        {"name": "Julián Álvarez", "min": "39", "type": "G"},
+        {"name": "Julián Álvarez", "min": "69", "type": "G"}
+      ],
+      []
+    ],
+    "cards": [
+      [
+        {"name": "Cristian Romero", "min": "68", "type": "Y"},
+        {"name": "Nicolás Otamendi", "min": "71", "type": "Y"}
+      ],
+      [
+        {"name": "Dominik Livaković", "min": "32", "type": "Y"},
+        {"name": "Mateo Kovačić", "min": "32", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Zlatko Dalic"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Nahuel Molina", "out": "86"},
+        {"name": "Juan Foyth", "in": "86"},
+        {"name": "Nicolás Tagliafico"},
+        {"name": "Cristian Romero"},
+        {"name": "Alexis Mac Allister", "out": "86"},
+        {"name": "Ángel Correa", "in": "86"},
+        {"name": "Enzo Fernández"},
+        {"name": "Rodrigo De Paul", "out": "74"},
+        {"name": "Exequiel Palacios", "in": "74"},
+        {"name": "Leandro Paredes", "out": "62"},
+        {"name": "Lisandro Martínez", "in": "62"},
+        {"name": "Julián Álvarez", "out": "74"},
+        {"name": "Paulo Dybala", "in": "74"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Dominik Livaković"},
+        {"name": "Dejan Lovren"},
+        {"name": "Joško Gvardiol"},
+        {"name": "Josip Juranović"},
+        {"name": "Borna Sosa", "out": "46"},
+        {"name": "Mislav Oršić", "in": "46"},
+        {"name": "Luka Modrić", "out": "81"},
+        {"name": "Lovro Majer", "in": "81"},
+        {"name": "Mateo Kovačić"},
+        {"name": "Marcelo Brozović", "out": "50"},
+        {"name": "Bruno Petković", "in": "50"},
+        {"name": "Mario Pašalić", "out": "46"},
+        {"name": "Nikola Vlašić", "in": "46"},
+        {"name": "Ivan Perišić"},
+        {"name": "Andrej Kramarić", "out": "72"},
+        {"name": "Marko Livaja", "in": "72"}
+      ]
+    ],
+    "sources": ["Golazon"]
   }
 ]
