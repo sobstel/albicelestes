@@ -53971,5 +53971,94 @@
       ]
     ],
     "sources": ["Golazon"]
+  },
+  {
+    "date": "2022-12-18",
+    "competition": "World Cup",
+    "round": "Final",
+    "venue": {"name": "Lusail Iconic Stadium", "city": "Lusail"},
+    "teams": [{"name": "Argentina"}, {"name": "France"}],
+    "score": [2, 2],
+    "pen": [4, 2],
+    "result": "D",
+    "goals": [
+      [
+        {"name": "Lionel Messi", "min": "23", "type": "P"},
+        {"name": "Angel Di Maria", "min": "36", "type": "G"},
+        {"name": "Lionel Messi", "min": "108", "type": "G"}
+      ],
+      [
+        {"name": "Kylian Mbappé", "min": "80", "type": "P"},
+        {"name": "Kylian Mbappé", "min": "81", "type": "G"},
+        {"name": "Kylian Mbappé", "min": "118", "type": "P"}
+      ]
+    ],
+    "cards": [
+      [
+        {"name": "Enzo Fernández", "min": "45+7", "type": "Y"},
+        {"name": "Marcos Acuña", "min": "90+8", "type": "Y"},
+        {"name": "Leandro Paredes", "min": "114", "type": "Y"},
+        {"name": "Gonzalo Montiel", "min": "116", "type": "Y"},
+        {"name": "Emiliano Martínez", "min": "120+6", "type": "Y"}
+      ],
+      [
+        {"name": "Adrien Rabiot", "min": "55", "type": "Y"},
+        {"name": "Marcus Thuram", "min": "87", "type": "Y"},
+        {"name": "Olivier Giroud", "min": "90+5", "type": "Y"}
+      ]
+    ],
+    "coaches": [{"name": "Lionel Scaloni"}, {"name": "Didier Deschamps"}],
+    "lineups": [
+      [
+        {"name": "Emiliano Martínez"},
+        {"name": "Nahuel Molina", "out": "90"},
+        {"name": "Gonzalo Montiel", "in": "90"},
+        {"name": "Nicolás Tagliafico", "out": "120+1"},
+        {"name": "Paulo Dybala", "in": "120+1"},
+        {"name": "Nicolás Otamendi"},
+        {"name": "Cristian Romero"},
+        {"name": "Alexis Mac Allister", "out": "116"},
+        {"name": "Germán Pezzella", "in": "116"},
+        {"name": "Enzo Fernández"},
+        {"name": "Angel Di Maria", "out": "64"},
+        {"name": "Marcos Acuña", "in": "64"},
+        {"name": "Rodrigo De Paul", "out": "102"},
+        {"name": "Leandro Paredes", "in": "102"},
+        {"name": "Julián Álvarez", "out": "103"},
+        {"name": "Lautaro Martínez", "in": "103"},
+        {"name": "Lionel Messi"}
+      ],
+      [
+        {"name": "Hugo Lloris"},
+        {"name": "Dayot Upamecano"},
+        {"name": "Jules Koundé", "out": "120+1"},
+        {"name": "Axel Disasi", "in": "120+1"},
+        {"name": "Lucas Hernández", "out": "71"},
+        {"name": "Eduardo Camavinga", "in": "71"},
+        {"name": "Raphaël Varane", "out": "113"},
+        {"name": "Ibrahima Konaté", "in": "113"},
+        {"name": "Aurélien Tchouaméni"},
+        {"name": "Adrien Rabiot", "out": "96"},
+        {"name": "Youssouf Fofana", "in": "96"},
+        {"name": "Antoine Griezmann", "out": "71"},
+        {"name": "Kingsley Coman", "in": "71"},
+        {"name": "Kylian Mbappé"},
+        {"name": "Ousmane Dembélé", "out": "41"},
+        {"name": "Kolo Muani", "in": "41"},
+        {"name": "Olivier Giroud", "out": "41"},
+        {"name": "Marcus Thuram", "in": "41"}
+      ]
+    ],
+    "penaltyShootout": [
+      {"name": "Mbappé", "score": [0, 1]},
+      {"name": "Messi", "score": [1, 1]},
+      {"name": "Coman", "score": "x"},
+      {"name": "Dybala", "score": [2, 1]},
+      {"name": "Tchouaméni", "score": "x"},
+      {"name": "Paredes", "score": [3, 1]},
+      {"name": "Kolo Muani", "score": [3, 2]},
+      {"name": "Montiel", "score": [4, 2]}
+    ],
+    "sources": ["Golazon"]
   }
 ]
