@@ -2,24 +2,17 @@ import * as R from "remeda";
 
 import { Match, Result } from "~/types";
 
-type MatchScoreOpts = {
-  short?: boolean;
-};
-
 export default function getMatchScore(
-  match: Pick<Match, "score" | "aet" | "pen" | "result">,
-  localOpts: MatchScoreOpts = {}
+  match: Pick<Match, "score" | "pen" | "result">
 ): string {
-  const opts = { short: false, ...localOpts };
+  let score = match.score.join(":");
 
-  let score = match.result === Result.Suspended ? "*" : match.score.join(":");
-  const pen = match.pen && `p.${match.pen.join(":")}`;
-
-  if (opts.short && match.pen) {
-    score = "";
+  if (match.result === Result.Suspended) {
+    score = "*";
   }
 
-  const aet = !opts.short && !match.pen && match.aet && "aet";
+  const penPrefix = match.pen && `(${match.pen[0]})`;
+  const penSuffix = match.pen && `(${match.pen[1]})`;
 
-  return R.compact([score, aet, pen]).join(" ");
+  return R.compact([penPrefix, score, penSuffix]).join("");
 }

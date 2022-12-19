@@ -27,6 +27,6 @@ describe("getMatchScore", () => {
         pen: [5, 4],
         result: Result.Win,
       })
-    ).toEqual("1:1 p.5:4");
+    ).toEqual("(5)1:1(4)");
   });
 });

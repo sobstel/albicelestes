@@ -11,8 +11,8 @@ import { seoTitle } from "~/utility";
 
 type LoaderData = Awaited<ReturnType<typeof getLoaderData>>;
 
-const LAST_MATCHES_COUNT = 5;
-const LAST_FINALS_COUNT = 5;
+const LAST_MATCHES_COUNT = 7;
+const LAST_FINALS_COUNT = 3;
 
 async function getLoaderData() {
   const recentMatches = R.pipe(
@@ -25,7 +25,7 @@ async function getLoaderData() {
   const finalMatches = R.pipe(
     fetchMatches(),
     R.reverse(),
-    R.filter((match) => match["round"] === "Final" && match["result"] === "W"),
+    R.filter((match) => match["round"] === "Final"),
     R.take(LAST_FINALS_COUNT),
     R.map(getMatchItem)
   );
@@ -50,7 +50,7 @@ export default function IndexPage() {
       <YearlyNav />
       <Header top text={`Recent matches`} />
       <MatchList matches={recentMatches} />
-      <Header top text={`Recent finals won`} />
+      <Header top text={`Recent finals`} />
       <MatchList matches={finalMatches} />
     </>
   );

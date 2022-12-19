@@ -44,21 +44,22 @@ const Teams = ({ match }: { match: MatchItem }) => {
 const Score = ({ match }: { match: MatchItem }) => {
   const myTeamIndex = getMatchTeamIndex(match);
   const isMyTeamAway = myTeamIndex === 1;
-  const score = getMatchScore(match, { short: true });
+  const score = getMatchScore(match);
 
   if (isMyTeamAway) {
     // TODO: move to some getMatchScoreElements/Parts
-    const regexp = /^(?<prefix>p\.)?(?<homeScore>\d+):(?<awayScore>\d+)/;
-    const { prefix, homeScore, awayScore } = score.match(regexp)?.groups || {};
+    const regexp =
+      /^(?<homePen>\(\d+\))?(?<homeScore>\d+):(?<awayScore>\d+)(?<awayPen>\(\d+\))?$/;
+    const { homePen, homeScore, awayScore, awayPen } =
+      score.match(regexp)?.groups || {};
     return (
-      <>
-        {prefix}
-        <span className="inline-flex flex-row-reverse md:flex-row">
-          <span>{homeScore}</span>
-          <span>:</span>
-          <span>{awayScore}</span>
-        </span>
-      </>
+      <span className="inline-flex flex-row-reverse md:flex-row">
+        <span>{homePen}</span>
+        <span>{homeScore}</span>
+        <span>:</span>
+        <span>{awayScore}</span>
+        <span>{awayPen}</span>
+      </span>
     );
   }
 
