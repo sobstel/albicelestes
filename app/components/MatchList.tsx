@@ -1,3 +1,4 @@
+import CountryCodeInfo from "country-code-info";
 import React from "react";
 import * as R from "remeda";
 
@@ -24,45 +25,33 @@ const Teams = ({ match }: { match: MatchItem }) => {
   const myTeamIndex = getMatchTeamIndex(match);
   const isMyTeamHome = myTeamIndex === 0;
 
+  const homeTeamName =
+    teamInflections[match.teams[0].name] ?? match.teams[0].name;
+  const homeCountry = CountryCodeInfo.findCountry({
+    name: match.teams[0].name,
+  });
+
+  const awayTeamName =
+    teamInflections[match.teams[1].name] ?? match.teams[1].name;
+  const awayCountry = CountryCodeInfo.findCountry({
+    name: match.teams[1].name,
+  });
+
   return (
     <LinkAnchor href={`/${getMatchYear(match)}/${getMatchSlug(match)}`}>
-      {isMyTeamHome ? (
-        <>
-          <span className="hidden md:inline">{match.teams[0].name} - </span>
-          {teamInflections[match.teams[1].name] ?? match.teams[1].name}
-        </>
-      ) : (
-        <>
-          {teamInflections[match.teams[0].name] ?? match.teams[0].name}
-          <span className="hidden md:inline"> - {match.teams[1].name}</span>
-        </>
-      )}
+      <span className="md:hidden inline">
+        {homeCountry?.fifa ?? homeTeamName} -{" "}
+        {awayCountry?.fifa ?? awayTeamName}
+      </span>
+      <span className="hidden md:inline">
+        {homeTeamName} - {awayTeamName}
+      </span>
     </LinkAnchor>
   );
 };
 
 const Score = ({ match }: { match: MatchItem }) => {
-  const myTeamIndex = getMatchTeamIndex(match);
-  const isMyTeamAway = myTeamIndex === 1;
   const score = getMatchScore(match);
-
-  if (isMyTeamAway) {
-    // TODO: move to some getMatchScoreElements/Parts
-    const regexp =
-      /^(?<homePen>\(\d+\))?(?<homeScore>\d+):(?<awayScore>\d+)(?<awayPen>\(\d+\))?$/;
-    const { homePen, homeScore, awayScore, awayPen } =
-      score.match(regexp)?.groups || {};
-    return (
-      <span className="inline-flex flex-row-reverse md:flex-row">
-        <span>{homePen}</span>
-        <span>{homeScore}</span>
-        <span>:</span>
-        <span>{awayScore}</span>
-        <span>{awayPen}</span>
-      </span>
-    );
-  }
-
   return <>{score}</>;
 };
 

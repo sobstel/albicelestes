@@ -2164,6 +2164,11 @@ cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+country-code-info@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/country-code-info/-/country-code-info-0.3.0.tgz#c647b16e74c8f58c77020db233282ae67d706105"
+  integrity sha512-cijIqHHtdq0FRULv9n2dSxUQiVLF5nsdEntDeVd0vMdQZu3694akCne1QSt7k/Ey1vJbytD6ebg8p25Ho0NNgg==
+
 create-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
