@@ -2,13 +2,9 @@ import CountryCodeInfo from "country-code-info";
 import React from "react";
 import * as R from "remeda";
 
+import MatchScore from "~/components/MatchScore";
 import { fetchCompetitionInflections, fetchTeamInflections } from "~/data";
-import {
-  getMatchDate,
-  getMatchScore,
-  getMatchSlug,
-  getMatchYear,
-} from "~/helpers";
+import { getMatchDate, getMatchSlug, getMatchYear } from "~/helpers";
 import getMatchTeamIndex from "~/helpers/getMatchTeamIndex";
 import { MatchItem } from "~/types";
 
@@ -22,9 +18,6 @@ const Date = ({ match }: { match: MatchItem }) => {
 };
 
 const Teams = ({ match }: { match: MatchItem }) => {
-  const myTeamIndex = getMatchTeamIndex(match);
-  const isMyTeamHome = myTeamIndex === 0;
-
   const homeTeamName =
     teamInflections[match.teams[0].name] ?? match.teams[0].name;
   const homeCountry = CountryCodeInfo.findCountry({
@@ -48,11 +41,6 @@ const Teams = ({ match }: { match: MatchItem }) => {
       </span>
     </LinkAnchor>
   );
-};
-
-const Score = ({ match }: { match: MatchItem }) => {
-  const score = getMatchScore(match);
-  return <>{score}</>;
 };
 
 type Props = {
@@ -83,8 +71,8 @@ export default function MatchList({ matches }: Props) {
                 <td>
                   <Teams match={match} />
                 </td>
-                <td>
-                  <Score match={match} />
+                <td className="text-center">
+                  <MatchScore match={match} />
                 </td>
                 <td>
                   <em>

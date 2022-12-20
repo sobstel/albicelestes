@@ -1,12 +1,13 @@
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
         link: "#4887bf",
         "link-hover": "#6aa9df",
+      },
+      fontSize: {
+        xxs: "0.625rem",
       },
     },
     screens: {
@@ -20,5 +21,5 @@ module.exports = {
       padding: ["first", "last"],
     },
   },
-  plugins: []
-}
+  plugins: [],
+};
