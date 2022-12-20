@@ -26280,16 +26280,6 @@
     ]
   },
   {
-    "date": "1984-08-25",
-    "competition": "Merdeka Tournament",
-    "venue": {"name": "Kuala Lumpar"},
-    "teams": [{"name": "South Korea"}, {"name": "Argentina"}],
-    "score": [4, 0],
-    "result": "L",
-    "goals": [[], []],
-    "lineups": [[], []]
-  },
-  {
     "date": "1984-09-01",
     "competition": "Friendly",
     "venue": {"name": "Stade de Suisse, Berne"},
@@ -27231,7 +27221,7 @@
       "name": "Estadio Olímpico de Universitario",
       "city": "Ciudad de México (D.F.)"
     },
-    "teams": [{"name": "Argentina"}, {"name": "Korea Republic"}],
+    "teams": [{"name": "Argentina"}, {"name": "South Korea"}],
     "score": [3, 1],
     "result": "W",
     "goals": [
@@ -34330,7 +34320,7 @@
     "date": "1998-05-13",
     "competition": "Friendly",
     "venue": {"name": "", "city": ""},
-    "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
+    "teams": [{"name": "Argentina"}, {"name": "Bosnia and Herzegovina"}],
     "score": [5, 0],
     "result": "W",
     "goals": [
@@ -43191,7 +43181,7 @@
     "competition": "World Cup",
     "round": "Group Stage",
     "venue": {"name": "FNB Stadium (Soccer City)", "city": "Johannesburg, GA"},
-    "teams": [{"name": "Argentina"}, {"name": "Korea Republic"}],
+    "teams": [{"name": "Argentina"}, {"name": "South Korea"}],
     "score": [4, 1],
     "result": "W",
     "goals": [
@@ -46322,7 +46312,7 @@
     "date": "2013-11-18",
     "competition": "Friendly",
     "venue": {"name": "Busch Stadium", "city": "St. Louis, Missouri"},
-    "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
+    "teams": [{"name": "Argentina"}, {"name": "Bosnia and Herzegovina"}],
     "score": [2, 0],
     "result": "W",
     "goals": [
@@ -46567,7 +46557,7 @@
       "name": "Estadio Jornalista Mário Filho (Maracanã)",
       "city": "Rio de Janeiro, Rio de Janeiro"
     },
-    "teams": [{"name": "Argentina"}, {"name": "Bosnia-Herzegovina"}],
+    "teams": [{"name": "Argentina"}, {"name": "Bosnia and Herzegovina"}],
     "score": [2, 1],
     "result": "W",
     "goals": [
