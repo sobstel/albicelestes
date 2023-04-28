@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import NProgress from "nprogress";
 import nProgressStyles from "nprogress/nprogress.css";
 import React, { useEffect } from "react";
@@ -38,6 +39,7 @@ export function CatchBoundary() {
           <Header top text={`ERROR #${status}: ${statusText} `} />
         </Page>
         <Scripts />
+        <Analytics />
       </body>
     </html>
   );
