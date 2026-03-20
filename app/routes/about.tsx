@@ -84,6 +84,9 @@ export default function AboutPage() {
           </LinkAnchor>
           )
         </p>
+        <p>
+          Fer Paduan
+        </p>
       </Block>
     </>
   );
